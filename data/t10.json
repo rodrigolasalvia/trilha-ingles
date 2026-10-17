@@ -1,0 +1,669 @@
+{
+ "topic": "t10",
+ "items": [
+  {
+   "id": "t10-1-001",
+   "topic": "t10",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We should ___ the contract.",
+   "options": [
+    "have checked",
+    "checked",
+    "check had"
+   ],
+   "answer": "have checked",
+   "explain": "Crítica ao passado: SHOULD HAVE + particípio.",
+   "skill": "should",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-1-002",
+   "topic": "t10",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "You ___ have said that. It was rude.",
+   "options": [
+    "shouldn't",
+    "didn't should",
+    "mustn't"
+   ],
+   "answer": "shouldn't",
+   "explain": "Fez, mas não devia: SHOULDN'T HAVE.",
+   "skill": "shouldnt",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-1-003",
+   "topic": "t10",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We could ___ a better price.",
+   "options": [
+    "have negotiated",
+    "negotiated",
+    "negotiate had"
+   ],
+   "answer": "have negotiated",
+   "explain": "Possibilidade não aproveitada: COULD HAVE.",
+   "skill": "could",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-1-004",
+   "topic": "t10",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He must have ___.",
+   "options": [
+    "forgotten",
+    "forget",
+    "forgot"
+   ],
+   "answer": "forgotten",
+   "explain": "MUST HAVE + particípio (forgotten).",
+   "skill": "must",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-1-005",
+   "topic": "t10",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She ___ have seen it. She was on vacation.",
+   "options": [
+    "can't",
+    "mustn't",
+    "shouldn't"
+   ],
+   "answer": "can't",
+   "explain": "Impossível no passado: CAN'T HAVE.",
+   "skill": "cant",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-1-006",
+   "topic": "t10",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The e-mail might have ___ to spam.",
+   "options": [
+    "gone",
+    "went",
+    "go"
+   ],
+   "answer": "gone",
+   "explain": "MIGHT HAVE + particípio (gone).",
+   "skill": "might",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-1-007",
+   "topic": "t10",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I would ___, but my phone died.",
+   "options": [
+    "have called",
+    "called",
+    "call have"
+   ],
+   "answer": "have called",
+   "explain": "'Eu teria' = WOULD HAVE + particípio.",
+   "skill": "would",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-1-008",
+   "topic": "t10",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "You ___ have come. The meeting was cancelled.",
+   "options": [
+    "needn't",
+    "didn't need",
+    "mustn't"
+   ],
+   "answer": "needn't",
+   "explain": "Fez, mas não precisava: NEEDN'T HAVE.",
+   "skill": "neednt",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-1-009",
+   "topic": "t10",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "They're two hours late. They ___ have got lost.",
+   "options": [
+    "must",
+    "should",
+    "can't"
+   ],
+   "answer": "must",
+   "explain": "Dedução segura: MUST HAVE.",
+   "skill": "must",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-1-010",
+   "topic": "t10",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I didn't need ___ — the service was free.",
+   "options": [
+    "to pay",
+    "pay",
+    "paying"
+   ],
+   "answer": "to pay",
+   "explain": "DIDN'T NEED + TO = não precisou.",
+   "skill": "neednt",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-1-011",
+   "topic": "t10",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He ___ have taken the files. He doesn't have a key.",
+   "options": [
+    "couldn't",
+    "must",
+    "should"
+   ],
+   "answer": "couldn't",
+   "explain": "Impossível: COULDN'T HAVE.",
+   "skill": "cant",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-1-012",
+   "topic": "t10",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We ___ have left earlier. Now we're late.",
+   "options": [
+    "should",
+    "must",
+    "can"
+   ],
+   "answer": "should",
+   "explain": "Arrependimento: SHOULD HAVE.",
+   "skill": "should",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-1-013",
+   "topic": "t10",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "They may ___ the message.",
+   "options": [
+    "have misunderstood",
+    "misunderstood",
+    "misunderstand had"
+   ],
+   "answer": "have misunderstood",
+   "explain": "MAY HAVE + particípio.",
+   "skill": "might",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-1-014",
+   "topic": "t10",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I ___ have helped if you had asked.",
+   "options": [
+    "would",
+    "will",
+    "should"
+   ],
+   "answer": "would",
+   "explain": "WOULD HAVE na 3ª condicional.",
+   "skill": "would",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-1-015",
+   "topic": "t10",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It ___ have been worse. Only one file was lost.",
+   "options": [
+    "could",
+    "must",
+    "should"
+   ],
+   "answer": "could",
+   "explain": "Poderia ter sido pior: COULD HAVE BEEN.",
+   "skill": "could",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-2-001",
+   "topic": "t10",
+   "level": 2,
+   "type": "fix",
+   "prompt": "You should told me earlier.",
+   "options": [
+    "You should have told me earlier.",
+    "You should had told me earlier.",
+    "You should have tell me earlier."
+   ],
+   "answer": "You should have told me earlier.",
+   "explain": "SHOULD HAVE + particípio.",
+   "skill": "should",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-2-002",
+   "topic": "t10",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We ___ (deveríamos) have tested the system before the launch.",
+   "answer": [
+    "should"
+   ],
+   "explain": "Crítica: SHOULD HAVE.",
+   "skill": "should",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-2-003",
+   "topic": "t10",
+   "level": 2,
+   "type": "fix",
+   "prompt": "You didn't should say that.",
+   "options": [
+    "You shouldn't have said that.",
+    "You shouldn't said that.",
+    "You mustn't have said that."
+   ],
+   "answer": "You shouldn't have said that.",
+   "explain": "Modal não usa DID.",
+   "skill": "shouldnt",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-2-004",
+   "topic": "t10",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We ___ (poderíamos) have avoided this problem.",
+   "answer": [
+    "could"
+   ],
+   "explain": "COULD HAVE: possibilidade não aproveitada.",
+   "skill": "could",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-2-005",
+   "topic": "t10",
+   "level": 2,
+   "type": "fix",
+   "prompt": "He must forgot the meeting.",
+   "options": [
+    "He must have forgotten the meeting.",
+    "He must had forgotten the meeting.",
+    "He must have forget the meeting."
+   ],
+   "answer": "He must have forgotten the meeting.",
+   "explain": "MUST HAVE + particípio.",
+   "skill": "must",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-2-006",
+   "topic": "t10",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She mustn't have seen the message. (sentido: impossível)",
+   "options": [
+    "She can't have seen the message.",
+    "She mustn't see the message.",
+    "She can't saw the message."
+   ],
+   "answer": "She can't have seen the message.",
+   "explain": "O oposto de MUST HAVE é CAN'T HAVE.",
+   "skill": "cant",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-2-007",
+   "topic": "t10",
+   "level": 2,
+   "type": "fix",
+   "prompt": "It might went to spam.",
+   "options": [
+    "It might have gone to spam.",
+    "It might have went to spam.",
+    "It might gone to spam."
+   ],
+   "answer": "It might have gone to spam.",
+   "explain": "MIGHT HAVE + particípio.",
+   "skill": "might",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-2-008",
+   "topic": "t10",
+   "level": 2,
+   "type": "gap",
+   "prompt": "They ___ (talvez: miss) the train.",
+   "answer": [
+    "might have missed",
+    "may have missed"
+   ],
+   "explain": "Talvez no passado: MIGHT / MAY HAVE.",
+   "skill": "might",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-2-009",
+   "topic": "t10",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I would call, but my phone died.",
+   "options": [
+    "I would have called, but my phone died.",
+    "I would called, but my phone died.",
+    "I will have called, but my phone died."
+   ],
+   "answer": "I would have called, but my phone died.",
+   "explain": "'Eu teria ligado' = WOULD HAVE.",
+   "skill": "would",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-2-010",
+   "topic": "t10",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I ___ (não teria: know) without your help.",
+   "answer": [
+    "wouldn't have known",
+    "would not have known"
+   ],
+   "explain": "WOULDN'T HAVE + particípio.",
+   "skill": "would",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-2-011",
+   "topic": "t10",
+   "level": 2,
+   "type": "fix",
+   "prompt": "You didn't need come.",
+   "options": [
+    "You didn't need to come.",
+    "You needn't to come.",
+    "You didn't needed to come."
+   ],
+   "answer": "You didn't need to come.",
+   "explain": "DIDN'T NEED + TO.",
+   "skill": "neednt",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-2-012",
+   "topic": "t10",
+   "level": 2,
+   "type": "gap",
+   "prompt": "You ___ (não precisava) have bought it. We already had one.",
+   "answer": [
+    "needn't",
+    "need not"
+   ],
+   "explain": "Comprou sem necessidade: NEEDN'T HAVE.",
+   "skill": "neednt",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-2-013",
+   "topic": "t10",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The lights are off. They ___ (devem) have gone home.",
+   "answer": [
+    "must"
+   ],
+   "explain": "Dedução: MUST HAVE.",
+   "skill": "must",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-2-014",
+   "topic": "t10",
+   "level": 2,
+   "type": "gap",
+   "prompt": "He ___ (não pode) have finished already. He started five minutes ago.",
+   "answer": [
+    "can't",
+    "cannot",
+    "couldn't"
+   ],
+   "explain": "Impossível: CAN'T HAVE.",
+   "skill": "cant",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-2-015",
+   "topic": "t10",
+   "level": 2,
+   "type": "gap",
+   "prompt": "You ___ (não deveria) have shared the password.",
+   "answer": [
+    "shouldn't",
+    "should not"
+   ],
+   "explain": "SHOULDN'T HAVE.",
+   "skill": "shouldnt",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-3-001",
+   "topic": "t10",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We should ___ (check) the clause before signing.",
+   "answer": [
+    "have checked"
+   ],
+   "explain": "SHOULD HAVE + particípio.",
+   "skill": "should",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-3-002",
+   "topic": "t10",
+   "level": 3,
+   "type": "gap",
+   "prompt": "They must ___ (misunderstand) the deadline.",
+   "answer": [
+    "have misunderstood"
+   ],
+   "explain": "MUST HAVE + particípio.",
+   "skill": "must",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-3-003",
+   "topic": "t10",
+   "level": 3,
+   "type": "gap",
+   "prompt": "It could ___ (be) a system error.",
+   "answer": [
+    "have been"
+   ],
+   "explain": "COULD HAVE BEEN.",
+   "skill": "could",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-3-004",
+   "topic": "t10",
+   "level": 3,
+   "type": "gap",
+   "prompt": "She ___ (não pode ter: receive) my e-mail. Her inbox was full.",
+   "answer": [
+    "can't have received",
+    "couldn't have received"
+   ],
+   "explain": "CAN'T HAVE + particípio.",
+   "skill": "cant",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-3-005",
+   "topic": "t10",
+   "level": 3,
+   "type": "gap",
+   "prompt": "He may ___ (leave) early.",
+   "answer": [
+    "have left"
+   ],
+   "explain": "MAY HAVE + particípio.",
+   "skill": "might",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-3-006",
+   "topic": "t10",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I ___ (teria: help) if you had asked.",
+   "answer": [
+    "would have helped",
+    "'d have helped"
+   ],
+   "explain": "WOULD HAVE + particípio.",
+   "skill": "would",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-3-007",
+   "topic": "t10",
+   "level": 3,
+   "type": "gap",
+   "prompt": "You ___ (não precisou) to print it. We have digital copies.",
+   "answer": [
+    "didn't need",
+    "did not need"
+   ],
+   "explain": "Não precisou: DIDN'T NEED TO.",
+   "skill": "neednt",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-3-008",
+   "topic": "t10",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We should have checked the contract.",
+   "explain": "SHOULD HAVE + particípio.",
+   "skill": "should",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-3-009",
+   "topic": "t10",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "They must have misunderstood the deadline.",
+   "explain": "MUST HAVE + particípio.",
+   "skill": "must",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-3-010",
+   "topic": "t10",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "It might have been a system error.",
+   "explain": "MIGHT HAVE BEEN.",
+   "skill": "might",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-3-011",
+   "topic": "t10",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "You shouldn't have shared the password.",
+   "explain": "SHOULDN'T HAVE + particípio.",
+   "skill": "shouldnt",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-3-012",
+   "topic": "t10",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "'Você não precisava ter vindo (mas veio).'",
+   "options": [
+    "You needn't have come.",
+    "You didn't need come.",
+    "You mustn't have come."
+   ],
+   "answer": "You needn't have come.",
+   "explain": "NEEDN'T HAVE = fez sem necessidade.",
+   "skill": "neednt",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-3-013",
+   "topic": "t10",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "'Ele deve ter esquecido.'",
+   "options": [
+    "He must have forgotten.",
+    "He should have forgotten.",
+    "He must forget."
+   ],
+   "answer": "He must have forgotten.",
+   "explain": "Dedução: MUST HAVE.",
+   "skill": "must",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-3-014",
+   "topic": "t10",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "'Poderíamos ter evitado isso.'",
+   "options": [
+    "We could have avoided this.",
+    "We could avoid this before.",
+    "We can have avoided this."
+   ],
+   "answer": "We could have avoided this.",
+   "explain": "COULD HAVE + particípio.",
+   "skill": "could",
+   "cefr": "B2"
+  },
+  {
+   "id": "t10-3-015",
+   "topic": "t10",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "'Ela não pode ter dito isso.'",
+   "options": [
+    "She can't have said that.",
+    "She mustn't have said that.",
+    "She doesn't can say that."
+   ],
+   "answer": "She can't have said that.",
+   "explain": "Impossível: CAN'T HAVE.",
+   "skill": "cant",
+   "cefr": "B2"
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "groups": [
     {
       "id": "base",
@@ -12,18 +12,72 @@
           "title": "A1 · Base consolidada",
           "short": "To be, presente, artigos, there is, can, preposições, perguntas",
           "intro": "Os pilares que sustentam tudo. Você já conhece as regras; aqui o objetivo é que saiam automáticas, mesmo falando rápido.",
-          "cefr": ["A1", "A1", "A1"],
+          "cefr": [
+            "A1",
+            "A1",
+            "A1"
+          ],
           "skills": [
-            {"id": "tobe", "title": "Verb TO BE", "tip": "Idade, estado e lugar usam TO BE, nunca HAVE.", "ex": "I'm 45 (years old). She isn't tired."},
-            {"id": "pron", "title": "Pronomes e possessivos", "tip": "O possessivo concorda com o dono: Ana and HER brother. Objeto depois do verbo: call ME.", "ex": "They → them → their. She → her → hers."},
-            {"id": "simple", "title": "Present Simple", "tip": "He / she / it ganha -S. Na negativa e na pergunta, o -S vai para o DOES e o verbo volta à base.", "ex": "She works. She doesn't work. Does she work?"},
-            {"id": "cont", "title": "Present Continuous", "tip": "O que acontece agora: AM / IS / ARE + -ING. O -ING nunca anda sem o TO BE.", "ex": "I'm working on it."},
-            {"id": "art", "title": "Artigos e plural", "tip": "A / AN pelo som (an hour, a university). Falando em geral, sem THE. Plurais irregulares: people, children.", "ex": "Life is hard. An e-mail. Two people."},
-            {"id": "there", "title": "There is / There are", "tip": "'Tem' no sentido de existir é THERE IS / ARE, nunca HAVE.", "ex": "There is a problem. There are two options."},
-            {"id": "can", "title": "CAN", "tip": "Modal: sem TO depois e sem -S na 3ª pessoa.", "ex": "I can help. She can't come."},
-            {"id": "prep", "title": "IN / ON / AT", "tip": "AT ponto exato (at 9, at the airport), ON dia e superfície (on Monday, on the table), IN período e espaço (in July, in São Paulo).", "ex": "The meeting is on Monday at 9."},
-            {"id": "wh", "title": "Perguntas", "tip": "Ordem fixa: Wh- + auxiliar + sujeito + verbo. How much (incontável), how many (contável).", "ex": "Where do you work? How many people?"},
-            {"id": "likes", "title": "Gostos e desejos", "tip": "Gostos: like / enjoy + -ING. Desejos: want / would like + TO.", "ex": "I enjoy cooking. I want to travel."}
+            {
+              "id": "tobe",
+              "title": "Verb TO BE",
+              "tip": "Idade, estado e lugar usam TO BE, nunca HAVE.",
+              "ex": "I'm 45 (years old). She isn't tired."
+            },
+            {
+              "id": "pron",
+              "title": "Pronomes e possessivos",
+              "tip": "O possessivo concorda com o dono: Ana and HER brother. Objeto depois do verbo: call ME.",
+              "ex": "They → them → their. She → her → hers."
+            },
+            {
+              "id": "simple",
+              "title": "Present Simple",
+              "tip": "He / she / it ganha -S. Na negativa e na pergunta, o -S vai para o DOES e o verbo volta à base.",
+              "ex": "She works. She doesn't work. Does she work?"
+            },
+            {
+              "id": "cont",
+              "title": "Present Continuous",
+              "tip": "O que acontece agora: AM / IS / ARE + -ING. O -ING nunca anda sem o TO BE.",
+              "ex": "I'm working on it."
+            },
+            {
+              "id": "art",
+              "title": "Artigos e plural",
+              "tip": "A / AN pelo som (an hour, a university). Falando em geral, sem THE. Plurais irregulares: people, children.",
+              "ex": "Life is hard. An e-mail. Two people."
+            },
+            {
+              "id": "there",
+              "title": "There is / There are",
+              "tip": "'Tem' no sentido de existir é THERE IS / ARE, nunca HAVE.",
+              "ex": "There is a problem. There are two options."
+            },
+            {
+              "id": "can",
+              "title": "CAN",
+              "tip": "Modal: sem TO depois e sem -S na 3ª pessoa.",
+              "ex": "I can help. She can't come."
+            },
+            {
+              "id": "prep",
+              "title": "IN / ON / AT",
+              "tip": "AT ponto exato (at 9, at the airport), ON dia e superfície (on Monday, on the table), IN período e espaço (in July, in São Paulo).",
+              "ex": "The meeting is on Monday at 9."
+            },
+            {
+              "id": "wh",
+              "title": "Perguntas",
+              "tip": "Ordem fixa: Wh- + auxiliar + sujeito + verbo. How much (incontável), how many (contável).",
+              "ex": "Where do you work? How many people?"
+            },
+            {
+              "id": "likes",
+              "title": "Gostos e desejos",
+              "tip": "Gostos: like / enjoy + -ING. Desejos: want / would like + TO.",
+              "ex": "I enjoy cooking. I want to travel."
+            }
           ]
         },
         {
@@ -31,18 +85,72 @@
           "title": "A2 · Base consolidada",
           "short": "Passado, futuro, comparativos, quantidades, obrigação",
           "intro": "Contar o que aconteceu, dizer o que vai fazer e comparar. Regra de ouro: quando o auxiliar aparece (DID, DOES), o verbo principal fica na base.",
-          "cefr": ["A2", "A2", "A2"],
+          "cefr": [
+            "A2",
+            "A2",
+            "A2"
+          ],
           "skills": [
-            {"id": "past", "title": "Past Simple", "tip": "Ação terminada com tempo definido. Na negativa e na pergunta, o passado fica no DID.", "ex": "I sent it. I didn't send it. Did you send it?"},
-            {"id": "pastcont", "title": "Past Continuous", "tip": "Ação em andamento no passado: WAS / WERE + -ING, muitas vezes interrompida por outra.", "ex": "I was driving when she called."},
-            {"id": "pp", "title": "Present Perfect (início)", "tip": "Experiência ou resultado sem dizer quando. Disse quando (yesterday, in 2019)? Past Simple.", "ex": "Have you ever been to London? I saw him yesterday."},
-            {"id": "future", "title": "Futuro: 3 formas", "tip": "WILL decisão na hora, GOING TO plano decidido, presente contínuo para compromisso marcado.", "ex": "I'll get it. I'm going to visit them. I'm flying on Friday."},
-            {"id": "comp", "title": "Comparativos e superlativos", "tip": "Curto: -ER / -EST. Longo: MORE / MOST. Nunca os dois juntos. Good → better → best.", "ex": "cheaper, more expensive, the best"},
-            {"id": "quant", "title": "Quantidades", "tip": "Contável: many, a few. Incontável: much, a little. Information, advice, feedback não têm plural.", "ex": "How much time? A few tickets. Some advice."},
-            {"id": "oblig", "title": "Obrigação e conselho", "tip": "MUST / HAVE TO obrigação, SHOULD conselho. MUSTN'T proíbe; DON'T HAVE TO só dispensa.", "ex": "You don't have to come. You mustn't share it."},
-            {"id": "freq", "title": "Advérbios de frequência", "tip": "Antes do verbo principal, depois do TO BE.", "ex": "I always go. She is always late."},
-            {"id": "vprep", "title": "Verbo + preposição", "tip": "A preposição se decora em par: depend on, wait for, listen to, arrive at / in.", "ex": "It depends on the budget."},
-            {"id": "edging", "title": "Adjetivos -ED / -ING", "tip": "-ED = como a pessoa se sente. -ING = o que causa o sentimento.", "ex": "The meeting was boring, so I was bored."}
+            {
+              "id": "past",
+              "title": "Past Simple",
+              "tip": "Ação terminada com tempo definido. Na negativa e na pergunta, o passado fica no DID.",
+              "ex": "I sent it. I didn't send it. Did you send it?"
+            },
+            {
+              "id": "pastcont",
+              "title": "Past Continuous",
+              "tip": "Ação em andamento no passado: WAS / WERE + -ING, muitas vezes interrompida por outra.",
+              "ex": "I was driving when she called."
+            },
+            {
+              "id": "pp",
+              "title": "Present Perfect (início)",
+              "tip": "Experiência ou resultado sem dizer quando. Disse quando (yesterday, in 2019)? Past Simple.",
+              "ex": "Have you ever been to London? I saw him yesterday."
+            },
+            {
+              "id": "future",
+              "title": "Futuro: 3 formas",
+              "tip": "WILL decisão na hora, GOING TO plano decidido, presente contínuo para compromisso marcado.",
+              "ex": "I'll get it. I'm going to visit them. I'm flying on Friday."
+            },
+            {
+              "id": "comp",
+              "title": "Comparativos e superlativos",
+              "tip": "Curto: -ER / -EST. Longo: MORE / MOST. Nunca os dois juntos. Good → better → best.",
+              "ex": "cheaper, more expensive, the best"
+            },
+            {
+              "id": "quant",
+              "title": "Quantidades",
+              "tip": "Contável: many, a few. Incontável: much, a little. Information, advice, feedback não têm plural.",
+              "ex": "How much time? A few tickets. Some advice."
+            },
+            {
+              "id": "oblig",
+              "title": "Obrigação e conselho",
+              "tip": "MUST / HAVE TO obrigação, SHOULD conselho. MUSTN'T proíbe; DON'T HAVE TO só dispensa.",
+              "ex": "You don't have to come. You mustn't share it."
+            },
+            {
+              "id": "freq",
+              "title": "Advérbios de frequência",
+              "tip": "Antes do verbo principal, depois do TO BE.",
+              "ex": "I always go. She is always late."
+            },
+            {
+              "id": "vprep",
+              "title": "Verbo + preposição",
+              "tip": "A preposição se decora em par: depend on, wait for, listen to, arrive at / in.",
+              "ex": "It depends on the budget."
+            },
+            {
+              "id": "edging",
+              "title": "Adjetivos -ED / -ING",
+              "tip": "-ED = como a pessoa se sente. -ING = o que causa o sentimento.",
+              "ex": "The meeting was boring, so I was bored."
+            }
           ]
         },
         {
@@ -50,18 +158,72 @@
           "title": "B1 · Base consolidada",
           "short": "For/since, past perfect, condicionais, passiva, discurso indireto",
           "intro": "Tempos conectados, hipóteses e relatos. É a ponte para o B2: o teste real é usar estas estruturas numa reunião sem parar para pensar.",
-          "cefr": ["B1", "B1", "B1"],
+          "cefr": [
+            "B1",
+            "B1",
+            "B1"
+          ],
           "skills": [
-            {"id": "forsince", "title": "Present Perfect com FOR / SINCE", "tip": "Começou no passado e continua: HAVE + particípio. FOR duração, SINCE ponto de início.", "ex": "I've worked here since 2015 / for ten years."},
-            {"id": "ppc", "title": "Present Perfect Continuous", "tip": "'Estou fazendo há...' = HAVE BEEN + -ING.", "ex": "I've been waiting for an hour."},
-            {"id": "pastperf", "title": "Past Perfect", "tip": "O passado do passado: HAD + particípio ('já tinha').", "ex": "When I arrived, the meeting had already started."},
-            {"id": "cond", "title": "Condicionais 0, 1 e 2", "tip": "O lado do IF nunca recebe WILL nem WOULD. Hipótese: IF + passado, WOULD do outro lado.", "ex": "If I have time, I'll call. If I were you, I'd accept."},
-            {"id": "passive", "title": "Voz passiva", "tip": "TO BE no tempo certo + particípio. Com modal: MUST BE + particípio.", "ex": "It was signed. It must be approved."},
-            {"id": "reported", "title": "Discurso indireto", "tip": "O tempo recua um passo. SAY sem pessoa; TELL + pessoa.", "ex": "He told me (that) he was busy."},
-            {"id": "rel", "title": "Orações relativas", "tip": "WHO pessoa, WHICH coisa, THAT os dois, WHERE lugar, WHOSE posse. 'Que' nunca é WHAT.", "ex": "The supplier (that) we hired."},
-            {"id": "ingto", "title": "-ING depois de preposição", "tip": "Preposição + verbo = -ING, inclusive quando o TO é preposição.", "ex": "I look forward to hearing from you."},
-            {"id": "deduct", "title": "Dedução e possibilidade", "tip": "MUST quase certeza, MIGHT / MAY talvez, CAN'T impossível. 'Pode ser que' é MIGHT, não CAN.", "ex": "He might be at home. That can't be right."},
-            {"id": "usedto", "title": "USED TO / BE USED TO", "tip": "USED TO + verbo = hábito antigo. BE USED TO + -ING = estar acostumado.", "ex": "I used to smoke. I'm used to working late."}
+            {
+              "id": "forsince",
+              "title": "Present Perfect com FOR / SINCE",
+              "tip": "Começou no passado e continua: HAVE + particípio. FOR duração, SINCE ponto de início.",
+              "ex": "I've worked here since 2015 / for ten years."
+            },
+            {
+              "id": "ppc",
+              "title": "Present Perfect Continuous",
+              "tip": "'Estou fazendo há...' = HAVE BEEN + -ING.",
+              "ex": "I've been waiting for an hour."
+            },
+            {
+              "id": "pastperf",
+              "title": "Past Perfect",
+              "tip": "O passado do passado: HAD + particípio ('já tinha').",
+              "ex": "When I arrived, the meeting had already started."
+            },
+            {
+              "id": "cond",
+              "title": "Condicionais 0, 1 e 2",
+              "tip": "O lado do IF nunca recebe WILL nem WOULD. Hipótese: IF + passado, WOULD do outro lado.",
+              "ex": "If I have time, I'll call. If I were you, I'd accept."
+            },
+            {
+              "id": "passive",
+              "title": "Voz passiva",
+              "tip": "TO BE no tempo certo + particípio. Com modal: MUST BE + particípio.",
+              "ex": "It was signed. It must be approved."
+            },
+            {
+              "id": "reported",
+              "title": "Discurso indireto",
+              "tip": "O tempo recua um passo. SAY sem pessoa; TELL + pessoa.",
+              "ex": "He told me (that) he was busy."
+            },
+            {
+              "id": "rel",
+              "title": "Orações relativas",
+              "tip": "WHO pessoa, WHICH coisa, THAT os dois, WHERE lugar, WHOSE posse. 'Que' nunca é WHAT.",
+              "ex": "The supplier (that) we hired."
+            },
+            {
+              "id": "ingto",
+              "title": "-ING depois de preposição",
+              "tip": "Preposição + verbo = -ING, inclusive quando o TO é preposição.",
+              "ex": "I look forward to hearing from you."
+            },
+            {
+              "id": "deduct",
+              "title": "Dedução e possibilidade",
+              "tip": "MUST quase certeza, MIGHT / MAY talvez, CAN'T impossível. 'Pode ser que' é MIGHT, não CAN.",
+              "ex": "He might be at home. That can't be right."
+            },
+            {
+              "id": "usedto",
+              "title": "USED TO / BE USED TO",
+              "tip": "USED TO + verbo = hábito antigo. BE USED TO + -ING = estar acostumado.",
+              "ex": "I used to smoke. I'm used to working late."
+            }
           ]
         }
       ]
@@ -77,16 +239,60 @@
           "title": "-ING ou TO: padrões fixos",
           "short": "Verbo + -ING, verbo + TO, make/let, preposições",
           "intro": "Não existe uma regra única: existem padrões. Decore o verbo junto com o que vem depois dele, como um bloco só.",
-          "cefr": ["B1", "B1", "B2"],
+          "cefr": [
+            "B1",
+            "B1",
+            "B2"
+          ],
           "skills": [
-            {"id": "ing_verbs", "title": "Verbos + -ING", "tip": "enjoy, avoid, finish, suggest, consider, mind, keep, deny, risk + -ING.", "ex": "Would you mind waiting? I suggest postponing."},
-            {"id": "to_verbs", "title": "Verbos + TO", "tip": "Decisões e intenções apontam para o futuro: want, decide, plan, agree, manage, refuse, hope + TO.", "ex": "We managed to close the deal."},
-            {"id": "obj_to", "title": "Verbo + pessoa + TO", "tip": "Querer ou pedir que alguém faça: want / ask / tell / expect + pessoa + TO. Nunca 'want that'.", "ex": "I want you to check this."},
-            {"id": "bare", "title": "MAKE / LET + verbo base", "tip": "Depois da pessoa, verbo puro, sem TO.", "ex": "Let me explain. She made me wait."},
-            {"id": "prep_ing", "title": "Preposição + -ING", "tip": "Depois de preposição (for, before, after, without, in), sempre -ING.", "ex": "Thanks for coming. Before signing..."},
-            {"id": "to_prep", "title": "TO preposição + -ING", "tip": "Em look forward to, be used to, be committed to, object to, o TO é preposição: vem -ING.", "ex": "I look forward to hearing from you."},
-            {"id": "subject", "title": "-ING como sujeito", "tip": "Verbo no início da frase vira substantivo: forma -ING.", "ex": "Negotiating with suppliers takes time."},
-            {"id": "purpose", "title": "TO de finalidade", "tip": "'Para + verbo' com sentido de objetivo é TO, nunca FOR.", "ex": "I called to confirm the date."}
+            {
+              "id": "ing_verbs",
+              "title": "Verbos + -ING",
+              "tip": "enjoy, avoid, finish, suggest, consider, mind, keep, deny, risk + -ING.",
+              "ex": "Would you mind waiting? I suggest postponing."
+            },
+            {
+              "id": "to_verbs",
+              "title": "Verbos + TO",
+              "tip": "Decisões e intenções apontam para o futuro: want, decide, plan, agree, manage, refuse, hope + TO.",
+              "ex": "We managed to close the deal."
+            },
+            {
+              "id": "obj_to",
+              "title": "Verbo + pessoa + TO",
+              "tip": "Querer ou pedir que alguém faça: want / ask / tell / expect + pessoa + TO. Nunca 'want that'.",
+              "ex": "I want you to check this."
+            },
+            {
+              "id": "bare",
+              "title": "MAKE / LET + verbo base",
+              "tip": "Depois da pessoa, verbo puro, sem TO.",
+              "ex": "Let me explain. She made me wait."
+            },
+            {
+              "id": "prep_ing",
+              "title": "Preposição + -ING",
+              "tip": "Depois de preposição (for, before, after, without, in), sempre -ING.",
+              "ex": "Thanks for coming. Before signing..."
+            },
+            {
+              "id": "to_prep",
+              "title": "TO preposição + -ING",
+              "tip": "Em look forward to, be used to, be committed to, object to, o TO é preposição: vem -ING.",
+              "ex": "I look forward to hearing from you."
+            },
+            {
+              "id": "subject",
+              "title": "-ING como sujeito",
+              "tip": "Verbo no início da frase vira substantivo: forma -ING.",
+              "ex": "Negotiating with suppliers takes time."
+            },
+            {
+              "id": "purpose",
+              "title": "TO de finalidade",
+              "tip": "'Para + verbo' com sentido de objetivo é TO, nunca FOR.",
+              "ex": "I called to confirm the date."
+            }
           ]
         },
         {
@@ -94,16 +300,60 @@
           "title": "-ING ou TO: mudam o sentido",
           "short": "stop, remember, forget, try, regret, mean, need",
           "intro": "Mesmo verbo, significado diferente. Regra geral: -ING olha para trás ou para a atividade; TO olha para a frente ou para o objetivo.",
-          "cefr": ["B1", "B2", "B2"],
+          "cefr": [
+            "B1",
+            "B2",
+            "B2"
+          ],
           "skills": [
-            {"id": "stop", "title": "STOP", "tip": "STOP + -ING = parar de. STOP + TO = parar para fazer outra coisa.", "ex": "I stopped smoking. We stopped to have lunch."},
-            {"id": "remember", "title": "REMEMBER", "tip": "+ TO = lembrar de fazer (tarefa). + -ING = lembrar de algo que já fez.", "ex": "Remember to send it. I remember meeting him."},
-            {"id": "forget", "title": "FORGET", "tip": "+ TO = esquecer de fazer. + -ING = esquecer algo vivido (quase sempre 'never forget').", "ex": "I forgot to attach it. I'll never forget visiting Rome."},
-            {"id": "try", "title": "TRY", "tip": "+ TO = esforçar-se. + -ING = testar uma solução para ver se resolve.", "ex": "I'm trying to learn. Try restarting it."},
-            {"id": "regret", "title": "REGRET", "tip": "+ -ING = arrepender-se. REGRET TO inform / say = lamentar informar (formal).", "ex": "I regret accepting. We regret to inform you..."},
-            {"id": "mean", "title": "MEAN", "tip": "+ TO = ter a intenção. + -ING = implicar.", "ex": "I didn't mean to offend. It means working weekends."},
-            {"id": "need", "title": "NEED", "tip": "Pessoa: NEED + TO. Coisa que precisa receber a ação: NEEDS + -ING ou NEEDS TO BE + particípio.", "ex": "The report needs reviewing."},
-            {"id": "goon", "title": "GO ON", "tip": "+ -ING = continuar a mesma coisa. + TO = passar para outra coisa.", "ex": "She went on talking. Then she went on to explain the budget."}
+            {
+              "id": "stop",
+              "title": "STOP",
+              "tip": "STOP + -ING = parar de. STOP + TO = parar para fazer outra coisa.",
+              "ex": "I stopped smoking. We stopped to have lunch."
+            },
+            {
+              "id": "remember",
+              "title": "REMEMBER",
+              "tip": "+ TO = lembrar de fazer (tarefa). + -ING = lembrar de algo que já fez.",
+              "ex": "Remember to send it. I remember meeting him."
+            },
+            {
+              "id": "forget",
+              "title": "FORGET",
+              "tip": "+ TO = esquecer de fazer. + -ING = esquecer algo vivido (quase sempre 'never forget').",
+              "ex": "I forgot to attach it. I'll never forget visiting Rome."
+            },
+            {
+              "id": "try",
+              "title": "TRY",
+              "tip": "+ TO = esforçar-se. + -ING = testar uma solução para ver se resolve.",
+              "ex": "I'm trying to learn. Try restarting it."
+            },
+            {
+              "id": "regret",
+              "title": "REGRET",
+              "tip": "+ -ING = arrepender-se. REGRET TO inform / say = lamentar informar (formal).",
+              "ex": "I regret accepting. We regret to inform you..."
+            },
+            {
+              "id": "mean",
+              "title": "MEAN",
+              "tip": "+ TO = ter a intenção. + -ING = implicar.",
+              "ex": "I didn't mean to offend. It means working weekends."
+            },
+            {
+              "id": "need",
+              "title": "NEED",
+              "tip": "Pessoa: NEED + TO. Coisa que precisa receber a ação: NEEDS + -ING ou NEEDS TO BE + particípio.",
+              "ex": "The report needs reviewing."
+            },
+            {
+              "id": "goon",
+              "title": "GO ON",
+              "tip": "+ -ING = continuar a mesma coisa. + TO = passar para outra coisa.",
+              "ex": "She went on talking. Then she went on to explain the budget."
+            }
           ]
         },
         {
@@ -111,14 +361,48 @@
           "title": "Word families",
           "short": "A classe gramatical certa para cada posição",
           "intro": "Saber a palavra não basta: é preciso escolher a forma certa para a posição na frase. A posição decide a classe.",
-          "cefr": ["B1", "B1", "B2"],
+          "cefr": [
+            "B1",
+            "B1",
+            "B2"
+          ],
           "skills": [
-            {"id": "noun", "title": "Posição de substantivo", "tip": "Depois de a / the / my / more, ou antes de OF: substantivo.", "ex": "a quick decision, more information"},
-            {"id": "adj", "title": "Posição de adjetivo", "tip": "Antes de substantivo ou depois de be / very: adjetivo. -ED sentimento, -ING causa.", "ex": "very successful, a reliable supplier"},
-            {"id": "adv", "title": "Advérbio", "tip": "Modificando um verbo ou adjetivo: advérbio (-LY).", "ex": "She explained it clearly. deeply disappointing"},
-            {"id": "verb", "title": "Posição de verbo", "tip": "Depois de to, will, can, must: verbo. Muitos se formam com -EN, -IFY, -IZE.", "ex": "I will analyze it. weak → weaken"},
-            {"id": "tricky", "title": "Advérbios traiçoeiros", "tip": "good → well. hard (com esforço) ≠ hardly (quase não). late ≠ lately. near ≠ nearly.", "ex": "I work hard. I hardly slept."},
-            {"id": "person", "title": "Quem faz e quem recebe", "tip": "-ER / -OR / -IST fazem a ação; -EE recebe.", "ex": "employer × employee, analyst"}
+            {
+              "id": "noun",
+              "title": "Posição de substantivo",
+              "tip": "Depois de a / the / my / more, ou antes de OF: substantivo.",
+              "ex": "a quick decision, more information"
+            },
+            {
+              "id": "adj",
+              "title": "Posição de adjetivo",
+              "tip": "Antes de substantivo ou depois de be / very: adjetivo. -ED sentimento, -ING causa.",
+              "ex": "very successful, a reliable supplier"
+            },
+            {
+              "id": "adv",
+              "title": "Advérbio",
+              "tip": "Modificando um verbo ou adjetivo: advérbio (-LY).",
+              "ex": "She explained it clearly. deeply disappointing"
+            },
+            {
+              "id": "verb",
+              "title": "Posição de verbo",
+              "tip": "Depois de to, will, can, must: verbo. Muitos se formam com -EN, -IFY, -IZE.",
+              "ex": "I will analyze it. weak → weaken"
+            },
+            {
+              "id": "tricky",
+              "title": "Advérbios traiçoeiros",
+              "tip": "good → well. hard (com esforço) ≠ hardly (quase não). late ≠ lately. near ≠ nearly.",
+              "ex": "I work hard. I hardly slept."
+            },
+            {
+              "id": "person",
+              "title": "Quem faz e quem recebe",
+              "tip": "-ER / -OR / -IST fazem a ação; -EE recebe.",
+              "ex": "employer × employee, analyst"
+            }
           ]
         },
         {
@@ -126,14 +410,48 @@
           "title": "Sufixos e prefixos",
           "short": "A terminação revela a classe",
           "intro": "Dominando os sufixos, você monta a palavra certa a partir de uma que já conhece, sem decorar listas.",
-          "cefr": ["B1", "B2", "B2"],
+          "cefr": [
+            "B1",
+            "B2",
+            "B2"
+          ],
           "skills": [
-            {"id": "noun_suf", "title": "Sufixos de substantivo", "tip": "-tion, -ment, -ness, -ity, -ance, -ence, -ship, -al.", "ex": "approval, awareness, liability"},
-            {"id": "person_suf", "title": "Sufixos de pessoa", "tip": "-er / -or, -ist, -ant / -ent, -ee.", "ex": "consultant, assistant, analyst"},
-            {"id": "adj_suf", "title": "Sufixos de adjetivo", "tip": "-ful, -less, -able / -ible, -ive, -al, -ous.", "ex": "useful, reliable, effective"},
-            {"id": "verb_suf", "title": "Sufixos de verbo", "tip": "-ize, -en, -ify, -ate.", "ex": "simplify, strengthen, standardize"},
-            {"id": "neg", "title": "Prefixos negativos", "tip": "un-, in-, im- (antes de p/m/b), ir- (r), il- (l), dis-, non-.", "ex": "impossible, irrelevant, illegal, non-compliant"},
-            {"id": "meaning", "title": "Prefixos de sentido", "tip": "re- de novo, mis- errado, over- / under- acima / abaixo, pre- antes.", "ex": "renegotiate, misunderstanding, underestimate"}
+            {
+              "id": "noun_suf",
+              "title": "Sufixos de substantivo",
+              "tip": "-tion, -ment, -ness, -ity, -ance, -ence, -ship, -al.",
+              "ex": "approval, awareness, liability"
+            },
+            {
+              "id": "person_suf",
+              "title": "Sufixos de pessoa",
+              "tip": "-er / -or, -ist, -ant / -ent, -ee.",
+              "ex": "consultant, assistant, analyst"
+            },
+            {
+              "id": "adj_suf",
+              "title": "Sufixos de adjetivo",
+              "tip": "-ful, -less, -able / -ible, -ive, -al, -ous.",
+              "ex": "useful, reliable, effective"
+            },
+            {
+              "id": "verb_suf",
+              "title": "Sufixos de verbo",
+              "tip": "-ize, -en, -ify, -ate.",
+              "ex": "simplify, strengthen, standardize"
+            },
+            {
+              "id": "neg",
+              "title": "Prefixos negativos",
+              "tip": "un-, in-, im- (antes de p/m/b), ir- (r), il- (l), dis-, non-.",
+              "ex": "impossible, irrelevant, illegal, non-compliant"
+            },
+            {
+              "id": "meaning",
+              "title": "Prefixos de sentido",
+              "tip": "re- de novo, mis- errado, over- / under- acima / abaixo, pre- antes.",
+              "ex": "renegotiate, misunderstanding, underestimate"
+            }
           ]
         }
       ]
@@ -149,16 +467,60 @@
           "title": "Falsos cognatos",
           "short": "actually, pretend, eventually, attend, realize…",
           "intro": "Parecem português, mas significam outra coisa. A frase fica gramaticalmente correta e com o sentido errado, por isso confundem tanto quem ouve.",
-          "cefr": ["B1", "B1", "B2"],
+          "cefr": [
+            "B1",
+            "B1",
+            "B2"
+          ],
           "skills": [
-            {"id": "actually", "title": "ACTUALLY ≠ atualmente", "tip": "ACTUALLY = na verdade. Atualmente = currently / nowadays / these days.", "ex": "Actually, I disagree. Currently, I live in SP."},
-            {"id": "pretend", "title": "PRETEND ≠ pretender", "tip": "PRETEND = fingir. Pretender = intend / plan.", "ex": "I intend to travel. He pretended to be busy."},
-            {"id": "eventually", "title": "EVENTUALLY ≠ eventualmente", "tip": "EVENTUALLY = no fim, finalmente. Às vezes = occasionally.", "ex": "Eventually, they agreed."},
-            {"id": "push", "title": "PUSH ≠ puxar", "tip": "PUSH = empurrar. PULL = puxar. PUSH FOR = pressionar por.", "ex": "Pull the door. We're pushing for approval."},
-            {"id": "attend", "title": "ASSIST · ATTEND", "tip": "ATTEND = comparecer. Assistir (TV) = watch. Atender (cliente) = serve / help.", "ex": "I attended the meeting."},
-            {"id": "realize", "title": "REALIZE ≠ realizar", "tip": "REALIZE = perceber. Realizar = hold (reunião), conduct (auditoria), carry out (projeto).", "ex": "We held a meeting. I realized the mistake."},
-            {"id": "everyday", "title": "Palavras do dia a dia", "tip": "parents = pais (parentes = relatives), library = biblioteca (livraria = bookstore), college = faculdade.", "ex": "All my relatives came."},
-            {"id": "corporate", "title": "Falsos do mundo corporativo", "tip": "prejudice = preconceito (prejuízo = loss), sensible = sensato (sensível = sensitive), resume = retomar, support = apoiar (suportar = stand), assume = supor.", "ex": "The company had a loss."}
+            {
+              "id": "actually",
+              "title": "ACTUALLY ≠ atualmente",
+              "tip": "ACTUALLY = na verdade. Atualmente = currently / nowadays / these days.",
+              "ex": "Actually, I disagree. Currently, I live in SP."
+            },
+            {
+              "id": "pretend",
+              "title": "PRETEND ≠ pretender",
+              "tip": "PRETEND = fingir. Pretender = intend / plan.",
+              "ex": "I intend to travel. He pretended to be busy."
+            },
+            {
+              "id": "eventually",
+              "title": "EVENTUALLY ≠ eventualmente",
+              "tip": "EVENTUALLY = no fim, finalmente. Às vezes = occasionally.",
+              "ex": "Eventually, they agreed."
+            },
+            {
+              "id": "push",
+              "title": "PUSH ≠ puxar",
+              "tip": "PUSH = empurrar. PULL = puxar. PUSH FOR = pressionar por.",
+              "ex": "Pull the door. We're pushing for approval."
+            },
+            {
+              "id": "attend",
+              "title": "ASSIST · ATTEND",
+              "tip": "ATTEND = comparecer. Assistir (TV) = watch. Atender (cliente) = serve / help.",
+              "ex": "I attended the meeting."
+            },
+            {
+              "id": "realize",
+              "title": "REALIZE ≠ realizar",
+              "tip": "REALIZE = perceber. Realizar = hold (reunião), conduct (auditoria), carry out (projeto).",
+              "ex": "We held a meeting. I realized the mistake."
+            },
+            {
+              "id": "everyday",
+              "title": "Palavras do dia a dia",
+              "tip": "parents = pais (parentes = relatives), library = biblioteca (livraria = bookstore), college = faculdade.",
+              "ex": "All my relatives came."
+            },
+            {
+              "id": "corporate",
+              "title": "Falsos do mundo corporativo",
+              "tip": "prejudice = preconceito (prejuízo = loss), sensible = sensato (sensível = sensitive), resume = retomar, support = apoiar (suportar = stand), assume = supor.",
+              "ex": "The company had a loss."
+            }
           ]
         },
         {
@@ -166,16 +528,60 @@
           "title": "Pares que confundem",
           "short": "make/do, say/tell, speak/talk, borrow/lend…",
           "intro": "Em português um verbo cobre os dois sentidos; em inglês são dois verbos diferentes, e trocar um pelo outro muda a mensagem.",
-          "cefr": ["B1", "B1", "B2"],
+          "cefr": [
+            "B1",
+            "B1",
+            "B2"
+          ],
           "skills": [
-            {"id": "makedo", "title": "MAKE × DO", "tip": "MAKE criar, decidir: a decision, a mistake, progress, an effort. DO executar: business, a favor, research, homework.", "ex": "I made a mistake. Can you do me a favor?"},
-            {"id": "saytell", "title": "SAY × TELL", "tip": "SAY + algo. TELL + pessoa. Fixos: tell the truth, tell a story, say goodbye.", "ex": "He said it was fine. He told me it was fine."},
-            {"id": "speaktalk", "title": "SPEAK × TALK", "tip": "SPEAK idiomas e fala formal. TALK conversa: talk to / about.", "ex": "I speak English. Can I talk to you?"},
-            {"id": "borrowlend", "title": "BORROW × LEND", "tip": "Quem recebe: BORROW. Quem dá: LEND (lent).", "ex": "Can I borrow your pen? Can you lend me your pen?"},
-            {"id": "bringtake", "title": "BRING × TAKE", "tip": "BRING para cá (onde estou). TAKE para lá.", "ex": "Bring it to my office. I'll take you to the airport."},
-            {"id": "seelook", "title": "SEE / LOOK / WATCH", "tip": "SEE ver sem esforço, LOOK AT olhar com intenção, WATCH assistir.", "ex": "Look at this chart. I watched TV."},
-            {"id": "hearlisten", "title": "HEAR × LISTEN", "tip": "HEAR ouvir (percepção). LISTEN TO escutar com atenção.", "ex": "I can't hear you. Listen to me."},
-            {"id": "remind", "title": "REMEMBER × REMIND", "tip": "REMEMBER você se lembra. REMIND faz alguém lembrar: remind me to / of.", "ex": "Remind me to call him."}
+            {
+              "id": "makedo",
+              "title": "MAKE × DO",
+              "tip": "MAKE criar, decidir: a decision, a mistake, progress, an effort. DO executar: business, a favor, research, homework.",
+              "ex": "I made a mistake. Can you do me a favor?"
+            },
+            {
+              "id": "saytell",
+              "title": "SAY × TELL",
+              "tip": "SAY + algo. TELL + pessoa. Fixos: tell the truth, tell a story, say goodbye.",
+              "ex": "He said it was fine. He told me it was fine."
+            },
+            {
+              "id": "speaktalk",
+              "title": "SPEAK × TALK",
+              "tip": "SPEAK idiomas e fala formal. TALK conversa: talk to / about.",
+              "ex": "I speak English. Can I talk to you?"
+            },
+            {
+              "id": "borrowlend",
+              "title": "BORROW × LEND",
+              "tip": "Quem recebe: BORROW. Quem dá: LEND (lent).",
+              "ex": "Can I borrow your pen? Can you lend me your pen?"
+            },
+            {
+              "id": "bringtake",
+              "title": "BRING × TAKE",
+              "tip": "BRING para cá (onde estou). TAKE para lá.",
+              "ex": "Bring it to my office. I'll take you to the airport."
+            },
+            {
+              "id": "seelook",
+              "title": "SEE / LOOK / WATCH",
+              "tip": "SEE ver sem esforço, LOOK AT olhar com intenção, WATCH assistir.",
+              "ex": "Look at this chart. I watched TV."
+            },
+            {
+              "id": "hearlisten",
+              "title": "HEAR × LISTEN",
+              "tip": "HEAR ouvir (percepção). LISTEN TO escutar com atenção.",
+              "ex": "I can't hear you. Listen to me."
+            },
+            {
+              "id": "remind",
+              "title": "REMEMBER × REMIND",
+              "tip": "REMEMBER você se lembra. REMIND faz alguém lembrar: remind me to / of.",
+              "ex": "Remind me to call him."
+            }
           ]
         },
         {
@@ -183,16 +589,60 @@
           "title": "Estrutura da frase",
           "short": "Sujeito, perguntas indiretas, ordem das palavras",
           "intro": "O português aceita omitir o sujeito e mudar a ordem das palavras. O inglês não. São os pontos em que a tradução mental gera erro na fala rápida.",
-          "cefr": ["B1", "B1", "B2"],
+          "cefr": [
+            "B1",
+            "B1",
+            "B2"
+          ],
           "skills": [
-            {"id": "subj", "title": "Sujeito obrigatório", "tip": "Tempo, clima, distância e avaliações usam IT. Toda frase tem sujeito.", "ex": "It's important to check. It's raining."},
-            {"id": "indirect", "title": "Perguntas indiretas", "tip": "Depois de 'Do you know / Can you tell me', a ordem volta a ser afirmativa.", "ex": "Do you know where the station is?"},
-            {"id": "adj", "title": "Adjetivo: posição e plural", "tip": "Adjetivo vem antes do substantivo e nunca vai para o plural.", "ex": "two important contracts"},
-            {"id": "people", "title": "PEOPLE e concordância", "tip": "People e police são plurais. Everybody, everyone e nobody são singulares.", "ex": "People are worried. Everyone has a copy."},
-            {"id": "explain", "title": "EXPLAIN / DESCRIBE / SUGGEST", "tip": "Não aceitam a pessoa logo depois do verbo: verbo + coisa + TO + pessoa.", "ex": "Can you explain it to me?"},
-            {"id": "most", "title": "MOST × MOST OF THE", "tip": "MOST em geral; MOST OF THE para grupo específico. Nunca 'the most of'.", "ex": "Most people agree. Most of the suppliers are local."},
-            {"id": "order", "title": "Ordem: nada entre verbo e objeto", "tip": "Sujeito + verbo + objeto + modo + lugar + tempo.", "ex": "She speaks English very well."},
-            {"id": "neg", "title": "Negação e 'também'", "tip": "Uma negação por frase (don't + any). TOO no positivo, EITHER no negativo.", "ex": "I don't have any questions. Me neither / I don't either."}
+            {
+              "id": "subj",
+              "title": "Sujeito obrigatório",
+              "tip": "Tempo, clima, distância e avaliações usam IT. Toda frase tem sujeito.",
+              "ex": "It's important to check. It's raining."
+            },
+            {
+              "id": "indirect",
+              "title": "Perguntas indiretas",
+              "tip": "Depois de 'Do you know / Can you tell me', a ordem volta a ser afirmativa.",
+              "ex": "Do you know where the station is?"
+            },
+            {
+              "id": "adj",
+              "title": "Adjetivo: posição e plural",
+              "tip": "Adjetivo vem antes do substantivo e nunca vai para o plural.",
+              "ex": "two important contracts"
+            },
+            {
+              "id": "people",
+              "title": "PEOPLE e concordância",
+              "tip": "People e police são plurais. Everybody, everyone e nobody são singulares.",
+              "ex": "People are worried. Everyone has a copy."
+            },
+            {
+              "id": "explain",
+              "title": "EXPLAIN / DESCRIBE / SUGGEST",
+              "tip": "Não aceitam a pessoa logo depois do verbo: verbo + coisa + TO + pessoa.",
+              "ex": "Can you explain it to me?"
+            },
+            {
+              "id": "most",
+              "title": "MOST × MOST OF THE",
+              "tip": "MOST em geral; MOST OF THE para grupo específico. Nunca 'the most of'.",
+              "ex": "Most people agree. Most of the suppliers are local."
+            },
+            {
+              "id": "order",
+              "title": "Ordem: nada entre verbo e objeto",
+              "tip": "Sujeito + verbo + objeto + modo + lugar + tempo.",
+              "ex": "She speaks English very well."
+            },
+            {
+              "id": "neg",
+              "title": "Negação e 'também'",
+              "tip": "Uma negação por frase (don't + any). TOO no positivo, EITHER no negativo.",
+              "ex": "I don't have any questions. Me neither / I don't either."
+            }
           ]
         }
       ]
@@ -202,24 +652,1308 @@
       "title": "Lote 3 · Núcleo B2",
       "level": "B2",
       "color": "#1E3A8A",
-      "soon": ["Futuro e narrativa", "Condicionais e WISH", "Modais no passado", "Passiva e causativa", "Reporting verbs", "Conectores", "Phrasal verbs de trabalho", "Collocations de negócios", "Comparações e intensificadores"],
-      "topics": []
+      "topics": [
+        {
+          "id": "t08",
+          "title": "Futuro e narrativa",
+          "short": "Future continuous/perfect, was going to, narrar no passado",
+          "intro": "Situar ações com precisão: o que estará acontecendo, o que já terá terminado, o que ia acontecer e não aconteceu, e como encadear os tempos ao contar uma história.",
+          "cefr": [
+            "B2",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "futcont",
+              "title": "Future Continuous",
+              "tip": "WILL BE + -ING: ação em andamento num momento do futuro; também serve para perguntar sobre planos com educação.",
+              "ex": "This time tomorrow, I'll be flying."
+            },
+            {
+              "id": "futperf",
+              "title": "Future Perfect",
+              "tip": "WILL HAVE + particípio: concluído até um prazo (BY).",
+              "ex": "By Friday, we'll have finished."
+            },
+            {
+              "id": "wasgoing",
+              "title": "WAS GOING TO",
+              "tip": "Plano do passado que não se realizou: 'eu ia'.",
+              "ex": "I was going to call you, but I got busy."
+            },
+            {
+              "id": "ppcont",
+              "title": "Past Perfect Continuous",
+              "tip": "HAD BEEN + -ING: duração antes de um ponto do passado.",
+              "ex": "We had been negotiating for months."
+            },
+            {
+              "id": "timeclause",
+              "title": "WHEN / AS SOON AS + presente",
+              "tip": "Em orações de tempo sobre o futuro, use presente, nunca WILL.",
+              "ex": "I'll call you as soon as I arrive."
+            },
+            {
+              "id": "aboutdue",
+              "title": "About to · due · likely",
+              "tip": "BE ABOUT TO prestes a; BE DUE previsto; BE LIKELY TO provável.",
+              "ex": "The report is due on Friday."
+            },
+            {
+              "id": "narrative",
+              "title": "Encadear tempos na narrativa",
+              "tip": "Past Continuous = cenário; Past Simple = eventos; Past Perfect = o que veio antes.",
+              "ex": "I was waiting when they said it had been cancelled."
+            },
+            {
+              "id": "wouldhabit",
+              "title": "WOULD para hábito passado",
+              "tip": "WOULD + verbo para ações repetidas; para estados (live, have, be), só USED TO.",
+              "ex": "We would spend summers at the beach."
+            }
+          ]
+        },
+        {
+          "id": "t09",
+          "title": "Condicionais e WISH",
+          "short": "3ª condicional, mistas, wish, unless, it's time",
+          "intro": "Falar do que poderia ter sido, do que você gostaria que fosse diferente e negociar condições. Regra-mestra: o lado do IF nunca recebe WILL nem WOULD.",
+          "cefr": [
+            "B2",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "third",
+              "title": "3ª condicional",
+              "tip": "IF + HAD + particípio → WOULD HAVE + particípio.",
+              "ex": "If we had signed earlier, we would have saved money."
+            },
+            {
+              "id": "mixedpast",
+              "title": "Mista: passado → presente",
+              "tip": "Causa no passado (HAD + particípio), efeito agora (WOULD + verbo).",
+              "ex": "If I had studied more, I would be fluent now."
+            },
+            {
+              "id": "mixedpres",
+              "title": "Mista: presente → passado",
+              "tip": "Característica permanente (IF + WERE) explicando algo que já aconteceu (WOULD HAVE).",
+              "ex": "If I were more organized, I wouldn't have missed it."
+            },
+            {
+              "id": "wishpast",
+              "title": "WISH + passado",
+              "tip": "Desejo sobre o presente: o verbo recua para o passado.",
+              "ex": "I wish I had more time."
+            },
+            {
+              "id": "wishpp",
+              "title": "WISH + Past Perfect",
+              "tip": "Arrependimento sobre o passado.",
+              "ex": "I wish I had accepted the offer."
+            },
+            {
+              "id": "wishwould",
+              "title": "WISH + WOULD / COULD",
+              "tip": "WOULD = irritação com o que o outro faz; COULD = capacidade que você gostaria de ter.",
+              "ex": "I wish he would stop. I wish I could join you."
+            },
+            {
+              "id": "altif",
+              "title": "Alternativas ao IF",
+              "tip": "UNLESS (a menos que), PROVIDED THAT / AS LONG AS (desde que), IN CASE (por precaução).",
+              "ex": "We'll sign, provided that they cut the price."
+            },
+            {
+              "id": "ifonly",
+              "title": "IF ONLY · IT'S TIME",
+              "tip": "IF ONLY + passado / Past Perfect; IT'S (HIGH) TIME + sujeito + passado.",
+              "ex": "It's time we made a decision."
+            }
+          ]
+        },
+        {
+          "id": "t10",
+          "title": "Modais no passado",
+          "short": "should have, must have, could have, can't have…",
+          "intro": "Fórmula única: MODAL + HAVE + PARTICÍPIO. Essencial para analisar o que deu errado numa reunião sem soar acusatório.",
+          "cefr": [
+            "B2",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "should",
+              "title": "SHOULD HAVE",
+              "tip": "Crítica ou arrependimento: deveria ter feito.",
+              "ex": "We should have checked the contract."
+            },
+            {
+              "id": "shouldnt",
+              "title": "SHOULDN'T HAVE",
+              "tip": "Fez, mas não deveria. Modal nunca usa DID.",
+              "ex": "You shouldn't have said that."
+            },
+            {
+              "id": "could",
+              "title": "COULD HAVE",
+              "tip": "Possibilidade que existia e não foi aproveitada.",
+              "ex": "We could have negotiated a better price."
+            },
+            {
+              "id": "must",
+              "title": "MUST HAVE",
+              "tip": "Dedução segura sobre o passado: deve ter.",
+              "ex": "He must have forgotten."
+            },
+            {
+              "id": "cant",
+              "title": "CAN'T / COULDN'T HAVE",
+              "tip": "Impossível ter acontecido. O oposto de MUST HAVE.",
+              "ex": "She can't have seen it."
+            },
+            {
+              "id": "might",
+              "title": "MIGHT / MAY HAVE",
+              "tip": "Talvez tenha acontecido. Ótimo para hipóteses sem acusar.",
+              "ex": "It might have gone to spam."
+            },
+            {
+              "id": "would",
+              "title": "WOULD HAVE",
+              "tip": "O que teria acontecido em outra situação.",
+              "ex": "I would have called, but my phone died."
+            },
+            {
+              "id": "neednt",
+              "title": "NEEDN'T HAVE × DIDN'T NEED TO",
+              "tip": "NEEDN'T HAVE = fez sem necessidade. DIDN'T NEED TO = não precisou.",
+              "ex": "You needn't have come."
+            }
+          ]
+        },
+        {
+          "id": "t11",
+          "title": "Passiva e causativa",
+          "short": "Passiva em todos os tempos, have something done, it is said",
+          "intro": "A linguagem de relatórios, contratos e processos: foco no que foi feito, não em quem fez. TO BE no tempo certo + particípio.",
+          "cefr": [
+            "B2",
+            "B2",
+            "C1"
+          ],
+          "skills": [
+            {
+              "id": "ptenses",
+              "title": "Passiva em todos os tempos",
+              "tip": "is done, is being done, has been done, was done, will be done.",
+              "ex": "The supplier has been approved."
+            },
+            {
+              "id": "pmodal",
+              "title": "Passiva com modais",
+              "tip": "MODAL + BE + particípio; no passado, MODAL + HAVE BEEN + particípio.",
+              "ex": "It must be signed. It should have been sent."
+            },
+            {
+              "id": "causative",
+              "title": "Causativa: HAVE / GET something done",
+              "tip": "Mandar ou contratar alguém para fazer.",
+              "ex": "I had my car repaired."
+            },
+            {
+              "id": "twoobj",
+              "title": "Passiva com dois objetos",
+              "tip": "A pessoa vira o sujeito: é o mais natural.",
+              "ex": "I was given a new role."
+            },
+            {
+              "id": "impersonal",
+              "title": "IT IS SAID THAT",
+              "tip": "Impessoal formal, típico de relatório e imprensa.",
+              "ex": "It is expected that prices will rise."
+            },
+            {
+              "id": "saidto",
+              "title": "Sujeito + IS SAID TO",
+              "tip": "Versão elegante; no passado, IS SAID TO HAVE + particípio.",
+              "ex": "He is said to be the best negotiator."
+            },
+            {
+              "id": "getpass",
+              "title": "GET passive",
+              "tip": "Na fala, GET substitui BE para mudanças e imprevistos. Nunca os dois juntos.",
+              "ex": "He got promoted."
+            },
+            {
+              "id": "whennot",
+              "title": "Quando não usar a passiva",
+              "tip": "Na conversa, a ativa é mais direta. A passiva serve para foco no processo ou para omitir o responsável.",
+              "ex": "I organized the meeting."
+            }
+          ]
+        },
+        {
+          "id": "t12",
+          "title": "Reporting verbs",
+          "short": "agree to, deny -ing, advise sb to, apologize for…",
+          "intro": "Em vez de repetir 'he said', use o verbo que descreve a intenção. Cada verbo tem seu padrão, e é aí que voltam o -ING e o TO.",
+          "cefr": [
+            "B2",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "backshift",
+              "title": "Recuo dos tempos",
+              "tip": "presente → passado, will → would, can → could, tomorrow → the next day.",
+              "ex": "They said they would pay the next day."
+            },
+            {
+              "id": "repq",
+              "title": "Perguntas relatadas",
+              "tip": "Sem inversão e sem DO. Sim/não: IF ou WHETHER.",
+              "ex": "She asked me where I worked."
+            },
+            {
+              "id": "vto",
+              "title": "Verbo + TO",
+              "tip": "agree, offer, promise, refuse, threaten, claim + TO.",
+              "ex": "They agreed to extend the deadline."
+            },
+            {
+              "id": "vobjto",
+              "title": "Verbo + pessoa + TO",
+              "tip": "ask, tell, advise, remind, warn, encourage, urge + pessoa + TO. Negativa: NOT TO.",
+              "ex": "He warned us not to sign."
+            },
+            {
+              "id": "ving",
+              "title": "Verbo + -ING",
+              "tip": "admit, deny, suggest, recommend, mention + -ING.",
+              "ex": "He denied making the mistake."
+            },
+            {
+              "id": "vprep",
+              "title": "Verbo + preposição + -ING",
+              "tip": "apologize for, insist on, accuse sb of, blame sb for, congratulate sb on.",
+              "ex": "He apologized for being late."
+            },
+            {
+              "id": "suggest",
+              "title": "SUGGEST e RECOMMEND",
+              "tip": "suggest -ing / suggest (that) + sujeito + verbo. Nunca 'suggest me to'.",
+              "ex": "I suggest (that) we postpone."
+            },
+            {
+              "id": "explain",
+              "title": "EXPLAIN · MENTION · POINT OUT",
+              "tip": "explain + coisa + TO + pessoa; mention / point out (that) + frase.",
+              "ex": "He explained the risks to us."
+            }
+          ]
+        },
+        {
+          "id": "t13",
+          "title": "Conectores",
+          "short": "although, despite, however, due to, so that…",
+          "intro": "O que separa B1 de B2 na fala é construir argumentos. Cada conector pede um complemento: frase completa, substantivo ou -ING.",
+          "cefr": [
+            "B2",
+            "B2",
+            "C1"
+          ],
+          "skills": [
+            {
+              "id": "cclause",
+              "title": "Contraste + frase",
+              "tip": "although, even though, while, whereas + frase. Nunca junto com BUT.",
+              "ex": "Although it's expensive, it's good."
+            },
+            {
+              "id": "cnoun",
+              "title": "Contraste + substantivo",
+              "tip": "despite / in spite of + substantivo ou -ING. DESPITE nunca leva OF.",
+              "ex": "Despite the delay, we met the target."
+            },
+            {
+              "id": "csent",
+              "title": "Contraste entre frases",
+              "tip": "however, nevertheless, on the other hand: abrem nova frase.",
+              "ex": "The plan is good. However, it's expensive."
+            },
+            {
+              "id": "cause",
+              "title": "Causa",
+              "tip": "because / since / as + frase; because of / due to / owing to + substantivo.",
+              "ex": "It was delayed due to bad weather."
+            },
+            {
+              "id": "result",
+              "title": "Resultado",
+              "tip": "so, therefore, as a result, consequently.",
+              "ex": "Costs went up; therefore, we revised the budget."
+            },
+            {
+              "id": "purpose",
+              "title": "Finalidade",
+              "tip": "to / in order to + verbo; so that + frase com can / could.",
+              "ex": "I left early so that I could catch the flight."
+            },
+            {
+              "id": "addition",
+              "title": "Adição e exemplo",
+              "tip": "moreover, furthermore, in addition, besides (sem OF); such as, for instance.",
+              "ex": "Moreover, the supplier is certified."
+            },
+            {
+              "id": "sequence",
+              "title": "Sequência e conclusão",
+              "tip": "first, then, finally; to sum up, in summary, overall.",
+              "ex": "To sum up, the project was a success."
+            }
+          ]
+        },
+        {
+          "id": "t14",
+          "title": "Phrasal verbs de trabalho",
+          "short": "carry out, follow up, put off, come up with…",
+          "intro": "Nativos usam phrasal verbs o tempo todo em reuniões e e-mails internos. Decore cada um com um exemplo, nunca sozinho.",
+          "cefr": [
+            "B2",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "organize",
+              "title": "Organizar e executar",
+              "tip": "set up (montar), carry out (executar), draw up (redigir), put together (reunir).",
+              "ex": "The audit was carried out in May."
+            },
+            {
+              "id": "follow",
+              "title": "Acompanhar",
+              "tip": "follow up on (dar seguimento), look into (investigar), check in with (alinhar).",
+              "ex": "I'll follow up on this."
+            },
+            {
+              "id": "postpone",
+              "title": "Adiar e cancelar",
+              "tip": "put off / push back (adiar), call off (cancelar), bring forward (antecipar).",
+              "ex": "They pushed back the deadline."
+            },
+            {
+              "id": "discuss",
+              "title": "Discutir",
+              "tip": "bring up (levantar um assunto), point out (destacar), go over (revisar), talk through.",
+              "ex": "She brought up an important point."
+            },
+            {
+              "id": "solve",
+              "title": "Resolver",
+              "tip": "figure out (descobrir), sort out (resolver), deal with (lidar), come up with (criar).",
+              "ex": "We need to come up with a solution."
+            },
+            {
+              "id": "resources",
+              "title": "Recursos e ritmo",
+              "tip": "run out of (ficar sem), cut down on (reduzir), fall behind (atrasar), catch up on (pôr em dia).",
+              "ex": "We're running out of time."
+            },
+            {
+              "id": "people",
+              "title": "Pessoas e responsabilidade",
+              "tip": "take over (assumir), hand over (passar), step in / down, take on (assumir tarefa).",
+              "ex": "She took over the project."
+            },
+            {
+              "id": "particle",
+              "title": "Onde vai o pronome",
+              "tip": "Nos separáveis, o pronome vai no meio (call it off). Nos inseparáveis, no fim (look into it).",
+              "ex": "Let's call it off."
+            }
+          ]
+        },
+        {
+          "id": "t15",
+          "title": "Collocations de negócios",
+          "short": "take action, meet a deadline, pose a risk…",
+          "intro": "Combinações que o nativo usa por hábito. A tradução literal até se entende, mas soa estrangeira. É aqui que o B2 começa a soar como C1.",
+          "cefr": [
+            "B2",
+            "B2",
+            "C1"
+          ],
+          "skills": [
+            {
+              "id": "decisions",
+              "title": "Decisões e ações",
+              "tip": "make a decision, take action, take steps, reach a conclusion, weigh the options.",
+              "ex": "We need to take action now."
+            },
+            {
+              "id": "deadlines",
+              "title": "Prazos",
+              "tip": "meet / miss / set / extend a deadline.",
+              "ex": "We met the deadline."
+            },
+            {
+              "id": "meetings",
+              "title": "Reuniões",
+              "tip": "hold / run / chair a meeting, set the agenda, take the minutes.",
+              "ex": "Who's going to take the minutes?"
+            },
+            {
+              "id": "risks",
+              "title": "Problemas e riscos",
+              "tip": "raise an issue, address a problem, tackle a challenge, pose a risk, flag a concern.",
+              "ex": "This supplier poses a serious risk."
+            },
+            {
+              "id": "contracts",
+              "title": "Acordos e contratos",
+              "tip": "reach an agreement, close / strike a deal, enter into, renew, terminate, breach a contract.",
+              "ex": "We terminated the contract."
+            },
+            {
+              "id": "money",
+              "title": "Dinheiro",
+              "tip": "cut costs, allocate a budget, generate revenue, make a profit / a loss.",
+              "ex": "We need to cut costs."
+            },
+            {
+              "id": "governance",
+              "title": "Governança e risco",
+              "tip": "conduct an audit / due diligence, mitigate risks, ensure compliance, monitor performance.",
+              "ex": "We conduct due diligence on all suppliers."
+            },
+            {
+              "id": "intens",
+              "title": "Intensificadores naturais",
+              "tip": "highly likely, strongly recommend, deeply concerned, fully aware.",
+              "ex": "It's highly likely they'll accept."
+            }
+          ]
+        },
+        {
+          "id": "t16",
+          "title": "Comparações e intensificadores",
+          "short": "far cheaper, the sooner the better, as … as…",
+          "intro": "Comparar opções, fornecedores e propostas com nuance, e escolher o intensificador certo para cada adjetivo.",
+          "cefr": [
+            "B2",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "degree",
+              "title": "Grau da diferença",
+              "tip": "much / far / a lot ou slightly / a bit + comparativo. VERY não modifica comparativo.",
+              "ex": "This option is far cheaper."
+            },
+            {
+              "id": "thethe",
+              "title": "THE ... THE",
+              "tip": "Quanto mais..., mais...: THE nas duas metades.",
+              "ex": "The sooner we start, the better."
+            },
+            {
+              "id": "asas",
+              "title": "AS ... AS",
+              "tip": "not as ... as, twice as ... as, as soon as possible. THAN só com comparativo.",
+              "ex": "It's not as expensive as I thought."
+            },
+            {
+              "id": "superl",
+              "title": "Superlativo + experiência",
+              "tip": "the best ... we've ever ...; one of the most ... + plural.",
+              "ex": "It's the best proposal we've ever received."
+            },
+            {
+              "id": "advcomp",
+              "title": "Comparar advérbios",
+              "tip": "more slowly, harder, more efficiently.",
+              "ex": "Could you speak more slowly?"
+            },
+            {
+              "id": "likeas",
+              "title": "LIKE × AS · semelhança",
+              "tip": "AS = função real; LIKE = parece. the same as, similar to, different from.",
+              "ex": "I work as a manager."
+            },
+            {
+              "id": "sosuch",
+              "title": "SO · SUCH · TOO · ENOUGH",
+              "tip": "so + adjetivo; such (a) + adjetivo + substantivo; too = demais; enough depois do adjetivo.",
+              "ex": "It's good enough."
+            },
+            {
+              "id": "extreme",
+              "title": "Adjetivos extremos",
+              "tip": "Com essential, exhausted, brilliant: ABSOLUTELY ou REALLY, nunca VERY.",
+              "ex": "It's absolutely essential."
+            }
+          ]
+        }
+      ],
+      "locked": true
     },
     {
       "id": "lote4",
       "title": "Lote 4 · Trabalho e viagem",
       "level": "B2",
       "color": "#0F5132",
-      "soon": ["Reuniões I", "Reuniões II", "Apresentações", "E-mails profissionais", "Negociação", "Viagem", "Small talk e networking"],
-      "topics": []
+      "topics": [
+        {
+          "id": "t17",
+          "title": "Reuniões I",
+          "short": "Abrir, opinar, concordar e discordar",
+          "intro": "Frases prontas para reuniões. Na pressão, frase decorada sai inteira e sem erro, e libera a cabeça para o conteúdo.",
+          "cefr": [
+            "B2",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "open",
+              "title": "Abrir a reunião",
+              "tip": "Let's get started. Thanks for joining. The purpose of today's meeting is TO...",
+              "ex": "The purpose of today's meeting is to review Q3."
+            },
+            {
+              "id": "agenda",
+              "title": "Conduzir a pauta",
+              "tip": "items on the agenda, move on to, come back to that later.",
+              "ex": "Let's move on to the next point."
+            },
+            {
+              "id": "opinion",
+              "title": "Dar opinião",
+              "tip": "In my view, from my perspective, as I see it, I'd say that. Não junte 'in my opinion' com 'I think'.",
+              "ex": "From my perspective, we need more data."
+            },
+            {
+              "id": "askop",
+              "title": "Pedir opinião",
+              "tip": "What's your take on this? How do you feel about...? Any thoughts?",
+              "ex": "What's your take on this?"
+            },
+            {
+              "id": "agree",
+              "title": "Concordar",
+              "tip": "I agree (sem TO BE). Exactly. That's a good point. I'm with you on that.",
+              "ex": "I completely agree."
+            },
+            {
+              "id": "disagree",
+              "title": "Discordar com diplomacia",
+              "tip": "I see your point, but... I'm not sure I agree. I'd look at it differently.",
+              "ex": "I see your point, but I see it differently."
+            },
+            {
+              "id": "partial",
+              "title": "Concordar em parte",
+              "tip": "I agree up to a point. That may be true, but... Fair enough, but...",
+              "ex": "I partly agree."
+            },
+            {
+              "id": "suggest",
+              "title": "Sugerir",
+              "tip": "Why don't we...? What if we...? How about + -ING? I'd suggest that...",
+              "ex": "How about calling them?"
+            }
+          ]
+        },
+        {
+          "id": "t18",
+          "title": "Reuniões II",
+          "short": "Interromper, esclarecer e encerrar",
+          "intro": "O difícil não é apresentar: é entrar na conversa, pedir para repetir sem constrangimento e fechar com próximos passos claros.",
+          "cefr": [
+            "B2",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "interrupt",
+              "title": "Interromper com educação",
+              "tip": "Sorry to interrupt, but... Can I just jump in? If I could add something...",
+              "ex": "Sorry to interrupt, but can I add something?"
+            },
+            {
+              "id": "retake",
+              "title": "Retomar a palavra",
+              "tip": "If I could just finish my point... Let me finish (sem TO). Going back to...",
+              "ex": "Just to finish what I was saying..."
+            },
+            {
+              "id": "clarify",
+              "title": "Pedir esclarecimento",
+              "tip": "Could you clarify...? What exactly do you mean? Could you give us an example?",
+              "ex": "Could you explain that in more detail?"
+            },
+            {
+              "id": "repeat",
+              "title": "Pedir repetição (calls)",
+              "tip": "Sorry, I didn't catch that. You're breaking up. I think you're on mute.",
+              "ex": "Sorry, I didn't catch that."
+            },
+            {
+              "id": "confirm",
+              "title": "Confirmar entendimento",
+              "tip": "If I understand correctly... Just to make sure we're on the same page... Does that make sense?",
+              "ex": "So what you're saying is..."
+            },
+            {
+              "id": "buytime",
+              "title": "Ganhar tempo",
+              "tip": "That's a good question. Let me think. I'll check and get back to you.",
+              "ex": "I'll get back to you."
+            },
+            {
+              "id": "nextsteps",
+              "title": "Próximos passos",
+              "tip": "The next steps are... Who's going to take care of / own...? Let's set a deadline.",
+              "ex": "Who's going to own this?"
+            },
+            {
+              "id": "close",
+              "title": "Encerrar",
+              "tip": "I think we've covered everything. Let's wrap up. I'll send the minutes.",
+              "ex": "Let's wrap up here."
+            }
+          ]
+        },
+        {
+          "id": "t19",
+          "title": "Apresentações",
+          "short": "Estrutura, transições, dados e perguntas",
+          "intro": "As frases de transição são sempre as mesmas; só o conteúdo muda. Automatizadas, deixam a apresentação muito mais segura.",
+          "cefr": [
+            "B2",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "opening",
+              "title": "Abertura",
+              "tip": "Today I'm going to talk TO you ABOUT... I'll be presenting...",
+              "ex": "Today I'm going to talk about our results."
+            },
+            {
+              "id": "structure",
+              "title": "Mostrar a estrutura",
+              "tip": "I've divided it INTO three parts. First, then, finally. Feel free to ask at the end.",
+              "ex": "I've divided my presentation into three parts."
+            },
+            {
+              "id": "transitions",
+              "title": "Transições",
+              "tip": "Moving on to... This brings me to... Let's now turn to... As I mentioned earlier...",
+              "ex": "This brings me to my next point."
+            },
+            {
+              "id": "data",
+              "title": "Dados e gráficos",
+              "tip": "As you can see (from this chart)... This chart shows...",
+              "ex": "As you can see, sales rose."
+            },
+            {
+              "id": "trends",
+              "title": "Vocabulário de tendência",
+              "tip": "rise, fall, drop, peak, level off; sharply, slightly, steadily. Diferença: BY; valor final: TO.",
+              "ex": "Costs increased by 10%."
+            },
+            {
+              "id": "emphasis",
+              "title": "Dar ênfase",
+              "tip": "The key point is... What's really important is... I'd like to highlight / emphasize...",
+              "ex": "I'd like to highlight three things."
+            },
+            {
+              "id": "qa",
+              "title": "Responder perguntas",
+              "tip": "That's a great question. Does that answer your question? I'll find out and get back to you.",
+              "ex": "I'm not sure, but I'll find out."
+            },
+            {
+              "id": "closing",
+              "title": "Encerrar",
+              "tip": "To wrap up... The main takeaway is... Thank you for your attention.",
+              "ex": "The main takeaway is that we need to act now."
+            }
+          ]
+        },
+        {
+          "id": "t20",
+          "title": "E-mails profissionais",
+          "short": "Saudação, pedidos, anexos, prazos e fechamento",
+          "intro": "E-mail em inglês é curto, direto e educado. 'Segue anexo', 'aguardo retorno' e 'qualquer dúvida' não se traduzem: têm equivalentes fixos.",
+          "cefr": [
+            "B1",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "greeting",
+              "title": "Saudação",
+              "tip": "Dear Ms. + sobrenome (formal); Hi + primeiro nome (neutro). I hope you're well.",
+              "ex": "Dear Ms. Carter,"
+            },
+            {
+              "id": "purpose",
+              "title": "Propósito",
+              "tip": "I'm writing to... I'm reaching out regarding... Following our call... Further to...",
+              "ex": "I'm writing to confirm the meeting."
+            },
+            {
+              "id": "request",
+              "title": "Pedir algo",
+              "tip": "Could you please...? I'd appreciate it if you could... Would it be possible to...?",
+              "ex": "Could you please send the file?"
+            },
+            {
+              "id": "attach",
+              "title": "Anexos",
+              "tip": "Please find attached... I've attached... As requested, attached is...",
+              "ex": "Please find the contract attached."
+            },
+            {
+              "id": "followup",
+              "title": "Cobrar com educação",
+              "tip": "Just following up on... I wanted to check in on... Any update on this?",
+              "ex": "Just following up on my previous e-mail."
+            },
+            {
+              "id": "deadline",
+              "title": "Prazos",
+              "tip": "BY Friday (prazo final; UNTIL é duração), by end of day, at your earliest convenience.",
+              "ex": "Please send it by Friday."
+            },
+            {
+              "id": "apology",
+              "title": "Desculpas e más notícias",
+              "tip": "Apologies for the delay. Unfortunately... I'm afraid we won't be able to...",
+              "ex": "Sorry for the late reply."
+            },
+            {
+              "id": "closing",
+              "title": "Fechamento",
+              "tip": "Let me know if you have any questions (dúvida = question). Looking forward to hearing from you. Best regards.",
+              "ex": "Please let me know if you have any questions."
+            }
+          ]
+        },
+        {
+          "id": "t21",
+          "title": "Negociação",
+          "short": "Propor, condicionar, pressionar, conceder e recusar",
+          "intro": "Em negociação o tom pesa tanto quanto o conteúdo. Condicionais e modais (could, would, might) pressionam sem confrontar.",
+          "cefr": [
+            "B2",
+            "B2",
+            "C1"
+          ],
+          "skills": [
+            {
+              "id": "open",
+              "title": "Abrir e situar",
+              "tip": "We'd like to find a solution that works for both sides. Our main priority is...",
+              "ex": "We'd like to reach an agreement."
+            },
+            {
+              "id": "propose",
+              "title": "Propor",
+              "tip": "We'd like to offer you... What we can offer is... How would you feel about...?",
+              "ex": "We'd like to offer you a discount."
+            },
+            {
+              "id": "condition",
+              "title": "Condicionar",
+              "tip": "If you can..., we could... provided that / as long as + presente (sem WILL).",
+              "ex": "If you reduce the price, we'll sign."
+            },
+            {
+              "id": "pressure",
+              "title": "Pressionar com elegância",
+              "tip": "That's a bit higher than we expected. Is there any flexibility? The PRICE is high (o produto é expensive).",
+              "ex": "Your price is a bit high."
+            },
+            {
+              "id": "concede",
+              "title": "Conceder",
+              "tip": "We could consider... We might be able to... In return, we'd need...",
+              "ex": "We could accept that, in return for a longer term."
+            },
+            {
+              "id": "refuse",
+              "title": "Recusar",
+              "tip": "I'm afraid that's not possible. We're not in a position to... That would be difficult for us.",
+              "ex": "I'm afraid that won't be possible."
+            },
+            {
+              "id": "buytime",
+              "title": "Ganhar tempo",
+              "tip": "I'll need to discuss this with my team. Let me run this by finance. I need to think it over.",
+              "ex": "Let me run this by finance."
+            },
+            {
+              "id": "close",
+              "title": "Fechar",
+              "tip": "So, do we have a deal? Shall we...? Let's put this in writing.",
+              "ex": "Let's put this in writing."
+            }
+          ]
+        },
+        {
+          "id": "t22",
+          "title": "Viagem",
+          "short": "Aeroporto, hotel, restaurante e imprevistos",
+          "intro": "Situações previsíveis, frases previsíveis. 'Could I...?' e 'I'd like...' resolvem a maioria dos pedidos com educação.",
+          "cefr": [
+            "B1",
+            "B1",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "airport",
+              "title": "Aeroporto",
+              "tip": "aisle / window seat, on time, delayed. Perder o voo = MISS (LOSE é perder objeto).",
+              "ex": "I missed my flight."
+            },
+            {
+              "id": "luggage",
+              "title": "Bagagem",
+              "tip": "LUGGAGE e BAGGAGE são incontáveis. baggage claim, carry-on bag.",
+              "ex": "My luggage didn't arrive."
+            },
+            {
+              "id": "hotel",
+              "title": "Hotel",
+              "tip": "I have a reservation under the name... MAKE a reservation. late check-out.",
+              "ex": "I have a reservation under the name Silva."
+            },
+            {
+              "id": "hotelprob",
+              "title": "Problemas no hotel",
+              "tip": "...isn't working. Quebrado = BROKEN (broke = sem dinheiro). There's a problem with...",
+              "ex": "The AC isn't working."
+            },
+            {
+              "id": "restaurant",
+              "title": "Restaurante",
+              "tip": "A table for two. I'll have... (não 'I want'). The check (EUA) / the bill (RU).",
+              "ex": "I'll have the salmon, please."
+            },
+            {
+              "id": "directions",
+              "title": "Transporte e direções",
+              "tip": "How do I get TO...? Is it within walking distance?",
+              "ex": "How do I get to the station?"
+            },
+            {
+              "id": "shopping",
+              "title": "Compras e pagamento",
+              "tip": "How much is this? Can I pay by card? Do you take credit cards? a receipt.",
+              "ex": "Could I get a receipt, please?"
+            },
+            {
+              "id": "help",
+              "title": "Ajuda e emergência",
+              "tip": "Could you help me? Where's the nearest...? I need to see a doctor. I've lost my...",
+              "ex": "I've lost my passport."
+            }
+          ]
+        },
+        {
+          "id": "t23",
+          "title": "Small talk e networking",
+          "short": "Começar, manter e encerrar conversas",
+          "intro": "O objetivo do small talk não é informação, é conexão. Perguntas abertas e reações naturais valem mais do que frases perfeitas.",
+          "cefr": [
+            "B1",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "start",
+              "title": "Começar",
+              "tip": "How's it going? Is this your first time in...? Mind if I join you? Responda 'Good, thanks! How about you?'.",
+              "ex": "How was your flight?"
+            },
+            {
+              "id": "introduce",
+              "title": "Apresentar-se",
+              "tip": "work AT (empresa), IN (área), ON (projeto). I'm in charge of... I've been in this field for...",
+              "ex": "I work in compliance."
+            },
+            {
+              "id": "openq",
+              "title": "Perguntas abertas",
+              "tip": "What do you do? What brings you here? How did you get into this field?",
+              "ex": "What brings you here?"
+            },
+            {
+              "id": "keep",
+              "title": "Manter a conversa",
+              "tip": "Oh, really? How so? That sounds interesting. What was that like? Tell me more.",
+              "ex": "That sounds interesting. What was that like?"
+            },
+            {
+              "id": "safe",
+              "title": "Temas seguros",
+              "tip": "O evento, viagens, comida, a cidade. Salário, religião e política ficam de fora.",
+              "ex": "What did you think of the keynote?"
+            },
+            {
+              "id": "thanks",
+              "title": "Agradecer e responder",
+              "tip": "Thanks, I appreciate it. You're welcome / No problem / My pleasure / No worries. Nunca 'nothing'.",
+              "ex": "My pleasure."
+            },
+            {
+              "id": "leave",
+              "title": "Sair da conversa",
+              "tip": "It was great talking to you. I should let you go. Let's keep in touch.",
+              "ex": "It was great talking to you."
+            },
+            {
+              "id": "after",
+              "title": "Depois do evento",
+              "tip": "It was great MEETING you (primeiro encontro). As promised... Let's grab a coffee sometime.",
+              "ex": "It was a pleasure meeting you."
+            }
+          ]
+        }
+      ],
+      "locked": true
     },
     {
       "id": "lote5",
       "title": "Lote 5 · Rumo ao C1",
       "level": "C1",
       "color": "#3B2F63",
-      "soon": ["Hedging", "Inversão e ênfase", "Registro formal e informal", "Estruturas avançadas", "Vocabulário de nuance"],
-      "topics": []
+      "topics": [
+        {
+          "id": "t24",
+          "title": "Hedging",
+          "short": "Falar com cautela e precisão",
+          "intro": "Suavizar afirmações para soar preciso, diplomático e profissional. Uma das marcas mais claras do C1, essencial em auditoria e risco, onde raramente há 100% de certeza.",
+          "cefr": [
+            "B2",
+            "C1",
+            "C1"
+          ],
+          "skills": [
+            {
+              "id": "verbs",
+              "title": "Verbos de cautela",
+              "tip": "seem, appear, tend to, suggest, indicate.",
+              "ex": "The data appears to be incomplete."
+            },
+            {
+              "id": "modals",
+              "title": "Modais de suavização",
+              "tip": "may, might, could, would. It might be worth + -ING.",
+              "ex": "This could pose a risk."
+            },
+            {
+              "id": "adverbs",
+              "title": "Advérbios de cautela",
+              "tip": "probably, arguably, presumably, largely, to some extent.",
+              "ex": "This is arguably our biggest challenge."
+            },
+            {
+              "id": "vague",
+              "title": "Quantificadores vagos",
+              "tip": "some, most, a number of, the majority of, in many cases. Evite 'all' e 'always'.",
+              "ex": "A number of suppliers are late."
+            },
+            {
+              "id": "intro",
+              "title": "Frases introdutórias",
+              "tip": "It could be argued that... There is some evidence that... From what I understand... As far as I know...",
+              "ex": "From what I understand, they're likely to pay."
+            },
+            {
+              "id": "crit",
+              "title": "Suavizar críticas",
+              "tip": "It's not quite what we expected. There's some room for improvement. It could be a little clearer.",
+              "ex": "This report isn't quite there yet."
+            },
+            {
+              "id": "req",
+              "title": "Suavizar pedidos",
+              "tip": "I was wondering if you could... Would you mind...? It would be great if...",
+              "ex": "I was wondering if you could send it today."
+            },
+            {
+              "id": "overdo",
+              "title": "Não exagere",
+              "tip": "Uma camada de cautela basta. Em fatos e decisões, seja direto.",
+              "ex": "It may be a problem."
+            }
+          ]
+        },
+        {
+          "id": "t25",
+          "title": "Inversão e ênfase",
+          "short": "Never have I…, not only…, what we need is…",
+          "intro": "Estruturas para destacar uma ideia. A inversão é formal (escrita e apresentações); as cleft sentences são comuns também na fala.",
+          "cefr": [
+            "C1",
+            "C1",
+            "C1"
+          ],
+          "skills": [
+            {
+              "id": "negadv",
+              "title": "Advérbio negativo + inversão",
+              "tip": "never, rarely, seldom, little, under no circumstances + auxiliar + sujeito.",
+              "ex": "Rarely have we seen such results."
+            },
+            {
+              "id": "notonly",
+              "title": "NOT ONLY ... BUT ALSO",
+              "tip": "No início da frase, inverte com o auxiliar.",
+              "ex": "Not only did they miss the deadline, but they also raised the price."
+            },
+            {
+              "id": "nosooner",
+              "title": "NO SOONER / HARDLY",
+              "tip": "NO SOONER had ... THAN; HARDLY had ... WHEN.",
+              "ex": "No sooner had we signed than the price changed."
+            },
+            {
+              "id": "invcond",
+              "title": "Condicional invertida",
+              "tip": "Should you..., Had we..., Were it not for... Ou IF, ou inversão.",
+              "ex": "Should you have any questions, contact me."
+            },
+            {
+              "id": "onlyinv",
+              "title": "ONLY + inversão",
+              "tip": "only then / after / when / by + inversão na oração principal. Também NOT UNTIL.",
+              "ex": "Only after the audit did we find the problem."
+            },
+            {
+              "id": "cleftwhat",
+              "title": "Cleft com WHAT",
+              "tip": "WHAT + frase + IS: coloca o foco no fim.",
+              "ex": "What we need is more time."
+            },
+            {
+              "id": "cleftit",
+              "title": "Cleft com IT",
+              "tip": "IT WAS ... WHO / THAT: destaca quem ou o quê.",
+              "ex": "It was the supplier who made the mistake."
+            },
+            {
+              "id": "emphdo",
+              "title": "DO enfático",
+              "tip": "DO / DOES / DID + verbo base para reforçar ou contradizer.",
+              "ex": "I do understand your concern."
+            }
+          ]
+        },
+        {
+          "id": "t26",
+          "title": "Registro formal e informal",
+          "short": "Escolher o tom certo para cada canal",
+          "intro": "C1 não é falar sempre formal: é escolher o registro certo. Contrato, e-mail externo, reunião interna e chat pedem vocabulário diferente para a mesma ideia.",
+          "cefr": [
+            "B2",
+            "C1",
+            "C1"
+          ],
+          "skills": [
+            {
+              "id": "phrasal",
+              "title": "Phrasal (neutro) → formal",
+              "tip": "ask for → request, find out → determine, look into → investigate, put off → postpone, go up → increase.",
+              "ex": "The launch has been postponed."
+            },
+            {
+              "id": "contract",
+              "title": "Contrações",
+              "tip": "Fala e e-mail interno: I'm, don't. Contrato e relatório: I am, do not. Em contrato, SHALL = obrigação.",
+              "ex": "The Supplier shall not disclose data."
+            },
+            {
+              "id": "nominal",
+              "title": "Nominalização",
+              "tip": "Verbo vira substantivo na escrita formal: fail → failure, decide → decision.",
+              "ex": "Their failure to deliver resulted in losses."
+            },
+            {
+              "id": "scale",
+              "title": "Escala de pedidos",
+              "tip": "Send me → Can you → Could you → Would you mind → I would be grateful if you could.",
+              "ex": "Could you send me the report when you have a moment?"
+            },
+            {
+              "id": "connreg",
+              "title": "Conectores por registro",
+              "tip": "but → however, so → therefore, also → furthermore, about → regarding, like → such as.",
+              "ex": "As previously mentioned, ..."
+            },
+            {
+              "id": "formalmail",
+              "title": "E-mail formal",
+              "tip": "Further to our conversation... Please do not hesitate to contact me. I look forward to your reply.",
+              "ex": "Please do not hesitate to contact me."
+            },
+            {
+              "id": "informal",
+              "title": "Informal natural",
+              "tip": "Sounds good. No worries. I'm on it. Quick question: ... Heads up: ...",
+              "ex": "Sounds good, I'm on it!"
+            },
+            {
+              "id": "channel",
+              "title": "Ajustar ao canal",
+              "tip": "Escolha um registro e mantenha do início ao fim.",
+              "ex": "Chat: Can you take a look? E-mail: Could you please review...?"
+            }
+          ]
+        },
+        {
+          "id": "t27",
+          "title": "Estruturas avançadas",
+          "short": "Particípios, subjuntivo, would rather, as if",
+          "intro": "Recursos que deixam a frase compacta e sofisticada. Usados com moderação, marcam o nível C1.",
+          "cefr": [
+            "C1",
+            "C1",
+            "C1"
+          ],
+          "skills": [
+            {
+              "id": "participle",
+              "title": "Orações com particípio",
+              "tip": "Having reviewed..., Given the risks..., Founded in 1905... Depois de preposição, -ING.",
+              "ex": "Having reviewed the contract, we signed."
+            },
+            {
+              "id": "dangling",
+              "title": "Particípio: mesmo sujeito",
+              "tip": "O sujeito implícito precisa ser o mesmo da oração principal.",
+              "ex": "Walking to the office, I saw an accident."
+            },
+            {
+              "id": "subjunctive",
+              "title": "Subjuntivo formal",
+              "tip": "recommend / insist / require / essential that + sujeito + verbo base (sem -S, sem TO).",
+              "ex": "We recommend that he be informed."
+            },
+            {
+              "id": "rather",
+              "title": "WOULD RATHER · HAD BETTER",
+              "tip": "Sem TO. Para outra pessoa: I'd rather you + passado.",
+              "ex": "I'd rather stay. You'd better check."
+            },
+            {
+              "id": "asif",
+              "title": "AS IF / AS THOUGH",
+              "tip": "Irreal: verbo recua (as if he were). Provável: sem recuo.",
+              "ex": "He talks as if he knew everything."
+            },
+            {
+              "id": "reduced",
+              "title": "Relativas reduzidas e formais",
+              "tip": "the supplier responsible for..., documents submitted after..., the person to whom I spoke.",
+              "ex": "The person (who) I spoke to."
+            },
+            {
+              "id": "subst",
+              "title": "Substituição e elipse",
+              "tip": "I think so, I hope not, I'm afraid so, if you haven't done so.",
+              "ex": "I think so. / I don't think so."
+            },
+            {
+              "id": "ever",
+              "title": "WHATEVER · HOWEVER · WHOEVER",
+              "tip": "o que quer que, por mais que, quem quer que. WHAT é singular.",
+              "ex": "Whatever happens, keep me informed."
+            }
+          ]
+        },
+        {
+          "id": "t28",
+          "title": "Vocabulário de nuance",
+          "short": "Advérbios de atitude, verbos precisos, colocações C1",
+          "intro": "No C1 a gramática deixa de ser o gargalo: o desafio é a palavra exata. Verbos precisos e colocações substituem o vocabulário genérico.",
+          "cefr": [
+            "C1",
+            "C1",
+            "C1"
+          ],
+          "skills": [
+            {
+              "id": "attitude",
+              "title": "Advérbios de atitude",
+              "tip": "admittedly, arguably, presumably, undoubtedly, understandably: mostram sua posição.",
+              "ex": "Admittedly, we made some mistakes."
+            },
+            {
+              "id": "sophconn",
+              "title": "Conectores sofisticados",
+              "tip": "albeit (+ adjetivo), hence, thus, thereby, nonetheless.",
+              "ex": "The results were positive, albeit limited."
+            },
+            {
+              "id": "precise",
+              "title": "Verbos precisos",
+              "tip": "streamline, undermine, oversee, leverage, foster, enhance, ensure.",
+              "ex": "We streamlined the onboarding process."
+            },
+            {
+              "id": "corpnoun",
+              "title": "Substantivos corporativos",
+              "tip": "trade-off, buy-in, bottleneck, accountability, oversight, stakeholder.",
+              "ex": "There's a trade-off between cost and risk."
+            },
+            {
+              "id": "idioms",
+              "title": "Expressões idiomáticas",
+              "tip": "a ballpark figure, on the same page, the bottom line, back to square one, cut corners, touch base.",
+              "ex": "Can you give me a ballpark figure?"
+            },
+            {
+              "id": "feelings",
+              "title": "Gradação de atitude",
+              "tip": "wary of (desconfiado), reluctant to (relutante), keen on (interessado), concerned < worried < alarmed.",
+              "ex": "We're wary of long-term commitments."
+            },
+            {
+              "id": "argue",
+              "title": "Verbos de argumentação",
+              "tip": "argue, contend, maintain, acknowledge, challenge. DISCUSS = conversar sobre.",
+              "ex": "I'd argue that the risk is manageable."
+            },
+            {
+              "id": "colloc",
+              "title": "Colocações de nível C1",
+              "tip": "a steep learning curve, a viable alternative, a robust framework, raise awareness, bridge the gap.",
+              "ex": "It has a steep learning curve."
+            }
+          ]
+        }
+      ],
+      "locked": true
     }
   ]
 }

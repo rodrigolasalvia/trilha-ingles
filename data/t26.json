@@ -1,0 +1,670 @@
+{
+ "topic": "t26",
+ "items": [
+  {
+   "id": "t26-1-001",
+   "topic": "t26",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Formal de 'ask for': 'We would like to ___ an extension.'",
+   "options": [
+    "request",
+    "ask",
+    "demand for"
+   ],
+   "answer": "request",
+   "explain": "ASK FOR → REQUEST.",
+   "skill": "phrasal",
+   "cefr": "B2"
+  },
+  {
+   "id": "t26-1-002",
+   "topic": "t26",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Formal de 'put off': 'The launch has been ___.'",
+   "options": [
+    "postponed",
+    "put away",
+    "delayed off"
+   ],
+   "answer": "postponed",
+   "explain": "PUT OFF → POSTPONE.",
+   "skill": "phrasal",
+   "cefr": "B2"
+  },
+  {
+   "id": "t26-1-003",
+   "topic": "t26",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Formal de 'find out': 'We need to ___ the cause.'",
+   "options": [
+    "determine",
+    "find",
+    "discover out"
+   ],
+   "answer": "determine",
+   "explain": "FIND OUT → DETERMINE / ESTABLISH.",
+   "skill": "phrasal",
+   "cefr": "B2"
+  },
+  {
+   "id": "t26-1-004",
+   "topic": "t26",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Num contrato: 'The Supplier ___ not disclose any data.'",
+   "options": [
+    "shall",
+    "will be",
+    "won't"
+   ],
+   "answer": "shall",
+   "explain": "SHALL = obrigação em contrato.",
+   "skill": "contract",
+   "cefr": "B2"
+  },
+  {
+   "id": "t26-1-005",
+   "topic": "t26",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Num relatório formal, qual forma usar?",
+   "options": [
+    "do not",
+    "don't",
+    "dont"
+   ],
+   "answer": "do not",
+   "explain": "Texto formal: sem contração.",
+   "skill": "contract",
+   "cefr": "B2"
+  },
+  {
+   "id": "t26-1-006",
+   "topic": "t26",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Nominalização de 'fail': 'Their ___ to deliver caused losses.'",
+   "options": [
+    "failure",
+    "failing",
+    "fail"
+   ],
+   "answer": "failure",
+   "explain": "FAIL → FAILURE.",
+   "skill": "nominal",
+   "cefr": "B2"
+  },
+  {
+   "id": "t26-1-007",
+   "topic": "t26",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Nominalização de 'decide': 'The ___ was made in May.'",
+   "options": [
+    "decision",
+    "deciding",
+    "decide"
+   ],
+   "answer": "decision",
+   "explain": "DECIDE → DECISION.",
+   "skill": "nominal",
+   "cefr": "B2"
+  },
+  {
+   "id": "t26-1-008",
+   "topic": "t26",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Pedido mais formal:",
+   "options": [
+    "I would be grateful if you could send the report.",
+    "Send me the report.",
+    "Can you send the report?"
+   ],
+   "answer": "I would be grateful if you could send the report.",
+   "explain": "Topo da escala de formalidade.",
+   "skill": "scale",
+   "cefr": "B2"
+  },
+  {
+   "id": "t26-1-009",
+   "topic": "t26",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Pedido neutro e educado para um colega:",
+   "options": [
+    "Could you send me the report when you have a moment?",
+    "Send report now.",
+    "I demand the report."
+   ],
+   "answer": "Could you send me the report when you have a moment?",
+   "explain": "COULD YOU... WHEN YOU HAVE A MOMENT.",
+   "skill": "scale",
+   "cefr": "B2"
+  },
+  {
+   "id": "t26-1-010",
+   "topic": "t26",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Formal de 'so': 'Costs rose; ___, prices were adjusted.'",
+   "options": [
+    "therefore",
+    "so",
+    "then so"
+   ],
+   "answer": "therefore",
+   "explain": "SO → THEREFORE.",
+   "skill": "connreg",
+   "cefr": "B2"
+  },
+  {
+   "id": "t26-1-011",
+   "topic": "t26",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Formal de 'about': '___ your request, ...'",
+   "options": [
+    "Regarding",
+    "About of",
+    "Around"
+   ],
+   "answer": "Regarding",
+   "explain": "ABOUT → REGARDING.",
+   "skill": "connreg",
+   "cefr": "B2"
+  },
+  {
+   "id": "t26-1-012",
+   "topic": "t26",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "E-mail formal: 'Please do not ___ to contact me.'",
+   "options": [
+    "hesitate",
+    "doubt",
+    "wait"
+   ],
+   "answer": "hesitate",
+   "explain": "PLEASE DO NOT HESITATE TO CONTACT ME.",
+   "skill": "formalmail",
+   "cefr": "B2"
+  },
+  {
+   "id": "t26-1-013",
+   "topic": "t26",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Chat informal: 'Can you review it?' — resposta:",
+   "options": [
+    "Sure, I'm on it!",
+    "I shall proceed accordingly.",
+    "Your request has been duly noted."
+   ],
+   "answer": "Sure, I'm on it!",
+   "explain": "Informal natural.",
+   "skill": "informal",
+   "cefr": "B2"
+  },
+  {
+   "id": "t26-1-014",
+   "topic": "t26",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'___ worries!' (informal)",
+   "options": [
+    "No",
+    "Not",
+    "Any"
+   ],
+   "answer": "No",
+   "explain": "NO WORRIES = sem problema.",
+   "skill": "informal",
+   "cefr": "B2"
+  },
+  {
+   "id": "t26-1-015",
+   "topic": "t26",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Qual mensagem mantém um registro só?",
+   "options": [
+    "Hi Ana, could you take a look at the draft? Thanks!",
+    "Hi Ana, I hereby request that you take a look, thx!",
+    "Dear Madam, can u check it pls?"
+   ],
+   "answer": "Hi Ana, could you take a look at the draft? Thanks!",
+   "explain": "Não misture registros.",
+   "skill": "channel",
+   "cefr": "B2"
+  },
+  {
+   "id": "t26-2-001",
+   "topic": "t26",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The price will go up 5%. (relatório formal)",
+   "options": [
+    "The price will increase by 5%.",
+    "The price will go up by 5% formally.",
+    "The price will rise up 5%."
+   ],
+   "answer": "The price will increase by 5%.",
+   "explain": "GO UP → INCREASE.",
+   "skill": "phrasal",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-2-002",
+   "topic": "t26",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We will ___ (investigar: formal de look into) the matter.",
+   "answer": [
+    "investigate",
+    "examine"
+   ],
+   "explain": "LOOK INTO → INVESTIGATE.",
+   "skill": "phrasal",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-2-003",
+   "topic": "t26",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The Buyer won't pay late fees. (contrato)",
+   "options": [
+    "The Buyer shall not pay late fees.",
+    "The Buyer will not to pay late fees.",
+    "The Buyer don't pay late fees."
+   ],
+   "answer": "The Buyer shall not pay late fees.",
+   "explain": "Contrato: SHALL NOT.",
+   "skill": "contract",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-2-004",
+   "topic": "t26",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I ___ (não) agree with this clause. (relatório formal, sem contração)",
+   "answer": [
+    "do not"
+   ],
+   "explain": "Formal: DO NOT.",
+   "skill": "contract",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-2-005",
+   "topic": "t26",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Because they delayed, we lost the client. (formal)",
+   "options": [
+    "Their delay resulted in the loss of the client.",
+    "Their delaying resulted in losing of the client.",
+    "Because delay, we lost client."
+   ],
+   "answer": "Their delay resulted in the loss of the client.",
+   "explain": "Nominalização: DELAY, LOSS.",
+   "skill": "nominal",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-2-006",
+   "topic": "t26",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The ___ (implementação) of the system will take six months.",
+   "answer": [
+    "implementation"
+   ],
+   "explain": "IMPLEMENT → IMPLEMENTATION.",
+   "skill": "nominal",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-2-007",
+   "topic": "t26",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Give me the numbers. (pedido a um diretor)",
+   "options": [
+    "Could you share the numbers with me?",
+    "Give me the numbers please now.",
+    "You give me numbers?"
+   ],
+   "answer": "Could you share the numbers with me?",
+   "explain": "Suba na escala de pedidos.",
+   "skill": "scale",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-2-008",
+   "topic": "t26",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Would you ___ (se importa) reviewing this by Friday?",
+   "answer": [
+    "mind"
+   ],
+   "explain": "WOULD YOU MIND + -ING.",
+   "skill": "scale",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-2-009",
+   "topic": "t26",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Also, the supplier is certified. (relatório formal)",
+   "options": [
+    "Furthermore, the supplier is certified.",
+    "Also of that, the supplier is certified.",
+    "Plus also, the supplier is certified."
+   ],
+   "answer": "Furthermore, the supplier is certified.",
+   "explain": "ALSO → FURTHERMORE.",
+   "skill": "connreg",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-2-010",
+   "topic": "t26",
+   "level": 2,
+   "type": "gap",
+   "prompt": "As previously ___ (mencionado), the deadline is fixed.",
+   "answer": [
+    "mentioned",
+    "stated"
+   ],
+   "explain": "AS PREVIOUSLY MENTIONED.",
+   "skill": "connreg",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-2-011",
+   "topic": "t26",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Further our conversation, I attach the proposal.",
+   "options": [
+    "Further to our conversation, please find attached the proposal.",
+    "Further of our conversation, I attach proposal.",
+    "Furthering our conversation, attached proposal."
+   ],
+   "answer": "Further to our conversation, please find attached the proposal.",
+   "explain": "FURTHER TO.",
+   "skill": "formalmail",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-2-012",
+   "topic": "t26",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I look forward to your ___ (resposta).",
+   "answer": [
+    "reply",
+    "response"
+   ],
+   "explain": "I LOOK FORWARD TO YOUR REPLY.",
+   "skill": "formalmail",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-2-013",
+   "topic": "t26",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Quick ___ (pergunta): are we meeting today?",
+   "answer": [
+    "question"
+   ],
+   "explain": "QUICK QUESTION: informal.",
+   "skill": "informal",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-2-014",
+   "topic": "t26",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (Aviso) up: the client is coming at 3.",
+   "answer": [
+    "Heads"
+   ],
+   "explain": "HEADS UP = aviso prévio.",
+   "skill": "informal",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-2-015",
+   "topic": "t26",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Dear Sir, hey, can u send the file? Best regards.",
+   "options": [
+    "Dear Sir, could you please send the file? Best regards.",
+    "Dear Sir, hey, could u send file? Regards.",
+    "Hey Sir, can you send file? Kind regards dude."
+   ],
+   "answer": "Dear Sir, could you please send the file? Best regards.",
+   "explain": "Mantenha o registro do início ao fim.",
+   "skill": "channel",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-3-001",
+   "topic": "t26",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The meeting has been ___ (cancelado: formal de called off).",
+   "answer": [
+    "cancelled",
+    "canceled"
+   ],
+   "explain": "CALL OFF → CANCEL.",
+   "skill": "phrasal",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-3-002",
+   "topic": "t26",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The Parties ___ (deverão) keep all information confidential.",
+   "answer": [
+    "shall"
+   ],
+   "explain": "Contrato: SHALL.",
+   "skill": "contract",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-3-003",
+   "topic": "t26",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The ___ (redução) of costs is our main priority.",
+   "answer": [
+    "reduction"
+   ],
+   "explain": "REDUCE → REDUCTION.",
+   "skill": "nominal",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-3-004",
+   "topic": "t26",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I would be ___ (grato) if you could confirm receipt.",
+   "answer": [
+    "grateful"
+   ],
+   "explain": "I WOULD BE GRATEFUL IF.",
+   "skill": "scale",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-3-005",
+   "topic": "t26",
+   "level": 3,
+   "type": "gap",
+   "prompt": "___ (Portanto), we recommend terminating the contract.",
+   "answer": [
+    "Therefore",
+    "Consequently",
+    "Thus"
+   ],
+   "explain": "Conector formal de resultado.",
+   "skill": "connreg",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-3-006",
+   "topic": "t26",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Sounds ___ (bom)! See you at 3.",
+   "answer": [
+    "good",
+    "great"
+   ],
+   "explain": "SOUNDS GOOD: informal.",
+   "skill": "informal",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-3-007",
+   "topic": "t26",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Please do not hesitate to contact me.",
+   "explain": "Fechamento formal.",
+   "skill": "formalmail",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-3-008",
+   "topic": "t26",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "The launch has been postponed until further notice.",
+   "explain": "Registro formal.",
+   "skill": "phrasal",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-3-009",
+   "topic": "t26",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Their failure to deliver resulted in significant losses.",
+   "explain": "Nominalização.",
+   "skill": "nominal",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-3-010",
+   "topic": "t26",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Could you take a look when you have a moment?",
+   "explain": "Pedido neutro.",
+   "skill": "scale",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-3-011",
+   "topic": "t26",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Num chat com colega, qual é adequada?",
+   "options": [
+    "Can you take a look at this?",
+    "I hereby request your review.",
+    "Kindly be informed that a review is requested."
+   ],
+   "answer": "Can you take a look at this?",
+   "explain": "Chat: direto e informal.",
+   "skill": "channel",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-3-012",
+   "topic": "t26",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Num e-mail a um cliente novo, qual é adequada?",
+   "options": [
+    "Could you please review the attached proposal?",
+    "Pls check the thing.",
+    "Check it, ok?"
+   ],
+   "answer": "Could you please review the attached proposal?",
+   "explain": "E-mail formal: COULD YOU PLEASE.",
+   "skill": "channel",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-3-013",
+   "topic": "t26",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual é a versão formal de 'We need to sort out this problem'?",
+   "options": [
+    "We need to resolve this issue.",
+    "We need to sort this problem formally.",
+    "We need to fix up this."
+   ],
+   "answer": "We need to resolve this issue.",
+   "explain": "SORT OUT → RESOLVE.",
+   "skill": "phrasal",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-3-014",
+   "topic": "t26",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual é a versão formal de 'like' (exemplo)?",
+   "options": [
+    "such as",
+    "as like",
+    "kind of"
+   ],
+   "answer": "such as",
+   "explain": "LIKE → SUCH AS.",
+   "skill": "connreg",
+   "cefr": "C1"
+  },
+  {
+   "id": "t26-3-015",
+   "topic": "t26",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual fechamento é formal?",
+   "options": [
+    "I look forward to hearing from you.",
+    "Talk soon!",
+    "Cheers!"
+   ],
+   "answer": "I look forward to hearing from you.",
+   "explain": "Fechamento formal.",
+   "skill": "formalmail",
+   "cefr": "C1"
+  }
+ ]
+}

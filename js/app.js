@@ -2,15 +2,18 @@ import * as C from './core.js';
 import { loadState, saveState, clearState, requestPersistence } from './storage.js';
 
 const TYPE_LABEL = { mcq: 'Escolha a opção', fix: 'Escolha a versão correta', gap: 'Complete a lacuna', order: 'Ordene a frase' };
-const STATUS_LABEL = { consolidado: 'Consolidado', em_progresso: 'Em progresso', poucos_dados: 'Poucos dados', sem_conteudo: 'Conteúdo em breve' };
+const STATUS_LABEL = { consolidado: 'Consolidado', em_progresso: 'Em progresso', poucos_dados: 'Poucos dados', sem_conteudo: 'Ainda não disponível' };
 const SESSION_SIZE = 10;
 const MIN_FOR_REINFORCE = 20;
 
 const app = {
   state: C.emptyState(),
   groups: [],
-  topics: [],      // [{group, groupTitle, color, ...topic}]
-  items: [],
+  allTopics: [],   // todos os temas, inclusive os de lotes fechados
+  allItems: [],
+  topics: [],      // temas liberados: [{group, groupTitle, color, ...topic}]
+  items: [],       // exercícios liberados (tudo no app usa só estes)
+  gates: [],       // ids dos grupos fechados, na ordem de liberação
   byId: new Map(),
   session: null,   // sessão em andamento (somente memória)
 };
@@ -33,17 +36,20 @@ async function init() {
   try {
     const topicsData = await fetchJSON('data/topics.json');
     app.groups = topicsData.groups;
-    app.topics = topicsData.groups.flatMap(g => g.topics.map(t => ({ ...t, group: g.id, groupTitle: g.title, color: g.color })));
-    const banks = await Promise.all(app.topics.map(t => fetchJSON(`data/${t.id}.json`).catch(() => ({ items: [] }))));
+    app.gates = app.groups.filter(g => g.locked).map(g => g.id);
+    app.allTopics = topicsData.groups.flatMap(g => g.topics.map(t => ({ ...t, group: g.id, groupTitle: g.title, color: g.color })));
+    const banks = await Promise.all(app.allTopics.map(t => fetchJSON(`data/${t.id}.json`).catch(() => ({ items: [] }))));
     for (const b of banks) {
       for (const it of b.items || []) {
         const errs = C.validateItem(it);
         if (errs.length) { console.warn('Item ignorado', it && it.id, errs); continue; }
         if (app.byId.has(it.id)) continue;
-        app.items.push(it);
+        app.allItems.push(it);
         app.byId.set(it.id, it);
       }
     }
+    applyActive();
+    maybeUnlock();
   } catch (e) {
     $main().innerHTML = `<section class="card"><h2>Não foi possível carregar os exercícios</h2><p>${esc(e.message)}</p><button class="btn" onclick="location.reload()">Tentar de novo</button></section>`;
     return;
@@ -59,6 +65,25 @@ async function fetchJSON(url) {
   const r = await fetch(url, { cache: 'no-cache' });
   if (!r.ok) throw new Error(`${url}: ${r.status}`);
   return r.json();
+}
+
+const groupOpen = g => !g.locked || C.isUnlocked(app.state, g.id);
+
+function applyActive() {
+  const open = new Set(app.groups.filter(groupOpen).map(g => g.id));
+  app.topics = app.allTopics.filter(t => open.has(t.group));
+  const ids = new Set(app.topics.map(t => t.id));
+  app.items = app.allItems.filter(i => ids.has(i.topic));
+}
+
+// Liberação silenciosa: avalia em segundo plano e abre no máximo um lote por vez.
+function maybeUnlock() {
+  const g = C.unlockCheck(app.items, app.state, app.gates);
+  if (!g) return null;
+  app.state.unlocked[g] = Date.now();
+  persist();
+  applyActive();
+  return app.groups.find(x => x.id === g);
 }
 
 function persist() {
@@ -99,14 +124,22 @@ function renderHome() {
   const strk = C.streak(st, now);
   const lvl = C.levelEstimate(app.items, st);
 
+  const fresh = app.groups.filter(g => g.locked && C.isUnlocked(st, g.id) && !st.announced.includes(g.id));
+  const news = fresh.map(g => `<section class="unlock-card" style="--g:${esc(g.color)}">
+      <p class="eyebrow">Novo lote liberado</p>
+      <h2>${esc(g.title)}</h2>
+      <p>${g.topics.length} temas novos: ${esc(g.topics.map(t => t.title).join(' · '))}.</p>
+      <button class="btn" data-ack="${esc(g.id)}">Ver os temas</button>
+    </section>`).join('');
+
   const groups = app.groups.map(g => {
-    if (!g.topics.length) {
+    if (!groupOpen(g)) {
       return `<section class="group group-soon" style="--g:${esc(g.color)}">
         <div class="group-head"><h2><span class="gdot" aria-hidden="true"></span>${esc(g.title)}</h2><span class="pill">${esc(g.level)}</span></div>
-        <div class="soon"><span class="soon-tag">Em breve</span><span>${esc((g.soon || []).join(' · '))}</span></div>
+        <div class="soon"><span class="soon-tag">Fechado</span><span>${esc(g.topics.map(t => t.title).join(' · '))}</span></div>
       </section>`;
     }
-    return `<section class="group" style="--g:${esc(g.color)}">
+    return `<section class="group" id="g-${esc(g.id)}" style="--g:${esc(g.color)}">
       <div class="group-head"><h2><span class="gdot" aria-hidden="true"></span>${esc(g.title)}</h2><span class="pill">${esc(g.level)}</span></div>
       <div class="topic-list">${g.topics.map(t => topicCard(t.id)).join('')}</div>
     </section>`;
@@ -126,8 +159,18 @@ function renderHome() {
       <span><strong>Revisão do dia</strong><br><small>${due ? `${due} ${due === 1 ? 'exercício pendente' : 'exercícios pendentes'}` : 'Nada pendente. Volte amanhã.'}</small></span>
       <span class="review-n" aria-hidden="true">${due ? '→' : '✓'}</span>
     </button>
+    ${news}
     ${groups}
-    <p class="foot-note">${app.items.length} exercícios · ${app.topics.length} temas · os próximos lotes entram em novas versões</p>`;
+    <p class="foot-note">${app.items.length} exercícios · ${app.topics.length} temas</p>`;
+
+  $main().querySelectorAll('[data-ack]').forEach(b => b.addEventListener('click', () => {
+    const id = b.dataset.ack;
+    if (!app.state.announced.includes(id)) app.state.announced.push(id);
+    persist();
+    renderHome();
+    const sec = document.getElementById(`g-${id}`);
+    if (sec) sec.scrollIntoView({ block: 'start' });
+  }));
 
   const rb = document.getElementById('review-btn');
   if (due) rb.addEventListener('click', () => startSession({ mode: 'review', label: 'Revisão do dia' }));
@@ -374,6 +417,8 @@ function nextQuestion() {
 
 function renderSummary() {
   const s = app.session;
+  const opened = maybeUnlock();
+  if (opened) toast(`Novo lote liberado: ${opened.title}`);
   const correct = s.results.filter(r => r.ok).length;
   const wrong = s.results.filter(r => !r.ok).map(r => app.byId.get(r.id));
   const ratio = correct / s.results.length;
@@ -563,7 +608,7 @@ function renderHistory() {
   const ladder = lvl.bands.slice().reverse().map(b => {
     const isMe = b.band === lvl.estimate;
     const width = b.acc == null ? 0 : Math.round(b.acc * 100);
-    const detail = b.status === 'sem_conteudo' ? 'chega nas próximas versões'
+    const detail = b.status === 'sem_conteudo' ? 'sem exercícios disponíveis no momento'
       : b.status === 'poucos_dados' ? `${b.n} de ${C.LEVEL_RULES.minData} respostas mínimas`
       : `${pct(b.acc)} nas últimas ${b.n}`;
     return `<li class="rung st-${b.status} ${isMe ? 'is-me' : ''}">
@@ -580,8 +625,6 @@ function renderHistory() {
   if (lvl.next && lvl.next.status !== 'sem_conteudo') {
     const need = Math.max(0, C.LEVEL_RULES.minSolid - lvl.next.n);
     nextTxt = `Para consolidar <b>${lvl.next.band}</b>: ${C.LEVEL_RULES.solidAcc * 100}% de acerto em pelo menos ${C.LEVEL_RULES.minSolid} respostas dessa faixa${lvl.next.n ? ` (hoje: ${pct(lvl.next.acc)} em ${lvl.next.n}${need ? `, faltam ${need} respostas` : ''})` : ''}.`;
-  } else if (lvl.next && lvl.next.status === 'sem_conteudo') {
-    nextTxt = `Próxima faixa: <b>${lvl.next.band}</b>, cujo conteúdo entra nas próximas versões.`;
   }
 
   const table = app.topics.map(t => {
@@ -669,7 +712,7 @@ function renderSettings() {
   document.getElementById('reset').addEventListener('click', () => {
     if (!confirm('Apagar todo o progresso? Isso não pode ser desfeito.')) return;
     if (!confirm('Tem certeza? Recomendo exportar um backup antes.')) return;
-    clearState(); app.state = C.emptyState(); persist(); toast('Progresso zerado.'); renderSettings();
+    clearState(); app.state = C.emptyState(); persist(); applyActive(); toast('Progresso zerado.'); renderSettings();
   });
   document.getElementById('update').addEventListener('click', checkUpdate);
 }
@@ -699,7 +742,7 @@ async function importBackup(e) {
     const next = C.parseBackup(await f.text());
     const n = C.allAnswers(next).length;
     if (!confirm(`Substituir o progresso atual por este backup (${n} respostas)?`)) return;
-    app.state = next; persist(); toast('Backup importado.'); renderSettings();
+    app.state = next; persist(); applyActive(); maybeUnlock(); toast('Backup importado.'); renderSettings();
   } catch (err) { toast(err.message); }
 }
 

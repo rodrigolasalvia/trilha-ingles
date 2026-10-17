@@ -4,7 +4,8 @@ PWA pessoal de exercícios de inglês por tema (B1 → C1), com repetição espa
 
 - Sem servidor, sem login, sem dependências: só arquivos estáticos.
 - O progresso fica no aparelho (localStorage), com cópia de segurança automática da gravação anterior e exportação/importação de backup em Ajustes.
-- Versão 1.1.0: Revisão de base (A1, A2, B1), Lote 1 e Lote 2: 10 temas, 543 exercícios, cada um marcado com o padrão gramatical (skill) e a faixa CEFR.
+- Versão 1.2.0: 28 temas e 1.488 exercícios (Revisão de base A1–B1 e Lotes 1 a 5, até C1), cada um marcado com o padrão gramatical (skill) e a faixa CEFR.
+- Lotes 3, 4 e 5 vêm fechados (`"locked": true` em `data/topics.json`) e são liberados um por vez, em silêncio, conforme a evolução registrada. A regra fica em `UNLOCK_RULES` / `unlockCheck` (`js/core.js`); a interface nunca mostra critério nem progresso até a liberação.
 
 ## Estrutura
 
@@ -18,6 +19,7 @@ data/topics.json      temas e regras-chave
 data/tNN.json         exercícios de cada tema (gerados)
 tools/bank_*.py       fonte dos exercícios (último campo "@skill" = padrão)
 tools/build_bank.py   gera data/tNN.json
+tools/apply_meta.py   aplica os metadados dos Lotes 3–5 (tools/meta_lotes345.py) em topics.json
 sw.js                 service worker (offline e atualização)
 tests/                testes automatizados
 ```

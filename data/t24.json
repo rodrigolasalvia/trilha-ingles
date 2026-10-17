@@ -1,0 +1,673 @@
+{
+ "topic": "t24",
+ "items": [
+  {
+   "id": "t24-1-001",
+   "topic": "t24",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Mais cauteloso: 'The data ___ to be incomplete.'",
+   "options": [
+    "appears",
+    "is",
+    "shows"
+   ],
+   "answer": "appears",
+   "explain": "APPEAR TO / SEEM TO suavizam a afirmação.",
+   "skill": "verbs",
+   "cefr": "B2"
+  },
+  {
+   "id": "t24-1-002",
+   "topic": "t24",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Smaller suppliers ___ to pay later.'",
+   "options": [
+    "tend",
+    "use",
+    "are used"
+   ],
+   "answer": "tend",
+   "explain": "TEND TO = costumar, de modo geral.",
+   "skill": "verbs",
+   "cefr": "B2"
+  },
+  {
+   "id": "t24-1-003",
+   "topic": "t24",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'This ___ pose a risk.' (possibilidade)",
+   "options": [
+    "could",
+    "will",
+    "does"
+   ],
+   "answer": "could",
+   "explain": "COULD / MAY suavizam.",
+   "skill": "modals",
+   "cefr": "B2"
+  },
+  {
+   "id": "t24-1-004",
+   "topic": "t24",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'It ___ be worth checking the contract again.'",
+   "options": [
+    "might",
+    "must",
+    "will"
+   ],
+   "answer": "might",
+   "explain": "IT MIGHT BE WORTH + -ING.",
+   "skill": "modals",
+   "cefr": "B2"
+  },
+  {
+   "id": "t24-1-005",
+   "topic": "t24",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'This is ___ our biggest challenge.' (pode-se dizer)",
+   "options": [
+    "arguably",
+    "argued",
+    "argue"
+   ],
+   "answer": "arguably",
+   "explain": "ARGUABLY = pode-se argumentar que.",
+   "skill": "adverbs",
+   "cefr": "B2"
+  },
+  {
+   "id": "t24-1-006",
+   "topic": "t24",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'The project was ___ successful.' (em grande parte)",
+   "options": [
+    "largely",
+    "large",
+    "largerly"
+   ],
+   "answer": "largely",
+   "explain": "LARGELY = em grande parte.",
+   "skill": "adverbs",
+   "cefr": "B2"
+  },
+  {
+   "id": "t24-1-007",
+   "topic": "t24",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Mais preciso: '___ suppliers are late.'",
+   "options": [
+    "A number of",
+    "All the",
+    "Every"
+   ],
+   "answer": "A number of",
+   "explain": "Evite generalizar: A NUMBER OF / SOME.",
+   "skill": "vague",
+   "cefr": "B2"
+  },
+  {
+   "id": "t24-1-008",
+   "topic": "t24",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'In ___ cases, the delay was minor.'",
+   "options": [
+    "most",
+    "the most",
+    "mostly"
+   ],
+   "answer": "most",
+   "explain": "IN MOST CASES.",
+   "skill": "vague",
+   "cefr": "B2"
+  },
+  {
+   "id": "t24-1-009",
+   "topic": "t24",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'From what I ___, they're likely to pay.'",
+   "options": [
+    "understand",
+    "am understanding",
+    "understood that"
+   ],
+   "answer": "understand",
+   "explain": "FROM WHAT I UNDERSTAND...",
+   "skill": "intro",
+   "cefr": "B2"
+  },
+  {
+   "id": "t24-1-010",
+   "topic": "t24",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'It could be ___ that the price is fair.'",
+   "options": [
+    "argued",
+    "arguing",
+    "argue"
+   ],
+   "answer": "argued",
+   "explain": "IT COULD BE ARGUED THAT...",
+   "skill": "intro",
+   "cefr": "B2"
+  },
+  {
+   "id": "t24-1-011",
+   "topic": "t24",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Crítica suave: 'The report isn't ___ there yet.'",
+   "options": [
+    "quite",
+    "very",
+    "much"
+   ],
+   "answer": "quite",
+   "explain": "NOT QUITE THERE YET = ainda não está pronto.",
+   "skill": "crit",
+   "cefr": "B2"
+  },
+  {
+   "id": "t24-1-012",
+   "topic": "t24",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'There's some ___ for improvement.'",
+   "options": [
+    "room",
+    "space",
+    "place"
+   ],
+   "answer": "room",
+   "explain": "ROOM FOR IMPROVEMENT.",
+   "skill": "crit",
+   "cefr": "B2"
+  },
+  {
+   "id": "t24-1-013",
+   "topic": "t24",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I was ___ if you could send it today.'",
+   "options": [
+    "wondering",
+    "wandering",
+    "asking me"
+   ],
+   "answer": "wondering",
+   "explain": "I WAS WONDERING IF YOU COULD...",
+   "skill": "req",
+   "cefr": "B2"
+  },
+  {
+   "id": "t24-1-014",
+   "topic": "t24",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'It would be great ___ you could join us.'",
+   "options": [
+    "if",
+    "that",
+    "when"
+   ],
+   "answer": "if",
+   "explain": "IT WOULD BE GREAT IF...",
+   "skill": "req",
+   "cefr": "B2"
+  },
+  {
+   "id": "t24-1-015",
+   "topic": "t24",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Qual tem cautela na medida certa?",
+   "options": [
+    "It may be a problem.",
+    "It might possibly perhaps be a problem.",
+    "It could maybe possibly be a problem."
+   ],
+   "answer": "It may be a problem.",
+   "explain": "Uma camada de cautela basta.",
+   "skill": "overdo",
+   "cefr": "B2"
+  },
+  {
+   "id": "t24-2-001",
+   "topic": "t24",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The data is incomplete, I think maybe.",
+   "options": [
+    "The data seems to be incomplete.",
+    "The data seems incomplete to be.",
+    "The data is seeming incomplete."
+   ],
+   "answer": "The data seems to be incomplete.",
+   "explain": "SEEM TO BE: cauteloso e limpo.",
+   "skill": "verbs",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-2-002",
+   "topic": "t24",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The results ___ (sugerem) that demand is falling.",
+   "answer": [
+    "suggest",
+    "indicate"
+   ],
+   "explain": "SUGGEST / INDICATE THAT.",
+   "skill": "verbs",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-2-003",
+   "topic": "t24",
+   "level": 2,
+   "type": "gap",
+   "prompt": "This ___ (poderia) delay the project.",
+   "answer": [
+    "could",
+    "may",
+    "might"
+   ],
+   "explain": "COULD / MAY / MIGHT.",
+   "skill": "modals",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-2-004",
+   "topic": "t24",
+   "level": 2,
+   "type": "fix",
+   "prompt": "It might be worth to check the clause.",
+   "options": [
+    "It might be worth checking the clause.",
+    "It might worth checking the clause.",
+    "It might be worth check the clause."
+   ],
+   "answer": "It might be worth checking the clause.",
+   "explain": "WORTH + -ING.",
+   "skill": "modals",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-2-005",
+   "topic": "t24",
+   "level": 2,
+   "type": "gap",
+   "prompt": "They will ___ (presumivelmente) accept the offer.",
+   "answer": [
+    "presumably",
+    "probably"
+   ],
+   "explain": "PRESUMABLY / PROBABLY.",
+   "skill": "adverbs",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-2-006",
+   "topic": "t24",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I agree to some ___ (medida).",
+   "answer": [
+    "extent",
+    "degree"
+   ],
+   "explain": "TO SOME EXTENT = em certa medida.",
+   "skill": "adverbs",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-2-007",
+   "topic": "t24",
+   "level": 2,
+   "type": "fix",
+   "prompt": "All our clients are unhappy. (só alguns reclamaram)",
+   "options": [
+    "Some of our clients are unhappy.",
+    "All of our clients are a bit unhappy.",
+    "Every clients are unhappy."
+   ],
+   "answer": "Some of our clients are unhappy.",
+   "explain": "Não generalize sem dados.",
+   "skill": "vague",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-2-008",
+   "topic": "t24",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The ___ (maioria) of employees support the change.",
+   "answer": [
+    "majority"
+   ],
+   "explain": "THE MAJORITY OF.",
+   "skill": "vague",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-2-009",
+   "topic": "t24",
+   "level": 2,
+   "type": "gap",
+   "prompt": "As ___ (até onde) as I know, the contract is valid.",
+   "answer": [
+    "far"
+   ],
+   "explain": "AS FAR AS I KNOW.",
+   "skill": "intro",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-2-010",
+   "topic": "t24",
+   "level": 2,
+   "type": "gap",
+   "prompt": "There is some ___ (evidência) that the strategy works.",
+   "answer": [
+    "evidence"
+   ],
+   "explain": "THERE IS SOME EVIDENCE THAT.",
+   "skill": "intro",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-2-011",
+   "topic": "t24",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Your report is bad.",
+   "options": [
+    "Your report could be a little clearer.",
+    "Your report is a little bit bad very.",
+    "Your report is not good at all."
+   ],
+   "answer": "Your report could be a little clearer.",
+   "explain": "Critique o ponto, com suavização.",
+   "skill": "crit",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-2-012",
+   "topic": "t24",
+   "level": 2,
+   "type": "gap",
+   "prompt": "It's not ___ (bem) what we expected.",
+   "answer": [
+    "quite"
+   ],
+   "explain": "NOT QUITE WHAT WE EXPECTED.",
+   "skill": "crit",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-2-013",
+   "topic": "t24",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Send me the file today.",
+   "options": [
+    "Would you mind sending me the file today?",
+    "Would you mind to send me the file today?",
+    "Would you mind send me the file today?"
+   ],
+   "answer": "Would you mind sending me the file today?",
+   "explain": "WOULD YOU MIND + -ING.",
+   "skill": "req",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-2-014",
+   "topic": "t24",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I was wondering ___ (se) you could help me.",
+   "answer": [
+    "if",
+    "whether"
+   ],
+   "explain": "I WAS WONDERING IF.",
+   "skill": "req",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-2-015",
+   "topic": "t24",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The deadline might perhaps possibly be Friday. (prazo confirmado)",
+   "options": [
+    "The deadline is Friday.",
+    "The deadline might perhaps be Friday.",
+    "The deadline possibly is Friday maybe."
+   ],
+   "answer": "The deadline is Friday.",
+   "explain": "Fato confirmado: seja direto.",
+   "skill": "overdo",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-3-001",
+   "topic": "t24",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Prices ___ (parecem) to have stabilized.",
+   "answer": [
+    "seem",
+    "appear"
+   ],
+   "explain": "SEEM TO HAVE + particípio.",
+   "skill": "verbs",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-3-002",
+   "topic": "t24",
+   "level": 3,
+   "type": "gap",
+   "prompt": "This ___ (tende) to happen at the end of the quarter.",
+   "answer": [
+    "tends"
+   ],
+   "explain": "TENDS TO.",
+   "skill": "verbs",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-3-003",
+   "topic": "t24",
+   "level": 3,
+   "type": "gap",
+   "prompt": "It ___ (seria) better to wait until Monday.",
+   "answer": [
+    "would",
+    "might"
+   ],
+   "explain": "IT WOULD BE BETTER TO.",
+   "skill": "modals",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-3-004",
+   "topic": "t24",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The new process is ___ (indiscutivelmente) more efficient.",
+   "answer": [
+    "arguably",
+    "undoubtedly"
+   ],
+   "explain": "ARGUABLY.",
+   "skill": "adverbs",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-3-005",
+   "topic": "t24",
+   "level": 3,
+   "type": "gap",
+   "prompt": "In ___ (muitos) cases, the problem is communication.",
+   "answer": [
+    "many",
+    "some",
+    "most"
+   ],
+   "explain": "IN MANY CASES.",
+   "skill": "vague",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-3-006",
+   "topic": "t24",
+   "level": 3,
+   "type": "gap",
+   "prompt": "It would be ___ (ótimo) if we could meet this week.",
+   "answer": [
+    "great",
+    "helpful",
+    "good"
+   ],
+   "explain": "IT WOULD BE GREAT IF.",
+   "skill": "req",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-3-007",
+   "topic": "t24",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "The figures appear to be slightly lower than expected.",
+   "explain": "APPEAR TO + SLIGHTLY.",
+   "skill": "verbs",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-3-008",
+   "topic": "t24",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "It might be worth reviewing the contract again.",
+   "explain": "IT MIGHT BE WORTH + -ING.",
+   "skill": "modals",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-3-009",
+   "topic": "t24",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I was wondering if you could send it today.",
+   "explain": "Pedido suavizado.",
+   "skill": "req",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-3-010",
+   "topic": "t24",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "There is still some room for improvement.",
+   "explain": "Crítica suave.",
+   "skill": "crit",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-3-011",
+   "topic": "t24",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual frase introduz uma opinião com cautela?",
+   "options": [
+    "It could be argued that the price is too high.",
+    "It is sure that the price is too high.",
+    "Everybody knows the price is too high."
+   ],
+   "answer": "It could be argued that the price is too high.",
+   "explain": "IT COULD BE ARGUED THAT.",
+   "skill": "intro",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-3-012",
+   "topic": "t24",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Para uma decisão já tomada, qual é melhor?",
+   "options": [
+    "We've decided to postpone the launch.",
+    "We might perhaps be thinking of possibly postponing.",
+    "It could maybe be postponed, possibly."
+   ],
+   "answer": "We've decided to postpone the launch.",
+   "explain": "Decisão: seja direto.",
+   "skill": "overdo",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-3-013",
+   "topic": "t24",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual crítica é construtiva?",
+   "options": [
+    "The structure works, but the conclusion could be stronger.",
+    "The conclusion is terrible.",
+    "Everything is wrong."
+   ],
+   "answer": "The structure works, but the conclusion could be stronger.",
+   "explain": "Reconheça e aponte melhoria.",
+   "skill": "crit",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-3-014",
+   "topic": "t24",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual afirmação tem cautela adequada?",
+   "options": [
+    "The majority of clients seem satisfied.",
+    "All clients are always satisfied.",
+    "Clients are 100% satisfied forever."
+   ],
+   "answer": "The majority of clients seem satisfied.",
+   "explain": "Quantificador vago + SEEM.",
+   "skill": "vague",
+   "cefr": "C1"
+  },
+  {
+   "id": "t24-3-015",
+   "topic": "t24",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual advérbio indica 'presumivelmente'?",
+   "options": [
+    "presumably",
+    "presumptuously",
+    "presumed"
+   ],
+   "answer": "presumably",
+   "explain": "PRESUMABLY.",
+   "skill": "adverbs",
+   "cefr": "C1"
+  }
+ ]
+}

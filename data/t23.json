@@ -1,0 +1,666 @@
+{
+ "topic": "t23",
+ "items": [
+  {
+   "id": "t23-1-001",
+   "topic": "t23",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'How's it ___?'",
+   "options": [
+    "going",
+    "doing",
+    "making"
+   ],
+   "answer": "going",
+   "explain": "HOW'S IT GOING?",
+   "skill": "start",
+   "cefr": "B1"
+  },
+  {
+   "id": "t23-1-002",
+   "topic": "t23",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Nice ___ you.' (primeiro encontro)",
+   "options": [
+    "to meet",
+    "meeting to",
+    "to know"
+   ],
+   "answer": "to meet",
+   "explain": "NICE TO MEET YOU.",
+   "skill": "start",
+   "cefr": "B1"
+  },
+  {
+   "id": "t23-1-003",
+   "topic": "t23",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Have you two ___?'",
+   "options": [
+    "met",
+    "know",
+    "meet"
+   ],
+   "answer": "met",
+   "explain": "HAVE YOU TWO MET?",
+   "skill": "introduce",
+   "cefr": "B1"
+  },
+  {
+   "id": "t23-1-004",
+   "topic": "t23",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'This is Ana. She ___ in Finance.'",
+   "options": [
+    "works",
+    "work",
+    "is work"
+   ],
+   "answer": "works",
+   "explain": "Apresentar alguém: SHE WORKS IN...",
+   "skill": "introduce",
+   "cefr": "B1"
+  },
+  {
+   "id": "t23-1-005",
+   "topic": "t23",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'What do you ___?' (profissão)",
+   "options": [
+    "do",
+    "make",
+    "work"
+   ],
+   "answer": "do",
+   "explain": "WHAT DO YOU DO?",
+   "skill": "openq",
+   "cefr": "B1"
+  },
+  {
+   "id": "t23-1-006",
+   "topic": "t23",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'How ___ you get into this field?'",
+   "options": [
+    "did",
+    "do",
+    "are"
+   ],
+   "answer": "did",
+   "explain": "HOW DID YOU GET INTO...?",
+   "skill": "openq",
+   "cefr": "B1"
+  },
+  {
+   "id": "t23-1-007",
+   "topic": "t23",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Oh, ___?' (mostrando interesse)",
+   "options": [
+    "really",
+    "true",
+    "right so"
+   ],
+   "answer": "really",
+   "explain": "REALLY? mantém a conversa.",
+   "skill": "keep",
+   "cefr": "B1"
+  },
+  {
+   "id": "t23-1-008",
+   "topic": "t23",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'That ___ interesting.'",
+   "options": [
+    "sounds",
+    "listens",
+    "hears"
+   ],
+   "answer": "sounds",
+   "explain": "THAT SOUNDS INTERESTING.",
+   "skill": "keep",
+   "cefr": "B1"
+  },
+  {
+   "id": "t23-1-009",
+   "topic": "t23",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Tema seguro: 'Have you been here ___?'",
+   "options": [
+    "before",
+    "ago",
+    "already before"
+   ],
+   "answer": "before",
+   "explain": "HAVE YOU BEEN HERE BEFORE?",
+   "skill": "safe",
+   "cefr": "B1"
+  },
+  {
+   "id": "t23-1-010",
+   "topic": "t23",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Lovely weather ___, isn't it?'",
+   "options": [
+    "today",
+    "on today",
+    "this"
+   ],
+   "answer": "today",
+   "explain": "Clima: tema seguro.",
+   "skill": "safe",
+   "cefr": "B1"
+  },
+  {
+   "id": "t23-1-011",
+   "topic": "t23",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Thanks for ___ me.'",
+   "options": [
+    "having",
+    "to have",
+    "have"
+   ],
+   "answer": "having",
+   "explain": "THANKS FOR HAVING ME.",
+   "skill": "thanks",
+   "cefr": "B1"
+  },
+  {
+   "id": "t23-1-012",
+   "topic": "t23",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'It was great ___ to you.'",
+   "options": [
+    "talking",
+    "to talk with",
+    "talk"
+   ],
+   "answer": "talking",
+   "explain": "IT WAS GREAT TALKING TO YOU.",
+   "skill": "leave",
+   "cefr": "B1"
+  },
+  {
+   "id": "t23-1-013",
+   "topic": "t23",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I'll ___ you go.'",
+   "options": [
+    "let",
+    "leave",
+    "make"
+   ],
+   "answer": "let",
+   "explain": "I'LL LET YOU GO = encerrar com educação.",
+   "skill": "leave",
+   "cefr": "B1"
+  },
+  {
+   "id": "t23-1-014",
+   "topic": "t23",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Let's ___ in touch.'",
+   "options": [
+    "keep",
+    "stay on",
+    "make"
+   ],
+   "answer": "keep",
+   "explain": "KEEP / STAY IN TOUCH.",
+   "skill": "after",
+   "cefr": "B1"
+  },
+  {
+   "id": "t23-1-015",
+   "topic": "t23",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I'll ___ you on LinkedIn.'",
+   "options": [
+    "add",
+    "plus",
+    "put"
+   ],
+   "answer": "add",
+   "explain": "ADD YOU ON LINKEDIN.",
+   "skill": "after",
+   "cefr": "B1"
+  },
+  {
+   "id": "t23-2-001",
+   "topic": "t23",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Nice to meet you. (reencontrando alguém)",
+   "options": [
+    "Nice to see you again.",
+    "Nice to meet you again.",
+    "Nice to know you again."
+   ],
+   "answer": "Nice to see you again.",
+   "explain": "MEET = 1ª vez; depois, SEE.",
+   "skill": "start",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-2-002",
+   "topic": "t23",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Hi, I don't think we've ___ (conhecemos). I'm Rodrigo.",
+   "answer": [
+    "met"
+   ],
+   "explain": "I DON'T THINK WE'VE MET.",
+   "skill": "start",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-2-003",
+   "topic": "t23",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'd like you to ___ (conhecer) my colleague, Paulo.",
+   "answer": [
+    "meet"
+   ],
+   "explain": "I'D LIKE YOU TO MEET...",
+   "skill": "introduce",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-2-004",
+   "topic": "t23",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Let me present you João.",
+   "options": [
+    "Let me introduce you to João.",
+    "Let me present to you João.",
+    "Let me introduce João you."
+   ],
+   "answer": "Let me introduce you to João.",
+   "explain": "INTRODUCE A TO B.",
+   "skill": "introduce",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-2-005",
+   "topic": "t23",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Where you work?",
+   "options": [
+    "Where do you work?",
+    "Where you are working?",
+    "Where works you?"
+   ],
+   "answer": "Where do you work?",
+   "explain": "Pergunta com DO.",
+   "skill": "openq",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-2-006",
+   "topic": "t23",
+   "level": 2,
+   "type": "gap",
+   "prompt": "What ___ (traz) you to São Paulo?",
+   "answer": [
+    "brings"
+   ],
+   "explain": "WHAT BRINGS YOU TO...?",
+   "skill": "openq",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-2-007",
+   "topic": "t23",
+   "level": 2,
+   "type": "gap",
+   "prompt": "How ___ (interessante)! Tell me more.",
+   "answer": [
+    "interesting"
+   ],
+   "explain": "HOW INTERESTING!",
+   "skill": "keep",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-2-008",
+   "topic": "t23",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Me too not.",
+   "options": [
+    "Me neither.",
+    "Me too no.",
+    "Me also not."
+   ],
+   "answer": "Me neither.",
+   "explain": "Concordar com negativa: ME NEITHER.",
+   "skill": "keep",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-2-009",
+   "topic": "t23",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Are you ___ (de) around here?",
+   "answer": [
+    "from"
+   ],
+   "explain": "ARE YOU FROM AROUND HERE?",
+   "skill": "safe",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-2-010",
+   "topic": "t23",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Thank you for invite me.",
+   "options": [
+    "Thank you for inviting me.",
+    "Thank you for invited me.",
+    "Thank you to invite me."
+   ],
+   "answer": "Thank you for inviting me.",
+   "explain": "FOR + -ING.",
+   "skill": "thanks",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-2-011",
+   "topic": "t23",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I really ___ (agradeço) your help.",
+   "answer": [
+    "appreciate"
+   ],
+   "explain": "I APPRECIATE.",
+   "skill": "thanks",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-2-012",
+   "topic": "t23",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I must to go now.",
+   "options": [
+    "I'm afraid I have to go now.",
+    "I must to go now.",
+    "I have go now."
+   ],
+   "answer": "I'm afraid I have to go now.",
+   "explain": "MUST sem TO; I'M AFRAID suaviza.",
+   "skill": "leave",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-2-013",
+   "topic": "t23",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I should let you get ___ (preposição) to your evening.",
+   "answer": [
+    "back"
+   ],
+   "explain": "I SHOULD LET YOU GET BACK TO...",
+   "skill": "leave",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-2-014",
+   "topic": "t23",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'll ___ (enviar) you an e-mail next week.",
+   "answer": [
+    "send",
+    "drop"
+   ],
+   "explain": "SEND / DROP YOU AN E-MAIL.",
+   "skill": "after",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-2-015",
+   "topic": "t23",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Let's keep in contact.",
+   "options": [
+    "Let's keep in touch.",
+    "Let's keep on contact.",
+    "Let's stay contacted."
+   ],
+   "answer": "Let's keep in touch.",
+   "explain": "KEEP IN TOUCH é a forma natural.",
+   "skill": "after",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-3-001",
+   "topic": "t23",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I've heard a lot ___ (sobre) you.",
+   "answer": [
+    "about"
+   ],
+   "explain": "I'VE HEARD A LOT ABOUT YOU.",
+   "skill": "introduce",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-3-002",
+   "topic": "t23",
+   "level": 3,
+   "type": "gap",
+   "prompt": "So, how do you two ___ (conhecem) each other?",
+   "answer": [
+    "know"
+   ],
+   "explain": "HOW DO YOU KNOW EACH OTHER?",
+   "skill": "introduce",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-3-003",
+   "topic": "t23",
+   "level": 3,
+   "type": "gap",
+   "prompt": "What do you enjoy most ___ (sobre) your job?",
+   "answer": [
+    "about"
+   ],
+   "explain": "WHAT DO YOU ENJOY MOST ABOUT...?",
+   "skill": "openq",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-3-004",
+   "topic": "t23",
+   "level": 3,
+   "type": "gap",
+   "prompt": "That must be ___ (desafiador).",
+   "answer": [
+    "challenging"
+   ],
+   "explain": "THAT MUST BE CHALLENGING: empatia.",
+   "skill": "keep",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-3-005",
+   "topic": "t23",
+   "level": 3,
+   "type": "gap",
+   "prompt": "It was a pleasure to ___ (conhecer) you.",
+   "answer": [
+    "meet"
+   ],
+   "explain": "IT WAS A PLEASURE TO MEET YOU.",
+   "skill": "leave",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-3-006",
+   "topic": "t23",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Let's ___ (marcar) a call next week.",
+   "answer": [
+    "schedule",
+    "set up",
+    "book"
+   ],
+   "explain": "SCHEDULE A CALL.",
+   "skill": "after",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-3-007",
+   "topic": "t23",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Have you been to Brazil before?",
+   "explain": "Tema seguro.",
+   "skill": "safe",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-3-008",
+   "topic": "t23",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Thanks so much for having me.",
+   "explain": "Agradecimento.",
+   "skill": "thanks",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-3-009",
+   "topic": "t23",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "It was great talking to you.",
+   "explain": "Despedida.",
+   "skill": "leave",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-3-010",
+   "topic": "t23",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "What brings you to this conference?",
+   "explain": "Pergunta aberta.",
+   "skill": "openq",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-3-011",
+   "topic": "t23",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual mantém a conversa?",
+   "options": [
+    "That sounds great. How did it go?",
+    "Ok.",
+    "Good for you."
+   ],
+   "answer": "That sounds great. How did it go?",
+   "explain": "Reação + nova pergunta.",
+   "skill": "keep",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-3-012",
+   "topic": "t23",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual tema é mais seguro com um desconhecido?",
+   "options": [
+    "How was your trip here?",
+    "How much do you earn?",
+    "Who did you vote for?"
+   ],
+   "answer": "How was your trip here?",
+   "explain": "Evite dinheiro, política, religião.",
+   "skill": "safe",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-3-013",
+   "topic": "t23",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual frase inicia a conversa num evento?",
+   "options": [
+    "Hi, mind if I join you?",
+    "Hi, I join you.",
+    "You are alone?"
+   ],
+   "answer": "Hi, mind if I join you?",
+   "explain": "MIND IF I JOIN YOU?",
+   "skill": "start",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-3-014",
+   "topic": "t23",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual agradecimento soa natural?",
+   "options": [
+    "Thanks a lot, I really appreciate it.",
+    "Thanks a lot, I really appreciate.",
+    "Thank you very much a lot."
+   ],
+   "answer": "Thanks a lot, I really appreciate it.",
+   "explain": "APPRECIATE exige objeto: IT.",
+   "skill": "thanks",
+   "cefr": "B2"
+  },
+  {
+   "id": "t23-3-015",
+   "topic": "t23",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual follow-up é natural?",
+   "options": [
+    "It was great meeting you yesterday. Let's keep in touch.",
+    "Yesterday was good meet you. Keep contact.",
+    "Good to know you yesterday."
+   ],
+   "answer": "It was great meeting you yesterday. Let's keep in touch.",
+   "explain": "Follow-up após networking.",
+   "skill": "after",
+   "cefr": "B2"
+  }
+ ]
+}

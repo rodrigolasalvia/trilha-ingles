@@ -99,6 +99,13 @@ def main():
             assert page.locator('.topic').count() == 10, page.locator('.topic').count()
             assert page.locator('.group').count() == 6 and page.locator('.group-soon').count() == 3
             assert page.locator('.tabbar a').count() == 4
+            assert page.locator('.unlock-card').count() == 0
+            body = page.locator('main').inner_text()
+            for leak in ['faltam', 'critério', 'próximas versões', 'em breve', 'Em breve']:
+                assert leak not in body, f'início revela meta: {leak}'
+            # Tema de lote fechado não abre nem por link direto
+            page.goto(URL + '#/topic/t08'); page.wait_for_selector('.topic')
+            assert page.locator('#practice').count() == 0, 'tema fechado abriu'
             page.screenshot(path=f'{SHOTS}/01-inicio.png', full_page=True)
 
             # Tema: explicação, padrões e prática mista (sem escolha de nível)
@@ -173,6 +180,28 @@ def main():
             assert page.locator('.rung').count() == 5
             assert 'C1' in page.locator('.st-sem_conteudo').inner_text()
             page.screenshot(path=f'{SHOTS}/06-evolucao.png', full_page=True)
+            assert 'próximas versões' not in page.locator('main').inner_text()
+
+            # Lote liberado: aparece com aviso único, sem revelar critério
+            page.evaluate("() => { const s = JSON.parse(localStorage.getItem('trilha-ingles:state')); s.unlocked = { lote3: Date.now() }; localStorage.setItem('trilha-ingles:state', JSON.stringify(s)); }")
+            page.goto(URL); page.reload(); page.wait_for_selector('.unlock-card')
+            assert page.locator('.topic').count() == 19, page.locator('.topic').count()
+            assert page.locator('.group-soon').count() == 2
+            assert 'novo lote liberado' in page.locator('.unlock-card').inner_text().lower()
+            page.wait_for_timeout(600); page.screenshot(path=f'{SHOTS}/07-lote-liberado.png', full_page=False)
+            page.click('[data-ack]'); page.wait_for_timeout(300)
+            assert page.locator('.unlock-card').count() == 0
+            page.reload(); page.wait_for_selector('.topic')
+            assert page.locator('.unlock-card').count() == 0, 'aviso reapareceu'
+            page.goto(URL + '#/topic/t09'); page.wait_for_selector('#practice')
+            page.click('#practice'); page.wait_for_selector('.q')
+            assert find_item(page)['topic'] == 't09'
+            page.click('#quit')
+            # volta ao estado anterior para o resto do teste
+            page.evaluate("() => { const s = JSON.parse(localStorage.getItem('trilha-ingles:state')); s.unlocked = {}; s.announced = []; localStorage.setItem('trilha-ingles:state', JSON.stringify(s)); }")
+            page.goto(URL); page.reload(); page.wait_for_selector('.topic')
+            assert page.locator('.topic').count() == 10
+            page.goto(URL + '#/history'); page.wait_for_selector('.ladder')
 
             # Persistência e backup
             total = int(page.locator('.stat-n').first.inner_text())

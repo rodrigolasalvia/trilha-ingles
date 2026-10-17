@@ -8,7 +8,7 @@ import json, os, re, sys, importlib.util
 from collections import Counter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SOURCES = ["bank_base.py", "bank_lote1.py", "bank_lote2.py"]
+SOURCES = ["bank_base.py", "bank_lote1.py", "bank_lote2.py", "bank_lote3.py", "bank_lote4.py", "bank_lote5.py"]
 
 # Classificação automática dos itens antigos (Lote 1), pela explicação do item. Ordem importa.
 def classify(topic, explain):

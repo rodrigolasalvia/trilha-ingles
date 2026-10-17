@@ -1,0 +1,660 @@
+{
+ "topic": "t14",
+ "items": [
+  {
+   "id": "t14-1-001",
+   "topic": "t14",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The audit was ___ in May.",
+   "options": [
+    "carried out",
+    "carried on",
+    "carried in"
+   ],
+   "answer": "carried out",
+   "explain": "CARRY OUT = executar, realizar.",
+   "skill": "organize",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-1-002",
+   "topic": "t14",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We need to ___ a new team.",
+   "options": [
+    "set up",
+    "set on",
+    "set off"
+   ],
+   "answer": "set up",
+   "explain": "SET UP = montar, criar.",
+   "skill": "organize",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-1-003",
+   "topic": "t14",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'll ___ on this tomorrow.",
+   "options": [
+    "follow up",
+    "follow in",
+    "follow by"
+   ],
+   "answer": "follow up",
+   "explain": "FOLLOW UP (ON) = dar seguimento.",
+   "skill": "follow",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-1-004",
+   "topic": "t14",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We're ___ the problem. (investigando)",
+   "options": [
+    "looking into",
+    "looking for",
+    "looking at up"
+   ],
+   "answer": "looking into",
+   "explain": "LOOK INTO = investigar.",
+   "skill": "follow",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-1-005",
+   "topic": "t14",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "They ___ the meeting. (cancelaram)",
+   "options": [
+    "called off",
+    "called up",
+    "called on"
+   ],
+   "answer": "called off",
+   "explain": "CALL OFF = cancelar.",
+   "skill": "postpone",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-1-006",
+   "topic": "t14",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "They ___ the deadline. (adiaram)",
+   "options": [
+    "pushed back",
+    "pushed on",
+    "pushed up"
+   ],
+   "answer": "pushed back",
+   "explain": "PUSH BACK / PUT OFF = adiar.",
+   "skill": "postpone",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-1-007",
+   "topic": "t14",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She ___ an important point. (levantou)",
+   "options": [
+    "brought up",
+    "brought in",
+    "brought on"
+   ],
+   "answer": "brought up",
+   "explain": "BRING UP = levantar um assunto.",
+   "skill": "discuss",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-1-008",
+   "topic": "t14",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Let's ___ the main points. (revisar)",
+   "options": [
+    "go over",
+    "go off",
+    "go out"
+   ],
+   "answer": "go over",
+   "explain": "GO OVER = revisar.",
+   "skill": "discuss",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-1-009",
+   "topic": "t14",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We need to ___ a solution. (criar)",
+   "options": [
+    "come up with",
+    "come across",
+    "come over"
+   ],
+   "answer": "come up with",
+   "explain": "COME UP WITH = ter uma ideia, criar.",
+   "skill": "solve",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-1-010",
+   "topic": "t14",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I can't ___ how this works. (descobrir)",
+   "options": [
+    "figure out",
+    "figure in",
+    "figure up"
+   ],
+   "answer": "figure out",
+   "explain": "FIGURE OUT = descobrir, entender.",
+   "skill": "solve",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-1-011",
+   "topic": "t14",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We're ___ time. (ficando sem)",
+   "options": [
+    "running out of",
+    "running off",
+    "running over"
+   ],
+   "answer": "running out of",
+   "explain": "RUN OUT OF = ficar sem.",
+   "skill": "resources",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-1-012",
+   "topic": "t14",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We ___ schedule. (atrasamos)",
+   "options": [
+    "fell behind",
+    "fell off",
+    "fell down"
+   ],
+   "answer": "fell behind",
+   "explain": "FALL BEHIND = atrasar, ficar para trás.",
+   "skill": "resources",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-1-013",
+   "topic": "t14",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She ___ the project in May. (assumiu)",
+   "options": [
+    "took over",
+    "took off",
+    "took up with"
+   ],
+   "answer": "took over",
+   "explain": "TAKE OVER = assumir.",
+   "skill": "people",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-1-014",
+   "topic": "t14",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He ___ as CEO last year. (deixou o cargo)",
+   "options": [
+    "stepped down",
+    "stepped up",
+    "stepped in"
+   ],
+   "answer": "stepped down",
+   "explain": "STEP DOWN = deixar o cargo.",
+   "skill": "people",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-1-015",
+   "topic": "t14",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The meeting is cancelled. Let's ___.",
+   "options": [
+    "call it off",
+    "call off it",
+    "call it of"
+   ],
+   "answer": "call it off",
+   "explain": "Com pronome, ele vai no meio: CALL IT OFF.",
+   "skill": "particle",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-2-001",
+   "topic": "t14",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We realized the audit last month.",
+   "options": [
+    "We carried out the audit last month.",
+    "We carried the audit out of last month.",
+    "We made out the audit last month."
+   ],
+   "answer": "We carried out the audit last month.",
+   "explain": "'Realizar' um trabalho = CARRY OUT.",
+   "skill": "organize",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-2-002",
+   "topic": "t14",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Can you draw ___ (preposição) a draft of the contract?",
+   "answer": [
+    "up"
+   ],
+   "explain": "DRAW UP = redigir.",
+   "skill": "organize",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-2-003",
+   "topic": "t14",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'll give a follow up in this.",
+   "options": [
+    "I'll follow up on this.",
+    "I'll follow on up this.",
+    "I'll do follow up this."
+   ],
+   "answer": "I'll follow up on this.",
+   "explain": "Verbo: FOLLOW UP ON.",
+   "skill": "follow",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-2-004",
+   "topic": "t14",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'll check ___ (preposição) with the team and get back to you.",
+   "answer": [
+    "in"
+   ],
+   "explain": "CHECK IN WITH = alinhar com.",
+   "skill": "follow",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-2-005",
+   "topic": "t14",
+   "level": 2,
+   "type": "fix",
+   "prompt": "They postponed for next week.",
+   "options": [
+    "They put it off until next week.",
+    "They put off it until next week.",
+    "They postponed to next week it."
+   ],
+   "answer": "They put it off until next week.",
+   "explain": "Adiar ATÉ = UNTIL; pronome no meio.",
+   "skill": "postpone",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-2-006",
+   "topic": "t14",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The meeting was brought ___ (preposição) to Monday. (antecipada)",
+   "answer": [
+    "forward"
+   ],
+   "explain": "BRING FORWARD = antecipar.",
+   "skill": "postpone",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-2-007",
+   "topic": "t14",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She raised up a point.",
+   "options": [
+    "She raised a point.",
+    "She raised on a point.",
+    "She brought a point."
+   ],
+   "answer": "She raised a point.",
+   "explain": "RAISE não leva UP (ou use BRING UP).",
+   "skill": "discuss",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-2-008",
+   "topic": "t14",
+   "level": 2,
+   "type": "gap",
+   "prompt": "He pointed ___ (preposição) a mistake in the report.",
+   "answer": [
+    "out"
+   ],
+   "explain": "POINT OUT = destacar.",
+   "skill": "discuss",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-2-009",
+   "topic": "t14",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We need to deal this problem.",
+   "options": [
+    "We need to deal with this problem.",
+    "We need to deal on this problem.",
+    "We need deal this problem."
+   ],
+   "answer": "We need to deal with this problem.",
+   "explain": "DEAL WITH = lidar com.",
+   "skill": "solve",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-2-010",
+   "topic": "t14",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Don't worry, we'll sort it ___ (preposição).",
+   "answer": [
+    "out"
+   ],
+   "explain": "SORT OUT = resolver.",
+   "skill": "solve",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-2-011",
+   "topic": "t14",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We're running out time.",
+   "options": [
+    "We're running out of time.",
+    "We're running of time.",
+    "We're running out from time."
+   ],
+   "answer": "We're running out of time.",
+   "explain": "RUN OUT OF + recurso.",
+   "skill": "resources",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-2-012",
+   "topic": "t14",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I need to catch ___ (preposição) on my e-mails.",
+   "answer": [
+    "up"
+   ],
+   "explain": "CATCH UP ON = pôr em dia.",
+   "skill": "resources",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-2-013",
+   "topic": "t14",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She assumed the project in May.",
+   "options": [
+    "She took over the project in May.",
+    "She took the project over of May.",
+    "She assumed over the project in May."
+   ],
+   "answer": "She took over the project in May.",
+   "explain": "ASSUME significa sobretudo 'supor'.",
+   "skill": "people",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-2-014",
+   "topic": "t14",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Can you step ___ (preposição) while I'm on vacation? (substituir)",
+   "answer": [
+    "in"
+   ],
+   "explain": "STEP IN = intervir, substituir.",
+   "skill": "people",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-2-015",
+   "topic": "t14",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Let's put off it until Monday.",
+   "options": [
+    "Let's put it off until Monday.",
+    "Let's put it until off Monday.",
+    "Let's off put it until Monday."
+   ],
+   "answer": "Let's put it off until Monday.",
+   "explain": "Pronome no meio do phrasal separável.",
+   "skill": "particle",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-3-001",
+   "topic": "t14",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We need to cut ___ (preposição) on travel costs.",
+   "answer": [
+    "down"
+   ],
+   "explain": "CUT DOWN ON = reduzir.",
+   "skill": "resources",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-3-002",
+   "topic": "t14",
+   "level": 3,
+   "type": "gap",
+   "prompt": "She took ___ (preposição) more responsibilities this year.",
+   "answer": [
+    "on"
+   ],
+   "explain": "TAKE ON = assumir tarefa.",
+   "skill": "people",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-3-003",
+   "topic": "t14",
+   "level": 3,
+   "type": "gap",
+   "prompt": "He handed ___ (preposição) the project to the new manager.",
+   "answer": [
+    "over"
+   ],
+   "explain": "HAND OVER = passar adiante.",
+   "skill": "people",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-3-004",
+   "topic": "t14",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Can you talk me ___ (preposição) the process? (passo a passo)",
+   "answer": [
+    "through"
+   ],
+   "explain": "TALK THROUGH = explicar passo a passo.",
+   "skill": "discuss",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-3-005",
+   "topic": "t14",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We put ___ (preposição) a team for the project. (montamos)",
+   "answer": [
+    "together"
+   ],
+   "explain": "PUT TOGETHER = montar, reunir.",
+   "skill": "organize",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-3-006",
+   "topic": "t14",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'm looking ___ (preposição) the issue now. (investigando)",
+   "answer": [
+    "into"
+   ],
+   "explain": "LOOK INTO.",
+   "skill": "follow",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-3-007",
+   "topic": "t14",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The event was called ___ (preposição) due to the storm.",
+   "answer": [
+    "off"
+   ],
+   "explain": "CALL OFF = cancelar.",
+   "skill": "postpone",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-3-008",
+   "topic": "t14",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The report? I'll look ___ (preposição) it tomorrow. (investigar)",
+   "answer": [
+    "into"
+   ],
+   "explain": "Inseparável: o pronome vem depois: LOOK INTO IT.",
+   "skill": "particle",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-3-009",
+   "topic": "t14",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I'll follow up on this with the supplier tomorrow.",
+   "explain": "FOLLOW UP ON.",
+   "skill": "follow",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-3-010",
+   "topic": "t14",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We need to come up with a better solution.",
+   "explain": "COME UP WITH.",
+   "skill": "solve",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-3-011",
+   "topic": "t14",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "She took over the team when he stepped down.",
+   "explain": "TAKE OVER / STEP DOWN.",
+   "skill": "people",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-3-012",
+   "topic": "t14",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Let's go over the main points again.",
+   "explain": "GO OVER = revisar.",
+   "skill": "discuss",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-3-013",
+   "topic": "t14",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Can you fill it in?",
+    "Can you fill in it?",
+    "Can you in fill it?"
+   ],
+   "answer": "Can you fill it in?",
+   "explain": "Separável + pronome: FILL IT IN.",
+   "skill": "particle",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-3-014",
+   "topic": "t14",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "We had to put the launch off.",
+    "We had to put off it the launch.",
+    "We had to off put the launch."
+   ],
+   "answer": "We had to put the launch off.",
+   "explain": "Separável: o objeto pode ir no meio.",
+   "skill": "particle",
+   "cefr": "B2"
+  },
+  {
+   "id": "t14-3-015",
+   "topic": "t14",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "'Ficamos sem papel.'",
+   "options": [
+    "We ran out of paper.",
+    "We ran off paper.",
+    "We run out paper."
+   ],
+   "answer": "We ran out of paper.",
+   "explain": "RUN OUT OF.",
+   "skill": "resources",
+   "cefr": "B2"
+  }
+ ]
+}

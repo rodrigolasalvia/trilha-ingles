@@ -1,0 +1,675 @@
+{
+ "topic": "t27",
+ "items": [
+  {
+   "id": "t27-1-001",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'___ the contract, we signed it.'",
+   "options": [
+    "Having reviewed",
+    "Having review",
+    "Reviewed having"
+   ],
+   "answer": "Having reviewed",
+   "explain": "HAVING + particípio = depois de ter...",
+   "skill": "participle",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-002",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'___ the risks, we decided to wait.'",
+   "options": [
+    "Given",
+    "Giving",
+    "Gave"
+   ],
+   "answer": "Given",
+   "explain": "GIVEN = considerando.",
+   "skill": "participle",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-003",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Founded in 1905, the company ___ global.'",
+   "options": [
+    "is now",
+    "now it is",
+    "they are now"
+   ],
+   "answer": "is now",
+   "explain": "Particípio refere-se ao sujeito: the company.",
+   "skill": "dangling",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-004",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Walking to the office, I saw an accident.",
+    "Walking to the office, an accident happened.",
+    "Walking to the office, the accident was seen by me."
+   ],
+   "answer": "Walking to the office, I saw an accident.",
+   "explain": "Quem caminha é o sujeito: I.",
+   "skill": "dangling",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-005",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'We recommend that he ___ informed.'",
+   "options": [
+    "be",
+    "is",
+    "to be"
+   ],
+   "answer": "be",
+   "explain": "Subjuntivo: verbo base.",
+   "skill": "subjunctive",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-006",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'It's essential that she ___ on time.'",
+   "options": [
+    "arrive",
+    "arrives",
+    "to arrive"
+   ],
+   "answer": "arrive",
+   "explain": "ESSENTIAL THAT + verbo base.",
+   "skill": "subjunctive",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-007",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I'd rather ___ home.'",
+   "options": [
+    "stay",
+    "to stay",
+    "staying"
+   ],
+   "answer": "stay",
+   "explain": "WOULD RATHER + verbo, sem TO.",
+   "skill": "rather",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-008",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'You'd better ___ the numbers.'",
+   "options": [
+    "check",
+    "to check",
+    "checking"
+   ],
+   "answer": "check",
+   "explain": "HAD BETTER + verbo, sem TO.",
+   "skill": "rather",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-009",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'He talks as if he ___ everything.'",
+   "options": [
+    "knew",
+    "knows",
+    "know"
+   ],
+   "answer": "knew",
+   "explain": "Irreal: AS IF + passado.",
+   "skill": "asif",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-010",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'It looks as ___ it's going to rain.'",
+   "options": [
+    "if",
+    "like if",
+    "so"
+   ],
+   "answer": "if",
+   "explain": "Provável: AS IF + presente.",
+   "skill": "asif",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-011",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'The person ___ I spoke was very helpful.'",
+   "options": [
+    "to whom",
+    "to who",
+    "whom to"
+   ],
+   "answer": "to whom",
+   "explain": "Formal: TO WHOM.",
+   "skill": "reduced",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-012",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Documents ___ after Friday will not be accepted.'",
+   "options": [
+    "submitted",
+    "submitting",
+    "are submitted"
+   ],
+   "answer": "submitted",
+   "explain": "Relativa reduzida passiva.",
+   "skill": "reduced",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-013",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Will they pay?' 'I think ___.'",
+   "options": [
+    "so",
+    "it",
+    "yes"
+   ],
+   "answer": "so",
+   "explain": "I THINK SO.",
+   "skill": "subst",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-014",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Is it serious?' 'I hope ___.'",
+   "options": [
+    "not",
+    "no",
+    "don't"
+   ],
+   "answer": "not",
+   "explain": "I HOPE NOT.",
+   "skill": "subst",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-015",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'___ happens, keep me informed.'",
+   "options": [
+    "Whatever",
+    "However",
+    "Whoever"
+   ],
+   "answer": "Whatever",
+   "explain": "WHATEVER = o que quer que.",
+   "skill": "ever",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-001",
+   "topic": "t27",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Having review the data, we found an error.",
+   "options": [
+    "Having reviewed the data, we found an error.",
+    "Having reviewing the data, we found an error.",
+    "Have reviewed the data, we found an error."
+   ],
+   "answer": "Having reviewed the data, we found an error.",
+   "explain": "HAVING + particípio.",
+   "skill": "participle",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-002",
+   "topic": "t27",
+   "level": 2,
+   "type": "gap",
+   "prompt": "After ___ (sign) the contract, we celebrated.",
+   "answer": [
+    "signing",
+    "having signed"
+   ],
+   "explain": "Depois de preposição: -ING.",
+   "skill": "participle",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-003",
+   "topic": "t27",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Arriving late, the meeting had already started.",
+   "options": [
+    "When I arrived late, the meeting had already started.",
+    "Arriving late, the meeting was started already.",
+    "Arrived late, the meeting had already started."
+   ],
+   "answer": "When I arrived late, the meeting had already started.",
+   "explain": "A reunião não chegou atrasada.",
+   "skill": "dangling",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-004",
+   "topic": "t27",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Having finished the report, the computer crashed.",
+   "options": [
+    "Having finished the report, I saw the computer crash.",
+    "Having finished the report, it crashed the computer.",
+    "Finishing the report, the computer crashed."
+   ],
+   "answer": "Having finished the report, I saw the computer crash.",
+   "explain": "O sujeito implícito deve ser o mesmo.",
+   "skill": "dangling",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-005",
+   "topic": "t27",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We insist that he pays now.",
+   "options": [
+    "We insist that he pay now.",
+    "We insist that he to pay now.",
+    "We insist him to pay now."
+   ],
+   "answer": "We insist that he pay now.",
+   "explain": "Subjuntivo: sem -S.",
+   "skill": "subjunctive",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-006",
+   "topic": "t27",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The policy requires that every supplier ___ (be) audited.",
+   "answer": [
+    "be"
+   ],
+   "explain": "REQUIRE THAT + verbo base.",
+   "skill": "subjunctive",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-007",
+   "topic": "t27",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'd rather to wait.",
+   "options": [
+    "I'd rather wait.",
+    "I'd rather waiting.",
+    "I'd prefer rather wait."
+   ],
+   "answer": "I'd rather wait.",
+   "explain": "WOULD RATHER sem TO.",
+   "skill": "rather",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-008",
+   "topic": "t27",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'd rather you ___ (not / tell) anyone yet.",
+   "answer": [
+    "didn't tell",
+    "did not tell"
+   ],
+   "explain": "WOULD RATHER + outra pessoa + passado.",
+   "skill": "rather",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-009",
+   "topic": "t27",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She acts as if she is the boss. (ela não é)",
+   "options": [
+    "She acts as if she were the boss.",
+    "She acts as if she be the boss.",
+    "She acts like if she is the boss."
+   ],
+   "answer": "She acts as if she were the boss.",
+   "explain": "Irreal: AS IF + WERE.",
+   "skill": "asif",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-010",
+   "topic": "t27",
+   "level": 2,
+   "type": "gap",
+   "prompt": "He looked as ___ (se) he hadn't slept.",
+   "answer": [
+    "if",
+    "though"
+   ],
+   "explain": "AS IF / AS THOUGH.",
+   "skill": "asif",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-011",
+   "topic": "t27",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The supplier who is responsible of the delay was fined.",
+   "options": [
+    "The supplier responsible for the delay was fined.",
+    "The supplier responsible of the delay was fined.",
+    "The supplier who responsible for the delay was fined."
+   ],
+   "answer": "The supplier responsible for the delay was fined.",
+   "explain": "Relativa reduzida; RESPONSIBLE FOR.",
+   "skill": "reduced",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-012",
+   "topic": "t27",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I think yes.",
+   "options": [
+    "I think so.",
+    "I think it.",
+    "I think that yes."
+   ],
+   "answer": "I think so.",
+   "explain": "Não use YES: SO.",
+   "skill": "subst",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-013",
+   "topic": "t27",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Please update the file if you haven't done ___ (isso) already.",
+   "answer": [
+    "so"
+   ],
+   "explain": "IF YOU HAVEN'T DONE SO.",
+   "skill": "subst",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-014",
+   "topic": "t27",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Whatever they say, it are wrong.",
+   "options": [
+    "Whatever they say, it's wrong.",
+    "Whatever they say, they is wrong.",
+    "Whatever they say are wrong."
+   ],
+   "answer": "Whatever they say, it's wrong.",
+   "explain": "Sujeito singular: IT IS.",
+   "skill": "ever",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-015",
+   "topic": "t27",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (Por mais que) hard we try, we can't meet the deadline.",
+   "answer": [
+    "However"
+   ],
+   "explain": "HOWEVER + adjetivo = por mais... que.",
+   "skill": "ever",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-001",
+   "topic": "t27",
+   "level": 3,
+   "type": "gap",
+   "prompt": "___ (Considerando) the circumstances, we accepted the delay.",
+   "answer": [
+    "Given",
+    "Considering"
+   ],
+   "explain": "GIVEN / CONSIDERING.",
+   "skill": "participle",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-002",
+   "topic": "t27",
+   "level": 3,
+   "type": "gap",
+   "prompt": "It is vital that the data ___ (be) protected.",
+   "answer": [
+    "be"
+   ],
+   "explain": "VITAL THAT + verbo base.",
+   "skill": "subjunctive",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-003",
+   "topic": "t27",
+   "level": 3,
+   "type": "gap",
+   "prompt": "You'd better ___ (not / be) late tomorrow.",
+   "answer": [
+    "not be"
+   ],
+   "explain": "HAD BETTER NOT + verbo.",
+   "skill": "rather",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-004",
+   "topic": "t27",
+   "level": 3,
+   "type": "gap",
+   "prompt": "It's not as ___ (se) we have a choice.",
+   "answer": [
+    "if",
+    "though"
+   ],
+   "explain": "IT'S NOT AS IF... = não é como se...",
+   "skill": "asif",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-005",
+   "topic": "t27",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The candidate ___ (escolhido) for the role starts on Monday.",
+   "answer": [
+    "chosen",
+    "selected"
+   ],
+   "explain": "Relativa reduzida passiva.",
+   "skill": "reduced",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-006",
+   "topic": "t27",
+   "level": 3,
+   "type": "gap",
+   "prompt": "___ (Quem quer que) gets the job will have a big challenge.",
+   "answer": [
+    "Whoever"
+   ],
+   "explain": "WHOEVER = quem quer que.",
+   "skill": "ever",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-007",
+   "topic": "t27",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Having reviewed the contract, we decided to sign.",
+   "explain": "HAVING + particípio.",
+   "skill": "participle",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-008",
+   "topic": "t27",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We recommend that the policy be updated.",
+   "explain": "Subjuntivo.",
+   "skill": "subjunctive",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-009",
+   "topic": "t27",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I'd rather you didn't share this yet.",
+   "explain": "WOULD RATHER + passado.",
+   "skill": "rather",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-010",
+   "topic": "t27",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "He talks as if he knew everything.",
+   "explain": "AS IF irreal.",
+   "skill": "asif",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-011",
+   "topic": "t27",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "'Will it rain?' 'I'm afraid so.'",
+    "'Will it rain?' 'I'm afraid yes.'",
+    "'Will it rain?' 'I'm afraid it.'"
+   ],
+   "answer": "'Will it rain?' 'I'm afraid so.'",
+   "explain": "I'M AFRAID SO.",
+   "skill": "subst",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-012",
+   "topic": "t27",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Looking at the data, we noticed a pattern.",
+    "Looking at the data, a pattern was noticed.",
+    "Looking at the data, there was a pattern noticing."
+   ],
+   "answer": "Looking at the data, we noticed a pattern.",
+   "explain": "Sujeito implícito = WE.",
+   "skill": "dangling",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-013",
+   "topic": "t27",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "The man to whom I sent the e-mail never replied.",
+    "The man whom I sent to the e-mail never replied.",
+    "The man to who I sent the e-mail never replied."
+   ],
+   "answer": "The man to whom I sent the e-mail never replied.",
+   "explain": "TO WHOM.",
+   "skill": "reduced",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-014",
+   "topic": "t27",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Whatever you decide, I'll support you.",
+    "Whatever you will decide, I'll support you.",
+    "What you decide ever, I'll support you."
+   ],
+   "answer": "Whatever you decide, I'll support you.",
+   "explain": "WHATEVER + presente.",
+   "skill": "ever",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-015",
+   "topic": "t27",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "He spoke as though nothing had happened.",
+    "He spoke as though nothing has happened yesterday.",
+    "He spoke as nothing had happened though."
+   ],
+   "answer": "He spoke as though nothing had happened.",
+   "explain": "AS THOUGH + Past Perfect: situação irreal no passado.",
+   "skill": "asif",
+   "cefr": "C1"
+  }
+ ]
+}

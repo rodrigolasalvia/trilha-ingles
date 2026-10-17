@@ -1,0 +1,667 @@
+{
+ "topic": "t19",
+ "items": [
+  {
+   "id": "t19-1-001",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Good morning, everyone. Today I'd like to ___ about our results.'",
+   "options": [
+    "talk",
+    "say",
+    "speak you"
+   ],
+   "answer": "talk",
+   "explain": "TALK ABOUT.",
+   "skill": "opening",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-002",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Let me ___ myself. I'm Rodrigo.'",
+   "options": [
+    "introduce",
+    "present",
+    "show"
+   ],
+   "answer": "introduce",
+   "explain": "Apresentar-se = INTRODUCE MYSELF.",
+   "skill": "opening",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-003",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'My presentation is ___ into three parts.'",
+   "options": [
+    "divided",
+    "separated",
+    "shared"
+   ],
+   "answer": "divided",
+   "explain": "DIVIDED INTO.",
+   "skill": "structure",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-004",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'___, I'll show the numbers. Then, the risks.'",
+   "options": [
+    "First",
+    "At first",
+    "Firstly of all"
+   ],
+   "answer": "First",
+   "explain": "FIRST / FIRSTLY.",
+   "skill": "structure",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-005",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Let's ___ on to the next point.'",
+   "options": [
+    "move",
+    "go",
+    "pass"
+   ],
+   "answer": "move",
+   "explain": "MOVE ON TO.",
+   "skill": "transitions",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-006",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'This ___ me to my next slide.'",
+   "options": [
+    "brings",
+    "takes",
+    "leads to"
+   ],
+   "answer": "brings",
+   "explain": "THIS BRINGS ME TO...",
+   "skill": "transitions",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-007",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'As you can ___, sales increased.'",
+   "options": [
+    "see",
+    "look",
+    "watch"
+   ],
+   "answer": "see",
+   "explain": "AS YOU CAN SEE.",
+   "skill": "data",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-008",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'This chart ___ our revenue by region.'",
+   "options": [
+    "shows",
+    "says",
+    "speaks"
+   ],
+   "answer": "shows",
+   "explain": "THE CHART SHOWS.",
+   "skill": "data",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-009",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Sales ___ sharply in Q3. (aumentaram)",
+   "options": [
+    "rose",
+    "raised",
+    "arose"
+   ],
+   "answer": "rose",
+   "explain": "Aumentar (sem objeto) = RISE / ROSE.",
+   "skill": "trends",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-010",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Costs ___ by 5%.",
+   "options": [
+    "fell",
+    "felt",
+    "fall down"
+   ],
+   "answer": "fell",
+   "explain": "FALL → FELL. BY = diferença.",
+   "skill": "trends",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-011",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I'd like to ___ that this is a one-off.'",
+   "options": [
+    "stress",
+    "stretch",
+    "press"
+   ],
+   "answer": "stress",
+   "explain": "STRESS / EMPHASIZE = enfatizar.",
+   "skill": "emphasis",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-012",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'The ___ point is that we're profitable.'",
+   "options": [
+    "key",
+    "keys",
+    "main of"
+   ],
+   "answer": "key",
+   "explain": "THE KEY POINT IS...",
+   "skill": "emphasis",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-013",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Does anyone have any ___?'",
+   "options": [
+    "questions",
+    "doubts",
+    "asks"
+   ],
+   "answer": "questions",
+   "explain": "Dúvidas = QUESTIONS (DOUBTS = desconfiança).",
+   "skill": "qa",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-014",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Thank you for your ___.'",
+   "options": [
+    "attention",
+    "atention",
+    "attending"
+   ],
+   "answer": "attention",
+   "explain": "THANK YOU FOR YOUR ATTENTION.",
+   "skill": "closing",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-015",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'To ___ up, we need more budget.'",
+   "options": [
+    "sum",
+    "resume",
+    "close"
+   ],
+   "answer": "sum",
+   "explain": "TO SUM UP.",
+   "skill": "closing",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-001",
+   "topic": "t19",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Let me present myself.",
+   "options": [
+    "Let me introduce myself.",
+    "Let me present me.",
+    "Let me introduce me."
+   ],
+   "answer": "Let me introduce myself.",
+   "explain": "Pessoa: INTRODUCE.",
+   "skill": "opening",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-002",
+   "topic": "t19",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'm here today to ___ (falar) you about our new strategy.",
+   "answer": [
+    "tell"
+   ],
+   "explain": "TELL + pessoa + ABOUT.",
+   "skill": "opening",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-003",
+   "topic": "t19",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'll start ___ (com) an overview.",
+   "answer": [
+    "with"
+   ],
+   "explain": "START WITH AN OVERVIEW.",
+   "skill": "structure",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-004",
+   "topic": "t19",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Finally of all, I'll talk about costs.",
+   "options": [
+    "Finally, I'll talk about costs.",
+    "Last of all finally, I'll talk about costs.",
+    "At finally, I'll talk about costs."
+   ],
+   "answer": "Finally, I'll talk about costs.",
+   "explain": "FINALLY sozinho.",
+   "skill": "structure",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-005",
+   "topic": "t19",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Now let's turn ___ (preposição) the budget.",
+   "answer": [
+    "to"
+   ],
+   "explain": "TURN TO = passar para.",
+   "skill": "transitions",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-006",
+   "topic": "t19",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Passing to the next slide...",
+   "options": [
+    "Moving on to the next slide...",
+    "Passing for the next slide...",
+    "Going in the next slide..."
+   ],
+   "answer": "Moving on to the next slide...",
+   "explain": "MOVING ON TO.",
+   "skill": "transitions",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-007",
+   "topic": "t19",
+   "level": 2,
+   "type": "gap",
+   "prompt": "If you look ___ (preposição) this graph, you'll see a peak in May.",
+   "answer": [
+    "at"
+   ],
+   "explain": "LOOK AT.",
+   "skill": "data",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-008",
+   "topic": "t19",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Like you can see, sales grew.",
+   "options": [
+    "As you can see, sales grew.",
+    "How you can see, sales grew.",
+    "Like you see can, sales grew."
+   ],
+   "answer": "As you can see, sales grew.",
+   "explain": "AS YOU CAN SEE.",
+   "skill": "data",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-009",
+   "topic": "t19",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We raised our sales by 10%. (sentido: aumentaram sozinhas)",
+   "options": [
+    "Our sales rose by 10%.",
+    "Our sales raised by 10%.",
+    "Our sales arose by 10%."
+   ],
+   "answer": "Our sales rose by 10%.",
+   "explain": "RISE = sem objeto; RAISE exige objeto.",
+   "skill": "trends",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-010",
+   "topic": "t19",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Prices remained ___ (estáveis) in the second half.",
+   "answer": [
+    "stable",
+    "steady",
+    "flat"
+   ],
+   "explain": "REMAIN STABLE / STEADY.",
+   "skill": "trends",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-011",
+   "topic": "t19",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Profit increased ___ (preposição) 2 million to 3 million.",
+   "answer": [
+    "from"
+   ],
+   "explain": "FROM X TO Y.",
+   "skill": "trends",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-012",
+   "topic": "t19",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I want to ___ (destacar) one thing: quality improved.",
+   "answer": [
+    "highlight",
+    "stress",
+    "emphasize"
+   ],
+   "explain": "HIGHLIGHT / STRESS.",
+   "skill": "emphasis",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-013",
+   "topic": "t19",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Somebody has doubts?",
+   "options": [
+    "Does anyone have any questions?",
+    "Somebody have doubts?",
+    "Anyone has doubts?"
+   ],
+   "answer": "Does anyone have any questions?",
+   "explain": "DOES ANYONE HAVE ANY QUESTIONS?",
+   "skill": "qa",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-014",
+   "topic": "t19",
+   "level": 2,
+   "type": "gap",
+   "prompt": "That's a good question. I'll come ___ (preposição) to that later.",
+   "answer": [
+    "back"
+   ],
+   "explain": "I'LL COME BACK TO THAT.",
+   "skill": "qa",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-015",
+   "topic": "t19",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Thank you for ___ (ouvir).",
+   "answer": [
+    "listening"
+   ],
+   "explain": "THANK YOU FOR LISTENING.",
+   "skill": "closing",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-001",
+   "topic": "t19",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Sales went up ___ (preposição) 8% compared with last year.",
+   "answer": [
+    "by"
+   ],
+   "explain": "BY = tamanho da variação.",
+   "skill": "trends",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-002",
+   "topic": "t19",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Revenue reached a ___ (pico) in December.",
+   "answer": [
+    "peak"
+   ],
+   "explain": "REACH A PEAK.",
+   "skill": "trends",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-003",
+   "topic": "t19",
+   "level": 3,
+   "type": "gap",
+   "prompt": "What I'd really like you to ___ (lembrar) is this: cash is king.",
+   "answer": [
+    "remember"
+   ],
+   "explain": "WHAT I'D LIKE YOU TO REMEMBER IS...",
+   "skill": "emphasis",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-004",
+   "topic": "t19",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'm afraid I don't have that figure ___ (aqui agora) hand.",
+   "answer": [
+    "at",
+    "to"
+   ],
+   "explain": "AT HAND / TO HAND = disponível agora.",
+   "skill": "qa",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-005",
+   "topic": "t19",
+   "level": 3,
+   "type": "gap",
+   "prompt": "That ___ (conclui) my presentation.",
+   "answer": [
+    "concludes",
+    "ends"
+   ],
+   "explain": "THAT CONCLUDES MY PRESENTATION.",
+   "skill": "closing",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-006",
+   "topic": "t19",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Let me give you some ___ (contexto) first.",
+   "answer": [
+    "background",
+    "context"
+   ],
+   "explain": "SOME BACKGROUND FIRST.",
+   "skill": "opening",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-007",
+   "topic": "t19",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "My presentation is divided into three parts.",
+   "explain": "Estrutura.",
+   "skill": "structure",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-008",
+   "topic": "t19",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "This brings me to my next point.",
+   "explain": "Transição.",
+   "skill": "transitions",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-009",
+   "topic": "t19",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "As you can see, costs fell sharply.",
+   "explain": "Dados.",
+   "skill": "data",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-010",
+   "topic": "t19",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Thank you for your attention.",
+   "explain": "Fechamento.",
+   "skill": "closing",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-011",
+   "topic": "t19",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual descreve uma queda pequena?",
+   "options": [
+    "Sales dipped slightly.",
+    "Sales collapsed.",
+    "Sales plummeted."
+   ],
+   "answer": "Sales dipped slightly.",
+   "explain": "DIP SLIGHTLY = leve queda.",
+   "skill": "trends",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-012",
+   "topic": "t19",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual ligação entre seções soa natural?",
+   "options": [
+    "Now that we've looked at costs, let's turn to revenue.",
+    "Now we looked costs, we go revenue.",
+    "Finished costs, revenue now."
+   ],
+   "answer": "Now that we've looked at costs, let's turn to revenue.",
+   "explain": "NOW THAT... LET'S TURN TO...",
+   "skill": "transitions",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-013",
+   "topic": "t19",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual resposta a uma pergunta difícil é adequada?",
+   "options": [
+    "I don't have the exact figure, but I'll send it to you after.",
+    "I don't know. Next question.",
+    "This question is not important."
+   ],
+   "answer": "I don't have the exact figure, but I'll send it to you after.",
+   "explain": "Honesto e com compromisso.",
+   "skill": "qa",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-014",
+   "topic": "t19",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual frase dá ênfase?",
+   "options": [
+    "What really matters here is the margin.",
+    "What matters really here the margin is.",
+    "Really matters here margin."
+   ],
+   "answer": "What really matters here is the margin.",
+   "explain": "WHAT REALLY MATTERS IS...",
+   "skill": "emphasis",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-015",
+   "topic": "t19",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual apresenta a estrutura?",
+   "options": [
+    "I'll start with the results, then move on to the risks.",
+    "I'll start for the results, then pass to risks.",
+    "I start the results, after risks."
+   ],
+   "answer": "I'll start with the results, then move on to the risks.",
+   "explain": "START WITH... MOVE ON TO...",
+   "skill": "structure",
+   "cefr": "B2"
+  }
+ ]
+}

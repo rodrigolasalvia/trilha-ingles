@@ -1,0 +1,675 @@
+{
+ "topic": "t15",
+ "items": [
+  {
+   "id": "t15-1-001",
+   "topic": "t15",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We need to ___ action now.",
+   "options": [
+    "take",
+    "do",
+    "make"
+   ],
+   "answer": "take",
+   "explain": "TAKE ACTION.",
+   "skill": "decisions",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-1-002",
+   "topic": "t15",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Let's ___ a decision today.",
+   "options": [
+    "make",
+    "do",
+    "take on"
+   ],
+   "answer": "make",
+   "explain": "MAKE A DECISION.",
+   "skill": "decisions",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-1-003",
+   "topic": "t15",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We ___ the deadline with a day to spare.",
+   "options": [
+    "met",
+    "made",
+    "took"
+   ],
+   "answer": "met",
+   "explain": "Cumprir prazo: MEET A DEADLINE.",
+   "skill": "deadlines",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-1-004",
+   "topic": "t15",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We ___ the deadline. (perdemos)",
+   "options": [
+    "missed",
+    "lost",
+    "failed"
+   ],
+   "answer": "missed",
+   "explain": "Perder prazo: MISS A DEADLINE.",
+   "skill": "deadlines",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-1-005",
+   "topic": "t15",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Who's going to ___ the minutes?",
+   "options": [
+    "take",
+    "make",
+    "do"
+   ],
+   "answer": "take",
+   "explain": "Fazer a ata: TAKE THE MINUTES.",
+   "skill": "meetings",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-1-006",
+   "topic": "t15",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She will ___ the meeting. (presidir)",
+   "options": [
+    "chair",
+    "sit",
+    "head on"
+   ],
+   "answer": "chair",
+   "explain": "CHAIR A MEETING.",
+   "skill": "meetings",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-1-007",
+   "topic": "t15",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "This supplier ___ a serious risk.",
+   "options": [
+    "poses",
+    "makes",
+    "does"
+   ],
+   "answer": "poses",
+   "explain": "POSE A RISK.",
+   "skill": "risks",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-1-008",
+   "topic": "t15",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We need to ___ this problem. (tratar)",
+   "options": [
+    "address",
+    "direct",
+    "attend"
+   ],
+   "answer": "address",
+   "explain": "ADDRESS A PROBLEM.",
+   "skill": "risks",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-1-009",
+   "topic": "t15",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We finally ___ an agreement.",
+   "options": [
+    "reached",
+    "arrived",
+    "got to make"
+   ],
+   "answer": "reached",
+   "explain": "REACH AN AGREEMENT.",
+   "skill": "contracts",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-1-010",
+   "topic": "t15",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "They ___ the contract early. (rescindiram)",
+   "options": [
+    "terminated",
+    "broke up",
+    "finished off"
+   ],
+   "answer": "terminated",
+   "explain": "Rescindir: TERMINATE A CONTRACT.",
+   "skill": "contracts",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-1-011",
+   "topic": "t15",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We need to ___ costs this quarter.",
+   "options": [
+    "cut",
+    "diminish",
+    "low"
+   ],
+   "answer": "cut",
+   "explain": "CUT COSTS.",
+   "skill": "money",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-1-012",
+   "topic": "t15",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The company ___ a profit last year.",
+   "options": [
+    "made",
+    "did",
+    "won"
+   ],
+   "answer": "made",
+   "explain": "MAKE A PROFIT.",
+   "skill": "money",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-1-013",
+   "topic": "t15",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We ___ due diligence on all new suppliers.",
+   "options": [
+    "conduct",
+    "make",
+    "do up"
+   ],
+   "answer": "conduct",
+   "explain": "CONDUCT DUE DILIGENCE.",
+   "skill": "governance",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-1-014",
+   "topic": "t15",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We need to ___ compliance with the new law.",
+   "options": [
+    "ensure",
+    "assure to",
+    "insure"
+   ],
+   "answer": "ensure",
+   "explain": "ENSURE COMPLIANCE = garantir conformidade.",
+   "skill": "governance",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-1-015",
+   "topic": "t15",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It's ___ likely that they'll accept.",
+   "options": [
+    "highly",
+    "very much",
+    "strongly"
+   ],
+   "answer": "highly",
+   "explain": "HIGHLY LIKELY.",
+   "skill": "intens",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-2-001",
+   "topic": "t15",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We need to do an action.",
+   "options": [
+    "We need to take action.",
+    "We need to make an action.",
+    "We need to do action."
+   ],
+   "answer": "We need to take action.",
+   "explain": "TAKE ACTION.",
+   "skill": "decisions",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-2-002",
+   "topic": "t15",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We need to ___ (pesar) the options before deciding.",
+   "answer": [
+    "weigh"
+   ],
+   "explain": "WEIGH THE OPTIONS.",
+   "skill": "decisions",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-2-003",
+   "topic": "t15",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We lost the deadline again.",
+   "options": [
+    "We missed the deadline again.",
+    "We lost again the deadline.",
+    "We failed the deadline again."
+   ],
+   "answer": "We missed the deadline again.",
+   "explain": "MISS A DEADLINE.",
+   "skill": "deadlines",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-2-004",
+   "topic": "t15",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Can we ___ (estender) the deadline by a week?",
+   "answer": [
+    "extend"
+   ],
+   "explain": "EXTEND A DEADLINE.",
+   "skill": "deadlines",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-2-005",
+   "topic": "t15",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Can you make the minutes?",
+   "options": [
+    "Can you take the minutes?",
+    "Can you do the minutes?",
+    "Can you write up minutes the?"
+   ],
+   "answer": "Can you take the minutes?",
+   "explain": "TAKE THE MINUTES.",
+   "skill": "meetings",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-2-006",
+   "topic": "t15",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Who's going to ___ (definir) the agenda?",
+   "answer": [
+    "set"
+   ],
+   "explain": "SET THE AGENDA.",
+   "skill": "meetings",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-2-007",
+   "topic": "t15",
+   "level": 2,
+   "type": "fix",
+   "prompt": "This makes a risk for us.",
+   "options": [
+    "This poses a risk to us.",
+    "This does a risk for us.",
+    "This puts a risk to us."
+   ],
+   "answer": "This poses a risk to us.",
+   "explain": "POSE A RISK.",
+   "skill": "risks",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-2-008",
+   "topic": "t15",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'd like to ___ (sinalizar) a concern about the timeline.",
+   "answer": [
+    "flag",
+    "raise"
+   ],
+   "explain": "FLAG / RAISE A CONCERN.",
+   "skill": "risks",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-2-009",
+   "topic": "t15",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We broke the contract. (= rescindimos legalmente)",
+   "options": [
+    "We terminated the contract.",
+    "We finished the contract off.",
+    "We broke up the contract."
+   ],
+   "answer": "We terminated the contract.",
+   "explain": "BREAK = violar; TERMINATE = rescindir.",
+   "skill": "contracts",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-2-010",
+   "topic": "t15",
+   "level": 2,
+   "type": "gap",
+   "prompt": "They ___ (fecharam) a deal with a new supplier.",
+   "answer": [
+    "closed",
+    "struck",
+    "made"
+   ],
+   "explain": "CLOSE / STRIKE A DEAL.",
+   "skill": "contracts",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-2-011",
+   "topic": "t15",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We need to diminish costs.",
+   "options": [
+    "We need to cut costs.",
+    "We need to low costs.",
+    "We need to decrease the costs down."
+   ],
+   "answer": "We need to cut costs.",
+   "explain": "CUT / REDUCE COSTS.",
+   "skill": "money",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-2-012",
+   "topic": "t15",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We need to ___ (alocar) a budget for training.",
+   "answer": [
+    "allocate"
+   ],
+   "explain": "ALLOCATE A BUDGET.",
+   "skill": "money",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-2-013",
+   "topic": "t15",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We make audits every year.",
+   "options": [
+    "We conduct audits every year.",
+    "We do audits of every year.",
+    "We realize audits every year."
+   ],
+   "answer": "We conduct audits every year.",
+   "explain": "CONDUCT AN AUDIT.",
+   "skill": "governance",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-2-014",
+   "topic": "t15",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Controls help ___ (mitigar) risks.",
+   "answer": [
+    "mitigate"
+   ],
+   "explain": "MITIGATE RISKS.",
+   "skill": "governance",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-2-015",
+   "topic": "t15",
+   "level": 2,
+   "type": "fix",
+   "prompt": "It's very probable that they accept.",
+   "options": [
+    "It's highly likely that they'll accept.",
+    "It's strongly probable that they accept.",
+    "It's high likely that they'll accept."
+   ],
+   "answer": "It's highly likely that they'll accept.",
+   "explain": "HIGHLY LIKELY é a combinação natural.",
+   "skill": "intens",
+   "cefr": "B2"
+  },
+  {
+   "id": "t15-3-001",
+   "topic": "t15",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'm ___ (totalmente) aware of the risks.",
+   "answer": [
+    "fully",
+    "well"
+   ],
+   "explain": "FULLY / WELL AWARE.",
+   "skill": "intens",
+   "cefr": "C1"
+  },
+  {
+   "id": "t15-3-002",
+   "topic": "t15",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I ___ (fortemente) recommend that we cut costs.",
+   "answer": [
+    "strongly",
+    "highly"
+   ],
+   "explain": "STRONGLY / HIGHLY RECOMMEND.",
+   "skill": "intens",
+   "cefr": "C1"
+  },
+  {
+   "id": "t15-3-003",
+   "topic": "t15",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We need to ___ (tomar) steps to reduce turnover.",
+   "answer": [
+    "take"
+   ],
+   "explain": "TAKE STEPS.",
+   "skill": "decisions",
+   "cefr": "C1"
+  },
+  {
+   "id": "t15-3-004",
+   "topic": "t15",
+   "level": 3,
+   "type": "gap",
+   "prompt": "After hours of discussion, we ___ (chegamos a) a conclusion.",
+   "answer": [
+    "reached",
+    "came to"
+   ],
+   "explain": "REACH / COME TO A CONCLUSION.",
+   "skill": "decisions",
+   "cefr": "C1"
+  },
+  {
+   "id": "t15-3-005",
+   "topic": "t15",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The company ___ (teve) a loss of 2 million.",
+   "answer": [
+    "made",
+    "had",
+    "posted",
+    "suffered"
+   ],
+   "explain": "MAKE / POST A LOSS.",
+   "skill": "money",
+   "cefr": "C1"
+  },
+  {
+   "id": "t15-3-006",
+   "topic": "t15",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The supplier ___ (violou) the contract by sharing our data.",
+   "answer": [
+    "breached",
+    "broke",
+    "violated"
+   ],
+   "explain": "BREACH A CONTRACT = violar.",
+   "skill": "contracts",
+   "cefr": "C1"
+  },
+  {
+   "id": "t15-3-007",
+   "topic": "t15",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We need to ___ (monitorar) supplier performance.",
+   "answer": [
+    "monitor",
+    "track"
+   ],
+   "explain": "MONITOR PERFORMANCE.",
+   "skill": "governance",
+   "cefr": "C1"
+  },
+  {
+   "id": "t15-3-008",
+   "topic": "t15",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "This supplier poses a significant risk.",
+   "explain": "POSE A RISK.",
+   "skill": "risks",
+   "cefr": "C1"
+  },
+  {
+   "id": "t15-3-009",
+   "topic": "t15",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We need to take action before we miss the deadline.",
+   "explain": "TAKE ACTION / MISS A DEADLINE.",
+   "skill": "decisions",
+   "cefr": "C1"
+  },
+  {
+   "id": "t15-3-010",
+   "topic": "t15",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Who's going to chair the meeting?",
+   "explain": "CHAIR A MEETING.",
+   "skill": "meetings",
+   "cefr": "C1"
+  },
+  {
+   "id": "t15-3-011",
+   "topic": "t15",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We conducted a full assessment last month.",
+   "explain": "CONDUCT AN ASSESSMENT.",
+   "skill": "governance",
+   "cefr": "C1"
+  },
+  {
+   "id": "t15-3-012",
+   "topic": "t15",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual combinação é natural?",
+   "options": [
+    "tackle a challenge",
+    "make a challenge solve",
+    "do a challenge"
+   ],
+   "answer": "tackle a challenge",
+   "explain": "TACKLE A CHALLENGE = enfrentar.",
+   "skill": "risks",
+   "cefr": "C1"
+  },
+  {
+   "id": "t15-3-013",
+   "topic": "t15",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual combinação é natural?",
+   "options": [
+    "generate revenue",
+    "do revenue",
+    "make up revenue"
+   ],
+   "answer": "generate revenue",
+   "explain": "GENERATE REVENUE.",
+   "skill": "money",
+   "cefr": "C1"
+  },
+  {
+   "id": "t15-3-014",
+   "topic": "t15",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual combinação é natural?",
+   "options": [
+    "enter into a contract",
+    "enter in a contract to",
+    "go into contract to"
+   ],
+   "answer": "enter into a contract",
+   "explain": "ENTER INTO A CONTRACT = firmar.",
+   "skill": "contracts",
+   "cefr": "C1"
+  },
+  {
+   "id": "t15-3-015",
+   "topic": "t15",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual combinação é natural?",
+   "options": [
+    "run a meeting",
+    "drive a meeting up",
+    "do a meeting run"
+   ],
+   "answer": "run a meeting",
+   "explain": "RUN / HOLD A MEETING.",
+   "skill": "meetings",
+   "cefr": "C1"
+  }
+ ]
+}

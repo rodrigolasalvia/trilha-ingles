@@ -8,6 +8,35 @@ const read = p => readFileSync(new URL(p, root), 'utf8');
 const topics = JSON.parse(read('data/topics.json'));
 const topicIds = topics.groups.flatMap(g => g.topics.map(t => t.id));
 const items = topicIds.flatMap(id => JSON.parse(read(`data/${id}.json`)).items);
+const gates = topics.groups.filter(g => g.locked).map(g => g.id);
+const openTopics = new Set(topics.groups.filter(g => !g.locked).flatMap(g => g.topics.map(t => t.id)));
+const openItems = items.filter(i => openTopics.has(i.topic));
+const DAY = C.DAY;
+const NOW = Date.UTC(2026, 9, 17, 15);
+
+// Simula prática: `days` dias (dos últimos `span`), `perDay` respostas por dia, com acerto `acc`, cobrindo `pool` em ordem.
+function simulate(pool, { days = 14, span = 14, perDay = 15, acc = 0.85, now = NOW, from = null } = {}) {
+  const st = C.emptyState(now - 60 * DAY);
+  let k = 0;
+  const step = span / days;
+  for (let d = 0; d < days; d++) {
+    const dayTs = (from ?? now) - Math.round((span - 1 - d * step) * DAY) - 3 * 3600e3;
+    const rec = { id: `s${d}`, ts: dayTs, mode: 'topic', topic: null, level: null, label: '', answers: [] };
+    st.sessions.push(rec);
+    for (let j = 0; j < perDay; j++, k++) {
+      const it = pool[k % pool.length];
+      const ok = (k % 100) < acc * 100;
+      const t = dayTs + j * 60e3;
+      rec.answers.push({ id: it.id, ok, t, topic: it.topic, level: it.level, skill: it.skill });
+      const r = st.items[it.id] || { box: 0, due: 0, seen: 0, correct: 0, wrong: 0, last: 0 };
+      r.seen++; ok ? r.correct++ : r.wrong++; r.last = t;
+      st.items[it.id] = r;
+    }
+  }
+  return st;
+}
+// Ordem que intercala temas, para a cobertura crescer de forma realista.
+const spread = list => { const by = {}; list.forEach(i => (by[i.topic] ||= []).push(i)); const qs = Object.values(by); const out = []; for (let i = 0; out.length < list.length; i++) for (const q of qs) if (q[i]) out.push(q[i]); return out; };
 
 /* ---------- Banco de exercícios ---------- */
 
@@ -265,9 +294,10 @@ test('buildSession: sessão por padrão usa só itens daquele padrão', () => {
 });
 
 test('levelEstimate: sem dados não estima; consolida faixa a faixa', () => {
-  let est = C.levelEstimate(items, C.emptyState());
+  let est = C.levelEstimate(openItems, C.emptyState());
   assert.equal(est.estimate, null);
-  assert.equal(est.bands.find(b => b.band === 'C1').status, 'sem_conteudo');
+  assert.equal(est.bands.find(b => b.band === 'C1').status, 'sem_conteudo', 'sem lotes liberados não há C1');
+  assert.equal(C.levelEstimate(items, C.emptyState()).bands.find(b => b.band === 'C1').status, 'poucos_dados');
 
   const st = C.emptyState();
   const a1 = items.filter(i => i.cefr === 'A1').slice(0, 20);
@@ -326,4 +356,61 @@ test('manifest: campos essenciais da PWA', () => {
   assert.equal(m.display, 'standalone');
   assert.ok(m.icons.some(i => i.sizes === '512x512' && i.purpose === 'maskable'));
   for (const i of m.icons) assert.ok(existsSync(new URL(i.src, root)), i.src);
+});
+
+/* ---------- Liberação silenciosa de lotes ---------- */
+
+test('topics.json: lotes 3, 4 e 5 existem, fechados, na ordem de liberação', () => {
+  assert.deepEqual(gates, ['lote3', 'lote4', 'lote5']);
+  for (const g of topics.groups.filter(x => x.locked)) assert.ok(g.topics.length >= 5, g.id);
+});
+
+test('banco: lote 5 traz conteúdo C1 em todos os temas', () => {
+  for (const id of ['t24', 't25', 't26', 't27', 't28']) assert.ok(items.some(i => i.topic === id && i.cefr === 'C1'), id);
+});
+
+test('unlockCheck: sem dados ou com pouca prática, nada é liberado', () => {
+  assert.equal(C.unlockCheck(openItems, C.emptyState(), gates, NOW), null);
+  // muito acerto, mas em poucos dias (pico, não constância)
+  assert.equal(C.unlockCheck(openItems, simulate(spread(openItems), { days: 4, perDay: 90, acc: 0.95 }), gates, NOW), null);
+});
+
+test('unlockCheck: prática constante e boa libera o próximo lote', () => {
+  const st = simulate(spread(openItems), { days: 12, perDay: 30, acc: 0.85 });
+  assert.equal(C.unlockCheck(openItems, st, gates, NOW), 'lote3');
+});
+
+test('unlockCheck: acerto baixo, cobertura baixa ou tema muito fraco bloqueiam', () => {
+  const pool = spread(openItems);
+  assert.equal(C.unlockCheck(openItems, simulate(pool, { days: 12, perDay: 30, acc: 0.65 }), gates, NOW), null, 'acerto');
+  assert.equal(C.unlockCheck(openItems, simulate(pool.slice(0, 120), { days: 12, perDay: 30, acc: 0.9 }), gates, NOW), null, 'cobertura');
+  // tudo bom, exceto um tema com muitos erros
+  const st = simulate(pool, { days: 12, perDay: 30, acc: 0.88 });
+  const t = 't01';
+  for (const s of st.sessions) for (const a of s.answers) if (a.topic === t) a.ok = false;
+  assert.equal(C.unlockCheck(openItems, st, gates, NOW), null, 'tema fraco');
+});
+
+test('unlockCheck: um lote por vez, com intervalo mínimo entre liberações', () => {
+  const st = simulate(spread(openItems), { days: 12, perDay: 30, acc: 0.85 });
+  st.unlocked.lote3 = NOW - 3 * DAY;
+  const open3 = items.filter(i => openTopics.has(i.topic) || ['t08','t09','t10','t11','t12','t13','t14','t15','t16'].includes(i.topic));
+  assert.equal(C.unlockCheck(open3, st, gates, NOW), null, 'liberou cedo demais');
+  const later = NOW + 20 * DAY;
+  const st2 = simulate(spread(open3), { days: 12, perDay: 50, acc: 0.85, now: later });
+  st2.unlocked.lote3 = NOW - 3 * DAY;
+  assert.equal(C.unlockCheck(open3, st2, gates, later), 'lote4');
+  st2.unlocked.lote4 = later; st2.unlocked.lote5 = later;
+  assert.equal(C.unlockCheck(open3, st2, gates, later + 30 * DAY), null, 'nada mais a liberar');
+});
+
+test('migração e backup preservam lotes liberados e avisos vistos', () => {
+  const st = C.emptyState(); st.unlocked = { lote3: 123456 }; st.announced = ['lote3'];
+  const back = C.parseBackup(C.makeBackup(st));
+  assert.deepEqual(back.unlocked, { lote3: 123456 });
+  assert.deepEqual(back.announced, ['lote3']);
+  const old = C.migrateState({ items: {}, sessions: [] });
+  assert.deepEqual(old.unlocked, {});
+  assert.deepEqual(old.announced, []);
+  assert.deepEqual(C.migrateState({ unlocked: { lote3: 'x', lote4: -1 }, announced: [1, 'lote3'] }).unlocked, {});
 });

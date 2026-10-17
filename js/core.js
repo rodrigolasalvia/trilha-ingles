@@ -1,6 +1,6 @@
 // Núcleo lógico puro: sem DOM, sem armazenamento. Testado em tests/core.test.js.
 
-export const APP_VERSION = '1.1.0';
+export const APP_VERSION = '1.2.0';
 export const STATE_VERSION = 1;
 export const DAY = 24 * 60 * 60 * 1000;
 // Intervalos da repetição espaçada (em dias) por caixa 0..5.
@@ -106,7 +106,7 @@ export function validateBank(items) {
 /* ---------- Estado ---------- */
 
 export function emptyState(now = Date.now()) {
-  return { version: STATE_VERSION, createdAt: now, items: {}, sessions: [] };
+  return { version: STATE_VERSION, createdAt: now, items: {}, sessions: [], unlocked: {}, announced: [] };
 }
 
 // Aceita qualquer coisa e devolve um estado válido. Nunca lança erro.
@@ -126,6 +126,10 @@ export function migrateState(raw, now = Date.now()) {
       };
     }
   }
+  if (raw.unlocked && typeof raw.unlocked === 'object' && !Array.isArray(raw.unlocked)) {
+    for (const [g, ts] of Object.entries(raw.unlocked)) if (Number.isFinite(Number(ts)) && Number(ts) > 0) s.unlocked[g] = Number(ts);
+  }
+  if (Array.isArray(raw.announced)) s.announced = raw.announced.filter(g => typeof g === 'string');
   if (Array.isArray(raw.sessions)) {
     s.sessions = raw.sessions
       .filter(x => x && typeof x === 'object' && Array.isArray(x.answers))
@@ -423,4 +427,59 @@ export function errorReport(items, state, meta, now = Date.now()) {
   });
   lines.push('', 'Pedido: crie um lote novo de exercícios objetivos (lacuna, múltipla escolha, corrigir a frase, ordenar) focado nesses padrões, no formato do banco da Trilha de Inglês.');
   return lines.join('\n');
+}
+
+// ---------- Liberação de lotes ----------
+// Avaliação silenciosa: nada disto aparece na interface. Libera no máximo um lote por vez, na ordem de `gates`.
+export const UNLOCK_RULES = {
+  windowDays: 14,     // janela observada
+  minActiveDays: 8,   // dias com prática dentro da janela
+  minAnswers: 120,    // respostas dentro da janela
+  recentN: 100,       // últimas respostas...
+  recentAcc: 0.75,    // ...com este acerto
+  weekMin: 40,        // cada uma das duas semanas: mínimo de respostas...
+  weekAcc: 0.70,      // ...e de acerto (constância, não pico)
+  minCoverage: 0.6,   // fração dos exercícios disponíveis já vistos
+  topicMin: 10,       // tema com ao menos tantas respostas na janela...
+  topicAcc: 0.6,      // ...não pode estar abaixo disto
+  minGapDays: 14,     // intervalo mínimo entre duas liberações
+};
+
+export function isUnlocked(state, groupId) { return !!(state.unlocked && state.unlocked[groupId]); }
+
+export function unlockCheck(items, state, gates, now = Date.now(), r = UNLOCK_RULES) {
+  const next = gates.find(g => !isUnlocked(state, g));
+  if (!next) return null;
+  const last = Math.max(0, ...Object.values(state.unlocked || {}));
+  if (last && now - last < r.minGapDays * DAY) return null;
+
+  const active = new Set(items.map(i => i.id));
+  const answers = allAnswers(state).filter(a => active.has(a.id) && a.t <= now);
+  const from = now - r.windowDays * DAY;
+  const win = answers.filter(a => a.t > from);
+  if (win.length < r.minAnswers) return null;
+  if (new Set(win.map(a => dayKey(a.t))).size < r.minActiveDays) return null;
+
+  const acc = list => list.filter(a => a.ok).length / list.length;
+  const recent = answers.slice(-r.recentN);
+  if (recent.length < r.recentN || acc(recent) < r.recentAcc) return null;
+
+  const mid = now - (r.windowDays / 2) * DAY;
+  for (const week of [win.filter(a => a.t <= mid), win.filter(a => a.t > mid)]) {
+    if (week.length < r.weekMin || acc(week) < r.weekAcc) return null;
+  }
+
+  const seen = items.filter(i => state.items[i.id] && state.items[i.id].seen > 0).length;
+  if (!items.length || seen / items.length < r.minCoverage) return null;
+
+  const topicOf = new Map(items.map(i => [i.id, i.topic]));
+  const byTopic = new Map();
+  for (const a of win) {
+    const t = topicOf.get(a.id);
+    if (!byTopic.has(t)) byTopic.set(t, []);
+    byTopic.get(t).push(a);
+  }
+  for (const list of byTopic.values()) if (list.length >= r.topicMin && acc(list) < r.topicAcc) return null;
+
+  return next;
 }

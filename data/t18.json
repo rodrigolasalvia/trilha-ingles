@@ -1,0 +1,664 @@
+{
+ "topic": "t18",
+ "items": [
+  {
+   "id": "t18-1-001",
+   "topic": "t18",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Sorry to ___, but can I add something?'",
+   "options": [
+    "interrupt",
+    "disturb you",
+    "cut"
+   ],
+   "answer": "interrupt",
+   "explain": "SORRY TO INTERRUPT.",
+   "skill": "interrupt",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-1-002",
+   "topic": "t18",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Can I ___ in here?'",
+   "options": [
+    "jump",
+    "enter",
+    "go"
+   ],
+   "answer": "jump",
+   "explain": "CAN I JUMP IN?",
+   "skill": "interrupt",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-1-003",
+   "topic": "t18",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Retomando a palavra: 'If I could just ___ my point...'",
+   "options": [
+    "finish",
+    "end up",
+    "close"
+   ],
+   "answer": "finish",
+   "explain": "IF I COULD JUST FINISH...",
+   "skill": "retake",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-1-004",
+   "topic": "t18",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Going ___ to what I was saying...'",
+   "options": [
+    "back",
+    "again",
+    "return"
+   ],
+   "answer": "back",
+   "explain": "GOING BACK TO WHAT I WAS SAYING...",
+   "skill": "retake",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-1-005",
+   "topic": "t18",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'What do you ___ by \"flexible\"?'",
+   "options": [
+    "mean",
+    "say",
+    "want"
+   ],
+   "answer": "mean",
+   "explain": "WHAT DO YOU MEAN BY...?",
+   "skill": "clarify",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-1-006",
+   "topic": "t18",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Could you be more ___?'",
+   "options": [
+    "specific",
+    "especific",
+    "specify"
+   ],
+   "answer": "specific",
+   "explain": "BE MORE SPECIFIC.",
+   "skill": "clarify",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-1-007",
+   "topic": "t18",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Sorry, could you ___ that?'",
+   "options": [
+    "repeat",
+    "repeat again",
+    "say again that"
+   ],
+   "answer": "repeat",
+   "explain": "COULD YOU REPEAT THAT?",
+   "skill": "repeat",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-1-008",
+   "topic": "t18",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Sorry, I didn't ___ that.'",
+   "options": [
+    "catch",
+    "take",
+    "hold"
+   ],
+   "answer": "catch",
+   "explain": "I DIDN'T CATCH THAT = não entendi (áudio).",
+   "skill": "repeat",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-1-009",
+   "topic": "t18",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'So, if I understand you ___, you want...'",
+   "options": [
+    "correctly",
+    "correct",
+    "right way"
+   ],
+   "answer": "correctly",
+   "explain": "IF I UNDERSTAND YOU CORRECTLY...",
+   "skill": "confirm",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-1-010",
+   "topic": "t18",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Just to ___, the deadline is Friday?'",
+   "options": [
+    "confirm",
+    "confirming",
+    "be confirm"
+   ],
+   "answer": "confirm",
+   "explain": "JUST TO CONFIRM...",
+   "skill": "confirm",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-1-011",
+   "topic": "t18",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Ganhando tempo: 'That's a good ___. Let me think.'",
+   "options": [
+    "question",
+    "ask",
+    "answer"
+   ],
+   "answer": "question",
+   "explain": "THAT'S A GOOD QUESTION.",
+   "skill": "buytime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-1-012",
+   "topic": "t18",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Let me ___ back to you on that.'",
+   "options": [
+    "get",
+    "come",
+    "give"
+   ],
+   "answer": "get",
+   "explain": "GET BACK TO YOU = dar retorno.",
+   "skill": "buytime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-1-013",
+   "topic": "t18",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'So, the next ___ are...'",
+   "options": [
+    "steps",
+    "passes",
+    "stages next"
+   ],
+   "answer": "steps",
+   "explain": "NEXT STEPS.",
+   "skill": "nextsteps",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-1-014",
+   "topic": "t18",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Who's going to ___ care of this?'",
+   "options": [
+    "take",
+    "make",
+    "do"
+   ],
+   "answer": "take",
+   "explain": "TAKE CARE OF = cuidar de.",
+   "skill": "nextsteps",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-1-015",
+   "topic": "t18",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I think we can ___ it there.'",
+   "options": [
+    "leave",
+    "stop by",
+    "finish up it"
+   ],
+   "answer": "leave",
+   "explain": "LET'S LEAVE IT THERE = encerrar.",
+   "skill": "close",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-2-001",
+   "topic": "t18",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Sorry for interrupt, but...",
+   "options": [
+    "Sorry to interrupt, but...",
+    "Sorry for interrupt you, but...",
+    "Sorry interrupting, but..."
+   ],
+   "answer": "Sorry to interrupt, but...",
+   "explain": "SORRY TO + verbo (ou FOR + -ING).",
+   "skill": "interrupt",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-2-002",
+   "topic": "t18",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Can I just add something ___ (rápido)?",
+   "answer": [
+    "quickly"
+   ],
+   "explain": "CAN I JUST ADD SOMETHING QUICKLY?",
+   "skill": "interrupt",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-2-003",
+   "topic": "t18",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Sorry, can I just ___ (terminar) what I was saying?",
+   "answer": [
+    "finish"
+   ],
+   "explain": "CAN I JUST FINISH...?",
+   "skill": "retake",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-2-004",
+   "topic": "t18",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Anyway, as I was ___ (dizendo)...",
+   "answer": [
+    "saying"
+   ],
+   "explain": "AS I WAS SAYING...",
+   "skill": "retake",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-2-005",
+   "topic": "t18",
+   "level": 2,
+   "type": "fix",
+   "prompt": "What you mean with that?",
+   "options": [
+    "What do you mean by that?",
+    "What you mean by that?",
+    "What do you mean with that?"
+   ],
+   "answer": "What do you mean by that?",
+   "explain": "WHAT DO YOU MEAN BY...?",
+   "skill": "clarify",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-2-006",
+   "topic": "t18",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Could you give me an ___ (exemplo)?",
+   "answer": [
+    "example"
+   ],
+   "explain": "COULD YOU GIVE ME AN EXAMPLE?",
+   "skill": "clarify",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-2-007",
+   "topic": "t18",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Can you repeat again, please?",
+   "options": [
+    "Can you repeat that, please?",
+    "Can you again repeat, please?",
+    "Can you repeat it again more?"
+   ],
+   "answer": "Can you repeat that, please?",
+   "explain": "REPEAT já é 'de novo'.",
+   "skill": "repeat",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-2-008",
+   "topic": "t18",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Sorry, you're breaking ___ (preposição). Could you say that again?",
+   "answer": [
+    "up"
+   ],
+   "explain": "YOU'RE BREAKING UP = sua voz está cortando.",
+   "skill": "repeat",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-2-009",
+   "topic": "t18",
+   "level": 2,
+   "type": "gap",
+   "prompt": "So what you're ___ (dizendo) is that we need more time?",
+   "answer": [
+    "saying"
+   ],
+   "explain": "SO WHAT YOU'RE SAYING IS...",
+   "skill": "confirm",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-2-010",
+   "topic": "t18",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Let me see if I understood: you want to wait?",
+   "options": [
+    "Let me make sure I understand: you want to wait?",
+    "Let me if I understood see: you want wait?",
+    "Let me see understood: you want to wait?"
+   ],
+   "answer": "Let me make sure I understand: you want to wait?",
+   "explain": "LET ME MAKE SURE I UNDERSTAND.",
+   "skill": "confirm",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-2-011",
+   "topic": "t18",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'll need to ___ (verificar) and get back to you.",
+   "answer": [
+    "check"
+   ],
+   "explain": "I'LL NEED TO CHECK.",
+   "skill": "buytime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-2-012",
+   "topic": "t18",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'll return to you tomorrow.",
+   "options": [
+    "I'll get back to you tomorrow.",
+    "I'll come back you tomorrow.",
+    "I'll return you tomorrow."
+   ],
+   "answer": "I'll get back to you tomorrow.",
+   "explain": "Dar retorno = GET BACK TO.",
+   "skill": "buytime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-2-013",
+   "topic": "t18",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Let's ___ (resumir) the action points.",
+   "answer": [
+    "recap",
+    "summarize",
+    "go over"
+   ],
+   "explain": "RECAP / SUMMARIZE THE ACTION POINTS.",
+   "skill": "nextsteps",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-2-014",
+   "topic": "t18",
+   "level": 2,
+   "type": "gap",
+   "prompt": "João will ___ (enviar) the minutes by Friday.",
+   "answer": [
+    "send",
+    "circulate",
+    "share"
+   ],
+   "explain": "SEND / CIRCULATE THE MINUTES.",
+   "skill": "nextsteps",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-2-015",
+   "topic": "t18",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Thanks, everyone. Let's ___ (encerrar) it there.",
+   "answer": [
+    "leave",
+    "wrap"
+   ],
+   "explain": "LET'S LEAVE IT THERE / WRAP IT UP THERE.",
+   "skill": "close",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-3-001",
+   "topic": "t18",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Sorry, can I come ___ (preposição) here?",
+   "answer": [
+    "in"
+   ],
+   "explain": "CAN I COME IN HERE? = posso entrar na conversa?",
+   "skill": "interrupt",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-3-002",
+   "topic": "t18",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Could you ___ (detalhar) on that a little?",
+   "answer": [
+    "elaborate",
+    "expand"
+   ],
+   "explain": "ELABORATE ON = detalhar.",
+   "skill": "clarify",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-3-003",
+   "topic": "t18",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Sorry, the line isn't very ___ (boa). Could you repeat?",
+   "answer": [
+    "good",
+    "clear"
+   ],
+   "explain": "THE LINE ISN'T VERY CLEAR.",
+   "skill": "repeat",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-3-004",
+   "topic": "t18",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Just to make sure we're on the same ___ (página)...",
+   "answer": [
+    "page"
+   ],
+   "explain": "ON THE SAME PAGE = alinhados.",
+   "skill": "confirm",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-3-005",
+   "topic": "t18",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'd rather not ___ (dar) a number right now.",
+   "answer": [
+    "give"
+   ],
+   "explain": "I'D RATHER NOT GIVE A NUMBER YET.",
+   "skill": "buytime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-3-006",
+   "topic": "t18",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Let's ___ (encerrar) up for today.",
+   "answer": [
+    "wrap"
+   ],
+   "explain": "WRAP UP = encerrar.",
+   "skill": "close",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-3-007",
+   "topic": "t18",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Sorry to interrupt, but can I add something?",
+   "explain": "Interromper com educação.",
+   "skill": "interrupt",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-3-008",
+   "topic": "t18",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Let me get back to you on that.",
+   "explain": "Ganhar tempo.",
+   "skill": "buytime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-3-009",
+   "topic": "t18",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Could you say that again, please?",
+   "explain": "Pedir repetição.",
+   "skill": "repeat",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-3-010",
+   "topic": "t18",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Who will take care of the next steps?",
+   "explain": "Responsáveis.",
+   "skill": "nextsteps",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-3-011",
+   "topic": "t18",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Para retomar a palavra com educação:",
+   "options": [
+    "Sorry, if I could just finish my point...",
+    "Wait, I'm speaking!",
+    "Stop, let me talk."
+   ],
+   "answer": "Sorry, if I could just finish my point...",
+   "explain": "Retomar sem confrontar.",
+   "skill": "retake",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-3-012",
+   "topic": "t18",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Para confirmar entendimento:",
+   "options": [
+    "So, just to be clear, the budget is fixed?",
+    "So, clear the budget fixed?",
+    "So, the budget is fixed, no?"
+   ],
+   "answer": "So, just to be clear, the budget is fixed?",
+   "explain": "JUST TO BE CLEAR...",
+   "skill": "confirm",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-3-013",
+   "topic": "t18",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Para encerrar a reunião:",
+   "options": [
+    "I think we've covered everything. Thanks, everyone.",
+    "We finish. Bye.",
+    "Ok, it's finished the meeting."
+   ],
+   "answer": "I think we've covered everything. Thanks, everyone.",
+   "explain": "Fechamento natural.",
+   "skill": "close",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-3-014",
+   "topic": "t18",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Para pedir esclarecimento:",
+   "options": [
+    "Sorry, I'm not sure I follow.",
+    "Sorry, I don't follow you up.",
+    "I'm not follow."
+   ],
+   "answer": "Sorry, I'm not sure I follow.",
+   "explain": "I DON'T FOLLOW = não estou acompanhando.",
+   "skill": "clarify",
+   "cefr": "B2"
+  },
+  {
+   "id": "t18-3-015",
+   "topic": "t18",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Para definir próximos passos:",
+   "options": [
+    "Can we agree on who does what by when?",
+    "Can we agree who does what until when?",
+    "We agree who make what when?"
+   ],
+   "answer": "Can we agree on who does what by when?",
+   "explain": "WHO DOES WHAT BY WHEN.",
+   "skill": "nextsteps",
+   "cefr": "B2"
+  }
+ ]
+}

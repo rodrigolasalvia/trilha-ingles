@@ -258,3 +258,12 @@ button:focus-visible, a:focus-visible, input:focus-visible, label:focus-visible 
 .level-big.is-pending { font-size: 30px; color: var(--muted); }
 .next-goal { margin: 14px 0 0; font-size: 15px; }
 .caveat { margin: 10px 0 0; font-size: 13px; color: var(--muted); }
+
+/* v1.2: aviso de lote liberado */
+.unlock-card { margin: 0 0 20px; padding: 18px; border-radius: var(--radius); border: 2px solid var(--g); background: color-mix(in srgb, var(--g) 10%, var(--surface)); animation: rise .4s ease-out; }
+.unlock-card .eyebrow { color: var(--g); font-weight: 700; margin: 0 0 4px; }
+.unlock-card h2 { margin: 0 0 6px; }
+.unlock-card p { margin: 0 0 12px; }
+@media (prefers-color-scheme: dark) { .unlock-card .eyebrow { color: color-mix(in srgb, var(--g) 45%, white); } }
+@keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .unlock-card { animation: none; } }

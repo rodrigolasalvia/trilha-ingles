@@ -1,0 +1,665 @@
+{
+ "topic": "t21",
+ "items": [
+  {
+   "id": "t21-1-001",
+   "topic": "t21",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Shall we ___ by looking at the main terms?'",
+   "options": [
+    "start",
+    "starting",
+    "to start"
+   ],
+   "answer": "start",
+   "explain": "SHALL WE + verbo?",
+   "skill": "open",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-1-002",
+   "topic": "t21",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'What are you looking ___ in this deal?'",
+   "options": [
+    "for",
+    "at",
+    "to"
+   ],
+   "answer": "for",
+   "explain": "LOOK FOR = buscar.",
+   "skill": "open",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-1-003",
+   "topic": "t21",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'We're ___ to offer a 5% discount.'",
+   "options": [
+    "prepared",
+    "preparing",
+    "ready for"
+   ],
+   "answer": "prepared",
+   "explain": "WE'RE PREPARED TO + verbo.",
+   "skill": "propose",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-1-004",
+   "topic": "t21",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Our ___ is to split the costs.'",
+   "options": [
+    "proposal",
+    "propose",
+    "purpose"
+   ],
+   "answer": "proposal",
+   "explain": "OUR PROPOSAL IS...",
+   "skill": "propose",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-1-005",
+   "topic": "t21",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'We can agree ___ you sign for two years.'",
+   "options": [
+    "if",
+    "unless",
+    "except"
+   ],
+   "answer": "if",
+   "explain": "Condição: IF / PROVIDED THAT.",
+   "skill": "condition",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-1-006",
+   "topic": "t21",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'We'll accept, ___ that delivery is in May.'",
+   "options": [
+    "provided",
+    "provide",
+    "providing to"
+   ],
+   "answer": "provided",
+   "explain": "PROVIDED THAT.",
+   "skill": "condition",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-1-007",
+   "topic": "t21",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'This is our ___ offer.'",
+   "options": [
+    "final",
+    "last of",
+    "end"
+   ],
+   "answer": "final",
+   "explain": "OUR FINAL OFFER.",
+   "skill": "pressure",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-1-008",
+   "topic": "t21",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'The offer is only ___ until Friday.'",
+   "options": [
+    "valid",
+    "validate",
+    "valued"
+   ],
+   "answer": "valid",
+   "explain": "VALID UNTIL.",
+   "skill": "pressure",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-1-009",
+   "topic": "t21",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'We could ___ some flexibility on price.'",
+   "options": [
+    "consider",
+    "considering",
+    "to consider"
+   ],
+   "answer": "consider",
+   "explain": "WE COULD CONSIDER.",
+   "skill": "concede",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-1-010",
+   "topic": "t21",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'We could meet you ___ way.'",
+   "options": [
+    "halfway",
+    "half",
+    "middle"
+   ],
+   "answer": "halfway",
+   "explain": "MEET YOU HALFWAY = ceder metade.",
+   "skill": "concede",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-1-011",
+   "topic": "t21",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I'm afraid that's not ___ for us.'",
+   "options": [
+    "acceptable",
+    "accepting",
+    "accept"
+   ],
+   "answer": "acceptable",
+   "explain": "NOT ACCEPTABLE.",
+   "skill": "refuse",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-1-012",
+   "topic": "t21",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I'm afraid we can't go ___ than that.'",
+   "options": [
+    "lower",
+    "less",
+    "down"
+   ],
+   "answer": "lower",
+   "explain": "CAN'T GO LOWER.",
+   "skill": "refuse",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-1-013",
+   "topic": "t21",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I'll need to ___ this with my team.'",
+   "options": [
+    "discuss",
+    "discuss about",
+    "talk"
+   ],
+   "answer": "discuss",
+   "explain": "DISCUSS sem ABOUT.",
+   "skill": "buytime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-1-014",
+   "topic": "t21",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'So, do we have a ___?'",
+   "options": [
+    "deal",
+    "agreement deal",
+    "business"
+   ],
+   "answer": "deal",
+   "explain": "DO WE HAVE A DEAL?",
+   "skill": "close",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-1-015",
+   "topic": "t21",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Let's put it in ___.'",
+   "options": [
+    "writing",
+    "written",
+    "write"
+   ],
+   "answer": "writing",
+   "explain": "PUT IT IN WRITING.",
+   "skill": "close",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-2-001",
+   "topic": "t21",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We would like to discuss about the price.",
+   "options": [
+    "We would like to discuss the price.",
+    "We would like discuss about the price.",
+    "We would like to discuss of the price."
+   ],
+   "answer": "We would like to discuss the price.",
+   "explain": "DISCUSS não leva ABOUT.",
+   "skill": "buytime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-2-002",
+   "topic": "t21",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Let's ___ (estabelecer) some ground rules first.",
+   "answer": [
+    "set",
+    "establish"
+   ],
+   "explain": "SET GROUND RULES.",
+   "skill": "open",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-2-003",
+   "topic": "t21",
+   "level": 2,
+   "type": "gap",
+   "prompt": "What we have in ___ (mente) is a three-year contract.",
+   "answer": [
+    "mind"
+   ],
+   "explain": "WHAT WE HAVE IN MIND IS...",
+   "skill": "propose",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-2-004",
+   "topic": "t21",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We propose to you a discount.",
+   "options": [
+    "We'd like to offer you a discount.",
+    "We propose you a discount.",
+    "We propose a discount to you of."
+   ],
+   "answer": "We'd like to offer you a discount.",
+   "explain": "OFFER + pessoa + coisa.",
+   "skill": "propose",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-2-005",
+   "topic": "t21",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We could do that on ___ (condição) that you pay upfront.",
+   "answer": [
+    "condition"
+   ],
+   "explain": "ON CONDITION THAT.",
+   "skill": "condition",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-2-006",
+   "topic": "t21",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We accept if you will pay in 30 days.",
+   "options": [
+    "We'll accept if you pay in 30 days.",
+    "We accept if you will to pay in 30 days.",
+    "We'll accept if you would pay in 30 days."
+   ],
+   "answer": "We'll accept if you pay in 30 days.",
+   "explain": "IF + presente; WILL na principal.",
+   "skill": "condition",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-2-007",
+   "topic": "t21",
+   "level": 2,
+   "type": "gap",
+   "prompt": "This price is only available for a ___ (limitado) time.",
+   "answer": [
+    "limited"
+   ],
+   "explain": "FOR A LIMITED TIME.",
+   "skill": "pressure",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-2-008",
+   "topic": "t21",
+   "level": 2,
+   "type": "fix",
+   "prompt": "That's our last offer, take or leave.",
+   "options": [
+    "That's our final offer, take it or leave it.",
+    "That's our last offer, take it or leave.",
+    "That's our end offer, take or leave it."
+   ],
+   "answer": "That's our final offer, take it or leave it.",
+   "explain": "TAKE IT OR LEAVE IT.",
+   "skill": "pressure",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-2-009",
+   "topic": "t21",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We might be ___ (capazes) to reduce the price if you increase the volume.",
+   "answer": [
+    "able"
+   ],
+   "explain": "MIGHT BE ABLE TO.",
+   "skill": "concede",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-2-010",
+   "topic": "t21",
+   "level": 2,
+   "type": "gap",
+   "prompt": "In ___ (troca) for a longer contract, we can lower the price.",
+   "answer": [
+    "exchange",
+    "return"
+   ],
+   "explain": "IN EXCHANGE FOR / IN RETURN FOR.",
+   "skill": "concede",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-2-011",
+   "topic": "t21",
+   "level": 2,
+   "type": "fix",
+   "prompt": "No, this is impossible for us.",
+   "options": [
+    "I'm afraid that would be difficult for us.",
+    "No, is impossible for us.",
+    "This impossible us."
+   ],
+   "answer": "I'm afraid that would be difficult for us.",
+   "explain": "Recusa diplomática.",
+   "skill": "refuse",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-2-012",
+   "topic": "t21",
+   "level": 2,
+   "type": "gap",
+   "prompt": "That's outside our ___ (orçamento).",
+   "answer": [
+    "budget"
+   ],
+   "explain": "OUTSIDE OUR BUDGET.",
+   "skill": "refuse",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-2-013",
+   "topic": "t21",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Can I get ___ (preposição) to you on that tomorrow?",
+   "answer": [
+    "back"
+   ],
+   "explain": "GET BACK TO YOU.",
+   "skill": "buytime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-2-014",
+   "topic": "t21",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I think we have an agreement deal.",
+   "options": [
+    "I think we have a deal.",
+    "I think we have an agreed deal of.",
+    "I think we make a deal agreement."
+   ],
+   "answer": "I think we have a deal.",
+   "explain": "WE HAVE A DEAL.",
+   "skill": "close",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-2-015",
+   "topic": "t21",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Let's ___ (resumir) what we've agreed.",
+   "answer": [
+    "summarize",
+    "recap",
+    "go over"
+   ],
+   "explain": "SUMMARIZE WHAT WE'VE AGREED.",
+   "skill": "close",
+   "cefr": "B2"
+  },
+  {
+   "id": "t21-3-001",
+   "topic": "t21",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Our main ___ (prioridade) is delivery time.",
+   "answer": [
+    "priority",
+    "concern"
+   ],
+   "explain": "OUR MAIN PRIORITY / CONCERN IS...",
+   "skill": "open",
+   "cefr": "C1"
+  },
+  {
+   "id": "t21-3-002",
+   "topic": "t21",
+   "level": 3,
+   "type": "gap",
+   "prompt": "How ___ (seria) it if we split the shipping costs?",
+   "answer": [
+    "would"
+   ],
+   "explain": "HOW WOULD IT BE IF... (proposta suave).",
+   "skill": "propose",
+   "cefr": "C1"
+  },
+  {
+   "id": "t21-3-003",
+   "topic": "t21",
+   "level": 3,
+   "type": "gap",
+   "prompt": "As ___ (desde que) as the quality is guaranteed, we agree.",
+   "answer": [
+    "long"
+   ],
+   "explain": "AS LONG AS.",
+   "skill": "condition",
+   "cefr": "C1"
+  },
+  {
+   "id": "t21-3-004",
+   "topic": "t21",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We have another supplier ___ (pronto) to sign.",
+   "answer": [
+    "ready"
+   ],
+   "explain": "Pressão: READY TO SIGN.",
+   "skill": "pressure",
+   "cefr": "C1"
+  },
+  {
+   "id": "t21-3-005",
+   "topic": "t21",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We'd be willing to ___ (abrir mão) of the setup fee.",
+   "answer": [
+    "waive"
+   ],
+   "explain": "WAIVE A FEE = isentar.",
+   "skill": "concede",
+   "cefr": "C1"
+  },
+  {
+   "id": "t21-3-006",
+   "topic": "t21",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'm afraid exclusivity is a deal-___ (algo que inviabiliza o acordo) for us.",
+   "answer": [
+    "breaker"
+   ],
+   "explain": "DEAL-BREAKER = algo que inviabiliza o acordo.",
+   "skill": "refuse",
+   "cefr": "C1"
+  },
+  {
+   "id": "t21-3-007",
+   "topic": "t21",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We're prepared to offer a five percent discount.",
+   "explain": "Proposta.",
+   "skill": "propose",
+   "cefr": "C1"
+  },
+  {
+   "id": "t21-3-008",
+   "topic": "t21",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We can agree provided that you sign for two years.",
+   "explain": "Condição.",
+   "skill": "condition",
+   "cefr": "C1"
+  },
+  {
+   "id": "t21-3-009",
+   "topic": "t21",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I'll need to check with my manager first.",
+   "explain": "Ganhar tempo.",
+   "skill": "buytime",
+   "cefr": "C1"
+  },
+  {
+   "id": "t21-3-010",
+   "topic": "t21",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Let's put the agreement in writing.",
+   "explain": "Fechamento.",
+   "skill": "close",
+   "cefr": "C1"
+  },
+  {
+   "id": "t21-3-011",
+   "topic": "t21",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual concessão é estratégica?",
+   "options": [
+    "If you can commit to 1,000 units, we can lower the price.",
+    "OK, we lower the price, no problem.",
+    "Fine, whatever you want."
+   ],
+   "answer": "If you can commit to 1,000 units, we can lower the price.",
+   "explain": "Ceda em troca de algo.",
+   "skill": "concede",
+   "cefr": "C1"
+  },
+  {
+   "id": "t21-3-012",
+   "topic": "t21",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual recusa mantém a relação?",
+   "options": [
+    "I'm afraid we can't go below that, but we could look at payment terms.",
+    "No. Never.",
+    "This is ridiculous."
+   ],
+   "answer": "I'm afraid we can't go below that, but we could look at payment terms.",
+   "explain": "Recuse e ofereça alternativa.",
+   "skill": "refuse",
+   "cefr": "C1"
+  },
+  {
+   "id": "t21-3-013",
+   "topic": "t21",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual pressão é profissional?",
+   "options": [
+    "We'd need a decision by Friday to hold this price.",
+    "Decide now or forget it.",
+    "You must accept today."
+   ],
+   "answer": "We'd need a decision by Friday to hold this price.",
+   "explain": "Prazo real, sem ameaça.",
+   "skill": "pressure",
+   "cefr": "C1"
+  },
+  {
+   "id": "t21-3-014",
+   "topic": "t21",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual frase ganha tempo?",
+   "options": [
+    "Let me run the numbers and come back to you.",
+    "Let me run numbers and return you.",
+    "I go think and say you."
+   ],
+   "answer": "Let me run the numbers and come back to you.",
+   "explain": "RUN THE NUMBERS = fazer as contas.",
+   "skill": "buytime",
+   "cefr": "C1"
+  },
+  {
+   "id": "t21-3-015",
+   "topic": "t21",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual abertura explora interesses?",
+   "options": [
+    "What would an ideal outcome look like for you?",
+    "What you want?",
+    "Tell me your price now."
+   ],
+   "answer": "What would an ideal outcome look like for you?",
+   "explain": "Pergunta aberta.",
+   "skill": "open",
+   "cefr": "C1"
+  }
+ ]
+}
