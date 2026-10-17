@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "id": "lote1",
+      "title": "Lote 1 · Seus pontos fracos",
+      "level": "B1 → B2",
+      "topics": [
+        {
+          "id": "t01",
+          "title": "-ING ou TO: padrões fixos",
+          "short": "Verbo + -ING, verbo + TO, make/let, preposições",
+          "rules": [
+            "enjoy, avoid, finish, suggest, consider, mind, keep + -ING",
+            "want, decide, plan, agree, expect, manage, refuse + TO",
+            "want / ask / tell + pessoa + TO: I want you to check it.",
+            "make / let + pessoa + verbo base, sem TO: Let me explain.",
+            "Depois de preposição, sempre -ING: before signing, thanks for coming.",
+            "TO preposição pede -ING: look forward to hearing, be used to working."
+          ]
+        },
+        {
+          "id": "t02",
+          "title": "-ING ou TO: mudam o sentido",
+          "short": "stop, remember, forget, try, regret, mean, need",
+          "rules": [
+            "STOP + -ING = parar de · STOP + TO = parar para",
+            "REMEMBER / FORGET + TO = tarefa · + -ING = memória do passado",
+            "TRY + TO = esforçar-se · TRY + -ING = testar uma solução",
+            "REGRET + -ING = arrepender-se · REGRET TO inform = lamentar informar",
+            "MEAN + TO = ter a intenção · MEAN + -ING = implicar",
+            "Coisa que NEED algo: needs fixing / needs to be fixed"
+          ]
+        },
+        {
+          "id": "t03",
+          "title": "Word families",
+          "short": "A classe gramatical certa para cada posição",
+          "rules": [
+            "Depois de a / the / my: substantivo (a decision)",
+            "Antes de substantivo ou depois de be / very: adjetivo (very successful)",
+            "Modificando um verbo: advérbio (speaks clearly)",
+            "good → well · hard ≠ hardly · late ≠ lately",
+            "-ER faz a ação (employer) · -EE recebe (employee)"
+          ]
+        },
+        {
+          "id": "t04",
+          "title": "Sufixos e prefixos",
+          "short": "A terminação revela a classe",
+          "rules": [
+            "Substantivos: -tion, -ment, -ness, -ity, -ance, -ship, -al",
+            "Pessoas: -er/-or, -ist, -ant/-ent, -ee",
+            "Adjetivos: -ful, -less, -able, -ive, -al, -ous",
+            "Verbos: -ize, -en, -ify, -ate",
+            "Negativos: un-, in-, im- (p/m/b), ir- (r), il- (l), dis-, non-",
+            "Sentido: re- (de novo), mis- (errado), over- / under-, pre-"
+          ]
+        }
+      ]
+    }
+  ]
+}

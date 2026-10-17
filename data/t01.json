@@ -1,0 +1,671 @@
+{
+ "topic": "t01",
+ "items": [
+  {
+   "id": "t01-1-001",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I enjoy ___ new places.",
+   "options": [
+    "visiting",
+    "to visit",
+    "visit"
+   ],
+   "answer": "visiting",
+   "explain": "ENJOY + -ING."
+  },
+  {
+   "id": "t01-1-002",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We decided ___ the contract.",
+   "options": [
+    "to renew",
+    "renewing",
+    "renew"
+   ],
+   "answer": "to renew",
+   "explain": "DECIDE + TO: decisão aponta para o futuro."
+  },
+  {
+   "id": "t01-1-003",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Would you mind ___ the door?",
+   "options": [
+    "closing",
+    "to close",
+    "close"
+   ],
+   "answer": "closing",
+   "explain": "WOULD YOU MIND + -ING."
+  },
+  {
+   "id": "t01-1-004",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I want you ___ this report.",
+   "options": [
+    "to check",
+    "checking",
+    "check"
+   ],
+   "answer": "to check",
+   "explain": "WANT + pessoa + TO."
+  },
+  {
+   "id": "t01-1-005",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Let me ___ you.",
+   "options": [
+    "help",
+    "to help",
+    "helping"
+   ],
+   "answer": "help",
+   "explain": "LET + pessoa + verbo base, sem TO."
+  },
+  {
+   "id": "t01-1-006",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Thanks for ___ me.",
+   "options": [
+    "calling",
+    "to call",
+    "call"
+   ],
+   "answer": "calling",
+   "explain": "Depois de preposição (for), sempre -ING."
+  },
+  {
+   "id": "t01-1-007",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She managed ___ the deadline.",
+   "options": [
+    "to meet",
+    "meeting",
+    "meet"
+   ],
+   "answer": "to meet",
+   "explain": "MANAGE + TO = conseguir."
+  },
+  {
+   "id": "t01-1-008",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He avoided ___ the question.",
+   "options": [
+    "answering",
+    "to answer",
+    "answer"
+   ],
+   "answer": "answering",
+   "explain": "AVOID + -ING."
+  },
+  {
+   "id": "t01-1-009",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "They refused ___ the fine.",
+   "options": [
+    "to pay",
+    "paying",
+    "pay"
+   ],
+   "answer": "to pay",
+   "explain": "REFUSE + TO."
+  },
+  {
+   "id": "t01-1-010",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I called ___ the date.",
+   "options": [
+    "to confirm",
+    "for confirm",
+    "confirming"
+   ],
+   "answer": "to confirm",
+   "explain": "Finalidade (para + verbo) = TO, nunca FOR."
+  },
+  {
+   "id": "t01-1-011",
+   "topic": "t01",
+   "level": 1,
+   "type": "fix",
+   "prompt": "I suggest to postpone the meeting.",
+   "options": [
+    "I suggest postponing the meeting.",
+    "I suggest postpone the meeting.",
+    "I suggest to postponing the meeting."
+   ],
+   "answer": "I suggest postponing the meeting.",
+   "explain": "SUGGEST + -ING (ou suggest that we postpone)."
+  },
+  {
+   "id": "t01-1-012",
+   "topic": "t01",
+   "level": 1,
+   "type": "fix",
+   "prompt": "She made me to wait.",
+   "options": [
+    "She made me wait.",
+    "She made me waiting.",
+    "She made to me wait."
+   ],
+   "answer": "She made me wait.",
+   "explain": "MAKE + pessoa + verbo base, sem TO."
+  },
+  {
+   "id": "t01-1-013",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ with suppliers takes time.",
+   "options": [
+    "Negotiating",
+    "Negotiate",
+    "Negotiates"
+   ],
+   "answer": "Negotiating",
+   "explain": "Verbo como sujeito da frase: forma -ING."
+  },
+  {
+   "id": "t01-1-014",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We hope ___ you soon.",
+   "options": [
+    "to see",
+    "seeing",
+    "see"
+   ],
+   "answer": "to see",
+   "explain": "HOPE + TO."
+  },
+  {
+   "id": "t01-1-015",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I finished ___ the slides.",
+   "options": [
+    "preparing",
+    "to prepare",
+    "prepare"
+   ],
+   "answer": "preparing",
+   "explain": "FINISH + -ING."
+  },
+  {
+   "id": "t01-1-016",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She asked me ___ him.",
+   "options": [
+    "to call",
+    "calling",
+    "call"
+   ],
+   "answer": "to call",
+   "explain": "ASK + pessoa + TO."
+  },
+  {
+   "id": "t01-1-017",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He left without ___ goodbye.",
+   "options": [
+    "saying",
+    "to say",
+    "say"
+   ],
+   "answer": "saying",
+   "explain": "WITHOUT é preposição: -ING."
+  },
+  {
+   "id": "t01-1-018",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "They agreed ___ the price.",
+   "options": [
+    "to lower",
+    "lowering",
+    "lower"
+   ],
+   "answer": "to lower",
+   "explain": "AGREE + TO."
+  },
+  {
+   "id": "t01-2-001",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I suggest ___ (start) earlier.",
+   "answer": [
+    "starting"
+   ],
+   "explain": "SUGGEST + -ING."
+  },
+  {
+   "id": "t01-2-002",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We plan ___ (open) a new office.",
+   "answer": [
+    "to open"
+   ],
+   "explain": "PLAN + TO."
+  },
+  {
+   "id": "t01-2-003",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Would you mind ___ (send) it again?",
+   "answer": [
+    "sending"
+   ],
+   "explain": "WOULD YOU MIND + -ING."
+  },
+  {
+   "id": "t01-2-004",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "She expects us ___ (finish) today.",
+   "answer": [
+    "to finish"
+   ],
+   "explain": "EXPECT + pessoa + TO."
+  },
+  {
+   "id": "t01-2-005",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'm interested in ___ (join) the project.",
+   "answer": [
+    "joining"
+   ],
+   "explain": "Depois de preposição (in), -ING."
+  },
+  {
+   "id": "t01-2-006",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Let me ___ (check) the numbers.",
+   "answer": [
+    "check"
+   ],
+   "explain": "LET + pessoa + verbo base."
+  },
+  {
+   "id": "t01-2-007",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "They can't afford ___ (lose) this client.",
+   "answer": [
+    "to lose"
+   ],
+   "explain": "AFFORD + TO."
+  },
+  {
+   "id": "t01-2-008",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "He keeps ___ (interrupt) me.",
+   "answer": [
+    "interrupting"
+   ],
+   "explain": "KEEP + -ING = ficar fazendo."
+  },
+  {
+   "id": "t01-2-009",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'm looking forward to ___ (meet) you.",
+   "answer": [
+    "meeting"
+   ],
+   "explain": "LOOK FORWARD TO: o TO é preposição, então -ING."
+  },
+  {
+   "id": "t01-2-010",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "She promised ___ (call) back.",
+   "answer": [
+    "to call"
+   ],
+   "explain": "PROMISE + TO."
+  },
+  {
+   "id": "t01-2-011",
+   "topic": "t01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'm committed to improve the process.",
+   "options": [
+    "I'm committed to improving the process.",
+    "I'm committed improving the process.",
+    "I'm committed for improve the process."
+   ],
+   "answer": "I'm committed to improving the process.",
+   "explain": "BE COMMITTED TO: TO preposição, pede -ING."
+  },
+  {
+   "id": "t01-2-012",
+   "topic": "t01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Before to sign, read the contract.",
+   "options": [
+    "Before signing, read the contract.",
+    "Before sign, read the contract.",
+    "Before of signing, read the contract."
+   ],
+   "answer": "Before signing, read the contract.",
+   "explain": "BEFORE é preposição: -ING."
+  },
+  {
+   "id": "t01-2-013",
+   "topic": "t01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I want that you review this.",
+   "options": [
+    "I want you to review this.",
+    "I want you review this.",
+    "I want you reviewing this."
+   ],
+   "answer": "I want you to review this.",
+   "explain": "WANT + pessoa + TO, nunca WANT THAT."
+  },
+  {
+   "id": "t01-2-014",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The manager made us ___ (redo) the report.",
+   "answer": [
+    "redo"
+   ],
+   "explain": "MAKE + pessoa + verbo base."
+  },
+  {
+   "id": "t01-2-015",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We considered ___ (hire) a consultant.",
+   "answer": [
+    "hiring"
+   ],
+   "explain": "CONSIDER + -ING."
+  },
+  {
+   "id": "t01-2-016",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I went to the bank ___ (get) some cash.",
+   "answer": [
+    "to get",
+    "in order to get"
+   ],
+   "explain": "Finalidade: TO."
+  },
+  {
+   "id": "t01-2-017",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "They denied ___ (know) about it.",
+   "answer": [
+    "knowing"
+   ],
+   "explain": "DENY + -ING."
+  },
+  {
+   "id": "t01-2-018",
+   "topic": "t01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Thanks for help me.",
+   "options": [
+    "Thanks for helping me.",
+    "Thanks for helped me.",
+    "Thanks for to help me."
+   ],
+   "answer": "Thanks for helping me.",
+   "explain": "Depois de FOR, -ING."
+  },
+  {
+   "id": "t01-3-001",
+   "topic": "t01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "When it comes to ___ (negotiate), she is the best.",
+   "answer": [
+    "negotiating"
+   ],
+   "explain": "WHEN IT COMES TO: TO preposição, pede -ING."
+  },
+  {
+   "id": "t01-3-002",
+   "topic": "t01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We object to ___ (pay) extra fees.",
+   "answer": [
+    "paying"
+   ],
+   "explain": "OBJECT TO + -ING."
+  },
+  {
+   "id": "t01-3-003",
+   "topic": "t01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'd like you ___ (lead) the meeting.",
+   "answer": [
+    "to lead"
+   ],
+   "explain": "WOULD LIKE + pessoa + TO."
+  },
+  {
+   "id": "t01-3-004",
+   "topic": "t01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "It's no use ___ (complain) now.",
+   "answer": [
+    "complaining"
+   ],
+   "explain": "IT'S NO USE + -ING."
+  },
+  {
+   "id": "t01-3-005",
+   "topic": "t01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "She risked ___ (lose) the deal.",
+   "answer": [
+    "losing"
+   ],
+   "explain": "RISK + -ING."
+  },
+  {
+   "id": "t01-3-006",
+   "topic": "t01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "They encouraged us ___ (apply).",
+   "answer": [
+    "to apply"
+   ],
+   "explain": "ENCOURAGE + pessoa + TO."
+  },
+  {
+   "id": "t01-3-007",
+   "topic": "t01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'm used to ___ (work) under pressure.",
+   "answer": [
+    "working"
+   ],
+   "explain": "BE USED TO + -ING = estar acostumado."
+  },
+  {
+   "id": "t01-3-008",
+   "topic": "t01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We're considering ___ (move) the deadline.",
+   "answer": [
+    "moving"
+   ],
+   "explain": "CONSIDER + -ING."
+  },
+  {
+   "id": "t01-3-009",
+   "topic": "t01",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I want you to review this.",
+   "explain": "WANT + pessoa + TO."
+  },
+  {
+   "id": "t01-3-010",
+   "topic": "t01",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Would you mind waiting a moment?",
+   "explain": "WOULD YOU MIND + -ING."
+  },
+  {
+   "id": "t01-3-011",
+   "topic": "t01",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Let me explain what happened.",
+   "explain": "LET + pessoa + verbo base."
+  },
+  {
+   "id": "t01-3-012",
+   "topic": "t01",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "She managed to close the deal.",
+   "explain": "MANAGE + TO."
+  },
+  {
+   "id": "t01-3-013",
+   "topic": "t01",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Thanks for coming to the meeting.",
+   "explain": "Depois de FOR, -ING."
+  },
+  {
+   "id": "t01-3-014",
+   "topic": "t01",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "He has trouble ___ English idioms.",
+   "options": [
+    "understanding",
+    "to understand",
+    "understand"
+   ],
+   "answer": "understanding",
+   "explain": "HAVE TROUBLE + -ING."
+  },
+  {
+   "id": "t01-3-015",
+   "topic": "t01",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "There's no point ___ about it.",
+   "options": [
+    "worrying",
+    "to worry",
+    "worry"
+   ],
+   "answer": "worrying",
+   "explain": "THERE'S NO POINT + -ING."
+  },
+  {
+   "id": "t01-3-016",
+   "topic": "t01",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "She was the first ___ the problem.",
+   "options": [
+    "to notice",
+    "noticing",
+    "notice"
+   ],
+   "answer": "to notice",
+   "explain": "THE FIRST / THE LAST + TO."
+  },
+  {
+   "id": "t01-3-017",
+   "topic": "t01",
+   "level": 3,
+   "type": "fix",
+   "prompt": "I look forward to hear from you.",
+   "options": [
+    "I look forward to hearing from you.",
+    "I look forward hearing from you.",
+    "I look forward to heard from you."
+   ],
+   "answer": "I look forward to hearing from you.",
+   "explain": "LOOK FORWARD TO + -ING."
+  },
+  {
+   "id": "t01-3-018",
+   "topic": "t01",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "It's worth ___ the clause again.",
+   "options": [
+    "reading",
+    "to read",
+    "read"
+   ],
+   "answer": "reading",
+   "explain": "IT'S WORTH + -ING = vale a pena."
+  }
+ ]
+}

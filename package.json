@@ -1,0 +1,10 @@
+{
+  "name": "trilha-ingles",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "PWA pessoal de exercícios de inglês (B1 → C1).",
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  }
+}

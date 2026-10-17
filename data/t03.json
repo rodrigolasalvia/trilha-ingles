@@ -1,0 +1,672 @@
+{
+ "topic": "t03",
+ "items": [
+  {
+   "id": "t03-1-001",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We need to make a quick ___.",
+   "options": [
+    "decision",
+    "decide",
+    "decisive"
+   ],
+   "answer": "decision",
+   "explain": "Depois de A + adjetivo: substantivo."
+  },
+  {
+   "id": "t03-1-002",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She is very ___. She always knows what to do.",
+   "options": [
+    "decisive",
+    "decision",
+    "decide"
+   ],
+   "answer": "decisive",
+   "explain": "Depois de VERY: adjetivo."
+  },
+  {
+   "id": "t03-1-003",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The launch was very ___.",
+   "options": [
+    "successful",
+    "success",
+    "succeed"
+   ],
+   "answer": "successful",
+   "explain": "Depois de VERY: adjetivo."
+  },
+  {
+   "id": "t03-1-004",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It was a big ___.",
+   "options": [
+    "success",
+    "successful",
+    "successfully"
+   ],
+   "answer": "success",
+   "explain": "Depois de A BIG: substantivo."
+  },
+  {
+   "id": "t03-1-005",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She speaks English very ___.",
+   "options": [
+    "well",
+    "good",
+    "goodly"
+   ],
+   "answer": "well",
+   "explain": "Advérbio de GOOD é WELL."
+  },
+  {
+   "id": "t03-1-006",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He drives very ___.",
+   "options": [
+    "carefully",
+    "careful",
+    "care"
+   ],
+   "answer": "carefully",
+   "explain": "Como ele dirige? Advérbio."
+  },
+  {
+   "id": "t03-1-007",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'm ___ for this area.",
+   "options": [
+    "responsible",
+    "responsibility",
+    "responsibly"
+   ],
+   "answer": "responsible",
+   "explain": "Depois de I'M, sem artigo: adjetivo."
+  },
+  {
+   "id": "t03-1-008",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It's my ___ to check the contracts.",
+   "options": [
+    "responsibility",
+    "responsible",
+    "responsibly"
+   ],
+   "answer": "responsibility",
+   "explain": "Depois de MY: substantivo."
+  },
+  {
+   "id": "t03-1-009",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I will ___ the data tomorrow.",
+   "options": [
+    "analyze",
+    "analysis",
+    "analyst"
+   ],
+   "answer": "analyze",
+   "explain": "Depois de WILL: verbo."
+  },
+  {
+   "id": "t03-1-010",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We need a deeper ___.",
+   "options": [
+    "analysis",
+    "analyze",
+    "analytical"
+   ],
+   "answer": "analysis",
+   "explain": "Depois de A + adjetivo: substantivo."
+  },
+  {
+   "id": "t03-1-011",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The ___ received a bonus. (funcionários)",
+   "options": [
+    "employees",
+    "employers",
+    "employments"
+   ],
+   "answer": "employees",
+   "explain": "-EE recebe a ação; -ER faz."
+  },
+  {
+   "id": "t03-1-012",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I work very ___.",
+   "options": [
+    "hard",
+    "hardly",
+    "hardness"
+   ],
+   "answer": "hard",
+   "explain": "HARD = com esforço. HARDLY = quase não."
+  },
+  {
+   "id": "t03-1-013",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I've been very busy ___. (ultimamente)",
+   "options": [
+    "lately",
+    "late",
+    "later"
+   ],
+   "answer": "lately",
+   "explain": "LATELY = ultimamente."
+  },
+  {
+   "id": "t03-1-014",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The meeting was very ___.",
+   "options": [
+    "boring",
+    "bored",
+    "bore"
+   ],
+   "answer": "boring",
+   "explain": "-ING descreve o que causa o sentimento."
+  },
+  {
+   "id": "t03-1-015",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He gave a very ___ presentation.",
+   "options": [
+    "clear",
+    "clearly",
+    "clarity"
+   ],
+   "answer": "clear",
+   "explain": "Antes de substantivo: adjetivo."
+  },
+  {
+   "id": "t03-1-016",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She explained it very ___.",
+   "options": [
+    "clearly",
+    "clear",
+    "clarity"
+   ],
+   "answer": "clearly",
+   "explain": "Modificando o verbo: advérbio."
+  },
+  {
+   "id": "t03-1-017",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We're ___ finished; just one slide left. (quase)",
+   "options": [
+    "nearly",
+    "near",
+    "nearby"
+   ],
+   "answer": "nearly",
+   "explain": "NEARLY = quase."
+  },
+  {
+   "id": "t03-1-018",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Our main ___ is cost.",
+   "options": [
+    "priority",
+    "prioritize",
+    "prior"
+   ],
+   "answer": "priority",
+   "explain": "Depois de OUR MAIN: substantivo."
+  },
+  {
+   "id": "t03-2-001",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We need to make a ___ (decide).",
+   "answer": [
+    "decision"
+   ],
+   "explain": "Depois de A: substantivo."
+  },
+  {
+   "id": "t03-2-002",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The project was very ___ (success).",
+   "answer": [
+    "successful"
+   ],
+   "explain": "Depois de VERY: adjetivo."
+  },
+  {
+   "id": "t03-2-003",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "She handled it very ___ (professional).",
+   "answer": [
+    "professionally"
+   ],
+   "explain": "Modificando o verbo: advérbio."
+  },
+  {
+   "id": "t03-2-004",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "He's a ___ (care) driver.",
+   "answer": [
+    "careful"
+   ],
+   "explain": "Antes de substantivo: adjetivo."
+  },
+  {
+   "id": "t03-2-005",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I need to ___ (analysis) these numbers.",
+   "answer": [
+    "analyze",
+    "analyse"
+   ],
+   "explain": "Depois de TO: verbo."
+  },
+  {
+   "id": "t03-2-006",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We hired a financial ___ (analyze).",
+   "answer": [
+    "analyst"
+   ],
+   "explain": "Pessoa: -IST."
+  },
+  {
+   "id": "t03-2-007",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Thank you for your ___ (patient).",
+   "answer": [
+    "patience"
+   ],
+   "explain": "Depois de YOUR: substantivo."
+  },
+  {
+   "id": "t03-2-008",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The ___ (employ) of this company are happy.",
+   "answer": [
+    "employees"
+   ],
+   "explain": "Quem é contratado: -EE."
+  },
+  {
+   "id": "t03-2-009",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "This is a ___ (rely) supplier.",
+   "answer": [
+    "reliable"
+   ],
+   "explain": "Antes de substantivo: adjetivo."
+  },
+  {
+   "id": "t03-2-010",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "There's a ___ (possible) of delay.",
+   "answer": [
+    "possibility"
+   ],
+   "explain": "Depois de A: substantivo."
+  },
+  {
+   "id": "t03-2-011",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We need to ___ (strong) our controls.",
+   "answer": [
+    "strengthen"
+   ],
+   "explain": "Depois de TO: verbo. STRONG → STRENGTHEN."
+  },
+  {
+   "id": "t03-2-012",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The new tool is very ___ (use).",
+   "answer": [
+    "useful"
+   ],
+   "explain": "Depois de VERY: adjetivo."
+  },
+  {
+   "id": "t03-2-013",
+   "topic": "t03",
+   "level": 2,
+   "type": "fix",
+   "prompt": "It was a very difficult decide.",
+   "options": [
+    "It was a very difficult decision.",
+    "It was a very difficulty decision.",
+    "It was a very difficult decisive."
+   ],
+   "answer": "It was a very difficult decision.",
+   "explain": "Depois de A + adjetivo: substantivo."
+  },
+  {
+   "id": "t03-2-014",
+   "topic": "t03",
+   "level": 2,
+   "type": "fix",
+   "prompt": "He explains things very clear.",
+   "options": [
+    "He explains things very clearly.",
+    "He explains things very clarity.",
+    "He explains very clear things."
+   ],
+   "answer": "He explains things very clearly.",
+   "explain": "Como ele explica? Advérbio."
+  },
+  {
+   "id": "t03-2-015",
+   "topic": "t03",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The meeting was very success.",
+   "options": [
+    "The meeting was very successful.",
+    "The meeting was very successfully.",
+    "The meeting was very succeed."
+   ],
+   "answer": "The meeting was very successful.",
+   "explain": "Depois de VERY: adjetivo."
+  },
+  {
+   "id": "t03-2-016",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We need more ___ (inform) about the supplier.",
+   "answer": [
+    "information"
+   ],
+   "explain": "Depois de MORE: substantivo."
+  },
+  {
+   "id": "t03-2-017",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "His ___ (perform) this year was excellent.",
+   "answer": [
+    "performance"
+   ],
+   "explain": "Depois de HIS: substantivo."
+  },
+  {
+   "id": "t03-2-018",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Prices increased ___ (significant).",
+   "answer": [
+    "significantly"
+   ],
+   "explain": "Modificando o verbo: advérbio."
+  },
+  {
+   "id": "t03-3-001",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The ___ (renew) of the contract is under discussion.",
+   "answer": [
+    "renewal"
+   ],
+   "explain": "Depois de THE: substantivo. RENEW → RENEWAL."
+  },
+  {
+   "id": "t03-3-002",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We were ___ (impress) by their results.",
+   "answer": [
+    "impressed"
+   ],
+   "explain": "Como nos sentimos: -ED."
+  },
+  {
+   "id": "t03-3-003",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Their results were very ___ (impress).",
+   "answer": [
+    "impressive"
+   ],
+   "explain": "Qualidade dos resultados: adjetivo -IVE."
+  },
+  {
+   "id": "t03-3-004",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Late payments ___ (weak) our position.",
+   "answer": [
+    "weaken"
+   ],
+   "explain": "Verbo: WEAK → WEAKEN."
+  },
+  {
+   "id": "t03-3-005",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I ___ (hard) slept last night. I'm exhausted.",
+   "answer": [
+    "hardly"
+   ],
+   "explain": "HARDLY = quase não."
+  },
+  {
+   "id": "t03-3-006",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Her ___ (lead) helped the team grow.",
+   "answer": [
+    "leadership"
+   ],
+   "explain": "Depois de HER: substantivo."
+  },
+  {
+   "id": "t03-3-007",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "This clause is ___ (law) binding.",
+   "answer": [
+    "legally"
+   ],
+   "explain": "Modificando o adjetivo binding: advérbio."
+  },
+  {
+   "id": "t03-3-008",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We need to ___ (simple) the approval process.",
+   "answer": [
+    "simplify"
+   ],
+   "explain": "Verbo: SIMPLE → SIMPLIFY."
+  },
+  {
+   "id": "t03-3-009",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The ___ (approve) took three weeks.",
+   "answer": [
+    "approval"
+   ],
+   "explain": "Depois de THE: substantivo."
+  },
+  {
+   "id": "t03-3-010",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Communication between teams has ___ (improve) a lot.",
+   "answer": [
+    "improved"
+   ],
+   "explain": "Present perfect: HAS + particípio."
+  },
+  {
+   "id": "t03-3-011",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Their ___ (fail) to deliver cost us a client.",
+   "answer": [
+    "failure"
+   ],
+   "explain": "Depois de THEIR: substantivo."
+  },
+  {
+   "id": "t03-3-012",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We need a ___ (compete) price.",
+   "answer": [
+    "competitive"
+   ],
+   "explain": "Antes de substantivo: adjetivo."
+  },
+  {
+   "id": "t03-3-013",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "He answered ___ (polite), but firmly.",
+   "answer": [
+    "politely"
+   ],
+   "explain": "Modificando o verbo: advérbio."
+  },
+  {
+   "id": "t03-3-014",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The supplier is not ___ (comply) with the policy.",
+   "answer": [
+    "compliant"
+   ],
+   "explain": "Depois de IS NOT: adjetivo."
+  },
+  {
+   "id": "t03-3-015",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "There was a ___ (understand) about the deadline. (mal-entendido)",
+   "answer": [
+    "misunderstanding"
+   ],
+   "explain": "MIS- = errado."
+  },
+  {
+   "id": "t03-3-016",
+   "topic": "t03",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "The results were ___ disappointing.",
+   "options": [
+    "deeply",
+    "deep",
+    "depth"
+   ],
+   "answer": "deeply",
+   "explain": "Modificando o adjetivo: advérbio."
+  },
+  {
+   "id": "t03-3-017",
+   "topic": "t03",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "We need to reduce our ___ on one supplier.",
+   "options": [
+    "dependence",
+    "dependent",
+    "depend"
+   ],
+   "answer": "dependence",
+   "explain": "Depois de OUR: substantivo."
+  },
+  {
+   "id": "t03-3-018",
+   "topic": "t03",
+   "level": 3,
+   "type": "fix",
+   "prompt": "I work very hardly.",
+   "options": [
+    "I work very hard.",
+    "I work very hardness.",
+    "I very hardly work."
+   ],
+   "answer": "I work very hard.",
+   "explain": "HARD é o advérbio de esforço; HARDLY = quase não."
+  }
+ ]
+}

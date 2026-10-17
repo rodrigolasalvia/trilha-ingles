@@ -1,0 +1,661 @@
+{
+ "topic": "t04",
+ "items": [
+  {
+   "id": "t04-1-001",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We need more ___ about compliance risks.",
+   "options": [
+    "awareness",
+    "aware",
+    "awarely"
+   ],
+   "answer": "awareness",
+   "explain": "Depois de MORE: substantivo (-NESS)."
+  },
+  {
+   "id": "t04-1-002",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We're waiting for ___. (aprovação)",
+   "options": [
+    "approval",
+    "approve",
+    "approving"
+   ],
+   "answer": "approval",
+   "explain": "Substantivo: APPROVE → APPROVAL."
+  },
+  {
+   "id": "t04-1-003",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She's a financial ___.",
+   "options": [
+    "consultant",
+    "consult",
+    "consultation"
+   ],
+   "answer": "consultant",
+   "explain": "Pessoa: -ANT."
+  },
+  {
+   "id": "t04-1-004",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "This tool is very ___.",
+   "options": [
+    "useful",
+    "use",
+    "usage"
+   ],
+   "answer": "useful",
+   "explain": "Adjetivo: -FUL."
+  },
+  {
+   "id": "t04-1-005",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We need to ___ the process.",
+   "options": [
+    "simplify",
+    "simple",
+    "simplicity"
+   ],
+   "answer": "simplify",
+   "explain": "Verbo: -IFY."
+  },
+  {
+   "id": "t04-1-006",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It's ___ to finish today. (impossível)",
+   "options": [
+    "impossible",
+    "unpossible",
+    "inpossible"
+   ],
+   "answer": "impossible",
+   "explain": "IM- antes de P."
+  },
+  {
+   "id": "t04-1-007",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "That's ___. (ilegal)",
+   "options": [
+    "illegal",
+    "unlegal",
+    "inlegal"
+   ],
+   "answer": "illegal",
+   "explain": "IL- antes de L."
+  },
+  {
+   "id": "t04-1-008",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I think there was a ___.",
+   "options": [
+    "misunderstanding",
+    "wrongunderstanding",
+    "disunderstanding"
+   ],
+   "answer": "misunderstanding",
+   "explain": "MIS- = errado."
+  },
+  {
+   "id": "t04-1-009",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We need to ___ the contract. (renegociar)",
+   "options": [
+    "renegotiate",
+    "prenegotiate",
+    "misnegotiate"
+   ],
+   "answer": "renegotiate",
+   "explain": "RE- = de novo."
+  },
+  {
+   "id": "t04-1-010",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The supplier is ___. (não confiável)",
+   "options": [
+    "unreliable",
+    "inreliable",
+    "disreliable"
+   ],
+   "answer": "unreliable",
+   "explain": "UN- é o prefixo de RELIABLE."
+  },
+  {
+   "id": "t04-1-011",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "This information is ___. (irrelevante)",
+   "options": [
+    "irrelevant",
+    "unrelevant",
+    "inrelevant"
+   ],
+   "answer": "irrelevant",
+   "explain": "IR- antes de R."
+  },
+  {
+   "id": "t04-1-012",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I ___ with you. (discordo)",
+   "options": [
+    "disagree",
+    "unagree",
+    "misagree"
+   ],
+   "answer": "disagree",
+   "explain": "DIS- com verbos de opinião."
+  },
+  {
+   "id": "t04-1-013",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The ___ of the company is strong. (liderança)",
+   "options": [
+    "leadership",
+    "leadment",
+    "leadness"
+   ],
+   "answer": "leadership",
+   "explain": "-SHIP forma substantivos de posição ou relação."
+  },
+  {
+   "id": "t04-1-014",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We need to ___ our tasks.",
+   "options": [
+    "prioritize",
+    "priorityize",
+    "priorize"
+   ],
+   "answer": "prioritize",
+   "explain": "Verbo: -IZE."
+  },
+  {
+   "id": "t04-1-015",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He's very ___ in his work. (eficiente)",
+   "options": [
+    "efficient",
+    "efficiency",
+    "efficiently"
+   ],
+   "answer": "efficient",
+   "explain": "Depois de VERY: adjetivo."
+  },
+  {
+   "id": "t04-1-016",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "His ___ was impressive. (desempenho)",
+   "options": [
+    "performance",
+    "performing",
+    "performation"
+   ],
+   "answer": "performance",
+   "explain": "Substantivo: -ANCE."
+  },
+  {
+   "id": "t04-1-017",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We signed an ___.",
+   "options": [
+    "agreement",
+    "agreeness",
+    "agreeation"
+   ],
+   "answer": "agreement",
+   "explain": "Substantivo: -MENT."
+  },
+  {
+   "id": "t04-1-018",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The process is ___. (ineficiente)",
+   "options": [
+    "inefficient",
+    "unefficient",
+    "disefficient"
+   ],
+   "answer": "inefficient",
+   "explain": "IN- é o prefixo de EFFICIENT."
+  },
+  {
+   "id": "t04-2-001",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Our main ___ (prior) is to reduce risk.",
+   "answer": [
+    "priority"
+   ],
+   "explain": "Substantivo: -ITY."
+  },
+  {
+   "id": "t04-2-002",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "This supplier is very ___ (rely).",
+   "answer": [
+    "reliable"
+   ],
+   "explain": "Adjetivo: -ABLE."
+  },
+  {
+   "id": "t04-2-003",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We need to ___ (standard) the process.",
+   "answer": [
+    "standardize",
+    "standardise"
+   ],
+   "explain": "Verbo: -IZE."
+  },
+  {
+   "id": "t04-2-004",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "She works as an ___ (assist).",
+   "answer": [
+    "assistant"
+   ],
+   "explain": "Pessoa: -ANT."
+  },
+  {
+   "id": "t04-2-005",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The ___ (pay) is due on Friday.",
+   "answer": [
+    "payment"
+   ],
+   "explain": "Substantivo: -MENT."
+  },
+  {
+   "id": "t04-2-006",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We need to ___ (strength) our controls.",
+   "answer": [
+    "strengthen"
+   ],
+   "explain": "Verbo: -EN."
+  },
+  {
+   "id": "t04-2-007",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Please ___ (clear) the next steps.",
+   "answer": [
+    "clarify"
+   ],
+   "explain": "Verbo: CLEAR → CLARIFY."
+  },
+  {
+   "id": "t04-2-008",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "This product is ___ (effect) and cheap.",
+   "answer": [
+    "effective"
+   ],
+   "explain": "Adjetivo: -IVE."
+  },
+  {
+   "id": "t04-2-009",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We need to ___ (automatic) this task.",
+   "answer": [
+    "automate"
+   ],
+   "explain": "Verbo: -ATE."
+  },
+  {
+   "id": "t04-2-010",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "There's a lack of ___ (aware).",
+   "answer": [
+    "awareness"
+   ],
+   "explain": "Substantivo: -NESS."
+  },
+  {
+   "id": "t04-2-011",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "That option is ___ (possible). Forget it.",
+   "answer": [
+    "impossible"
+   ],
+   "explain": "IM- antes de P."
+  },
+  {
+   "id": "t04-2-012",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We ___ (estimate) the costs. They were much higher. (subestimamos)",
+   "answer": [
+    "underestimated"
+   ],
+   "explain": "UNDER- = abaixo do real."
+  },
+  {
+   "id": "t04-2-013",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I think I ___ (understand) the question. Sorry! (entendi errado)",
+   "answer": [
+    "misunderstood"
+   ],
+   "explain": "MIS- = errado."
+  },
+  {
+   "id": "t04-2-014",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We need to ___ (negotiate) the terms. (renegociar)",
+   "answer": [
+    "renegotiate"
+   ],
+   "explain": "RE- = de novo."
+  },
+  {
+   "id": "t04-2-015",
+   "topic": "t04",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We need more flexible. (flexibilidade)",
+   "options": [
+    "We need more flexibility.",
+    "We need more flexibly.",
+    "We need more flexibleness."
+   ],
+   "answer": "We need more flexibility.",
+   "explain": "Depois de MORE: substantivo (-ITY)."
+  },
+  {
+   "id": "t04-2-016",
+   "topic": "t04",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We need to standard the process.",
+   "options": [
+    "We need to standardize the process.",
+    "We need to standardly the process.",
+    "We need to standarding the process."
+   ],
+   "answer": "We need to standardize the process.",
+   "explain": "Verbo: -IZE."
+  },
+  {
+   "id": "t04-2-017",
+   "topic": "t04",
+   "level": 2,
+   "type": "fix",
+   "prompt": "That's unlegal.",
+   "options": [
+    "That's illegal.",
+    "That's inlegal.",
+    "That's dislegal."
+   ],
+   "answer": "That's illegal.",
+   "explain": "IL- antes de L."
+  },
+  {
+   "id": "t04-2-018",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "His answer was totally ___ (relevant). (irrelevante)",
+   "answer": [
+    "irrelevant"
+   ],
+   "explain": "IR- antes de R."
+  },
+  {
+   "id": "t04-3-001",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The supplier is ___ (comply) with our policy. (não está em conformidade)",
+   "answer": [
+    "non-compliant",
+    "noncompliant"
+   ],
+   "explain": "NON- + adjetivo COMPLIANT."
+  },
+  {
+   "id": "t04-3-002",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We have a strong ___ (partner) with them.",
+   "answer": [
+    "partnership"
+   ],
+   "explain": "Substantivo de relação: -SHIP."
+  },
+  {
+   "id": "t04-3-003",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The ___ (renew) is automatic.",
+   "answer": [
+    "renewal"
+   ],
+   "explain": "Substantivo: -AL."
+  },
+  {
+   "id": "t04-3-004",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "This clause creates a ___ (liable) for us.",
+   "answer": [
+    "liability"
+   ],
+   "explain": "Substantivo: -ITY."
+  },
+  {
+   "id": "t04-3-005",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Please ___ (short) the presentation.",
+   "answer": [
+    "shorten"
+   ],
+   "explain": "Verbo: -EN."
+  },
+  {
+   "id": "t04-3-006",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The team was ___ (pay) for years. (mal paga)",
+   "answer": [
+    "underpaid"
+   ],
+   "explain": "UNDER- = abaixo do devido."
+  },
+  {
+   "id": "t04-3-007",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "His ___ (able) to listen is rare.",
+   "answer": [
+    "ability"
+   ],
+   "explain": "Substantivo: -ITY."
+  },
+  {
+   "id": "t04-3-008",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "This decision was ___ (responsible). (irresponsável)",
+   "answer": [
+    "irresponsible"
+   ],
+   "explain": "IR- antes de R."
+  },
+  {
+   "id": "t04-3-009",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We need ___ (approve) before signing. (pré-aprovação)",
+   "answer": [
+    "pre-approval",
+    "preapproval"
+   ],
+   "explain": "PRE- = antes."
+  },
+  {
+   "id": "t04-3-010",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The data was ___ (lead). (enganoso)",
+   "answer": [
+    "misleading"
+   ],
+   "explain": "MIS- + LEAD = induzir ao erro."
+  },
+  {
+   "id": "t04-3-011",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We ___ (estimate) the demand. We ordered too much. (superestimamos)",
+   "answer": [
+    "overestimated"
+   ],
+   "explain": "OVER- = acima do real."
+  },
+  {
+   "id": "t04-3-012",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "There is no ___ (evident) of fraud.",
+   "answer": [
+    "evidence"
+   ],
+   "explain": "Substantivo: -ENCE."
+  },
+  {
+   "id": "t04-3-013",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The process is ___ (efficient) and slow. (ineficiente)",
+   "answer": [
+    "inefficient"
+   ],
+   "explain": "IN- + EFFICIENT."
+  },
+  {
+   "id": "t04-3-014",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We need to ___ (evaluation) the results.",
+   "answer": [
+    "evaluate"
+   ],
+   "explain": "Verbo: -ATE."
+  },
+  {
+   "id": "t04-3-015",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "This is a ___ (finance) risk.",
+   "answer": [
+    "financial"
+   ],
+   "explain": "Adjetivo: -AL."
+  },
+  {
+   "id": "t04-3-016",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Their ___ (perform) improved a lot.",
+   "answer": [
+    "performance"
+   ],
+   "explain": "Substantivo: -ANCE."
+  },
+  {
+   "id": "t04-3-017",
+   "topic": "t04",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We need to simplify the approval process.",
+   "explain": "SIMPLIFY (verbo) + APPROVAL (substantivo)."
+  },
+  {
+   "id": "t04-3-018",
+   "topic": "t04",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "There was a misunderstanding about the deadline.",
+   "explain": "MIS- = errado."
+  }
+ ]
+}

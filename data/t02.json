@@ -1,0 +1,652 @@
+{
+ "topic": "t02",
+ "items": [
+  {
+   "id": "t02-1-001",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I stopped ___ last year. I don't smoke anymore.",
+   "options": [
+    "smoking",
+    "to smoke"
+   ],
+   "answer": "smoking",
+   "explain": "STOP + -ING = parar de fazer."
+  },
+  {
+   "id": "t02-1-002",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We stopped ___ coffee, then continued the meeting.",
+   "options": [
+    "to get",
+    "getting"
+   ],
+   "answer": "to get",
+   "explain": "STOP + TO = parar para fazer outra coisa."
+  },
+  {
+   "id": "t02-1-003",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Remember ___ the invoice tomorrow.",
+   "options": [
+    "to send",
+    "sending"
+   ],
+   "answer": "to send",
+   "explain": "Tarefa futura: REMEMBER + TO."
+  },
+  {
+   "id": "t02-1-004",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I remember ___ him at a conference in 2019.",
+   "options": [
+    "meeting",
+    "to meet"
+   ],
+   "answer": "meeting",
+   "explain": "Memória do passado: REMEMBER + -ING."
+  },
+  {
+   "id": "t02-1-005",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I forgot ___ the file. Sorry!",
+   "options": [
+    "to attach",
+    "attaching"
+   ],
+   "answer": "to attach",
+   "explain": "Esqueceu a tarefa: FORGET + TO."
+  },
+  {
+   "id": "t02-1-006",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'll never forget ___ the Alps for the first time.",
+   "options": [
+    "seeing",
+    "to see"
+   ],
+   "answer": "seeing",
+   "explain": "Experiência vivida: FORGET + -ING."
+  },
+  {
+   "id": "t02-1-007",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'm trying ___ my English.",
+   "options": [
+    "to improve",
+    "improving"
+   ],
+   "answer": "to improve",
+   "explain": "Esforço: TRY + TO."
+  },
+  {
+   "id": "t02-1-008",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The printer isn't working. Try ___ it off and on.",
+   "options": [
+    "turning",
+    "to turn"
+   ],
+   "answer": "turning",
+   "explain": "Testar uma solução: TRY + -ING."
+  },
+  {
+   "id": "t02-1-009",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I didn't mean ___ you.",
+   "options": [
+    "to offend",
+    "offending"
+   ],
+   "answer": "to offend",
+   "explain": "Intenção: MEAN + TO."
+  },
+  {
+   "id": "t02-1-010",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "This job means ___ weekends.",
+   "options": [
+    "working",
+    "to work"
+   ],
+   "answer": "working",
+   "explain": "Implicar: MEAN + -ING."
+  },
+  {
+   "id": "t02-1-011",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We regret ___ you that the event is cancelled.",
+   "options": [
+    "to inform",
+    "informing"
+   ],
+   "answer": "to inform",
+   "explain": "Comunicado formal: REGRET TO inform."
+  },
+  {
+   "id": "t02-1-012",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I regret ___ that e-mail. It was rude.",
+   "options": [
+    "sending",
+    "to send"
+   ],
+   "answer": "sending",
+   "explain": "Arrependimento: REGRET + -ING."
+  },
+  {
+   "id": "t02-1-013",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The car needs ___.",
+   "options": [
+    "washing",
+    "to wash"
+   ],
+   "answer": "washing",
+   "explain": "Coisa que precisa receber a ação: NEED + -ING (ou needs to be washed)."
+  },
+  {
+   "id": "t02-1-014",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "After the intro, she went on ___ the budget.",
+   "options": [
+    "to present",
+    "presenting"
+   ],
+   "answer": "to present",
+   "explain": "Passar para outro assunto: GO ON + TO."
+  },
+  {
+   "id": "t02-1-015",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He went on ___ even after I asked him to stop.",
+   "options": [
+    "talking",
+    "to talk"
+   ],
+   "answer": "talking",
+   "explain": "Continuar a mesma coisa: GO ON + -ING."
+  },
+  {
+   "id": "t02-1-016",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I need ___ my password.",
+   "options": [
+    "to change",
+    "changing"
+   ],
+   "answer": "to change",
+   "explain": "O sujeito faz a ação: NEED + TO."
+  },
+  {
+   "id": "t02-1-017",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Did you remember ___ the door?",
+   "options": [
+    "to lock",
+    "locking"
+   ],
+   "answer": "to lock",
+   "explain": "Tarefa: REMEMBER + TO."
+  },
+  {
+   "id": "t02-1-018",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'll never forget ___ my first presentation in English.",
+   "options": [
+    "giving",
+    "to give"
+   ],
+   "answer": "giving",
+   "explain": "Experiência vivida: FORGET + -ING."
+  },
+  {
+   "id": "t02-2-001",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Parei de comer doce: I stopped ___ (eat) sweets.",
+   "answer": [
+    "eating"
+   ],
+   "explain": "Parar de = STOP + -ING."
+  },
+  {
+   "id": "t02-2-002",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Paramos para almoçar: We stopped ___ (have) lunch.",
+   "answer": [
+    "to have"
+   ],
+   "explain": "Parar para = STOP + TO."
+  },
+  {
+   "id": "t02-2-003",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Não esqueça de ligar: Don't forget ___ (call) him.",
+   "answer": [
+    "to call"
+   ],
+   "explain": "Tarefa: FORGET + TO."
+  },
+  {
+   "id": "t02-2-004",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Lembro de ter assinado: I remember ___ (sign) it.",
+   "answer": [
+    "signing"
+   ],
+   "explain": "Memória: REMEMBER + -ING."
+  },
+  {
+   "id": "t02-2-005",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Tente reiniciar, para ver se resolve: Try ___ (restart) the app.",
+   "answer": [
+    "restarting"
+   ],
+   "explain": "Teste de solução: TRY + -ING."
+  },
+  {
+   "id": "t02-2-006",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Estou me esforçando para entender: I'm trying ___ (understand).",
+   "answer": [
+    "to understand"
+   ],
+   "explain": "Esforço: TRY + TO."
+  },
+  {
+   "id": "t02-2-007",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Não foi minha intenção: I didn't mean ___ (interrupt).",
+   "answer": [
+    "to interrupt"
+   ],
+   "explain": "Intenção: MEAN + TO."
+  },
+  {
+   "id": "t02-2-008",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Me arrependo de ter aceitado: I regret ___ (accept) the offer.",
+   "answer": [
+    "accepting"
+   ],
+   "explain": "Arrependimento: REGRET + -ING."
+  },
+  {
+   "id": "t02-2-009",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "O relatório precisa ser revisado: The report needs ___ (review).",
+   "answer": [
+    "reviewing",
+    "to be reviewed"
+   ],
+   "explain": "Coisa: NEEDS + -ING ou NEEDS TO BE + particípio."
+  },
+  {
+   "id": "t02-2-010",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Depois passou a explicar os riscos: Then he went on ___ (explain) the risks.",
+   "answer": [
+    "to explain"
+   ],
+   "explain": "Passar a outro assunto: GO ON + TO."
+  },
+  {
+   "id": "t02-2-011",
+   "topic": "t02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I forgot sending you the file. (sentido: esqueci de enviar)",
+   "options": [
+    "I forgot to send you the file.",
+    "I forgot send you the file.",
+    "I forgot to sending you the file."
+   ],
+   "answer": "I forgot to send you the file.",
+   "explain": "Esqueceu a tarefa: FORGET + TO."
+  },
+  {
+   "id": "t02-2-012",
+   "topic": "t02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Please remember locking the door.",
+   "options": [
+    "Please remember to lock the door.",
+    "Please remember lock the door.",
+    "Please remember to locking the door."
+   ],
+   "answer": "Please remember to lock the door.",
+   "explain": "Tarefa: REMEMBER + TO."
+  },
+  {
+   "id": "t02-2-013",
+   "topic": "t02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "He stopped to smoke in 2020. (sentido: largou o cigarro)",
+   "options": [
+    "He stopped smoking in 2020.",
+    "He stopped smoke in 2020.",
+    "He stopped for smoking in 2020."
+   ],
+   "answer": "He stopped smoking in 2020.",
+   "explain": "Parar de = STOP + -ING."
+  },
+  {
+   "id": "t02-2-014",
+   "topic": "t02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'm trying learning Spanish.",
+   "options": [
+    "I'm trying to learn Spanish.",
+    "I'm trying learn Spanish.",
+    "I'm trying to learning Spanish."
+   ],
+   "answer": "I'm trying to learn Spanish.",
+   "explain": "Esforço: TRY + TO."
+  },
+  {
+   "id": "t02-2-015",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Nunca vou esquecer a visita: I'll never forget ___ (visit) Tokyo.",
+   "answer": [
+    "visiting"
+   ],
+   "explain": "Experiência vivida: FORGET + -ING."
+  },
+  {
+   "id": "t02-2-016",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Lamentamos anunciar: We regret ___ (announce) the closure.",
+   "answer": [
+    "to announce"
+   ],
+   "explain": "Comunicado: REGRET TO announce."
+  },
+  {
+   "id": "t02-2-017",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Isso implica trabalhar mais: That means ___ (work) longer hours.",
+   "answer": [
+    "working"
+   ],
+   "explain": "Implicar: MEAN + -ING."
+  },
+  {
+   "id": "t02-2-018",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Lembre de copiar o João: Remember ___ (copy) João.",
+   "answer": [
+    "to copy"
+   ],
+   "explain": "Tarefa: REMEMBER + TO."
+  },
+  {
+   "id": "t02-3-001",
+   "topic": "t02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I don't remember ___ (say) that. Are you sure?",
+   "answer": [
+    "saying"
+   ],
+   "explain": "Memória do passado: REMEMBER + -ING."
+  },
+  {
+   "id": "t02-3-002",
+   "topic": "t02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "If the error continues, try ___ (clear) the cache.",
+   "answer": [
+    "clearing"
+   ],
+   "explain": "Testar uma solução: TRY + -ING."
+  },
+  {
+   "id": "t02-3-003",
+   "topic": "t02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "On the way to the airport, we stopped ___ (buy) water.",
+   "answer": [
+    "to buy"
+   ],
+   "explain": "Parar para: STOP + TO."
+  },
+  {
+   "id": "t02-3-004",
+   "topic": "t02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "He quit his job. He stopped ___ (work) there in May.",
+   "answer": [
+    "working"
+   ],
+   "explain": "Parar de: STOP + -ING."
+  },
+  {
+   "id": "t02-3-005",
+   "topic": "t02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Sorry, I forgot ___ (mention) the deadline.",
+   "answer": [
+    "to mention"
+   ],
+   "explain": "Esqueceu a tarefa: FORGET + TO."
+  },
+  {
+   "id": "t02-3-006",
+   "topic": "t02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'll always remember ___ (win) my first big contract.",
+   "answer": [
+    "winning"
+   ],
+   "explain": "Memória: REMEMBER + -ING."
+  },
+  {
+   "id": "t02-3-007",
+   "topic": "t02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We regret ___ (tell) you that your application was unsuccessful.",
+   "answer": [
+    "to tell"
+   ],
+   "explain": "Comunicado: REGRET TO tell."
+  },
+  {
+   "id": "t02-3-008",
+   "topic": "t02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I really regret not ___ (study) harder.",
+   "answer": [
+    "studying"
+   ],
+   "explain": "Arrependimento: REGRET (not) + -ING."
+  },
+  {
+   "id": "t02-3-009",
+   "topic": "t02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "These documents need ___ (sign) by Friday.",
+   "answer": [
+    "signing",
+    "to be signed"
+   ],
+   "explain": "Coisa: NEED + -ING ou NEED TO BE + particípio."
+  },
+  {
+   "id": "t02-3-010",
+   "topic": "t02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Sorry, I didn't mean ___ (be) rude.",
+   "answer": [
+    "to be"
+   ],
+   "explain": "Intenção: MEAN + TO."
+  },
+  {
+   "id": "t02-3-011",
+   "topic": "t02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "After presenting the results, she went on ___ (discuss) next steps.",
+   "answer": [
+    "to discuss"
+   ],
+   "explain": "Passar a outro assunto: GO ON + TO."
+  },
+  {
+   "id": "t02-3-012",
+   "topic": "t02",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Remember to send the invoice.",
+   "explain": "Tarefa: REMEMBER + TO."
+  },
+  {
+   "id": "t02-3-013",
+   "topic": "t02",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I stopped working at six.",
+   "explain": "Parar de: STOP + -ING."
+  },
+  {
+   "id": "t02-3-014",
+   "topic": "t02",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I didn't mean to interrupt you.",
+   "explain": "Intenção: MEAN + TO."
+  },
+  {
+   "id": "t02-3-015",
+   "topic": "t02",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "I'm trying ___ calm, but it's hard.",
+   "options": [
+    "to stay",
+    "staying"
+   ],
+   "answer": "to stay",
+   "explain": "Esforço: TRY + TO."
+  },
+  {
+   "id": "t02-3-016",
+   "topic": "t02",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Getting this certification means ___ for six months.",
+   "options": [
+    "studying",
+    "to study"
+   ],
+   "answer": "studying",
+   "explain": "Implicar: MEAN + -ING."
+  },
+  {
+   "id": "t02-3-017",
+   "topic": "t02",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "She went on ___ for two hours without a break.",
+   "options": [
+    "speaking",
+    "to speak"
+   ],
+   "answer": "speaking",
+   "explain": "Continuar a mesma coisa: GO ON + -ING."
+  },
+  {
+   "id": "t02-3-018",
+   "topic": "t02",
+   "level": 3,
+   "type": "fix",
+   "prompt": "I remember to meet her at the conference last year.",
+   "options": [
+    "I remember meeting her at the conference last year.",
+    "I remember meet her at the conference last year.",
+    "I remember to meeting her at the conference last year."
+   ],
+   "answer": "I remember meeting her at the conference last year.",
+   "explain": "Memória do passado: REMEMBER + -ING."
+  }
+ ]
+}
