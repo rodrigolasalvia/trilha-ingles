@@ -1,0 +1,783 @@
+{
+ "topic": "r02",
+ "items": [
+  {
+   "id": "r02-1-001",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I ___ the e-mail yesterday.",
+   "options": [
+    "sent",
+    "send",
+    "sended"
+   ],
+   "answer": "sent",
+   "explain": "Passado irregular: SEND → SENT.",
+   "skill": "past",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-002",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Did you ___ the report?",
+   "options": [
+    "read",
+    "reads",
+    "readed"
+   ],
+   "answer": "read",
+   "explain": "Depois de DID, verbo na base.",
+   "skill": "past",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-003",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I ___ when she called.",
+   "options": [
+    "was driving",
+    "drove",
+    "am driving"
+   ],
+   "answer": "was driving",
+   "explain": "Em andamento no passado: WAS + -ING.",
+   "skill": "pastcont",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-004",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Have you ever ___ to London?",
+   "options": [
+    "been",
+    "went",
+    "go"
+   ],
+   "answer": "been",
+   "explain": "HAVE + particípio: BEEN.",
+   "skill": "pp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-005",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I saw him ___.",
+   "options": [
+    "yesterday",
+    "ever",
+    "yet"
+   ],
+   "answer": "yesterday",
+   "explain": "Tempo definido pede Past Simple: YESTERDAY.",
+   "skill": "pp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-006",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The phone is ringing. — I ___ get it!",
+   "options": [
+    "'ll",
+    "'m going to",
+    "am getting"
+   ],
+   "answer": "'ll",
+   "explain": "Decisão na hora: WILL.",
+   "skill": "future",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-007",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We've already bought the tickets. We ___ visit Rome.",
+   "options": [
+    "are going to",
+    "will",
+    "visit"
+   ],
+   "answer": "are going to",
+   "explain": "Plano já decidido: GOING TO.",
+   "skill": "future",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-008",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "This hotel is ___ than the other one.",
+   "options": [
+    "cheaper",
+    "more cheap",
+    "more cheaper"
+   ],
+   "answer": "cheaper",
+   "explain": "Adjetivo curto: -ER.",
+   "skill": "comp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-009",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It's the ___ option.",
+   "options": [
+    "best",
+    "goodest",
+    "better"
+   ],
+   "answer": "best",
+   "explain": "Superlativo irregular: GOOD → BEST.",
+   "skill": "comp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-010",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "How ___ money do we have?",
+   "options": [
+    "much",
+    "many",
+    "few"
+   ],
+   "answer": "much",
+   "explain": "Incontável: MUCH.",
+   "skill": "quant",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-011",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She gave me some good ___.",
+   "options": [
+    "advice",
+    "advices",
+    "an advice"
+   ],
+   "answer": "advice",
+   "explain": "ADVICE é incontável.",
+   "skill": "quant",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-012",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "You ___ talk to him. It's a good idea.",
+   "options": [
+    "should",
+    "must",
+    "have"
+   ],
+   "answer": "should",
+   "explain": "Conselho: SHOULD.",
+   "skill": "oblig",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-013",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "You ___ come if you're busy. It's optional.",
+   "options": [
+    "don't have to",
+    "mustn't",
+    "can't"
+   ],
+   "answer": "don't have to",
+   "explain": "Não precisa: DON'T HAVE TO.",
+   "skill": "oblig",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-014",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She ___ late.",
+   "options": [
+    "is always",
+    "always is",
+    "always"
+   ],
+   "answer": "is always",
+   "explain": "Advérbio de frequência DEPOIS do TO BE.",
+   "skill": "freq",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-015",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I ___ to work by bus.",
+   "options": [
+    "usually go",
+    "go usually",
+    "usually goes"
+   ],
+   "answer": "usually go",
+   "explain": "Advérbio de frequência ANTES do verbo principal.",
+   "skill": "freq",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-016",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It depends ___ the budget.",
+   "options": [
+    "on",
+    "of",
+    "from"
+   ],
+   "answer": "on",
+   "explain": "DEPEND ON.",
+   "skill": "vprep",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-017",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The meeting was boring, so I was ___.",
+   "options": [
+    "bored",
+    "boring",
+    "bore"
+   ],
+   "answer": "bored",
+   "explain": "-ED: como a pessoa se sente.",
+   "skill": "edging",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-018",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We're waiting ___ the bus.",
+   "options": [
+    "for",
+    "to",
+    "on"
+   ],
+   "answer": "for",
+   "explain": "WAIT FOR.",
+   "skill": "vprep",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-001",
+   "topic": "r02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I ___ (not / see) the message yesterday.",
+   "answer": [
+    "didn't see",
+    "did not see"
+   ],
+   "explain": "Negativa no passado: DIDN'T + base.",
+   "skill": "past",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-002",
+   "topic": "r02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I didn't went to the meeting.",
+   "options": [
+    "I didn't go to the meeting.",
+    "I didn't goes to the meeting.",
+    "I don't went to the meeting."
+   ],
+   "answer": "I didn't go to the meeting.",
+   "explain": "O passado fica no DID.",
+   "skill": "past",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-003",
+   "topic": "r02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "While we ___ (talk), the system crashed.",
+   "answer": [
+    "were talking"
+   ],
+   "explain": "Em andamento no passado: WERE + -ING.",
+   "skill": "pastcont",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-004",
+   "topic": "r02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I have finished it yesterday.",
+   "options": [
+    "I finished it yesterday.",
+    "I have finish it yesterday.",
+    "I finish it yesterday."
+   ],
+   "answer": "I finished it yesterday.",
+   "explain": "Com YESTERDAY: Past Simple.",
+   "skill": "pp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-005",
+   "topic": "r02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I haven't finished ___ (ainda).",
+   "answer": [
+    "yet"
+   ],
+   "explain": "Negativa: YET no fim.",
+   "skill": "pp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-006",
+   "topic": "r02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'm ___ (go) to visit a supplier next week.",
+   "answer": [
+    "going"
+   ],
+   "explain": "Plano: AM GOING TO.",
+   "skill": "future",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-007",
+   "topic": "r02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I go to travel tomorrow.",
+   "options": [
+    "I'm going to travel tomorrow.",
+    "I going to travel tomorrow.",
+    "I will to travel tomorrow."
+   ],
+   "answer": "I'm going to travel tomorrow.",
+   "explain": "'Vou viajar' = BE GOING TO.",
+   "skill": "future",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-008",
+   "topic": "r02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "This laptop is ___ (expensive) than mine.",
+   "answer": [
+    "more expensive"
+   ],
+   "explain": "Adjetivo longo: MORE + adjetivo.",
+   "skill": "comp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-009",
+   "topic": "r02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "This option is more better.",
+   "options": [
+    "This option is better.",
+    "This option is more good.",
+    "This option is gooder."
+   ],
+   "answer": "This option is better.",
+   "explain": "Nunca MORE + -ER.",
+   "skill": "comp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-010",
+   "topic": "r02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "There are only a ___ (poucos: contável) tickets left.",
+   "answer": [
+    "few"
+   ],
+   "explain": "Contável: A FEW.",
+   "skill": "quant",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-011",
+   "topic": "r02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We need more informations.",
+   "options": [
+    "We need more information.",
+    "We need more an information.",
+    "We need many information."
+   ],
+   "answer": "We need more information.",
+   "explain": "INFORMATION é incontável.",
+   "skill": "quant",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-012",
+   "topic": "r02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I ___ (ter que) finish this today. It's urgent.",
+   "answer": [
+    "have to",
+    "must"
+   ],
+   "explain": "Obrigação: HAVE TO / MUST.",
+   "skill": "oblig",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-013",
+   "topic": "r02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "You mustn't come. It's optional.",
+   "options": [
+    "You don't have to come. It's optional.",
+    "You haven't to come. It's optional.",
+    "You mustn't to come. It's optional."
+   ],
+   "answer": "You don't have to come. It's optional.",
+   "explain": "MUSTN'T proíbe; DON'T HAVE TO dispensa.",
+   "skill": "oblig",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-014",
+   "topic": "r02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I go always to the gym.",
+   "options": [
+    "I always go to the gym.",
+    "I go to always the gym.",
+    "Always I go the gym."
+   ],
+   "answer": "I always go to the gym.",
+   "explain": "Advérbio antes do verbo principal.",
+   "skill": "freq",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-015",
+   "topic": "r02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "It depends of the price.",
+   "options": [
+    "It depends on the price.",
+    "It depends from the price.",
+    "It depends in the price."
+   ],
+   "answer": "It depends on the price.",
+   "explain": "DEPEND ON.",
+   "skill": "vprep",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-016",
+   "topic": "r02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Please listen ___ (preposição) me.",
+   "answer": [
+    "to"
+   ],
+   "explain": "LISTEN TO.",
+   "skill": "vprep",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-017",
+   "topic": "r02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The presentation was very ___ (interest).",
+   "answer": [
+    "interesting"
+   ],
+   "explain": "-ING: o que causa o sentimento.",
+   "skill": "edging",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-018",
+   "topic": "r02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'm very boring today. (sentido: entediado)",
+   "options": [
+    "I'm very bored today.",
+    "I'm very bore today.",
+    "I'm very boringly today."
+   ],
+   "answer": "I'm very bored today.",
+   "explain": "'I'm boring' = eu sou chato.",
+   "skill": "edging",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-001",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Did you ___ (buy) the tickets?",
+   "answer": [
+    "buy"
+   ],
+   "explain": "Depois de DID: base.",
+   "skill": "past",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-002",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "She ___ (write) the report last night.",
+   "answer": [
+    "wrote"
+   ],
+   "explain": "Passado irregular: WRITE → WROTE.",
+   "skill": "past",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-003",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I ___ (drive) home when you called.",
+   "answer": [
+    "was driving"
+   ],
+   "explain": "Em andamento quando outra ação ocorreu.",
+   "skill": "pastcont",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-004",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Have you ___ (meet) the new director?",
+   "answer": [
+    "met"
+   ],
+   "explain": "Particípio: MEET → MET.",
+   "skill": "pp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-005",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I've ___ (já) sent it.",
+   "answer": [
+    "already"
+   ],
+   "explain": "ALREADY entre HAVE e o particípio.",
+   "skill": "pp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-006",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'm ___ (fly) to Lisbon on Friday. The ticket is booked.",
+   "answer": [
+    "flying"
+   ],
+   "explain": "Compromisso marcado: presente contínuo.",
+   "skill": "future",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-007",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "This is the ___ (bad) result of the year.",
+   "answer": [
+    "worst"
+   ],
+   "explain": "Superlativo irregular: BAD → WORST.",
+   "skill": "comp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-008",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Our office is ___ (big) than theirs.",
+   "answer": [
+    "bigger"
+   ],
+   "explain": "Curto terminado em consoante: dobra (BIGGER).",
+   "skill": "comp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-009",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I have very ___ (pouco: incontável) time today.",
+   "answer": [
+    "little"
+   ],
+   "explain": "Incontável: LITTLE.",
+   "skill": "quant",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-010",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Is there ___ (algum) milk in the fridge?",
+   "answer": [
+    "any"
+   ],
+   "explain": "Pergunta: ANY.",
+   "skill": "quant",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-011",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Employees ___ (proibido) share passwords.",
+   "answer": [
+    "mustn't",
+    "must not"
+   ],
+   "explain": "Proibição: MUSTN'T.",
+   "skill": "oblig",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-012",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "She ___ (rarely / be) late.",
+   "answer": [
+    "is rarely"
+   ],
+   "explain": "Advérbio de frequência depois do TO BE.",
+   "skill": "freq",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-013",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We arrived ___ (preposição) the hotel at midnight.",
+   "answer": [
+    "at"
+   ],
+   "explain": "ARRIVE AT + lugar específico.",
+   "skill": "vprep",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-014",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I was really ___ (surprise) by the results.",
+   "answer": [
+    "surprised"
+   ],
+   "explain": "Como me senti: -ED.",
+   "skill": "edging",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-015",
+   "topic": "r02",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I didn't see the e-mail yesterday.",
+   "explain": "DIDN'T + verbo base.",
+   "skill": "past",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-016",
+   "topic": "r02",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Have you ever been to London?",
+   "explain": "HAVE + sujeito + EVER + particípio.",
+   "skill": "pp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-017",
+   "topic": "r02",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "This option is much cheaper than the other.",
+   "explain": "MUCH + comparativo + THAN.",
+   "skill": "comp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-018",
+   "topic": "r02",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "You don't have to come tomorrow.",
+   "explain": "DON'T HAVE TO = não precisa.",
+   "skill": "oblig",
+   "cefr": "A2"
+  }
+ ]
+}

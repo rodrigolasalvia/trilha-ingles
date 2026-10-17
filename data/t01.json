@@ -13,7 +13,9 @@
     "visit"
    ],
    "answer": "visiting",
-   "explain": "ENJOY + -ING."
+   "explain": "ENJOY + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B1"
   },
   {
    "id": "t01-1-002",
@@ -27,7 +29,9 @@
     "renew"
    ],
    "answer": "to renew",
-   "explain": "DECIDE + TO: decisão aponta para o futuro."
+   "explain": "DECIDE + TO: decisão aponta para o futuro.",
+   "skill": "to_verbs",
+   "cefr": "B1"
   },
   {
    "id": "t01-1-003",
@@ -41,7 +45,9 @@
     "close"
    ],
    "answer": "closing",
-   "explain": "WOULD YOU MIND + -ING."
+   "explain": "WOULD YOU MIND + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B1"
   },
   {
    "id": "t01-1-004",
@@ -55,7 +61,9 @@
     "check"
    ],
    "answer": "to check",
-   "explain": "WANT + pessoa + TO."
+   "explain": "WANT + pessoa + TO.",
+   "skill": "obj_to",
+   "cefr": "B1"
   },
   {
    "id": "t01-1-005",
@@ -69,7 +77,9 @@
     "helping"
    ],
    "answer": "help",
-   "explain": "LET + pessoa + verbo base, sem TO."
+   "explain": "LET + pessoa + verbo base, sem TO.",
+   "skill": "bare",
+   "cefr": "B1"
   },
   {
    "id": "t01-1-006",
@@ -83,7 +93,9 @@
     "call"
    ],
    "answer": "calling",
-   "explain": "Depois de preposição (for), sempre -ING."
+   "explain": "Depois de preposição (for), sempre -ING.",
+   "skill": "prep_ing",
+   "cefr": "B1"
   },
   {
    "id": "t01-1-007",
@@ -97,7 +109,9 @@
     "meet"
    ],
    "answer": "to meet",
-   "explain": "MANAGE + TO = conseguir."
+   "explain": "MANAGE + TO = conseguir.",
+   "skill": "to_verbs",
+   "cefr": "B1"
   },
   {
    "id": "t01-1-008",
@@ -111,7 +125,9 @@
     "answer"
    ],
    "answer": "answering",
-   "explain": "AVOID + -ING."
+   "explain": "AVOID + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B1"
   },
   {
    "id": "t01-1-009",
@@ -125,7 +141,9 @@
     "pay"
    ],
    "answer": "to pay",
-   "explain": "REFUSE + TO."
+   "explain": "REFUSE + TO.",
+   "skill": "to_verbs",
+   "cefr": "B1"
   },
   {
    "id": "t01-1-010",
@@ -139,7 +157,9 @@
     "confirming"
    ],
    "answer": "to confirm",
-   "explain": "Finalidade (para + verbo) = TO, nunca FOR."
+   "explain": "Finalidade (para + verbo) = TO, nunca FOR.",
+   "skill": "purpose",
+   "cefr": "B1"
   },
   {
    "id": "t01-1-011",
@@ -153,7 +173,9 @@
     "I suggest to postponing the meeting."
    ],
    "answer": "I suggest postponing the meeting.",
-   "explain": "SUGGEST + -ING (ou suggest that we postpone)."
+   "explain": "SUGGEST + -ING (ou suggest that we postpone).",
+   "skill": "ing_verbs",
+   "cefr": "B1"
   },
   {
    "id": "t01-1-012",
@@ -167,7 +189,9 @@
     "She made to me wait."
    ],
    "answer": "She made me wait.",
-   "explain": "MAKE + pessoa + verbo base, sem TO."
+   "explain": "MAKE + pessoa + verbo base, sem TO.",
+   "skill": "bare",
+   "cefr": "B1"
   },
   {
    "id": "t01-1-013",
@@ -181,7 +205,9 @@
     "Negotiates"
    ],
    "answer": "Negotiating",
-   "explain": "Verbo como sujeito da frase: forma -ING."
+   "explain": "Verbo como sujeito da frase: forma -ING.",
+   "skill": "subject",
+   "cefr": "B1"
   },
   {
    "id": "t01-1-014",
@@ -195,7 +221,9 @@
     "see"
    ],
    "answer": "to see",
-   "explain": "HOPE + TO."
+   "explain": "HOPE + TO.",
+   "skill": "to_verbs",
+   "cefr": "B1"
   },
   {
    "id": "t01-1-015",
@@ -209,7 +237,9 @@
     "prepare"
    ],
    "answer": "preparing",
-   "explain": "FINISH + -ING."
+   "explain": "FINISH + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B1"
   },
   {
    "id": "t01-1-016",
@@ -223,7 +253,9 @@
     "call"
    ],
    "answer": "to call",
-   "explain": "ASK + pessoa + TO."
+   "explain": "ASK + pessoa + TO.",
+   "skill": "obj_to",
+   "cefr": "B1"
   },
   {
    "id": "t01-1-017",
@@ -237,7 +269,9 @@
     "say"
    ],
    "answer": "saying",
-   "explain": "WITHOUT é preposição: -ING."
+   "explain": "WITHOUT é preposição: -ING.",
+   "skill": "prep_ing",
+   "cefr": "B1"
   },
   {
    "id": "t01-1-018",
@@ -251,7 +285,9 @@
     "lower"
    ],
    "answer": "to lower",
-   "explain": "AGREE + TO."
+   "explain": "AGREE + TO.",
+   "skill": "to_verbs",
+   "cefr": "B1"
   },
   {
    "id": "t01-2-001",
@@ -262,7 +298,9 @@
    "answer": [
     "starting"
    ],
-   "explain": "SUGGEST + -ING."
+   "explain": "SUGGEST + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B1"
   },
   {
    "id": "t01-2-002",
@@ -273,7 +311,9 @@
    "answer": [
     "to open"
    ],
-   "explain": "PLAN + TO."
+   "explain": "PLAN + TO.",
+   "skill": "to_verbs",
+   "cefr": "B1"
   },
   {
    "id": "t01-2-003",
@@ -284,7 +324,9 @@
    "answer": [
     "sending"
    ],
-   "explain": "WOULD YOU MIND + -ING."
+   "explain": "WOULD YOU MIND + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B1"
   },
   {
    "id": "t01-2-004",
@@ -295,7 +337,9 @@
    "answer": [
     "to finish"
    ],
-   "explain": "EXPECT + pessoa + TO."
+   "explain": "EXPECT + pessoa + TO.",
+   "skill": "obj_to",
+   "cefr": "B1"
   },
   {
    "id": "t01-2-005",
@@ -306,7 +350,9 @@
    "answer": [
     "joining"
    ],
-   "explain": "Depois de preposição (in), -ING."
+   "explain": "Depois de preposição (in), -ING.",
+   "skill": "prep_ing",
+   "cefr": "B1"
   },
   {
    "id": "t01-2-006",
@@ -317,7 +363,9 @@
    "answer": [
     "check"
    ],
-   "explain": "LET + pessoa + verbo base."
+   "explain": "LET + pessoa + verbo base.",
+   "skill": "bare",
+   "cefr": "B1"
   },
   {
    "id": "t01-2-007",
@@ -328,7 +376,9 @@
    "answer": [
     "to lose"
    ],
-   "explain": "AFFORD + TO."
+   "explain": "AFFORD + TO.",
+   "skill": "to_verbs",
+   "cefr": "B1"
   },
   {
    "id": "t01-2-008",
@@ -339,7 +389,9 @@
    "answer": [
     "interrupting"
    ],
-   "explain": "KEEP + -ING = ficar fazendo."
+   "explain": "KEEP + -ING = ficar fazendo.",
+   "skill": "ing_verbs",
+   "cefr": "B1"
   },
   {
    "id": "t01-2-009",
@@ -350,7 +402,9 @@
    "answer": [
     "meeting"
    ],
-   "explain": "LOOK FORWARD TO: o TO é preposição, então -ING."
+   "explain": "LOOK FORWARD TO: o TO é preposição, então -ING.",
+   "skill": "to_prep",
+   "cefr": "B1"
   },
   {
    "id": "t01-2-010",
@@ -361,7 +415,9 @@
    "answer": [
     "to call"
    ],
-   "explain": "PROMISE + TO."
+   "explain": "PROMISE + TO.",
+   "skill": "to_verbs",
+   "cefr": "B1"
   },
   {
    "id": "t01-2-011",
@@ -375,7 +431,9 @@
     "I'm committed for improve the process."
    ],
    "answer": "I'm committed to improving the process.",
-   "explain": "BE COMMITTED TO: TO preposição, pede -ING."
+   "explain": "BE COMMITTED TO: TO preposição, pede -ING.",
+   "skill": "to_prep",
+   "cefr": "B1"
   },
   {
    "id": "t01-2-012",
@@ -389,7 +447,9 @@
     "Before of signing, read the contract."
    ],
    "answer": "Before signing, read the contract.",
-   "explain": "BEFORE é preposição: -ING."
+   "explain": "BEFORE é preposição: -ING.",
+   "skill": "prep_ing",
+   "cefr": "B1"
   },
   {
    "id": "t01-2-013",
@@ -403,7 +463,9 @@
     "I want you reviewing this."
    ],
    "answer": "I want you to review this.",
-   "explain": "WANT + pessoa + TO, nunca WANT THAT."
+   "explain": "WANT + pessoa + TO, nunca WANT THAT.",
+   "skill": "obj_to",
+   "cefr": "B1"
   },
   {
    "id": "t01-2-014",
@@ -414,7 +476,9 @@
    "answer": [
     "redo"
    ],
-   "explain": "MAKE + pessoa + verbo base."
+   "explain": "MAKE + pessoa + verbo base.",
+   "skill": "bare",
+   "cefr": "B1"
   },
   {
    "id": "t01-2-015",
@@ -425,7 +489,9 @@
    "answer": [
     "hiring"
    ],
-   "explain": "CONSIDER + -ING."
+   "explain": "CONSIDER + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B1"
   },
   {
    "id": "t01-2-016",
@@ -437,7 +503,9 @@
     "to get",
     "in order to get"
    ],
-   "explain": "Finalidade: TO."
+   "explain": "Finalidade: TO.",
+   "skill": "purpose",
+   "cefr": "B1"
   },
   {
    "id": "t01-2-017",
@@ -448,7 +516,9 @@
    "answer": [
     "knowing"
    ],
-   "explain": "DENY + -ING."
+   "explain": "DENY + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B1"
   },
   {
    "id": "t01-2-018",
@@ -462,7 +532,22 @@
     "Thanks for to help me."
    ],
    "answer": "Thanks for helping me.",
-   "explain": "Depois de FOR, -ING."
+   "explain": "Depois de FOR, -ING.",
+   "skill": "prep_ing",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-2-019",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (learn) a new language takes time.",
+   "answer": [
+    "Learning"
+   ],
+   "explain": "Verbo como sujeito da frase: forma -ING.",
+   "skill": "subject",
+   "cefr": "B1"
   },
   {
    "id": "t01-3-001",
@@ -473,7 +558,9 @@
    "answer": [
     "negotiating"
    ],
-   "explain": "WHEN IT COMES TO: TO preposição, pede -ING."
+   "explain": "WHEN IT COMES TO: TO preposição, pede -ING.",
+   "skill": "to_prep",
+   "cefr": "B2"
   },
   {
    "id": "t01-3-002",
@@ -484,7 +571,9 @@
    "answer": [
     "paying"
    ],
-   "explain": "OBJECT TO + -ING."
+   "explain": "OBJECT TO + -ING.",
+   "skill": "to_prep",
+   "cefr": "B2"
   },
   {
    "id": "t01-3-003",
@@ -495,7 +584,9 @@
    "answer": [
     "to lead"
    ],
-   "explain": "WOULD LIKE + pessoa + TO."
+   "explain": "WOULD LIKE + pessoa + TO.",
+   "skill": "obj_to",
+   "cefr": "B2"
   },
   {
    "id": "t01-3-004",
@@ -506,7 +597,9 @@
    "answer": [
     "complaining"
    ],
-   "explain": "IT'S NO USE + -ING."
+   "explain": "IT'S NO USE + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B2"
   },
   {
    "id": "t01-3-005",
@@ -517,7 +610,9 @@
    "answer": [
     "losing"
    ],
-   "explain": "RISK + -ING."
+   "explain": "RISK + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B2"
   },
   {
    "id": "t01-3-006",
@@ -528,7 +623,9 @@
    "answer": [
     "to apply"
    ],
-   "explain": "ENCOURAGE + pessoa + TO."
+   "explain": "ENCOURAGE + pessoa + TO.",
+   "skill": "obj_to",
+   "cefr": "B2"
   },
   {
    "id": "t01-3-007",
@@ -539,7 +636,9 @@
    "answer": [
     "working"
    ],
-   "explain": "BE USED TO + -ING = estar acostumado."
+   "explain": "BE USED TO + -ING = estar acostumado.",
+   "skill": "to_prep",
+   "cefr": "B2"
   },
   {
    "id": "t01-3-008",
@@ -550,7 +649,9 @@
    "answer": [
     "moving"
    ],
-   "explain": "CONSIDER + -ING."
+   "explain": "CONSIDER + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B2"
   },
   {
    "id": "t01-3-009",
@@ -559,7 +660,9 @@
    "type": "order",
    "prompt": "Ordene as palavras para formar a frase correta.",
    "answer": "I want you to review this.",
-   "explain": "WANT + pessoa + TO."
+   "explain": "WANT + pessoa + TO.",
+   "skill": "obj_to",
+   "cefr": "B2"
   },
   {
    "id": "t01-3-010",
@@ -568,7 +671,9 @@
    "type": "order",
    "prompt": "Ordene as palavras para formar a frase correta.",
    "answer": "Would you mind waiting a moment?",
-   "explain": "WOULD YOU MIND + -ING."
+   "explain": "WOULD YOU MIND + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B2"
   },
   {
    "id": "t01-3-011",
@@ -577,7 +682,9 @@
    "type": "order",
    "prompt": "Ordene as palavras para formar a frase correta.",
    "answer": "Let me explain what happened.",
-   "explain": "LET + pessoa + verbo base."
+   "explain": "LET + pessoa + verbo base.",
+   "skill": "bare",
+   "cefr": "B2"
   },
   {
    "id": "t01-3-012",
@@ -586,7 +693,9 @@
    "type": "order",
    "prompt": "Ordene as palavras para formar a frase correta.",
    "answer": "She managed to close the deal.",
-   "explain": "MANAGE + TO."
+   "explain": "MANAGE + TO.",
+   "skill": "to_verbs",
+   "cefr": "B2"
   },
   {
    "id": "t01-3-013",
@@ -595,7 +704,9 @@
    "type": "order",
    "prompt": "Ordene as palavras para formar a frase correta.",
    "answer": "Thanks for coming to the meeting.",
-   "explain": "Depois de FOR, -ING."
+   "explain": "Depois de FOR, -ING.",
+   "skill": "prep_ing",
+   "cefr": "B2"
   },
   {
    "id": "t01-3-014",
@@ -609,7 +720,9 @@
     "understand"
    ],
    "answer": "understanding",
-   "explain": "HAVE TROUBLE + -ING."
+   "explain": "HAVE TROUBLE + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B2"
   },
   {
    "id": "t01-3-015",
@@ -623,7 +736,9 @@
     "worry"
    ],
    "answer": "worrying",
-   "explain": "THERE'S NO POINT + -ING."
+   "explain": "THERE'S NO POINT + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B2"
   },
   {
    "id": "t01-3-016",
@@ -637,7 +752,9 @@
     "notice"
    ],
    "answer": "to notice",
-   "explain": "THE FIRST / THE LAST + TO."
+   "explain": "THE FIRST / THE LAST + TO.",
+   "skill": "to_verbs",
+   "cefr": "B2"
   },
   {
    "id": "t01-3-017",
@@ -651,7 +768,9 @@
     "I look forward to heard from you."
    ],
    "answer": "I look forward to hearing from you.",
-   "explain": "LOOK FORWARD TO + -ING."
+   "explain": "LOOK FORWARD TO + -ING.",
+   "skill": "to_prep",
+   "cefr": "B2"
   },
   {
    "id": "t01-3-018",
@@ -665,7 +784,39 @@
     "read"
    ],
    "answer": "reading",
-   "explain": "IT'S WORTH + -ING = vale a pena."
+   "explain": "IT'S WORTH + -ING = vale a pena.",
+   "skill": "ing_verbs",
+   "cefr": "B2"
+  },
+  {
+   "id": "t01-3-019",
+   "topic": "t01",
+   "level": 3,
+   "type": "fix",
+   "prompt": "Negotiate with suppliers is hard.",
+   "options": [
+    "Negotiating with suppliers is hard.",
+    "To negotiating with suppliers is hard.",
+    "Negotiates with suppliers is hard."
+   ],
+   "answer": "Negotiating with suppliers is hard.",
+   "explain": "Verbo como sujeito da frase: forma -ING.",
+   "skill": "subject",
+   "cefr": "B2"
+  },
+  {
+   "id": "t01-3-020",
+   "topic": "t01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We hired a consultant ___ (reduce) costs.",
+   "answer": [
+    "to reduce",
+    "in order to reduce"
+   ],
+   "explain": "Finalidade: TO.",
+   "skill": "purpose",
+   "cefr": "B2"
   }
  ]
 }

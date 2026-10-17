@@ -1,0 +1,792 @@
+{
+ "topic": "r01",
+ "items": [
+  {
+   "id": "r01-1-001",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She ___ 30 years old.",
+   "options": [
+    "is",
+    "has",
+    "have"
+   ],
+   "answer": "is",
+   "explain": "Idade usa TO BE.",
+   "skill": "tobe",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-002",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "They ___ from Brazil.",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "answer": "are",
+   "explain": "THEY + ARE.",
+   "skill": "tobe",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-003",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "This is Ana and ___ brother.",
+   "options": [
+    "her",
+    "his",
+    "she"
+   ],
+   "answer": "her",
+   "explain": "O possessivo concorda com o dono (Ana → her).",
+   "skill": "pron",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-004",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Call ___ later, please.",
+   "options": [
+    "me",
+    "I",
+    "my"
+   ],
+   "answer": "me",
+   "explain": "Objeto depois do verbo: ME.",
+   "skill": "pron",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-005",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He ___ in a bank.",
+   "options": [
+    "works",
+    "work",
+    "working"
+   ],
+   "answer": "works",
+   "explain": "HE / SHE / IT + verbo com -S.",
+   "skill": "simple",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-006",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ she speak English?",
+   "options": [
+    "Does",
+    "Do",
+    "Is"
+   ],
+   "answer": "Does",
+   "explain": "Pergunta com HE / SHE / IT: DOES.",
+   "skill": "simple",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-007",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Look! It ___.",
+   "options": [
+    "is raining",
+    "rains",
+    "raining"
+   ],
+   "answer": "is raining",
+   "explain": "Agora: AM / IS / ARE + -ING.",
+   "skill": "cont",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-008",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I need ___ umbrella.",
+   "options": [
+    "an",
+    "a",
+    "the"
+   ],
+   "answer": "an",
+   "explain": "AN antes de som de vogal.",
+   "skill": "art",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-009",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She is ___ university student.",
+   "options": [
+    "a",
+    "an",
+    "the"
+   ],
+   "answer": "a",
+   "explain": "UNIVERSITY começa com som de consoante (iu): A.",
+   "skill": "art",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-010",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ a pharmacy near here?",
+   "options": [
+    "Is there",
+    "Are there",
+    "Have"
+   ],
+   "answer": "Is there",
+   "explain": "Existir, no singular: IS THERE.",
+   "skill": "there",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-011",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "There ___ two meetings today.",
+   "options": [
+    "are",
+    "is",
+    "have"
+   ],
+   "answer": "are",
+   "explain": "Plural: THERE ARE.",
+   "skill": "there",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-012",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I can ___ you tomorrow.",
+   "options": [
+    "help",
+    "to help",
+    "helping"
+   ],
+   "answer": "help",
+   "explain": "CAN + verbo base, sem TO.",
+   "skill": "can",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-013",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The meeting is ___ Monday.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": "on",
+   "explain": "Dia da semana: ON.",
+   "skill": "prep",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-014",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I start work ___ 9 am.",
+   "options": [
+    "at",
+    "on",
+    "in"
+   ],
+   "answer": "at",
+   "explain": "Horário exato: AT.",
+   "skill": "prep",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-015",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We go on vacation ___ July.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": "in",
+   "explain": "Mês: IN.",
+   "skill": "prep",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-016",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Where ___ you work?",
+   "options": [
+    "do",
+    "are",
+    "does"
+   ],
+   "answer": "do",
+   "explain": "Pergunta: Wh- + DO + YOU + verbo.",
+   "skill": "wh",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-017",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I like ___ books.",
+   "options": [
+    "reading",
+    "read",
+    "to reading"
+   ],
+   "answer": "reading",
+   "explain": "LIKE + -ING para gostos.",
+   "skill": "likes",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-018",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I want ___ Japan.",
+   "options": [
+    "to visit",
+    "visiting",
+    "visit"
+   ],
+   "answer": "to visit",
+   "explain": "WANT + TO.",
+   "skill": "likes",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-001",
+   "topic": "r01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I ___ (be) 45 years old.",
+   "answer": [
+    "am"
+   ],
+   "explain": "Idade usa TO BE.",
+   "skill": "tobe",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-002",
+   "topic": "r01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I have 30 years.",
+   "options": [
+    "I'm 30 years old.",
+    "I have 30 years old.",
+    "I am having 30 years."
+   ],
+   "answer": "I'm 30 years old.",
+   "explain": "Idade usa TO BE, nunca HAVE.",
+   "skill": "tobe",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-003",
+   "topic": "r01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "She ___ (not / work) on Fridays.",
+   "answer": [
+    "doesn't work",
+    "does not work"
+   ],
+   "explain": "Negativa com SHE: DOESN'T + verbo base.",
+   "skill": "simple",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-004",
+   "topic": "r01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She doesn't works here.",
+   "options": [
+    "She doesn't work here.",
+    "She don't work here.",
+    "She not works here."
+   ],
+   "answer": "She doesn't work here.",
+   "explain": "O -S vai para o DOES; o verbo volta à base.",
+   "skill": "simple",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-005",
+   "topic": "r01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Shh! The baby ___ (sleep).",
+   "answer": [
+    "is sleeping",
+    "'s sleeping"
+   ],
+   "explain": "Agora: IS + -ING.",
+   "skill": "cont",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-006",
+   "topic": "r01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I working on it now.",
+   "options": [
+    "I'm working on it now.",
+    "I work on it now.",
+    "I am work on it now."
+   ],
+   "answer": "I'm working on it now.",
+   "explain": "O -ING precisa do TO BE.",
+   "skill": "cont",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-007",
+   "topic": "r01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Ana and ___ (possessivo de she) husband live in Rio.",
+   "answer": [
+    "her"
+   ],
+   "explain": "Possessivo de SHE: HER.",
+   "skill": "pron",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-008",
+   "topic": "r01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Can you send ___ (objeto de they) the file?",
+   "answer": [
+    "them"
+   ],
+   "explain": "Objeto de THEY: THEM.",
+   "skill": "pron",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-009",
+   "topic": "r01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The life is hard.",
+   "options": [
+    "Life is hard.",
+    "A life is hard.",
+    "The life are hard."
+   ],
+   "answer": "Life is hard.",
+   "explain": "Falando em geral, sem THE.",
+   "skill": "art",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-010",
+   "topic": "r01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "There ___ (be) a problem with the system.",
+   "answer": [
+    "is",
+    "'s"
+   ],
+   "explain": "Singular: THERE IS.",
+   "skill": "there",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-011",
+   "topic": "r01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Have a problem with the printer.",
+   "options": [
+    "There is a problem with the printer.",
+    "There have a problem with the printer.",
+    "It has problem with the printer."
+   ],
+   "answer": "There is a problem with the printer.",
+   "explain": "'Tem' no sentido de existir = THERE IS.",
+   "skill": "there",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-012",
+   "topic": "r01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I can to help you.",
+   "options": [
+    "I can help you.",
+    "I can helping you.",
+    "I cans help you."
+   ],
+   "answer": "I can help you.",
+   "explain": "CAN + verbo base, sem TO.",
+   "skill": "can",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-013",
+   "topic": "r01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "My birthday is ___ (preposição) May 5th.",
+   "answer": [
+    "on"
+   ],
+   "explain": "Data: ON.",
+   "skill": "prep",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-014",
+   "topic": "r01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "She lives ___ (preposição) São Paulo.",
+   "answer": [
+    "in"
+   ],
+   "explain": "Cidade: IN.",
+   "skill": "prep",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-015",
+   "topic": "r01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Where you work?",
+   "options": [
+    "Where do you work?",
+    "Where you do work?",
+    "Where are you work?"
+   ],
+   "answer": "Where do you work?",
+   "explain": "Sem o auxiliar DO, a pergunta não existe.",
+   "skill": "wh",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-016",
+   "topic": "r01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (pergunta: idade) old are you?",
+   "answer": [
+    "How"
+   ],
+   "explain": "Idade: HOW OLD.",
+   "skill": "wh",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-017",
+   "topic": "r01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "She ___ (can / not) come today.",
+   "answer": [
+    "can't",
+    "cannot",
+    "can not"
+   ],
+   "explain": "Negativa de CAN: CAN'T.",
+   "skill": "can",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-018",
+   "topic": "r01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I want travel to Europe.",
+   "options": [
+    "I want to travel to Europe.",
+    "I want traveling to Europe.",
+    "I want travels to Europe."
+   ],
+   "answer": "I want to travel to Europe.",
+   "explain": "WANT + TO.",
+   "skill": "likes",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-001",
+   "topic": "r01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "___ (Do / Does) your manager speak English?",
+   "answer": [
+    "Does"
+   ],
+   "explain": "MANAGER = he / she: DOES.",
+   "skill": "simple",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-002",
+   "topic": "r01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "They ___ (not / listen) right now.",
+   "answer": [
+    "aren't listening",
+    "are not listening"
+   ],
+   "explain": "Agora, na negativa: AREN'T + -ING.",
+   "skill": "cont",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-003",
+   "topic": "r01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I enjoy ___ (cook) on weekends.",
+   "answer": [
+    "cooking"
+   ],
+   "explain": "ENJOY só aceita -ING.",
+   "skill": "likes",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-004",
+   "topic": "r01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'd like ___ (order) a coffee, please.",
+   "answer": [
+    "to order"
+   ],
+   "explain": "WOULD LIKE + TO.",
+   "skill": "likes",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-005",
+   "topic": "r01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We have ___ (artigo) hour before the flight.",
+   "answer": [
+    "an"
+   ],
+   "explain": "HOUR tem H mudo: som de vogal, AN.",
+   "skill": "art",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-006",
+   "topic": "r01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Two ___ (person) are waiting outside.",
+   "answer": [
+    "people"
+   ],
+   "explain": "Plural irregular: PERSON → PEOPLE.",
+   "skill": "art",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-007",
+   "topic": "r01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "My ___ (child) go to school by bus.",
+   "answer": [
+    "children"
+   ],
+   "explain": "Plural irregular: CHILD → CHILDREN.",
+   "skill": "art",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-008",
+   "topic": "r01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "How ___ (much / many) people work here?",
+   "answer": [
+    "many"
+   ],
+   "explain": "Contável: HOW MANY.",
+   "skill": "wh",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-009",
+   "topic": "r01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "How ___ (much / many) does it cost?",
+   "answer": [
+    "much"
+   ],
+   "explain": "Preço: HOW MUCH.",
+   "skill": "wh",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-010",
+   "topic": "r01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The documents are ___ (preposição) the table.",
+   "answer": [
+    "on"
+   ],
+   "explain": "Sobre uma superfície: ON.",
+   "skill": "prep",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-011",
+   "topic": "r01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'm ___ (preposição) the airport now.",
+   "answer": [
+    "at"
+   ],
+   "explain": "Ponto específico: AT THE AIRPORT.",
+   "skill": "prep",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-012",
+   "topic": "r01",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Where do you usually have lunch?",
+   "explain": "Wh- + DO + sujeito + verbo.",
+   "skill": "wh",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-013",
+   "topic": "r01",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "There are two options on the table.",
+   "explain": "Plural: THERE ARE.",
+   "skill": "there",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-014",
+   "topic": "r01",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "She doesn't work on Fridays.",
+   "explain": "DOESN'T + verbo base.",
+   "skill": "simple",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-015",
+   "topic": "r01",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I'm working from home today.",
+   "explain": "Agora: AM + -ING.",
+   "skill": "cont",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-016",
+   "topic": "r01",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "That's not my pen. It's ___.",
+   "options": [
+    "hers",
+    "her",
+    "she"
+   ],
+   "answer": "hers",
+   "explain": "Possessivo sem substantivo depois: HERS.",
+   "skill": "pron",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-017",
+   "topic": "r01",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Are you tired? — No, I'm ___.",
+   "options": [
+    "not",
+    "don't",
+    "no"
+   ],
+   "answer": "not",
+   "explain": "Negativa de TO BE: I'M NOT.",
+   "skill": "tobe",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-018",
+   "topic": "r01",
+   "level": 3,
+   "type": "fix",
+   "prompt": "My sister she is a doctor.",
+   "options": [
+    "My sister is a doctor.",
+    "My sister she are a doctor.",
+    "My sister has a doctor."
+   ],
+   "answer": "My sister is a doctor.",
+   "explain": "Um sujeito só: não repita com SHE.",
+   "skill": "tobe",
+   "cefr": "A1"
+  }
+ ]
+}

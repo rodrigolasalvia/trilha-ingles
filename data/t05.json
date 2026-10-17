@@ -1,0 +1,821 @@
+{
+ "topic": "t05",
+ "items": [
+  {
+   "id": "t05-1-001",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Na verdade, eu discordo: ___, I disagree.",
+   "options": [
+    "Actually",
+    "Currently",
+    "Nowadays"
+   ],
+   "answer": "Actually",
+   "explain": "ACTUALLY = na verdade.",
+   "skill": "actually",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-002",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Atualmente moro em SP: ___, I live in São Paulo.",
+   "options": [
+    "Currently",
+    "Actually",
+    "Eventually"
+   ],
+   "answer": "Currently",
+   "explain": "Atualmente = CURRENTLY / NOWADAYS.",
+   "skill": "actually",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-003",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Pretendo viajar: I ___ to travel next year.",
+   "options": [
+    "plan",
+    "pretend",
+    "attend"
+   ],
+   "answer": "plan",
+   "explain": "PRETEND = fingir. Pretender = PLAN / INTEND.",
+   "skill": "pretend",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-004",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Ele fingiu estar ocupado: He ___ to be busy.",
+   "options": [
+    "pretended",
+    "intended",
+    "planned"
+   ],
+   "answer": "pretended",
+   "explain": "Fingir = PRETEND.",
+   "skill": "pretend",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-005",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "No fim, eles aceitaram: ___, they accepted.",
+   "options": [
+    "Eventually",
+    "Occasionally",
+    "Actually"
+   ],
+   "answer": "Eventually",
+   "explain": "EVENTUALLY = no fim, finalmente.",
+   "skill": "eventually",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-006",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Às vezes viajo a trabalho: I ___ travel for work.",
+   "options": [
+    "occasionally",
+    "eventually",
+    "actually"
+   ],
+   "answer": "occasionally",
+   "explain": "Eventualmente (às vezes) = OCCASIONALLY.",
+   "skill": "eventually",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-007",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Puxe a porta: ___ the door.",
+   "options": [
+    "Pull",
+    "Push",
+    "Press"
+   ],
+   "answer": "Pull",
+   "explain": "PULL = puxar. PUSH = empurrar.",
+   "skill": "push",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-008",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Participei da reunião: I ___ the meeting.",
+   "options": [
+    "attended",
+    "assisted",
+    "watched"
+   ],
+   "answer": "attended",
+   "explain": "Comparecer = ATTEND.",
+   "skill": "attend",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-009",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Assisti a um filme: I ___ a movie.",
+   "options": [
+    "watched",
+    "assisted",
+    "attended"
+   ],
+   "answer": "watched",
+   "explain": "Assistir (TV, filme) = WATCH.",
+   "skill": "attend",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-010",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Percebi o erro: I ___ the mistake.",
+   "options": [
+    "realized",
+    "performed",
+    "conducted"
+   ],
+   "answer": "realized",
+   "explain": "REALIZE = perceber.",
+   "skill": "realize",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-011",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Realizamos uma auditoria: We ___ an audit.",
+   "options": [
+    "conducted",
+    "realized",
+    "made"
+   ],
+   "answer": "conducted",
+   "explain": "Realizar auditoria = CONDUCT / CARRY OUT.",
+   "skill": "realize",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-012",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Meus pais moram no Rio: My ___ live in Rio.",
+   "options": [
+    "parents",
+    "relatives",
+    "fathers"
+   ],
+   "answer": "parents",
+   "explain": "PARENTS = pai e mãe.",
+   "skill": "everyday",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-013",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Meus parentes vieram: My ___ came.",
+   "options": [
+    "relatives",
+    "parents",
+    "familiars"
+   ],
+   "answer": "relatives",
+   "explain": "Parentes = RELATIVES.",
+   "skill": "everyday",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-014",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Comprei na livraria: I bought it at the ___.",
+   "options": [
+    "bookstore",
+    "library",
+    "librarie"
+   ],
+   "answer": "bookstore",
+   "explain": "LIBRARY = biblioteca. Livraria = BOOKSTORE.",
+   "skill": "everyday",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-015",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "A empresa teve prejuízo: The company had a ___.",
+   "options": [
+    "loss",
+    "prejudice",
+    "damage"
+   ],
+   "answer": "loss",
+   "explain": "Prejuízo = LOSS. PREJUDICE = preconceito.",
+   "skill": "corporate",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-016",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "É um tema sensível: It's a ___ topic.",
+   "options": [
+    "sensitive",
+    "sensible",
+    "sensitivity"
+   ],
+   "answer": "sensitive",
+   "explain": "Sensível = SENSITIVE. SENSIBLE = sensato.",
+   "skill": "corporate",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-017",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Envie seu currículo: Send your ___.",
+   "options": [
+    "CV",
+    "curriculum",
+    "resume of work"
+   ],
+   "answer": "CV",
+   "explain": "Currículo = CV / résumé. CURRICULUM = grade curricular.",
+   "skill": "corporate",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-018",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Não suporto barulho: I can't ___ noise.",
+   "options": [
+    "stand",
+    "support",
+    "suport"
+   ],
+   "answer": "stand",
+   "explain": "Suportar (tolerar) = STAND. SUPPORT = apoiar.",
+   "skill": "corporate",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-001",
+   "topic": "t05",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Actually, I'm working from home. (= atualmente)",
+   "options": [
+    "Currently, I'm working from home.",
+    "Actual, I'm working from home.",
+    "Actually currently I'm working from home."
+   ],
+   "answer": "Currently, I'm working from home.",
+   "explain": "ACTUALLY = na verdade, não atualmente.",
+   "skill": "actually",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-002",
+   "topic": "t05",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (atualmente), most meetings are online.",
+   "answer": [
+    "Nowadays",
+    "Currently",
+    "These days"
+   ],
+   "explain": "Atualmente = NOWADAYS / CURRENTLY / THESE DAYS.",
+   "skill": "actually",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-003",
+   "topic": "t05",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I pretend to change jobs next year.",
+   "options": [
+    "I intend to change jobs next year.",
+    "I pretend changing jobs next year.",
+    "I am pretending to change jobs next year."
+   ],
+   "answer": "I intend to change jobs next year.",
+   "explain": "Pretender = INTEND / PLAN.",
+   "skill": "pretend",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-004",
+   "topic": "t05",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I ___ (pretendo) to finish this by Friday.",
+   "answer": [
+    "plan",
+    "intend"
+   ],
+   "explain": "Pretender = PLAN / INTEND.",
+   "skill": "pretend",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-005",
+   "topic": "t05",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Eventually I go to the office. (= às vezes)",
+   "options": [
+    "Occasionally, I go to the office.",
+    "Eventual I go to the office.",
+    "Eventually I going to the office."
+   ],
+   "answer": "Occasionally, I go to the office.",
+   "explain": "Às vezes = OCCASIONALLY.",
+   "skill": "eventually",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-006",
+   "topic": "t05",
+   "level": 2,
+   "type": "gap",
+   "prompt": "After months of talks, we ___ (no fim) signed.",
+   "answer": [
+    "eventually",
+    "finally"
+   ],
+   "explain": "No fim de um processo = EVENTUALLY.",
+   "skill": "eventually",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-007",
+   "topic": "t05",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Push the cable out. (= puxe)",
+   "options": [
+    "Pull the cable out.",
+    "Pushing the cable out.",
+    "Put the cable out."
+   ],
+   "answer": "Pull the cable out.",
+   "explain": "Puxar = PULL.",
+   "skill": "push",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-008",
+   "topic": "t05",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We're ___ (pressionando) for a faster approval.",
+   "answer": [
+    "pushing"
+   ],
+   "explain": "PUSH FOR = pressionar por.",
+   "skill": "push",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-009",
+   "topic": "t05",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I assisted the training yesterday.",
+   "options": [
+    "I attended the training yesterday.",
+    "I assisted to the training yesterday.",
+    "I attended to the training yesterday."
+   ],
+   "answer": "I attended the training yesterday.",
+   "explain": "Comparecer = ATTEND, sem preposição.",
+   "skill": "attend",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-010",
+   "topic": "t05",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Who will ___ (atender) the client?",
+   "answer": [
+    "serve",
+    "help",
+    "deal with",
+    "assist"
+   ],
+   "explain": "Atender cliente = SERVE / HELP / DEAL WITH.",
+   "skill": "attend",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-011",
+   "topic": "t05",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We realized a meeting with the supplier.",
+   "options": [
+    "We held a meeting with the supplier.",
+    "We realised a meeting with the supplier.",
+    "We made realize a meeting with the supplier."
+   ],
+   "answer": "We held a meeting with the supplier.",
+   "explain": "Realizar reunião = HOLD.",
+   "skill": "realize",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-012",
+   "topic": "t05",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I ___ (percebi) we had a problem.",
+   "answer": [
+    "realized",
+    "realised"
+   ],
+   "explain": "Perceber = REALIZE.",
+   "skill": "realize",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-013",
+   "topic": "t05",
+   "level": 2,
+   "type": "fix",
+   "prompt": "All my parents came to the wedding. (= parentes)",
+   "options": [
+    "All my relatives came to the wedding.",
+    "All my parent came to the wedding.",
+    "All my familiars came to the wedding."
+   ],
+   "answer": "All my relatives came to the wedding.",
+   "explain": "Parentes = RELATIVES.",
+   "skill": "everyday",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-014",
+   "topic": "t05",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I studied at the ___ (biblioteca) yesterday.",
+   "answer": [
+    "library"
+   ],
+   "explain": "Biblioteca = LIBRARY.",
+   "skill": "everyday",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-015",
+   "topic": "t05",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The company had a big prejudice this year.",
+   "options": [
+    "The company had a big loss this year.",
+    "The company had a big prejudices this year.",
+    "The company made a big prejudice this year."
+   ],
+   "answer": "The company had a big loss this year.",
+   "explain": "Prejuízo = LOSS.",
+   "skill": "corporate",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-016",
+   "topic": "t05",
+   "level": 2,
+   "type": "gap",
+   "prompt": "That's a ___ (sensata) decision.",
+   "answer": [
+    "sensible",
+    "reasonable",
+    "wise"
+   ],
+   "explain": "Sensato = SENSIBLE.",
+   "skill": "corporate",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-017",
+   "topic": "t05",
+   "level": 2,
+   "type": "gap",
+   "prompt": "My son goes to ___ (faculdade) in Boston.",
+   "answer": [
+    "college",
+    "university"
+   ],
+   "explain": "Faculdade = COLLEGE / UNIVERSITY.",
+   "skill": "everyday",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-018",
+   "topic": "t05",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I can't support this noise.",
+   "options": [
+    "I can't stand this noise.",
+    "I can't supporting this noise.",
+    "I don't support stand this noise."
+   ],
+   "answer": "I can't stand this noise.",
+   "explain": "Tolerar = STAND.",
+   "skill": "corporate",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-3-001",
+   "topic": "t05",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Let's ___ (retomar) the meeting after lunch.",
+   "answer": [
+    "resume"
+   ],
+   "explain": "RESUME = retomar.",
+   "skill": "corporate",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-002",
+   "topic": "t05",
+   "level": 3,
+   "type": "gap",
+   "prompt": "She took ___ (assumir) the project in May.",
+   "answer": [
+    "over"
+   ],
+   "explain": "Assumir um projeto = TAKE OVER.",
+   "skill": "corporate",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-003",
+   "topic": "t05",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I ___ (presumo) you've read the contract.",
+   "answer": [
+    "assume"
+   ],
+   "explain": "ASSUME = supor, presumir.",
+   "skill": "corporate",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-004",
+   "topic": "t05",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We ___ (realizamos) the project in three phases.",
+   "answer": [
+    "carried out",
+    "conducted",
+    "implemented"
+   ],
+   "explain": "Realizar projeto = CARRY OUT.",
+   "skill": "realize",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-005",
+   "topic": "t05",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I suddenly ___ (percebi) I'd left my passport.",
+   "answer": [
+    "realized",
+    "realised"
+   ],
+   "explain": "Perceber = REALIZE.",
+   "skill": "realize",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-006",
+   "topic": "t05",
+   "level": 3,
+   "type": "gap",
+   "prompt": "He ___ (fingiu) not to hear me.",
+   "answer": [
+    "pretended"
+   ],
+   "explain": "Fingir = PRETEND.",
+   "skill": "pretend",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-007",
+   "topic": "t05",
+   "level": 3,
+   "type": "gap",
+   "prompt": "___ (Na verdade), the deadline is next week, not today.",
+   "answer": [
+    "Actually",
+    "In fact"
+   ],
+   "explain": "Na verdade = ACTUALLY / IN FACT.",
+   "skill": "actually",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-008",
+   "topic": "t05",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Thousands of people ___ (compareceram) the conference.",
+   "answer": [
+    "attended"
+   ],
+   "explain": "Comparecer = ATTEND.",
+   "skill": "attend",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-009",
+   "topic": "t05",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We ___ (no fim) found the error in row 42.",
+   "answer": [
+    "eventually",
+    "finally"
+   ],
+   "explain": "No fim = EVENTUALLY.",
+   "skill": "eventually",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-010",
+   "topic": "t05",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual frase significa 'Ele é muito sensato'?",
+   "options": [
+    "He's very sensible.",
+    "He's very sensitive.",
+    "He's very sensational."
+   ],
+   "answer": "He's very sensible.",
+   "explain": "SENSIBLE = sensato.",
+   "skill": "corporate",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-011",
+   "topic": "t05",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "'There's prejudice in the hiring process' significa:",
+   "options": [
+    "Há preconceito na contratação.",
+    "Há prejuízo na contratação.",
+    "Há atraso na contratação."
+   ],
+   "answer": "Há preconceito na contratação.",
+   "explain": "PREJUDICE = preconceito.",
+   "skill": "corporate",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-012",
+   "topic": "t05",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "'I'll attend the meeting' significa:",
+   "options": [
+    "Vou participar da reunião.",
+    "Vou atender a reunião.",
+    "Vou assistir à reunião pela TV."
+   ],
+   "answer": "Vou participar da reunião.",
+   "explain": "ATTEND = comparecer.",
+   "skill": "attend",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-013",
+   "topic": "t05",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "'Eventually, they agreed' significa:",
+   "options": [
+    "No fim, eles concordaram.",
+    "Às vezes, eles concordavam.",
+    "Eventualmente concordariam."
+   ],
+   "answer": "No fim, eles concordaram.",
+   "explain": "EVENTUALLY = no fim.",
+   "skill": "eventually",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-014",
+   "topic": "t05",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "'I pretended to be calm' significa:",
+   "options": [
+    "Fingi estar calmo.",
+    "Pretendia ficar calmo.",
+    "Esperei ficar calmo."
+   ],
+   "answer": "Fingi estar calmo.",
+   "explain": "PRETEND = fingir.",
+   "skill": "pretend",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-015",
+   "topic": "t05",
+   "level": 3,
+   "type": "fix",
+   "prompt": "Can you push the drawer open? (= puxar a gaveta)",
+   "options": [
+    "Can you pull the drawer open?",
+    "Can you pushing the drawer open?",
+    "Can you push on the drawer open?"
+   ],
+   "answer": "Can you pull the drawer open?",
+   "explain": "Puxar = PULL.",
+   "skill": "push",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-016",
+   "topic": "t05",
+   "level": 3,
+   "type": "fix",
+   "prompt": "Actually, we have 200 suppliers. (= atualmente)",
+   "options": [
+    "Currently, we have 200 suppliers.",
+    "Actual, we have 200 suppliers.",
+    "In actually, we have 200 suppliers."
+   ],
+   "answer": "Currently, we have 200 suppliers.",
+   "explain": "Atualmente = CURRENTLY.",
+   "skill": "actually",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-017",
+   "topic": "t05",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I intend to attend the conference in March.",
+   "explain": "INTEND = pretender; ATTEND = comparecer.",
+   "skill": "pretend",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-018",
+   "topic": "t05",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We conducted an audit last month.",
+   "explain": "Realizar auditoria = CONDUCT.",
+   "skill": "realize",
+   "cefr": "B2"
+  }
+ ]
+}

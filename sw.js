@@ -1,6 +1,6 @@
 // Service worker: guarda o app inteiro para uso offline.
 // Ao publicar uma nova versão, aumente CACHE_VERSION (deve ser igual a APP_VERSION em js/core.js).
-const CACHE_VERSION = '1.0.0';
+const CACHE_VERSION = '1.1.0';
 const CACHE = `trilha-ingles-${CACHE_VERSION}`;
 const ASSETS = [
   './',
@@ -11,10 +11,16 @@ const ASSETS = [
   'js/core.js',
   'js/storage.js',
   'data/topics.json',
+  'data/r01.json',
+  'data/r02.json',
+  'data/r03.json',
   'data/t01.json',
   'data/t02.json',
   'data/t03.json',
   'data/t04.json',
+  'data/t05.json',
+  'data/t06.json',
+  'data/t07.json',
   'fonts/AtkinsonHyperlegible-Regular.woff2',
   'fonts/AtkinsonHyperlegible-Bold.woff2',
   'fonts/BricolageGrotesque.woff2',

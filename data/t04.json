@@ -13,7 +13,9 @@
     "awarely"
    ],
    "answer": "awareness",
-   "explain": "Depois de MORE: substantivo (-NESS)."
+   "explain": "Depois de MORE: substantivo (-NESS).",
+   "skill": "noun_suf",
+   "cefr": "B1"
   },
   {
    "id": "t04-1-002",
@@ -27,7 +29,9 @@
     "approving"
    ],
    "answer": "approval",
-   "explain": "Substantivo: APPROVE → APPROVAL."
+   "explain": "Substantivo: APPROVE → APPROVAL.",
+   "skill": "noun_suf",
+   "cefr": "B1"
   },
   {
    "id": "t04-1-003",
@@ -41,7 +45,9 @@
     "consultation"
    ],
    "answer": "consultant",
-   "explain": "Pessoa: -ANT."
+   "explain": "Pessoa: -ANT.",
+   "skill": "person_suf",
+   "cefr": "B1"
   },
   {
    "id": "t04-1-004",
@@ -55,7 +61,9 @@
     "usage"
    ],
    "answer": "useful",
-   "explain": "Adjetivo: -FUL."
+   "explain": "Adjetivo: -FUL.",
+   "skill": "adj_suf",
+   "cefr": "B1"
   },
   {
    "id": "t04-1-005",
@@ -69,7 +77,9 @@
     "simplicity"
    ],
    "answer": "simplify",
-   "explain": "Verbo: -IFY."
+   "explain": "Verbo: -IFY.",
+   "skill": "verb_suf",
+   "cefr": "B1"
   },
   {
    "id": "t04-1-006",
@@ -83,7 +93,9 @@
     "inpossible"
    ],
    "answer": "impossible",
-   "explain": "IM- antes de P."
+   "explain": "IM- antes de P.",
+   "skill": "neg",
+   "cefr": "B1"
   },
   {
    "id": "t04-1-007",
@@ -97,7 +109,9 @@
     "inlegal"
    ],
    "answer": "illegal",
-   "explain": "IL- antes de L."
+   "explain": "IL- antes de L.",
+   "skill": "neg",
+   "cefr": "B1"
   },
   {
    "id": "t04-1-008",
@@ -111,7 +125,9 @@
     "disunderstanding"
    ],
    "answer": "misunderstanding",
-   "explain": "MIS- = errado."
+   "explain": "MIS- = errado.",
+   "skill": "meaning",
+   "cefr": "B1"
   },
   {
    "id": "t04-1-009",
@@ -125,7 +141,9 @@
     "misnegotiate"
    ],
    "answer": "renegotiate",
-   "explain": "RE- = de novo."
+   "explain": "RE- = de novo.",
+   "skill": "meaning",
+   "cefr": "B1"
   },
   {
    "id": "t04-1-010",
@@ -139,7 +157,9 @@
     "disreliable"
    ],
    "answer": "unreliable",
-   "explain": "UN- é o prefixo de RELIABLE."
+   "explain": "UN- é o prefixo de RELIABLE.",
+   "skill": "neg",
+   "cefr": "B1"
   },
   {
    "id": "t04-1-011",
@@ -153,7 +173,9 @@
     "inrelevant"
    ],
    "answer": "irrelevant",
-   "explain": "IR- antes de R."
+   "explain": "IR- antes de R.",
+   "skill": "neg",
+   "cefr": "B1"
   },
   {
    "id": "t04-1-012",
@@ -167,7 +189,9 @@
     "misagree"
    ],
    "answer": "disagree",
-   "explain": "DIS- com verbos de opinião."
+   "explain": "DIS- com verbos de opinião.",
+   "skill": "neg",
+   "cefr": "B1"
   },
   {
    "id": "t04-1-013",
@@ -181,7 +205,9 @@
     "leadness"
    ],
    "answer": "leadership",
-   "explain": "-SHIP forma substantivos de posição ou relação."
+   "explain": "-SHIP forma substantivos de posição ou relação.",
+   "skill": "noun_suf",
+   "cefr": "B1"
   },
   {
    "id": "t04-1-014",
@@ -195,7 +221,9 @@
     "priorize"
    ],
    "answer": "prioritize",
-   "explain": "Verbo: -IZE."
+   "explain": "Verbo: -IZE.",
+   "skill": "verb_suf",
+   "cefr": "B1"
   },
   {
    "id": "t04-1-015",
@@ -209,7 +237,9 @@
     "efficiently"
    ],
    "answer": "efficient",
-   "explain": "Depois de VERY: adjetivo."
+   "explain": "Depois de VERY: adjetivo.",
+   "skill": "adj_suf",
+   "cefr": "B1"
   },
   {
    "id": "t04-1-016",
@@ -223,7 +253,9 @@
     "performation"
    ],
    "answer": "performance",
-   "explain": "Substantivo: -ANCE."
+   "explain": "Substantivo: -ANCE.",
+   "skill": "noun_suf",
+   "cefr": "B1"
   },
   {
    "id": "t04-1-017",
@@ -237,7 +269,9 @@
     "agreeation"
    ],
    "answer": "agreement",
-   "explain": "Substantivo: -MENT."
+   "explain": "Substantivo: -MENT.",
+   "skill": "noun_suf",
+   "cefr": "B1"
   },
   {
    "id": "t04-1-018",
@@ -251,7 +285,9 @@
     "disefficient"
    ],
    "answer": "inefficient",
-   "explain": "IN- é o prefixo de EFFICIENT."
+   "explain": "IN- é o prefixo de EFFICIENT.",
+   "skill": "neg",
+   "cefr": "B1"
   },
   {
    "id": "t04-2-001",
@@ -262,7 +298,9 @@
    "answer": [
     "priority"
    ],
-   "explain": "Substantivo: -ITY."
+   "explain": "Substantivo: -ITY.",
+   "skill": "noun_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-2-002",
@@ -273,7 +311,9 @@
    "answer": [
     "reliable"
    ],
-   "explain": "Adjetivo: -ABLE."
+   "explain": "Adjetivo: -ABLE.",
+   "skill": "adj_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-2-003",
@@ -285,7 +325,9 @@
     "standardize",
     "standardise"
    ],
-   "explain": "Verbo: -IZE."
+   "explain": "Verbo: -IZE.",
+   "skill": "verb_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-2-004",
@@ -296,7 +338,9 @@
    "answer": [
     "assistant"
    ],
-   "explain": "Pessoa: -ANT."
+   "explain": "Pessoa: -ANT.",
+   "skill": "person_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-2-005",
@@ -307,7 +351,9 @@
    "answer": [
     "payment"
    ],
-   "explain": "Substantivo: -MENT."
+   "explain": "Substantivo: -MENT.",
+   "skill": "noun_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-2-006",
@@ -318,7 +364,9 @@
    "answer": [
     "strengthen"
    ],
-   "explain": "Verbo: -EN."
+   "explain": "Verbo: -EN.",
+   "skill": "verb_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-2-007",
@@ -329,7 +377,9 @@
    "answer": [
     "clarify"
    ],
-   "explain": "Verbo: CLEAR → CLARIFY."
+   "explain": "Verbo: CLEAR → CLARIFY.",
+   "skill": "verb_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-2-008",
@@ -340,7 +390,9 @@
    "answer": [
     "effective"
    ],
-   "explain": "Adjetivo: -IVE."
+   "explain": "Adjetivo: -IVE.",
+   "skill": "adj_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-2-009",
@@ -351,7 +403,9 @@
    "answer": [
     "automate"
    ],
-   "explain": "Verbo: -ATE."
+   "explain": "Verbo: -ATE.",
+   "skill": "verb_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-2-010",
@@ -362,7 +416,9 @@
    "answer": [
     "awareness"
    ],
-   "explain": "Substantivo: -NESS."
+   "explain": "Substantivo: -NESS.",
+   "skill": "noun_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-2-011",
@@ -373,7 +429,9 @@
    "answer": [
     "impossible"
    ],
-   "explain": "IM- antes de P."
+   "explain": "IM- antes de P.",
+   "skill": "neg",
+   "cefr": "B2"
   },
   {
    "id": "t04-2-012",
@@ -384,7 +442,9 @@
    "answer": [
     "underestimated"
    ],
-   "explain": "UNDER- = abaixo do real."
+   "explain": "UNDER- = abaixo do real.",
+   "skill": "meaning",
+   "cefr": "B2"
   },
   {
    "id": "t04-2-013",
@@ -395,7 +455,9 @@
    "answer": [
     "misunderstood"
    ],
-   "explain": "MIS- = errado."
+   "explain": "MIS- = errado.",
+   "skill": "meaning",
+   "cefr": "B2"
   },
   {
    "id": "t04-2-014",
@@ -406,7 +468,9 @@
    "answer": [
     "renegotiate"
    ],
-   "explain": "RE- = de novo."
+   "explain": "RE- = de novo.",
+   "skill": "meaning",
+   "cefr": "B2"
   },
   {
    "id": "t04-2-015",
@@ -420,7 +484,9 @@
     "We need more flexibleness."
    ],
    "answer": "We need more flexibility.",
-   "explain": "Depois de MORE: substantivo (-ITY)."
+   "explain": "Depois de MORE: substantivo (-ITY).",
+   "skill": "noun_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-2-016",
@@ -434,7 +500,9 @@
     "We need to standarding the process."
    ],
    "answer": "We need to standardize the process.",
-   "explain": "Verbo: -IZE."
+   "explain": "Verbo: -IZE.",
+   "skill": "verb_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-2-017",
@@ -448,7 +516,9 @@
     "That's dislegal."
    ],
    "answer": "That's illegal.",
-   "explain": "IL- antes de L."
+   "explain": "IL- antes de L.",
+   "skill": "neg",
+   "cefr": "B2"
   },
   {
    "id": "t04-2-018",
@@ -459,7 +529,9 @@
    "answer": [
     "irrelevant"
    ],
-   "explain": "IR- antes de R."
+   "explain": "IR- antes de R.",
+   "skill": "neg",
+   "cefr": "B2"
   },
   {
    "id": "t04-3-001",
@@ -471,7 +543,9 @@
     "non-compliant",
     "noncompliant"
    ],
-   "explain": "NON- + adjetivo COMPLIANT."
+   "explain": "NON- + adjetivo COMPLIANT.",
+   "skill": "neg",
+   "cefr": "B2"
   },
   {
    "id": "t04-3-002",
@@ -482,7 +556,9 @@
    "answer": [
     "partnership"
    ],
-   "explain": "Substantivo de relação: -SHIP."
+   "explain": "Substantivo de relação: -SHIP.",
+   "skill": "noun_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-3-003",
@@ -493,7 +569,9 @@
    "answer": [
     "renewal"
    ],
-   "explain": "Substantivo: -AL."
+   "explain": "Substantivo: -AL.",
+   "skill": "noun_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-3-004",
@@ -504,7 +582,9 @@
    "answer": [
     "liability"
    ],
-   "explain": "Substantivo: -ITY."
+   "explain": "Substantivo: -ITY.",
+   "skill": "noun_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-3-005",
@@ -515,7 +595,9 @@
    "answer": [
     "shorten"
    ],
-   "explain": "Verbo: -EN."
+   "explain": "Verbo: -EN.",
+   "skill": "verb_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-3-006",
@@ -526,7 +608,9 @@
    "answer": [
     "underpaid"
    ],
-   "explain": "UNDER- = abaixo do devido."
+   "explain": "UNDER- = abaixo do devido.",
+   "skill": "meaning",
+   "cefr": "B2"
   },
   {
    "id": "t04-3-007",
@@ -537,7 +621,9 @@
    "answer": [
     "ability"
    ],
-   "explain": "Substantivo: -ITY."
+   "explain": "Substantivo: -ITY.",
+   "skill": "noun_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-3-008",
@@ -548,7 +634,9 @@
    "answer": [
     "irresponsible"
    ],
-   "explain": "IR- antes de R."
+   "explain": "IR- antes de R.",
+   "skill": "neg",
+   "cefr": "B2"
   },
   {
    "id": "t04-3-009",
@@ -560,7 +648,9 @@
     "pre-approval",
     "preapproval"
    ],
-   "explain": "PRE- = antes."
+   "explain": "PRE- = antes.",
+   "skill": "meaning",
+   "cefr": "B2"
   },
   {
    "id": "t04-3-010",
@@ -571,7 +661,9 @@
    "answer": [
     "misleading"
    ],
-   "explain": "MIS- + LEAD = induzir ao erro."
+   "explain": "MIS- + LEAD = induzir ao erro.",
+   "skill": "meaning",
+   "cefr": "B2"
   },
   {
    "id": "t04-3-011",
@@ -582,7 +674,9 @@
    "answer": [
     "overestimated"
    ],
-   "explain": "OVER- = acima do real."
+   "explain": "OVER- = acima do real.",
+   "skill": "meaning",
+   "cefr": "B2"
   },
   {
    "id": "t04-3-012",
@@ -593,7 +687,9 @@
    "answer": [
     "evidence"
    ],
-   "explain": "Substantivo: -ENCE."
+   "explain": "Substantivo: -ENCE.",
+   "skill": "noun_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-3-013",
@@ -604,7 +700,9 @@
    "answer": [
     "inefficient"
    ],
-   "explain": "IN- + EFFICIENT."
+   "explain": "IN- + EFFICIENT.",
+   "skill": "neg",
+   "cefr": "B2"
   },
   {
    "id": "t04-3-014",
@@ -615,7 +713,9 @@
    "answer": [
     "evaluate"
    ],
-   "explain": "Verbo: -ATE."
+   "explain": "Verbo: -ATE.",
+   "skill": "verb_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-3-015",
@@ -626,7 +726,9 @@
    "answer": [
     "financial"
    ],
-   "explain": "Adjetivo: -AL."
+   "explain": "Adjetivo: -AL.",
+   "skill": "adj_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-3-016",
@@ -637,7 +739,9 @@
    "answer": [
     "performance"
    ],
-   "explain": "Substantivo: -ANCE."
+   "explain": "Substantivo: -ANCE.",
+   "skill": "noun_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-3-017",
@@ -646,7 +750,9 @@
    "type": "order",
    "prompt": "Ordene as palavras para formar a frase correta.",
    "answer": "We need to simplify the approval process.",
-   "explain": "SIMPLIFY (verbo) + APPROVAL (substantivo)."
+   "explain": "SIMPLIFY (verbo) + APPROVAL (substantivo).",
+   "skill": "noun_suf",
+   "cefr": "B2"
   },
   {
    "id": "t04-3-018",
@@ -655,7 +761,9 @@
    "type": "order",
    "prompt": "Ordene as palavras para formar a frase correta.",
    "answer": "There was a misunderstanding about the deadline.",
-   "explain": "MIS- = errado."
+   "explain": "MIS- = errado.",
+   "skill": "meaning",
+   "cefr": "B2"
   }
  ]
 }

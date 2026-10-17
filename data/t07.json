@@ -1,0 +1,802 @@
+{
+ "topic": "t07",
+ "items": [
+  {
+   "id": "t07-1-001",
+   "topic": "t07",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ important to check the numbers.",
+   "options": [
+    "It's",
+    "Is",
+    "This is to"
+   ],
+   "answer": "It's",
+   "explain": "Toda frase precisa de sujeito: IT'S.",
+   "skill": "subj",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-1-002",
+   "topic": "t07",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ raining.",
+   "options": [
+    "It's",
+    "Is",
+    "Are"
+   ],
+   "answer": "It's",
+   "explain": "Clima: IT.",
+   "skill": "subj",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-1-003",
+   "topic": "t07",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Do you know where ___?",
+   "options": [
+    "the station is",
+    "is the station",
+    "the station"
+   ],
+   "answer": "the station is",
+   "explain": "Pergunta indireta: ordem afirmativa.",
+   "skill": "indirect",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-1-004",
+   "topic": "t07",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We signed two ___.",
+   "options": [
+    "important contracts",
+    "contracts importants",
+    "importants contracts"
+   ],
+   "answer": "important contracts",
+   "explain": "Adjetivo antes, sem plural.",
+   "skill": "adj",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-1-005",
+   "topic": "t07",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "People ___ worried.",
+   "options": [
+    "are",
+    "is",
+    "was"
+   ],
+   "answer": "are",
+   "explain": "PEOPLE é plural.",
+   "skill": "people",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-1-006",
+   "topic": "t07",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Everybody ___ here.",
+   "options": [
+    "is",
+    "are",
+    "were"
+   ],
+   "answer": "is",
+   "explain": "EVERYBODY é singular.",
+   "skill": "people",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-1-007",
+   "topic": "t07",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Can you explain ___?",
+   "options": [
+    "it to me",
+    "me it",
+    "to me it"
+   ],
+   "answer": "it to me",
+   "explain": "EXPLAIN + coisa + TO + pessoa.",
+   "skill": "explain",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-1-008",
+   "topic": "t07",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ people agree.",
+   "options": [
+    "Most",
+    "The most of",
+    "Most of"
+   ],
+   "answer": "Most",
+   "explain": "'A maioria', em geral: MOST.",
+   "skill": "most",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-1-009",
+   "topic": "t07",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ the suppliers are local.",
+   "options": [
+    "Most of",
+    "Most",
+    "The most"
+   ],
+   "answer": "Most of",
+   "explain": "Grupo específico: MOST OF THE.",
+   "skill": "most",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-1-010",
+   "topic": "t07",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She speaks ___.",
+   "options": [
+    "English very well",
+    "very well English",
+    "English well very"
+   ],
+   "answer": "English very well",
+   "explain": "Advérbio depois do objeto.",
+   "skill": "order",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-1-011",
+   "topic": "t07",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I don't like it ___.",
+   "options": [
+    "either",
+    "too",
+    "also"
+   ],
+   "answer": "either",
+   "explain": "Também, na negativa: EITHER.",
+   "skill": "neg",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-1-012",
+   "topic": "t07",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I don't have ___ questions.",
+   "options": [
+    "any",
+    "no",
+    "none"
+   ],
+   "answer": "any",
+   "explain": "Uma negação por frase: DON'T + ANY.",
+   "skill": "neg",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-1-013",
+   "topic": "t07",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Can you tell me what time ___?",
+   "options": [
+    "it starts",
+    "does it start",
+    "starts it"
+   ],
+   "answer": "it starts",
+   "explain": "Pergunta indireta: sem inversão.",
+   "skill": "indirect",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-1-014",
+   "topic": "t07",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It was a ___ meeting.",
+   "options": [
+    "long",
+    "longs",
+    "long one"
+   ],
+   "answer": "long",
+   "explain": "Adjetivo antes do substantivo, sem plural.",
+   "skill": "adj",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-1-015",
+   "topic": "t07",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The police ___ here.",
+   "options": [
+    "are",
+    "is",
+    "has"
+   ],
+   "answer": "are",
+   "explain": "POLICE é plural.",
+   "skill": "people",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-1-016",
+   "topic": "t07",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She described the process ___.",
+   "options": [
+    "to us",
+    "us",
+    "for us to"
+   ],
+   "answer": "to us",
+   "explain": "DESCRIBE + coisa + TO + pessoa.",
+   "skill": "explain",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-1-017",
+   "topic": "t07",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I sent the file ___.",
+   "options": [
+    "to her yesterday",
+    "yesterday to her the",
+    "her yesterday to"
+   ],
+   "answer": "to her yesterday",
+   "explain": "Objeto, depois pessoa, depois tempo.",
+   "skill": "order",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-1-018",
+   "topic": "t07",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ 5 km from here.",
+   "options": [
+    "It's",
+    "Is",
+    "Are"
+   ],
+   "answer": "It's",
+   "explain": "Distância: IT.",
+   "skill": "subj",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-2-001",
+   "topic": "t07",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Is necessary to sign today.",
+   "options": [
+    "It's necessary to sign today.",
+    "Is it necessary sign today.",
+    "It necessary to sign today."
+   ],
+   "answer": "It's necessary to sign today.",
+   "explain": "Sujeito obrigatório: IT.",
+   "skill": "subj",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-2-002",
+   "topic": "t07",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (sujeito + be) very hot today.",
+   "answer": [
+    "It's",
+    "It is"
+   ],
+   "explain": "Clima: IT'S.",
+   "skill": "subj",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-2-003",
+   "topic": "t07",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Can you tell me where is the hotel?",
+   "options": [
+    "Can you tell me where the hotel is?",
+    "Can you tell me where does the hotel is?",
+    "Can you tell me the hotel where is?"
+   ],
+   "answer": "Can you tell me where the hotel is?",
+   "explain": "Pergunta indireta: ordem afirmativa.",
+   "skill": "indirect",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-2-004",
+   "topic": "t07",
+   "level": 2,
+   "type": "fix",
+   "prompt": "They have two cars reds.",
+   "options": [
+    "They have two red cars.",
+    "They have two reds cars.",
+    "They have red two cars."
+   ],
+   "answer": "They have two red cars.",
+   "explain": "Adjetivo antes, sem plural.",
+   "skill": "adj",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-2-005",
+   "topic": "t07",
+   "level": 2,
+   "type": "fix",
+   "prompt": "People is very friendly here.",
+   "options": [
+    "People are very friendly here.",
+    "People is very friendlies here.",
+    "The people is very friendly here."
+   ],
+   "answer": "People are very friendly here.",
+   "explain": "PEOPLE é plural.",
+   "skill": "people",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-2-006",
+   "topic": "t07",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Everyone ___ (have) a copy of the agenda.",
+   "answer": [
+    "has"
+   ],
+   "explain": "EVERYONE é singular: HAS.",
+   "skill": "people",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-2-007",
+   "topic": "t07",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Can you explain me this clause?",
+   "options": [
+    "Can you explain this clause to me?",
+    "Can you explain to me this clause me?",
+    "Can you explain me to this clause?"
+   ],
+   "answer": "Can you explain this clause to me?",
+   "explain": "EXPLAIN + coisa + TO + pessoa.",
+   "skill": "explain",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-2-008",
+   "topic": "t07",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The most of the people agree.",
+   "options": [
+    "Most people agree.",
+    "The most people agree.",
+    "Most of people agree."
+   ],
+   "answer": "Most people agree.",
+   "explain": "'A maioria' sem THE.",
+   "skill": "most",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-2-009",
+   "topic": "t07",
+   "level": 2,
+   "type": "fix",
+   "prompt": "He speaks very well Spanish.",
+   "options": [
+    "He speaks Spanish very well.",
+    "He very well speaks Spanish.",
+    "He speaks Spanish well very."
+   ],
+   "answer": "He speaks Spanish very well.",
+   "explain": "Advérbio depois do objeto.",
+   "skill": "order",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-2-010",
+   "topic": "t07",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I don't like it too.",
+   "options": [
+    "I don't like it either.",
+    "I don't like it also.",
+    "I don't too like it."
+   ],
+   "answer": "I don't like it either.",
+   "explain": "Na negativa: EITHER.",
+   "skill": "neg",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-2-011",
+   "topic": "t07",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I don't have no time.",
+   "options": [
+    "I don't have any time.",
+    "I haven't no time.",
+    "I don't have none time."
+   ],
+   "answer": "I don't have any time.",
+   "explain": "Dupla negação não existe no inglês padrão.",
+   "skill": "neg",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-2-012",
+   "topic": "t07",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Do you know what time the bank ___ (open)?",
+   "answer": [
+    "opens"
+   ],
+   "explain": "Pergunta indireta: verbo como na afirmativa.",
+   "skill": "indirect",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-2-013",
+   "topic": "t07",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (A maioria dos) employees work from home on Fridays.",
+   "answer": [
+    "Most",
+    "Most of the"
+   ],
+   "explain": "MOST (geral) ou MOST OF THE (grupo específico).",
+   "skill": "most",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-2-014",
+   "topic": "t07",
+   "level": 2,
+   "type": "gap",
+   "prompt": "She described the problem ___ (preposição) the team.",
+   "answer": [
+    "to"
+   ],
+   "explain": "DESCRIBE + coisa + TO + pessoa.",
+   "skill": "explain",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-2-015",
+   "topic": "t07",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (sujeito + be) a long way to the airport.",
+   "answer": [
+    "It's",
+    "It is"
+   ],
+   "explain": "Distância: IT.",
+   "skill": "subj",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-2-016",
+   "topic": "t07",
+   "level": 2,
+   "type": "gap",
+   "prompt": "These are very ___ (important) decisions.",
+   "answer": [
+    "important"
+   ],
+   "explain": "Adjetivo nunca vai para o plural.",
+   "skill": "adj",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-2-017",
+   "topic": "t07",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I didn't see anything, and she didn't ___ (também).",
+   "answer": [
+    "either"
+   ],
+   "explain": "Também, na negativa: EITHER.",
+   "skill": "neg",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-2-018",
+   "topic": "t07",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The police ___ (be) investigating the case.",
+   "answer": [
+    "are"
+   ],
+   "explain": "POLICE é plural.",
+   "skill": "people",
+   "cefr": "B1"
+  },
+  {
+   "id": "t07-3-001",
+   "topic": "t07",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Could you tell me how much ___ (it / cost)?",
+   "answer": [
+    "it costs"
+   ],
+   "explain": "Pergunta indireta: ordem afirmativa.",
+   "skill": "indirect",
+   "cefr": "B2"
+  },
+  {
+   "id": "t07-3-002",
+   "topic": "t07",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I wonder why ___ (he / be) so late.",
+   "answer": [
+    "he is",
+    "he's"
+   ],
+   "explain": "Pergunta indireta: sujeito antes do verbo.",
+   "skill": "indirect",
+   "cefr": "B2"
+  },
+  {
+   "id": "t07-3-003",
+   "topic": "t07",
+   "level": 3,
+   "type": "gap",
+   "prompt": "___ (sujeito + be) worth checking the clause again.",
+   "answer": [
+    "It's",
+    "It is"
+   ],
+   "explain": "IT'S WORTH: sujeito IT.",
+   "skill": "subj",
+   "cefr": "B2"
+  },
+  {
+   "id": "t07-3-004",
+   "topic": "t07",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Please suggest a solution ___ (preposição) the client.",
+   "answer": [
+    "to"
+   ],
+   "explain": "SUGGEST + coisa + TO + pessoa.",
+   "skill": "explain",
+   "cefr": "B2"
+  },
+  {
+   "id": "t07-3-005",
+   "topic": "t07",
+   "level": 3,
+   "type": "gap",
+   "prompt": "___ (A maioria dos) contracts we signed last year were renewed.",
+   "answer": [
+    "Most of the"
+   ],
+   "explain": "Grupo específico: MOST OF THE.",
+   "skill": "most",
+   "cefr": "B2"
+  },
+  {
+   "id": "t07-3-006",
+   "topic": "t07",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Do you know where the station is?",
+   "explain": "Pergunta indireta: ordem afirmativa.",
+   "skill": "indirect",
+   "cefr": "B2"
+  },
+  {
+   "id": "t07-3-007",
+   "topic": "t07",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "It's important to check the numbers.",
+   "explain": "Sujeito IT obrigatório.",
+   "skill": "subj",
+   "cefr": "B2"
+  },
+  {
+   "id": "t07-3-008",
+   "topic": "t07",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "She speaks English very well.",
+   "explain": "Advérbio depois do objeto.",
+   "skill": "order",
+   "cefr": "B2"
+  },
+  {
+   "id": "t07-3-009",
+   "topic": "t07",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Could you explain the process to me?",
+   "explain": "EXPLAIN + coisa + TO + pessoa.",
+   "skill": "explain",
+   "cefr": "B2"
+  },
+  {
+   "id": "t07-3-010",
+   "topic": "t07",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Most of the suppliers are already registered.",
+   "explain": "MOST OF THE + grupo.",
+   "skill": "most",
+   "cefr": "B2"
+  },
+  {
+   "id": "t07-3-011",
+   "topic": "t07",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I don't have any questions.",
+   "explain": "DON'T + ANY.",
+   "skill": "neg",
+   "cefr": "B2"
+  },
+  {
+   "id": "t07-3-012",
+   "topic": "t07",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Can you tell me where the meeting room is?",
+    "Can you tell me where is the meeting room?",
+    "Can you tell me where the meeting room it is?"
+   ],
+   "answer": "Can you tell me where the meeting room is?",
+   "explain": "Pergunta indireta: ordem afirmativa.",
+   "skill": "indirect",
+   "cefr": "B2"
+  },
+  {
+   "id": "t07-3-013",
+   "topic": "t07",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "We have three big new offices.",
+    "We have three new big offices.",
+    "We have three offices big new."
+   ],
+   "answer": "We have three big new offices.",
+   "explain": "Ordem dos adjetivos: tamanho antes de idade.",
+   "skill": "adj",
+   "cefr": "B2"
+  },
+  {
+   "id": "t07-3-014",
+   "topic": "t07",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Nobody knows the answer.",
+    "Nobody know the answer.",
+    "Nobody don't know the answer."
+   ],
+   "answer": "Nobody knows the answer.",
+   "explain": "NOBODY é singular e já é negativo.",
+   "skill": "neg",
+   "cefr": "B2"
+  },
+  {
+   "id": "t07-3-015",
+   "topic": "t07",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I sent her the report this morning.",
+    "I sent the report her this morning.",
+    "I sent this morning her the report."
+   ],
+   "answer": "I sent her the report this morning.",
+   "explain": "SEND + pessoa + coisa (ou the report TO her).",
+   "skill": "order",
+   "cefr": "B2"
+  },
+  {
+   "id": "t07-3-016",
+   "topic": "t07",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Everyone has their own login.",
+    "Everyone have their own login.",
+    "Everyone are having their own login."
+   ],
+   "answer": "Everyone has their own login.",
+   "explain": "EVERYONE é singular: HAS.",
+   "skill": "people",
+   "cefr": "B2"
+  },
+  {
+   "id": "t07-3-017",
+   "topic": "t07",
+   "level": 3,
+   "type": "fix",
+   "prompt": "I don't know where is she.",
+   "options": [
+    "I don't know where she is.",
+    "I don't know where does she is.",
+    "I don't know she where is."
+   ],
+   "answer": "I don't know where she is.",
+   "explain": "Pergunta indireta: ordem afirmativa.",
+   "skill": "indirect",
+   "cefr": "B2"
+  },
+  {
+   "id": "t07-3-018",
+   "topic": "t07",
+   "level": 3,
+   "type": "fix",
+   "prompt": "Is important that everyone attends.",
+   "options": [
+    "It's important that everyone attends.",
+    "Important is that everyone attends it.",
+    "It important that everyone attends."
+   ],
+   "answer": "It's important that everyone attends.",
+   "explain": "Sujeito IT obrigatório.",
+   "skill": "subj",
+   "cefr": "B2"
+  }
+ ]
+}

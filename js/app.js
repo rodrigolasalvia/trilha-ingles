@@ -1,19 +1,15 @@
 import * as C from './core.js';
 import { loadState, saveState, clearState, requestPersistence } from './storage.js';
 
-const LEVEL_NAMES = { 1: 'Fácil', 2: 'Médio', 3: 'Difícil' };
-const LEVEL_DESC = {
-  1: 'Escolha entre opções. Reconhecer o padrão certo.',
-  2: 'Complete e corrija frases. Produzir a forma certa.',
-  3: 'Estruturas mais traiçoeiras e ordenação de frases.',
-};
 const TYPE_LABEL = { mcq: 'Escolha a opção', fix: 'Escolha a versão correta', gap: 'Complete a lacuna', order: 'Ordene a frase' };
+const STATUS_LABEL = { consolidado: 'Consolidado', em_progresso: 'Em progresso', poucos_dados: 'Poucos dados', sem_conteudo: 'Conteúdo em breve' };
 const SESSION_SIZE = 10;
+const MIN_FOR_REINFORCE = 20;
 
 const app = {
   state: C.emptyState(),
-  topics: [],      // [{group, ...topic}]
   groups: [],
+  topics: [],      // [{group, groupTitle, color, ...topic}]
   items: [],
   byId: new Map(),
   session: null,   // sessão em andamento (somente memória)
@@ -23,6 +19,12 @@ const $main = () => document.getElementById('main');
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const pct = v => (v == null ? '—' : `${Math.round(v * 100)}%`);
 const topicById = id => app.topics.find(t => t.id === id);
+const skillMeta = (topic, skill) => {
+  const t = topicById(topic);
+  const s = t && t.skills.find(x => x.id === skill);
+  return { topicTitle: t ? t.title : topic, skillTitle: s ? s.title : skill, tip: s ? s.tip : '', ex: s ? s.ex : '', color: t ? t.color : null };
+};
+const cefrRange = t => { const u = [...new Set(t.cefr)]; return u.length === 1 ? u[0] : `${u[0]}–${u[u.length - 1]}`; };
 
 /* ---------- Inicialização ---------- */
 
@@ -31,7 +33,7 @@ async function init() {
   try {
     const topicsData = await fetchJSON('data/topics.json');
     app.groups = topicsData.groups;
-    app.topics = topicsData.groups.flatMap(g => g.topics.map(t => ({ ...t, group: g.id })));
+    app.topics = topicsData.groups.flatMap(g => g.topics.map(t => ({ ...t, group: g.id, groupTitle: g.title, color: g.color })));
     const banks = await Promise.all(app.topics.map(t => fetchJSON(`data/${t.id}.json`).catch(() => ({ items: [] }))));
     for (const b of banks) {
       for (const it of b.items || []) {
@@ -73,6 +75,7 @@ function route() {
   window.scrollTo(0, 0);
   if (page === 'topic' && topicById(arg)) return renderTopic(arg);
   if (page === 'session' && app.session) return renderQuestion();
+  if (page === 'reinforce') return renderReinforce();
   if (page === 'history') return renderHistory();
   if (page === 'settings') return renderSettings();
   if (page && page !== 'home') { location.hash = '#/'; return; }
@@ -94,18 +97,24 @@ function renderHome() {
   const week = C.periodAccuracy(st, 7, now);
   const today = C.dailySeries(st, 1, now)[0];
   const strk = C.streak(st, now);
+  const lvl = C.levelEstimate(app.items, st);
 
-  const groups = app.groups.map(g => `
-    <section class="group">
-      <div class="group-head"><h2>${esc(g.title)}</h2><span class="pill">${esc(g.level)}</span></div>
-      <div class="topic-list">
-        ${g.topics.map(t => topicCard(t)).join('')}
-      </div>
-    </section>`).join('');
+  const groups = app.groups.map(g => {
+    if (!g.topics.length) {
+      return `<section class="group group-soon" style="--g:${esc(g.color)}">
+        <div class="group-head"><h2><span class="gdot" aria-hidden="true"></span>${esc(g.title)}</h2><span class="pill">${esc(g.level)}</span></div>
+        <div class="soon"><span class="soon-tag">Em breve</span><span>${esc((g.soon || []).join(' · '))}</span></div>
+      </section>`;
+    }
+    return `<section class="group" style="--g:${esc(g.color)}">
+      <div class="group-head"><h2><span class="gdot" aria-hidden="true"></span>${esc(g.title)}</h2><span class="pill">${esc(g.level)}</span></div>
+      <div class="topic-list">${g.topics.map(t => topicCard(t.id)).join('')}</div>
+    </section>`;
+  }).join('');
 
   $main().innerHTML = `
     <header class="page-head">
-      <p class="eyebrow">Trilha de Inglês</p>
+      <p class="eyebrow">Trilha de Inglês · ${lvl.estimate ? `nível estimado ${lvl.estimate}` : 'nível em avaliação'}</p>
       <h1>${greeting()}</h1>
     </header>
     <div class="stats">
@@ -118,22 +127,23 @@ function renderHome() {
       <span class="review-n" aria-hidden="true">${due ? '→' : '✓'}</span>
     </button>
     ${groups}
-    <p class="foot-note">${app.items.length} exercícios disponíveis · os próximos lotes entram em novas versões</p>`;
+    <p class="foot-note">${app.items.length} exercícios · ${app.topics.length} temas · os próximos lotes entram em novas versões</p>`;
 
   const rb = document.getElementById('review-btn');
-  if (due) rb.addEventListener('click', () => startSession({ mode: 'review' }));
+  if (due) rb.addEventListener('click', () => startSession({ mode: 'review', label: 'Revisão do dia' }));
 }
 
-function topicCard(t) {
-  const levels = C.LEVELS.map(lv => {
-    const s = C.topicLevelStats(app.state, t.id, lv);
-    const cls = s.acc == null ? '' : s.acc >= 0.8 ? 'good' : s.acc >= 0.6 ? 'mid' : 'low';
-    return `<span class="lv ${cls}" >${LEVEL_NAMES[lv]} ${pct(s.acc)}</span>`;
-  }).join('');
+function topicCard(id) {
+  const t = topicById(id);
+  const s = C.topicLevelStats(app.state, id, null, 30);
+  const cov = C.coverage(app.items, app.state, id);
+  const pc = cov.total ? Math.round((cov.seen / cov.total) * 100) : 0;
+  const cls = s.acc == null ? '' : s.acc >= 0.8 ? 'good' : s.acc >= 0.6 ? 'mid' : 'low';
   return `<a class="topic" href="#/topic/${t.id}">
-      <span class="topic-title">${esc(t.title)}</span>
+      <span class="topic-top"><span class="topic-title">${esc(t.title)}</span><span class="cefr">${cefrRange(t)}</span></span>
       <span class="topic-short">${esc(t.short)}</span>
-      <span class="lvs">${levels}</span>
+      <span class="topic-meta"><span class="acc ${cls}">Acerto ${pct(s.acc)}</span><span>${cov.seen}/${cov.total} vistos</span></span>
+      <span class="meter" aria-hidden="true"><span class="gfill" style="width:${pc}%"></span></span>
     </a>`;
 }
 
@@ -146,42 +156,56 @@ function greeting() {
 
 function renderTopic(id) {
   const t = topicById(id);
-  const sug = C.suggestedLevel(app.state, id);
-  const levels = C.LEVELS.map(lv => {
-    const s = C.topicLevelStats(app.state, id, lv);
-    const cov = C.coverage(app.items, app.state, id, lv);
-    return `<button class="level-btn ${lv === sug ? 'is-suggested' : ''}" data-level="${lv}">
-        <span class="level-top"><strong>${LEVEL_NAMES[lv]}</strong>${lv === sug ? '<span class="pill pill-accent">sugerido</span>' : ''}</span>
-        <span class="level-desc">${LEVEL_DESC[lv]}</span>
-        <span class="level-meta">Acerto recente: <b>${pct(s.acc)}</b> · Vistos: ${cov.seen}/${cov.total}</span>
-      </button>`;
+  const s = C.topicLevelStats(app.state, id, null, 30);
+  const cov = C.coverage(app.items, app.state, id);
+  const sk = new Map(C.skillStats(app.items, app.state).filter(x => x.topic === id).map(x => [x.skill, x]));
+
+  const skills = t.skills.map(k => {
+    const st = sk.get(k.id);
+    const n = app.items.filter(i => i.topic === id && i.skill === k.id).length;
+    const cls = !st || st.acc == null ? '' : st.acc >= 0.8 ? 'good' : st.acc >= 0.6 ? 'mid' : 'low';
+    return `<details class="skill">
+        <summary><span>${esc(k.title)}</span>${st ? `<span class="acc ${cls}">${pct(st.acc)}</span>` : ''}</summary>
+        <p class="skill-tip">${esc(k.tip)}</p>
+        <p class="skill-ex">${esc(k.ex)}</p>
+        ${n >= 2 ? `<button class="btn btn-ghost btn-small" data-skill="${esc(k.id)}">Treinar só este ponto · ${Math.min(n, SESSION_SIZE)}</button>` : ''}
+      </details>`;
   }).join('');
 
   $main().innerHTML = `
     <a class="back" href="#/">← Início</a>
-    <header class="page-head"><h1>${esc(t.title)}</h1><p class="lead">${esc(t.short)}</p></header>
-    <details class="card rules" open>
-      <summary>Regras-chave</summary>
-      <ul>${t.rules.map(r => `<li>${esc(r)}</li>`).join('')}</ul>
-    </details>
-    <h2 class="section-title">Escolha o nível</h2>
-    <div class="levels">${levels}</div>
-    <button class="btn btn-ghost wide" id="mixed">Sessão mista (todos os níveis)</button>`;
+    <header class="page-head" style="--g:${esc(t.color)}">
+      <p class="eyebrow"><span class="gdot" aria-hidden="true"></span>${esc(t.groupTitle)} · ${cefrRange(t)}</p>
+      <h1>${esc(t.title)}</h1>
+      <p class="lead">${esc(t.intro)}</p>
+    </header>
+    <div class="stats">
+      <div class="stat"><span class="stat-n">${pct(s.acc)}</span><span class="stat-l">acerto recente</span></div>
+      <div class="stat"><span class="stat-n">${cov.seen}<small>/${cov.total}</small></span><span class="stat-l">exercícios vistos</span></div>
+      <div class="stat"><span class="stat-n">${s.total}</span><span class="stat-l">respostas</span></div>
+    </div>
+    <button class="btn wide btn-big" id="practice">Praticar · ${SESSION_SIZE} exercícios mistos</button>
+    <p class="hint center">Fácil, médio e difícil misturados, com prioridade para o que você errou.</p>
+    <h2 class="section-title">O que este tema cobre</h2>
+    <div class="skills">${skills}</div>`;
 
-  $main().querySelectorAll('.level-btn').forEach(b =>
-    b.addEventListener('click', () => startSession({ topic: id, level: Number(b.dataset.level) })));
-  document.getElementById('mixed').addEventListener('click', () => startSession({ topic: id, level: null }));
+  document.getElementById('practice').addEventListener('click', () => startSession({ topic: id, label: t.title }));
+  $main().querySelectorAll('[data-skill]').forEach(b => b.addEventListener('click', () => {
+    const m = skillMeta(id, b.dataset.skill);
+    startSession({ mode: 'skill', topic: id, skills: [`${id}:${b.dataset.skill}`], label: `Treino: ${m.skillTitle}`, backHash: `#/topic/${id}` });
+  }));
 }
 
 /* ---------- Sessão ---------- */
 
-function startSession({ topic = null, level = null, mode = 'topic', ids = null }) {
-  const queue = C.buildSession(app.items, app.state, { topic, level, mode, ids, size: SESSION_SIZE });
-  if (!queue.length) { toast('Não há exercícios para esta seleção.'); return; }
+function startSession({ topic = null, mode = 'topic', ids = null, skills = null, queue = null, label = '', backHash = null }) {
+  const q = queue || C.buildSession(app.items, app.state, { topic, mode, ids, skills, size: SESSION_SIZE });
+  if (!q.length) { toast('Não há exercícios para esta seleção.'); return; }
   app.session = {
-    record: { id: `s${Date.now()}`, ts: Date.now(), mode, topic, level, answers: [] },
-    queue, index: 0, answered: false, response: null, results: [],
-    backHash: topic ? `#/topic/${topic}` : '#/',
+    record: { id: `s${Date.now()}`, ts: Date.now(), mode, topic, level: null, label, answers: [] },
+    params: { topic, mode, skills, label, backHash },
+    queue: q, index: 0, answered: false, response: null, results: [],
+    backHash: backHash || (topic ? `#/topic/${topic}` : mode === 'reinforce' || mode === 'general' ? '#/reinforce' : '#/'),
   };
   if (location.hash === '#/session') renderQuestion(); else location.hash = '#/session';
 }
@@ -194,6 +218,7 @@ function renderQuestion() {
   s.answered = false;
   s.response = it.type === 'order' ? [] : null;
   const t = topicById(it.topic);
+  const m = skillMeta(it.topic, it.skill);
   const progress = Math.round((s.index / s.queue.length) * 100);
 
   $main().innerHTML = `
@@ -202,7 +227,8 @@ function renderQuestion() {
       <div class="bar" role="progressbar" aria-valuenow="${s.index}" aria-valuemax="${s.queue.length}"><span style="width:${progress}%"></span></div>
       <span class="count">${s.index + 1}/${s.queue.length}</span>
     </div>
-    <p class="q-meta">${esc(t ? t.title : '')} · ${LEVEL_NAMES[it.level]}</p>
+    <div class="q-meta"><span>${esc(t ? t.title : '')} · ${esc(it.cefr)}</span><button class="link-btn" id="hint-btn" aria-expanded="false">Dica da regra</button></div>
+    <div class="hint-box" id="hint-box" hidden><b>${esc(m.skillTitle)}</b><br>${esc(m.tip)}</div>
     <section class="q card">
       <p class="q-type">${TYPE_LABEL[it.type]}</p>
       <div id="q-body">${questionBody(it)}</div>
@@ -211,6 +237,11 @@ function renderQuestion() {
     <div class="actions"><button class="btn wide" id="check" disabled>Verificar</button></div>`;
 
   document.getElementById('quit').addEventListener('click', quitSession);
+  document.getElementById('hint-btn').addEventListener('click', e => {
+    const box = document.getElementById('hint-box');
+    box.hidden = !box.hidden;
+    e.currentTarget.setAttribute('aria-expanded', String(!box.hidden));
+  });
   bindQuestion(it);
   const input = document.getElementById('gap-input');
   if (input) input.focus();
@@ -299,7 +330,6 @@ function submitAnswer() {
   C.recordAnswer(app.state, s.record, it, ok);
   persist();
 
-  // Marcações visuais
   if (it.type === 'mcq' || it.type === 'fix') {
     $main().querySelectorAll('.option').forEach(b => {
       b.disabled = true;
@@ -316,14 +346,17 @@ function submitAnswer() {
     document.getElementById('order-line').classList.add(ok ? 'is-correct' : 'is-wrong');
     $main().querySelectorAll('.chip').forEach(c => { c.disabled = true; });
   }
+  document.getElementById('hint-box').hidden = true;
 
+  const m = skillMeta(it.topic, it.skill);
   const last = s.index === s.queue.length - 1;
   document.getElementById('feedback').innerHTML = `
     <div class="fb ${ok ? 'fb-ok' : 'fb-bad'}">
       <p class="fb-title">${ok ? 'Correto!' : 'Não foi dessa vez.'}</p>
       ${ok ? '' : `<p class="fb-answer">Resposta: <b>${esc(C.correctAnswerText(it))}</b></p>`}
       <p class="fb-explain">${esc(it.explain)}</p>
-    </div>`;
+    </div>
+    ${ok ? '' : `<div class="reforco"><p class="reforco-title">Reforço · ${esc(m.skillTitle)}</p><p>${esc(m.tip)}</p><p class="skill-ex">${esc(m.ex)}</p></div>`}`;
   const btn = document.getElementById('check');
   btn.textContent = last ? 'Ver resultado' : 'Continuar';
   btn.disabled = false;
@@ -344,9 +377,30 @@ function renderSummary() {
   const correct = s.results.filter(r => r.ok).length;
   const wrong = s.results.filter(r => !r.ok).map(r => app.byId.get(r.id));
   const ratio = correct / s.results.length;
-  const msg = ratio === 1 ? 'Perfeito!' : ratio >= 0.8 ? 'Muito bom.' : ratio >= 0.6 ? 'Bom caminho.' : 'Vale revisar as regras e tentar de novo.';
-  const back = s.backHash;
+  const msg = ratio === 1 ? 'Perfeito!' : ratio >= 0.8 ? 'Muito bom.' : ratio >= 0.6 ? 'Bom caminho.' : 'Vale rever os pontos abaixo e treinar de novo.';
+
+  // Agrupa os erros por padrão, com o reforço da regra uma única vez.
+  const groups = new Map();
+  for (const w of wrong) {
+    const k = `${w.topic}:${w.skill}`;
+    if (!groups.has(k)) groups.set(k, []);
+    groups.get(k).push(w);
+  }
+  const review = [...groups.entries()].map(([k, list]) => {
+    const [topic, skill] = k.split(':');
+    const m = skillMeta(topic, skill);
+    return `<section class="card review-group">
+        <p class="eyebrow">${esc(m.topicTitle)}</p>
+        <h3>${esc(m.skillTitle)}</h3>
+        <div class="reforco"><p>${esc(m.tip)}</p><p class="skill-ex">${esc(m.ex)}</p></div>
+        ${list.map(w => `<div class="wrong-item">
+          <p class="wi-q">${w.type === 'order' ? 'Ordenação' : esc(w.prompt)}</p>
+          <p class="wi-a">${esc(C.correctAnswerText(w))}</p>
+        </div>`).join('')}
+      </section>`;
+  }).join('');
   const wrongIds = wrong.map(w => w.id);
+  const skillKeys = [...groups.keys()];
 
   $main().innerHTML = `
     <section class="summary card">
@@ -354,23 +408,23 @@ function renderSummary() {
       <p class="score">${correct}<span>/${s.results.length}</span></p>
       <p class="lead">${msg}</p>
     </section>
-    ${wrong.length ? `<h2 class="section-title">Para rever</h2>
-    <div class="wrong-list">${wrong.map(w => `
-      <div class="card wrong-item">
-        <p class="wi-q">${w.type === 'order' ? 'Ordenação' : esc(w.prompt)}</p>
-        <p class="wi-a">${esc(C.correctAnswerText(w))}</p>
-        <p class="wi-e">${esc(w.explain)}</p>
-      </div>`).join('')}</div>` : ''}
+    ${wrong.length ? `<h2 class="section-title">Reforço dos pontos que você errou</h2>${review}` : ''}
     <div class="actions stack">
-      ${wrong.length ? '<button class="btn wide" id="retry">Refazer os que errei</button>' : ''}
+      ${wrong.length ? '<button class="btn wide" id="drill">Treinar estes pontos</button>' : ''}
+      ${wrong.length ? '<button class="btn btn-ghost wide" id="retry">Refazer só os que errei</button>' : ''}
       <button class="btn ${wrong.length ? 'btn-ghost' : ''} wide" id="again">Nova sessão</button>
-      <a class="btn btn-ghost wide" href="${back}">Voltar</a>
+      <a class="btn btn-ghost wide" href="${s.backHash}">Voltar</a>
     </div>`;
 
-  const rec = s.record;
-  document.getElementById('again').addEventListener('click', () => startSession({ topic: rec.topic, level: rec.level, mode: rec.mode }));
+  const p = s.params;
+  document.getElementById('again').addEventListener('click', () => {
+    if (p.mode === 'reinforce') return startReinforce();
+    startSession({ ...p });
+  });
   const retry = document.getElementById('retry');
-  if (retry) retry.addEventListener('click', () => startSession({ topic: rec.topic, level: rec.level, mode: 'retry', ids: wrongIds }));
+  if (retry) retry.addEventListener('click', () => startSession({ mode: 'retry', ids: wrongIds, label: 'Refazer erros', backHash: s.backHash }));
+  const drill = document.getElementById('drill');
+  if (drill) drill.addEventListener('click', () => startSession({ mode: 'skill', skills: skillKeys, label: 'Treino dos erros', backHash: s.backHash }));
   document.querySelector('.tabbar').hidden = false;
 }
 
@@ -390,11 +444,109 @@ function onKey(e) {
   }
 }
 
-/* ---------- Histórico ---------- */
+/* ---------- Reforçar ---------- */
+
+function startReinforce() {
+  const { queue, focus } = C.buildReinforce(app.items, app.state, { size: SESSION_SIZE });
+  startSession({ mode: focus.length ? 'reinforce' : 'general', queue, label: focus.length ? 'Reforço' : 'Treino geral', backHash: '#/reinforce' });
+}
+
+function renderReinforce() {
+  const st = app.state;
+  const total = C.allAnswers(st).length;
+
+  if (total < MIN_FOR_REINFORCE) {
+    $main().innerHTML = `
+      <header class="page-head"><h1>Reforçar</h1><p class="lead">Aqui o app analisa seus erros e monta treinos focados nos seus pontos fracos.</p></header>
+      <section class="card">
+        <h2 class="card-title">Ainda estou conhecendo você</h2>
+        <p class="hint">Responda pelo menos ${MIN_FOR_REINFORCE} exercícios para eu identificar seus padrões de erro.</p>
+        <div class="meter big" aria-hidden="true"><span class="fill" style="width:${Math.round((total / MIN_FOR_REINFORCE) * 100)}%"></span></div>
+        <p class="hint">${total} de ${MIN_FOR_REINFORCE}</p>
+        <button class="btn wide" id="general">Treino geral · ${SESSION_SIZE} exercícios</button>
+      </section>`;
+    document.getElementById('general').addEventListener('click', () => startSession({ mode: 'general', label: 'Treino geral', backHash: '#/reinforce' }));
+    return;
+  }
+
+  const weak = C.weakSkills(app.items, st, { min: 3, limit: 6 });
+  const focus = weak.filter(w => w.score > 0.25).slice(0, 3);
+  const topics = C.topicRanking(app.items, st, app.topics.map(t => t.id));
+
+  const weakRows = weak.map(w => {
+    const m = skillMeta(w.topic, w.skill);
+    const cls = w.acc >= 0.8 ? 'good' : w.acc >= 0.6 ? 'mid' : 'low';
+    return `<details class="skill weak">
+        <summary>
+          <span class="weak-main"><span class="weak-title">${esc(m.skillTitle)}</span><span class="weak-topic">${esc(m.topicTitle)}</span></span>
+          <span class="acc ${cls}">${pct(w.acc)}<small> ${w.correct}/${w.n}</small></span>
+        </summary>
+        <p class="skill-tip">${esc(m.tip)}</p>
+        <p class="skill-ex">${esc(m.ex)}</p>
+        <button class="btn btn-ghost btn-small" data-key="${esc(w.key)}">Treinar este ponto</button>
+      </details>`;
+  }).join('');
+
+  const topicRows = topics.map(t => {
+    const meta = topicById(t.topic);
+    const cls = t.acc >= 0.8 ? 'good' : t.acc >= 0.6 ? 'mid' : 'low';
+    return `<a class="rank-row" href="#/topic/${t.topic}" style="--g:${esc(meta.color)}">
+        <span class="rank-title">${esc(meta.title)}</span>
+        <span class="meter" aria-hidden="true"><span class="gfill" style="width:${Math.round(t.acc * 100)}%"></span></span>
+        <span class="acc ${cls}">${pct(t.acc)}</span>
+      </a>`;
+  }).join('');
+
+  $main().innerHTML = `
+    <header class="page-head"><h1>Reforçar</h1><p class="lead">Com base nas suas últimas respostas em cada padrão gramatical.</p></header>
+    ${focus.length ? `
+    <section class="focus-card">
+      <p class="eyebrow">Sessão de reforço</p>
+      <p class="focus-title">${SESSION_SIZE} exercícios nos seus ${focus.length === 1 ? 'ponto mais fraco' : `${focus.length} pontos mais fracos`}</p>
+      <ul>${focus.map(f => `<li>${esc(skillMeta(f.topic, f.skill).skillTitle)} <small>${pct(f.acc)}</small></li>`).join('')}</ul>
+      <button class="btn wide btn-invert" id="reinforce">Começar reforço</button>
+    </section>` : `
+    <section class="card">
+      <h2 class="card-title">Nenhum ponto fraco claro agora</h2>
+      <p class="hint">Todos os padrões que você praticou estão com bom acerto. Siga para temas novos ou faça um treino geral.</p>
+      <button class="btn wide" id="reinforce">Treino geral · ${SESSION_SIZE} exercícios</button>
+    </section>`}
+    ${weak.length ? `<h2 class="section-title">Seus padrões de erro</h2><p class="hint">Toque para ver a regra e treinar só aquele ponto.</p><div class="skills">${weakRows}</div>` : ''}
+    ${topics.length ? `<h2 class="section-title">Temas do pior para o melhor</h2><section class="card rank">${topicRows}</section>` : ''}
+    <section class="card">
+      <h2 class="card-title">Exercícios novos sob medida</h2>
+      <p class="hint">Copie o relatório dos seus erros e cole numa conversa com o Claude. Ele cria um lote novo de exercícios focado nesses padrões, revisado e testado, que entra numa próxima versão do app.</p>
+      <button class="btn btn-ghost wide" id="report">Copiar relatório de erros</button>
+      <textarea id="report-text" class="report" readonly hidden aria-label="Relatório de erros"></textarea>
+    </section>`;
+
+  document.getElementById('reinforce').addEventListener('click', startReinforce);
+  $main().querySelectorAll('[data-key]').forEach(b => b.addEventListener('click', () => {
+    const [topic, skill] = b.dataset.key.split(':');
+    startSession({ mode: 'skill', topic, skills: [b.dataset.key], label: `Treino: ${skillMeta(topic, skill).skillTitle}`, backHash: '#/reinforce' });
+  }));
+  document.getElementById('report').addEventListener('click', copyReport);
+}
+
+async function copyReport() {
+  const text = C.errorReport(app.items, app.state, skillMeta);
+  const ta = document.getElementById('report-text');
+  ta.value = text;
+  try {
+    await navigator.clipboard.writeText(text);
+    toast('Relatório copiado. Cole numa conversa com o Claude.');
+  } catch {
+    ta.hidden = false; ta.focus(); ta.select();
+    toast('Não consegui copiar sozinho: selecione o texto abaixo e copie.');
+  }
+}
+
+/* ---------- Evolução ---------- */
 
 function renderHistory() {
   const now = Date.now();
   const st = app.state;
+  const lvl = C.levelEstimate(app.items, st);
   const series = C.dailySeries(st, 30, now);
   const max = Math.max(5, ...series.map(d => d.total));
   const W = 300, H = 120, bw = W / series.length;
@@ -408,20 +560,51 @@ function renderHistory() {
   const m30 = C.periodAccuracy(st, 30, now);
   const all = C.allAnswers(st);
 
-  const table = app.topics.map(t => `
-    <tr><th scope="row">${esc(t.title)}</th>
-      ${C.LEVELS.map(lv => { const s = C.topicLevelStats(st, t.id, lv); return `<td>${pct(s.acc)}${s.total ? `<small>${s.total} resp.</small>` : ''}</td>`; }).join('')}
-    </tr>`).join('');
+  const ladder = lvl.bands.slice().reverse().map(b => {
+    const isMe = b.band === lvl.estimate;
+    const width = b.acc == null ? 0 : Math.round(b.acc * 100);
+    const detail = b.status === 'sem_conteudo' ? 'chega nas próximas versões'
+      : b.status === 'poucos_dados' ? `${b.n} de ${C.LEVEL_RULES.minData} respostas mínimas`
+      : `${pct(b.acc)} nas últimas ${b.n}`;
+    return `<li class="rung st-${b.status} ${isMe ? 'is-me' : ''}">
+        <span class="rung-band">${b.band}</span>
+        <span class="rung-body">
+          <span class="rung-top"><b>${STATUS_LABEL[b.status]}</b>${isMe ? '<span class="pill pill-accent">você está aqui</span>' : ''}</span>
+          <span class="meter" aria-hidden="true"><span class="fill" style="width:${width}%"></span><span class="target"></span></span>
+          <span class="rung-detail">${detail}</span>
+        </span>
+      </li>`;
+  }).join('');
+
+  let nextTxt = '';
+  if (lvl.next && lvl.next.status !== 'sem_conteudo') {
+    const need = Math.max(0, C.LEVEL_RULES.minSolid - lvl.next.n);
+    nextTxt = `Para consolidar <b>${lvl.next.band}</b>: ${C.LEVEL_RULES.solidAcc * 100}% de acerto em pelo menos ${C.LEVEL_RULES.minSolid} respostas dessa faixa${lvl.next.n ? ` (hoje: ${pct(lvl.next.acc)} em ${lvl.next.n}${need ? `, faltam ${need} respostas` : ''})` : ''}.`;
+  } else if (lvl.next && lvl.next.status === 'sem_conteudo') {
+    nextTxt = `Próxima faixa: <b>${lvl.next.band}</b>, cujo conteúdo entra nas próximas versões.`;
+  }
+
+  const table = app.topics.map(t => {
+    const s = C.topicLevelStats(st, t.id, null, 30);
+    const cov = C.coverage(app.items, st, t.id);
+    return `<tr><th scope="row">${esc(t.title)}</th><td>${pct(s.acc)}</td><td>${cov.seen}/${cov.total}</td></tr>`;
+  }).join('');
 
   const sessions = st.sessions.filter(s => s.answers.length).slice(-40).reverse().map(s => {
     const c = s.answers.filter(a => a.ok).length;
-    const label = s.mode === 'review' ? 'Revisão do dia' : s.mode === 'retry' ? `Refazer erros · ${esc(topicById(s.topic)?.title || 'Vários')}` : esc(topicById(s.topic)?.title || '');
-    const lv = s.level ? ` · ${LEVEL_NAMES[s.level]}` : s.mode === 'topic' ? ' · Misto' : '';
-    return `<li><span><b>${label}</b>${lv}<br><small>${new Date(s.ts).toLocaleString('pt-BR', { dateStyle: 'short', timeStyle: 'short' })}</small></span><span class="sess-score">${c}/${s.answers.length}</span></li>`;
+    return `<li><span><b>${esc(sessionLabel(s))}</b><br><small>${new Date(s.ts).toLocaleString('pt-BR', { dateStyle: 'short', timeStyle: 'short' })}</small></span><span class="sess-score">${c}/${s.answers.length}</span></li>`;
   }).join('');
 
   $main().innerHTML = `
     <header class="page-head"><h1>Sua evolução</h1></header>
+    <section class="card level-card">
+      <p class="eyebrow">Nível estimado</p>
+      <p class="level-big ${lvl.estimate ? '' : 'is-pending'}">${lvl.estimate || 'Em avaliação'}</p>
+      <p class="hint">${lvl.estimate ? 'Faixa mais alta consolidada, sem pontos fracos graves abaixo dela.' : 'Pratique os temas, incluindo a Revisão de base, para o app conseguir estimar seu nível.'}</p>
+      <ol class="ladder">${ladder}</ol>
+      ${nextTxt ? `<p class="next-goal">${nextTxt}</p>` : ''}
+      <p class="caveat">Estimativa com base nos exercícios do app: mede gramática e vocabulário, não fala nem compreensão auditiva, e não substitui um teste oficial.</p>
+    </section>
     <div class="stats">
       <div class="stat"><span class="stat-n">${all.length}</span><span class="stat-l">respostas no total</span></div>
       <div class="stat"><span class="stat-n">${pct(m30.acc)}</span><span class="stat-l">acerto em 30 dias</span></div>
@@ -433,10 +616,10 @@ function renderHistory() {
       <p class="legend"><span class="key key-ok"></span>certas <span class="key key-total"></span>erradas</p>
     </section>
     <section class="card">
-      <h2 class="card-title">Acerto recente por tema</h2>
-      <p class="hint">Últimas 20 respostas de cada nível · total respondido</p>
+      <h2 class="card-title">Acerto por tema</h2>
+      <p class="hint">Últimas 30 respostas de cada tema</p>
       <div class="table-wrap"><table class="grid">
-        <thead><tr><th></th>${C.LEVELS.map(lv => `<th>${LEVEL_NAMES[lv]}</th>`).join('')}</tr></thead>
+        <thead><tr><th></th><th>Acerto</th><th>Vistos</th></tr></thead>
         <tbody>${table}</tbody>
       </table></div>
     </section>
@@ -444,6 +627,15 @@ function renderHistory() {
       <h2 class="card-title">Sessões</h2>
       ${sessions ? `<ul class="sessions">${sessions}</ul>` : '<p class="hint">Nenhuma sessão ainda. Comece por um tema na tela inicial.</p>'}
     </section>`;
+}
+
+function sessionLabel(s) {
+  if (s.label) return s.label;
+  if (s.mode === 'review') return 'Revisão do dia';
+  if (s.mode === 'retry') return 'Refazer erros';
+  if (s.mode === 'reinforce') return 'Reforço';
+  if (s.mode === 'general') return 'Treino geral';
+  return topicById(s.topic)?.title || 'Sessão';
 }
 
 /* ---------- Ajustes ---------- */
@@ -514,6 +706,7 @@ async function importBackup(e) {
 /* ---------- PWA ---------- */
 
 let waitingWorker = null;
+let updateRequested = false;
 function registerSW() {
   if (!('serviceWorker' in navigator) || location.protocol === 'file:') return;
   navigator.serviceWorker.register('sw.js').then(reg => {
@@ -531,7 +724,6 @@ function registerSW() {
     if (updateRequested) { updateRequested = false; location.reload(); }
   });
 }
-let updateRequested = false;
 
 function showUpdateBanner() {
   const b = document.getElementById('update-banner');

@@ -52,6 +52,27 @@ test('banco: itens de tema não declarado não existem', () => {
   for (const it of items) assert.ok(topicIds.includes(it.topic), it.id);
 });
 
+test('banco: todo item aponta para um padrão descrito e todo padrão tem exercícios', () => {
+  const topicMeta = Object.fromEntries(topics.groups.flatMap(g => g.topics).map(t => [t.id, t]));
+  for (const it of items) {
+    const t = topicMeta[it.topic];
+    assert.ok(t.skills.some(s => s.id === it.skill), `${it.id}: padrão ${it.skill} sem descrição`);
+    assert.equal(it.cefr, t.cefr[it.level - 1], `${it.id}: cefr divergente`);
+  }
+  for (const t of Object.values(topicMeta)) {
+    assert.ok(t.intro && t.intro.length > 20, `${t.id} sem explicação`);
+    for (const sk of t.skills) {
+      assert.ok(sk.tip && sk.ex, `${t.id}:${sk.id} sem dica ou exemplo`);
+      const n = items.filter(i => i.topic === t.id && i.skill === sk.id).length;
+      assert.ok(n >= 2, `${t.id}:${sk.id} tem só ${n} exercícios`);
+    }
+  }
+});
+
+test('banco: há conteúdo em A1, A2, B1 e B2', () => {
+  for (const band of ['A1', 'A2', 'B1', 'B2']) assert.ok(items.some(i => i.cefr === band), band);
+});
+
 /* ---------- Correção ---------- */
 
 test('normalize: caixa, espaços, apóstrofos curvos e pontuação final', () => {
@@ -101,20 +122,23 @@ test('srsUpdate: acerto sobe de caixa, erro volta para zero e fica pendente', ()
 
 const seq = () => { let x = 42; return () => (x = (x * 16807) % 2147483647) / 2147483647; };
 
-test('buildSession: respeita tema, nível e tamanho, sem repetir itens', () => {
-  const s = C.buildSession(items, C.emptyState(), { topic: 't01', level: 2, size: 10, rng: seq() });
-  assert.equal(s.length, 10);
-  assert.equal(new Set(s.map(i => i.id)).size, 10);
-  assert.ok(s.every(i => i.topic === 't01' && i.level === 2));
+test('buildSession: respeita tema e tamanho, sem repetir itens e sempre misturando os níveis', () => {
+  for (const id of topicIds) {
+    const s = C.buildSession(items, C.emptyState(), { topic: id, size: 10, rng: seq() });
+    assert.equal(s.length, 10);
+    assert.equal(new Set(s.map(i => i.id)).size, 10);
+    assert.ok(s.every(i => i.topic === id));
+    for (const lv of C.LEVELS) assert.ok(s.filter(i => i.level === lv).length >= 3, `${id}: nível ${lv} sub-representado`);
+  }
 });
 
 test('buildSession: prioriza itens errados e pendentes', () => {
   const now = Date.now();
   const st = C.emptyState();
-  const pool = items.filter(i => i.topic === 't02' && i.level === 1);
+  const pool = items.filter(i => i.topic === 't02');
   const missed = pool.slice(0, 3);
   for (const it of missed) st.items[it.id] = C.srsUpdate(undefined, false, now - 1000);
-  const s = C.buildSession(items, st, { topic: 't02', level: 1, size: 10, now, rng: seq() });
+  const s = C.buildSession(items, st, { topic: 't02', size: 10, now, rng: seq() });
   for (const it of missed) assert.ok(s.includes(it), `pendente ${it.id} ficou de fora`);
 });
 
@@ -170,7 +194,6 @@ test('estatísticas: acerto recente, sequência de dias e série diária', () =>
   const series = C.dailySeries(st, 7, now);
   assert.equal(series.length, 7);
   assert.equal(series[6].total, 2);
-  assert.equal(C.suggestedLevel(st, 't01'), 1);
 });
 
 test('migrateState: entradas corrompidas viram estado válido', () => {
@@ -196,6 +219,94 @@ test('backup: exporta e importa sem perda; recusa arquivos estranhos', () => {
   assert.deepEqual(back, C.migrateState(st));
   assert.throws(() => C.parseBackup('não é json'), /JSON/);
   assert.throws(() => C.parseBackup('{"a":1}'), /backup/);
+});
+
+/* ---------- Padrões de erro, reforço e nível ---------- */
+
+function answerMany(st, list, okFn, start = Date.now() - 1000) {
+  const session = { id: 'sx', ts: start, mode: 'topic', topic: null, level: null, answers: [] };
+  list.forEach((it, k) => C.recordAnswer(st, session, it, okFn(it, k), start + k));
+  return st;
+}
+
+test('weakSkills: identifica o padrão com mais erros', () => {
+  const st = C.emptyState();
+  const bad = items.filter(i => i.topic === 't01' && i.skill === 'prep_ing');
+  const good = items.filter(i => i.topic === 't01' && i.skill === 'ing_verbs').slice(0, 8);
+  answerMany(st, [...bad, ...good], it => it.skill !== 'prep_ing');
+  const weak = C.weakSkills(items, st);
+  assert.equal(weak[0].key, 't01:prep_ing');
+  assert.equal(weak[0].acc, 0);
+  assert.ok(!weak.some(w => w.key === 't01:ing_verbs'), 'padrão com 100% não é ponto fraco');
+});
+
+test('buildReinforce: concentra a sessão nos padrões fracos', () => {
+  const st = C.emptyState();
+  const weakA = items.filter(i => i.topic === 't06' && i.skill === 'makedo').slice(0, 5);
+  const weakB = items.filter(i => i.topic === 'r02' && i.skill === 'pp').slice(0, 4);
+  const fine = items.filter(i => i.topic === 'r01').slice(0, 20);
+  answerMany(st, [...weakA, ...weakB, ...fine], it => it.topic === 'r01');
+  const { queue, focus } = C.buildReinforce(items, st, { rng: seq() });
+  assert.equal(queue.length, 10);
+  assert.deepEqual(focus.map(f => f.key).sort(), ['r02:pp', 't06:makedo']);
+  const onFocus = queue.filter(i => ['t06:makedo', 'r02:pp'].includes(`${i.topic}:${i.skill}`)).length;
+  assert.ok(onFocus >= 8, `só ${onFocus} itens no foco`);
+});
+
+test('buildReinforce: sem dados, devolve treino geral', () => {
+  const { queue, focus } = C.buildReinforce(items, C.emptyState(), { rng: seq() });
+  assert.equal(focus.length, 0);
+  assert.equal(queue.length, 10);
+});
+
+test('buildSession: sessão por padrão usa só itens daquele padrão', () => {
+  const s = C.buildSession(items, C.emptyState(), { skills: ['t07:indirect'], rng: seq() });
+  assert.ok(s.length > 0 && s.every(i => i.topic === 't07' && i.skill === 'indirect'));
+});
+
+test('levelEstimate: sem dados não estima; consolida faixa a faixa', () => {
+  let est = C.levelEstimate(items, C.emptyState());
+  assert.equal(est.estimate, null);
+  assert.equal(est.bands.find(b => b.band === 'C1').status, 'sem_conteudo');
+
+  const st = C.emptyState();
+  const a1 = items.filter(i => i.cefr === 'A1').slice(0, 20);
+  const a2 = items.filter(i => i.cefr === 'A2').slice(0, 20);
+  const b1 = items.filter(i => i.cefr === 'B1').slice(0, 20);
+  answerMany(st, [...a1, ...a2, ...b1], (it, k) => it.cefr !== 'B1' || k % 2 === 0);
+  est = C.levelEstimate(items, st);
+  assert.equal(est.estimate, 'A2');
+  assert.equal(est.next.band, 'B1');
+  assert.equal(est.bands.find(b => b.band === 'B1').status, 'em_progresso');
+});
+
+test('levelEstimate: base fraca impede estimar acima dela', () => {
+  const st = C.emptyState();
+  const a1 = items.filter(i => i.cefr === 'A1').slice(0, 20);
+  const b1 = items.filter(i => i.cefr === 'B1').slice(0, 20);
+  answerMany(st, [...a1, ...b1], it => it.cefr === 'B1' ? true : Math.random() < 0);
+  const est = C.levelEstimate(items, st);
+  assert.equal(est.bands.find(b => b.band === 'B1').status, 'consolidado');
+  assert.equal(est.estimate, null, 'A1 com 0% não pode deixar estimar B1');
+});
+
+test('errorReport: lista padrões e erros reais com a resposta correta', () => {
+  const st = C.emptyState();
+  const bad = items.filter(i => i.topic === 't05' && i.skill === 'actually');
+  answerMany(st, bad, () => false);
+  const meta = (t, s) => ({ topicTitle: t, skillTitle: s });
+  const txt = C.errorReport(items, st, meta);
+  assert.match(txt, /t05 › actually: 0% de acerto/);
+  assert.match(txt, /correto:/);
+});
+
+test('migração: estado da v1.0 (sem skill nas respostas) continua funcionando', () => {
+  const v1 = { version: 1, createdAt: 1, items: { 't01-1-001': { box: 2, due: 5, seen: 3, correct: 2, wrong: 1, last: 4 } },
+    sessions: [{ id: 's1', ts: 1, mode: 'topic', topic: 't01', level: 1, answers: [{ id: 't01-1-006', ok: false, t: 2, topic: 't01', level: 1 }, { id: 't01-1-017', ok: false, t: 3, topic: 't01', level: 1 }, { id: 't01-2-005', ok: false, t: 4, topic: 't01', level: 2 }] }] };
+  const st = C.migrateState(JSON.parse(JSON.stringify(v1)));
+  assert.equal(st.items['t01-1-001'].box, 2);
+  const weak = C.weakSkills(items, st);
+  assert.equal(weak[0].key, 't01:prep_ing', 'padrão deduzido pelo id do item');
 });
 
 /* ---------- PWA ---------- */

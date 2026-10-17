@@ -1,0 +1,788 @@
+{
+ "topic": "t06",
+ "items": [
+  {
+   "id": "t06-1-001",
+   "topic": "t06",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I ___ a mistake.",
+   "options": [
+    "made",
+    "did",
+    "took"
+   ],
+   "answer": "made",
+   "explain": "MAKE A MISTAKE.",
+   "skill": "makedo",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-1-002",
+   "topic": "t06",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Can you ___ me a favor?",
+   "options": [
+    "do",
+    "make",
+    "give"
+   ],
+   "answer": "do",
+   "explain": "DO A FAVOR.",
+   "skill": "makedo",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-1-003",
+   "topic": "t06",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We need to ___ a decision.",
+   "options": [
+    "make",
+    "do",
+    "take on"
+   ],
+   "answer": "make",
+   "explain": "MAKE A DECISION.",
+   "skill": "makedo",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-1-004",
+   "topic": "t06",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She ___ me the truth.",
+   "options": [
+    "told",
+    "said",
+    "spoke"
+   ],
+   "answer": "told",
+   "explain": "TELL THE TRUTH.",
+   "skill": "saytell",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-1-005",
+   "topic": "t06",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He ___ it was fine.",
+   "options": [
+    "said",
+    "told",
+    "talked"
+   ],
+   "answer": "said",
+   "explain": "SAY + algo (sem pessoa).",
+   "skill": "saytell",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-1-006",
+   "topic": "t06",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I ___ English and Spanish.",
+   "options": [
+    "speak",
+    "talk",
+    "tell"
+   ],
+   "answer": "speak",
+   "explain": "Idioma: SPEAK.",
+   "skill": "speaktalk",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-1-007",
+   "topic": "t06",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Can I ___ to you for a minute?",
+   "options": [
+    "talk",
+    "tell",
+    "say"
+   ],
+   "answer": "talk",
+   "explain": "Conversar: TALK TO.",
+   "skill": "speaktalk",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-1-008",
+   "topic": "t06",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Can I ___ your pen?",
+   "options": [
+    "borrow",
+    "lend",
+    "rent"
+   ],
+   "answer": "borrow",
+   "explain": "Pegar emprestado: BORROW.",
+   "skill": "borrowlend",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-1-009",
+   "topic": "t06",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Can you ___ me your charger?",
+   "options": [
+    "lend",
+    "borrow",
+    "borrow to"
+   ],
+   "answer": "lend",
+   "explain": "Emprestar a alguém: LEND.",
+   "skill": "borrowlend",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-1-010",
+   "topic": "t06",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Please ___ the report to my office.",
+   "options": [
+    "bring",
+    "take",
+    "carry on"
+   ],
+   "answer": "bring",
+   "explain": "Para cá (onde estou): BRING.",
+   "skill": "bringtake",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-1-011",
+   "topic": "t06",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Don't forget to ___ an umbrella when you go out.",
+   "options": [
+    "take",
+    "bring",
+    "carry on"
+   ],
+   "answer": "take",
+   "explain": "Levar para lá: TAKE.",
+   "skill": "bringtake",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-1-012",
+   "topic": "t06",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ at this chart.",
+   "options": [
+    "Look",
+    "See",
+    "Watch"
+   ],
+   "answer": "Look",
+   "explain": "Olhar com intenção: LOOK AT.",
+   "skill": "seelook",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-1-013",
+   "topic": "t06",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Did you ___ the game last night?",
+   "options": [
+    "watch",
+    "see at",
+    "look"
+   ],
+   "answer": "watch",
+   "explain": "Assistir: WATCH.",
+   "skill": "seelook",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-1-014",
+   "topic": "t06",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Sorry, I can't ___ you. The connection is bad.",
+   "options": [
+    "hear",
+    "listen",
+    "listen to"
+   ],
+   "answer": "hear",
+   "explain": "Ouvir (percepção): HEAR.",
+   "skill": "hearlisten",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-1-015",
+   "topic": "t06",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ to this, it's important.",
+   "options": [
+    "Listen",
+    "Hear",
+    "Ear"
+   ],
+   "answer": "Listen",
+   "explain": "Escutar com atenção: LISTEN TO.",
+   "skill": "hearlisten",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-1-016",
+   "topic": "t06",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Can you ___ me to call him?",
+   "options": [
+    "remind",
+    "remember",
+    "recall"
+   ],
+   "answer": "remind",
+   "explain": "Fazer alguém lembrar: REMIND.",
+   "skill": "remind",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-1-017",
+   "topic": "t06",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I can't ___ his name.",
+   "options": [
+    "remember",
+    "remind",
+    "memorize of"
+   ],
+   "answer": "remember",
+   "explain": "Lembrar: REMEMBER.",
+   "skill": "remind",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-1-018",
+   "topic": "t06",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I need to ___ some research.",
+   "options": [
+    "do",
+    "make",
+    "take"
+   ],
+   "answer": "do",
+   "explain": "DO RESEARCH.",
+   "skill": "makedo",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-2-001",
+   "topic": "t06",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I did a mistake in the report.",
+   "options": [
+    "I made a mistake in the report.",
+    "I done a mistake in the report.",
+    "I took a mistake in the report."
+   ],
+   "answer": "I made a mistake in the report.",
+   "explain": "MAKE A MISTAKE.",
+   "skill": "makedo",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-2-002",
+   "topic": "t06",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We need to ___ (make / do) more progress this month.",
+   "answer": [
+    "make"
+   ],
+   "explain": "MAKE PROGRESS.",
+   "skill": "makedo",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-2-003",
+   "topic": "t06",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I have to ___ (make / do) my homework.",
+   "answer": [
+    "do"
+   ],
+   "explain": "DO HOMEWORK.",
+   "skill": "makedo",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-2-004",
+   "topic": "t06",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She said me the price.",
+   "options": [
+    "She told me the price.",
+    "She said to me the price is.",
+    "She told the price me."
+   ],
+   "answer": "She told me the price.",
+   "explain": "Pessoa logo depois do verbo: TELL.",
+   "skill": "saytell",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-2-005",
+   "topic": "t06",
+   "level": 2,
+   "type": "gap",
+   "prompt": "He ___ (say / tell) us a funny story.",
+   "answer": [
+    "told"
+   ],
+   "explain": "TELL A STORY.",
+   "skill": "saytell",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-2-006",
+   "topic": "t06",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I talk three languages.",
+   "options": [
+    "I speak three languages.",
+    "I tell three languages.",
+    "I say three languages."
+   ],
+   "answer": "I speak three languages.",
+   "explain": "Idioma: SPEAK.",
+   "skill": "speaktalk",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-2-007",
+   "topic": "t06",
+   "level": 2,
+   "type": "gap",
+   "prompt": "She will ___ (speak / talk) at the conference tomorrow.",
+   "answer": [
+    "speak"
+   ],
+   "explain": "Falar em evento: SPEAK AT.",
+   "skill": "speaktalk",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-2-008",
+   "topic": "t06",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Can you borrow me 50 reais?",
+   "options": [
+    "Can you lend me 50 reais?",
+    "Can I lend you 50 reais from?",
+    "Can you borrow to me 50 reais?"
+   ],
+   "answer": "Can you lend me 50 reais?",
+   "explain": "Quem dá: LEND.",
+   "skill": "borrowlend",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-2-009",
+   "topic": "t06",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I ___ (borrow / lend) a book from the library.",
+   "answer": [
+    "borrowed"
+   ],
+   "explain": "Pegar emprestado, no passado: BORROWED.",
+   "skill": "borrowlend",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-2-010",
+   "topic": "t06",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'll bring you to the airport.",
+   "options": [
+    "I'll take you to the airport.",
+    "I'll bring you at the airport.",
+    "I'll taking you to the airport."
+   ],
+   "answer": "I'll take you to the airport.",
+   "explain": "Para lá: TAKE.",
+   "skill": "bringtake",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-2-011",
+   "topic": "t06",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Can you ___ (bring / take) me a coffee when you come back?",
+   "answer": [
+    "bring"
+   ],
+   "explain": "Para cá: BRING.",
+   "skill": "bringtake",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-2-012",
+   "topic": "t06",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Look this document.",
+   "options": [
+    "Look at this document.",
+    "Look to this document.",
+    "See at this document."
+   ],
+   "answer": "Look at this document.",
+   "explain": "LOOK AT + objeto.",
+   "skill": "seelook",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-2-013",
+   "topic": "t06",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I ___ (see / watch) TV last night.",
+   "answer": [
+    "watched"
+   ],
+   "explain": "Assistir TV: WATCH.",
+   "skill": "seelook",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-2-014",
+   "topic": "t06",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Listen me, please.",
+   "options": [
+    "Listen to me, please.",
+    "Hear to me, please.",
+    "Listen at me, please."
+   ],
+   "answer": "Listen to me, please.",
+   "explain": "LISTEN TO.",
+   "skill": "hearlisten",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-2-015",
+   "topic": "t06",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'm ___ (hear / listen) to a podcast.",
+   "answer": [
+    "listening"
+   ],
+   "explain": "Escutar algo: LISTENING TO.",
+   "skill": "hearlisten",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-2-016",
+   "topic": "t06",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Remember me to send the invoice.",
+   "options": [
+    "Remind me to send the invoice.",
+    "Remind me send the invoice.",
+    "Remember to me send the invoice."
+   ],
+   "answer": "Remind me to send the invoice.",
+   "explain": "'Me lembra de' = REMIND ME TO.",
+   "skill": "remind",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-2-017",
+   "topic": "t06",
+   "level": 2,
+   "type": "gap",
+   "prompt": "This song ___ (remember / remind) me of my childhood.",
+   "answer": [
+    "reminds"
+   ],
+   "explain": "REMIND SOMEONE OF.",
+   "skill": "remind",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-2-018",
+   "topic": "t06",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Could you ___ (make / do) me a favor?",
+   "answer": [
+    "do"
+   ],
+   "explain": "DO A FAVOR.",
+   "skill": "makedo",
+   "cefr": "B1"
+  },
+  {
+   "id": "t06-3-001",
+   "topic": "t06",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The new tool will ___ (make / do) our work easier.",
+   "answer": [
+    "make"
+   ],
+   "explain": "MAKE + objeto + adjetivo.",
+   "skill": "makedo",
+   "cefr": "B2"
+  },
+  {
+   "id": "t06-3-002",
+   "topic": "t06",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We ___ (make / do, Present Perfect) business with them since 2010.",
+   "answer": [
+    "have done",
+    "'ve done",
+    "have been doing"
+   ],
+   "explain": "DO BUSINESS.",
+   "skill": "makedo",
+   "cefr": "B2"
+  },
+  {
+   "id": "t06-3-003",
+   "topic": "t06",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Can you ___ (say / tell) the difference between them?",
+   "answer": [
+    "tell"
+   ],
+   "explain": "TELL THE DIFFERENCE.",
+   "skill": "saytell",
+   "cefr": "B2"
+  },
+  {
+   "id": "t06-3-004",
+   "topic": "t06",
+   "level": 3,
+   "type": "gap",
+   "prompt": "She ___ (say / tell) goodbye and left.",
+   "answer": [
+    "said"
+   ],
+   "explain": "SAY GOODBYE.",
+   "skill": "saytell",
+   "cefr": "B2"
+  },
+  {
+   "id": "t06-3-005",
+   "topic": "t06",
+   "level": 3,
+   "type": "gap",
+   "prompt": "May I ___ (speak / talk) to the manager, please? (formal, ao telefone)",
+   "answer": [
+    "speak"
+   ],
+   "explain": "Ao telefone, formal: MAY I SPEAK TO...",
+   "skill": "speaktalk",
+   "cefr": "B2"
+  },
+  {
+   "id": "t06-3-006",
+   "topic": "t06",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We ___ (speak / talk) about the budget for an hour.",
+   "answer": [
+    "talked"
+   ],
+   "explain": "Conversar sobre: TALK ABOUT.",
+   "skill": "speaktalk",
+   "cefr": "B2"
+  },
+  {
+   "id": "t06-3-007",
+   "topic": "t06",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The bank ___ (borrow / lend) us the money last year.",
+   "answer": [
+    "lent"
+   ],
+   "explain": "LEND → LENT.",
+   "skill": "borrowlend",
+   "cefr": "B2"
+  },
+  {
+   "id": "t06-3-008",
+   "topic": "t06",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Please ___ (bring / take) these files to the archive room.",
+   "answer": [
+    "take"
+   ],
+   "explain": "Para outro lugar: TAKE.",
+   "skill": "bringtake",
+   "cefr": "B2"
+  },
+  {
+   "id": "t06-3-009",
+   "topic": "t06",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I ___ (see / look / watch) a strange car outside this morning.",
+   "answer": [
+    "saw"
+   ],
+   "explain": "Ver sem intenção: SEE → SAW.",
+   "skill": "seelook",
+   "cefr": "B2"
+  },
+  {
+   "id": "t06-3-010",
+   "topic": "t06",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Did you ___ (hear / listen) the news?",
+   "answer": [
+    "hear"
+   ],
+   "explain": "Ficar sabendo: HEAR THE NEWS.",
+   "skill": "hearlisten",
+   "cefr": "B2"
+  },
+  {
+   "id": "t06-3-011",
+   "topic": "t06",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Thanks for ___ (remember / remind) me about the meeting.",
+   "answer": [
+    "reminding"
+   ],
+   "explain": "REMIND + pessoa; depois de FOR, -ING.",
+   "skill": "remind",
+   "cefr": "B2"
+  },
+  {
+   "id": "t06-3-012",
+   "topic": "t06",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "She made an effort to finish.",
+    "She did an effort to finish.",
+    "She took an effort to finish."
+   ],
+   "answer": "She made an effort to finish.",
+   "explain": "MAKE AN EFFORT.",
+   "skill": "makedo",
+   "cefr": "B2"
+  },
+  {
+   "id": "t06-3-013",
+   "topic": "t06",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "He told us to wait.",
+    "He said us to wait.",
+    "He spoke us to wait."
+   ],
+   "answer": "He told us to wait.",
+   "explain": "TELL + pessoa + TO.",
+   "skill": "saytell",
+   "cefr": "B2"
+  },
+  {
+   "id": "t06-3-014",
+   "topic": "t06",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Are you listening to me?",
+    "Are you listening me?",
+    "Are you hearing to me?"
+   ],
+   "answer": "Are you listening to me?",
+   "explain": "LISTEN TO.",
+   "skill": "hearlisten",
+   "cefr": "B2"
+  },
+  {
+   "id": "t06-3-015",
+   "topic": "t06",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I made a mistake in the report.",
+   "explain": "MAKE A MISTAKE.",
+   "skill": "makedo",
+   "cefr": "B2"
+  },
+  {
+   "id": "t06-3-016",
+   "topic": "t06",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Could you lend me your charger?",
+   "explain": "Emprestar a alguém: LEND.",
+   "skill": "borrowlend",
+   "cefr": "B2"
+  },
+  {
+   "id": "t06-3-017",
+   "topic": "t06",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Please remind me to call the supplier.",
+   "explain": "REMIND + pessoa + TO.",
+   "skill": "remind",
+   "cefr": "B2"
+  },
+  {
+   "id": "t06-3-018",
+   "topic": "t06",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "She told me the meeting was cancelled.",
+   "explain": "TELL + pessoa.",
+   "skill": "saytell",
+   "cefr": "B2"
+  }
+ ]
+}

@@ -13,7 +13,9 @@
     "decisive"
    ],
    "answer": "decision",
-   "explain": "Depois de A + adjetivo: substantivo."
+   "explain": "Depois de A + adjetivo: substantivo.",
+   "skill": "noun",
+   "cefr": "B1"
   },
   {
    "id": "t03-1-002",
@@ -27,7 +29,9 @@
     "decide"
    ],
    "answer": "decisive",
-   "explain": "Depois de VERY: adjetivo."
+   "explain": "Depois de VERY: adjetivo.",
+   "skill": "adj",
+   "cefr": "B1"
   },
   {
    "id": "t03-1-003",
@@ -41,7 +45,9 @@
     "succeed"
    ],
    "answer": "successful",
-   "explain": "Depois de VERY: adjetivo."
+   "explain": "Depois de VERY: adjetivo.",
+   "skill": "adj",
+   "cefr": "B1"
   },
   {
    "id": "t03-1-004",
@@ -55,7 +61,9 @@
     "successfully"
    ],
    "answer": "success",
-   "explain": "Depois de A BIG: substantivo."
+   "explain": "Depois de A BIG: substantivo.",
+   "skill": "noun",
+   "cefr": "B1"
   },
   {
    "id": "t03-1-005",
@@ -69,7 +77,9 @@
     "goodly"
    ],
    "answer": "well",
-   "explain": "Advérbio de GOOD é WELL."
+   "explain": "Advérbio de GOOD é WELL.",
+   "skill": "tricky",
+   "cefr": "B1"
   },
   {
    "id": "t03-1-006",
@@ -83,7 +93,9 @@
     "care"
    ],
    "answer": "carefully",
-   "explain": "Como ele dirige? Advérbio."
+   "explain": "Como ele dirige? Advérbio.",
+   "skill": "adv",
+   "cefr": "B1"
   },
   {
    "id": "t03-1-007",
@@ -97,7 +109,9 @@
     "responsibly"
    ],
    "answer": "responsible",
-   "explain": "Depois de I'M, sem artigo: adjetivo."
+   "explain": "Depois de I'M, sem artigo: adjetivo.",
+   "skill": "adj",
+   "cefr": "B1"
   },
   {
    "id": "t03-1-008",
@@ -111,7 +125,9 @@
     "responsibly"
    ],
    "answer": "responsibility",
-   "explain": "Depois de MY: substantivo."
+   "explain": "Depois de MY: substantivo.",
+   "skill": "noun",
+   "cefr": "B1"
   },
   {
    "id": "t03-1-009",
@@ -125,7 +141,9 @@
     "analyst"
    ],
    "answer": "analyze",
-   "explain": "Depois de WILL: verbo."
+   "explain": "Depois de WILL: verbo.",
+   "skill": "verb",
+   "cefr": "B1"
   },
   {
    "id": "t03-1-010",
@@ -139,7 +157,9 @@
     "analytical"
    ],
    "answer": "analysis",
-   "explain": "Depois de A + adjetivo: substantivo."
+   "explain": "Depois de A + adjetivo: substantivo.",
+   "skill": "noun",
+   "cefr": "B1"
   },
   {
    "id": "t03-1-011",
@@ -153,7 +173,9 @@
     "employments"
    ],
    "answer": "employees",
-   "explain": "-EE recebe a ação; -ER faz."
+   "explain": "-EE recebe a ação; -ER faz.",
+   "skill": "person",
+   "cefr": "B1"
   },
   {
    "id": "t03-1-012",
@@ -167,7 +189,9 @@
     "hardness"
    ],
    "answer": "hard",
-   "explain": "HARD = com esforço. HARDLY = quase não."
+   "explain": "HARD = com esforço. HARDLY = quase não.",
+   "skill": "tricky",
+   "cefr": "B1"
   },
   {
    "id": "t03-1-013",
@@ -181,7 +205,9 @@
     "later"
    ],
    "answer": "lately",
-   "explain": "LATELY = ultimamente."
+   "explain": "LATELY = ultimamente.",
+   "skill": "tricky",
+   "cefr": "B1"
   },
   {
    "id": "t03-1-014",
@@ -195,7 +221,9 @@
     "bore"
    ],
    "answer": "boring",
-   "explain": "-ING descreve o que causa o sentimento."
+   "explain": "-ING descreve o que causa o sentimento.",
+   "skill": "adj",
+   "cefr": "B1"
   },
   {
    "id": "t03-1-015",
@@ -209,7 +237,9 @@
     "clarity"
    ],
    "answer": "clear",
-   "explain": "Antes de substantivo: adjetivo."
+   "explain": "Antes de substantivo: adjetivo.",
+   "skill": "adj",
+   "cefr": "B1"
   },
   {
    "id": "t03-1-016",
@@ -223,7 +253,9 @@
     "clarity"
    ],
    "answer": "clearly",
-   "explain": "Modificando o verbo: advérbio."
+   "explain": "Modificando o verbo: advérbio.",
+   "skill": "adv",
+   "cefr": "B1"
   },
   {
    "id": "t03-1-017",
@@ -237,7 +269,9 @@
     "nearby"
    ],
    "answer": "nearly",
-   "explain": "NEARLY = quase."
+   "explain": "NEARLY = quase.",
+   "skill": "tricky",
+   "cefr": "B1"
   },
   {
    "id": "t03-1-018",
@@ -251,7 +285,9 @@
     "prior"
    ],
    "answer": "priority",
-   "explain": "Depois de OUR MAIN: substantivo."
+   "explain": "Depois de OUR MAIN: substantivo.",
+   "skill": "noun",
+   "cefr": "B1"
   },
   {
    "id": "t03-2-001",
@@ -262,7 +298,9 @@
    "answer": [
     "decision"
    ],
-   "explain": "Depois de A: substantivo."
+   "explain": "Depois de A: substantivo.",
+   "skill": "noun",
+   "cefr": "B1"
   },
   {
    "id": "t03-2-002",
@@ -273,7 +311,9 @@
    "answer": [
     "successful"
    ],
-   "explain": "Depois de VERY: adjetivo."
+   "explain": "Depois de VERY: adjetivo.",
+   "skill": "adj",
+   "cefr": "B1"
   },
   {
    "id": "t03-2-003",
@@ -284,7 +324,9 @@
    "answer": [
     "professionally"
    ],
-   "explain": "Modificando o verbo: advérbio."
+   "explain": "Modificando o verbo: advérbio.",
+   "skill": "adv",
+   "cefr": "B1"
   },
   {
    "id": "t03-2-004",
@@ -295,7 +337,9 @@
    "answer": [
     "careful"
    ],
-   "explain": "Antes de substantivo: adjetivo."
+   "explain": "Antes de substantivo: adjetivo.",
+   "skill": "adj",
+   "cefr": "B1"
   },
   {
    "id": "t03-2-005",
@@ -307,7 +351,9 @@
     "analyze",
     "analyse"
    ],
-   "explain": "Depois de TO: verbo."
+   "explain": "Depois de TO: verbo.",
+   "skill": "verb",
+   "cefr": "B1"
   },
   {
    "id": "t03-2-006",
@@ -318,7 +364,9 @@
    "answer": [
     "analyst"
    ],
-   "explain": "Pessoa: -IST."
+   "explain": "Pessoa: -IST.",
+   "skill": "person",
+   "cefr": "B1"
   },
   {
    "id": "t03-2-007",
@@ -329,7 +377,9 @@
    "answer": [
     "patience"
    ],
-   "explain": "Depois de YOUR: substantivo."
+   "explain": "Depois de YOUR: substantivo.",
+   "skill": "noun",
+   "cefr": "B1"
   },
   {
    "id": "t03-2-008",
@@ -340,7 +390,9 @@
    "answer": [
     "employees"
    ],
-   "explain": "Quem é contratado: -EE."
+   "explain": "Quem é contratado: -EE.",
+   "skill": "person",
+   "cefr": "B1"
   },
   {
    "id": "t03-2-009",
@@ -351,7 +403,9 @@
    "answer": [
     "reliable"
    ],
-   "explain": "Antes de substantivo: adjetivo."
+   "explain": "Antes de substantivo: adjetivo.",
+   "skill": "adj",
+   "cefr": "B1"
   },
   {
    "id": "t03-2-010",
@@ -362,7 +416,9 @@
    "answer": [
     "possibility"
    ],
-   "explain": "Depois de A: substantivo."
+   "explain": "Depois de A: substantivo.",
+   "skill": "noun",
+   "cefr": "B1"
   },
   {
    "id": "t03-2-011",
@@ -373,7 +429,9 @@
    "answer": [
     "strengthen"
    ],
-   "explain": "Depois de TO: verbo. STRONG → STRENGTHEN."
+   "explain": "Depois de TO: verbo. STRONG → STRENGTHEN.",
+   "skill": "verb",
+   "cefr": "B1"
   },
   {
    "id": "t03-2-012",
@@ -384,7 +442,9 @@
    "answer": [
     "useful"
    ],
-   "explain": "Depois de VERY: adjetivo."
+   "explain": "Depois de VERY: adjetivo.",
+   "skill": "adj",
+   "cefr": "B1"
   },
   {
    "id": "t03-2-013",
@@ -398,7 +458,9 @@
     "It was a very difficult decisive."
    ],
    "answer": "It was a very difficult decision.",
-   "explain": "Depois de A + adjetivo: substantivo."
+   "explain": "Depois de A + adjetivo: substantivo.",
+   "skill": "noun",
+   "cefr": "B1"
   },
   {
    "id": "t03-2-014",
@@ -412,7 +474,9 @@
     "He explains very clear things."
    ],
    "answer": "He explains things very clearly.",
-   "explain": "Como ele explica? Advérbio."
+   "explain": "Como ele explica? Advérbio.",
+   "skill": "adv",
+   "cefr": "B1"
   },
   {
    "id": "t03-2-015",
@@ -426,7 +490,9 @@
     "The meeting was very succeed."
    ],
    "answer": "The meeting was very successful.",
-   "explain": "Depois de VERY: adjetivo."
+   "explain": "Depois de VERY: adjetivo.",
+   "skill": "adj",
+   "cefr": "B1"
   },
   {
    "id": "t03-2-016",
@@ -437,7 +503,9 @@
    "answer": [
     "information"
    ],
-   "explain": "Depois de MORE: substantivo."
+   "explain": "Depois de MORE: substantivo.",
+   "skill": "noun",
+   "cefr": "B1"
   },
   {
    "id": "t03-2-017",
@@ -448,7 +516,9 @@
    "answer": [
     "performance"
    ],
-   "explain": "Depois de HIS: substantivo."
+   "explain": "Depois de HIS: substantivo.",
+   "skill": "noun",
+   "cefr": "B1"
   },
   {
    "id": "t03-2-018",
@@ -459,7 +529,9 @@
    "answer": [
     "significantly"
    ],
-   "explain": "Modificando o verbo: advérbio."
+   "explain": "Modificando o verbo: advérbio.",
+   "skill": "adv",
+   "cefr": "B1"
   },
   {
    "id": "t03-3-001",
@@ -470,7 +542,9 @@
    "answer": [
     "renewal"
    ],
-   "explain": "Depois de THE: substantivo. RENEW → RENEWAL."
+   "explain": "Depois de THE: substantivo. RENEW → RENEWAL.",
+   "skill": "noun",
+   "cefr": "B2"
   },
   {
    "id": "t03-3-002",
@@ -481,7 +555,9 @@
    "answer": [
     "impressed"
    ],
-   "explain": "Como nos sentimos: -ED."
+   "explain": "Como nos sentimos: -ED.",
+   "skill": "adj",
+   "cefr": "B2"
   },
   {
    "id": "t03-3-003",
@@ -492,7 +568,9 @@
    "answer": [
     "impressive"
    ],
-   "explain": "Qualidade dos resultados: adjetivo -IVE."
+   "explain": "Qualidade dos resultados: adjetivo -IVE.",
+   "skill": "adj",
+   "cefr": "B2"
   },
   {
    "id": "t03-3-004",
@@ -503,7 +581,9 @@
    "answer": [
     "weaken"
    ],
-   "explain": "Verbo: WEAK → WEAKEN."
+   "explain": "Verbo: WEAK → WEAKEN.",
+   "skill": "verb",
+   "cefr": "B2"
   },
   {
    "id": "t03-3-005",
@@ -514,7 +594,9 @@
    "answer": [
     "hardly"
    ],
-   "explain": "HARDLY = quase não."
+   "explain": "HARDLY = quase não.",
+   "skill": "tricky",
+   "cefr": "B2"
   },
   {
    "id": "t03-3-006",
@@ -525,7 +607,9 @@
    "answer": [
     "leadership"
    ],
-   "explain": "Depois de HER: substantivo."
+   "explain": "Depois de HER: substantivo.",
+   "skill": "noun",
+   "cefr": "B2"
   },
   {
    "id": "t03-3-007",
@@ -536,7 +620,9 @@
    "answer": [
     "legally"
    ],
-   "explain": "Modificando o adjetivo binding: advérbio."
+   "explain": "Modificando o adjetivo binding: advérbio.",
+   "skill": "adv",
+   "cefr": "B2"
   },
   {
    "id": "t03-3-008",
@@ -547,7 +633,9 @@
    "answer": [
     "simplify"
    ],
-   "explain": "Verbo: SIMPLE → SIMPLIFY."
+   "explain": "Verbo: SIMPLE → SIMPLIFY.",
+   "skill": "verb",
+   "cefr": "B2"
   },
   {
    "id": "t03-3-009",
@@ -558,7 +646,9 @@
    "answer": [
     "approval"
    ],
-   "explain": "Depois de THE: substantivo."
+   "explain": "Depois de THE: substantivo.",
+   "skill": "noun",
+   "cefr": "B2"
   },
   {
    "id": "t03-3-010",
@@ -569,7 +659,9 @@
    "answer": [
     "improved"
    ],
-   "explain": "Present perfect: HAS + particípio."
+   "explain": "Present perfect: HAS + particípio.",
+   "skill": "verb",
+   "cefr": "B2"
   },
   {
    "id": "t03-3-011",
@@ -580,7 +672,9 @@
    "answer": [
     "failure"
    ],
-   "explain": "Depois de THEIR: substantivo."
+   "explain": "Depois de THEIR: substantivo.",
+   "skill": "noun",
+   "cefr": "B2"
   },
   {
    "id": "t03-3-012",
@@ -591,7 +685,9 @@
    "answer": [
     "competitive"
    ],
-   "explain": "Antes de substantivo: adjetivo."
+   "explain": "Antes de substantivo: adjetivo.",
+   "skill": "adj",
+   "cefr": "B2"
   },
   {
    "id": "t03-3-013",
@@ -602,7 +698,9 @@
    "answer": [
     "politely"
    ],
-   "explain": "Modificando o verbo: advérbio."
+   "explain": "Modificando o verbo: advérbio.",
+   "skill": "adv",
+   "cefr": "B2"
   },
   {
    "id": "t03-3-014",
@@ -613,7 +711,9 @@
    "answer": [
     "compliant"
    ],
-   "explain": "Depois de IS NOT: adjetivo."
+   "explain": "Depois de IS NOT: adjetivo.",
+   "skill": "adj",
+   "cefr": "B2"
   },
   {
    "id": "t03-3-015",
@@ -624,7 +724,9 @@
    "answer": [
     "misunderstanding"
    ],
-   "explain": "MIS- = errado."
+   "explain": "MIS- = errado.",
+   "skill": "noun",
+   "cefr": "B2"
   },
   {
    "id": "t03-3-016",
@@ -638,7 +740,9 @@
     "depth"
    ],
    "answer": "deeply",
-   "explain": "Modificando o adjetivo: advérbio."
+   "explain": "Modificando o adjetivo: advérbio.",
+   "skill": "adv",
+   "cefr": "B2"
   },
   {
    "id": "t03-3-017",
@@ -652,7 +756,9 @@
     "depend"
    ],
    "answer": "dependence",
-   "explain": "Depois de OUR: substantivo."
+   "explain": "Depois de OUR: substantivo.",
+   "skill": "noun",
+   "cefr": "B2"
   },
   {
    "id": "t03-3-018",
@@ -666,7 +772,9 @@
     "I very hardly work."
    ],
    "answer": "I work very hard.",
-   "explain": "HARD é o advérbio de esforço; HARDLY = quase não."
+   "explain": "HARD é o advérbio de esforço; HARDLY = quase não.",
+   "skill": "tricky",
+   "cefr": "B2"
   }
  ]
 }

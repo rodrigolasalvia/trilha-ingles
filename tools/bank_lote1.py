@@ -46,6 +46,7 @@ BANK = {
 ("gap","I went to the bank ___ (get) some cash.",["to get","in order to get"],"Finalidade: TO."),
 ("gap","They denied ___ (know) about it.",["knowing"],"DENY + -ING."),
 ("fix","Thanks for help me.",["Thanks for helping me.","Thanks for helped me.","Thanks for to help me."],"Thanks for helping me.","Depois de FOR, -ING."),
+("gap","___ (learn) a new language takes time.",["Learning"],"Verbo como sujeito da frase: forma -ING."),
 ],
 3: [
 ("gap","When it comes to ___ (negotiate), she is the best.",["negotiating"],"WHEN IT COMES TO: TO preposição, pede -ING."),
@@ -66,6 +67,8 @@ BANK = {
 ("mcq","She was the first ___ the problem.",["to notice","noticing","notice"],"to notice","THE FIRST / THE LAST + TO."),
 ("fix","I look forward to hear from you.",["I look forward to hearing from you.","I look forward hearing from you.","I look forward to heard from you."],"I look forward to hearing from you.","LOOK FORWARD TO + -ING."),
 ("mcq","It's worth ___ the clause again.",["reading","to read","read"],"reading","IT'S WORTH + -ING = vale a pena."),
+("fix","Negotiate with suppliers is hard.",["Negotiating with suppliers is hard.","To negotiating with suppliers is hard.","Negotiates with suppliers is hard."],"Negotiating with suppliers is hard.","Verbo como sujeito da frase: forma -ING."),
+("gap","We hired a consultant ___ (reduce) costs.",["to reduce","in order to reduce"],"Finalidade: TO."),
 ],
 },
 "t02": {
