@@ -242,6 +242,166 @@
    "cefr": "C1"
   },
   {
+   "id": "t25-1-016",
+   "topic": "t25",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Seldom ___ such commitment.'",
+   "options": [
+    "have I seen",
+    "I have seen",
+    "I saw"
+   ],
+   "answer": "have I seen",
+   "explain": "SELDOM + inversão.",
+   "skill": "negadv",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-1-017",
+   "topic": "t25",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Not only ___ the target, but we also exceeded it.'",
+   "options": [
+    "did we meet",
+    "we met",
+    "we did meet"
+   ],
+   "answer": "did we meet",
+   "explain": "NOT ONLY + DID + sujeito.",
+   "skill": "notonly",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-1-018",
+   "topic": "t25",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'No sooner had I sat down ___ my phone rang.'",
+   "options": [
+    "than",
+    "when",
+    "that"
+   ],
+   "answer": "than",
+   "explain": "NO SOONER ... THAN.",
+   "skill": "nosooner",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-1-019",
+   "topic": "t25",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'___ any problems, please let us know.' (formal: se houver)",
+   "options": [
+    "Should there be",
+    "Should be there",
+    "If should be"
+   ],
+   "answer": "Should there be",
+   "explain": "SHOULD THERE BE = IF THERE IS.",
+   "skill": "invcond",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-1-020",
+   "topic": "t25",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Only then ___ the risk.'",
+   "options": [
+    "did we understand",
+    "we understood",
+    "understood we"
+   ],
+   "answer": "did we understand",
+   "explain": "ONLY THEN + inversão.",
+   "skill": "onlyinv",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-1-021",
+   "topic": "t25",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'What I need ___ a quiet place to work.'",
+   "options": [
+    "is",
+    "are",
+    "it is"
+   ],
+   "answer": "is",
+   "explain": "WHAT-clause + IS.",
+   "skill": "cleftwhat",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-1-022",
+   "topic": "t25",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'It was the CFO ___ approved the budget.'",
+   "options": [
+    "who",
+    "which",
+    "what"
+   ],
+   "answer": "who",
+   "explain": "IT WAS + pessoa + WHO.",
+   "skill": "cleftit",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-1-023",
+   "topic": "t25",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I ___ appreciate your help.' (ênfase)",
+   "options": [
+    "do",
+    "am",
+    "does"
+   ],
+   "answer": "do",
+   "explain": "DO enfático.",
+   "skill": "emphdo",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-1-024",
+   "topic": "t25",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'At no time ___ the data shared.'",
+   "options": [
+    "was",
+    "it was",
+    "did"
+   ],
+   "answer": "was",
+   "explain": "AT NO TIME + inversão.",
+   "skill": "negadv",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-1-025",
+   "topic": "t25",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'___ it not for the delay, we would have won.'",
+   "options": [
+    "Were",
+    "Was",
+    "If"
+   ],
+   "answer": "Were",
+   "explain": "WERE IT NOT FOR.",
+   "skill": "invcond",
+   "cefr": "C1"
+  },
+  {
    "id": "t25-2-001",
    "topic": "t25",
    "level": 2,
@@ -462,6 +622,149 @@
    "cefr": "C1"
   },
   {
+   "id": "t25-2-016",
+   "topic": "t25",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Rarely ___ (auxiliar) we receive complaints about this supplier.",
+   "answer": [
+    "do"
+   ],
+   "explain": "RARELY + DO + sujeito.",
+   "skill": "negadv",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-2-017",
+   "topic": "t25",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Not only she is smart, but she is also kind.",
+   "options": [
+    "Not only is she smart, but she is also kind.",
+    "Not only she smart is, but also kind.",
+    "Not only is smart she, but she also kind."
+   ],
+   "answer": "Not only is she smart, but she is also kind.",
+   "explain": "Inversão: IS SHE.",
+   "skill": "notonly",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-2-018",
+   "topic": "t25",
+   "level": 2,
+   "type": "gap",
+   "prompt": "No sooner ___ (auxiliar) we launched than a competitor copied us.",
+   "answer": [
+    "had"
+   ],
+   "explain": "NO SOONER HAD.",
+   "skill": "nosooner",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-2-019",
+   "topic": "t25",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Had we know, we would have acted.",
+   "options": [
+    "Had we known, we would have acted.",
+    "Had we knew, we would have acted.",
+    "If had we known, we would have acted."
+   ],
+   "answer": "Had we known, we would have acted.",
+   "explain": "HAD + particípio (KNOWN).",
+   "skill": "invcond",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-2-020",
+   "topic": "t25",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Only after the audit ___ (auxiliar) we realize the scale of the problem.",
+   "answer": [
+    "did"
+   ],
+   "explain": "ONLY AFTER + DID.",
+   "skill": "onlyinv",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-2-021",
+   "topic": "t25",
+   "level": 2,
+   "type": "fix",
+   "prompt": "What I like it is the flexibility.",
+   "options": [
+    "What I like is the flexibility.",
+    "What I like are the flexibility.",
+    "That I like is the flexibility."
+   ],
+   "answer": "What I like is the flexibility.",
+   "explain": "WHAT-clause + IS.",
+   "skill": "cleftwhat",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-2-022",
+   "topic": "t25",
+   "level": 2,
+   "type": "gap",
+   "prompt": "It was in Lisbon ___ (que) we first met.",
+   "answer": [
+    "that",
+    "where"
+   ],
+   "explain": "IT WAS + lugar + THAT.",
+   "skill": "cleftit",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-2-023",
+   "topic": "t25",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I did told you about the change.",
+   "options": [
+    "I did tell you about the change.",
+    "I did told you the change about.",
+    "I do told you about the change."
+   ],
+   "answer": "I did tell you about the change.",
+   "explain": "DID + verbo base.",
+   "skill": "emphdo",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-2-024",
+   "topic": "t25",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Hardly ___ (auxiliar) I arrived when the meeting ended.",
+   "answer": [
+    "had"
+   ],
+   "explain": "HARDLY HAD ... WHEN.",
+   "skill": "nosooner",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-2-025",
+   "topic": "t25",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Not only ___ (auxiliar) they deliver late, they also overcharged us.",
+   "answer": [
+    "did"
+   ],
+   "explain": "NOT ONLY DID.",
+   "skill": "notonly",
+   "cefr": "C1"
+  },
+  {
    "id": "t25-3-001",
    "topic": "t25",
    "level": 3,
@@ -664,6 +967,441 @@
    "explain": "HARDLY HAD ... WHEN.",
    "skill": "nosooner",
    "cefr": "C1"
+  },
+  {
+   "id": "t25-3-016",
+   "topic": "t25",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Never before ___ (auxiliar) the company faced such a crisis.",
+   "answer": [
+    "had",
+    "has"
+   ],
+   "explain": "NEVER BEFORE + HAD / HAS.",
+   "skill": "negadv",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-3-017",
+   "topic": "t25",
+   "level": 3,
+   "type": "gap",
+   "prompt": "___ (Se: inversão) you require further information, please contact us.",
+   "answer": [
+    "Should"
+   ],
+   "explain": "SHOULD + sujeito.",
+   "skill": "invcond",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-3-018",
+   "topic": "t25",
+   "level": 3,
+   "type": "gap",
+   "prompt": "What we ___ (precisamos) is a clear decision.",
+   "answer": [
+    "need"
+   ],
+   "explain": "WHAT WE NEED IS.",
+   "skill": "cleftwhat",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-3-019",
+   "topic": "t25",
+   "level": 3,
+   "type": "gap",
+   "prompt": "It ___ (era) not until Friday that we got the results.",
+   "answer": [
+    "was"
+   ],
+   "explain": "IT WAS NOT UNTIL ... THAT.",
+   "skill": "cleftit",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-3-020",
+   "topic": "t25",
+   "level": 3,
+   "type": "gap",
+   "prompt": "She ___ (enfático: did) make an effort, to be fair.",
+   "answer": [
+    "did"
+   ],
+   "explain": "DID enfático.",
+   "skill": "emphdo",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-3-021",
+   "topic": "t25",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Not until the end did we see the results.",
+   "explain": "NOT UNTIL + inversão.",
+   "skill": "onlyinv",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-3-022",
+   "topic": "t25",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Under no circumstances should you share this file.",
+   "explain": "UNDER NO CIRCUMSTANCES + SHOULD.",
+   "skill": "negadv",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-3-023",
+   "topic": "t25",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "It was the legal team that found the error.",
+   "explain": "Cleft com IT.",
+   "skill": "cleftit",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-3-024",
+   "topic": "t25",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Only when the CEO intervened was the conflict resolved.",
+    "Only when the CEO intervened the conflict was resolved.",
+    "Only when intervened the CEO was resolved the conflict."
+   ],
+   "answer": "Only when the CEO intervened was the conflict resolved.",
+   "explain": "ONLY WHEN + inversão na principal.",
+   "skill": "onlyinv",
+   "cefr": "C1"
+  },
+  {
+   "id": "t25-3-025",
+   "topic": "t25",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Not only does it reduce costs, but it also saves time.",
+    "Not only it reduces costs, but it also saves time.",
+    "Not only does it reduces costs, but also saves time."
+   ],
+   "answer": "Not only does it reduce costs, but it also saves time.",
+   "explain": "NOT ONLY DOES + verbo base.",
+   "skill": "notonly",
+   "cefr": "C1"
+  },
+  {
+   "topic": "t25",
+   "level": 2,
+   "skill": "negadv",
+   "cefr": "C1",
+   "id": "t25-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Never have I seen such a mess.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Inversão: HAVE I."
+  },
+  {
+   "topic": "t25",
+   "level": 2,
+   "skill": "notonly",
+   "cefr": "C1",
+   "id": "t25-2-003v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Not only did they miss the deadline, but they also lied.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Passado: NOT ONLY DID + sujeito + verbo base."
+  },
+  {
+   "topic": "t25",
+   "level": 2,
+   "skill": "nosooner",
+   "cefr": "C1",
+   "id": "t25-2-005v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "No sooner had we arrived than it started to rain.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. NO SOONER HAD + sujeito ... THAN."
+  },
+  {
+   "topic": "t25",
+   "level": 2,
+   "skill": "invcond",
+   "cefr": "C1",
+   "id": "t25-2-007v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Should you need help, call me.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Ou IF, ou inversão; nunca os dois."
+  },
+  {
+   "topic": "t25",
+   "level": 2,
+   "skill": "onlyinv",
+   "cefr": "C1",
+   "id": "t25-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Only then did we realize the mistake.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. ONLY THEN + DID + sujeito."
+  },
+  {
+   "topic": "t25",
+   "level": 2,
+   "skill": "cleftwhat",
+   "cefr": "C1",
+   "id": "t25-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "What we need is more time.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. WHAT-clause é singular: IS."
+  },
+  {
+   "topic": "t25",
+   "level": 2,
+   "skill": "cleftit",
+   "cefr": "C1",
+   "id": "t25-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It was the CFO who approved it.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Cleft precisa de IT."
+  },
+  {
+   "topic": "t25",
+   "level": 2,
+   "skill": "emphdo",
+   "cefr": "C1",
+   "id": "t25-2-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I do understand your point.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. DO + verbo base."
+  },
+  {
+   "topic": "t25",
+   "level": 2,
+   "skill": "notonly",
+   "cefr": "C1",
+   "id": "t25-2-017v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Not only is she smart, but she is also kind.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Inversão: IS SHE."
+  },
+  {
+   "topic": "t25",
+   "level": 2,
+   "skill": "invcond",
+   "cefr": "C1",
+   "id": "t25-2-019v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Had we known, we would have acted.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. HAD + particípio (KNOWN)."
+  },
+  {
+   "topic": "t25",
+   "level": 2,
+   "skill": "cleftwhat",
+   "cefr": "C1",
+   "id": "t25-2-021v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "What I like is the flexibility.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. WHAT-clause + IS."
+  },
+  {
+   "topic": "t25",
+   "level": 2,
+   "skill": "emphdo",
+   "cefr": "C1",
+   "id": "t25-2-023v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I did tell you about the change.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. DID + verbo base."
+  },
+  {
+   "topic": "t25",
+   "level": 3,
+   "skill": "nosooner",
+   "cefr": "C1",
+   "id": "t25-3-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "No sooner had she left than the client arrived.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. NO SOONER HAD ... THAN."
+  },
+  {
+   "topic": "t25",
+   "level": 3,
+   "skill": "onlyinv",
+   "cefr": "C1",
+   "id": "t25-3-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Only by working together we can solve this.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Only by working together can we solve this. ONLY BY + -ING + inversão."
+  },
+  {
+   "topic": "t25",
+   "level": 3,
+   "skill": "invcond",
+   "cefr": "C1",
+   "id": "t25-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Were I in your position, I would accept.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. WERE I = IF I WERE."
+  },
+  {
+   "topic": "t25",
+   "level": 3,
+   "skill": "cleftit",
+   "cefr": "C1",
+   "id": "t25-3-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It was Maria which found the error.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: It was Maria who found the error. IT WAS + pessoa + WHO."
+  },
+  {
+   "topic": "t25",
+   "level": 3,
+   "skill": "nosooner",
+   "cefr": "C1",
+   "id": "t25-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Hardly had we started when the power went out.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. HARDLY HAD ... WHEN."
+  },
+  {
+   "topic": "t25",
+   "level": 3,
+   "skill": "onlyinv",
+   "cefr": "C1",
+   "id": "t25-3-024v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Only when the CEO intervened the conflict was resolved.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Only when the CEO intervened was the conflict resolved. ONLY WHEN + inversão na principal."
+  },
+  {
+   "topic": "t25",
+   "level": 3,
+   "skill": "notonly",
+   "cefr": "C1",
+   "id": "t25-3-025v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Not only does it reduce costs, but it also saves time.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. NOT ONLY DOES + verbo base."
   }
  ]
 }

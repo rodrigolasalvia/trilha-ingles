@@ -242,6 +242,166 @@
    "cefr": "B1"
   },
   {
+   "id": "t22-1-016",
+   "topic": "t22",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Can I see your ___ pass, please?'",
+   "options": [
+    "boarding",
+    "board",
+    "boarded"
+   ],
+   "answer": "boarding",
+   "explain": "BOARDING PASS = cartão de embarque.",
+   "skill": "airport",
+   "cefr": "B1"
+  },
+  {
+   "id": "t22-1-017",
+   "topic": "t22",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'How many bags are you ___ in?'",
+   "options": [
+    "checking",
+    "doing",
+    "making"
+   ],
+   "answer": "checking",
+   "explain": "CHECK IN BAGS = despachar.",
+   "skill": "airport",
+   "cefr": "B1"
+  },
+  {
+   "id": "t22-1-018",
+   "topic": "t22",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'My suitcase is ___.' (sumiu)",
+   "options": [
+    "missing",
+    "lost of",
+    "losing"
+   ],
+   "answer": "missing",
+   "explain": "MISSING = desaparecida.",
+   "skill": "luggage",
+   "cefr": "B1"
+  },
+  {
+   "id": "t22-1-019",
+   "topic": "t22",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I'd like to ___ a room for two nights.'",
+   "options": [
+    "book",
+    "reserve to",
+    "make"
+   ],
+   "answer": "book",
+   "explain": "BOOK A ROOM.",
+   "skill": "hotel",
+   "cefr": "B1"
+  },
+  {
+   "id": "t22-1-020",
+   "topic": "t22",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'The Wi-Fi isn't ___.'",
+   "options": [
+    "working",
+    "functioning on",
+    "going on"
+   ],
+   "answer": "working",
+   "explain": "ISN'T WORKING.",
+   "skill": "hotelprob",
+   "cefr": "B1"
+  },
+  {
+   "id": "t22-1-021",
+   "topic": "t22",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Are you ready to ___?'",
+   "options": [
+    "order",
+    "ask",
+    "request for"
+   ],
+   "answer": "order",
+   "explain": "READY TO ORDER?",
+   "skill": "restaurant",
+   "cefr": "B1"
+  },
+  {
+   "id": "t22-1-022",
+   "topic": "t22",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Turn ___ at the second traffic light.'",
+   "options": [
+    "left",
+    "to left",
+    "the left to"
+   ],
+   "answer": "left",
+   "explain": "TURN LEFT.",
+   "skill": "directions",
+   "cefr": "B1"
+  },
+  {
+   "id": "t22-1-023",
+   "topic": "t22",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Do you accept credit ___?'",
+   "options": [
+    "cards",
+    "card's",
+    "carding"
+   ],
+   "answer": "cards",
+   "explain": "DO YOU ACCEPT CREDIT CARDS?",
+   "skill": "shopping",
+   "cefr": "B1"
+  },
+  {
+   "id": "t22-1-024",
+   "topic": "t22",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Where's the nearest ___?' (farmácia)",
+   "options": [
+    "pharmacy",
+    "pharmacist",
+    "drugstore's"
+   ],
+   "answer": "pharmacy",
+   "explain": "PHARMACY / DRUGSTORE.",
+   "skill": "help",
+   "cefr": "B1"
+  },
+  {
+   "id": "t22-1-025",
+   "topic": "t22",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Could I have a ___ seat?' (janela)",
+   "options": [
+    "window",
+    "glass",
+    "view"
+   ],
+   "answer": "window",
+   "explain": "WINDOW SEAT.",
+   "skill": "airport",
+   "cefr": "B1"
+  },
+  {
    "id": "t22-2-001",
    "topic": "t22",
    "level": 2,
@@ -460,6 +620,149 @@
    "cefr": "B1"
   },
   {
+   "id": "t22-2-016",
+   "topic": "t22",
+   "level": 2,
+   "type": "gap",
+   "prompt": "My flight has been ___ (atrasado) by two hours.",
+   "answer": [
+    "delayed"
+   ],
+   "explain": "DELAYED.",
+   "skill": "airport",
+   "cefr": "B1"
+  },
+  {
+   "id": "t22-2-017",
+   "topic": "t22",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I need to ___ (registrar) a claim for my damaged bag.",
+   "answer": [
+    "file",
+    "make"
+   ],
+   "explain": "FILE A CLAIM.",
+   "skill": "luggage",
+   "cefr": "B1"
+  },
+  {
+   "id": "t22-2-018",
+   "topic": "t22",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Can I make the checkout now?",
+   "options": [
+    "Can I check out now?",
+    "Can I do the checkout now?",
+    "Can I make check out now?"
+   ],
+   "answer": "Can I check out now?",
+   "explain": "Verbo: CHECK OUT.",
+   "skill": "hotel",
+   "cefr": "B1"
+  },
+  {
+   "id": "t22-2-019",
+   "topic": "t22",
+   "level": 2,
+   "type": "fix",
+   "prompt": "My room is very noisy, I want change it.",
+   "options": [
+    "My room is very noisy. Could I change rooms?",
+    "My room is very noisy, I want change room.",
+    "My room very noisy, change please."
+   ],
+   "answer": "My room is very noisy. Could I change rooms?",
+   "explain": "Pedido educado: COULD I CHANGE ROOMS?",
+   "skill": "hotelprob",
+   "cefr": "B1"
+  },
+  {
+   "id": "t22-2-020",
+   "topic": "t22",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I would like a steak very well done cooked.",
+   "options": [
+    "I'd like my steak well done.",
+    "I'd like a steak cooked very well done.",
+    "I'd like the steak doing well."
+   ],
+   "answer": "I'd like my steak well done.",
+   "explain": "Ponto da carne: WELL DONE / MEDIUM / RARE.",
+   "skill": "restaurant",
+   "cefr": "B1"
+  },
+  {
+   "id": "t22-2-021",
+   "topic": "t22",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Is it far ___ (preposição) here?",
+   "answer": [
+    "from"
+   ],
+   "explain": "FAR FROM.",
+   "skill": "directions",
+   "cefr": "B1"
+  },
+  {
+   "id": "t22-2-022",
+   "topic": "t22",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Can I change this shirt? It's very big.",
+   "options": [
+    "Can I exchange this shirt? It's too big.",
+    "Can I change this shirt? It's too much big.",
+    "Can I exchange this shirt? It's very bigger."
+   ],
+   "answer": "Can I exchange this shirt? It's too big.",
+   "explain": "Trocar na loja: EXCHANGE; TOO BIG.",
+   "skill": "shopping",
+   "cefr": "B1"
+  },
+  {
+   "id": "t22-2-023",
+   "topic": "t22",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I think I've been ___ (roubado). My wallet is gone.",
+   "answer": [
+    "robbed"
+   ],
+   "explain": "ROB alguém: I'VE BEEN ROBBED.",
+   "skill": "help",
+   "cefr": "B1"
+  },
+  {
+   "id": "t22-2-024",
+   "topic": "t22",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Could we have the ___ (cardápio), please?",
+   "answer": [
+    "menu"
+   ],
+   "explain": "THE MENU.",
+   "skill": "restaurant",
+   "cefr": "B1"
+  },
+  {
+   "id": "t22-2-025",
+   "topic": "t22",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Is there a ___ (traslado) to the airport?",
+   "answer": [
+    "shuttle"
+   ],
+   "explain": "SHUTTLE = traslado.",
+   "skill": "hotel",
+   "cefr": "B1"
+  },
+  {
    "id": "t22-3-001",
    "topic": "t22",
    "level": 3,
@@ -663,6 +966,280 @@
    "explain": "IS THERE...?",
    "skill": "directions",
    "cefr": "B2"
+  },
+  {
+   "id": "t22-3-016",
+   "topic": "t22",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Our flight was ___ (desviado) to another airport.",
+   "answer": [
+    "diverted"
+   ],
+   "explain": "DIVERTED.",
+   "skill": "airport",
+   "cefr": "B2"
+  },
+  {
+   "id": "t22-3-017",
+   "topic": "t22",
+   "level": 3,
+   "type": "gap",
+   "prompt": "My bag was ___ (danificada) during the flight.",
+   "answer": [
+    "damaged"
+   ],
+   "explain": "DAMAGED.",
+   "skill": "luggage",
+   "cefr": "B2"
+  },
+  {
+   "id": "t22-3-018",
+   "topic": "t22",
+   "level": 3,
+   "type": "gap",
+   "prompt": "There seems to be a mistake on my ___ (conta: hotel).",
+   "answer": [
+    "bill"
+   ],
+   "explain": "BILL (conta do hotel).",
+   "skill": "hotelprob",
+   "cefr": "B2"
+  },
+  {
+   "id": "t22-3-019",
+   "topic": "t22",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Could you ___ (mostrar) me on the map?",
+   "answer": [
+    "show"
+   ],
+   "explain": "SHOW ME ON THE MAP.",
+   "skill": "directions",
+   "cefr": "B2"
+  },
+  {
+   "id": "t22-3-020",
+   "topic": "t22",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'd like to ___ (devolver) this. It doesn't fit.",
+   "answer": [
+    "return"
+   ],
+   "explain": "RETURN = devolver.",
+   "skill": "shopping",
+   "cefr": "B2"
+  },
+  {
+   "id": "t22-3-021",
+   "topic": "t22",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Could you call a taxi for me, please?",
+   "explain": "Pedir ajuda na recepção.",
+   "skill": "help",
+   "cefr": "B2"
+  },
+  {
+   "id": "t22-3-022",
+   "topic": "t22",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Is service included in the bill?",
+   "explain": "Restaurante: serviço incluído?",
+   "skill": "restaurant",
+   "cefr": "B2"
+  },
+  {
+   "id": "t22-3-023",
+   "topic": "t22",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "How long does it take to get to the city center?",
+   "explain": "Direções / tempo.",
+   "skill": "directions",
+   "cefr": "B2"
+  },
+  {
+   "id": "t22-3-024",
+   "topic": "t22",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual pedido funciona melhor na recepção?",
+   "options": [
+    "I booked a sea view room, but this one faces the parking lot. Is there anything you can do?",
+    "This room is bad. Change.",
+    "I want other room now."
+   ],
+   "answer": "I booked a sea view room, but this one faces the parking lot. Is there anything you can do?",
+   "explain": "Fato + pedido educado.",
+   "skill": "hotelprob",
+   "cefr": "B2"
+  },
+  {
+   "id": "t22-3-025",
+   "topic": "t22",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual frase é adequada ao perder um documento?",
+   "options": [
+    "I've lost my passport. Where can I report it?",
+    "I lost my passport. Where I report?",
+    "My passport is losing. Where report?"
+   ],
+   "answer": "I've lost my passport. Where can I report it?",
+   "explain": "Present Perfect + pergunta.",
+   "skill": "help",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t22",
+   "level": 2,
+   "skill": "airport",
+   "cefr": "B1",
+   "id": "t22-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'd like to check in.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Verbo: CHECK IN."
+  },
+  {
+   "topic": "t22",
+   "level": 2,
+   "skill": "luggage",
+   "cefr": "B1",
+   "id": "t22-2-004v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I have two luggages.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I have two bags. LUGGAGE é incontável: use BAGS / PIECES OF LUGGAGE."
+  },
+  {
+   "topic": "t22",
+   "level": 2,
+   "skill": "hotel",
+   "cefr": "B1",
+   "id": "t22-2-005v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I have a reservation for three nights.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. RESERVATION / BOOKING."
+  },
+  {
+   "topic": "t22",
+   "level": 2,
+   "skill": "restaurant",
+   "cefr": "B1",
+   "id": "t22-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Can I have the check, please?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Conta = CHECK / BILL."
+  },
+  {
+   "topic": "t22",
+   "level": 2,
+   "skill": "directions",
+   "cefr": "B1",
+   "id": "t22-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "How do I get to the museum?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Pergunta com DO; GET TO."
+  },
+  {
+   "topic": "t22",
+   "level": 2,
+   "skill": "shopping",
+   "cefr": "B1",
+   "id": "t22-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Can I try on this jacket?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. TRY ON."
+  },
+  {
+   "topic": "t22",
+   "level": 2,
+   "skill": "hotel",
+   "cefr": "B1",
+   "id": "t22-2-018v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Can I make the checkout now?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Can I check out now? Verbo: CHECK OUT."
+  },
+  {
+   "topic": "t22",
+   "level": 2,
+   "skill": "hotelprob",
+   "cefr": "B1",
+   "id": "t22-2-019v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "My room is very noisy. Could I change rooms?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Pedido educado: COULD I CHANGE ROOMS?"
+  },
+  {
+   "topic": "t22",
+   "level": 2,
+   "skill": "restaurant",
+   "cefr": "B1",
+   "id": "t22-2-020v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I would like a steak very well done cooked.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I'd like my steak well done. Ponto da carne: WELL DONE / MEDIUM / RARE."
   }
  ]
 }

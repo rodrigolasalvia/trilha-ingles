@@ -242,6 +242,166 @@
    "cefr": "B2"
   },
   {
+   "id": "t08-1-016",
+   "topic": "t08",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Don't call me at noon. I ___ lunch with the director.",
+   "options": [
+    "'ll be having",
+    "'ll have had",
+    "have"
+   ],
+   "answer": "'ll be having",
+   "explain": "Em andamento num horário futuro: WILL BE + -ING.",
+   "skill": "futcont",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-1-017",
+   "topic": "t08",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "By the time you land, I ___ the hotel.",
+   "options": [
+    "'ll have booked",
+    "'ll be booking",
+    "book"
+   ],
+   "answer": "'ll have booked",
+   "explain": "Concluído antes de outro momento futuro.",
+   "skill": "futperf",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-1-018",
+   "topic": "t08",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We ___ hire two people, but the budget was cut.",
+   "options": [
+    "were going to",
+    "are going to",
+    "will"
+   ],
+   "answer": "were going to",
+   "explain": "Plano passado não realizado.",
+   "skill": "wasgoing",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-1-019",
+   "topic": "t08",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She ___ for the company for ten years when she retired.",
+   "options": [
+    "had been working",
+    "has been working",
+    "is working"
+   ],
+   "answer": "had been working",
+   "explain": "Duração até um ponto do passado: HAD BEEN + -ING.",
+   "skill": "ppcont",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-1-020",
+   "topic": "t08",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'll send the minutes after the meeting ___.",
+   "options": [
+    "ends",
+    "will end",
+    "would end"
+   ],
+   "answer": "ends",
+   "explain": "AFTER + presente com sentido de futuro.",
+   "skill": "timeclause",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-1-021",
+   "topic": "t08",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Quick, the train is ___ to leave!",
+   "options": [
+    "about",
+    "due",
+    "likely"
+   ],
+   "answer": "about",
+   "explain": "Prestes a: ABOUT TO.",
+   "skill": "aboutdue",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-1-022",
+   "topic": "t08",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The payment is ___ next Monday.",
+   "options": [
+    "due",
+    "about",
+    "likely"
+   ],
+   "answer": "due",
+   "explain": "Vence / previsto: DUE.",
+   "skill": "aboutdue",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-1-023",
+   "topic": "t08",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "While we ___ the contract, the lawyer called.",
+   "options": [
+    "were reviewing",
+    "reviewed",
+    "had reviewed"
+   ],
+   "answer": "were reviewing",
+   "explain": "Cenário: Past Continuous.",
+   "skill": "narrative",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-1-024",
+   "topic": "t08",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "On Fridays, the whole team ___ go out for pizza.",
+   "options": [
+    "would",
+    "will",
+    "was"
+   ],
+   "answer": "would",
+   "explain": "Hábito repetido no passado: WOULD.",
+   "skill": "wouldhabit",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-1-025",
+   "topic": "t08",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ you be joining us for dinner tonight?",
+   "options": [
+    "Will",
+    "Are",
+    "Do"
+   ],
+   "answer": "Will",
+   "explain": "Pergunta educada sobre planos: WILL YOU BE + -ING?",
+   "skill": "futcont",
+   "cefr": "B2"
+  },
+  {
    "id": "t08-2-001",
    "topic": "t08",
    "level": 2,
@@ -459,6 +619,150 @@
    "cefr": "B2"
   },
   {
+   "id": "t08-2-016",
+   "topic": "t08",
+   "level": 2,
+   "type": "gap",
+   "prompt": "By 2028, I ___ (pay) off my mortgage.",
+   "answer": [
+    "will have paid",
+    "'ll have paid"
+   ],
+   "explain": "BY + prazo: WILL HAVE + particípio.",
+   "skill": "futperf",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-2-017",
+   "topic": "t08",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We ___ (ia: open) a new office, but the plan changed.",
+   "answer": [
+    "were going to open"
+   ],
+   "explain": "'Íamos abrir' = WERE GOING TO + verbo.",
+   "skill": "wasgoing",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-2-018",
+   "topic": "t08",
+   "level": 2,
+   "type": "gap",
+   "prompt": "His eyes were red. He ___ (cry).",
+   "answer": [
+    "had been crying"
+   ],
+   "explain": "Evidência de uma atividade anterior: HAD BEEN + -ING.",
+   "skill": "ppcont",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-2-019",
+   "topic": "t08",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Before you will leave, please lock the door.",
+   "options": [
+    "Before you leave, please lock the door.",
+    "Before you'll leave, please lock the door.",
+    "Before you left, please lock the door."
+   ],
+   "answer": "Before you leave, please lock the door.",
+   "explain": "BEFORE + presente.",
+   "skill": "timeclause",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-2-020",
+   "topic": "t08",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The train is about leaving.",
+   "options": [
+    "The train is about to leave.",
+    "The train is about leave.",
+    "The train is about to leaving."
+   ],
+   "answer": "The train is about to leave.",
+   "explain": "ABOUT TO + verbo.",
+   "skill": "aboutdue",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-2-021",
+   "topic": "t08",
+   "level": 2,
+   "type": "fix",
+   "prompt": "When I arrived, the meeting already started.",
+   "options": [
+    "When I arrived, the meeting had already started.",
+    "When I arrived, the meeting has already started.",
+    "When I arrived, the meeting was already start."
+   ],
+   "answer": "When I arrived, the meeting had already started.",
+   "explain": "O que veio antes: Past Perfect.",
+   "skill": "narrative",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-2-022",
+   "topic": "t08",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We would have a dog when I was a child.",
+   "options": [
+    "We used to have a dog when I was a child.",
+    "We would had a dog when I was a child.",
+    "We were having a dog when I was a child usually."
+   ],
+   "answer": "We used to have a dog when I was a child.",
+   "explain": "Estado (have = possuir): USED TO.",
+   "skill": "wouldhabit",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-2-023",
+   "topic": "t08",
+   "level": 2,
+   "type": "gap",
+   "prompt": "This time next month, we ___ (live) in Lisbon.",
+   "answer": [
+    "'ll be living",
+    "will be living"
+   ],
+   "explain": "WILL BE + -ING.",
+   "skill": "futcont",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-2-024",
+   "topic": "t08",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'll wait here until you ___ (come) back.",
+   "answer": [
+    "come"
+   ],
+   "explain": "UNTIL + presente.",
+   "skill": "timeclause",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-2-025",
+   "topic": "t08",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The new rules are ___ (provável) to change the market.",
+   "answer": [
+    "likely"
+   ],
+   "explain": "BE LIKELY TO.",
+   "skill": "aboutdue",
+   "cefr": "B2"
+  },
+  {
    "id": "t08-3-001",
    "topic": "t08",
    "level": 3,
@@ -661,6 +965,346 @@
    "explain": "WILL BE + -ING.",
    "skill": "futcont",
    "cefr": "B2"
+  },
+  {
+   "id": "t08-3-016",
+   "topic": "t08",
+   "level": 3,
+   "type": "gap",
+   "prompt": "By the end of the day, she ___ (interview) twelve candidates.",
+   "answer": [
+    "will have interviewed",
+    "'ll have interviewed"
+   ],
+   "explain": "WILL HAVE + particípio.",
+   "skill": "futperf",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-3-017",
+   "topic": "t08",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I ___ (ia: tell) you, but you were busy.",
+   "answer": [
+    "was going to tell"
+   ],
+   "explain": "WAS GOING TO + verbo.",
+   "skill": "wasgoing",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-3-018",
+   "topic": "t08",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We ___ (negotiate) for hours before they finally agreed.",
+   "answer": [
+    "had been negotiating"
+   ],
+   "explain": "HAD BEEN + -ING.",
+   "skill": "ppcont",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-3-019",
+   "topic": "t08",
+   "level": 3,
+   "type": "gap",
+   "prompt": "As soon as the payment ___ (clear), we'll ship the order.",
+   "answer": [
+    "clears",
+    "has cleared"
+   ],
+   "explain": "AS SOON AS + presente.",
+   "skill": "timeclause",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-3-020",
+   "topic": "t08",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The sun ___ (set) when we reached the hotel.",
+   "answer": [
+    "was setting"
+   ],
+   "explain": "Cenário em andamento: Past Continuous.",
+   "skill": "narrative",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-3-021",
+   "topic": "t08",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "This time tomorrow I will be flying to Chile.",
+   "explain": "WILL BE + -ING.",
+   "skill": "futcont",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-3-022",
+   "topic": "t08",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "My grandfather would tell us stories every night.",
+   "explain": "WOULD para hábito.",
+   "skill": "wouldhabit",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-3-023",
+   "topic": "t08",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "The new policy is due to start in January.",
+   "explain": "BE DUE TO.",
+   "skill": "aboutdue",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-3-024",
+   "topic": "t08",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Call me once you have arrived.",
+    "Call me once you will have arrived.",
+    "Call me once you will arrive."
+   ],
+   "answer": "Call me once you have arrived.",
+   "explain": "Oração de tempo: presente ou present perfect, sem WILL.",
+   "skill": "timeclause",
+   "cefr": "B2"
+  },
+  {
+   "id": "t08-3-025",
+   "topic": "t08",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "By next year, we will have opened three stores.",
+    "By next year, we will open three stores already.",
+    "By next year, we have opened three stores."
+   ],
+   "answer": "By next year, we will have opened three stores.",
+   "explain": "BY + futuro: WILL HAVE + particípio.",
+   "skill": "futperf",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t08",
+   "level": 2,
+   "skill": "futcont",
+   "cefr": "B2",
+   "id": "t08-2-002v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "At 9 tomorrow I'll be work.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: At 9 tomorrow I'll be working. WILL BE sempre com -ING."
+  },
+  {
+   "topic": "t08",
+   "level": 2,
+   "skill": "futperf",
+   "cefr": "B2",
+   "id": "t08-2-004v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "By June we will finished the project.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: By June we will have finished the project. Future Perfect: WILL HAVE + particípio."
+  },
+  {
+   "topic": "t08",
+   "level": 2,
+   "skill": "wasgoing",
+   "cefr": "B2",
+   "id": "t08-2-006v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I would call you yesterday, but I forgot.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I was going to call you yesterday, but I forgot. Plano do passado não realizado: WAS GOING TO."
+  },
+  {
+   "topic": "t08",
+   "level": 2,
+   "skill": "timeclause",
+   "cefr": "B2",
+   "id": "t08-2-008v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "When I will finish, I'll call you.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: When I finish, I'll call you. Oração de tempo: presente, sem WILL."
+  },
+  {
+   "topic": "t08",
+   "level": 2,
+   "skill": "aboutdue",
+   "cefr": "B2",
+   "id": "t08-2-010v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The report is previewed for Friday.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The report is due on Friday. 'Previsto para' = DUE (ON + dia)."
+  },
+  {
+   "topic": "t08",
+   "level": 2,
+   "skill": "wouldhabit",
+   "cefr": "B2",
+   "id": "t08-2-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I would live in Rio when I was young.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I used to live in Rio when I was young. Estado (live) no passado: só USED TO, não WOULD."
+  },
+  {
+   "topic": "t08",
+   "level": 2,
+   "skill": "timeclause",
+   "cefr": "B2",
+   "id": "t08-2-019v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Before you leave, please lock the door.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. BEFORE + presente."
+  },
+  {
+   "topic": "t08",
+   "level": 2,
+   "skill": "aboutdue",
+   "cefr": "B2",
+   "id": "t08-2-020v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The train is about leaving.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The train is about to leave. ABOUT TO + verbo."
+  },
+  {
+   "topic": "t08",
+   "level": 2,
+   "skill": "narrative",
+   "cefr": "B2",
+   "id": "t08-2-021v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "When I arrived, the meeting had already started.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. O que veio antes: Past Perfect."
+  },
+  {
+   "topic": "t08",
+   "level": 3,
+   "skill": "timeclause",
+   "cefr": "B2",
+   "id": "t08-3-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'll call you when I'll get there.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I'll call you when I get there. WHEN + presente; WILL só na oração principal."
+  },
+  {
+   "topic": "t08",
+   "level": 3,
+   "skill": "wasgoing",
+   "cefr": "B2",
+   "id": "t08-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She was going to resign, but they offered her a raise.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Plano interrompido: WAS GOING TO."
+  },
+  {
+   "topic": "t08",
+   "level": 3,
+   "skill": "timeclause",
+   "cefr": "B2",
+   "id": "t08-3-024v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Call me once you will have arrived.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Call me once you have arrived. Oração de tempo: presente ou present perfect, sem WILL."
+  },
+  {
+   "topic": "t08",
+   "level": 3,
+   "skill": "futperf",
+   "cefr": "B2",
+   "id": "t08-3-025v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "By next year, we will have opened three stores.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. BY + futuro: WILL HAVE + particípio."
   }
  ]
 }

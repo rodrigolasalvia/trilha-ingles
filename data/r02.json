@@ -290,6 +290,166 @@
    "cefr": "A2"
   },
   {
+   "id": "r02-1-019",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We ___ the contract last Tuesday.",
+   "options": [
+    "signed",
+    "have signed",
+    "sign"
+   ],
+   "answer": "signed",
+   "explain": "Tempo definido no passado: Past Simple.",
+   "skill": "past",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-020",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ you see the e-mail yesterday?",
+   "options": [
+    "Did",
+    "Have",
+    "Were"
+   ],
+   "answer": "Did",
+   "explain": "Pergunta no passado: DID + verbo base.",
+   "skill": "past",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-021",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I ___ dinner when the client called.",
+   "options": [
+    "was having",
+    "had",
+    "have"
+   ],
+   "answer": "was having",
+   "explain": "Ação em andamento interrompida: Past Continuous.",
+   "skill": "pastcont",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-022",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Have you ___ been to London?",
+   "options": [
+    "ever",
+    "never",
+    "already"
+   ],
+   "answer": "ever",
+   "explain": "Pergunta de experiência: HAVE YOU EVER...?",
+   "skill": "pp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-023",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Look at those clouds! It ___ rain.",
+   "options": [
+    "'s going to",
+    "will",
+    "rains"
+   ],
+   "answer": "'s going to",
+   "explain": "Previsão com evidência: GOING TO.",
+   "skill": "future",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-024",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The new office is ___ than the old one.",
+   "options": [
+    "bigger",
+    "more big",
+    "biggest"
+   ],
+   "answer": "bigger",
+   "explain": "Adjetivo curto: -ER (dobra o G).",
+   "skill": "comp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-025",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We don't have ___ time.",
+   "options": [
+    "much",
+    "many",
+    "a few"
+   ],
+   "answer": "much",
+   "explain": "Time é incontável: MUCH.",
+   "skill": "quant",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-026",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "You ___ wear a suit. It's a casual event.",
+   "options": [
+    "don't have to",
+    "mustn't",
+    "haven't"
+   ],
+   "answer": "don't have to",
+   "explain": "Não é necessário: DON'T HAVE TO.",
+   "skill": "oblig",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-027",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She ___ late for meetings.",
+   "options": [
+    "is never",
+    "never is",
+    "is ever"
+   ],
+   "answer": "is never",
+   "explain": "Advérbio de frequência depois do TO BE.",
+   "skill": "freq",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-1-028",
+   "topic": "r02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Please listen ___ the instructions.",
+   "options": [
+    "to",
+    "at",
+    "for"
+   ],
+   "answer": "to",
+   "explain": "LISTEN TO.",
+   "skill": "vprep",
+   "cefr": "A2"
+  },
+  {
    "id": "r02-2-001",
    "topic": "r02",
    "level": 2,
@@ -553,6 +713,152 @@
    "cefr": "A2"
   },
   {
+   "id": "r02-2-019",
+   "topic": "r02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I ___ (not / go) to the office yesterday.",
+   "answer": [
+    "didn't go",
+    "did not go"
+   ],
+   "explain": "DIDN'T + verbo base.",
+   "skill": "past",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-020",
+   "topic": "r02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "While I ___ (drive), my phone rang.",
+   "answer": [
+    "was driving"
+   ],
+   "explain": "WHILE + Past Continuous.",
+   "skill": "pastcont",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-021",
+   "topic": "r02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I've ___ (already / send) the invoice.",
+   "answer": [
+    "already sent"
+   ],
+   "explain": "Present Perfect: HAVE + particípio.",
+   "skill": "pp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-022",
+   "topic": "r02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'm ___ (meet) the supplier tomorrow at 10. It's in my calendar.",
+   "answer": [
+    "meeting"
+   ],
+   "explain": "Compromisso marcado: presente contínuo.",
+   "skill": "future",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-023",
+   "topic": "r02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "This is the most cheap option.",
+   "options": [
+    "This is the cheapest option.",
+    "This is the most cheapest option.",
+    "This is the more cheap option."
+   ],
+   "answer": "This is the cheapest option.",
+   "explain": "Curto: -EST.",
+   "skill": "comp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-024",
+   "topic": "r02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I need some informations.",
+   "options": [
+    "I need some information.",
+    "I need some information's.",
+    "I need an information."
+   ],
+   "answer": "I need some information.",
+   "explain": "Information é incontável.",
+   "skill": "quant",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-025",
+   "topic": "r02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "You don't must share your password.",
+   "options": [
+    "You mustn't share your password.",
+    "You don't have share your password.",
+    "You mustn't to share your password."
+   ],
+   "answer": "You mustn't share your password.",
+   "explain": "Proibição: MUSTN'T + verbo.",
+   "skill": "oblig",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-026",
+   "topic": "r02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I check always my e-mails in the morning.",
+   "options": [
+    "I always check my e-mails in the morning.",
+    "I check my e-mails always in the morning.",
+    "Always I check my e-mails in the morning."
+   ],
+   "answer": "I always check my e-mails in the morning.",
+   "explain": "Antes do verbo principal.",
+   "skill": "freq",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-027",
+   "topic": "r02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We're waiting the client.",
+   "options": [
+    "We're waiting for the client.",
+    "We're waiting to the client.",
+    "We're waiting by the client."
+   ],
+   "answer": "We're waiting for the client.",
+   "explain": "WAIT FOR.",
+   "skill": "vprep",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-2-028",
+   "topic": "r02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The training was really ___ (bore). I almost fell asleep.",
+   "answer": [
+    "boring"
+   ],
+   "explain": "O que causa o sentimento: -ING.",
+   "skill": "edging",
+   "cefr": "A2"
+  },
+  {
    "id": "r02-3-001",
    "topic": "r02",
    "level": 3,
@@ -778,6 +1084,392 @@
    "explain": "DON'T HAVE TO = não precisa.",
    "skill": "oblig",
    "cefr": "A2"
+  },
+  {
+   "id": "r02-3-019",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "When I arrived, they ___ (discuss) the budget.",
+   "answer": [
+    "were discussing"
+   ],
+   "explain": "Ação em andamento quando outra aconteceu.",
+   "skill": "pastcont",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-020",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I've lived here ___ (preposição) 2015.",
+   "answer": [
+    "since"
+   ],
+   "explain": "Ponto de início: SINCE.",
+   "skill": "pp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-021",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "This is ___ (good) hotel I've ever stayed in.",
+   "answer": [
+    "the best"
+   ],
+   "explain": "GOOD → THE BEST.",
+   "skill": "comp",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-022",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "There are only a ___ (poucos) seats left.",
+   "answer": [
+    "few"
+   ],
+   "explain": "Contável: A FEW.",
+   "skill": "quant",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-023",
+   "topic": "r02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'm really ___ (interest) in the project.",
+   "answer": [
+    "interested"
+   ],
+   "explain": "Como a pessoa se sente: -ED.",
+   "skill": "edging",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-024",
+   "topic": "r02",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Did you finish the report yesterday?",
+   "explain": "DID + sujeito + verbo base.",
+   "skill": "past",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-025",
+   "topic": "r02",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "You should talk to your manager first.",
+   "explain": "Conselho: SHOULD + verbo.",
+   "skill": "oblig",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-026",
+   "topic": "r02",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I will call you back in five minutes.",
+   "explain": "Decisão na hora: WILL.",
+   "skill": "future",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-027",
+   "topic": "r02",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I usually arrive at the office at 8.",
+    "I usually arrive to the office at 8.",
+    "I arrive usually in the office at 8."
+   ],
+   "answer": "I usually arrive at the office at 8.",
+   "explain": "ARRIVE AT (prédio / local).",
+   "skill": "vprep",
+   "cefr": "A2"
+  },
+  {
+   "id": "r02-3-028",
+   "topic": "r02",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "We hardly ever work on weekends.",
+    "We work hardly ever on weekends.",
+    "We hardly ever are working on weekends."
+   ],
+   "answer": "We hardly ever work on weekends.",
+   "explain": "Frequência antes do verbo principal.",
+   "skill": "freq",
+   "cefr": "A2"
+  },
+  {
+   "topic": "r02",
+   "level": 2,
+   "skill": "past",
+   "cefr": "A2",
+   "id": "r02-2-002v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I didn't went to the meeting.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I didn't go to the meeting. O passado fica no DID."
+  },
+  {
+   "topic": "r02",
+   "level": 2,
+   "skill": "pp",
+   "cefr": "A2",
+   "id": "r02-2-004v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I have finished it yesterday.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I finished it yesterday. Com YESTERDAY: Past Simple."
+  },
+  {
+   "topic": "r02",
+   "level": 2,
+   "skill": "future",
+   "cefr": "A2",
+   "id": "r02-2-007v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm going to travel tomorrow.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. 'Vou viajar' = BE GOING TO."
+  },
+  {
+   "topic": "r02",
+   "level": 2,
+   "skill": "comp",
+   "cefr": "A2",
+   "id": "r02-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "This option is better.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Nunca MORE + -ER."
+  },
+  {
+   "topic": "r02",
+   "level": 2,
+   "skill": "quant",
+   "cefr": "A2",
+   "id": "r02-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We need more information.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. INFORMATION é incontável."
+  },
+  {
+   "topic": "r02",
+   "level": 2,
+   "skill": "oblig",
+   "cefr": "A2",
+   "id": "r02-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "You don't have to come. It's optional.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. MUSTN'T proíbe; DON'T HAVE TO dispensa."
+  },
+  {
+   "topic": "r02",
+   "level": 2,
+   "skill": "freq",
+   "cefr": "A2",
+   "id": "r02-2-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I go always to the gym.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I always go to the gym. Advérbio antes do verbo principal."
+  },
+  {
+   "topic": "r02",
+   "level": 2,
+   "skill": "vprep",
+   "cefr": "A2",
+   "id": "r02-2-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It depends on the price.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. DEPEND ON."
+  },
+  {
+   "topic": "r02",
+   "level": 2,
+   "skill": "edging",
+   "cefr": "A2",
+   "id": "r02-2-018v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm very boring today. (sentido: entediado)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I'm very bored today. 'I'm boring' = eu sou chato."
+  },
+  {
+   "topic": "r02",
+   "level": 2,
+   "skill": "comp",
+   "cefr": "A2",
+   "id": "r02-2-023v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "This is the cheapest option.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Curto: -EST."
+  },
+  {
+   "topic": "r02",
+   "level": 2,
+   "skill": "quant",
+   "cefr": "A2",
+   "id": "r02-2-024v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I need some informations.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I need some information. Information é incontável."
+  },
+  {
+   "topic": "r02",
+   "level": 2,
+   "skill": "oblig",
+   "cefr": "A2",
+   "id": "r02-2-025v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "You mustn't share your password.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Proibição: MUSTN'T + verbo."
+  },
+  {
+   "topic": "r02",
+   "level": 2,
+   "skill": "freq",
+   "cefr": "A2",
+   "id": "r02-2-026v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I check always my e-mails in the morning.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I always check my e-mails in the morning. Antes do verbo principal."
+  },
+  {
+   "topic": "r02",
+   "level": 2,
+   "skill": "vprep",
+   "cefr": "A2",
+   "id": "r02-2-027v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We're waiting for the client.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. WAIT FOR."
+  },
+  {
+   "topic": "r02",
+   "level": 3,
+   "skill": "vprep",
+   "cefr": "A2",
+   "id": "r02-3-027v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I usually arrive at the office at 8.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. ARRIVE AT (prédio / local)."
+  },
+  {
+   "topic": "r02",
+   "level": 3,
+   "skill": "freq",
+   "cefr": "A2",
+   "id": "r02-3-028v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We work hardly ever on weekends.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: We hardly ever work on weekends. Frequência antes do verbo principal."
   }
  ]
 }

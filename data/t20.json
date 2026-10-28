@@ -242,6 +242,166 @@
    "cefr": "B1"
   },
   {
+   "id": "t20-1-016",
+   "topic": "t20",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Hi Ana, ___ you're well.'",
+   "options": [
+    "I hope",
+    "I wish",
+    "I want"
+   ],
+   "answer": "I hope",
+   "explain": "I HOPE YOU'RE WELL.",
+   "skill": "greeting",
+   "cefr": "B1"
+  },
+  {
+   "id": "t20-1-017",
+   "topic": "t20",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I'm writing to ___ you about a change in our process.'",
+   "options": [
+    "inform",
+    "informing",
+    "information"
+   ],
+   "answer": "inform",
+   "explain": "I'M WRITING TO INFORM YOU.",
+   "skill": "purpose",
+   "cefr": "B1"
+  },
+  {
+   "id": "t20-1-018",
+   "topic": "t20",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Could you ___ confirm receipt?'",
+   "options": [
+    "kindly",
+    "kind",
+    "kindness"
+   ],
+   "answer": "kindly",
+   "explain": "COULD YOU KINDLY...",
+   "skill": "request",
+   "cefr": "B1"
+  },
+  {
+   "id": "t20-1-019",
+   "topic": "t20",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'___ is the updated contract.'",
+   "options": [
+    "Attached",
+    "Attaching",
+    "Attach"
+   ],
+   "answer": "Attached",
+   "explain": "ATTACHED IS...",
+   "skill": "attach",
+   "cefr": "B1"
+  },
+  {
+   "id": "t20-1-020",
+   "topic": "t20",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Just ___ up on the proposal I sent last week.'",
+   "options": [
+    "following",
+    "follow",
+    "followed"
+   ],
+   "answer": "following",
+   "explain": "JUST FOLLOWING UP ON...",
+   "skill": "followup",
+   "cefr": "B1"
+  },
+  {
+   "id": "t20-1-021",
+   "topic": "t20",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Please reply ___ end of day.'",
+   "options": [
+    "by",
+    "until",
+    "in"
+   ],
+   "answer": "by",
+   "explain": "BY END OF DAY.",
+   "skill": "deadline",
+   "cefr": "B1"
+  },
+  {
+   "id": "t20-1-022",
+   "topic": "t20",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I ___ for the confusion.'",
+   "options": [
+    "apologize",
+    "sorry",
+    "excuse"
+   ],
+   "answer": "apologize",
+   "explain": "I APOLOGIZE FOR...",
+   "skill": "apology",
+   "cefr": "B1"
+  },
+  {
+   "id": "t20-1-023",
+   "topic": "t20",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Kind ___,'",
+   "options": [
+    "regards",
+    "regard",
+    "regarding"
+   ],
+   "answer": "regards",
+   "explain": "KIND REGARDS.",
+   "skill": "closing",
+   "cefr": "B1"
+  },
+  {
+   "id": "t20-1-024",
+   "topic": "t20",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'___ Sir or Madam,' (destinatário desconhecido)",
+   "options": [
+    "Dear",
+    "Hello dear",
+    "Hi dear"
+   ],
+   "answer": "Dear",
+   "explain": "DEAR SIR OR MADAM.",
+   "skill": "greeting",
+   "cefr": "B1"
+  },
+  {
+   "id": "t20-1-025",
+   "topic": "t20",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Let me know if you ___ any questions.'",
+   "options": [
+    "have",
+    "has",
+    "having"
+   ],
+   "answer": "have",
+   "explain": "LET ME KNOW IF YOU HAVE ANY QUESTIONS.",
+   "skill": "closing",
+   "cefr": "B1"
+  },
+  {
    "id": "t20-2-001",
    "topic": "t20",
    "level": 2,
@@ -464,6 +624,149 @@
    "cefr": "B2"
   },
   {
+   "id": "t20-2-016",
+   "topic": "t20",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'm writing ___ (preposição) behalf of the procurement team.",
+   "answer": [
+    "on"
+   ],
+   "explain": "ON BEHALF OF.",
+   "skill": "purpose",
+   "cefr": "B2"
+  },
+  {
+   "id": "t20-2-017",
+   "topic": "t20",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Could you please ___ (enviar) me the signed copy?",
+   "answer": [
+    "send",
+    "forward"
+   ],
+   "explain": "COULD YOU PLEASE SEND...",
+   "skill": "request",
+   "cefr": "B2"
+  },
+  {
+   "id": "t20-2-018",
+   "topic": "t20",
+   "level": 2,
+   "type": "fix",
+   "prompt": "In attachment the report.",
+   "options": [
+    "Please find the report attached.",
+    "In attachment is report.",
+    "Attached the report follows."
+   ],
+   "answer": "Please find the report attached.",
+   "explain": "PLEASE FIND ... ATTACHED.",
+   "skill": "attach",
+   "cefr": "B2"
+  },
+  {
+   "id": "t20-2-019",
+   "topic": "t20",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I didn't have answer from you yet.",
+   "options": [
+    "I haven't heard back from you yet.",
+    "I didn't heard from you yet.",
+    "I haven't had answer of you yet."
+   ],
+   "answer": "I haven't heard back from you yet.",
+   "explain": "HEAR BACK FROM.",
+   "skill": "followup",
+   "cefr": "B2"
+  },
+  {
+   "id": "t20-2-020",
+   "topic": "t20",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The deadline for submissions is ___ (preposição) Friday, March 3.",
+   "answer": [
+    "on"
+   ],
+   "explain": "ON + data.",
+   "skill": "deadline",
+   "cefr": "B2"
+  },
+  {
+   "id": "t20-2-021",
+   "topic": "t20",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Sorry for the inconvenient.",
+   "options": [
+    "Sorry for the inconvenience.",
+    "Sorry by the inconvenience.",
+    "Sorry for the inconveniently."
+   ],
+   "answer": "Sorry for the inconvenience.",
+   "explain": "Substantivo: INCONVENIENCE.",
+   "skill": "apology",
+   "cefr": "B2"
+  },
+  {
+   "id": "t20-2-022",
+   "topic": "t20",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Thank you in ___ (antecipadamente) for your help.",
+   "answer": [
+    "advance"
+   ],
+   "explain": "THANK YOU IN ADVANCE.",
+   "skill": "closing",
+   "cefr": "B2"
+  },
+  {
+   "id": "t20-2-023",
+   "topic": "t20",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Good ___ (manhã), Mr. Silva,",
+   "answer": [
+    "morning"
+   ],
+   "explain": "GOOD MORNING.",
+   "skill": "greeting",
+   "cefr": "B2"
+  },
+  {
+   "id": "t20-2-024",
+   "topic": "t20",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I would like that you send me the invoice.",
+   "options": [
+    "I would like you to send me the invoice.",
+    "I would like you send me the invoice.",
+    "I would like that you sent me the invoice."
+   ],
+   "answer": "I would like you to send me the invoice.",
+   "explain": "WOULD LIKE + pessoa + TO.",
+   "skill": "request",
+   "cefr": "B2"
+  },
+  {
+   "id": "t20-2-025",
+   "topic": "t20",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'm ___ (encaminhando) you the e-mail from the supplier.",
+   "answer": [
+    "forwarding"
+   ],
+   "explain": "FORWARD = encaminhar.",
+   "skill": "attach",
+   "cefr": "B2"
+  },
+  {
    "id": "t20-3-001",
    "topic": "t20",
    "level": 3,
@@ -664,6 +967,313 @@
    "explain": "REGARDING + assunto.",
    "skill": "purpose",
    "cefr": "B2"
+  },
+  {
+   "id": "t20-3-016",
+   "topic": "t20",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Following ___ (preposição) our meeting, here are the main points.",
+   "answer": [
+    "up on"
+   ],
+   "explain": "FOLLOWING UP ON.",
+   "skill": "followup",
+   "cefr": "B2"
+  },
+  {
+   "id": "t20-3-017",
+   "topic": "t20",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'm writing to ___ (pedir) an extension.",
+   "answer": [
+    "request",
+    "ask for"
+   ],
+   "explain": "REQUEST / ASK FOR.",
+   "skill": "request",
+   "cefr": "B2"
+  },
+  {
+   "id": "t20-3-018",
+   "topic": "t20",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Please ___ (observar) that the office will be closed on Monday.",
+   "answer": [
+    "note"
+   ],
+   "explain": "PLEASE NOTE THAT.",
+   "skill": "purpose",
+   "cefr": "B2"
+  },
+  {
+   "id": "t20-3-019",
+   "topic": "t20",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We would need your approval ___ (até) Wednesday at the latest.",
+   "answer": [
+    "by"
+   ],
+   "explain": "BY + prazo; AT THE LATEST.",
+   "skill": "deadline",
+   "cefr": "B2"
+  },
+  {
+   "id": "t20-3-020",
+   "topic": "t20",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Please ___ (aceitar) my apologies for the late reply.",
+   "answer": [
+    "accept"
+   ],
+   "explain": "PLEASE ACCEPT MY APOLOGIES.",
+   "skill": "apology",
+   "cefr": "B2"
+  },
+  {
+   "id": "t20-3-021",
+   "topic": "t20",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Please let me know if you need anything else.",
+   "explain": "Fechamento útil.",
+   "skill": "closing",
+   "cefr": "B2"
+  },
+  {
+   "id": "t20-3-022",
+   "topic": "t20",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I am writing to confirm our meeting on Tuesday.",
+   "explain": "Objetivo do e-mail.",
+   "skill": "purpose",
+   "cefr": "B2"
+  },
+  {
+   "id": "t20-3-023",
+   "topic": "t20",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Sorry for the delay in getting back to you.",
+   "explain": "Desculpas pelo atraso.",
+   "skill": "apology",
+   "cefr": "B2"
+  },
+  {
+   "id": "t20-3-024",
+   "topic": "t20",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual follow-up é educado e firme?",
+   "options": [
+    "Could you give me an update on this by Thursday?",
+    "Answer me today.",
+    "Why is this taking so long?"
+   ],
+   "answer": "Could you give me an update on this by Thursday?",
+   "explain": "Pedido + prazo, sem acusar.",
+   "skill": "followup",
+   "cefr": "B2"
+  },
+  {
+   "id": "t20-3-025",
+   "topic": "t20",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual abertura é adequada para um contato novo?",
+   "options": [
+    "Dear Ms. Costa, I hope this message finds you well.",
+    "Hey Costa, what's up?",
+    "Hi dear, how are you?"
+   ],
+   "answer": "Dear Ms. Costa, I hope this message finds you well.",
+   "explain": "Formal: DEAR MS. + sobrenome.",
+   "skill": "greeting",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t20",
+   "level": 2,
+   "skill": "greeting",
+   "cefr": "B2",
+   "id": "t20-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Dear John, (primeiro nome)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. MR. + sobrenome, nunca + primeiro nome."
+  },
+  {
+   "topic": "t20",
+   "level": 2,
+   "skill": "request",
+   "cefr": "B2",
+   "id": "t20-2-005v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I would appreciate it if you could reply.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. APPRECIATE IT IF."
+  },
+  {
+   "topic": "t20",
+   "level": 2,
+   "skill": "attach",
+   "cefr": "B2",
+   "id": "t20-2-007v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Please find attached the contract.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. 'Segue anexo' = PLEASE FIND ATTACHED / I'VE ATTACHED."
+  },
+  {
+   "topic": "t20",
+   "level": 2,
+   "skill": "followup",
+   "cefr": "B2",
+   "id": "t20-2-010v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm doing a follow up of my e-mail.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I'm following up on my e-mail. Verbo: FOLLOW UP ON."
+  },
+  {
+   "topic": "t20",
+   "level": 2,
+   "skill": "deadline",
+   "cefr": "B2",
+   "id": "t20-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Please send it by Friday. (prazo)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Prazo = BY. UNTIL = duração."
+  },
+  {
+   "topic": "t20",
+   "level": 2,
+   "skill": "apology",
+   "cefr": "B2",
+   "id": "t20-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Sorry for the delay in replying.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. IN + -ING."
+  },
+  {
+   "topic": "t20",
+   "level": 2,
+   "skill": "closing",
+   "cefr": "B2",
+   "id": "t20-2-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I look forward to hearing from you.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. TO preposição + -ING."
+  },
+  {
+   "topic": "t20",
+   "level": 2,
+   "skill": "attach",
+   "cefr": "B2",
+   "id": "t20-2-018v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "In attachment the report.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Please find the report attached. PLEASE FIND ... ATTACHED."
+  },
+  {
+   "topic": "t20",
+   "level": 2,
+   "skill": "followup",
+   "cefr": "B2",
+   "id": "t20-2-019v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I haven't heard back from you yet.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. HEAR BACK FROM."
+  },
+  {
+   "topic": "t20",
+   "level": 2,
+   "skill": "apology",
+   "cefr": "B2",
+   "id": "t20-2-021v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Sorry for the inconvenience.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Substantivo: INCONVENIENCE."
+  },
+  {
+   "topic": "t20",
+   "level": 2,
+   "skill": "request",
+   "cefr": "B2",
+   "id": "t20-2-024v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I would like that you send me the invoice.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I would like you to send me the invoice. WOULD LIKE + pessoa + TO."
   }
  ]
 }

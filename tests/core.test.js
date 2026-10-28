@@ -397,7 +397,7 @@ test('unlockCheck: um lote por vez, com intervalo mínimo entre liberações', (
   const open3 = items.filter(i => openTopics.has(i.topic) || ['t08','t09','t10','t11','t12','t13','t14','t15','t16'].includes(i.topic));
   assert.equal(C.unlockCheck(open3, st, gates, NOW), null, 'liberou cedo demais');
   const later = NOW + 20 * DAY;
-  const st2 = simulate(spread(open3), { days: 12, perDay: 50, acc: 0.85, now: later });
+  const st2 = simulate(spread(open3), { days: 12, perDay: 60, acc: 0.85, now: later });
   st2.unlocked.lote3 = NOW - 3 * DAY;
   assert.equal(C.unlockCheck(open3, st2, gates, later), 'lote4');
   st2.unlocked.lote4 = later; st2.unlocked.lote5 = later;
@@ -413,4 +413,77 @@ test('migração e backup preservam lotes liberados e avisos vistos', () => {
   assert.deepEqual(old.unlocked, {});
   assert.deepEqual(old.announced, []);
   assert.deepEqual(C.migrateState({ unlocked: { lote3: 'x', lote4: -1 }, announced: [1, 'lote3'] }).unlocked, {});
+});
+
+/* ---------- Proteção do histórico ---------- */
+
+import { createHash } from 'node:crypto';
+test('ids publicados nunca somem nem mudam de enunciado (o histórico depende deles)', () => {
+  const lock = JSON.parse(read('tests/ids.lock.json'));
+  const byId = new Map(items.map(i => [i.id, i]));
+  const broken = [];
+  for (const [id, fp] of Object.entries(lock)) {
+    const it = byId.get(id);
+    if (!it) { broken.push(`${id}: removido`); continue; }
+    const key = it.type === 'order' ? it.answer : it.prompt;
+    const got = createHash('sha256').update(`${it.type}\x1f${key}`, 'utf8').digest('hex').slice(0, 12);
+    if (got !== fp) broken.push(`${id}: enunciado mudou`);
+  }
+  assert.deepEqual(broken.slice(0, 10), []);
+  const unlocked = items.filter(i => !i.variant && !(i.id in lock)).map(i => i.id);
+  assert.deepEqual(unlocked.slice(0, 10), [], 'rode python3 tools/lock_ids.py para travar os ids novos');
+});
+
+test('migração preserva a data do último backup exportado', () => {
+  const st = C.emptyState(); st.lastExport = 1700000000000;
+  assert.equal(C.parseBackup(C.makeBackup(st)).lastExport, 1700000000000);
+  assert.equal(C.migrateState({}).lastExport, 0);
+});
+
+/* ---------- Variedade ---------- */
+
+test('variantes Certo/Errado: derivadas com id estável, gabarito coerente e sem decidir nível', () => {
+  const vs = items.filter(i => i.variant === 'judge');
+  assert.ok(vs.length >= 200, `só ${vs.length} variantes`);
+  const byId = new Map(items.map(i => [i.id, i]));
+  for (const v of vs) {
+    const src = byId.get(v.id.slice(0, -1));
+    assert.ok(src, v.id);
+    assert.equal(v.skill, src.skill); assert.equal(v.level, src.level);
+    if (v.answer === 'Certo') assert.ok(v.prompt.startsWith(src.answer.replace(/\s*\([^()]*\)\s*$/, '')), v.id);
+  }
+  // respostas só em variantes não mexem no nível
+  const st = C.emptyState();
+  const rec = { id: 'v', ts: 1, mode: 'topic', topic: null, level: null, label: '', answers: vs.slice(0, 60).map((v, k) => ({ id: v.id, ok: true, t: k + 1, topic: v.topic, level: v.level, skill: v.skill })) };
+  st.sessions.push(rec);
+  assert.equal(C.levelEstimate(items, st).totalAnswers >= 60, true);
+  assert.ok(C.levelEstimate(items, st).bands.every(b => b.n === 0), 'variante contou para o nível');
+});
+
+test('buildSession: sem histórico não traz variantes; com histórico traz no máximo 3 e mantém a mistura de níveis', () => {
+  const t = 't08';
+  assert.ok(C.buildSession(items, C.emptyState(), { topic: t, rng: seq() }).every(i => !i.variant));
+  const st = C.emptyState();
+  const old = Date.now() - 3 * DAY;
+  for (const i of items.filter(i => i.topic === t && !i.variant)) st.items[i.id] = { box: 3, due: Date.now() + 5 * DAY, seen: 1, correct: 1, wrong: 0, last: old };
+  let total = 0;
+  for (let k = 0; k < 20; k++) {
+    const s = C.buildSession(items, st, { topic: t, rng: seq(k + 7) });
+    const nv = s.filter(i => i.variant).length;
+    assert.ok(nv <= C.MAX_VARIANTS);
+    total += nv;
+    for (const lv of C.LEVELS) assert.ok(s.filter(i => i.level === lv).length >= 2, `nível ${lv}`);
+  }
+  assert.ok(total >= 20, `variantes raras demais: ${total}`);
+});
+
+test('buildSession: itens vistos há pouco ficam para depois dos vistos há mais tempo', () => {
+  const t = 't02';
+  const pool = items.filter(i => i.topic === t && !i.variant);
+  const st = C.emptyState();
+  const now = Date.now();
+  pool.forEach((i, k) => { st.items[i.id] = { box: 3, due: now + 5 * DAY, seen: 1, correct: 1, wrong: 0, last: k < pool.length / 2 ? now - 3600e3 : now - 5 * DAY }; });
+  const recent = new Set(pool.slice(0, Math.ceil(pool.length / 2)).map(i => i.id));
+  const s = C.buildSession(items, st, { topic: t, rng: seq(3), now }).filter(i => !i.variant);
+  assert.ok(s.every(i => !recent.has(i.id)), 'repetiu item respondido há 1 hora');
 });

@@ -1,5 +1,5 @@
 import * as C from './core.js';
-import { loadState, saveState, clearState, requestPersistence } from './storage.js';
+import { loadState, saveState, clearState, requestPersistence, hasLocal, recoverRicher, snapshot, listSnapshots, readSnapshot } from './storage.js';
 
 const TYPE_LABEL = { mcq: 'Escolha a opção', fix: 'Escolha a versão correta', gap: 'Complete a lacuna', order: 'Ordene a frase' };
 const STATUS_LABEL = { consolidado: 'Consolidado', em_progresso: 'Em progresso', poucos_dados: 'Poucos dados', sem_conteudo: 'Ainda não disponível' };
@@ -25,7 +25,7 @@ const topicById = id => app.topics.find(t => t.id === id);
 const skillMeta = (topic, skill) => {
   const t = topicById(topic);
   const s = t && t.skills.find(x => x.id === skill);
-  return { topicTitle: t ? t.title : topic, skillTitle: s ? s.title : skill, tip: s ? s.tip : '', ex: s ? s.ex : '', color: t ? t.color : null };
+  return { topicTitle: t ? t.title : topic, skillTitle: s ? s.title : skill, tip: s ? s.tip : '', ex: s ? s.ex : '', use: s && s.use ? s.use : '', color: t ? t.color : null };
 };
 const cefrRange = t => { const u = [...new Set(t.cefr)]; return u.length === 1 ? u[0] : `${u[0]}–${u[u.length - 1]}`; };
 
@@ -33,6 +33,11 @@ const cefrRange = t => { const u = [...new Set(t.cefr)]; return u.length === 1 ?
 
 async function init() {
   app.state = loadState();
+  let recovered = false;
+  if (!hasLocal()) {
+    const r = await recoverRicher(app.state);
+    if (r) { app.state = r; recovered = true; }
+  }
   try {
     const topicsData = await fetchJSON('data/topics.json');
     app.groups = topicsData.groups;
@@ -57,6 +62,7 @@ async function init() {
   window.addEventListener('hashchange', route);
   document.addEventListener('keydown', onKey);
   route();
+  if (recovered) { persist(); toast('Progresso recuperado da cópia automática deste aparelho.'); }
   requestPersistence();
   registerSW();
 }
@@ -86,8 +92,8 @@ function maybeUnlock() {
   return app.groups.find(x => x.id === g);
 }
 
-function persist() {
-  if (!saveState(app.state)) toast('Não consegui salvar o progresso neste aparelho. Exporte um backup em Ajustes.');
+function persist(opts) {
+  if (!saveState(app.state, opts)) toast('Não consegui salvar o progresso neste aparelho. Exporte um backup em Ajustes.');
 }
 
 /* ---------- Rotas ---------- */
@@ -159,9 +165,10 @@ function renderHome() {
       <span><strong>Revisão do dia</strong><br><small>${due ? `${due} ${due === 1 ? 'exercício pendente' : 'exercícios pendentes'}` : 'Nada pendente. Volte amanhã.'}</small></span>
       <span class="review-n" aria-hidden="true">${due ? '→' : '✓'}</span>
     </button>
+    ${backupNudge(st, now)}
     ${news}
     ${groups}
-    <p class="foot-note">${app.items.length} exercícios · ${app.topics.length} temas</p>`;
+    <p class="foot-note">${countLabel()} · ${app.topics.length} temas</p>`;
 
   $main().querySelectorAll('[data-ack]').forEach(b => b.addEventListener('click', () => {
     const id = b.dataset.ack;
@@ -174,6 +181,20 @@ function renderHome() {
 
   const rb = document.getElementById('review-btn');
   if (due) rb.addEventListener('click', () => startSession({ mode: 'review', label: 'Revisão do dia' }));
+}
+
+// Lembrete discreto: só depois de algum uso e quando o último backup exportado tem mais de 14 dias.
+function countLabel() {
+  const v = app.items.filter(i => i.variant).length;
+  return `${app.items.length - v} exercícios + ${v} de certo ou errado`;
+}
+
+function backupNudge(st, now) {
+  const n = C.allAnswers(st).length;
+  if (n < 100) return '';
+  const days = st.lastExport ? Math.floor((now - st.lastExport) / C.DAY) : null;
+  if (days != null && days < 14) return '';
+  return `<a class="nudge" href="#/settings">${days == null ? 'Você ainda não exportou um backup.' : `Último backup exportado há ${days} dias.`} <b>Exportar</b></a>`;
 }
 
 function topicCard(id) {
@@ -205,13 +226,14 @@ function renderTopic(id) {
 
   const skills = t.skills.map(k => {
     const st = sk.get(k.id);
-    const n = app.items.filter(i => i.topic === id && i.skill === k.id).length;
+    const n = app.items.filter(i => !i.variant && i.topic === id && i.skill === k.id).length;
     const cls = !st || st.acc == null ? '' : st.acc >= 0.8 ? 'good' : st.acc >= 0.6 ? 'mid' : 'low';
     return `<details class="skill">
         <summary><span>${esc(k.title)}</span>${st ? `<span class="acc ${cls}">${pct(st.acc)}</span>` : ''}</summary>
         <p class="skill-tip">${esc(k.tip)}</p>
         <p class="skill-ex">${esc(k.ex)}</p>
-        ${n >= 2 ? `<button class="btn btn-ghost btn-small" data-skill="${esc(k.id)}">Treinar só este ponto · ${Math.min(n, SESSION_SIZE)}</button>` : ''}
+        ${k.use ? `<p class="skill-use"><b>No dia a dia:</b> ${esc(k.use)}</p>` : ''}
+        ${n >= 2 ? `<button class="btn btn-ghost btn-smallall" data-skill="${esc(k.id)}">Treinar só este ponto · ${Math.min(n, SESSION_SIZE)}</button>` : ''}
       </details>`;
   }).join('');
 
@@ -270,12 +292,13 @@ function renderQuestion() {
       <div class="bar" role="progressbar" aria-valuenow="${s.index}" aria-valuemax="${s.queue.length}"><span style="width:${progress}%"></span></div>
       <span class="count">${s.index + 1}/${s.queue.length}</span>
     </div>
-    <div class="q-meta"><span>${esc(t ? t.title : '')} · ${esc(it.cefr)}</span><button class="link-btn" id="hint-btn" aria-expanded="false">Dica da regra</button></div>
+    <div class="q-meta" style="--g:${esc(t ? t.color : '')}"><span class="q-topic"><span class="gdot" aria-hidden="true"></span>${esc(t ? t.title : '')} · ${esc(it.cefr)}</span><button class="link-btn" id="hint-btn" aria-expanded="false">Dica da regra</button></div>
     <div class="hint-box" id="hint-box" hidden><b>${esc(m.skillTitle)}</b><br>${esc(m.tip)}</div>
     <section class="q card">
-      <p class="q-type">${TYPE_LABEL[it.type]}</p>
+      <p class="q-type">${it.variant === 'judge' ? 'Certo ou errado?' : TYPE_LABEL[it.type]}</p>
       <div id="q-body">${questionBody(it)}</div>
     </section>
+    ${m.use ? `<p class="q-use"><span>No dia a dia</span>${esc(m.use)}</p>` : ''}
     <div id="feedback" aria-live="polite"></div>
     <div class="actions"><button class="btn wide" id="check" disabled>Verificar</button></div>`;
 
@@ -528,7 +551,7 @@ function renderReinforce() {
         </summary>
         <p class="skill-tip">${esc(m.tip)}</p>
         <p class="skill-ex">${esc(m.ex)}</p>
-        <button class="btn btn-ghost btn-small" data-key="${esc(w.key)}">Treinar este ponto</button>
+        <button class="btn btn-ghost btn-smallall" data-key="${esc(w.key)}">Treinar este ponto</button>
       </details>`;
   }).join('');
 
@@ -689,7 +712,8 @@ function renderSettings() {
     <header class="page-head"><h1>Ajustes</h1></header>
     <section class="card">
       <h2 class="card-title">Backup do progresso</h2>
-      <p class="hint">Seu histórico fica salvo só neste aparelho. Exporte um backup de vez em quando, principalmente antes de trocar de celular.</p>
+      <p class="hint">Seu histórico fica salvo só neste aparelho, em duas áreas de armazenamento, com cópias automáticas diárias. Mesmo assim, exporte um backup de vez em quando: é a única cópia que sobrevive à perda ou troca do celular.</p>
+      <p class="hint"><b>Último backup exportado:</b> ${app.state.lastExport ? new Date(app.state.lastExport).toLocaleDateString('pt-BR') : 'nunca'}</p>
       <div class="actions stack">
         <button class="btn wide" id="export">Exportar backup</button>
         <label class="btn btn-ghost wide" for="import-file">Importar backup</label>
@@ -697,24 +721,56 @@ function renderSettings() {
       </div>
     </section>
     <section class="card">
+      <h2 class="card-title">Cópias automáticas</h2>
+      <p class="hint">Guardadas neste aparelho: uma por dia (últimos 14 dias) e uma antes de cada importação, restauração ou zeramento.</p>
+      <ul class="snaps" id="snaps"><li class="hint">Carregando…</li></ul>
+    </section>
+    <section class="card">
       <h2 class="card-title">Sobre</h2>
-      <p class="hint">Versão ${C.APP_VERSION} · ${app.items.length} exercícios · ${answers} respostas registradas</p>
+      <p class="hint">Versão ${C.APP_VERSION} · ${countLabel()} · ${answers} respostas registradas</p>
       <div class="actions stack"><button class="btn btn-ghost wide" id="update">Verificar atualização</button></div>
     </section>
     <section class="card danger">
       <h2 class="card-title">Zerar progresso</h2>
-      <p class="hint">Apaga todo o histórico deste aparelho. Não dá para desfazer.</p>
+      <p class="hint">Apaga o histórico atual. Uma cópia automática é guardada antes e pode ser restaurada acima.</p>
       <button class="btn btn-danger wide" id="reset">Zerar tudo</button>
     </section>`;
 
   document.getElementById('export').addEventListener('click', exportBackup);
   document.getElementById('import-file').addEventListener('change', importBackup);
-  document.getElementById('reset').addEventListener('click', () => {
-    if (!confirm('Apagar todo o progresso? Isso não pode ser desfeito.')) return;
+  document.getElementById('reset').addEventListener('click', async () => {
+    if (!confirm('Apagar todo o progresso?')) return;
     if (!confirm('Tem certeza? Recomendo exportar um backup antes.')) return;
+    await snapshot(app.state, 'antes de zerar');
     clearState(); app.state = C.emptyState(); persist(); applyActive(); toast('Progresso zerado.'); renderSettings();
   });
+  renderSnapshots();
   document.getElementById('update').addEventListener('click', checkUpdate);
+}
+
+async function renderSnapshots() {
+  const el = document.getElementById('snaps');
+  if (!el) return;
+  const list = await listSnapshots();
+  if (!document.body.contains(el)) return;
+  if (!list.length) { el.innerHTML = '<li class="hint">Nenhuma cópia ainda. Elas aparecem depois da primeira sessão.</li>'; return; }
+  el.innerHTML = list.map(r => `<li class="snap">
+      <span><b>${new Date(r.ts).toLocaleString('pt-BR', { dateStyle: 'short', timeStyle: 'short' })}</b><br><small>${esc(r.label)} · ${r.answers} respostas</small></span>
+      <button class="btn btn-ghost btn-small" data-snap="${esc(r.key)}">Restaurar</button>
+    </li>`).join('');
+  el.querySelectorAll('[data-snap]').forEach(b => b.addEventListener('click', async () => {
+    const next = await readSnapshot(b.dataset.snap);
+    if (!next) { toast('Cópia não encontrada.'); return; }
+    const n = C.allAnswers(next).length;
+    if (!confirm(`Voltar o progresso para esta cópia (${n} respostas)? O estado atual também fica guardado como cópia.`)) return;
+    await snapshot(app.state, 'antes de restaurar');
+    app.state = next; persist({ reason: 'antes de restaurar' }); applyActive(); toast('Cópia restaurada.'); renderSettings();
+  }));
+}
+
+function markExported() {
+  app.state.lastExport = Date.now();
+  persist();
 }
 
 async function exportBackup() {
@@ -724,6 +780,7 @@ async function exportBackup() {
   try {
     if (navigator.canShare && navigator.canShare({ files: [file] })) {
       await navigator.share({ files: [file], title: 'Backup Trilha de Inglês' });
+      markExported();
       return;
     }
   } catch (e) { if (e && e.name === 'AbortError') return; }
@@ -731,6 +788,7 @@ async function exportBackup() {
   const a = Object.assign(document.createElement('a'), { href: url, download: name });
   document.body.appendChild(a); a.click(); a.remove();
   setTimeout(() => URL.revokeObjectURL(url), 2000);
+  markExported();
   toast('Backup exportado.');
 }
 
@@ -742,7 +800,8 @@ async function importBackup(e) {
     const next = C.parseBackup(await f.text());
     const n = C.allAnswers(next).length;
     if (!confirm(`Substituir o progresso atual por este backup (${n} respostas)?`)) return;
-    app.state = next; persist(); applyActive(); maybeUnlock(); toast('Backup importado.'); renderSettings();
+    await snapshot(app.state, 'antes de importar');
+    app.state = next; persist({ reason: 'antes de importar' }); applyActive(); maybeUnlock(); toast('Backup importado.'); renderSettings();
   } catch (err) { toast(err.message); }
 }
 

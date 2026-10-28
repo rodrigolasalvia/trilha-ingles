@@ -272,6 +272,166 @@
    "cefr": "B1"
   },
   {
+   "id": "t02-1-019",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I've stopped ___ coffee after 6 p.m.",
+   "options": [
+    "drinking",
+    "to drink",
+    "drink"
+   ],
+   "answer": "drinking",
+   "explain": "Parar de: STOP + -ING.",
+   "skill": "stop",
+   "cefr": "B1"
+  },
+  {
+   "id": "t02-1-020",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "On the way home, I stopped ___ some bread.",
+   "options": [
+    "to buy",
+    "buying",
+    "buy"
+   ],
+   "answer": "to buy",
+   "explain": "Parar para fazer algo: STOP + TO.",
+   "skill": "stop",
+   "cefr": "B1"
+  },
+  {
+   "id": "t02-1-021",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Remember ___ the door when you leave.",
+   "options": [
+    "to lock",
+    "locking",
+    "lock"
+   ],
+   "answer": "to lock",
+   "explain": "Tarefa futura: REMEMBER + TO.",
+   "skill": "remember",
+   "cefr": "B1"
+  },
+  {
+   "id": "t02-1-022",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'll never forget ___ the Pope in Rome.",
+   "options": [
+    "seeing",
+    "to see",
+    "see"
+   ],
+   "answer": "seeing",
+   "explain": "Lembrança vivida: FORGET + -ING.",
+   "skill": "forget",
+   "cefr": "B1"
+  },
+  {
+   "id": "t02-1-023",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Try ___ the app. Maybe it'll work.",
+   "options": [
+    "restarting",
+    "to restart",
+    "restart"
+   ],
+   "answer": "restarting",
+   "explain": "Testar uma solução: TRY + -ING.",
+   "skill": "try",
+   "cefr": "B1"
+  },
+  {
+   "id": "t02-1-024",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I tried ___ the box, but it was too heavy.",
+   "options": [
+    "to lift",
+    "lifting",
+    "lift"
+   ],
+   "answer": "to lift",
+   "explain": "Esforço: TRY + TO.",
+   "skill": "try",
+   "cefr": "B1"
+  },
+  {
+   "id": "t02-1-025",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I regret ___ him my password.",
+   "options": [
+    "giving",
+    "to give",
+    "give"
+   ],
+   "answer": "giving",
+   "explain": "Arrepender-se: REGRET + -ING.",
+   "skill": "regret",
+   "cefr": "B1"
+  },
+  {
+   "id": "t02-1-026",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Sorry, I didn't mean ___ so rude.",
+   "options": [
+    "to be",
+    "being",
+    "be"
+   ],
+   "answer": "to be",
+   "explain": "Intenção: MEAN + TO.",
+   "skill": "mean",
+   "cefr": "B1"
+  },
+  {
+   "id": "t02-1-027",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The contract needs ___ before Friday.",
+   "options": [
+    "checking",
+    "to check",
+    "check"
+   ],
+   "answer": "checking",
+   "explain": "Coisa que precisa receber a ação: NEEDS + -ING.",
+   "skill": "need",
+   "cefr": "B1"
+  },
+  {
+   "id": "t02-1-028",
+   "topic": "t02",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "After the break, the CEO went on ___ about the budget.",
+   "options": [
+    "to talk",
+    "talking",
+    "talk"
+   ],
+   "answer": "to talk",
+   "explain": "Mudou de assunto: GO ON + TO.",
+   "skill": "goon",
+   "cefr": "B1"
+  },
+  {
    "id": "t02-2-001",
    "topic": "t02",
    "level": 2,
@@ -519,6 +679,148 @@
    "cefr": "B2"
   },
   {
+   "id": "t02-2-019",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Please stop ___ (send) me those e-mails.",
+   "answer": [
+    "sending"
+   ],
+   "explain": "Parar de: -ING.",
+   "skill": "stop",
+   "cefr": "B2"
+  },
+  {
+   "id": "t02-2-020",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I remember ___ (sign) that document. I'm sure.",
+   "answer": [
+    "signing"
+   ],
+   "explain": "Lembrança do passado: -ING.",
+   "skill": "remember",
+   "cefr": "B2"
+  },
+  {
+   "id": "t02-2-021",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Don't forget ___ (call) the hotel.",
+   "answer": [
+    "to call"
+   ],
+   "explain": "Tarefa: FORGET + TO.",
+   "skill": "forget",
+   "cefr": "B2"
+  },
+  {
+   "id": "t02-2-022",
+   "topic": "t02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I regret to tell her the secret.",
+   "options": [
+    "I regret telling her the secret.",
+    "I regret tell her the secret.",
+    "I regret to telling her the secret."
+   ],
+   "answer": "I regret telling her the secret.",
+   "explain": "Arrependimento: REGRET + -ING.",
+   "skill": "regret",
+   "cefr": "B2"
+  },
+  {
+   "id": "t02-2-023",
+   "topic": "t02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "This new job means to travel a lot.",
+   "options": [
+    "This new job means traveling a lot.",
+    "This new job means travel a lot.",
+    "This new job means to traveling a lot."
+   ],
+   "answer": "This new job means traveling a lot.",
+   "explain": "Implicar: MEAN + -ING.",
+   "skill": "mean",
+   "cefr": "B2"
+  },
+  {
+   "id": "t02-2-024",
+   "topic": "t02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The report needs to review before Friday.",
+   "options": [
+    "The report needs to be reviewed before Friday.",
+    "The report needs review to before Friday.",
+    "The report need reviewing before Friday."
+   ],
+   "answer": "The report needs to be reviewed before Friday.",
+   "explain": "Coisa: NEEDS TO BE + particípio (ou NEEDS + -ING).",
+   "skill": "need",
+   "cefr": "B2"
+  },
+  {
+   "id": "t02-2-025",
+   "topic": "t02",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She went on talk for an hour.",
+   "options": [
+    "She went on talking for an hour.",
+    "She went on to talking for an hour.",
+    "She went talk on for an hour."
+   ],
+   "answer": "She went on talking for an hour.",
+   "explain": "Continuou: GO ON + -ING.",
+   "skill": "goon",
+   "cefr": "B2"
+  },
+  {
+   "id": "t02-2-026",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I need ___ (finish) this by noon.",
+   "answer": [
+    "to finish"
+   ],
+   "explain": "Pessoa: NEED + TO.",
+   "skill": "need",
+   "cefr": "B2"
+  },
+  {
+   "id": "t02-2-027",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We regret ___ (inform) you that your application was unsuccessful.",
+   "answer": [
+    "to inform"
+   ],
+   "explain": "Formal: REGRET TO INFORM.",
+   "skill": "regret",
+   "cefr": "B2"
+  },
+  {
+   "id": "t02-2-028",
+   "topic": "t02",
+   "level": 2,
+   "type": "gap",
+   "prompt": "If the printer doesn't work, try ___ (turn) it off and on.",
+   "answer": [
+    "turning"
+   ],
+   "explain": "Testar solução: -ING.",
+   "skill": "try",
+   "cefr": "B2"
+  },
+  {
    "id": "t02-3-001",
    "topic": "t02",
    "level": 3,
@@ -755,6 +1057,299 @@
    "explain": "Memória do passado: REMEMBER + -ING.",
    "skill": "remember",
    "cefr": "B2"
+  },
+  {
+   "id": "t02-3-019",
+   "topic": "t02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'll never forget ___ (meet) my first client.",
+   "answer": [
+    "meeting"
+   ],
+   "explain": "Lembrança vivida: -ING.",
+   "skill": "forget",
+   "cefr": "B2"
+  },
+  {
+   "id": "t02-3-020",
+   "topic": "t02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Did you remember ___ (attach) the file?",
+   "answer": [
+    "to attach"
+   ],
+   "explain": "Tarefa: TO.",
+   "skill": "remember",
+   "cefr": "B2"
+  },
+  {
+   "id": "t02-3-021",
+   "topic": "t02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Accepting this offer would mean ___ (move) to Lisbon.",
+   "answer": [
+    "moving"
+   ],
+   "explain": "Implicar: -ING.",
+   "skill": "mean",
+   "cefr": "B2"
+  },
+  {
+   "id": "t02-3-022",
+   "topic": "t02",
+   "level": 3,
+   "type": "gap",
+   "prompt": "He stopped ___ (check) his phone and kept driving.",
+   "answer": [
+    "to check"
+   ],
+   "explain": "Parou para: TO.",
+   "skill": "stop",
+   "cefr": "B2"
+  },
+  {
+   "id": "t02-3-023",
+   "topic": "t02",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I regret not accepting their offer.",
+   "explain": "REGRET + NOT + -ING.",
+   "skill": "regret",
+   "cefr": "B2"
+  },
+  {
+   "id": "t02-3-024",
+   "topic": "t02",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We tried to call you several times.",
+   "explain": "Esforço: TRY + TO.",
+   "skill": "try",
+   "cefr": "B2"
+  },
+  {
+   "id": "t02-3-025",
+   "topic": "t02",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "After the results, she went on to present the plan.",
+   "explain": "GO ON + TO: passou para outra coisa.",
+   "skill": "goon",
+   "cefr": "B2"
+  },
+  {
+   "id": "t02-3-026",
+   "topic": "t02",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "The windows need cleaning.",
+    "The windows need to clean.",
+    "The windows need clean."
+   ],
+   "answer": "The windows need cleaning.",
+   "explain": "Coisa: NEED + -ING.",
+   "skill": "need",
+   "cefr": "B2"
+  },
+  {
+   "id": "t02-3-027",
+   "topic": "t02",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual frase fala de uma tarefa que ainda vai ser feita?",
+   "options": [
+    "Remember to back up the files.",
+    "I remember backing up the files.",
+    "I remembered backing up the files."
+   ],
+   "answer": "Remember to back up the files.",
+   "explain": "REMEMBER + TO = tarefa.",
+   "skill": "remember",
+   "cefr": "B2"
+  },
+  {
+   "id": "t02-3-028",
+   "topic": "t02",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I meant to call you, but I forgot.",
+    "I meant calling you, but I forgot.",
+    "I meant call you, but I forgot."
+   ],
+   "answer": "I meant to call you, but I forgot.",
+   "explain": "Intenção: MEAN + TO.",
+   "skill": "mean",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t02",
+   "level": 2,
+   "skill": "forget",
+   "cefr": "B2",
+   "id": "t02-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I forgot to send you the file. (sentido: esqueci de enviar)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Esqueceu a tarefa: FORGET + TO."
+  },
+  {
+   "topic": "t02",
+   "level": 2,
+   "skill": "remember",
+   "cefr": "B2",
+   "id": "t02-2-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Please remember locking the door.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Please remember to lock the door. Tarefa: REMEMBER + TO."
+  },
+  {
+   "topic": "t02",
+   "level": 2,
+   "skill": "stop",
+   "cefr": "B2",
+   "id": "t02-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He stopped smoking in 2020. (sentido: largou o cigarro)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Parar de = STOP + -ING."
+  },
+  {
+   "topic": "t02",
+   "level": 2,
+   "skill": "try",
+   "cefr": "B2",
+   "id": "t02-2-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm trying learning Spanish.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I'm trying to learn Spanish. Esforço: TRY + TO."
+  },
+  {
+   "topic": "t02",
+   "level": 2,
+   "skill": "mean",
+   "cefr": "B2",
+   "id": "t02-2-023v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "This new job means traveling a lot.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Implicar: MEAN + -ING."
+  },
+  {
+   "topic": "t02",
+   "level": 2,
+   "skill": "need",
+   "cefr": "B2",
+   "id": "t02-2-024v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The report needs to review before Friday.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The report needs to be reviewed before Friday. Coisa: NEEDS TO BE + particípio (ou NEEDS + -ING)."
+  },
+  {
+   "topic": "t02",
+   "level": 2,
+   "skill": "goon",
+   "cefr": "B2",
+   "id": "t02-2-025v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She went on talking for an hour.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Continuou: GO ON + -ING."
+  },
+  {
+   "topic": "t02",
+   "level": 3,
+   "skill": "remember",
+   "cefr": "B2",
+   "id": "t02-3-018v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I remember to meet her at the conference last year.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I remember meeting her at the conference last year. Memória do passado: REMEMBER + -ING."
+  },
+  {
+   "topic": "t02",
+   "level": 3,
+   "skill": "need",
+   "cefr": "B2",
+   "id": "t02-3-026v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The windows need to clean.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The windows need cleaning. Coisa: NEED + -ING."
+  },
+  {
+   "topic": "t02",
+   "level": 3,
+   "skill": "mean",
+   "cefr": "B2",
+   "id": "t02-3-028v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I meant calling you, but I forgot.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I meant to call you, but I forgot. Intenção: MEAN + TO."
   }
  ]
 }

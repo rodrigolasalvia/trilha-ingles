@@ -242,6 +242,166 @@
    "cefr": "B2"
   },
   {
+   "id": "t12-1-016",
+   "topic": "t12",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I'm leaving.' → She said she ___ leaving.",
+   "options": [
+    "was",
+    "is being",
+    "had"
+   ],
+   "answer": "was",
+   "explain": "AM → WAS.",
+   "skill": "backshift",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-1-017",
+   "topic": "t12",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'We have finished.' → They said they ___ finished.",
+   "options": [
+    "had",
+    "have",
+    "were"
+   ],
+   "answer": "had",
+   "explain": "HAVE → HAD.",
+   "skill": "backshift",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-1-018",
+   "topic": "t12",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He asked me what ___.",
+   "options": [
+    "I wanted",
+    "did I want",
+    "do I want"
+   ],
+   "answer": "I wanted",
+   "explain": "Pergunta relatada: ordem afirmativa.",
+   "skill": "repq",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-1-019",
+   "topic": "t12",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She promised ___ the report by Friday.",
+   "options": [
+    "to send",
+    "sending",
+    "send"
+   ],
+   "answer": "to send",
+   "explain": "PROMISE + TO.",
+   "skill": "vto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-1-020",
+   "topic": "t12",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The manager told us ___ the client.",
+   "options": [
+    "to call",
+    "calling",
+    "call"
+   ],
+   "answer": "to call",
+   "explain": "TELL + pessoa + TO.",
+   "skill": "vobjto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-1-021",
+   "topic": "t12",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He admitted ___ the data.",
+   "options": [
+    "changing",
+    "to change",
+    "change"
+   ],
+   "answer": "changing",
+   "explain": "ADMIT + -ING.",
+   "skill": "ving",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-1-022",
+   "topic": "t12",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She insisted ___ the bill.",
+   "options": [
+    "on paying",
+    "to pay",
+    "paying"
+   ],
+   "answer": "on paying",
+   "explain": "INSIST ON + -ING.",
+   "skill": "vprep",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-1-023",
+   "topic": "t12",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He recommended ___ another supplier.",
+   "options": [
+    "that we use",
+    "us using",
+    "to us use"
+   ],
+   "answer": "that we use",
+   "explain": "RECOMMEND THAT + sujeito + verbo.",
+   "skill": "suggest",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-1-024",
+   "topic": "t12",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She explained ___ the delay had happened.",
+   "options": [
+    "why",
+    "us why",
+    "to why"
+   ],
+   "answer": "why",
+   "explain": "EXPLAIN + WH-, sem pessoa logo depois.",
+   "skill": "explain",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-1-025",
+   "topic": "t12",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "They warned us ___ the deal.",
+   "options": [
+    "not to sign",
+    "to not signing",
+    "don't sign"
+   ],
+   "answer": "not to sign",
+   "explain": "WARN + pessoa + NOT TO.",
+   "skill": "vobjto",
+   "cefr": "B2"
+  },
+  {
    "id": "t12-2-001",
    "topic": "t12",
    "level": 2,
@@ -461,6 +621,152 @@
    "cefr": "B2"
   },
   {
+   "id": "t12-2-016",
+   "topic": "t12",
+   "level": 2,
+   "type": "gap",
+   "prompt": "'I'll call you.' → He said he ___ (call) me.",
+   "answer": [
+    "would call"
+   ],
+   "explain": "WILL → WOULD.",
+   "skill": "backshift",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-2-017",
+   "topic": "t12",
+   "level": 2,
+   "type": "gap",
+   "prompt": "She asked me where I ___ (live).",
+   "answer": [
+    "lived"
+   ],
+   "explain": "Pergunta relatada: passado, ordem afirmativa.",
+   "skill": "repq",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-2-018",
+   "topic": "t12",
+   "level": 2,
+   "type": "fix",
+   "prompt": "He asked me if was I free.",
+   "options": [
+    "He asked me if I was free.",
+    "He asked me if I am free.",
+    "He asked me was I free if."
+   ],
+   "answer": "He asked me if I was free.",
+   "explain": "Sem inversão.",
+   "skill": "repq",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-2-019",
+   "topic": "t12",
+   "level": 2,
+   "type": "fix",
+   "prompt": "They agreed reviewing the contract.",
+   "options": [
+    "They agreed to review the contract.",
+    "They agreed review the contract.",
+    "They agreed to reviewing the contract."
+   ],
+   "answer": "They agreed to review the contract.",
+   "explain": "AGREE + TO.",
+   "skill": "vto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-2-020",
+   "topic": "t12",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She told me don't worry.",
+   "options": [
+    "She told me not to worry.",
+    "She told me to not worrying.",
+    "She told me no worry."
+   ],
+   "answer": "She told me not to worry.",
+   "explain": "TELL + pessoa + NOT TO.",
+   "skill": "vobjto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-2-021",
+   "topic": "t12",
+   "level": 2,
+   "type": "fix",
+   "prompt": "He suggested to meet on Monday.",
+   "options": [
+    "He suggested meeting on Monday.",
+    "He suggested to meeting on Monday.",
+    "He suggested us to meet on Monday."
+   ],
+   "answer": "He suggested meeting on Monday.",
+   "explain": "SUGGEST + -ING (ou THAT + frase).",
+   "skill": "suggest",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-2-022",
+   "topic": "t12",
+   "level": 2,
+   "type": "fix",
+   "prompt": "They accused him to steal.",
+   "options": [
+    "They accused him of stealing.",
+    "They accused him for stealing.",
+    "They accused him of steal."
+   ],
+   "answer": "They accused him of stealing.",
+   "explain": "ACCUSE OF + -ING.",
+   "skill": "vprep",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-2-023",
+   "topic": "t12",
+   "level": 2,
+   "type": "gap",
+   "prompt": "He denied ___ (see) the e-mail.",
+   "answer": [
+    "seeing",
+    "having seen"
+   ],
+   "explain": "DENY + -ING.",
+   "skill": "ving",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-2-024",
+   "topic": "t12",
+   "level": 2,
+   "type": "gap",
+   "prompt": "She pointed ___ (preposição) that the deadline was unrealistic.",
+   "answer": [
+    "out"
+   ],
+   "explain": "POINT OUT.",
+   "skill": "explain",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-2-025",
+   "topic": "t12",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I persuaded him ___ (stay).",
+   "answer": [
+    "to stay"
+   ],
+   "explain": "PERSUADE + pessoa + TO.",
+   "skill": "vobjto",
+   "cefr": "B2"
+  },
+  {
    "id": "t12-3-001",
    "topic": "t12",
    "level": 3,
@@ -658,6 +964,426 @@
    "explain": "DESCRIBE + coisa + TO + pessoa.",
    "skill": "explain",
    "cefr": "B2"
+  },
+  {
+   "id": "t12-3-016",
+   "topic": "t12",
+   "level": 3,
+   "type": "gap",
+   "prompt": "'We can't pay now.' → They said they ___ (can / not) pay then.",
+   "answer": [
+    "couldn't",
+    "could not"
+   ],
+   "explain": "CAN'T → COULDN'T.",
+   "skill": "backshift",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-3-017",
+   "topic": "t12",
+   "level": 3,
+   "type": "gap",
+   "prompt": "She asked whether we ___ (already / decide).",
+   "answer": [
+    "had already decided"
+   ],
+   "explain": "Pergunta relatada: Past Perfect.",
+   "skill": "repq",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-3-018",
+   "topic": "t12",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The supplier refused ___ (accept) the penalty.",
+   "answer": [
+    "to accept"
+   ],
+   "explain": "REFUSE + TO.",
+   "skill": "vto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-3-019",
+   "topic": "t12",
+   "level": 3,
+   "type": "gap",
+   "prompt": "He apologized ___ (for: forget) the meeting.",
+   "answer": [
+    "for forgetting"
+   ],
+   "explain": "APOLOGIZE FOR + -ING.",
+   "skill": "vprep",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-3-020",
+   "topic": "t12",
+   "level": 3,
+   "type": "gap",
+   "prompt": "She regretted ___ (not / ask) for help.",
+   "answer": [
+    "not asking",
+    "not having asked"
+   ],
+   "explain": "REGRET + NOT + -ING.",
+   "skill": "ving",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-3-021",
+   "topic": "t12",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "He asked me why I had left early.",
+   "explain": "Pergunta relatada.",
+   "skill": "repq",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-3-022",
+   "topic": "t12",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "She advised me to read the clause again.",
+   "explain": "ADVISE + pessoa + TO.",
+   "skill": "vobjto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-3-023",
+   "topic": "t12",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I suggest that we wait for the audit.",
+   "explain": "SUGGEST THAT + sujeito + verbo.",
+   "skill": "suggest",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-3-024",
+   "topic": "t12",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "She explained the plan to the team.",
+    "She explained the team the plan.",
+    "She explained to the team plan the."
+   ],
+   "answer": "She explained the plan to the team.",
+   "explain": "EXPLAIN + coisa + TO + pessoa.",
+   "skill": "explain",
+   "cefr": "B2"
+  },
+  {
+   "id": "t12-3-025",
+   "topic": "t12",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "They threatened to leave.",
+    "They threatened leaving.",
+    "They threatened us leave."
+   ],
+   "answer": "They threatened to leave.",
+   "explain": "THREATEN + TO.",
+   "skill": "vto",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t12",
+   "level": 2,
+   "skill": "repq",
+   "cefr": "B2",
+   "id": "t12-2-003v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He asked me where the office was.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Sem inversão na pergunta relatada."
+  },
+  {
+   "topic": "t12",
+   "level": 2,
+   "skill": "vto",
+   "cefr": "B2",
+   "id": "t12-2-005v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "They refused to pay the fine.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. REFUSE + TO."
+  },
+  {
+   "topic": "t12",
+   "level": 2,
+   "skill": "vobjto",
+   "cefr": "B2",
+   "id": "t12-2-007v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She reminded me to call him.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. REMIND + pessoa + TO."
+  },
+  {
+   "topic": "t12",
+   "level": 2,
+   "skill": "ving",
+   "cefr": "B2",
+   "id": "t12-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He denied knowing about it.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. DENY + -ING."
+  },
+  {
+   "topic": "t12",
+   "level": 2,
+   "skill": "vprep",
+   "cefr": "B2",
+   "id": "t12-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He apologized for being late.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. APOLOGIZE FOR + -ING."
+  },
+  {
+   "topic": "t12",
+   "level": 2,
+   "skill": "suggest",
+   "cefr": "B2",
+   "id": "t12-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She suggested (that) I call him.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. SUGGEST não aceita pessoa + TO."
+  },
+  {
+   "topic": "t12",
+   "level": 2,
+   "skill": "explain",
+   "cefr": "B2",
+   "id": "t12-2-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She explained me the new rules.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: She explained the new rules to me. EXPLAIN + coisa + TO + pessoa."
+  },
+  {
+   "topic": "t12",
+   "level": 2,
+   "skill": "repq",
+   "cefr": "B2",
+   "id": "t12-2-018v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He asked me if was I free.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: He asked me if I was free. Sem inversão."
+  },
+  {
+   "topic": "t12",
+   "level": 2,
+   "skill": "vto",
+   "cefr": "B2",
+   "id": "t12-2-019v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "They agreed to review the contract.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. AGREE + TO."
+  },
+  {
+   "topic": "t12",
+   "level": 2,
+   "skill": "vobjto",
+   "cefr": "B2",
+   "id": "t12-2-020v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She told me don't worry.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: She told me not to worry. TELL + pessoa + NOT TO."
+  },
+  {
+   "topic": "t12",
+   "level": 2,
+   "skill": "suggest",
+   "cefr": "B2",
+   "id": "t12-2-021v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He suggested meeting on Monday.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. SUGGEST + -ING (ou THAT + frase)."
+  },
+  {
+   "topic": "t12",
+   "level": 2,
+   "skill": "vprep",
+   "cefr": "B2",
+   "id": "t12-2-022v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "They accused him to steal.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: They accused him of stealing. ACCUSE OF + -ING."
+  },
+  {
+   "topic": "t12",
+   "level": 3,
+   "skill": "backshift",
+   "cefr": "B2",
+   "id": "t12-3-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He said me he was leaving.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: He told me he was leaving. TELL + pessoa."
+  },
+  {
+   "topic": "t12",
+   "level": 3,
+   "skill": "vprep",
+   "cefr": "B2",
+   "id": "t12-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She blamed me for missing the deadline.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. BLAME + pessoa + FOR + -ING."
+  },
+  {
+   "topic": "t12",
+   "level": 3,
+   "skill": "vobjto",
+   "cefr": "B2",
+   "id": "t12-3-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "They advised us to not investing.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: They advised us not to invest. ADVISE + pessoa + NOT TO."
+  },
+  {
+   "topic": "t12",
+   "level": 3,
+   "skill": "explain",
+   "cefr": "B2",
+   "id": "t12-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He described the process to the team.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. DESCRIBE + coisa + TO + pessoa."
+  },
+  {
+   "topic": "t12",
+   "level": 3,
+   "skill": "explain",
+   "cefr": "B2",
+   "id": "t12-3-024v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She explained the team the plan.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: She explained the plan to the team. EXPLAIN + coisa + TO + pessoa."
+  },
+  {
+   "topic": "t12",
+   "level": 3,
+   "skill": "vto",
+   "cefr": "B2",
+   "id": "t12-3-025v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "They threatened to leave.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. THREATEN + TO."
   }
  ]
 }

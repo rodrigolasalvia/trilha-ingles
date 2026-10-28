@@ -8,7 +8,8 @@ import json, os, re, sys, importlib.util
 from collections import Counter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SOURCES = ["bank_base.py", "bank_lote1.py", "bank_lote2.py", "bank_lote3.py", "bank_lote4.py", "bank_lote5.py"]
+SOURCES = ["bank_base.py", "bank_lote1.py", "bank_lote2.py", "bank_lote3.py", "bank_lote4.py", "bank_lote5.py",
+           "bank_extra_a.py", "bank_extra_b.py", "bank_extra_c.py"]
 
 # Classificação automática dos itens antigos (Lote 1), pela explicação do item. Ordem importa.
 def classify(topic, explain):
@@ -85,25 +86,81 @@ def to_item(topic, level, n, row, meta):
     base["cefr"] = meta["cefr"][level - 1]
     return base
 
+# Temas de registro/tom: a frase "errada" costuma ser gramatical, só inadequada. Não viram Certo/Errado.
+NO_JUDGE_TOPICS = {"t24", "t26"}
+# Frases "erradas" que são gramaticais fora do contexto do exercício original.
+NO_JUDGE = {"t05-2-018", "t06-2-010", "t08-3-014", "t11-2-005", "t14-2-013", "t15-2-015", "t17-2-003", "t17-2-007",
+            "t18-2-007", "t18-2-010", "t19-2-001", "t19-2-006", "t20-2-003", "t21-2-011", "t22-2-007", "t23-2-015",
+            "t17-2-018", "t18-2-019", "t19-2-018", "t22-2-022", "t27-2-018",
+            "t11-2-018", "t08-2-022", "t02-2-022", "t15-2-016", "t21-2-018", "t09-2-022"}
+JUDGE_PROMPT = re.compile(r"\bcorret[oa]\b", re.I)
+
+def derive_judges(items):
+    """Variantes 'Certo ou errado?' derivadas de itens cuja correção é inequívoca:
+    - fix: a frase com erro (errada) ou a versão correta, alternando;
+    - mcq "Qual está correto?" com frases completas: a correta ou a primeira opção errada, alternando.
+    Id = id de origem + 'v' (estável; o histórico se mantém mesmo com itens novos)."""
+    out = []
+    for it in items:
+        if it["topic"] in NO_JUDGE_TOPICS or it["id"] in NO_JUDGE:
+            continue
+        if it["type"] == "fix":
+            right = it["answer"]; wrong = it["prompt"]
+        elif it["type"] == "mcq" and "___" not in it["prompt"] and JUDGE_PROMPT.search(it["prompt"]) \
+                and all(len(o.split()) >= 3 for o in it["options"]):
+            right = it["answer"]; wrong = next(o for o in it["options"] if o != it["answer"])
+        else:
+            continue
+        n = int(it["id"].rsplit("-", 1)[1])
+        show_right = n % 2 == 1
+        # contexto entre parênteses no fim da frase errada (ex.: "(= atualmente)") vale para os dois lados
+        m = re.search(r"\s*(\([^()]*\))\s*$", wrong)
+        ctx = m.group(1) if it["type"] == "fix" and m else ""
+        if ctx:
+            wrong = wrong[:m.start()]
+        sentence = (right if show_right else wrong) + (f" {ctx}" if ctx else "")
+        explain = f"Certo. {it['explain']}" if show_right else f"Errado. Forma correta: {right} {it['explain']}"
+        out.append({**{k2: it[k2] for k2 in ("topic", "level", "skill", "cefr")},
+                    "id": it["id"] + "v", "type": "mcq", "variant": "judge",
+                    "prompt": sentence, "options": ["Certo", "Errado"],
+                    "answer": "Certo" if show_right else "Errado", "explain": explain})
+    return out
+
 def main():
+    spec = importlib.util.spec_from_file_location("apply_uses", os.path.join(ROOT, "tools", "apply_uses.py"))
+    au = importlib.util.module_from_spec(spec); spec.loader.exec_module(au); au.main()
     topics = json.load(open(os.path.join(ROOT, "data", "topics.json"), encoding="utf-8"))
     meta = {t["id"]: t for g in topics["groups"] for t in g["topics"]}
-    total = 0
+    rows = {}
     for src in SOURCES:
         for topic, levels in load(src).items():
-            items = []
-            for level in sorted(levels):
-                for n, row in enumerate(levels[level], 1):
-                    items.append(to_item(topic, level, n, row, meta[topic]))
-            with open(os.path.join(ROOT, "data", f"{topic}.json"), "w", encoding="utf-8") as f:
-                json.dump({"topic": topic, "items": items}, f, ensure_ascii=False, indent=1)
-            total += len(items)
-            dist = Counter(i["skill"] for i in items)
-            print(f"{topic}: {len(items)} itens · " + ", ".join(f"{k} {v}" for k, v in sorted(dist.items())))
+            for level, lst in levels.items():
+                rows.setdefault(topic, {}).setdefault(level, []).extend(lst)
+    total = nvar = 0
+    dups = []
+    for topic, levels in rows.items():
+        items = []
+        for level in sorted(levels):
+            for n, row in enumerate(levels[level], 1):
+                items.append(to_item(topic, level, n, row, meta[topic]))
+        seen = {}
+        for it in items:
+            key = (it["type"], it["answer"] if it["type"] == "order" else it["prompt"], tuple(it.get("options", [])))
+            if key in seen:
+                dups.append(f"duplicado: {it['id']} repete {seen[key]}")
+            seen.setdefault(key, it["id"])
+        judges = derive_judges(items)
+        with open(os.path.join(ROOT, "data", f"{topic}.json"), "w", encoding="utf-8") as f:
+            json.dump({"topic": topic, "items": items + judges}, f, ensure_ascii=False, indent=1)
+        total += len(items); nvar += len(judges)
+        dist = Counter(i["skill"] for i in items)
+        print(f"{topic}: {len(items)} itens + {len(judges)} variantes · " + ", ".join(f"{k} {v}" for k, v in sorted(dist.items())))
+    if dups:
+        raise SystemExit("\n".join(dups))
     missing = [t for t in meta if not os.path.exists(os.path.join(ROOT, "data", f"{t}.json"))]
     if missing:
         raise SystemExit(f"temas sem banco: {missing}")
-    print(f"total: {total}")
+    print(f"total: {total} itens + {nvar} variantes 'Certo ou errado?'")
 
 if __name__ == "__main__":
     sys.exit(main())

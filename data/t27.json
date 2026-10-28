@@ -242,6 +242,166 @@
    "cefr": "C1"
   },
   {
+   "id": "t27-1-016",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'___ the report, she sent it to the board.'",
+   "options": [
+    "Having finished",
+    "Having finish",
+    "Finished having"
+   ],
+   "answer": "Having finished",
+   "explain": "HAVING + particípio.",
+   "skill": "participle",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-017",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'___ by Ford, the car was a huge success.'",
+   "options": [
+    "Designed",
+    "Designing",
+    "Having designing"
+   ],
+   "answer": "Designed",
+   "explain": "Particípio passivo: DESIGNED BY.",
+   "skill": "participle",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-018",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Arriving at the hotel, we checked in.",
+    "Arriving at the hotel, the room was ready.",
+    "Arriving at the hotel, the check-in was done."
+   ],
+   "answer": "Arriving at the hotel, we checked in.",
+   "explain": "Quem chega: WE.",
+   "skill": "dangling",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-019",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'The board requires that every director ___ the form.'",
+   "options": [
+    "sign",
+    "signs",
+    "to sign"
+   ],
+   "answer": "sign",
+   "explain": "Subjuntivo: verbo base.",
+   "skill": "subjunctive",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-020",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I'd rather ___ by train.'",
+   "options": [
+    "go",
+    "to go",
+    "going"
+   ],
+   "answer": "go",
+   "explain": "WOULD RATHER + verbo base.",
+   "skill": "rather",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-021",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'She looks as if she ___ a ghost.' (irreal)",
+   "options": [
+    "had seen",
+    "has seen",
+    "sees"
+   ],
+   "answer": "had seen",
+   "explain": "AS IF + Past Perfect.",
+   "skill": "asif",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-022",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Anyone ___ to join must register by Friday.'",
+   "options": [
+    "wishing",
+    "wishes",
+    "wished"
+   ],
+   "answer": "wishing",
+   "explain": "Relativa reduzida ativa: -ING.",
+   "skill": "reduced",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-023",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Is the meeting cancelled?' 'I'm afraid ___.'",
+   "options": [
+    "so",
+    "yes",
+    "it"
+   ],
+   "answer": "so",
+   "explain": "I'M AFRAID SO.",
+   "skill": "subst",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-024",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'___ hard I try, I can't remember his name.'",
+   "options": [
+    "However",
+    "Whatever",
+    "Whoever"
+   ],
+   "answer": "However",
+   "explain": "HOWEVER + adjetivo/advérbio.",
+   "skill": "ever",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-1-025",
+   "topic": "t27",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'You'd better ___ late again.'",
+   "options": [
+    "not be",
+    "not to be",
+    "don't be"
+   ],
+   "answer": "not be",
+   "explain": "HAD BETTER NOT + verbo.",
+   "skill": "rather",
+   "cefr": "C1"
+  },
+  {
    "id": "t27-2-001",
    "topic": "t27",
    "level": 2,
@@ -467,6 +627,150 @@
    "cefr": "C1"
   },
   {
+   "id": "t27-2-016",
+   "topic": "t27",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (Having / sign) the contract, we started the project.",
+   "answer": [
+    "Having signed"
+   ],
+   "explain": "HAVING + particípio.",
+   "skill": "participle",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-017",
+   "topic": "t27",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Reading the report, the mistake was obvious.",
+   "options": [
+    "Reading the report, I noticed the mistake.",
+    "Reading the report, the mistake obviously.",
+    "Read the report, the mistake was obvious."
+   ],
+   "answer": "Reading the report, I noticed the mistake.",
+   "explain": "Sujeito implícito precisa ser o mesmo.",
+   "skill": "dangling",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-018",
+   "topic": "t27",
+   "level": 2,
+   "type": "fix",
+   "prompt": "It's essential that he attends the meeting. (formal)",
+   "options": [
+    "It's essential that he attend the meeting.",
+    "It's essential that he to attend the meeting.",
+    "It's essential him attend the meeting."
+   ],
+   "answer": "It's essential that he attend the meeting.",
+   "explain": "Subjuntivo formal: verbo base.",
+   "skill": "subjunctive",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-019",
+   "topic": "t27",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'd rather you don't call me after 10.",
+   "options": [
+    "I'd rather you didn't call me after 10.",
+    "I'd rather you not to call me after 10.",
+    "I'd rather you won't call me after 10."
+   ],
+   "answer": "I'd rather you didn't call me after 10.",
+   "explain": "WOULD RATHER + outra pessoa + passado.",
+   "skill": "rather",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-020",
+   "topic": "t27",
+   "level": 2,
+   "type": "gap",
+   "prompt": "He talks to me as if I ___ (be) a child.",
+   "answer": [
+    "were",
+    "was"
+   ],
+   "explain": "Irreal: AS IF + WERE.",
+   "skill": "asif",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-021",
+   "topic": "t27",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The candidate who selected starts on Monday.",
+   "options": [
+    "The candidate selected starts on Monday.",
+    "The candidate whom selected starts on Monday.",
+    "The candidate selecting starts on Monday."
+   ],
+   "answer": "The candidate selected starts on Monday.",
+   "explain": "Relativa reduzida passiva.",
+   "skill": "reduced",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-022",
+   "topic": "t27",
+   "level": 2,
+   "type": "gap",
+   "prompt": "'Will it be expensive?' 'I hope ___ (não).'",
+   "answer": [
+    "not"
+   ],
+   "explain": "I HOPE NOT.",
+   "skill": "subst",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-023",
+   "topic": "t27",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (O que quer que) you decide, let me know.",
+   "answer": [
+    "Whatever"
+   ],
+   "explain": "WHATEVER.",
+   "skill": "ever",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-024",
+   "topic": "t27",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (Considerando) the delay, we should notify the client.",
+   "answer": [
+    "Given",
+    "Considering"
+   ],
+   "explain": "GIVEN / CONSIDERING.",
+   "skill": "participle",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-2-025",
+   "topic": "t27",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'd rather ___ (not / discuss) it now.",
+   "answer": [
+    "not discuss"
+   ],
+   "explain": "WOULD RATHER NOT + verbo.",
+   "skill": "rather",
+   "cefr": "C1"
+  },
+  {
    "id": "t27-3-001",
    "topic": "t27",
    "level": 3,
@@ -670,6 +974,473 @@
    "explain": "AS THOUGH + Past Perfect: situação irreal no passado.",
    "skill": "asif",
    "cefr": "C1"
+  },
+  {
+   "id": "t27-3-016",
+   "topic": "t27",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We insist that the invoice ___ (be) corrected.",
+   "answer": [
+    "be"
+   ],
+   "explain": "INSIST THAT + BE.",
+   "skill": "subjunctive",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-017",
+   "topic": "t27",
+   "level": 3,
+   "type": "gap",
+   "prompt": "It looks as ___ (se) the deal is going to fall through.",
+   "answer": [
+    "if",
+    "though"
+   ],
+   "explain": "AS IF / AS THOUGH (provável).",
+   "skill": "asif",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-018",
+   "topic": "t27",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The person to ___ (quem) you should write is Mr. Lima.",
+   "answer": [
+    "whom"
+   ],
+   "explain": "TO WHOM.",
+   "skill": "reduced",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-019",
+   "topic": "t27",
+   "level": 3,
+   "type": "gap",
+   "prompt": "'Did they agree?' 'I don't think ___ (assim).'",
+   "answer": [
+    "so"
+   ],
+   "explain": "I DON'T THINK SO.",
+   "skill": "subst",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-020",
+   "topic": "t27",
+   "level": 3,
+   "type": "gap",
+   "prompt": "___ (Quem quer que) wrote this did a great job.",
+   "answer": [
+    "Whoever"
+   ],
+   "explain": "WHOEVER.",
+   "skill": "ever",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-021",
+   "topic": "t27",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Having read the contract, she refused to sign.",
+   "explain": "HAVING + particípio.",
+   "skill": "participle",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-022",
+   "topic": "t27",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "It is vital that the data be protected.",
+   "explain": "Subjuntivo.",
+   "skill": "subjunctive",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-023",
+   "topic": "t27",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Walking into the room, she noticed the silence.",
+   "explain": "Mesmo sujeito.",
+   "skill": "dangling",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-024",
+   "topic": "t27",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "The documents submitted after Friday will not be accepted.",
+    "The documents submitting after Friday will not be accepted.",
+    "The documents were submitted after Friday will not be accepted."
+   ],
+   "answer": "The documents submitted after Friday will not be accepted.",
+   "explain": "Relativa reduzida passiva.",
+   "skill": "reduced",
+   "cefr": "C1"
+  },
+  {
+   "id": "t27-3-025",
+   "topic": "t27",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "However you look at it, it's a good deal.",
+    "Whatever you look at it, it's a good deal.",
+    "However look you at it, it's a good deal."
+   ],
+   "answer": "However you look at it, it's a good deal.",
+   "explain": "HOWEVER = de qualquer forma que.",
+   "skill": "ever",
+   "cefr": "C1"
+  },
+  {
+   "topic": "t27",
+   "level": 1,
+   "skill": "dangling",
+   "cefr": "C1",
+   "id": "t27-1-004v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Walking to the office, an accident happened.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Walking to the office, I saw an accident. Quem caminha é o sujeito: I."
+  },
+  {
+   "topic": "t27",
+   "level": 1,
+   "skill": "dangling",
+   "cefr": "C1",
+   "id": "t27-1-018v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Arriving at the hotel, the room was ready.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Arriving at the hotel, we checked in. Quem chega: WE."
+  },
+  {
+   "topic": "t27",
+   "level": 2,
+   "skill": "participle",
+   "cefr": "C1",
+   "id": "t27-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Having reviewed the data, we found an error.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. HAVING + particípio."
+  },
+  {
+   "topic": "t27",
+   "level": 2,
+   "skill": "dangling",
+   "cefr": "C1",
+   "id": "t27-2-003v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "When I arrived late, the meeting had already started.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. A reunião não chegou atrasada."
+  },
+  {
+   "topic": "t27",
+   "level": 2,
+   "skill": "dangling",
+   "cefr": "C1",
+   "id": "t27-2-004v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Having finished the report, the computer crashed.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Having finished the report, I saw the computer crash. O sujeito implícito deve ser o mesmo."
+  },
+  {
+   "topic": "t27",
+   "level": 2,
+   "skill": "subjunctive",
+   "cefr": "C1",
+   "id": "t27-2-005v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We insist that he pay now.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Subjuntivo: sem -S."
+  },
+  {
+   "topic": "t27",
+   "level": 2,
+   "skill": "rather",
+   "cefr": "C1",
+   "id": "t27-2-007v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'd rather wait.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. WOULD RATHER sem TO."
+  },
+  {
+   "topic": "t27",
+   "level": 2,
+   "skill": "asif",
+   "cefr": "C1",
+   "id": "t27-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She acts as if she were the boss. (ela não é)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Irreal: AS IF + WERE."
+  },
+  {
+   "topic": "t27",
+   "level": 2,
+   "skill": "reduced",
+   "cefr": "C1",
+   "id": "t27-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The supplier responsible for the delay was fined.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Relativa reduzida; RESPONSIBLE FOR."
+  },
+  {
+   "topic": "t27",
+   "level": 2,
+   "skill": "subst",
+   "cefr": "C1",
+   "id": "t27-2-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I think yes.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I think so. Não use YES: SO."
+  },
+  {
+   "topic": "t27",
+   "level": 2,
+   "skill": "ever",
+   "cefr": "C1",
+   "id": "t27-2-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Whatever they say, it are wrong.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Whatever they say, it's wrong. Sujeito singular: IT IS."
+  },
+  {
+   "topic": "t27",
+   "level": 2,
+   "skill": "dangling",
+   "cefr": "C1",
+   "id": "t27-2-017v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Reading the report, I noticed the mistake.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Sujeito implícito precisa ser o mesmo."
+  },
+  {
+   "topic": "t27",
+   "level": 2,
+   "skill": "rather",
+   "cefr": "C1",
+   "id": "t27-2-019v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'd rather you didn't call me after 10.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. WOULD RATHER + outra pessoa + passado."
+  },
+  {
+   "topic": "t27",
+   "level": 2,
+   "skill": "reduced",
+   "cefr": "C1",
+   "id": "t27-2-021v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The candidate selected starts on Monday.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Relativa reduzida passiva."
+  },
+  {
+   "topic": "t27",
+   "level": 3,
+   "skill": "subst",
+   "cefr": "C1",
+   "id": "t27-3-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "'Will it rain?' 'I'm afraid so.'",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. I'M AFRAID SO."
+  },
+  {
+   "topic": "t27",
+   "level": 3,
+   "skill": "dangling",
+   "cefr": "C1",
+   "id": "t27-3-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Looking at the data, a pattern was noticed.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Looking at the data, we noticed a pattern. Sujeito implícito = WE."
+  },
+  {
+   "topic": "t27",
+   "level": 3,
+   "skill": "reduced",
+   "cefr": "C1",
+   "id": "t27-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The man to whom I sent the e-mail never replied.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. TO WHOM."
+  },
+  {
+   "topic": "t27",
+   "level": 3,
+   "skill": "ever",
+   "cefr": "C1",
+   "id": "t27-3-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Whatever you will decide, I'll support you.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Whatever you decide, I'll support you. WHATEVER + presente."
+  },
+  {
+   "topic": "t27",
+   "level": 3,
+   "skill": "asif",
+   "cefr": "C1",
+   "id": "t27-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He spoke as though nothing had happened.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. AS THOUGH + Past Perfect: situação irreal no passado."
+  },
+  {
+   "topic": "t27",
+   "level": 3,
+   "skill": "reduced",
+   "cefr": "C1",
+   "id": "t27-3-024v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The documents submitting after Friday will not be accepted.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The documents submitted after Friday will not be accepted. Relativa reduzida passiva."
+  },
+  {
+   "topic": "t27",
+   "level": 3,
+   "skill": "ever",
+   "cefr": "C1",
+   "id": "t27-3-025v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "However you look at it, it's a good deal.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. HOWEVER = de qualquer forma que."
   }
  ]
 }

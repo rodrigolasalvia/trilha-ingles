@@ -290,6 +290,166 @@
    "cefr": "B1"
   },
   {
+   "id": "r03-1-019",
+   "topic": "r03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I've worked here ___ ten years.",
+   "options": [
+    "for",
+    "since",
+    "during"
+   ],
+   "answer": "for",
+   "explain": "Duração: FOR.",
+   "skill": "forsince",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-1-020",
+   "topic": "r03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She's been waiting ___ 9 a.m.",
+   "options": [
+    "since",
+    "for",
+    "from"
+   ],
+   "answer": "since",
+   "explain": "Ponto de início: SINCE.",
+   "skill": "forsince",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-1-021",
+   "topic": "r03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'm tired. I ___ answering e-mails all morning.",
+   "options": [
+    "'ve been",
+    "was",
+    "'m"
+   ],
+   "answer": "'ve been",
+   "explain": "HAVE BEEN + -ING: atividade recente e contínua.",
+   "skill": "ppc",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-1-022",
+   "topic": "r03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "When we arrived, the train ___.",
+   "options": [
+    "had already left",
+    "already left",
+    "has already left"
+   ],
+   "answer": "had already left",
+   "explain": "Antes de outro passado: HAD + particípio.",
+   "skill": "pastperf",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-1-023",
+   "topic": "r03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "If it rains, we ___ the event.",
+   "options": [
+    "will cancel",
+    "would cancel",
+    "cancel will"
+   ],
+   "answer": "will cancel",
+   "explain": "1ª condicional: IF + presente, WILL.",
+   "skill": "cond",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-1-024",
+   "topic": "r03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "If I ___ you, I'd accept the offer.",
+   "options": [
+    "were",
+    "am",
+    "will be"
+   ],
+   "answer": "were",
+   "explain": "2ª condicional: IF I WERE.",
+   "skill": "cond",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-1-025",
+   "topic": "r03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The report ___ by the auditors last week.",
+   "options": [
+    "was reviewed",
+    "reviewed",
+    "has reviewed"
+   ],
+   "answer": "was reviewed",
+   "explain": "Passiva no passado: WAS + particípio.",
+   "skill": "passive",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-1-026",
+   "topic": "r03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She told me she ___ busy.",
+   "options": [
+    "was",
+    "is being",
+    "be"
+   ],
+   "answer": "was",
+   "explain": "Discurso indireto: o tempo recua.",
+   "skill": "reported",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-1-027",
+   "topic": "r03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The supplier ___ won the bid is from Recife.",
+   "options": [
+    "who",
+    "which",
+    "whose"
+   ],
+   "answer": "who",
+   "explain": "Pessoa (empresa como grupo de pessoas): WHO / THAT.",
+   "skill": "rel",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-1-028",
+   "topic": "r03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The lights are on. Someone ___ be in the office.",
+   "options": [
+    "must",
+    "can't",
+    "mustn't"
+   ],
+   "answer": "must",
+   "explain": "Quase certeza: MUST.",
+   "skill": "deduct",
+   "cefr": "B1"
+  },
+  {
    "id": "r03-2-001",
    "topic": "r03",
    "level": 2,
@@ -552,6 +712,152 @@
    "cefr": "B1"
   },
   {
+   "id": "r03-2-019",
+   "topic": "r03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "How long ___ (you / work) on this project?",
+   "answer": [
+    "have you been working",
+    "have you worked"
+   ],
+   "explain": "Duração até agora: HAVE YOU BEEN + -ING.",
+   "skill": "ppc",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-2-020",
+   "topic": "r03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I ___ (never / see) such a long contract before that day.",
+   "answer": [
+    "had never seen"
+   ],
+   "explain": "Antes de um ponto passado: HAD + particípio.",
+   "skill": "pastperf",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-2-021",
+   "topic": "r03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "If we ___ (have) more time, we would review everything.",
+   "answer": [
+    "had"
+   ],
+   "explain": "2ª condicional: IF + passado.",
+   "skill": "cond",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-2-022",
+   "topic": "r03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "All contracts must ___ (sign) by both parties.",
+   "answer": [
+    "be signed"
+   ],
+   "explain": "Com modal, passiva: MUST BE + particípio.",
+   "skill": "passive",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-2-023",
+   "topic": "r03",
+   "level": 2,
+   "type": "fix",
+   "prompt": "He said me that he was late.",
+   "options": [
+    "He told me that he was late.",
+    "He said to me that he is late now.",
+    "He told that he was late."
+   ],
+   "answer": "He told me that he was late.",
+   "explain": "TELL + pessoa; SAY sem pessoa.",
+   "skill": "reported",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-2-024",
+   "topic": "r03",
+   "level": 2,
+   "type": "fix",
+   "prompt": "This is the company who I work for.",
+   "options": [
+    "This is the company that I work for.",
+    "This is the company whose I work for.",
+    "This is the company where I work for."
+   ],
+   "answer": "This is the company that I work for.",
+   "explain": "Empresa como coisa: THAT / WHICH.",
+   "skill": "rel",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-2-025",
+   "topic": "r03",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Thanks for help me.",
+   "options": [
+    "Thanks for helping me.",
+    "Thanks for to help me.",
+    "Thanks to help me."
+   ],
+   "answer": "Thanks for helping me.",
+   "explain": "FOR + -ING.",
+   "skill": "ingto",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-2-026",
+   "topic": "r03",
+   "level": 2,
+   "type": "fix",
+   "prompt": "It can't be true. He must lying.",
+   "options": [
+    "He must be lying.",
+    "He must to be lying.",
+    "He must lie now."
+   ],
+   "answer": "He must be lying.",
+   "explain": "MUST BE + -ING.",
+   "skill": "deduct",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-2-027",
+   "topic": "r03",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'm used to work late.",
+   "options": [
+    "I'm used to working late.",
+    "I used to working late.",
+    "I'm use to work late."
+   ],
+   "answer": "I'm used to working late.",
+   "explain": "BE USED TO + -ING.",
+   "skill": "usedto",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-2-028",
+   "topic": "r03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I ___ (used to: live) in Curitiba before moving to São Paulo.",
+   "answer": [
+    "used to live"
+   ],
+   "explain": "Hábito / estado antigo: USED TO + verbo.",
+   "skill": "usedto",
+   "cefr": "B1"
+  },
+  {
    "id": "r03-3-001",
    "topic": "r03",
    "level": 3,
@@ -786,6 +1092,396 @@
    "explain": "Preposição + -ING.",
    "skill": "ingto",
    "cefr": "B1"
+  },
+  {
+   "id": "r03-3-019",
+   "topic": "r03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The contract ___ (sign) yet. We're still waiting.",
+   "answer": [
+    "hasn't been signed",
+    "has not been signed"
+   ],
+   "explain": "Present Perfect passivo negativo.",
+   "skill": "passive",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-3-020",
+   "topic": "r03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "She asked me ___ (se) I had received the invoice.",
+   "answer": [
+    "if",
+    "whether"
+   ],
+   "explain": "Pergunta sim/não relatada: IF / WHETHER.",
+   "skill": "reported",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-3-021",
+   "topic": "r03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "That's the office ___ (onde) I started my career.",
+   "answer": [
+    "where"
+   ],
+   "explain": "Lugar: WHERE.",
+   "skill": "rel",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-3-022",
+   "topic": "r03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'm looking forward to ___ (meet) you.",
+   "answer": [
+    "meeting"
+   ],
+   "explain": "LOOK FORWARD TO + -ING.",
+   "skill": "ingto",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-3-023",
+   "topic": "r03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "They ___ (não podem) be in Rio. I saw them here an hour ago.",
+   "answer": [
+    "can't",
+    "cannot",
+    "couldn't"
+   ],
+   "explain": "Impossível: CAN'T.",
+   "skill": "deduct",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-3-024",
+   "topic": "r03",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We have been negotiating since January.",
+   "explain": "HAVE BEEN + -ING + SINCE.",
+   "skill": "ppc",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-3-025",
+   "topic": "r03",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "If I were you, I would ask for a discount.",
+   "explain": "2ª condicional.",
+   "skill": "cond",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-3-026",
+   "topic": "r03",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "By the time we arrived, the meeting had started.",
+   "explain": "Past Perfect.",
+   "skill": "pastperf",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-3-027",
+   "topic": "r03",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I've known her for years.",
+    "I know her since years.",
+    "I've been knowing her for years."
+   ],
+   "answer": "I've known her for years.",
+   "explain": "KNOW é estado: Present Perfect simples + FOR.",
+   "skill": "forsince",
+   "cefr": "B1"
+  },
+  {
+   "id": "r03-3-028",
+   "topic": "r03",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I'm not used to driving on the left.",
+    "I'm not used to drive on the left.",
+    "I don't used to driving on the left."
+   ],
+   "answer": "I'm not used to driving on the left.",
+   "explain": "BE USED TO + -ING.",
+   "skill": "usedto",
+   "cefr": "B1"
+  },
+  {
+   "topic": "r03",
+   "level": 2,
+   "skill": "forsince",
+   "cefr": "B1",
+   "id": "r03-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I've worked here since 2015.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. 'Trabalho aqui desde' = Present Perfect."
+  },
+  {
+   "topic": "r03",
+   "level": 2,
+   "skill": "ppc",
+   "cefr": "B1",
+   "id": "r03-2-003v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I've been waiting for an hour.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. 'Estou esperando há' = HAVE BEEN + -ING."
+  },
+  {
+   "topic": "r03",
+   "level": 2,
+   "skill": "cond",
+   "cefr": "B1",
+   "id": "r03-2-005v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "If I have time, I'll call you.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Sem WILL no lado do IF."
+  },
+  {
+   "topic": "r03",
+   "level": 2,
+   "skill": "passive",
+   "cefr": "B1",
+   "id": "r03-2-007v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The file was sent yesterday.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Passiva: particípio (SENT)."
+  },
+  {
+   "topic": "r03",
+   "level": 2,
+   "skill": "reported",
+   "cefr": "B1",
+   "id": "r03-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He told me that it was urgent.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. TELL + pessoa; SAY sem pessoa."
+  },
+  {
+   "topic": "r03",
+   "level": 2,
+   "skill": "rel",
+   "cefr": "B1",
+   "id": "r03-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The supplier that we hired is late.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. 'Que' relativo nunca é WHAT."
+  },
+  {
+   "topic": "r03",
+   "level": 2,
+   "skill": "ingto",
+   "cefr": "B1",
+   "id": "r03-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I look forward to hearing from you.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. TO preposição: -ING."
+  },
+  {
+   "topic": "r03",
+   "level": 2,
+   "skill": "deduct",
+   "cefr": "B1",
+   "id": "r03-2-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He might be at home now. (sentido: talvez)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. 'Pode ser que' = MIGHT."
+  },
+  {
+   "topic": "r03",
+   "level": 2,
+   "skill": "usedto",
+   "cefr": "B1",
+   "id": "r03-2-016v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm used to wake up early.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I'm used to waking up early. BE USED TO + -ING."
+  },
+  {
+   "topic": "r03",
+   "level": 2,
+   "skill": "reported",
+   "cefr": "B1",
+   "id": "r03-2-023v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He told me that he was late.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. TELL + pessoa; SAY sem pessoa."
+  },
+  {
+   "topic": "r03",
+   "level": 2,
+   "skill": "rel",
+   "cefr": "B1",
+   "id": "r03-2-024v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "This is the company who I work for.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: This is the company that I work for. Empresa como coisa: THAT / WHICH."
+  },
+  {
+   "topic": "r03",
+   "level": 2,
+   "skill": "ingto",
+   "cefr": "B1",
+   "id": "r03-2-025v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Thanks for helping me.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. FOR + -ING."
+  },
+  {
+   "topic": "r03",
+   "level": 2,
+   "skill": "deduct",
+   "cefr": "B1",
+   "id": "r03-2-026v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It can't be true. He must lying.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: He must be lying. MUST BE + -ING."
+  },
+  {
+   "topic": "r03",
+   "level": 2,
+   "skill": "usedto",
+   "cefr": "B1",
+   "id": "r03-2-027v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm used to working late.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. BE USED TO + -ING."
+  },
+  {
+   "topic": "r03",
+   "level": 3,
+   "skill": "forsince",
+   "cefr": "B1",
+   "id": "r03-3-027v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I've known her for years.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. KNOW é estado: Present Perfect simples + FOR."
+  },
+  {
+   "topic": "r03",
+   "level": 3,
+   "skill": "usedto",
+   "cefr": "B1",
+   "id": "r03-3-028v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm not used to drive on the left.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I'm not used to driving on the left. BE USED TO + -ING."
   }
  ]
 }

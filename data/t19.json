@@ -242,6 +242,166 @@
    "cefr": "B2"
   },
   {
+   "id": "t19-1-016",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I'm going to ___ you through our results.'",
+   "options": [
+    "take",
+    "bring",
+    "carry"
+   ],
+   "answer": "take",
+   "explain": "TAKE YOU THROUGH = apresentar passo a passo.",
+   "skill": "opening",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-017",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I'll ___ three main points.'",
+   "options": [
+    "cover",
+    "speak",
+    "say"
+   ],
+   "answer": "cover",
+   "explain": "COVER = tratar de.",
+   "skill": "structure",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-018",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'___ to the next slide...'",
+   "options": [
+    "Moving on",
+    "Passing",
+    "Going"
+   ],
+   "answer": "Moving on",
+   "explain": "MOVING ON TO...",
+   "skill": "transitions",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-019",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'If you ___ at this graph, you'll see a clear trend.'",
+   "options": [
+    "look",
+    "see",
+    "watch"
+   ],
+   "answer": "look",
+   "explain": "LOOK AT.",
+   "skill": "data",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-020",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Revenue ___ steadily throughout the year.",
+   "options": [
+    "grew",
+    "growed",
+    "grown"
+   ],
+   "answer": "grew",
+   "explain": "GROW → GREW.",
+   "skill": "trends",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-021",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Prices ___ dramatically in March. (despencaram)",
+   "options": [
+    "plunged",
+    "plugged",
+    "pushed"
+   ],
+   "answer": "plunged",
+   "explain": "PLUNGE = cair muito.",
+   "skill": "trends",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-022",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I want to ___ one point in particular.'",
+   "options": [
+    "highlight",
+    "highlighted",
+    "high light"
+   ],
+   "answer": "highlight",
+   "explain": "HIGHLIGHT = destacar.",
+   "skill": "emphasis",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-023",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I'd be happy to ___ any questions.'",
+   "options": [
+    "answer",
+    "respond",
+    "reply"
+   ],
+   "answer": "answer",
+   "explain": "ANSWER QUESTIONS.",
+   "skill": "qa",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-024",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'To ___, we exceeded our targets.'",
+   "options": [
+    "conclude",
+    "concluding",
+    "conclusion"
+   ],
+   "answer": "conclude",
+   "explain": "TO CONCLUDE.",
+   "skill": "closing",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-1-025",
+   "topic": "t19",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Finally, I'll ___ up with some recommendations.'",
+   "options": [
+    "finish",
+    "end off",
+    "close in"
+   ],
+   "answer": "finish",
+   "explain": "FINISH UP WITH.",
+   "skill": "structure",
+   "cefr": "B2"
+  },
+  {
    "id": "t19-2-001",
    "topic": "t19",
    "level": 2,
@@ -459,6 +619,151 @@
    "cefr": "B2"
   },
   {
+   "id": "t19-2-016",
+   "topic": "t19",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Today I'm going to ___ (falar) about our supplier program.",
+   "answer": [
+    "talk"
+   ],
+   "explain": "TALK ABOUT.",
+   "skill": "opening",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-017",
+   "topic": "t19",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Let's ___ (passar) to the costs now.",
+   "answer": [
+    "move on",
+    "turn",
+    "go on"
+   ],
+   "explain": "MOVE ON / TURN TO.",
+   "skill": "transitions",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-018",
+   "topic": "t19",
+   "level": 2,
+   "type": "fix",
+   "prompt": "As we can see in this graphic, sales rose.",
+   "options": [
+    "As you can see in this chart, sales rose.",
+    "As we can see in this graphic, sales raised.",
+    "How you can see in this chart, sales rose."
+   ],
+   "answer": "As you can see in this chart, sales rose.",
+   "explain": "Gráfico: CHART / GRAPH.",
+   "skill": "data",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-019",
+   "topic": "t19",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Costs decreased in 5%.",
+   "options": [
+    "Costs decreased by 5%.",
+    "Costs decreased of 5%.",
+    "Costs decreased on 5%."
+   ],
+   "answer": "Costs decreased by 5%.",
+   "explain": "Variação: BY.",
+   "skill": "trends",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-020",
+   "topic": "t19",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Sales ___ (atingiram) a record high in December.",
+   "answer": [
+    "hit",
+    "reached"
+   ],
+   "explain": "HIT / REACH A RECORD HIGH.",
+   "skill": "trends",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-021",
+   "topic": "t19",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I can't ___ (enfatizar) this enough: quality comes first.",
+   "answer": [
+    "stress",
+    "emphasize",
+    "emphasise"
+   ],
+   "explain": "I CAN'T STRESS THIS ENOUGH.",
+   "skill": "emphasis",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-022",
+   "topic": "t19",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Are there some questions?",
+   "options": [
+    "Are there any questions?",
+    "Is there some questions?",
+    "Have any questions there?"
+   ],
+   "answer": "Are there any questions?",
+   "explain": "Pergunta: ANY.",
+   "skill": "qa",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-023",
+   "topic": "t19",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Thank you all for ___ (vir) today.",
+   "answer": [
+    "coming"
+   ],
+   "explain": "THANK YOU FOR COMING.",
+   "skill": "closing",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-024",
+   "topic": "t19",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I've divided my talk ___ (preposição) four sections.",
+   "answer": [
+    "into"
+   ],
+   "explain": "DIVIDED INTO.",
+   "skill": "structure",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-2-025",
+   "topic": "t19",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The figures ___ (mostram) a clear improvement.",
+   "answer": [
+    "show",
+    "indicate"
+   ],
+   "explain": "THE FIGURES SHOW.",
+   "skill": "data",
+   "cefr": "B2"
+  },
+  {
    "id": "t19-3-001",
    "topic": "t19",
    "level": 3,
@@ -662,6 +967,242 @@
    "explain": "START WITH... MOVE ON TO...",
    "skill": "structure",
    "cefr": "B2"
+  },
+  {
+   "id": "t19-3-016",
+   "topic": "t19",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Sales ___ (estabilizaram) after the summer.",
+   "answer": [
+    "stabilized",
+    "levelled off",
+    "leveled off",
+    "stabilised"
+   ],
+   "explain": "LEVEL OFF / STABILIZE.",
+   "skill": "trends",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-017",
+   "topic": "t19",
+   "level": 3,
+   "type": "gap",
+   "prompt": "That's a great point. I'll ___ (tratar) it in my next slide.",
+   "answer": [
+    "address",
+    "cover"
+   ],
+   "explain": "ADDRESS A POINT.",
+   "skill": "qa",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-018",
+   "topic": "t19",
+   "level": 3,
+   "type": "gap",
+   "prompt": "What I'd like to ___ (enfatizar) is the impact on margins.",
+   "answer": [
+    "emphasize",
+    "stress",
+    "highlight",
+    "emphasise"
+   ],
+   "explain": "WHAT I'D LIKE TO EMPHASIZE IS...",
+   "skill": "emphasis",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-019",
+   "topic": "t19",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Let me ___ (resumir) the key points.",
+   "answer": [
+    "summarize",
+    "recap",
+    "summarise"
+   ],
+   "explain": "SUMMARIZE THE KEY POINTS.",
+   "skill": "closing",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-020",
+   "topic": "t19",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Before I start, let me give you some ___ (contexto).",
+   "answer": [
+    "background",
+    "context"
+   ],
+   "explain": "SOME BACKGROUND.",
+   "skill": "opening",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-021",
+   "topic": "t19",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Let me take you through the main results.",
+   "explain": "TAKE YOU THROUGH.",
+   "skill": "opening",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-022",
+   "topic": "t19",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Now let's turn to the second part.",
+   "explain": "TURN TO.",
+   "skill": "transitions",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-023",
+   "topic": "t19",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "The graph shows a sharp increase in costs.",
+   "explain": "Descrever gráfico.",
+   "skill": "data",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-024",
+   "topic": "t19",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual frase descreve uma alta forte?",
+   "options": [
+    "Profits soared in the last quarter.",
+    "Profits dipped in the last quarter.",
+    "Profits stayed flat in the last quarter."
+   ],
+   "answer": "Profits soared in the last quarter.",
+   "explain": "SOAR = subir muito.",
+   "skill": "trends",
+   "cefr": "B2"
+  },
+  {
+   "id": "t19-3-025",
+   "topic": "t19",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual resposta a uma pergunta fora do tema é adequada?",
+   "options": [
+    "That's a bit outside today's scope, but I'm happy to discuss it afterwards.",
+    "Not my problem.",
+    "That question is wrong."
+   ],
+   "answer": "That's a bit outside today's scope, but I'm happy to discuss it afterwards.",
+   "explain": "Redirecione com educação.",
+   "skill": "qa",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t19",
+   "level": 2,
+   "skill": "structure",
+   "cefr": "B2",
+   "id": "t19-2-004v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Finally of all, I'll talk about costs.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Finally, I'll talk about costs. FINALLY sozinho."
+  },
+  {
+   "topic": "t19",
+   "level": 2,
+   "skill": "data",
+   "cefr": "B2",
+   "id": "t19-2-008v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Like you can see, sales grew.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: As you can see, sales grew. AS YOU CAN SEE."
+  },
+  {
+   "topic": "t19",
+   "level": 2,
+   "skill": "trends",
+   "cefr": "B2",
+   "id": "t19-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Our sales rose by 10%. (sentido: aumentaram sozinhas)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. RISE = sem objeto; RAISE exige objeto."
+  },
+  {
+   "topic": "t19",
+   "level": 2,
+   "skill": "qa",
+   "cefr": "B2",
+   "id": "t19-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Does anyone have any questions?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. DOES ANYONE HAVE ANY QUESTIONS?"
+  },
+  {
+   "topic": "t19",
+   "level": 2,
+   "skill": "trends",
+   "cefr": "B2",
+   "id": "t19-2-019v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Costs decreased by 5%.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Variação: BY."
+  },
+  {
+   "topic": "t19",
+   "level": 2,
+   "skill": "qa",
+   "cefr": "B2",
+   "id": "t19-2-022v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Are there some questions?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Are there any questions? Pergunta: ANY."
   }
  ]
 }

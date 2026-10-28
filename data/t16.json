@@ -242,6 +242,166 @@
    "cefr": "B2"
   },
   {
+   "id": "t16-1-016",
+   "topic": "t16",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The second hotel is ___ more comfortable.",
+   "options": [
+    "far",
+    "very",
+    "so"
+   ],
+   "answer": "far",
+   "explain": "FAR + comparativo.",
+   "skill": "degree",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-1-017",
+   "topic": "t16",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The ___ you plan, the fewer problems you'll have.",
+   "options": [
+    "more",
+    "most",
+    "much"
+   ],
+   "answer": "more",
+   "explain": "THE MORE ..., THE FEWER ...",
+   "skill": "thethe",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-1-018",
+   "topic": "t16",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "This year's results are ___ good as last year's.",
+   "options": [
+    "as",
+    "so much",
+    "more"
+   ],
+   "answer": "as",
+   "explain": "AS ... AS.",
+   "skill": "asas",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-1-019",
+   "topic": "t16",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It's the ___ difficult negotiation I've ever had.",
+   "options": [
+    "most",
+    "more",
+    "much"
+   ],
+   "answer": "most",
+   "explain": "Superlativo: THE MOST.",
+   "skill": "superl",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-1-020",
+   "topic": "t16",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She types ___ than me.",
+   "options": [
+    "faster",
+    "more fast",
+    "fastly"
+   ],
+   "answer": "faster",
+   "explain": "FAST → FASTER.",
+   "skill": "advcomp",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-1-021",
+   "topic": "t16",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She works ___ a consultant for big companies.",
+   "options": [
+    "as",
+    "like",
+    "such"
+   ],
+   "answer": "as",
+   "explain": "Função: AS.",
+   "skill": "likeas",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-1-022",
+   "topic": "t16",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It was ___ a long meeting that I missed lunch.",
+   "options": [
+    "such",
+    "so",
+    "too"
+   ],
+   "answer": "such",
+   "explain": "SUCH A + adjetivo + substantivo.",
+   "skill": "sosuch",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-1-023",
+   "topic": "t16",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The view is ___ amazing.",
+   "options": [
+    "absolutely",
+    "very",
+    "much"
+   ],
+   "answer": "absolutely",
+   "explain": "Adjetivo extremo: ABSOLUTELY.",
+   "skill": "extreme",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-1-024",
+   "topic": "t16",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "This route is ___ longer.",
+   "options": [
+    "a bit",
+    "a bit of",
+    "bit"
+   ],
+   "answer": "a bit",
+   "explain": "A BIT + comparativo.",
+   "skill": "degree",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-1-025",
+   "topic": "t16",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It's ___ hot to work outside.",
+   "options": [
+    "too",
+    "so much",
+    "enough"
+   ],
+   "answer": "too",
+   "explain": "TOO + adjetivo = demais.",
+   "skill": "sosuch",
+   "cefr": "B2"
+  },
+  {
    "id": "t16-2-001",
    "topic": "t16",
    "level": 2,
@@ -467,6 +627,155 @@
    "cefr": "B2"
   },
   {
+   "id": "t16-2-016",
+   "topic": "t16",
+   "level": 2,
+   "type": "fix",
+   "prompt": "This proposal is very better.",
+   "options": [
+    "This proposal is much better.",
+    "This proposal is very more better.",
+    "This proposal is so much better than."
+   ],
+   "answer": "This proposal is much better.",
+   "explain": "MUCH + comparativo.",
+   "skill": "degree",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-2-017",
+   "topic": "t16",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The ___ (cedo) we leave, the less traffic we'll face.",
+   "answer": [
+    "earlier",
+    "sooner"
+   ],
+   "explain": "THE + comparativo.",
+   "skill": "thethe",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-2-018",
+   "topic": "t16",
+   "level": 2,
+   "type": "fix",
+   "prompt": "He's as tall than his brother.",
+   "options": [
+    "He's as tall as his brother.",
+    "He's so tall than his brother.",
+    "He's tall as his brother."
+   ],
+   "answer": "He's as tall as his brother.",
+   "explain": "AS ... AS.",
+   "skill": "asas",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-2-019",
+   "topic": "t16",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She is the more experienced person in the team.",
+   "options": [
+    "She is the most experienced person on the team.",
+    "She is the experiencedest person on the team.",
+    "She is most experienced person in the team the."
+   ],
+   "answer": "She is the most experienced person on the team.",
+   "explain": "Superlativo: THE MOST.",
+   "skill": "superl",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-2-020",
+   "topic": "t16",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Could you speak a bit more ___ (clear)?",
+   "answer": [
+    "clearly"
+   ],
+   "explain": "MORE + advérbio.",
+   "skill": "advcomp",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-2-021",
+   "topic": "t16",
+   "level": 2,
+   "type": "fix",
+   "prompt": "He talks as a politician. (parece)",
+   "options": [
+    "He talks like a politician.",
+    "He talks such as a politician.",
+    "He talks alike a politician."
+   ],
+   "answer": "He talks like a politician.",
+   "explain": "Semelhança: LIKE.",
+   "skill": "likeas",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-2-022",
+   "topic": "t16",
+   "level": 2,
+   "type": "fix",
+   "prompt": "It was so a good meeting.",
+   "options": [
+    "It was such a good meeting.",
+    "It was a so good meeting.",
+    "It was such good meeting."
+   ],
+   "answer": "It was such a good meeting.",
+   "explain": "SUCH A + adjetivo + substantivo.",
+   "skill": "sosuch",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-2-023",
+   "topic": "t16",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The food was very delicious.",
+   "options": [
+    "The food was absolutely delicious.",
+    "The food was much delicious.",
+    "The food was very much delicious."
+   ],
+   "answer": "The food was absolutely delicious.",
+   "explain": "Extremo: ABSOLUTELY.",
+   "skill": "extreme",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-2-024",
+   "topic": "t16",
+   "level": 2,
+   "type": "gap",
+   "prompt": "This city is twice ___ (tão) expensive as mine.",
+   "answer": [
+    "as"
+   ],
+   "explain": "TWICE AS ... AS.",
+   "skill": "asas",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-2-025",
+   "topic": "t16",
+   "level": 2,
+   "type": "gap",
+   "prompt": "That's the ___ (good) offer we've ever received.",
+   "answer": [
+    "best"
+   ],
+   "explain": "GOOD → BEST.",
+   "skill": "superl",
+   "cefr": "B2"
+  },
+  {
    "id": "t16-3-001",
    "topic": "t16",
    "level": 3,
@@ -671,6 +980,477 @@
    "explain": "TOO = demais (problema).",
    "skill": "sosuch",
    "cefr": "B2"
+  },
+  {
+   "id": "t16-3-016",
+   "topic": "t16",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Their prices are ___ (consideravelmente) higher than ours.",
+   "answer": [
+    "considerably",
+    "significantly",
+    "much",
+    "far"
+   ],
+   "explain": "CONSIDERABLY + comparativo.",
+   "skill": "degree",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-3-017",
+   "topic": "t16",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The ___ (more) data we have, the better our decisions.",
+   "answer": [
+    "more"
+   ],
+   "explain": "THE MORE ..., THE BETTER.",
+   "skill": "thethe",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-3-018",
+   "topic": "t16",
+   "level": 3,
+   "type": "gap",
+   "prompt": "She drives ___ (careful) than her brother.",
+   "answer": [
+    "more carefully"
+   ],
+   "explain": "MORE + advérbio.",
+   "skill": "advcomp",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-3-019",
+   "topic": "t16",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The hotel was ___ (tão) noisy that we changed rooms.",
+   "answer": [
+    "so"
+   ],
+   "explain": "SO + adjetivo + THAT.",
+   "skill": "sosuch",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-3-020",
+   "topic": "t16",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The results were ___ (totalmente) amazing.",
+   "answer": [
+    "absolutely",
+    "totally",
+    "truly"
+   ],
+   "explain": "Extremo.",
+   "skill": "extreme",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-3-021",
+   "topic": "t16",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "This is by far the best option we have.",
+   "explain": "BY FAR + superlativo.",
+   "skill": "superl",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-3-022",
+   "topic": "t16",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "The new system is not as fast as the old one.",
+   "explain": "NOT AS ... AS.",
+   "skill": "asas",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-3-023",
+   "topic": "t16",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "He works as a lawyer for an international firm.",
+   "explain": "AS = função.",
+   "skill": "likeas",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-3-024",
+   "topic": "t16",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "The more you practice, the easier it gets.",
+    "More you practice, easier it gets.",
+    "The more you practice, easier it gets."
+   ],
+   "answer": "The more you practice, the easier it gets.",
+   "explain": "THE ... THE.",
+   "skill": "thethe",
+   "cefr": "B2"
+  },
+  {
+   "id": "t16-3-025",
+   "topic": "t16",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Our margin is slightly lower this year.",
+    "Our margin is very lower this year.",
+    "Our margin is slight lower this year."
+   ],
+   "answer": "Our margin is slightly lower this year.",
+   "explain": "SLIGHTLY + comparativo.",
+   "skill": "degree",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t16",
+   "level": 2,
+   "skill": "degree",
+   "cefr": "B2",
+   "id": "t16-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "This is much cheaper.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. VERY não modifica comparativo."
+  },
+  {
+   "topic": "t16",
+   "level": 2,
+   "skill": "thethe",
+   "cefr": "B2",
+   "id": "t16-2-003v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The more you study, the more you learn.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. THE nas duas metades."
+  },
+  {
+   "topic": "t16",
+   "level": 2,
+   "skill": "asas",
+   "cefr": "B2",
+   "id": "t16-2-005v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It's not as good as the first one.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. AS ... AS; THAN só com comparativo."
+  },
+  {
+   "topic": "t16",
+   "level": 2,
+   "skill": "superl",
+   "cefr": "B2",
+   "id": "t16-2-007v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "This is the most important point of all.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Entre três ou mais: superlativo."
+  },
+  {
+   "topic": "t16",
+   "level": 2,
+   "skill": "advcomp",
+   "cefr": "B2",
+   "id": "t16-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Can you speak more slowly?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Advérbio também no comparativo."
+  },
+  {
+   "topic": "t16",
+   "level": 2,
+   "skill": "likeas",
+   "cefr": "B2",
+   "id": "t16-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I work as a manager. (é a minha função)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Função real: AS."
+  },
+  {
+   "topic": "t16",
+   "level": 2,
+   "skill": "sosuch",
+   "cefr": "B2",
+   "id": "t16-2-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It's enough good for now.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: It's good enough for now. ENOUGH depois do adjetivo."
+  },
+  {
+   "topic": "t16",
+   "level": 2,
+   "skill": "extreme",
+   "cefr": "B2",
+   "id": "t16-2-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It's very essential.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: It's absolutely essential. Extremo: ABSOLUTELY."
+  },
+  {
+   "topic": "t16",
+   "level": 2,
+   "skill": "degree",
+   "cefr": "B2",
+   "id": "t16-2-016v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "This proposal is very better.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: This proposal is much better. MUCH + comparativo."
+  },
+  {
+   "topic": "t16",
+   "level": 2,
+   "skill": "asas",
+   "cefr": "B2",
+   "id": "t16-2-018v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He's as tall than his brother.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: He's as tall as his brother. AS ... AS."
+  },
+  {
+   "topic": "t16",
+   "level": 2,
+   "skill": "superl",
+   "cefr": "B2",
+   "id": "t16-2-019v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She is the most experienced person on the team.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Superlativo: THE MOST."
+  },
+  {
+   "topic": "t16",
+   "level": 2,
+   "skill": "likeas",
+   "cefr": "B2",
+   "id": "t16-2-021v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He talks like a politician. (parece)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Semelhança: LIKE."
+  },
+  {
+   "topic": "t16",
+   "level": 2,
+   "skill": "sosuch",
+   "cefr": "B2",
+   "id": "t16-2-022v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It was so a good meeting.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: It was such a good meeting. SUCH A + adjetivo + substantivo."
+  },
+  {
+   "topic": "t16",
+   "level": 2,
+   "skill": "extreme",
+   "cefr": "B2",
+   "id": "t16-2-023v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The food was absolutely delicious.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Extremo: ABSOLUTELY."
+  },
+  {
+   "topic": "t16",
+   "level": 3,
+   "skill": "advcomp",
+   "cefr": "B2",
+   "id": "t16-3-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She drives more carefully than me.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. MORE + advérbio."
+  },
+  {
+   "topic": "t16",
+   "level": 3,
+   "skill": "superl",
+   "cefr": "B2",
+   "id": "t16-3-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "This is the more reliable supplier we've ever had.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: This is the most reliable supplier we've ever had. Superlativo + EVER."
+  },
+  {
+   "topic": "t16",
+   "level": 3,
+   "skill": "thethe",
+   "cefr": "B2",
+   "id": "t16-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The bigger the company, the slower the decisions.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. THE ... THE."
+  },
+  {
+   "topic": "t16",
+   "level": 3,
+   "skill": "extreme",
+   "cefr": "B2",
+   "id": "t16-3-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The view was very stunning much.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The view was absolutely stunning. ABSOLUTELY + adjetivo extremo."
+  },
+  {
+   "topic": "t16",
+   "level": 3,
+   "skill": "sosuch",
+   "cefr": "B2",
+   "id": "t16-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It's too expensive for us.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. TOO = demais (problema)."
+  },
+  {
+   "topic": "t16",
+   "level": 3,
+   "skill": "thethe",
+   "cefr": "B2",
+   "id": "t16-3-024v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "More you practice, easier it gets.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The more you practice, the easier it gets. THE ... THE."
+  },
+  {
+   "topic": "t16",
+   "level": 3,
+   "skill": "degree",
+   "cefr": "B2",
+   "id": "t16-3-025v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Our margin is slightly lower this year.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. SLIGHTLY + comparativo."
   }
  ]
 }

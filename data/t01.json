@@ -290,6 +290,166 @@
    "cefr": "B1"
   },
   {
+   "id": "t01-1-019",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Would you mind ___ the window?",
+   "options": [
+    "closing",
+    "to close",
+    "close"
+   ],
+   "answer": "closing",
+   "explain": "MIND + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-1-020",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We should avoid ___ promises we can't keep.",
+   "options": [
+    "making",
+    "to make",
+    "make"
+   ],
+   "answer": "making",
+   "explain": "AVOID + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-1-021",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The board decided ___ the project.",
+   "options": [
+    "to cancel",
+    "cancelling",
+    "cancel"
+   ],
+   "answer": "to cancel",
+   "explain": "DECIDE + TO.",
+   "skill": "to_verbs",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-1-022",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "They refused ___ the new terms.",
+   "options": [
+    "to accept",
+    "accepting",
+    "accept"
+   ],
+   "answer": "to accept",
+   "explain": "REFUSE + TO.",
+   "skill": "to_verbs",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-1-023",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I asked the supplier ___ the invoice.",
+   "options": [
+    "to resend",
+    "resending",
+    "resend"
+   ],
+   "answer": "to resend",
+   "explain": "ASK + pessoa + TO.",
+   "skill": "obj_to",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-1-024",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "My boss let me ___ early.",
+   "options": [
+    "leave",
+    "to leave",
+    "leaving"
+   ],
+   "answer": "leave",
+   "explain": "LET + pessoa + verbo base.",
+   "skill": "bare",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-1-025",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "After ___ the report, I sent it to the director.",
+   "options": [
+    "reviewing",
+    "to review",
+    "review"
+   ],
+   "answer": "reviewing",
+   "explain": "Depois de preposição: -ING.",
+   "skill": "prep_ing",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-1-026",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We're committed to ___ costs.",
+   "options": [
+    "reducing",
+    "reduce",
+    "reduced"
+   ],
+   "answer": "reducing",
+   "explain": "COMMITTED TO (preposição) + -ING.",
+   "skill": "to_prep",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-1-027",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ suppliers is part of my job.",
+   "options": [
+    "Auditing",
+    "Audit",
+    "To auditing"
+   ],
+   "answer": "Auditing",
+   "explain": "-ING como sujeito.",
+   "skill": "subject",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-1-028",
+   "topic": "t01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I called ___ the meeting.",
+   "options": [
+    "to confirm",
+    "for confirm",
+    "for confirming"
+   ],
+   "answer": "to confirm",
+   "explain": "Finalidade: TO + verbo.",
+   "skill": "purpose",
+   "cefr": "B1"
+  },
+  {
    "id": "t01-2-001",
    "topic": "t01",
    "level": 2,
@@ -547,6 +707,151 @@
    ],
    "explain": "Verbo como sujeito da frase: forma -ING.",
    "skill": "subject",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-2-020",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Do you fancy ___ (grab) a coffee?",
+   "answer": [
+    "grabbing"
+   ],
+   "explain": "FANCY + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-2-021",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We can't afford ___ (lose) this client.",
+   "answer": [
+    "to lose"
+   ],
+   "explain": "AFFORD + TO.",
+   "skill": "to_verbs",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-2-022",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'd like you ___ (review) this clause.",
+   "answer": [
+    "to review"
+   ],
+   "explain": "WOULD LIKE + pessoa + TO.",
+   "skill": "obj_to",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-2-023",
+   "topic": "t01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The training made me to think differently.",
+   "options": [
+    "The training made me think differently.",
+    "The training made me thinking differently.",
+    "The training made to me think differently."
+   ],
+   "answer": "The training made me think differently.",
+   "explain": "MAKE + pessoa + verbo base.",
+   "skill": "bare",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-2-024",
+   "topic": "t01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'm interested in to join the project.",
+   "options": [
+    "I'm interested in joining the project.",
+    "I'm interested to joining the project.",
+    "I'm interested in join the project."
+   ],
+   "answer": "I'm interested in joining the project.",
+   "explain": "Preposição + -ING.",
+   "skill": "prep_ing",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-2-025",
+   "topic": "t01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I object to work on Sundays.",
+   "options": [
+    "I object to working on Sundays.",
+    "I object working to Sundays.",
+    "I object to worked on Sundays."
+   ],
+   "answer": "I object to working on Sundays.",
+   "explain": "OBJECT TO + -ING.",
+   "skill": "to_prep",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-2-026",
+   "topic": "t01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Negotiate with them is difficult.",
+   "options": [
+    "Negotiating with them is difficult.",
+    "To negotiating with them is difficult.",
+    "Negotiate them is difficult."
+   ],
+   "answer": "Negotiating with them is difficult.",
+   "explain": "Sujeito: -ING.",
+   "skill": "subject",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-2-027",
+   "topic": "t01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I came here for discuss the contract.",
+   "options": [
+    "I came here to discuss the contract.",
+    "I came here for discussing the contract to.",
+    "I came here to discussing the contract."
+   ],
+   "answer": "I came here to discuss the contract.",
+   "explain": "Finalidade: TO.",
+   "skill": "purpose",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-2-028",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "She keeps ___ (interrupt) me.",
+   "answer": [
+    "interrupting"
+   ],
+   "explain": "KEEP + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B1"
+  },
+  {
+   "id": "t01-2-029",
+   "topic": "t01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "They expect us ___ (deliver) by May.",
+   "answer": [
+    "to deliver"
+   ],
+   "explain": "EXPECT + pessoa + TO.",
+   "skill": "obj_to",
    "cefr": "B1"
   },
   {
@@ -817,6 +1122,376 @@
    "explain": "Finalidade: TO.",
    "skill": "purpose",
    "cefr": "B2"
+  },
+  {
+   "id": "t01-3-021",
+   "topic": "t01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'm considering ___ (move) to another team.",
+   "answer": [
+    "moving"
+   ],
+   "explain": "CONSIDER + -ING.",
+   "skill": "ing_verbs",
+   "cefr": "B2"
+  },
+  {
+   "id": "t01-3-022",
+   "topic": "t01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We managed ___ (close) the deal.",
+   "answer": [
+    "to close"
+   ],
+   "explain": "MANAGE + TO.",
+   "skill": "to_verbs",
+   "cefr": "B2"
+  },
+  {
+   "id": "t01-3-023",
+   "topic": "t01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Instead of ___ (wait), let's call them.",
+   "answer": [
+    "waiting"
+   ],
+   "explain": "INSTEAD OF + -ING.",
+   "skill": "prep_ing",
+   "cefr": "B2"
+  },
+  {
+   "id": "t01-3-024",
+   "topic": "t01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "When it comes to ___ (negotiate), she's the best.",
+   "answer": [
+    "negotiating"
+   ],
+   "explain": "WHEN IT COMES TO + -ING.",
+   "skill": "to_prep",
+   "cefr": "B2"
+  },
+  {
+   "id": "t01-3-025",
+   "topic": "t01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Don't let the delay ___ (affect) the team.",
+   "answer": [
+    "affect"
+   ],
+   "explain": "LET + objeto + verbo base.",
+   "skill": "bare",
+   "cefr": "B2"
+  },
+  {
+   "id": "t01-3-026",
+   "topic": "t01",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "She reminded me to send the contract.",
+   "explain": "REMIND + pessoa + TO.",
+   "skill": "obj_to",
+   "cefr": "B2"
+  },
+  {
+   "id": "t01-3-027",
+   "topic": "t01",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I look forward to hearing from you soon.",
+   "explain": "LOOK FORWARD TO + -ING.",
+   "skill": "to_prep",
+   "cefr": "B2"
+  },
+  {
+   "id": "t01-3-028",
+   "topic": "t01",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Reading contracts carefully saves time.",
+   "explain": "-ING como sujeito.",
+   "skill": "subject",
+   "cefr": "B2"
+  },
+  {
+   "id": "t01-3-029",
+   "topic": "t01",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "We stopped at the hotel to rest.",
+    "We stopped at the hotel for rest us.",
+    "We stopped at the hotel for resting us."
+   ],
+   "answer": "We stopped at the hotel to rest.",
+   "explain": "Finalidade: TO.",
+   "skill": "purpose",
+   "cefr": "B2"
+  },
+  {
+   "id": "t01-3-030",
+   "topic": "t01",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "They agreed to postpone the launch.",
+    "They agreed postponing the launch.",
+    "They agreed postpone the launch."
+   ],
+   "answer": "They agreed to postpone the launch.",
+   "explain": "AGREE + TO.",
+   "skill": "to_verbs",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t01",
+   "level": 1,
+   "skill": "ing_verbs",
+   "cefr": "B1",
+   "id": "t01-1-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I suggest postponing the meeting.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. SUGGEST + -ING (ou suggest that we postpone)."
+  },
+  {
+   "topic": "t01",
+   "level": 1,
+   "skill": "bare",
+   "cefr": "B1",
+   "id": "t01-1-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She made me to wait.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: She made me wait. MAKE + pessoa + verbo base, sem TO."
+  },
+  {
+   "topic": "t01",
+   "level": 2,
+   "skill": "to_prep",
+   "cefr": "B1",
+   "id": "t01-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm committed to improving the process.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. BE COMMITTED TO: TO preposição, pede -ING."
+  },
+  {
+   "topic": "t01",
+   "level": 2,
+   "skill": "prep_ing",
+   "cefr": "B1",
+   "id": "t01-2-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Before to sign, read the contract.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Before signing, read the contract. BEFORE é preposição: -ING."
+  },
+  {
+   "topic": "t01",
+   "level": 2,
+   "skill": "obj_to",
+   "cefr": "B1",
+   "id": "t01-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I want you to review this.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. WANT + pessoa + TO, nunca WANT THAT."
+  },
+  {
+   "topic": "t01",
+   "level": 2,
+   "skill": "prep_ing",
+   "cefr": "B1",
+   "id": "t01-2-018v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Thanks for help me.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Thanks for helping me. Depois de FOR, -ING."
+  },
+  {
+   "topic": "t01",
+   "level": 2,
+   "skill": "bare",
+   "cefr": "B1",
+   "id": "t01-2-023v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The training made me think differently.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. MAKE + pessoa + verbo base."
+  },
+  {
+   "topic": "t01",
+   "level": 2,
+   "skill": "prep_ing",
+   "cefr": "B1",
+   "id": "t01-2-024v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm interested in to join the project.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I'm interested in joining the project. Preposição + -ING."
+  },
+  {
+   "topic": "t01",
+   "level": 2,
+   "skill": "to_prep",
+   "cefr": "B1",
+   "id": "t01-2-025v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I object to working on Sundays.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. OBJECT TO + -ING."
+  },
+  {
+   "topic": "t01",
+   "level": 2,
+   "skill": "subject",
+   "cefr": "B1",
+   "id": "t01-2-026v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Negotiate with them is difficult.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Negotiating with them is difficult. Sujeito: -ING."
+  },
+  {
+   "topic": "t01",
+   "level": 2,
+   "skill": "purpose",
+   "cefr": "B1",
+   "id": "t01-2-027v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I came here to discuss the contract.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Finalidade: TO."
+  },
+  {
+   "topic": "t01",
+   "level": 3,
+   "skill": "to_prep",
+   "cefr": "B2",
+   "id": "t01-3-017v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I look forward to hearing from you.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. LOOK FORWARD TO + -ING."
+  },
+  {
+   "topic": "t01",
+   "level": 3,
+   "skill": "subject",
+   "cefr": "B2",
+   "id": "t01-3-019v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Negotiating with suppliers is hard.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Verbo como sujeito da frase: forma -ING."
+  },
+  {
+   "topic": "t01",
+   "level": 3,
+   "skill": "purpose",
+   "cefr": "B2",
+   "id": "t01-3-029v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We stopped at the hotel to rest.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Finalidade: TO."
+  },
+  {
+   "topic": "t01",
+   "level": 3,
+   "skill": "to_verbs",
+   "cefr": "B2",
+   "id": "t01-3-030v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "They agreed postponing the launch.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: They agreed to postpone the launch. AGREE + TO."
   }
  ]
 }

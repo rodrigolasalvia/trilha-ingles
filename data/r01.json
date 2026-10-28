@@ -290,6 +290,166 @@
    "cefr": "A1"
   },
   {
+   "id": "r01-1-019",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "My manager ___ in a meeting right now.",
+   "options": [
+    "is",
+    "are",
+    "has"
+   ],
+   "answer": "is",
+   "explain": "Lugar / situação: TO BE.",
+   "skill": "tobe",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-020",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We ___ hungry. Let's order lunch.",
+   "options": [
+    "are",
+    "have",
+    "do"
+   ],
+   "answer": "are",
+   "explain": "Fome, sede, frio: TO BE (hungry, thirsty, cold).",
+   "skill": "tobe",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-021",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "This is Paulo and ___ assistant, Clara.",
+   "options": [
+    "his",
+    "her",
+    "him"
+   ],
+   "answer": "his",
+   "explain": "O possessivo concorda com o dono (Paulo → HIS).",
+   "skill": "pron",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-022",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Can you send the file to ___?",
+   "options": [
+    "us",
+    "we",
+    "our"
+   ],
+   "answer": "us",
+   "explain": "Depois de preposição: pronome objeto.",
+   "skill": "pron",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-023",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The supplier ___ invoices every Friday.",
+   "options": [
+    "sends",
+    "send",
+    "sending"
+   ],
+   "answer": "sends",
+   "explain": "3ª pessoa no presente: -S.",
+   "skill": "simple",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-024",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ your team work on Saturdays?",
+   "options": [
+    "Does",
+    "Do",
+    "Is"
+   ],
+   "answer": "Does",
+   "explain": "Your team = it: DOES.",
+   "skill": "simple",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-025",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Please be quiet. I ___ a call right now.",
+   "options": [
+    "'m taking",
+    "take",
+    "'m take"
+   ],
+   "answer": "'m taking",
+   "explain": "Agora: AM + -ING.",
+   "skill": "cont",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-026",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She's ___ an e-mail right now.",
+   "options": [
+    "writing",
+    "write",
+    "writes"
+   ],
+   "answer": "writing",
+   "explain": "IS + -ING.",
+   "skill": "cont",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-027",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'd like ___ orange juice, please.",
+   "options": [
+    "an",
+    "a",
+    "the"
+   ],
+   "answer": "an",
+   "explain": "AN antes de som de vogal.",
+   "skill": "art",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-1-028",
+   "topic": "r01",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ any questions?",
+   "options": [
+    "Are there",
+    "Is there",
+    "Have"
+   ],
+   "answer": "Are there",
+   "explain": "Plural: ARE THERE.",
+   "skill": "there",
+   "cefr": "A1"
+  },
+  {
    "id": "r01-2-001",
    "topic": "r01",
    "level": 2,
@@ -553,6 +713,150 @@
    "cefr": "A1"
   },
   {
+   "id": "r01-2-019",
+   "topic": "r01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Sorry, I ___ (can / not) hear you. You're on mute.",
+   "answer": [
+    "can't",
+    "cannot"
+   ],
+   "explain": "CAN'T + verbo, sem TO.",
+   "skill": "can",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-020",
+   "topic": "r01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The meeting is ___ (preposição) Monday at 10.",
+   "answer": [
+    "on"
+   ],
+   "explain": "ON + dia.",
+   "skill": "prep",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-021",
+   "topic": "r01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "What time ___ (do) the store open?",
+   "answer": [
+    "does"
+   ],
+   "explain": "The store = it: DOES.",
+   "skill": "wh",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-022",
+   "topic": "r01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I enjoy ___ (travel) for work.",
+   "answer": [
+    "traveling",
+    "travelling"
+   ],
+   "explain": "ENJOY + -ING.",
+   "skill": "likes",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-023",
+   "topic": "r01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I would like order now.",
+   "options": [
+    "I would like to order now.",
+    "I would like ordering now.",
+    "I would to like order now."
+   ],
+   "answer": "I would like to order now.",
+   "explain": "WOULD LIKE + TO.",
+   "skill": "likes",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-024",
+   "topic": "r01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "There have three hotels near the office.",
+   "options": [
+    "There are three hotels near the office.",
+    "There is three hotels near the office.",
+    "It has three hotels near the office."
+   ],
+   "answer": "There are three hotels near the office.",
+   "explain": "Existir = THERE IS / ARE.",
+   "skill": "there",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-025",
+   "topic": "r01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She don't speak Portuguese.",
+   "options": [
+    "She doesn't speak Portuguese.",
+    "She doesn't speaks Portuguese.",
+    "She not speak Portuguese."
+   ],
+   "answer": "She doesn't speak Portuguese.",
+   "explain": "3ª pessoa: DOESN'T + verbo base.",
+   "skill": "simple",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-026",
+   "topic": "r01",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'm agree with you.",
+   "options": [
+    "I agree with you.",
+    "I'm agreeing you.",
+    "I am agree you."
+   ],
+   "answer": "I agree with you.",
+   "explain": "AGREE é verbo; sem AM.",
+   "skill": "simple",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-027",
+   "topic": "r01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I have ___ (artigo) meeting at 3.",
+   "answer": [
+    "a"
+   ],
+   "explain": "A + som de consoante.",
+   "skill": "art",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-2-028",
+   "topic": "r01",
+   "level": 2,
+   "type": "gap",
+   "prompt": "How ___ (much / many) does the hotel cost per night?",
+   "answer": [
+    "much"
+   ],
+   "explain": "Preço: HOW MUCH.",
+   "skill": "wh",
+   "cefr": "A1"
+  },
+  {
    "id": "r01-3-001",
    "topic": "r01",
    "level": 3,
@@ -787,6 +1091,375 @@
    "explain": "Um sujeito só: não repita com SHE.",
    "skill": "tobe",
    "cefr": "A1"
+  },
+  {
+   "id": "r01-3-019",
+   "topic": "r01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "My flight lands ___ (preposição) 6 p.m. on Friday.",
+   "answer": [
+    "at"
+   ],
+   "explain": "AT + hora exata.",
+   "skill": "prep",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-020",
+   "topic": "r01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'm afraid I ___ (can) come tomorrow. I'm traveling.",
+   "answer": [
+    "can't",
+    "cannot"
+   ],
+   "explain": "CAN'T.",
+   "skill": "can",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-021",
+   "topic": "r01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Where ___ (be) the restrooms, please?",
+   "answer": [
+    "are"
+   ],
+   "explain": "Plural: ARE.",
+   "skill": "tobe",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-022",
+   "topic": "r01",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Ana works with ___ (eu) in Compliance.",
+   "answer": [
+    "me"
+   ],
+   "explain": "Depois de WITH: ME.",
+   "skill": "pron",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-023",
+   "topic": "r01",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "What time does the meeting start?",
+   "explain": "Wh- + DOES + sujeito + verbo.",
+   "skill": "wh",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-024",
+   "topic": "r01",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "There are two people in the waiting room.",
+   "explain": "THERE ARE + plural.",
+   "skill": "there",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-025",
+   "topic": "r01",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I would like to book a table for four.",
+   "explain": "WOULD LIKE + TO.",
+   "skill": "likes",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-026",
+   "topic": "r01",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "She isn't working from home today.",
+   "explain": "ISN'T + -ING.",
+   "skill": "cont",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-027",
+   "topic": "r01",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "It's an honor to meet you.",
+    "It's a honor to meet you.",
+    "It's the honor meet you."
+   ],
+   "answer": "It's an honor to meet you.",
+   "explain": "Honor começa com som de vogal (H mudo): AN.",
+   "skill": "art",
+   "cefr": "A1"
+  },
+  {
+   "id": "r01-3-028",
+   "topic": "r01",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "He usually takes the train to work.",
+    "He usually take the train to work.",
+    "He usually is take the train to work."
+   ],
+   "answer": "He usually takes the train to work.",
+   "explain": "3ª pessoa: -S.",
+   "skill": "simple",
+   "cefr": "A1"
+  },
+  {
+   "topic": "r01",
+   "level": 2,
+   "skill": "tobe",
+   "cefr": "A1",
+   "id": "r01-2-002v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I have 30 years.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I'm 30 years old. Idade usa TO BE, nunca HAVE."
+  },
+  {
+   "topic": "r01",
+   "level": 2,
+   "skill": "simple",
+   "cefr": "A1",
+   "id": "r01-2-004v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She doesn't works here.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: She doesn't work here. O -S vai para o DOES; o verbo volta à base."
+  },
+  {
+   "topic": "r01",
+   "level": 2,
+   "skill": "cont",
+   "cefr": "A1",
+   "id": "r01-2-006v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I working on it now.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I'm working on it now. O -ING precisa do TO BE."
+  },
+  {
+   "topic": "r01",
+   "level": 2,
+   "skill": "art",
+   "cefr": "A1",
+   "id": "r01-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Life is hard.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Falando em geral, sem THE."
+  },
+  {
+   "topic": "r01",
+   "level": 2,
+   "skill": "there",
+   "cefr": "A1",
+   "id": "r01-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "There is a problem with the printer.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. 'Tem' no sentido de existir = THERE IS."
+  },
+  {
+   "topic": "r01",
+   "level": 2,
+   "skill": "can",
+   "cefr": "A1",
+   "id": "r01-2-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I can to help you.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I can help you. CAN + verbo base, sem TO."
+  },
+  {
+   "topic": "r01",
+   "level": 2,
+   "skill": "wh",
+   "cefr": "A1",
+   "id": "r01-2-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Where do you work?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Sem o auxiliar DO, a pergunta não existe."
+  },
+  {
+   "topic": "r01",
+   "level": 2,
+   "skill": "likes",
+   "cefr": "A1",
+   "id": "r01-2-018v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I want travel to Europe.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I want to travel to Europe. WANT + TO."
+  },
+  {
+   "topic": "r01",
+   "level": 2,
+   "skill": "likes",
+   "cefr": "A1",
+   "id": "r01-2-023v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I would like to order now.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. WOULD LIKE + TO."
+  },
+  {
+   "topic": "r01",
+   "level": 2,
+   "skill": "there",
+   "cefr": "A1",
+   "id": "r01-2-024v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "There have three hotels near the office.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: There are three hotels near the office. Existir = THERE IS / ARE."
+  },
+  {
+   "topic": "r01",
+   "level": 2,
+   "skill": "simple",
+   "cefr": "A1",
+   "id": "r01-2-025v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She doesn't speak Portuguese.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. 3ª pessoa: DOESN'T + verbo base."
+  },
+  {
+   "topic": "r01",
+   "level": 2,
+   "skill": "simple",
+   "cefr": "A1",
+   "id": "r01-2-026v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm agree with you.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I agree with you. AGREE é verbo; sem AM."
+  },
+  {
+   "topic": "r01",
+   "level": 3,
+   "skill": "tobe",
+   "cefr": "A1",
+   "id": "r01-3-018v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "My sister she is a doctor.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: My sister is a doctor. Um sujeito só: não repita com SHE."
+  },
+  {
+   "topic": "r01",
+   "level": 3,
+   "skill": "art",
+   "cefr": "A1",
+   "id": "r01-3-027v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It's an honor to meet you.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Honor começa com som de vogal (H mudo): AN."
+  },
+  {
+   "topic": "r01",
+   "level": 3,
+   "skill": "simple",
+   "cefr": "A1",
+   "id": "r01-3-028v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He usually take the train to work.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: He usually takes the train to work. 3ª pessoa: -S."
   }
  ]
 }

@@ -290,6 +290,166 @@
    "cefr": "B1"
   },
   {
+   "id": "t03-1-019",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We need a quick ___.",
+   "options": [
+    "decision",
+    "decide",
+    "decisive"
+   ],
+   "answer": "decision",
+   "explain": "Depois de A + adjetivo: substantivo.",
+   "skill": "noun",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-1-020",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The ___ of the contract is two years.",
+   "options": [
+    "duration",
+    "durable",
+    "durably"
+   ],
+   "answer": "duration",
+   "explain": "THE ... OF: substantivo.",
+   "skill": "noun",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-1-021",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It was a very ___ meeting.",
+   "options": [
+    "productive",
+    "produce",
+    "production"
+   ],
+   "answer": "productive",
+   "explain": "Antes de substantivo: adjetivo.",
+   "skill": "adj",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-1-022",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The results are ___.",
+   "options": [
+    "impressive",
+    "impress",
+    "impression"
+   ],
+   "answer": "impressive",
+   "explain": "Depois de BE: adjetivo.",
+   "skill": "adj",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-1-023",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She answered ___.",
+   "options": [
+    "politely",
+    "polite",
+    "politeness"
+   ],
+   "answer": "politely",
+   "explain": "Modificando o verbo: advérbio.",
+   "skill": "adv",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-1-024",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We need to ___ the process.",
+   "options": [
+    "simplify",
+    "simple",
+    "simplicity"
+   ],
+   "answer": "simplify",
+   "explain": "Depois de TO: verbo.",
+   "skill": "verb",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-1-025",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He speaks English very ___.",
+   "options": [
+    "well",
+    "good",
+    "goodly"
+   ],
+   "answer": "well",
+   "explain": "GOOD → WELL (advérbio).",
+   "skill": "tricky",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-1-026",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I've been very busy ___.",
+   "options": [
+    "lately",
+    "late",
+    "latest"
+   ],
+   "answer": "lately",
+   "explain": "LATELY = ultimamente.",
+   "skill": "tricky",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-1-027",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The person who is trained is the ___.",
+   "options": [
+    "trainee",
+    "trainer",
+    "training"
+   ],
+   "answer": "trainee",
+   "explain": "-EE recebe a ação.",
+   "skill": "person",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-1-028",
+   "topic": "t03",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The person who interviews is the ___.",
+   "options": [
+    "interviewer",
+    "interviewee",
+    "interview"
+   ],
+   "answer": "interviewer",
+   "explain": "-ER faz a ação.",
+   "skill": "person",
+   "cefr": "B1"
+  },
+  {
    "id": "t03-2-001",
    "topic": "t03",
    "level": 2,
@@ -530,6 +690,148 @@
     "significantly"
    ],
    "explain": "Modificando o verbo: advérbio.",
+   "skill": "adv",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-2-019",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "There's a big ___ (differ) between the two offers.",
+   "answer": [
+    "difference"
+   ],
+   "explain": "A + adjetivo + substantivo.",
+   "skill": "noun",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-2-020",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "This supplier is very ___ (rely).",
+   "answer": [
+    "reliable"
+   ],
+   "explain": "Adjetivo: RELIABLE.",
+   "skill": "adj",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-2-021",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The project was ___ (complete) successful.",
+   "answer": [
+    "completely"
+   ],
+   "explain": "Modificando adjetivo: advérbio.",
+   "skill": "adv",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-2-022",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We need to ___ (short) the approval cycle.",
+   "answer": [
+    "shorten"
+   ],
+   "explain": "Verbo com -EN: SHORTEN.",
+   "skill": "verb",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-2-023",
+   "topic": "t03",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She works very hardly.",
+   "options": [
+    "She works very hard.",
+    "She works very hardy.",
+    "She very hard works."
+   ],
+   "answer": "She works very hard.",
+   "explain": "HARD já é advérbio; HARDLY = quase não.",
+   "skill": "tricky",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-2-024",
+   "topic": "t03",
+   "level": 2,
+   "type": "fix",
+   "prompt": "He is a very successfully manager.",
+   "options": [
+    "He is a very successful manager.",
+    "He is a very success manager.",
+    "He is a very succeed manager."
+   ],
+   "answer": "He is a very successful manager.",
+   "explain": "Antes de substantivo: adjetivo.",
+   "skill": "adj",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-2-025",
+   "topic": "t03",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The analyze took two weeks.",
+   "options": [
+    "The analysis took two weeks.",
+    "The analyzing took two weeks of.",
+    "The analytic took two weeks."
+   ],
+   "answer": "The analysis took two weeks.",
+   "explain": "Substantivo: ANALYSIS.",
+   "skill": "noun",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-2-026",
+   "topic": "t03",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The employer received a bonus. (sentido: o funcionário)",
+   "options": [
+    "The employee received a bonus.",
+    "The employ received a bonus.",
+    "The employed received a bonus."
+   ],
+   "answer": "The employee received a bonus.",
+   "explain": "Quem é empregado: EMPLOYEE.",
+   "skill": "person",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-2-027",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I can ___ (hard) hear you. Can you speak up?",
+   "answer": [
+    "hardly"
+   ],
+   "explain": "HARDLY = quase não.",
+   "skill": "tricky",
+   "cefr": "B1"
+  },
+  {
+   "id": "t03-2-028",
+   "topic": "t03",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Please read the terms ___ (careful).",
+   "answer": [
+    "carefully"
+   ],
+   "explain": "Advérbio: CAREFULLY.",
    "skill": "adv",
    "cefr": "B1"
   },
@@ -775,6 +1077,296 @@
    "explain": "HARD é o advérbio de esforço; HARDLY = quase não.",
    "skill": "tricky",
    "cefr": "B2"
+  },
+  {
+   "id": "t03-3-019",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The ___ (approve) of the budget took weeks.",
+   "answer": [
+    "approval"
+   ],
+   "explain": "Substantivo: APPROVAL.",
+   "skill": "noun",
+   "cefr": "B2"
+  },
+  {
+   "id": "t03-3-020",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We need to ___ (wide) the scope.",
+   "answer": [
+    "widen"
+   ],
+   "explain": "Verbo: WIDEN.",
+   "skill": "verb",
+   "cefr": "B2"
+  },
+  {
+   "id": "t03-3-021",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The ___ (consult) recommended a new process.",
+   "answer": [
+    "consultant"
+   ],
+   "explain": "Pessoa: CONSULTANT.",
+   "skill": "person",
+   "cefr": "B2"
+  },
+  {
+   "id": "t03-3-022",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "It's ___ (near) 6. Let's finish.",
+   "answer": [
+    "nearly"
+   ],
+   "explain": "NEARLY = quase.",
+   "skill": "tricky",
+   "cefr": "B2"
+  },
+  {
+   "id": "t03-3-023",
+   "topic": "t03",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The training was ___ (extreme) useful.",
+   "answer": [
+    "extremely"
+   ],
+   "explain": "Advérbio + adjetivo.",
+   "skill": "adv",
+   "cefr": "B2"
+  },
+  {
+   "id": "t03-3-024",
+   "topic": "t03",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We need a clear decision by Friday.",
+   "explain": "Adjetivo + substantivo.",
+   "skill": "noun",
+   "cefr": "B2"
+  },
+  {
+   "id": "t03-3-025",
+   "topic": "t03",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "She explained the process very clearly.",
+   "explain": "Advérbio modificando o verbo.",
+   "skill": "adv",
+   "cefr": "B2"
+  },
+  {
+   "id": "t03-3-026",
+   "topic": "t03",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We need to simplify the approval process.",
+   "explain": "TO + verbo.",
+   "skill": "verb",
+   "cefr": "B2"
+  },
+  {
+   "id": "t03-3-027",
+   "topic": "t03",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "The presentation was confusing, and I was confused.",
+    "The presentation was confused, and I was confusing.",
+    "The presentation was confusing, and I was confusing."
+   ],
+   "answer": "The presentation was confusing, and I was confused.",
+   "explain": "-ING causa; -ED sente.",
+   "skill": "adj",
+   "cefr": "B2"
+  },
+  {
+   "id": "t03-3-028",
+   "topic": "t03",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "The results were surprisingly good.",
+    "The results were surprising good.",
+    "The results were surprisingly goodly."
+   ],
+   "answer": "The results were surprisingly good.",
+   "explain": "Advérbio + adjetivo.",
+   "skill": "adv",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t03",
+   "level": 2,
+   "skill": "noun",
+   "cefr": "B1",
+   "id": "t03-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It was a very difficult decision.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Depois de A + adjetivo: substantivo."
+  },
+  {
+   "topic": "t03",
+   "level": 2,
+   "skill": "adv",
+   "cefr": "B1",
+   "id": "t03-2-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He explains things very clear.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: He explains things very clearly. Como ele explica? Advérbio."
+  },
+  {
+   "topic": "t03",
+   "level": 2,
+   "skill": "adj",
+   "cefr": "B1",
+   "id": "t03-2-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The meeting was very successful.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Depois de VERY: adjetivo."
+  },
+  {
+   "topic": "t03",
+   "level": 2,
+   "skill": "tricky",
+   "cefr": "B1",
+   "id": "t03-2-023v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She works very hard.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. HARD já é advérbio; HARDLY = quase não."
+  },
+  {
+   "topic": "t03",
+   "level": 2,
+   "skill": "adj",
+   "cefr": "B1",
+   "id": "t03-2-024v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He is a very successfully manager.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: He is a very successful manager. Antes de substantivo: adjetivo."
+  },
+  {
+   "topic": "t03",
+   "level": 2,
+   "skill": "noun",
+   "cefr": "B1",
+   "id": "t03-2-025v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The analysis took two weeks.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Substantivo: ANALYSIS."
+  },
+  {
+   "topic": "t03",
+   "level": 2,
+   "skill": "person",
+   "cefr": "B1",
+   "id": "t03-2-026v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The employer received a bonus. (sentido: o funcionário)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The employee received a bonus. Quem é empregado: EMPLOYEE."
+  },
+  {
+   "topic": "t03",
+   "level": 3,
+   "skill": "tricky",
+   "cefr": "B2",
+   "id": "t03-3-018v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I work very hardly.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I work very hard. HARD é o advérbio de esforço; HARDLY = quase não."
+  },
+  {
+   "topic": "t03",
+   "level": 3,
+   "skill": "adj",
+   "cefr": "B2",
+   "id": "t03-3-027v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The presentation was confusing, and I was confused.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. -ING causa; -ED sente."
+  },
+  {
+   "topic": "t03",
+   "level": 3,
+   "skill": "adv",
+   "cefr": "B2",
+   "id": "t03-3-028v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The results were surprising good.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The results were surprisingly good. Advérbio + adjetivo."
   }
  ]
 }

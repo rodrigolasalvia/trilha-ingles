@@ -242,6 +242,166 @@
    "cefr": "B2"
   },
   {
+   "id": "t13-1-016",
+   "topic": "t13",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ it was raining, we went out.",
+   "options": [
+    "Although",
+    "Despite",
+    "However"
+   ],
+   "answer": "Although",
+   "explain": "ALTHOUGH + frase.",
+   "skill": "cclause",
+   "cefr": "B2"
+  },
+  {
+   "id": "t13-1-017",
+   "topic": "t13",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ the high price, we bought it.",
+   "options": [
+    "In spite of",
+    "Although",
+    "Even though"
+   ],
+   "answer": "In spite of",
+   "explain": "IN SPITE OF + substantivo.",
+   "skill": "cnoun",
+   "cefr": "B2"
+  },
+  {
+   "id": "t13-1-018",
+   "topic": "t13",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The hotel was nice. ___, the service was slow.",
+   "options": [
+    "However",
+    "Although",
+    "Despite"
+   ],
+   "answer": "However",
+   "explain": "HOWEVER entre frases.",
+   "skill": "csent",
+   "cefr": "B2"
+  },
+  {
+   "id": "t13-1-019",
+   "topic": "t13",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The event was cancelled ___ the storm.",
+   "options": [
+    "because of",
+    "because",
+    "so"
+   ],
+   "answer": "because of",
+   "explain": "BECAUSE OF + substantivo.",
+   "skill": "cause",
+   "cefr": "B2"
+  },
+  {
+   "id": "t13-1-020",
+   "topic": "t13",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We missed the deadline. ___, we lost the bonus.",
+   "options": [
+    "As a result",
+    "Although",
+    "In order to"
+   ],
+   "answer": "As a result",
+   "explain": "Resultado: AS A RESULT.",
+   "skill": "result",
+   "cefr": "B2"
+  },
+  {
+   "id": "t13-1-021",
+   "topic": "t13",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We hired a consultant ___ improve the process.",
+   "options": [
+    "to",
+    "for",
+    "so"
+   ],
+   "answer": "to",
+   "explain": "Finalidade: TO + verbo.",
+   "skill": "purpose",
+   "cefr": "B2"
+  },
+  {
+   "id": "t13-1-022",
+   "topic": "t13",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The plan is cheap. ___, it's easy to implement.",
+   "options": [
+    "In addition",
+    "However",
+    "Despite"
+   ],
+   "answer": "In addition",
+   "explain": "Adição: IN ADDITION.",
+   "skill": "addition",
+   "cefr": "B2"
+  },
+  {
+   "id": "t13-1-023",
+   "topic": "t13",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___, let me thank everyone for coming.",
+   "options": [
+    "First of all",
+    "At first",
+    "Firstly of all"
+   ],
+   "answer": "First of all",
+   "explain": "Abertura: FIRST OF ALL.",
+   "skill": "sequence",
+   "cefr": "B2"
+  },
+  {
+   "id": "t13-1-024",
+   "topic": "t13",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ I had a fever, I went to work.",
+   "options": [
+    "Even though",
+    "Despite",
+    "In spite"
+   ],
+   "answer": "Even though",
+   "explain": "EVEN THOUGH + frase.",
+   "skill": "cclause",
+   "cefr": "B2"
+  },
+  {
+   "id": "t13-1-025",
+   "topic": "t13",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ the budget is limited, we have to prioritize.",
+   "options": [
+    "As",
+    "Due to",
+    "Because of"
+   ],
+   "answer": "As",
+   "explain": "Causa + frase: AS / SINCE.",
+   "skill": "cause",
+   "cefr": "B2"
+  },
+  {
    "id": "t13-2-001",
    "topic": "t13",
    "level": 2,
@@ -465,6 +625,158 @@
    "cefr": "B2"
   },
   {
+   "id": "t13-2-016",
+   "topic": "t13",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Despite it was expensive, we bought it.",
+   "options": [
+    "Despite the price, we bought it.",
+    "Despite it expensive, we bought it.",
+    "Despite of the price, we bought it."
+   ],
+   "answer": "Despite the price, we bought it.",
+   "explain": "DESPITE + substantivo.",
+   "skill": "cnoun",
+   "cefr": "B2"
+  },
+  {
+   "id": "t13-2-017",
+   "topic": "t13",
+   "level": 2,
+   "type": "gap",
+   "prompt": "He's very experienced. ___ (No entanto), he made a basic mistake.",
+   "answer": [
+    "However",
+    "Nevertheless",
+    "Even so"
+   ],
+   "explain": "Contraste entre frases.",
+   "skill": "csent",
+   "cefr": "B2"
+  },
+  {
+   "id": "t13-2-018",
+   "topic": "t13",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The flight was delayed ___ (devido a) fog.",
+   "answer": [
+    "due to",
+    "because of",
+    "owing to"
+   ],
+   "explain": "Causa + substantivo.",
+   "skill": "cause",
+   "cefr": "B2"
+  },
+  {
+   "id": "t13-2-019",
+   "topic": "t13",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Sales dropped, therefore we cut prices.",
+   "options": [
+    "Sales dropped; therefore, we cut prices.",
+    "Sales dropped therefore, cut prices.",
+    "Sales dropped, therefore of we cut prices."
+   ],
+   "answer": "Sales dropped; therefore, we cut prices.",
+   "explain": "THEREFORE entre frases: ponto e vírgula ou ponto.",
+   "skill": "result",
+   "cefr": "B2"
+  },
+  {
+   "id": "t13-2-020",
+   "topic": "t13",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'm saving money for buy a car.",
+   "options": [
+    "I'm saving money to buy a car.",
+    "I'm saving money for buying to a car.",
+    "I'm saving money so buy a car."
+   ],
+   "answer": "I'm saving money to buy a car.",
+   "explain": "Finalidade: TO.",
+   "skill": "purpose",
+   "cefr": "B2"
+  },
+  {
+   "id": "t13-2-021",
+   "topic": "t13",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I wrote it down so ___ (para que) I wouldn't forget.",
+   "answer": [
+    "that"
+   ],
+   "explain": "SO THAT.",
+   "skill": "purpose",
+   "cefr": "B2"
+  },
+  {
+   "id": "t13-2-022",
+   "topic": "t13",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Also of that, the hotel has a gym.",
+   "options": [
+    "Besides that, the hotel has a gym.",
+    "Also that of, the hotel has a gym.",
+    "Besides of that, the hotel has a gym."
+   ],
+   "answer": "Besides that, the hotel has a gym.",
+   "explain": "BESIDES THAT.",
+   "skill": "addition",
+   "cefr": "B2"
+  },
+  {
+   "id": "t13-2-023",
+   "topic": "t13",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (Por fim), I'd like to talk about next steps.",
+   "answer": [
+    "Finally",
+    "Lastly"
+   ],
+   "explain": "FINALLY / LASTLY.",
+   "skill": "sequence",
+   "cefr": "B2"
+  },
+  {
+   "id": "t13-2-024",
+   "topic": "t13",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (Embora) the plan is risky, it's worth trying.",
+   "answer": [
+    "Although",
+    "Though",
+    "Even though"
+   ],
+   "explain": "ALTHOUGH + frase.",
+   "skill": "cclause",
+   "cefr": "B2"
+  },
+  {
+   "id": "t13-2-025",
+   "topic": "t13",
+   "level": 2,
+   "type": "gap",
+   "prompt": "There was a strike. ___ (Por isso), the shipment was late.",
+   "answer": [
+    "Therefore",
+    "As a result",
+    "Consequently",
+    "So"
+   ],
+   "explain": "Resultado.",
+   "skill": "result",
+   "cefr": "B2"
+  },
+  {
    "id": "t13-3-001",
    "topic": "t13",
    "level": 3,
@@ -671,6 +983,430 @@
    "explain": "WHILE (contraste) + frase; sem BUT.",
    "skill": "cclause",
    "cefr": "C1"
+  },
+  {
+   "id": "t13-3-016",
+   "topic": "t13",
+   "level": 3,
+   "type": "gap",
+   "prompt": "___ (Apesar de) the fact that sales grew, profits fell.",
+   "answer": [
+    "Despite",
+    "In spite of"
+   ],
+   "explain": "DESPITE THE FACT THAT + frase.",
+   "skill": "cnoun",
+   "cefr": "C1"
+  },
+  {
+   "id": "t13-3-017",
+   "topic": "t13",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The supplier is cheap; ___ (contudo), their quality is poor.",
+   "answer": [
+    "however",
+    "nevertheless",
+    "nonetheless"
+   ],
+   "explain": "Contraste entre frases.",
+   "skill": "csent",
+   "cefr": "C1"
+  },
+  {
+   "id": "t13-3-018",
+   "topic": "t13",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We moved the meeting ___ (para que) everyone could attend.",
+   "answer": [
+    "so that"
+   ],
+   "explain": "SO THAT.",
+   "skill": "purpose",
+   "cefr": "C1"
+  },
+  {
+   "id": "t13-3-019",
+   "topic": "t13",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Not only is it cheap, but it's ___ (também) reliable.",
+   "answer": [
+    "also"
+   ],
+   "explain": "NOT ONLY ... BUT ALSO.",
+   "skill": "addition",
+   "cefr": "C1"
+  },
+  {
+   "id": "t13-3-020",
+   "topic": "t13",
+   "level": 3,
+   "type": "gap",
+   "prompt": "___ (Resumindo), we need to act now.",
+   "answer": [
+    "In short",
+    "In summary",
+    "To sum up",
+    "In conclusion"
+   ],
+   "explain": "Conclusão.",
+   "skill": "sequence",
+   "cefr": "C1"
+  },
+  {
+   "id": "t13-3-021",
+   "topic": "t13",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Even though we tried hard, we lost the bid.",
+   "explain": "EVEN THOUGH + frase.",
+   "skill": "cclause",
+   "cefr": "C1"
+  },
+  {
+   "id": "t13-3-022",
+   "topic": "t13",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Due to the strike, all flights were cancelled.",
+   "explain": "DUE TO + substantivo.",
+   "skill": "cause",
+   "cefr": "C1"
+  },
+  {
+   "id": "t13-3-023",
+   "topic": "t13",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Costs increased; consequently, we raised prices.",
+   "explain": "CONSEQUENTLY.",
+   "skill": "result",
+   "cefr": "C1"
+  },
+  {
+   "id": "t13-3-024",
+   "topic": "t13",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "In spite of being tired, she finished the report.",
+    "In spite of she was tired, she finished the report.",
+    "In spite being tired, she finished the report."
+   ],
+   "answer": "In spite of being tired, she finished the report.",
+   "explain": "IN SPITE OF + -ING.",
+   "skill": "cnoun",
+   "cefr": "C1"
+  },
+  {
+   "id": "t13-3-025",
+   "topic": "t13",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "First, we'll review the data. Then, we'll decide.",
+    "At first, we'll review the data. After, we'll decide.",
+    "Firstly of all we review data, after we decide."
+   ],
+   "answer": "First, we'll review the data. Then, we'll decide.",
+   "explain": "Sequência: FIRST / THEN.",
+   "skill": "sequence",
+   "cefr": "C1"
+  },
+  {
+   "topic": "t13",
+   "level": 2,
+   "skill": "cclause",
+   "cefr": "B2",
+   "id": "t13-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Although it was late, we continued.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. ALTHOUGH e BUT nunca juntos."
+  },
+  {
+   "topic": "t13",
+   "level": 2,
+   "skill": "cnoun",
+   "cefr": "B2",
+   "id": "t13-2-002v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Despite of the problems, we finished.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Despite the problems, we finished. DESPITE sem OF (ou IN SPITE OF)."
+  },
+  {
+   "topic": "t13",
+   "level": 2,
+   "skill": "csent",
+   "cefr": "B2",
+   "id": "t13-2-004v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The plan is good, however it's expensive.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The plan is good. However, it's expensive. HOWEVER abre nova frase."
+  },
+  {
+   "topic": "t13",
+   "level": 2,
+   "skill": "cause",
+   "cefr": "B2",
+   "id": "t13-2-005v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The meeting was cancelled because he was sick.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Frase completa: BECAUSE."
+  },
+  {
+   "topic": "t13",
+   "level": 2,
+   "skill": "purpose",
+   "cefr": "B2",
+   "id": "t13-2-007v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I studied hard to pass the test.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. 'Para + verbo' = TO."
+  },
+  {
+   "topic": "t13",
+   "level": 2,
+   "skill": "addition",
+   "cefr": "B2",
+   "id": "t13-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Besides that, the price is fair.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. BESIDES sem OF."
+  },
+  {
+   "topic": "t13",
+   "level": 2,
+   "skill": "sequence",
+   "cefr": "B2",
+   "id": "t13-2-010v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "In resume, the results are good.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: In summary, the results are good. 'Em resumo' = IN SUMMARY / TO SUM UP."
+  },
+  {
+   "topic": "t13",
+   "level": 2,
+   "skill": "cnoun",
+   "cefr": "B2",
+   "id": "t13-2-016v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Despite it was expensive, we bought it.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Despite the price, we bought it. DESPITE + substantivo."
+  },
+  {
+   "topic": "t13",
+   "level": 2,
+   "skill": "result",
+   "cefr": "B2",
+   "id": "t13-2-019v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Sales dropped; therefore, we cut prices.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. THEREFORE entre frases: ponto e vírgula ou ponto."
+  },
+  {
+   "topic": "t13",
+   "level": 2,
+   "skill": "purpose",
+   "cefr": "B2",
+   "id": "t13-2-020v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm saving money for buy a car.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I'm saving money to buy a car. Finalidade: TO."
+  },
+  {
+   "topic": "t13",
+   "level": 2,
+   "skill": "addition",
+   "cefr": "B2",
+   "id": "t13-2-022v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Also of that, the hotel has a gym.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Besides that, the hotel has a gym. BESIDES THAT."
+  },
+  {
+   "topic": "t13",
+   "level": 3,
+   "skill": "cause",
+   "cefr": "C1",
+   "id": "t13-3-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Owing to the strike, flights were cancelled.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. OWING TO + substantivo."
+  },
+  {
+   "topic": "t13",
+   "level": 3,
+   "skill": "csent",
+   "cefr": "C1",
+   "id": "t13-3-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The results were good, nevertheless we need improve.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The results were good; nevertheless, we need to improve. NEVERTHELESS liga frases (ponto ou ponto e vírgula)."
+  },
+  {
+   "topic": "t13",
+   "level": 3,
+   "skill": "purpose",
+   "cefr": "C1",
+   "id": "t13-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'll leave now so that I don't miss the train.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. SO THAT + frase completa."
+  },
+  {
+   "topic": "t13",
+   "level": 3,
+   "skill": "addition",
+   "cefr": "C1",
+   "id": "t13-3-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Furthermore of that, the contract includes a penalty clause.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Furthermore, the contract includes a penalty clause. FURTHERMORE sozinho, com vírgula."
+  },
+  {
+   "topic": "t13",
+   "level": 3,
+   "skill": "cclause",
+   "cefr": "C1",
+   "id": "t13-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "While I agree with you, I think we need more data.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. WHILE (contraste) + frase; sem BUT."
+  },
+  {
+   "topic": "t13",
+   "level": 3,
+   "skill": "cnoun",
+   "cefr": "C1",
+   "id": "t13-3-024v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "In spite of she was tired, she finished the report.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: In spite of being tired, she finished the report. IN SPITE OF + -ING."
+  },
+  {
+   "topic": "t13",
+   "level": 3,
+   "skill": "sequence",
+   "cefr": "C1",
+   "id": "t13-3-025v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "First, we'll review the data. Then, we'll decide.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Sequência: FIRST / THEN."
   }
  ]
 }

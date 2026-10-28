@@ -242,6 +242,166 @@
    "cefr": "C1"
   },
   {
+   "id": "t28-1-016",
+   "topic": "t28",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'___, the market is unpredictable.' (sem dúvida)",
+   "options": [
+    "Undoubtedly",
+    "Undoubted",
+    "Doubtless of"
+   ],
+   "answer": "Undoubtedly",
+   "explain": "UNDOUBTEDLY.",
+   "skill": "attitude",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-1-017",
+   "topic": "t28",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'The plan is ambitious, ___ achievable.'",
+   "options": [
+    "albeit",
+    "although of",
+    "despite"
+   ],
+   "answer": "albeit",
+   "explain": "ALBEIT + adjetivo.",
+   "skill": "sophconn",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-1-018",
+   "topic": "t28",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'We need to ___ our strengths.' (alavancar)",
+   "options": [
+    "leverage",
+    "level",
+    "lever on"
+   ],
+   "answer": "leverage",
+   "explain": "LEVERAGE.",
+   "skill": "precise",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-1-019",
+   "topic": "t28",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Approval is the main ___ in the process.' (gargalo)",
+   "options": [
+    "bottleneck",
+    "bottle",
+    "neckline"
+   ],
+   "answer": "bottleneck",
+   "explain": "BOTTLENECK.",
+   "skill": "corpnoun",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-1-020",
+   "topic": "t28",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Let's ___ base next week.' (alinhar)",
+   "options": [
+    "touch",
+    "take",
+    "keep"
+   ],
+   "answer": "touch",
+   "explain": "TOUCH BASE.",
+   "skill": "idioms",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-1-021",
+   "topic": "t28",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'They're ___ to share data.' (relutantes)",
+   "options": [
+    "reluctant",
+    "relucting",
+    "reluctance"
+   ],
+   "answer": "reluctant",
+   "explain": "RELUCTANT TO.",
+   "skill": "feelings",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-1-022",
+   "topic": "t28",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I'd ___ that the risk is acceptable.'",
+   "options": [
+    "contend",
+    "contest",
+    "content"
+   ],
+   "answer": "contend",
+   "explain": "CONTEND = sustentar.",
+   "skill": "argue",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-1-023",
+   "topic": "t28",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'We need to ___ awareness about fraud.'",
+   "options": [
+    "raise",
+    "rise",
+    "arise"
+   ],
+   "answer": "raise",
+   "explain": "RAISE AWARENESS.",
+   "skill": "colloc",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-1-024",
+   "topic": "t28",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Who will ___ the project?' (supervisionar)",
+   "options": [
+    "oversee",
+    "overlook",
+    "oversea"
+   ],
+   "answer": "oversee",
+   "explain": "OVERSEE = supervisionar. OVERLOOK = deixar passar.",
+   "skill": "precise",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-1-025",
+   "topic": "t28",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'We need more ___ from the leadership.' (adesão)",
+   "options": [
+    "buy-in",
+    "buy-out",
+    "buy-up"
+   ],
+   "answer": "buy-in",
+   "explain": "BUY-IN.",
+   "skill": "corpnoun",
+   "cefr": "C1"
+  },
+  {
    "id": "t28-2-001",
    "topic": "t28",
    "level": 2,
@@ -458,6 +618,149 @@
    "cefr": "C1"
   },
   {
+   "id": "t28-2-016",
+   "topic": "t28",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (Compreensivelmente), the client was upset.",
+   "answer": [
+    "Understandably"
+   ],
+   "explain": "UNDERSTANDABLY.",
+   "skill": "attitude",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-2-017",
+   "topic": "t28",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The data was incomplete; ___ (por isso), the delay.",
+   "answer": [
+    "hence"
+   ],
+   "explain": "HENCE = daí.",
+   "skill": "sophconn",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-2-018",
+   "topic": "t28",
+   "level": 2,
+   "type": "fix",
+   "prompt": "This decision could underline trust in the brand. (minar)",
+   "options": [
+    "This decision could undermine trust in the brand.",
+    "This decision could undermined trust in the brand.",
+    "This decision could underground trust in the brand."
+   ],
+   "answer": "This decision could undermine trust in the brand.",
+   "explain": "UNDERMINE = minar; UNDERLINE = sublinhar.",
+   "skill": "precise",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-2-019",
+   "topic": "t28",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Who is ___ (responsável) for this decision? We need accountability.",
+   "answer": [
+    "accountable",
+    "responsible"
+   ],
+   "explain": "ACCOUNTABLE FOR.",
+   "skill": "corpnoun",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-2-020",
+   "topic": "t28",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Let's not cut the corners on safety.",
+   "options": [
+    "Let's not cut corners on safety.",
+    "Let's not cut the corner on safety.",
+    "Let's not cut corners of safety."
+   ],
+   "answer": "Let's not cut corners on safety.",
+   "explain": "CUT CORNERS (sem THE).",
+   "skill": "idioms",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-2-021",
+   "topic": "t28",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We're ___ (receosos) of signing long contracts.",
+   "answer": [
+    "wary"
+   ],
+   "explain": "WARY OF.",
+   "skill": "feelings",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-2-022",
+   "topic": "t28",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I want to discuss that the plan is too risky.",
+   "options": [
+    "I want to argue that the plan is too risky.",
+    "I want to discuss about that the plan is too risky.",
+    "I want to argue about that the plan is too risky."
+   ],
+   "answer": "I want to argue that the plan is too risky.",
+   "explain": "Defender um ponto: ARGUE THAT.",
+   "skill": "argue",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-2-023",
+   "topic": "t28",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We need to ___ (reduzir) the gap between policy and practice.",
+   "answer": [
+    "bridge",
+    "close"
+   ],
+   "explain": "BRIDGE / CLOSE THE GAP.",
+   "skill": "colloc",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-2-024",
+   "topic": "t28",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The new tool will ___ (aprimorar) our reporting.",
+   "answer": [
+    "enhance",
+    "improve"
+   ],
+   "explain": "ENHANCE.",
+   "skill": "precise",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-2-025",
+   "topic": "t28",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Can you give me a ___ (aproximado) figure?",
+   "answer": [
+    "ballpark",
+    "rough"
+   ],
+   "explain": "BALLPARK / ROUGH FIGURE.",
+   "skill": "idioms",
+   "cefr": "C1"
+  },
+  {
    "id": "t28-3-001",
    "topic": "t28",
    "level": 3,
@@ -661,6 +964,267 @@
    "explain": "Advérbio de atitude no início.",
    "skill": "attitude",
    "cefr": "C1"
+  },
+  {
+   "id": "t28-3-016",
+   "topic": "t28",
+   "level": 3,
+   "type": "gap",
+   "prompt": "___ (Reconhecidamente), our process is slow.",
+   "answer": [
+    "Admittedly"
+   ],
+   "explain": "ADMITTEDLY.",
+   "skill": "attitude",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-3-017",
+   "topic": "t28",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The policy was revised, ___ (assim) reducing risk.",
+   "answer": [
+    "thereby",
+    "thus"
+   ],
+   "explain": "THEREBY + -ING.",
+   "skill": "sophconn",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-3-018",
+   "topic": "t28",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We must ___ (garantir) full compliance.",
+   "answer": [
+    "ensure"
+   ],
+   "explain": "ENSURE.",
+   "skill": "precise",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-3-019",
+   "topic": "t28",
+   "level": 3,
+   "type": "gap",
+   "prompt": "There's always a ___ (troca) between speed and accuracy.",
+   "answer": [
+    "trade-off",
+    "tradeoff"
+   ],
+   "explain": "TRADE-OFF.",
+   "skill": "corpnoun",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-3-020",
+   "topic": "t28",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I ___ (reconheço) that we made mistakes.",
+   "answer": [
+    "acknowledge",
+    "admit"
+   ],
+   "explain": "ACKNOWLEDGE.",
+   "skill": "argue",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-3-021",
+   "topic": "t28",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We are keen on expanding into new markets.",
+   "explain": "KEEN ON + -ING.",
+   "skill": "feelings",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-3-022",
+   "topic": "t28",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "The project has a steep learning curve.",
+   "explain": "A STEEP LEARNING CURVE.",
+   "skill": "colloc",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-3-023",
+   "topic": "t28",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Let's make sure we're on the same page.",
+   "explain": "ON THE SAME PAGE.",
+   "skill": "idioms",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-3-024",
+   "topic": "t28",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual verbo significa 'otimizar, enxugar um processo'?",
+   "options": [
+    "streamline",
+    "streamflow",
+    "straighten up"
+   ],
+   "answer": "streamline",
+   "explain": "STREAMLINE.",
+   "skill": "precise",
+   "cefr": "C1"
+  },
+  {
+   "id": "t28-3-025",
+   "topic": "t28",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual combinação é natural?",
+   "options": [
+    "a viable alternative",
+    "a viable alternate solution do",
+    "a vital alternatively"
+   ],
+   "answer": "a viable alternative",
+   "explain": "A VIABLE ALTERNATIVE.",
+   "skill": "colloc",
+   "cefr": "C1"
+  },
+  {
+   "topic": "t28",
+   "level": 2,
+   "skill": "sophconn",
+   "cefr": "C1",
+   "id": "t28-2-003v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The project was successful, albeit expensive.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. ALBEIT + adjetivo, sem frase completa."
+  },
+  {
+   "topic": "t28",
+   "level": 2,
+   "skill": "precise",
+   "cefr": "C1",
+   "id": "t28-2-006v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We want to make better the process.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: We want to enhance the process. ENHANCE = aprimorar."
+  },
+  {
+   "topic": "t28",
+   "level": 2,
+   "skill": "idioms",
+   "cefr": "C1",
+   "id": "t28-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We're back to square one.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. BACK TO SQUARE ONE = voltar ao início."
+  },
+  {
+   "topic": "t28",
+   "level": 2,
+   "skill": "feelings",
+   "cefr": "C1",
+   "id": "t28-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We're keen on this idea.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. KEEN ON."
+  },
+  {
+   "topic": "t28",
+   "level": 2,
+   "skill": "argue",
+   "cefr": "C1",
+   "id": "t28-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We argued that the price is too high. (defendemos)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. ARGUE THAT = defender um ponto."
+  },
+  {
+   "topic": "t28",
+   "level": 2,
+   "skill": "precise",
+   "cefr": "C1",
+   "id": "t28-2-018v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "This decision could underline trust in the brand. (minar)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: This decision could undermine trust in the brand. UNDERMINE = minar; UNDERLINE = sublinhar."
+  },
+  {
+   "topic": "t28",
+   "level": 2,
+   "skill": "idioms",
+   "cefr": "C1",
+   "id": "t28-2-020v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Let's not cut the corners on safety.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Let's not cut corners on safety. CUT CORNERS (sem THE)."
+  },
+  {
+   "topic": "t28",
+   "level": 2,
+   "skill": "argue",
+   "cefr": "C1",
+   "id": "t28-2-022v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I want to discuss that the plan is too risky.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I want to argue that the plan is too risky. Defender um ponto: ARGUE THAT."
   }
  ]
 }

@@ -242,6 +242,166 @@
    "cefr": "B2"
   },
   {
+   "id": "t17-1-016",
+   "topic": "t17",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Right, ___ we begin?'",
+   "options": [
+    "shall",
+    "will",
+    "do"
+   ],
+   "answer": "shall",
+   "explain": "SHALL WE BEGIN?",
+   "skill": "open",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-1-017",
+   "topic": "t17",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I've ___ this meeting to discuss the budget.'",
+   "options": [
+    "called",
+    "made",
+    "done"
+   ],
+   "answer": "called",
+   "explain": "CALL A MEETING = convocar.",
+   "skill": "agenda",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-1-018",
+   "topic": "t17",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'___ I see it, the plan is too ambitious.'",
+   "options": [
+    "The way",
+    "How",
+    "As the way"
+   ],
+   "answer": "The way",
+   "explain": "THE WAY I SEE IT...",
+   "skill": "opinion",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-1-019",
+   "topic": "t17",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Paulo, what's your ___ on this?'",
+   "options": [
+    "take",
+    "took",
+    "taken"
+   ],
+   "answer": "take",
+   "explain": "WHAT'S YOUR TAKE ON...? (informal).",
+   "skill": "askop",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-1-020",
+   "topic": "t17",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I'm ___ you on that.'",
+   "options": [
+    "with",
+    "agree",
+    "agreed"
+   ],
+   "answer": "with",
+   "explain": "I'M WITH YOU = concordo.",
+   "skill": "agree",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-1-021",
+   "topic": "t17",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I see things ___.'",
+   "options": [
+    "differently",
+    "different way",
+    "difference"
+   ],
+   "answer": "differently",
+   "explain": "Discordância suave.",
+   "skill": "disagree",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-1-022",
+   "topic": "t17",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'That's true to some ___, but...'",
+   "options": [
+    "extent",
+    "part",
+    "level of"
+   ],
+   "answer": "extent",
+   "explain": "TO SOME EXTENT = em parte.",
+   "skill": "partial",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-1-023",
+   "topic": "t17",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'What ___ we asked them for a discount?'",
+   "options": [
+    "if",
+    "about",
+    "for"
+   ],
+   "answer": "if",
+   "explain": "WHAT IF + passado: sugestão.",
+   "skill": "suggest",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-1-024",
+   "topic": "t17",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Let's ___ to the next item.'",
+   "options": [
+    "move on",
+    "move in",
+    "go to on"
+   ],
+   "answer": "move on",
+   "explain": "MOVE ON TO.",
+   "skill": "agenda",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-1-025",
+   "topic": "t17",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Good morning, everyone. Thanks for ___ the time.'",
+   "options": [
+    "making",
+    "doing",
+    "giving"
+   ],
+   "answer": "making",
+   "explain": "THANKS FOR MAKING THE TIME.",
+   "skill": "open",
+   "cefr": "B2"
+  },
+  {
    "id": "t17-2-001",
    "topic": "t17",
    "level": 2,
@@ -461,6 +621,157 @@
    "cefr": "B2"
   },
   {
+   "id": "t17-2-016",
+   "topic": "t17",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'd like to ___ (começar) by welcoming our new colleague.",
+   "answer": [
+    "start",
+    "begin"
+   ],
+   "explain": "I'D LIKE TO START BY + -ING.",
+   "skill": "open",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-2-017",
+   "topic": "t17",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The main ___ (objetivo) today is to agree on priorities.",
+   "answer": [
+    "goal",
+    "objective",
+    "aim",
+    "purpose"
+   ],
+   "explain": "THE MAIN GOAL TODAY IS...",
+   "skill": "agenda",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-2-018",
+   "topic": "t17",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I think that in my opinion we should wait.",
+   "options": [
+    "I think we should wait.",
+    "I think in my opinion that should we wait.",
+    "I'm thinking we should wait."
+   ],
+   "answer": "I think we should wait.",
+   "explain": "Uma marca de opinião basta.",
+   "skill": "opinion",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-2-019",
+   "topic": "t17",
+   "level": 2,
+   "type": "fix",
+   "prompt": "What do you think? Do you agree or no?",
+   "options": [
+    "What do you think? Do you agree?",
+    "What you think? You agree or no?",
+    "What do you think? Are you agree?"
+   ],
+   "answer": "What do you think? Do you agree?",
+   "explain": "Pergunta direta, sem 'or no'.",
+   "skill": "askop",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-2-020",
+   "topic": "t17",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I agree with you completely totally.",
+   "options": [
+    "I completely agree with you.",
+    "I agree completely totally with you.",
+    "I'm completely agree with you."
+   ],
+   "answer": "I completely agree with you.",
+   "explain": "Um advérbio, antes de AGREE.",
+   "skill": "agree",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-2-021",
+   "topic": "t17",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'm not ___ (convencido) that's the right approach.",
+   "answer": [
+    "convinced",
+    "sure"
+   ],
+   "explain": "I'M NOT CONVINCED.",
+   "skill": "disagree",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-2-022",
+   "topic": "t17",
+   "level": 2,
+   "type": "gap",
+   "prompt": "That's ___ (parcialmente) true, but there's more to it.",
+   "answer": [
+    "partly",
+    "partially"
+   ],
+   "explain": "PARTLY TRUE.",
+   "skill": "partial",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-2-023",
+   "topic": "t17",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I suggest to wait for the numbers.",
+   "options": [
+    "I suggest waiting for the numbers.",
+    "I suggest wait for the numbers.",
+    "I suggest you to wait for the numbers."
+   ],
+   "answer": "I suggest waiting for the numbers.",
+   "explain": "SUGGEST + -ING.",
+   "skill": "suggest",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-2-024",
+   "topic": "t17",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Could I ask for your ___ (opinião)?",
+   "answer": [
+    "opinion",
+    "views",
+    "thoughts",
+    "input"
+   ],
+   "explain": "ASK FOR YOUR OPINION / INPUT.",
+   "skill": "askop",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-2-025",
+   "topic": "t17",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I ___ (concordo) with you up to a point.",
+   "answer": [
+    "agree"
+   ],
+   "explain": "AGREE UP TO A POINT.",
+   "skill": "partial",
+   "cefr": "B2"
+  },
+  {
    "id": "t17-3-001",
    "topic": "t17",
    "level": 3,
@@ -664,6 +975,268 @@
    "explain": "I'D SAY... suaviza sem perder clareza.",
    "skill": "opinion",
    "cefr": "B2"
+  },
+  {
+   "id": "t17-3-016",
+   "topic": "t17",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'd go along ___ (preposição) that.",
+   "answer": [
+    "with"
+   ],
+   "explain": "GO ALONG WITH = concordar, aceitar.",
+   "skill": "agree",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-3-017",
+   "topic": "t17",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'm ___ (receio) I have to disagree.",
+   "answer": [
+    "afraid"
+   ],
+   "explain": "I'M AFRAID I HAVE TO DISAGREE.",
+   "skill": "disagree",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-3-018",
+   "topic": "t17",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Personally, I ___ (acho) we should wait.",
+   "answer": [
+    "think",
+    "feel",
+    "believe"
+   ],
+   "explain": "PERSONALLY, I THINK...",
+   "skill": "opinion",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-3-019",
+   "topic": "t17",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Have you ___ (considerado) asking the client directly?",
+   "answer": [
+    "considered",
+    "thought of"
+   ],
+   "explain": "HAVE YOU CONSIDERED + -ING?",
+   "skill": "suggest",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-3-020",
+   "topic": "t17",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We have a lot to ___ (cobrir), so let's begin.",
+   "answer": [
+    "cover",
+    "get through"
+   ],
+   "explain": "WE HAVE A LOT TO COVER.",
+   "skill": "agenda",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-3-021",
+   "topic": "t17",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I agree with you to some extent.",
+   "explain": "Concordância parcial.",
+   "skill": "partial",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-3-022",
+   "topic": "t17",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "What would you suggest we do?",
+   "explain": "Pedir sugestão / opinião.",
+   "skill": "askop",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-3-023",
+   "topic": "t17",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Has everyone had a chance to read the report?",
+   "explain": "Abertura: checar preparação.",
+   "skill": "open",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-3-024",
+   "topic": "t17",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual discordância é mais diplomática com um diretor?",
+   "options": [
+    "With respect, I see it slightly differently.",
+    "No, that's wrong.",
+    "You don't understand."
+   ],
+   "answer": "With respect, I see it slightly differently.",
+   "explain": "WITH RESPECT + suavização.",
+   "skill": "disagree",
+   "cefr": "B2"
+  },
+  {
+   "id": "t17-3-025",
+   "topic": "t17",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual sugestão soa natural?",
+   "options": [
+    "Maybe we could look at other suppliers?",
+    "Maybe we could to look other suppliers?",
+    "We look other suppliers maybe?"
+   ],
+   "answer": "Maybe we could look at other suppliers?",
+   "explain": "MAYBE WE COULD...",
+   "skill": "suggest",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t17",
+   "level": 2,
+   "skill": "agree",
+   "cefr": "B2",
+   "id": "t17-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I totally agree with you.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Um intensificador basta, antes de AGREE."
+  },
+  {
+   "topic": "t17",
+   "level": 2,
+   "skill": "agree",
+   "cefr": "B2",
+   "id": "t17-2-002v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I am agree with you.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I agree with you. AGREE é verbo: sem AM."
+  },
+  {
+   "topic": "t17",
+   "level": 2,
+   "skill": "askop",
+   "cefr": "B2",
+   "id": "t17-2-005v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "What do you think about the plan? (pedindo opinião sobre o plano)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. WHAT DO YOU THINK ABOUT + assunto."
+  },
+  {
+   "topic": "t17",
+   "level": 2,
+   "skill": "suggest",
+   "cefr": "B2",
+   "id": "t17-2-010v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "How about to postpone it?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: How about postponing it? HOW ABOUT + -ING."
+  },
+  {
+   "topic": "t17",
+   "level": 2,
+   "skill": "agenda",
+   "cefr": "B2",
+   "id": "t17-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The objective of this meeting is to decide the budget.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. IS TO + verbo."
+  },
+  {
+   "topic": "t17",
+   "level": 2,
+   "skill": "askop",
+   "cefr": "B2",
+   "id": "t17-2-019v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "What do you think? Do you agree?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Pergunta direta, sem 'or no'."
+  },
+  {
+   "topic": "t17",
+   "level": 2,
+   "skill": "agree",
+   "cefr": "B2",
+   "id": "t17-2-020v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I agree with you completely totally.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I completely agree with you. Um advérbio, antes de AGREE."
+  },
+  {
+   "topic": "t17",
+   "level": 2,
+   "skill": "suggest",
+   "cefr": "B2",
+   "id": "t17-2-023v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I suggest waiting for the numbers.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. SUGGEST + -ING."
   }
  ]
 }

@@ -242,6 +242,166 @@
    "cefr": "B2"
   },
   {
+   "id": "t11-1-016",
+   "topic": "t11",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The results ___ published next week.",
+   "options": [
+    "will be",
+    "will",
+    "are be"
+   ],
+   "answer": "will be",
+   "explain": "Futuro passivo: WILL BE + particípio.",
+   "skill": "ptenses",
+   "cefr": "B2"
+  },
+  {
+   "id": "t11-1-017",
+   "topic": "t11",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The office ___ cleaned every night.",
+   "options": [
+    "is",
+    "has",
+    "does"
+   ],
+   "answer": "is",
+   "explain": "Presente passivo: IS + particípio.",
+   "skill": "ptenses",
+   "cefr": "B2"
+  },
+  {
+   "id": "t11-1-018",
+   "topic": "t11",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The data should ___ checked twice.",
+   "options": [
+    "be",
+    "been",
+    "being"
+   ],
+   "answer": "be",
+   "explain": "SHOULD BE + particípio.",
+   "skill": "pmodal",
+   "cefr": "B2"
+  },
+  {
+   "id": "t11-1-019",
+   "topic": "t11",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We're having the office ___.",
+   "options": [
+    "painted",
+    "paint",
+    "painting"
+   ],
+   "answer": "painted",
+   "explain": "HAVE + objeto + particípio.",
+   "skill": "causative",
+   "cefr": "B2"
+  },
+  {
+   "id": "t11-1-020",
+   "topic": "t11",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She ___ a bonus last year.",
+   "options": [
+    "was given",
+    "gave",
+    "was give"
+   ],
+   "answer": "was given",
+   "explain": "A pessoa como sujeito: WAS GIVEN.",
+   "skill": "twoobj",
+   "cefr": "B2"
+  },
+  {
+   "id": "t11-1-021",
+   "topic": "t11",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It ___ that the market will grow.",
+   "options": [
+    "is predicted",
+    "predicts",
+    "is predicting"
+   ],
+   "answer": "is predicted",
+   "explain": "Impessoal: IT IS PREDICTED THAT.",
+   "skill": "impersonal",
+   "cefr": "B2"
+  },
+  {
+   "id": "t11-1-022",
+   "topic": "t11",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The CEO is believed ___ resign.",
+   "options": [
+    "to",
+    "that",
+    "for"
+   ],
+   "answer": "to",
+   "explain": "IS BELIEVED TO + verbo.",
+   "skill": "saidto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t11-1-023",
+   "topic": "t11",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Our flight ___ cancelled.",
+   "options": [
+    "got",
+    "was got",
+    "has get"
+   ],
+   "answer": "got",
+   "explain": "Informal: GOT + particípio.",
+   "skill": "getpass",
+   "cefr": "B2"
+  },
+  {
+   "id": "t11-1-024",
+   "topic": "t11",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The bridge ___ built in 1974.",
+   "options": [
+    "was",
+    "has",
+    "did"
+   ],
+   "answer": "was",
+   "explain": "Passado passivo: WAS + particípio.",
+   "skill": "ptenses",
+   "cefr": "B2"
+  },
+  {
+   "id": "t11-1-025",
+   "topic": "t11",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "No relatório, você quer omitir quem errou. Qual frase?",
+   "options": [
+    "An error was made in the calculation.",
+    "John made an error in the calculation.",
+    "John has error the calculation."
+   ],
+   "answer": "An error was made in the calculation.",
+   "explain": "Passiva omite o responsável.",
+   "skill": "whennot",
+   "cefr": "B2"
+  },
+  {
    "id": "t11-2-001",
    "topic": "t11",
    "level": 2,
@@ -464,6 +624,148 @@
    "cefr": "B2"
   },
   {
+   "id": "t11-2-016",
+   "topic": "t11",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The new policy ___ (introduce) last month.",
+   "answer": [
+    "was introduced"
+   ],
+   "explain": "Passado passivo.",
+   "skill": "ptenses",
+   "cefr": "B2"
+  },
+  {
+   "id": "t11-2-017",
+   "topic": "t11",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Invoices must ___ (approve) by the manager.",
+   "answer": [
+    "be approved"
+   ],
+   "explain": "MUST BE + particípio.",
+   "skill": "pmodal",
+   "cefr": "B2"
+  },
+  {
+   "id": "t11-2-018",
+   "topic": "t11",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I cut my hair yesterday. (no cabeleireiro)",
+   "options": [
+    "I had my hair cut yesterday.",
+    "I had cut my hair yesterday.",
+    "I had my hair cutting yesterday."
+   ],
+   "answer": "I had my hair cut yesterday.",
+   "explain": "Mandou fazer: HAVE + objeto + particípio.",
+   "skill": "causative",
+   "cefr": "B2"
+  },
+  {
+   "id": "t11-2-019",
+   "topic": "t11",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Was sent to me the wrong file.",
+   "options": [
+    "I was sent the wrong file.",
+    "I was send the wrong file.",
+    "It was sent me the wrong file."
+   ],
+   "answer": "I was sent the wrong file.",
+   "explain": "A pessoa como sujeito: I WAS SENT.",
+   "skill": "twoobj",
+   "cefr": "B2"
+  },
+  {
+   "id": "t11-2-020",
+   "topic": "t11",
+   "level": 2,
+   "type": "fix",
+   "prompt": "It is know that he is honest.",
+   "options": [
+    "It is known that he is honest.",
+    "It knows that he is honest.",
+    "Is known that he is honest."
+   ],
+   "answer": "It is known that he is honest.",
+   "explain": "Particípio: KNOWN.",
+   "skill": "impersonal",
+   "cefr": "B2"
+  },
+  {
+   "id": "t11-2-021",
+   "topic": "t11",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She is said that she is a great leader.",
+   "options": [
+    "She is said to be a great leader.",
+    "She is said being a great leader.",
+    "She said to be a great leader."
+   ],
+   "answer": "She is said to be a great leader.",
+   "explain": "IS SAID TO BE.",
+   "skill": "saidto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t11-2-022",
+   "topic": "t11",
+   "level": 2,
+   "type": "gap",
+   "prompt": "My bag ___ (get / steal) at the airport.",
+   "answer": [
+    "got stolen"
+   ],
+   "explain": "GOT + particípio.",
+   "skill": "getpass",
+   "cefr": "B2"
+  },
+  {
+   "id": "t11-2-023",
+   "topic": "t11",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The software ___ (update) right now. Please wait.",
+   "answer": [
+    "is being updated"
+   ],
+   "explain": "Em andamento: IS BEING + particípio.",
+   "skill": "ptenses",
+   "cefr": "B2"
+  },
+  {
+   "id": "t11-2-024",
+   "topic": "t11",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We need to get our visas ___ (renew).",
+   "answer": [
+    "renewed"
+   ],
+   "explain": "GET + objeto + particípio.",
+   "skill": "causative",
+   "cefr": "B2"
+  },
+  {
+   "id": "t11-2-025",
+   "topic": "t11",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The meeting might ___ (postpone).",
+   "answer": [
+    "be postponed"
+   ],
+   "explain": "MIGHT BE + particípio.",
+   "skill": "pmodal",
+   "cefr": "B2"
+  },
+  {
    "id": "t11-3-001",
    "topic": "t11",
    "level": 3,
@@ -665,6 +967,376 @@
    "explain": "MUST HAVE BEEN + particípio.",
    "skill": "pmodal",
    "cefr": "C1"
+  },
+  {
+   "id": "t11-3-016",
+   "topic": "t11",
+   "level": 3,
+   "type": "gap",
+   "prompt": "By the time we arrived, the food ___ (eat).",
+   "answer": [
+    "had been eaten"
+   ],
+   "explain": "Past Perfect passivo.",
+   "skill": "ptenses",
+   "cefr": "C1"
+  },
+  {
+   "id": "t11-3-017",
+   "topic": "t11",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The documents should ___ (sign) yesterday.",
+   "answer": [
+    "have been signed"
+   ],
+   "explain": "SHOULD HAVE BEEN + particípio.",
+   "skill": "pmodal",
+   "cefr": "C1"
+  },
+  {
+   "id": "t11-3-018",
+   "topic": "t11",
+   "level": 3,
+   "type": "gap",
+   "prompt": "He is reported ___ (leave) the country.",
+   "answer": [
+    "to have left"
+   ],
+   "explain": "Passado: IS REPORTED TO HAVE + particípio.",
+   "skill": "saidto",
+   "cefr": "C1"
+  },
+  {
+   "id": "t11-3-019",
+   "topic": "t11",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I ___ (promise) a promotion, but it never happened.",
+   "answer": [
+    "was promised"
+   ],
+   "explain": "WAS PROMISED.",
+   "skill": "twoobj",
+   "cefr": "C1"
+  },
+  {
+   "id": "t11-3-020",
+   "topic": "t11",
+   "level": 3,
+   "type": "gap",
+   "prompt": "It ___ (estimate) that 30% of suppliers are late.",
+   "answer": [
+    "is estimated"
+   ],
+   "explain": "IT IS ESTIMATED THAT.",
+   "skill": "impersonal",
+   "cefr": "C1"
+  },
+  {
+   "id": "t11-3-021",
+   "topic": "t11",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "The report is being reviewed by the legal team.",
+   "explain": "IS BEING + particípio.",
+   "skill": "ptenses",
+   "cefr": "C1"
+  },
+  {
+   "id": "t11-3-022",
+   "topic": "t11",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We are having the system upgraded next month.",
+   "explain": "Causativa no futuro próximo.",
+   "skill": "causative",
+   "cefr": "C1"
+  },
+  {
+   "id": "t11-3-023",
+   "topic": "t11",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "She got promoted after the audit.",
+   "explain": "GET + particípio.",
+   "skill": "getpass",
+   "cefr": "C1"
+  },
+  {
+   "id": "t11-3-024",
+   "topic": "t11",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Para um e-mail direto ao time, qual soa melhor?",
+   "options": [
+    "I'll send the agenda tomorrow.",
+    "The agenda will be sent by me tomorrow.",
+    "The agenda is going to be sent by myself."
+   ],
+   "answer": "I'll send the agenda tomorrow.",
+   "explain": "Ativa: mais direta e pessoal.",
+   "skill": "whennot",
+   "cefr": "C1"
+  },
+  {
+   "id": "t11-3-025",
+   "topic": "t11",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "The contract must have been signed by mistake.",
+    "The contract must have signed by mistake.",
+    "The contract must been signed by mistake."
+   ],
+   "answer": "The contract must have been signed by mistake.",
+   "explain": "MUST HAVE BEEN + particípio.",
+   "skill": "pmodal",
+   "cefr": "C1"
+  },
+  {
+   "topic": "t11",
+   "level": 2,
+   "skill": "ptenses",
+   "cefr": "B2",
+   "id": "t11-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The invoice has been paid.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Passiva: particípio (PAID)."
+  },
+  {
+   "topic": "t11",
+   "level": 2,
+   "skill": "ptenses",
+   "cefr": "B2",
+   "id": "t11-2-002v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The supplier has approved. (sentido passivo)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The supplier has been approved. Sem BEEN vira ativa: 'o fornecedor aprovou'."
+  },
+  {
+   "topic": "t11",
+   "level": 2,
+   "skill": "pmodal",
+   "cefr": "B2",
+   "id": "t11-2-003v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The contract must be signed today.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. O BE não pode faltar."
+  },
+  {
+   "topic": "t11",
+   "level": 2,
+   "skill": "twoobj",
+   "cefr": "B2",
+   "id": "t11-2-007v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I was given a promotion.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. 'Me foi dado' = I WAS GIVEN."
+  },
+  {
+   "topic": "t11",
+   "level": 2,
+   "skill": "impersonal",
+   "cefr": "B2",
+   "id": "t11-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It is expected that prices will rise.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. 'Espera-se que' precisa do IT."
+  },
+  {
+   "topic": "t11",
+   "level": 2,
+   "skill": "saidto",
+   "cefr": "B2",
+   "id": "t11-2-010v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He is said that he is very strict.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: He is said to be very strict. Sujeito + IS SAID TO + verbo."
+  },
+  {
+   "topic": "t11",
+   "level": 2,
+   "skill": "getpass",
+   "cefr": "B2",
+   "id": "t11-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He got promoted.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Use GET ou BE, nunca os dois."
+  },
+  {
+   "topic": "t11",
+   "level": 2,
+   "skill": "twoobj",
+   "cefr": "B2",
+   "id": "t11-2-019v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I was sent the wrong file.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. A pessoa como sujeito: I WAS SENT."
+  },
+  {
+   "topic": "t11",
+   "level": 2,
+   "skill": "impersonal",
+   "cefr": "B2",
+   "id": "t11-2-020v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It is know that he is honest.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: It is known that he is honest. Particípio: KNOWN."
+  },
+  {
+   "topic": "t11",
+   "level": 2,
+   "skill": "saidto",
+   "cefr": "B2",
+   "id": "t11-2-021v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She is said to be a great leader.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. IS SAID TO BE."
+  },
+  {
+   "topic": "t11",
+   "level": 3,
+   "skill": "causative",
+   "cefr": "C1",
+   "id": "t11-3-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm having repaired my laptop.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I'm having my laptop repaired. HAVE + objeto + particípio."
+  },
+  {
+   "topic": "t11",
+   "level": 3,
+   "skill": "getpass",
+   "cefr": "C1",
+   "id": "t11-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She got fired last week.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. GET + particípio."
+  },
+  {
+   "topic": "t11",
+   "level": 3,
+   "skill": "impersonal",
+   "cefr": "C1",
+   "id": "t11-3-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It says that the market will be recover.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: It is said that the market will recover. IT IS SAID THAT."
+  },
+  {
+   "topic": "t11",
+   "level": 3,
+   "skill": "pmodal",
+   "cefr": "C1",
+   "id": "t11-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The invoices must have been approved.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. MUST HAVE BEEN + particípio."
+  },
+  {
+   "topic": "t11",
+   "level": 3,
+   "skill": "pmodal",
+   "cefr": "C1",
+   "id": "t11-3-025v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The contract must have been signed by mistake.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. MUST HAVE BEEN + particípio."
   }
  ]
 }

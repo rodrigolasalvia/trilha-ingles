@@ -196,6 +196,8 @@ def main():
             page.goto(URL + '#/topic/t09'); page.wait_for_selector('#practice')
             page.click('#practice'); page.wait_for_selector('.q')
             assert find_item(page)['topic'] == 't09'
+            assert page.locator('.q-use').count() == 1, 'sem dica de uso'
+            assert 'Condicionais' in page.locator('.q-topic').inner_text()
             page.click('#quit')
             # volta ao estado anterior para o resto do teste
             page.evaluate("() => { const s = JSON.parse(localStorage.getItem('trilha-ingles:state')); s.unlocked = {}; s.announced = []; localStorage.setItem('trilha-ingles:state', JSON.stringify(s)); }")
@@ -220,9 +222,36 @@ def main():
             labels = page.locator('.sessions b').all_inner_texts()
             assert 'Reforço' in labels, labels
 
+            # Proteção: localStorage apagado pelo sistema → recupera do IndexedDB sozinho
+            page.wait_for_timeout(1000)
+            page.evaluate("localStorage.clear()")
+            page.reload(); page.wait_for_selector('.ladder'); page.wait_for_timeout(500)
+            page.goto(URL + '#/history'); page.wait_for_selector('.ladder')
+            assert int(page.locator('.stat-n').first.inner_text()) == total, 'não recuperou do IndexedDB'
+
+            # Zerar é reversível pelas cópias automáticas
+            accept = lambda d: d.accept()
+            page.on('dialog', accept)
+            page.goto(URL + '#/settings'); page.wait_for_selector('.snap')
+            page.click('#reset'); page.wait_for_timeout(800)
+            page.goto(URL + '#/history'); page.wait_for_selector('.ladder')
+            assert int(page.locator('.stat-n').first.inner_text()) == 0, 'não zerou'
+            page.goto(URL + '#/settings'); page.wait_for_selector('.snap')
+            snap = page.locator('.snap', has_text='antes de zerar').first
+            assert snap.count() == 1, page.locator('#snaps').inner_text()
+            snap.locator('[data-snap]').click(); page.wait_for_timeout(800)
+            page.remove_listener('dialog', accept)
+            page.goto(URL + '#/history'); page.wait_for_selector('.ladder')
+            assert int(page.locator('.stat-n').first.inner_text()) == total, 'cópia não restaurou'
+            page.goto(URL + '#/settings'); page.wait_for_selector('.snap')
+            assert page.locator('.snap', has_text='antes de restaurar').count() >= 1
+            page.screenshot(path=f'{SHOTS}/08-copias.png', full_page=True)
+
             # Estado corrompido não derruba o app
+            page.goto(URL + '#/history'); page.wait_for_selector('.ladder')
             page.evaluate("localStorage.setItem('trilha-ingles:state', '{corrompido')")
             page.reload(); page.wait_for_selector('.ladder')
+            assert int(page.locator('.stat-n').first.inner_text()) > 0, 'estado corrompido perdeu o histórico'
 
             # Offline
             page.goto(URL); page.wait_for_selector('.topic'); page.wait_for_timeout(1500)

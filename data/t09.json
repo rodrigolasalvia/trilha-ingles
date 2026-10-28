@@ -242,6 +242,166 @@
    "cefr": "B2"
   },
   {
+   "id": "t09-1-016",
+   "topic": "t09",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "If I had seen the e-mail, I ___ replied.",
+   "options": [
+    "would have",
+    "would",
+    "had"
+   ],
+   "answer": "would have",
+   "explain": "3ª condicional: WOULD HAVE + particípio.",
+   "skill": "third",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-1-017",
+   "topic": "t09",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "If she ___ the job, she would be in London now.",
+   "options": [
+    "had accepted",
+    "accepted",
+    "would accept"
+   ],
+   "answer": "had accepted",
+   "explain": "Mista: causa passada (HAD + particípio).",
+   "skill": "mixedpast",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-1-018",
+   "topic": "t09",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "If he ___ so stubborn, he would have listened.",
+   "options": [
+    "weren't",
+    "hadn't been being",
+    "isn't"
+   ],
+   "answer": "weren't",
+   "explain": "Característica permanente: IF + WEREN'T.",
+   "skill": "mixedpres",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-1-019",
+   "topic": "t09",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I wish I ___ in São Paulo. The traffic is terrible.",
+   "options": [
+    "didn't live",
+    "don't live",
+    "won't live"
+   ],
+   "answer": "didn't live",
+   "explain": "WISH + passado para o presente.",
+   "skill": "wishpast",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-1-020",
+   "topic": "t09",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I wish I ___ that.",
+   "options": [
+    "hadn't said",
+    "didn't say",
+    "wouldn't say"
+   ],
+   "answer": "hadn't said",
+   "explain": "Arrependimento: WISH + HADN'T + particípio.",
+   "skill": "wishpp",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-1-021",
+   "topic": "t09",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I wish the neighbors ___ so much noise.",
+   "options": [
+    "wouldn't make",
+    "don't make",
+    "hadn't make"
+   ],
+   "answer": "wouldn't make",
+   "explain": "Irritação com o comportamento do outro: WISH + WOULD.",
+   "skill": "wishwould",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-1-022",
+   "topic": "t09",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We'll go ahead ___ the board approves.",
+   "options": [
+    "as long as",
+    "unless",
+    "in case"
+   ],
+   "answer": "as long as",
+   "explain": "Desde que: AS LONG AS.",
+   "skill": "altif",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-1-023",
+   "topic": "t09",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Bring a jacket ___ it gets cold.",
+   "options": [
+    "in case",
+    "unless",
+    "provided"
+   ],
+   "answer": "in case",
+   "explain": "Por precaução: IN CASE.",
+   "skill": "altif",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-1-024",
+   "topic": "t09",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "If only I ___ more time!",
+   "options": [
+    "had",
+    "have",
+    "will have"
+   ],
+   "answer": "had",
+   "explain": "IF ONLY + passado (presente).",
+   "skill": "ifonly",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-1-025",
+   "topic": "t09",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It's high time we ___ the system.",
+   "options": [
+    "updated",
+    "update",
+    "will update"
+   ],
+   "answer": "updated",
+   "explain": "IT'S HIGH TIME + passado.",
+   "skill": "ifonly",
+   "cefr": "B2"
+  },
+  {
    "id": "t09-2-001",
    "topic": "t09",
    "level": 2,
@@ -462,6 +622,151 @@
    "cefr": "B2"
   },
   {
+   "id": "t09-2-016",
+   "topic": "t09",
+   "level": 2,
+   "type": "gap",
+   "prompt": "If we ___ (book) earlier, the tickets would have been cheaper.",
+   "answer": [
+    "had booked"
+   ],
+   "explain": "IF + HAD + particípio.",
+   "skill": "third",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-2-017",
+   "topic": "t09",
+   "level": 2,
+   "type": "gap",
+   "prompt": "She ___ (not / miss) the flight if she had left earlier.",
+   "answer": [
+    "wouldn't have missed",
+    "would not have missed"
+   ],
+   "explain": "WOULDN'T HAVE + particípio.",
+   "skill": "third",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-2-018",
+   "topic": "t09",
+   "level": 2,
+   "type": "gap",
+   "prompt": "If I ___ (learn) Spanish as a child, I would speak it now.",
+   "answer": [
+    "had learned",
+    "had learnt"
+   ],
+   "explain": "Mista: passado → presente.",
+   "skill": "mixedpast",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-2-019",
+   "topic": "t09",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I wish I would have more holidays.",
+   "options": [
+    "I wish I had more holidays.",
+    "I wish I have more holidays.",
+    "I wish I'd having more holidays."
+   ],
+   "answer": "I wish I had more holidays.",
+   "explain": "Sobre você mesmo: WISH + passado.",
+   "skill": "wishpast",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-2-020",
+   "topic": "t09",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I wish I didn't sell my car last year.",
+   "options": [
+    "I wish I hadn't sold my car last year.",
+    "I wish I wouldn't sell my car last year.",
+    "I wish I haven't sold my car last year."
+   ],
+   "answer": "I wish I hadn't sold my car last year.",
+   "explain": "Passado: WISH + HADN'T + particípio.",
+   "skill": "wishpp",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-2-021",
+   "topic": "t09",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I wish you stop complaining.",
+   "options": [
+    "I wish you would stop complaining.",
+    "I wish you will stop complaining.",
+    "I wish you stopping complaining."
+   ],
+   "answer": "I wish you would stop complaining.",
+   "explain": "Irritação: WISH + WOULD.",
+   "skill": "wishwould",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-2-022",
+   "topic": "t09",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We will sign as long as they will lower the price.",
+   "options": [
+    "We will sign as long as they lower the price.",
+    "We sign as long as they will lower the price.",
+    "We will sign as long they lower the price."
+   ],
+   "answer": "We will sign as long as they lower the price.",
+   "explain": "AS LONG AS + presente.",
+   "skill": "altif",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-2-023",
+   "topic": "t09",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I wish I ___ (can) speak Japanese.",
+   "answer": [
+    "could"
+   ],
+   "explain": "WISH + COULD.",
+   "skill": "wishwould",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-2-024",
+   "topic": "t09",
+   "level": 2,
+   "type": "gap",
+   "prompt": "If he ___ (be) a better listener, he wouldn't have missed the details.",
+   "answer": [
+    "were",
+    "was"
+   ],
+   "explain": "Característica permanente → fato passado.",
+   "skill": "mixedpres",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-2-025",
+   "topic": "t09",
+   "level": 2,
+   "type": "gap",
+   "prompt": "If ___ (só) we had more budget!",
+   "answer": [
+    "only"
+   ],
+   "explain": "IF ONLY.",
+   "skill": "ifonly",
+   "cefr": "B2"
+  },
+  {
    "id": "t09-3-001",
    "topic": "t09",
    "level": 3,
@@ -665,6 +970,395 @@
    "explain": "IF ONLY + passado para o presente.",
    "skill": "ifonly",
    "cefr": "B2"
+  },
+  {
+   "id": "t09-3-016",
+   "topic": "t09",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Had I known, I ___ (warn) you.",
+   "answer": [
+    "would have warned",
+    "'d have warned"
+   ],
+   "explain": "3ª condicional (inversão): WOULD HAVE + particípio.",
+   "skill": "third",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-3-017",
+   "topic": "t09",
+   "level": 3,
+   "type": "gap",
+   "prompt": "If they hadn't merged, they ___ (be) competitors today.",
+   "answer": [
+    "would be",
+    "would still be"
+   ],
+   "explain": "Mista: efeito hoje.",
+   "skill": "mixedpast",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-3-018",
+   "topic": "t09",
+   "level": 3,
+   "type": "gap",
+   "prompt": "She wishes she ___ (study) law instead of engineering.",
+   "answer": [
+    "had studied"
+   ],
+   "explain": "Arrependimento: WISH + HAD + particípio.",
+   "skill": "wishpp",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-3-019",
+   "topic": "t09",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I wish it ___ (be) Friday already.",
+   "answer": [
+    "were",
+    "was"
+   ],
+   "explain": "WISH + WERE / WAS.",
+   "skill": "wishpast",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-3-020",
+   "topic": "t09",
+   "level": 3,
+   "type": "gap",
+   "prompt": "You won't get a refund ___ (a menos que) you keep the receipt.",
+   "answer": [
+    "unless"
+   ],
+   "explain": "UNLESS.",
+   "skill": "altif",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-3-021",
+   "topic": "t09",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "If I had left earlier, I would have caught the train.",
+   "explain": "3ª condicional.",
+   "skill": "third",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-3-022",
+   "topic": "t09",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I wish my boss would reply faster.",
+   "explain": "WISH + WOULD.",
+   "skill": "wishwould",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-3-023",
+   "topic": "t09",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "It's time we changed our strategy.",
+   "explain": "IT'S TIME + passado.",
+   "skill": "ifonly",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-3-024",
+   "topic": "t09",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "If I were more patient, I wouldn't have shouted.",
+    "If I was more patient, I wouldn't shout yesterday.",
+    "If I am more patient, I wouldn't have shouted."
+   ],
+   "answer": "If I were more patient, I wouldn't have shouted.",
+   "explain": "Característica permanente → fato passado.",
+   "skill": "mixedpres",
+   "cefr": "B2"
+  },
+  {
+   "id": "t09-3-025",
+   "topic": "t09",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Provided that the data is correct, we can publish.",
+    "Provided that the data will be correct, we can publish.",
+    "Provided the data correct, we can publish."
+   ],
+   "answer": "Provided that the data is correct, we can publish.",
+   "explain": "PROVIDED THAT + presente.",
+   "skill": "altif",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t09",
+   "level": 2,
+   "skill": "third",
+   "cefr": "B2",
+   "id": "t09-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "If I had known, I would have helped.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. No IF vai HAD; WOULD HAVE fica do outro lado."
+  },
+  {
+   "topic": "t09",
+   "level": 2,
+   "skill": "mixedpast",
+   "cefr": "B2",
+   "id": "t09-2-004v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "If I studied more years ago, I would be fluent now.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: If I had studied more years ago, I would be fluent now. Causa no passado: HAD + particípio."
+  },
+  {
+   "topic": "t09",
+   "level": 2,
+   "skill": "wishpast",
+   "cefr": "B2",
+   "id": "t09-2-006v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I wish I have more time.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I wish I had more time. WISH + passado para o presente."
+  },
+  {
+   "topic": "t09",
+   "level": 2,
+   "skill": "wishpp",
+   "cefr": "B2",
+   "id": "t09-2-008v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I wish I accepted the offer last year.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I wish I had accepted the offer last year. Arrependimento: WISH + HAD + particípio."
+  },
+  {
+   "topic": "t09",
+   "level": 2,
+   "skill": "wishwould",
+   "cefr": "B2",
+   "id": "t09-2-010v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I wish I would speak French.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I wish I could speak French. Sobre você mesmo, nunca WISH I WOULD."
+  },
+  {
+   "topic": "t09",
+   "level": 2,
+   "skill": "altif",
+   "cefr": "B2",
+   "id": "t09-2-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Unless they don't sign, we'll cancel.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Unless they sign, we'll cancel. UNLESS já é negativo."
+  },
+  {
+   "topic": "t09",
+   "level": 2,
+   "skill": "ifonly",
+   "cefr": "B2",
+   "id": "t09-2-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It's time we start.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: It's time we started. IT'S TIME + sujeito + passado."
+  },
+  {
+   "topic": "t09",
+   "level": 2,
+   "skill": "wishpast",
+   "cefr": "B2",
+   "id": "t09-2-019v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I wish I had more holidays.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Sobre você mesmo: WISH + passado."
+  },
+  {
+   "topic": "t09",
+   "level": 2,
+   "skill": "wishpp",
+   "cefr": "B2",
+   "id": "t09-2-020v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I wish I didn't sell my car last year.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I wish I hadn't sold my car last year. Passado: WISH + HADN'T + particípio."
+  },
+  {
+   "topic": "t09",
+   "level": 2,
+   "skill": "wishwould",
+   "cefr": "B2",
+   "id": "t09-2-021v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I wish you would stop complaining.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Irritação: WISH + WOULD."
+  },
+  {
+   "topic": "t09",
+   "level": 3,
+   "skill": "mixedpast",
+   "cefr": "B2",
+   "id": "t09-3-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "If I saved more, I would have been retired now.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: If I had saved more, I would be retired now. Mista: passado → presente."
+  },
+  {
+   "topic": "t09",
+   "level": 3,
+   "skill": "wishpp",
+   "cefr": "B2",
+   "id": "t09-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I wish I hadn't sent that e-mail.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Arrependimento: WISH + HADN'T + particípio."
+  },
+  {
+   "topic": "t09",
+   "level": 3,
+   "skill": "altif",
+   "cefr": "B2",
+   "id": "t09-3-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Unless we don't act now, we'll lose the deal.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Unless we act now, we'll lose the deal. UNLESS + presente afirmativo."
+  },
+  {
+   "topic": "t09",
+   "level": 3,
+   "skill": "ifonly",
+   "cefr": "B2",
+   "id": "t09-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "If only I had more time!",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. IF ONLY + passado para o presente."
+  },
+  {
+   "topic": "t09",
+   "level": 3,
+   "skill": "mixedpres",
+   "cefr": "B2",
+   "id": "t09-3-024v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "If I was more patient, I wouldn't shout yesterday.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: If I were more patient, I wouldn't have shouted. Característica permanente → fato passado."
+  },
+  {
+   "topic": "t09",
+   "level": 3,
+   "skill": "altif",
+   "cefr": "B2",
+   "id": "t09-3-025v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Provided that the data is correct, we can publish.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. PROVIDED THAT + presente."
   }
  ]
 }

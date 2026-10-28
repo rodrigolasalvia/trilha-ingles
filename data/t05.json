@@ -290,6 +290,166 @@
    "cefr": "B1"
   },
   {
+   "id": "t05-1-019",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Você mora em SP?' '___, I live in Campinas.'",
+   "options": [
+    "Actually",
+    "Currently",
+    "Nowadays"
+   ],
+   "answer": "Actually",
+   "explain": "Na verdade: ACTUALLY.",
+   "skill": "actually",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-020",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___, many people work from home.",
+   "options": [
+    "Nowadays",
+    "Actually",
+    "Eventually"
+   ],
+   "answer": "Nowadays",
+   "explain": "Atualmente: NOWADAYS / CURRENTLY.",
+   "skill": "actually",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-021",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We ___ to expand next year.",
+   "options": [
+    "intend",
+    "pretend",
+    "attend"
+   ],
+   "answer": "intend",
+   "explain": "Pretender: INTEND / PLAN.",
+   "skill": "pretend",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-022",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "After months of talks, they ___ signed.",
+   "options": [
+    "eventually",
+    "occasionally",
+    "actually"
+   ],
+   "answer": "eventually",
+   "explain": "No fim: EVENTUALLY.",
+   "skill": "eventually",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-023",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The sign says ___. Don't pull the door.",
+   "options": [
+    "PUSH",
+    "PULL",
+    "PRESS"
+   ],
+   "answer": "PUSH",
+   "explain": "PUSH = empurrar.",
+   "skill": "push",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-024",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "How many people ___ the workshop?",
+   "options": [
+    "attended",
+    "assisted",
+    "watched"
+   ],
+   "answer": "attended",
+   "explain": "Comparecer: ATTEND.",
+   "skill": "attend",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-025",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I ___ I had sent the wrong file.",
+   "options": [
+    "realized",
+    "performed",
+    "conducted"
+   ],
+   "answer": "realized",
+   "explain": "Perceber: REALIZE.",
+   "skill": "realize",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-026",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We ___ a survey with our suppliers.",
+   "options": [
+    "conducted",
+    "realized",
+    "made up"
+   ],
+   "answer": "conducted",
+   "explain": "Realizar pesquisa / auditoria: CONDUCT.",
+   "skill": "realize",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-027",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I bought this book at the ___.",
+   "options": [
+    "bookstore",
+    "library",
+    "librarian"
+   ],
+   "answer": "bookstore",
+   "explain": "Livraria = BOOKSTORE. LIBRARY = biblioteca.",
+   "skill": "everyday",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-1-028",
+   "topic": "t05",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The company had a big ___ last year. (prejuízo)",
+   "options": [
+    "loss",
+    "prejudice",
+    "damage"
+   ],
+   "answer": "loss",
+   "explain": "Prejuízo financeiro: LOSS.",
+   "skill": "corporate",
+   "cefr": "B1"
+  },
+  {
    "id": "t05-2-001",
    "topic": "t05",
    "level": 2,
@@ -562,6 +722,150 @@
    "cefr": "B1"
   },
   {
+   "id": "t05-2-019",
+   "topic": "t05",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We are ___ (atualmente) reviewing all contracts.",
+   "answer": [
+    "currently"
+   ],
+   "explain": "Atualmente: CURRENTLY.",
+   "skill": "actually",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-020",
+   "topic": "t05",
+   "level": 2,
+   "type": "gap",
+   "prompt": "She ___ (fingiu) to be sick to skip the meeting.",
+   "answer": [
+    "pretended"
+   ],
+   "explain": "Fingir: PRETEND.",
+   "skill": "pretend",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-021",
+   "topic": "t05",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I ___ (às vezes) work on Saturdays.",
+   "answer": [
+    "occasionally",
+    "sometimes"
+   ],
+   "explain": "Às vezes: OCCASIONALLY / SOMETIMES.",
+   "skill": "eventually",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-022",
+   "topic": "t05",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Can you attend this customer? (atender o cliente)",
+   "options": [
+    "Can you serve this customer?",
+    "Can you assist to this customer?",
+    "Can you attend to this customer please to?"
+   ],
+   "answer": "Can you serve this customer?",
+   "explain": "Atender cliente: SERVE / HELP.",
+   "skill": "attend",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-023",
+   "topic": "t05",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We realized a training last week.",
+   "options": [
+    "We held a training last week.",
+    "We realize a training last week.",
+    "We made realize a training last week."
+   ],
+   "answer": "We held a training last week.",
+   "explain": "Realizar evento: HOLD.",
+   "skill": "realize",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-024",
+   "topic": "t05",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She is very sensible to criticism. (sensível)",
+   "options": [
+    "She is very sensitive to criticism.",
+    "She is very sensibly to criticism.",
+    "She is very sensibility to criticism."
+   ],
+   "answer": "She is very sensitive to criticism.",
+   "explain": "Sensível: SENSITIVE. SENSIBLE = sensato.",
+   "skill": "corporate",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-025",
+   "topic": "t05",
+   "level": 2,
+   "type": "fix",
+   "prompt": "My parents came to my birthday: uncles, cousins, everyone. (parentes)",
+   "options": [
+    "My relatives came to my birthday: uncles, cousins, everyone.",
+    "My parent came to my birthday: uncles, cousins, everyone.",
+    "My familiars came to my birthday: uncles, cousins, everyone."
+   ],
+   "answer": "My relatives came to my birthday: uncles, cousins, everyone.",
+   "explain": "Parentes: RELATIVES.",
+   "skill": "everyday",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-026",
+   "topic": "t05",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We need to ___ (pressionar) for a decision.",
+   "answer": [
+    "push"
+   ],
+   "explain": "PUSH FOR = pressionar por.",
+   "skill": "push",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-027",
+   "topic": "t05",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The ___ (oportunidade) is great. Let's not miss it.",
+   "answer": [
+    "opportunity"
+   ],
+   "explain": "Oportunidade: OPPORTUNITY.",
+   "skill": "corporate",
+   "cefr": "B1"
+  },
+  {
+   "id": "t05-2-028",
+   "topic": "t05",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Did you ___ (assistir) the game last night?",
+   "answer": [
+    "watch",
+    "see"
+   ],
+   "explain": "Assistir: WATCH.",
+   "skill": "attend",
+   "cefr": "B1"
+  },
+  {
    "id": "t05-3-001",
    "topic": "t05",
    "level": 3,
@@ -816,6 +1120,380 @@
    "explain": "Realizar auditoria = CONDUCT.",
    "skill": "realize",
    "cefr": "B2"
+  },
+  {
+   "id": "t05-3-019",
+   "topic": "t05",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I didn't ___ (perceber) how late it was.",
+   "answer": [
+    "realize",
+    "realise"
+   ],
+   "explain": "Perceber: REALIZE.",
+   "skill": "realize",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-020",
+   "topic": "t05",
+   "level": 3,
+   "type": "gap",
+   "prompt": "___ (No fim), the client accepted our proposal.",
+   "answer": [
+    "Eventually",
+    "In the end",
+    "Finally"
+   ],
+   "explain": "No fim: EVENTUALLY / IN THE END.",
+   "skill": "eventually",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-021",
+   "topic": "t05",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I ___ (pretendo) to finish my MBA next year.",
+   "answer": [
+    "intend",
+    "plan"
+   ],
+   "explain": "Pretender: INTEND / PLAN.",
+   "skill": "pretend",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-022",
+   "topic": "t05",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Please ___ (puxe) the lever slowly.",
+   "answer": [
+    "pull"
+   ],
+   "explain": "Puxar: PULL.",
+   "skill": "push",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-023",
+   "topic": "t05",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'm sorry, I ___ (na verdade) forgot about the meeting.",
+   "answer": [
+    "actually"
+   ],
+   "explain": "Na verdade: ACTUALLY.",
+   "skill": "actually",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-024",
+   "topic": "t05",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We held a workshop with all suppliers.",
+   "explain": "Realizar evento: HOLD.",
+   "skill": "realize",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-025",
+   "topic": "t05",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "She attended every meeting last month.",
+   "explain": "ATTEND = comparecer.",
+   "skill": "attend",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-026",
+   "topic": "t05",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "The company made a loss this quarter.",
+   "explain": "Prejuízo: LOSS.",
+   "skill": "corporate",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-027",
+   "topic": "t05",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual frase usa 'college' no sentido de 'faculdade'?",
+   "options": [
+    "She went to college in Porto Alegre.",
+    "She went to college in high school at 14.",
+    "She studied in the college at age 10."
+   ],
+   "answer": "She went to college in Porto Alegre.",
+   "explain": "COLLEGE = faculdade (colégio = school).",
+   "skill": "everyday",
+   "cefr": "B2"
+  },
+  {
+   "id": "t05-3-028",
+   "topic": "t05",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "That's a sensible decision. (sensata)",
+    "That's a sensitive decision. (sensata)",
+    "That's a sensibility decision. (sensata)"
+   ],
+   "answer": "That's a sensible decision. (sensata)",
+   "explain": "SENSIBLE = sensato.",
+   "skill": "corporate",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t05",
+   "level": 2,
+   "skill": "actually",
+   "cefr": "B1",
+   "id": "t05-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Currently, I'm working from home. (= atualmente)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. ACTUALLY = na verdade, não atualmente."
+  },
+  {
+   "topic": "t05",
+   "level": 2,
+   "skill": "pretend",
+   "cefr": "B1",
+   "id": "t05-2-003v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I intend to change jobs next year.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Pretender = INTEND / PLAN."
+  },
+  {
+   "topic": "t05",
+   "level": 2,
+   "skill": "eventually",
+   "cefr": "B1",
+   "id": "t05-2-005v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Occasionally, I go to the office. (= às vezes)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Às vezes = OCCASIONALLY."
+  },
+  {
+   "topic": "t05",
+   "level": 2,
+   "skill": "push",
+   "cefr": "B1",
+   "id": "t05-2-007v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Pull the cable out. (= puxe)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Puxar = PULL."
+  },
+  {
+   "topic": "t05",
+   "level": 2,
+   "skill": "attend",
+   "cefr": "B1",
+   "id": "t05-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I attended the training yesterday.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Comparecer = ATTEND, sem preposição."
+  },
+  {
+   "topic": "t05",
+   "level": 2,
+   "skill": "realize",
+   "cefr": "B1",
+   "id": "t05-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We held a meeting with the supplier.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Realizar reunião = HOLD."
+  },
+  {
+   "topic": "t05",
+   "level": 2,
+   "skill": "everyday",
+   "cefr": "B1",
+   "id": "t05-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "All my relatives came to the wedding. (= parentes)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Parentes = RELATIVES."
+  },
+  {
+   "topic": "t05",
+   "level": 2,
+   "skill": "corporate",
+   "cefr": "B1",
+   "id": "t05-2-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The company had a big loss this year.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Prejuízo = LOSS."
+  },
+  {
+   "topic": "t05",
+   "level": 2,
+   "skill": "attend",
+   "cefr": "B1",
+   "id": "t05-2-022v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Can you attend this customer? (atender o cliente)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Can you serve this customer? Atender cliente: SERVE / HELP."
+  },
+  {
+   "topic": "t05",
+   "level": 2,
+   "skill": "realize",
+   "cefr": "B1",
+   "id": "t05-2-023v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We held a training last week.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Realizar evento: HOLD."
+  },
+  {
+   "topic": "t05",
+   "level": 2,
+   "skill": "corporate",
+   "cefr": "B1",
+   "id": "t05-2-024v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She is very sensible to criticism. (sensível)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: She is very sensitive to criticism. Sensível: SENSITIVE. SENSIBLE = sensato."
+  },
+  {
+   "topic": "t05",
+   "level": 2,
+   "skill": "everyday",
+   "cefr": "B1",
+   "id": "t05-2-025v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "My relatives came to my birthday: uncles, cousins, everyone. (parentes)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Parentes: RELATIVES."
+  },
+  {
+   "topic": "t05",
+   "level": 3,
+   "skill": "push",
+   "cefr": "B2",
+   "id": "t05-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Can you pull the drawer open? (= puxar a gaveta)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Puxar = PULL."
+  },
+  {
+   "topic": "t05",
+   "level": 3,
+   "skill": "actually",
+   "cefr": "B2",
+   "id": "t05-3-016v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Actually, we have 200 suppliers. (= atualmente)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Currently, we have 200 suppliers. Atualmente = CURRENTLY."
+  },
+  {
+   "topic": "t05",
+   "level": 3,
+   "skill": "corporate",
+   "cefr": "B2",
+   "id": "t05-3-028v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "That's a sensitive decision. (sensata)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: That's a sensible decision. (sensata) SENSIBLE = sensato."
   }
  ]
 }

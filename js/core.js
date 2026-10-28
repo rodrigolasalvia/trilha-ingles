@@ -1,6 +1,6 @@
 // Núcleo lógico puro: sem DOM, sem armazenamento. Testado em tests/core.test.js.
 
-export const APP_VERSION = '1.2.0';
+export const APP_VERSION = '1.3.0';
 export const STATE_VERSION = 1;
 export const DAY = 24 * 60 * 60 * 1000;
 // Intervalos da repetição espaçada (em dias) por caixa 0..5.
@@ -8,6 +8,10 @@ export const BOX_DAYS = [0, 1, 3, 7, 14, 30];
 export const TYPES = ['mcq', 'fix', 'gap', 'order'];
 export const LEVELS = [1, 2, 3];
 export const CEFR = ['A1', 'A2', 'B1', 'B2', 'C1'];
+export const COOLDOWN_H = 12;      // horas em que um item recém-respondido evita voltar (salvo se vencido)
+export const MAX_VARIANTS = 3;     // máximo de itens 'Certo ou errado?' por sessão
+export const VARIANT_SWAPS = 2;    // quantos entram por variedade em cada sessão (além dos vencidos)
+const isBase = i => !i.variant;    // variantes derivadas não contam para nível, cobertura nem liberação
 // Critérios da estimativa de nível (ver levelEstimate).
 export const LEVEL_RULES = { lastN: 40, minData: 12, minSolid: 15, solidAcc: 0.8, weakAcc: 0.6 };
 
@@ -106,7 +110,7 @@ export function validateBank(items) {
 /* ---------- Estado ---------- */
 
 export function emptyState(now = Date.now()) {
-  return { version: STATE_VERSION, createdAt: now, items: {}, sessions: [], unlocked: {}, announced: [] };
+  return { version: STATE_VERSION, createdAt: now, items: {}, sessions: [], unlocked: {}, announced: [], lastExport: 0 };
 }
 
 // Aceita qualquer coisa e devolve um estado válido. Nunca lança erro.
@@ -129,6 +133,7 @@ export function migrateState(raw, now = Date.now()) {
   if (raw.unlocked && typeof raw.unlocked === 'object' && !Array.isArray(raw.unlocked)) {
     for (const [g, ts] of Object.entries(raw.unlocked)) if (Number.isFinite(Number(ts)) && Number(ts) > 0) s.unlocked[g] = Number(ts);
   }
+  if (Number.isFinite(Number(raw.lastExport)) && Number(raw.lastExport) > 0) s.lastExport = Number(raw.lastExport);
   if (Array.isArray(raw.announced)) s.announced = raw.announced.filter(g => typeof g === 'string');
   if (Array.isArray(raw.sessions)) {
     s.sessions = raw.sessions
@@ -214,9 +219,12 @@ function interleaveLevels(list, rng) {
 function prioritize(pool, state, now, rng) {
   const rec = id => state.items[id];
   const due = shuffle(pool.filter(i => isDue(rec(i.id), now)), rng).sort((a, b) => rec(a.id).box - rec(b.id).box);
-  const unseen = interleaveLevels(pool.filter(i => !rec(i.id) || !rec(i.id).seen), rng);
-  const later = pool.filter(i => rec(i.id) && rec(i.id).seen && !isDue(rec(i.id), now))
-    .sort((a, b) => rec(a.id).due - rec(b.id).due);
+  const srcSeen = i => !i.variant || (rec(i.id.slice(0, -1)) && rec(i.id.slice(0, -1)).seen > 0);
+  const unseen = interleaveLevels(pool.filter(i => (!rec(i.id) || !rec(i.id).seen) && srcSeen(i)), rng);
+  // Já vistos e não vencidos: primeiro os vistos há mais tempo; os vistos nas últimas horas vão para o fim da fila.
+  const cool = now - COOLDOWN_H * 3600e3;
+  const later = shuffle(pool.filter(i => rec(i.id) && rec(i.id).seen && !isDue(rec(i.id), now)), rng)
+    .sort((a, b) => (rec(a.id).last > cool) - (rec(b.id).last > cool) || rec(a.id).last - rec(b.id).last);
   return { due, unseen, later };
 }
 
@@ -236,13 +244,37 @@ export function buildSession(items, state, { topic = null, skills = null, mode =
       .slice(0, size);
   }
 
-  const { due, unseen, later } = prioritize(pool, state, now, rng);
+  const base = pool.filter(isBase);
+  const { due, unseen, later } = prioritize(base, state, now, rng);
+  const dueVariants = pool.filter(i => i.variant && isDue(rec(i.id), now));
   const picked = [];
-  const take = (list, n) => { for (const it of list) { if (picked.length >= size || n <= 0) break; if (!picked.includes(it)) { picked.push(it); n--; } } };
-  take(due, Math.ceil(size * 0.4));
+  let variants = 0;
+  const take = (list, n) => {
+    for (const it of list) {
+      if (picked.length >= size || n <= 0) break;
+      if (picked.includes(it) || (it.variant && variants >= MAX_VARIANTS)) continue;
+      picked.push(it); n--; if (it.variant) variants++;
+    }
+  };
+  take([...due, ...dueVariants].sort((a, b) => rec(a.id).box - rec(b.id).box), Math.ceil(size * 0.4));
   take(unseen, size);
   take(due, size);
   take(later, size);
+
+  // Variedade: troca até VARIANT_SWAPS itens não pendentes por 'Certo ou errado?' do mesmo nível,
+  // derivados de exercícios que você já viu (e não respondidos nas últimas horas).
+  const cool = now - COOLDOWN_H * 3600e3;
+  const seenSrc = id => { const r = rec(id.slice(0, -1)); return r && r.seen > 0; };
+  const fresh = shuffle(pool.filter(i => i.variant && !picked.includes(i) && seenSrc(i.id) && !isDue(rec(i.id), now)
+    && (!rec(i.id) || rec(i.id).last < cool)), rng)
+    .sort((a, b) => (rec(a.id)?.last || 0) - (rec(b.id)?.last || 0));
+  let swaps = Math.min(VARIANT_SWAPS, MAX_VARIANTS - variants);
+  for (const v of fresh) {
+    if (swaps <= 0) break;
+    const idx = picked.findIndex(p => !p.variant && p.level === v.level && !isDue(rec(p.id), now) && p.id !== v.id.slice(0, -1));
+    if (idx < 0) continue;
+    picked[idx] = v; swaps--;
+  }
   return shuffle(picked, rng);
 }
 
@@ -262,7 +294,7 @@ export function topicLevelStats(state, topic, level = null, lastN = 20) {
 }
 
 export function coverage(items, state, topic, level = null) {
-  const pool = items.filter(i => i.topic === topic && (level == null || i.level === level));
+  const pool = items.filter(i => isBase(i) && i.topic === topic && (level == null || i.level === level));
   const seen = pool.filter(i => state.items[i.id] && state.items[i.id].seen > 0).length;
   return { seen, total: pool.length };
 }
@@ -378,6 +410,7 @@ export function buildReinforce(items, state, { size = 10, now = Date.now(), rng 
 // Consolidado: >= 80% de acerto com pelo menos 15 respostas.
 // Nível estimado: a faixa consolidada mais alta, desde que nenhuma faixa abaixo esteja com menos de 60%.
 export function levelEstimate(items, state, rules = LEVEL_RULES) {
+  items = items.filter(isBase);
   const byId = new Map(items.map(i => [i.id, i]));
   const answers = allAnswers(state);
   const bands = CEFR.map(band => {
@@ -439,7 +472,7 @@ export const UNLOCK_RULES = {
   recentAcc: 0.75,    // ...com este acerto
   weekMin: 40,        // cada uma das duas semanas: mínimo de respostas...
   weekAcc: 0.70,      // ...e de acerto (constância, não pico)
-  minCoverage: 0.6,   // fração dos exercícios disponíveis já vistos
+  minCoverage: 0.4,   // fração dos exercícios disponíveis já vistos (0.6 até a v1.2; banco cresceu ~55% na v1.3)
   topicMin: 10,       // tema com ao menos tantas respostas na janela...
   topicAcc: 0.6,      // ...não pode estar abaixo disto
   minGapDays: 14,     // intervalo mínimo entre duas liberações
@@ -448,6 +481,7 @@ export const UNLOCK_RULES = {
 export function isUnlocked(state, groupId) { return !!(state.unlocked && state.unlocked[groupId]); }
 
 export function unlockCheck(items, state, gates, now = Date.now(), r = UNLOCK_RULES) {
+  items = items.filter(isBase);
   const next = gates.find(g => !isUnlocked(state, g));
   if (!next) return null;
   const last = Math.max(0, ...Object.values(state.unlocked || {}));

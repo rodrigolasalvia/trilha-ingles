@@ -290,6 +290,166 @@
    "cefr": "B1"
   },
   {
+   "id": "t04-1-019",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The ___ of the system took six months.",
+   "options": [
+    "implementation",
+    "implement",
+    "implementing of"
+   ],
+   "answer": "implementation",
+   "explain": "Substantivo: -TION.",
+   "skill": "noun_suf",
+   "cefr": "B1"
+  },
+  {
+   "id": "t04-1-020",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Thank you for your ___.",
+   "options": [
+    "patience",
+    "patient",
+    "patiently"
+   ],
+   "answer": "patience",
+   "explain": "Substantivo: -ENCE.",
+   "skill": "noun_suf",
+   "cefr": "B1"
+  },
+  {
+   "id": "t04-1-021",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He's a tax ___.",
+   "options": [
+    "consultant",
+    "consultation",
+    "consult"
+   ],
+   "answer": "consultant",
+   "explain": "Pessoa: -ANT.",
+   "skill": "person_suf",
+   "cefr": "B1"
+  },
+  {
+   "id": "t04-1-022",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "This tool is really ___.",
+   "options": [
+    "useful",
+    "useness",
+    "usage"
+   ],
+   "answer": "useful",
+   "explain": "Adjetivo: -FUL.",
+   "skill": "adj_suf",
+   "cefr": "B1"
+  },
+  {
+   "id": "t04-1-023",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The plan is not ___ with our budget.",
+   "options": [
+    "affordable",
+    "afford",
+    "affordance"
+   ],
+   "answer": "affordable",
+   "explain": "Adjetivo: -ABLE.",
+   "skill": "adj_suf",
+   "cefr": "B1"
+  },
+  {
+   "id": "t04-1-024",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We need to ___ the templates.",
+   "options": [
+    "standardize",
+    "standard",
+    "standardization"
+   ],
+   "answer": "standardize",
+   "explain": "Verbo: -IZE.",
+   "skill": "verb_suf",
+   "cefr": "B1"
+  },
+  {
+   "id": "t04-1-025",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "This information is ___. (incorreta)",
+   "options": [
+    "inaccurate",
+    "unaccurate",
+    "disaccurate"
+   ],
+   "answer": "inaccurate",
+   "explain": "IN- + accurate.",
+   "skill": "neg",
+   "cefr": "B1"
+  },
+  {
+   "id": "t04-1-026",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "That's ___. (impossível)",
+   "options": [
+    "impossible",
+    "inpossible",
+    "unpossible"
+   ],
+   "answer": "impossible",
+   "explain": "IM- antes de P.",
+   "skill": "neg",
+   "cefr": "B1"
+  },
+  {
+   "id": "t04-1-027",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I ___ the deadline. (calculei errado)",
+   "options": [
+    "miscalculated",
+    "recalculated",
+    "overcalculated"
+   ],
+   "answer": "miscalculated",
+   "explain": "MIS- = errado.",
+   "skill": "meaning",
+   "cefr": "B1"
+  },
+  {
+   "id": "t04-1-028",
+   "topic": "t04",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We had to ___ the report. (escrever de novo)",
+   "options": [
+    "rewrite",
+    "miswrite",
+    "prewrite"
+   ],
+   "answer": "rewrite",
+   "explain": "RE- = de novo.",
+   "skill": "meaning",
+   "cefr": "B1"
+  },
+  {
    "id": "t04-2-001",
    "topic": "t04",
    "level": 2,
@@ -534,6 +694,148 @@
    "cefr": "B2"
   },
   {
+   "id": "t04-2-019",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "There's a lack of ___ (transparent) in the process.",
+   "answer": [
+    "transparency"
+   ],
+   "explain": "Substantivo: -ENCY.",
+   "skill": "noun_suf",
+   "cefr": "B2"
+  },
+  {
+   "id": "t04-2-020",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The ___ (participate) signed the attendance list.",
+   "answer": [
+    "participants"
+   ],
+   "explain": "Pessoas: -ANT (plural).",
+   "skill": "person_suf",
+   "cefr": "B2"
+  },
+  {
+   "id": "t04-2-021",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "That was a very ___ (expense) trip.",
+   "answer": [
+    "expensive"
+   ],
+   "explain": "Adjetivo: -IVE.",
+   "skill": "adj_suf",
+   "cefr": "B2"
+  },
+  {
+   "id": "t04-2-022",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We need to ___ (short) the approval time.",
+   "answer": [
+    "shorten"
+   ],
+   "explain": "Verbo: -EN.",
+   "skill": "verb_suf",
+   "cefr": "B2"
+  },
+  {
+   "id": "t04-2-023",
+   "topic": "t04",
+   "level": 2,
+   "type": "fix",
+   "prompt": "This behavior is unacceptable and inlegal.",
+   "options": [
+    "This behavior is unacceptable and illegal.",
+    "This behavior is inacceptable and illegal.",
+    "This behavior is unacceptable and unlegal."
+   ],
+   "answer": "This behavior is unacceptable and illegal.",
+   "explain": "IL- antes de L.",
+   "skill": "neg",
+   "cefr": "B2"
+  },
+  {
+   "id": "t04-2-024",
+   "topic": "t04",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The supplier is unhonest.",
+   "options": [
+    "The supplier is dishonest.",
+    "The supplier is inhonest.",
+    "The supplier is imhonest."
+   ],
+   "answer": "The supplier is dishonest.",
+   "explain": "DIS- + honest.",
+   "skill": "neg",
+   "cefr": "B2"
+  },
+  {
+   "id": "t04-2-025",
+   "topic": "t04",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We need to do again the report.",
+   "options": [
+    "We need to redo the report.",
+    "We need to misdo the report.",
+    "We need to overdo the report."
+   ],
+   "answer": "We need to redo the report.",
+   "explain": "RE- = de novo: REDO.",
+   "skill": "meaning",
+   "cefr": "B2"
+  },
+  {
+   "id": "t04-2-026",
+   "topic": "t04",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She is a very creativity person.",
+   "options": [
+    "She is a very creative person.",
+    "She is a very creation person.",
+    "She is a very creatively person."
+   ],
+   "answer": "She is a very creative person.",
+   "explain": "Adjetivo: CREATIVE.",
+   "skill": "adj_suf",
+   "cefr": "B2"
+  },
+  {
+   "id": "t04-2-027",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The ___ (manage) approved the budget.",
+   "answer": [
+    "management"
+   ],
+   "explain": "Substantivo: -MENT.",
+   "skill": "noun_suf",
+   "cefr": "B2"
+  },
+  {
+   "id": "t04-2-028",
+   "topic": "t04",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The ___ (employ) signed the contract. (quem contrata)",
+   "answer": [
+    "employer"
+   ],
+   "explain": "Quem contrata: -ER.",
+   "skill": "person_suf",
+   "cefr": "B2"
+  },
+  {
    "id": "t04-3-001",
    "topic": "t04",
    "level": 3,
@@ -764,6 +1066,281 @@
    "explain": "MIS- = errado.",
    "skill": "meaning",
    "cefr": "B2"
+  },
+  {
+   "id": "t04-3-019",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We need to ___ (modern) our systems.",
+   "answer": [
+    "modernize",
+    "modernise"
+   ],
+   "explain": "Verbo: -IZE.",
+   "skill": "verb_suf",
+   "cefr": "B2"
+  },
+  {
+   "id": "t04-3-020",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The answer was ___ (relevant) to the question. (não relevante)",
+   "answer": [
+    "irrelevant"
+   ],
+   "explain": "IR- antes de R.",
+   "skill": "neg",
+   "cefr": "B2"
+  },
+  {
+   "id": "t04-3-021",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I think you ___ (understood) me. (entendeu errado)",
+   "answer": [
+    "misunderstood"
+   ],
+   "explain": "MIS- = errado.",
+   "skill": "meaning",
+   "cefr": "B2"
+  },
+  {
+   "id": "t04-3-022",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Supplier ___ (reliable) is our top priority.",
+   "answer": [
+    "reliability"
+   ],
+   "explain": "Substantivo: -ITY.",
+   "skill": "noun_suf",
+   "cefr": "B2"
+  },
+  {
+   "id": "t04-3-023",
+   "topic": "t04",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The project was ___ (success).",
+   "answer": [
+    "successful"
+   ],
+   "explain": "Adjetivo: -FUL.",
+   "skill": "adj_suf",
+   "cefr": "B2"
+  },
+  {
+   "id": "t04-3-024",
+   "topic": "t04",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "The implementation will take three months.",
+   "explain": "Substantivo com -TION.",
+   "skill": "noun_suf",
+   "cefr": "B2"
+  },
+  {
+   "id": "t04-3-025",
+   "topic": "t04",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We must not underestimate the risks.",
+   "explain": "UNDER- = abaixo do real.",
+   "skill": "meaning",
+   "cefr": "B2"
+  },
+  {
+   "id": "t04-3-026",
+   "topic": "t04",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "This proposal is completely unrealistic.",
+   "explain": "UN- + realistic.",
+   "skill": "neg",
+   "cefr": "B2"
+  },
+  {
+   "id": "t04-3-027",
+   "topic": "t04",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "We need to clarify the requirements.",
+    "We need to clarity the requirements.",
+    "We need to clearify the requirements."
+   ],
+   "answer": "We need to clarify the requirements.",
+   "explain": "Verbo: -IFY.",
+   "skill": "verb_suf",
+   "cefr": "B2"
+  },
+  {
+   "id": "t04-3-028",
+   "topic": "t04",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "The interviewer asked the candidate three questions.",
+    "The interviewee asked the candidate three questions.",
+    "The interview asked the candidate three questions."
+   ],
+   "answer": "The interviewer asked the candidate three questions.",
+   "explain": "Quem pergunta: -ER.",
+   "skill": "person_suf",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t04",
+   "level": 2,
+   "skill": "noun_suf",
+   "cefr": "B2",
+   "id": "t04-2-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We need more flexibility. (flexibilidade)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Depois de MORE: substantivo (-ITY)."
+  },
+  {
+   "topic": "t04",
+   "level": 2,
+   "skill": "verb_suf",
+   "cefr": "B2",
+   "id": "t04-2-016v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We need to standard the process.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: We need to standardize the process. Verbo: -IZE."
+  },
+  {
+   "topic": "t04",
+   "level": 2,
+   "skill": "neg",
+   "cefr": "B2",
+   "id": "t04-2-017v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "That's illegal.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. IL- antes de L."
+  },
+  {
+   "topic": "t04",
+   "level": 2,
+   "skill": "neg",
+   "cefr": "B2",
+   "id": "t04-2-023v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "This behavior is unacceptable and illegal.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. IL- antes de L."
+  },
+  {
+   "topic": "t04",
+   "level": 2,
+   "skill": "neg",
+   "cefr": "B2",
+   "id": "t04-2-024v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The supplier is unhonest.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The supplier is dishonest. DIS- + honest."
+  },
+  {
+   "topic": "t04",
+   "level": 2,
+   "skill": "meaning",
+   "cefr": "B2",
+   "id": "t04-2-025v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We need to redo the report.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. RE- = de novo: REDO."
+  },
+  {
+   "topic": "t04",
+   "level": 2,
+   "skill": "adj_suf",
+   "cefr": "B2",
+   "id": "t04-2-026v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She is a very creativity person.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: She is a very creative person. Adjetivo: CREATIVE."
+  },
+  {
+   "topic": "t04",
+   "level": 3,
+   "skill": "verb_suf",
+   "cefr": "B2",
+   "id": "t04-3-027v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We need to clarify the requirements.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Verbo: -IFY."
+  },
+  {
+   "topic": "t04",
+   "level": 3,
+   "skill": "person_suf",
+   "cefr": "B2",
+   "id": "t04-3-028v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The interviewee asked the candidate three questions.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The interviewer asked the candidate three questions. Quem pergunta: -ER."
   }
  ]
 }
