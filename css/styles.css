@@ -282,3 +282,46 @@ button:focus-visible, a:focus-visible, input:focus-visible, label:focus-visible 
 .q-use { margin: -4px 2px 14px; font-size: 14px; line-height: 1.45; color: var(--muted); }
 .q-use span { display: block; font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 2px; }
 .skill-use { font-size: 14px; color: var(--muted); margin: 6px 0 0; }
+
+/* v1.4: plano diário */
+.plan { margin: -2px 0 16px; }
+.plan .meter { margin: 0 0 4px; height: 6px; }
+.plan small { color: var(--muted); font-size: 13.5px; }
+.plan.is-done .fill { background: var(--ok); }
+.plan.is-done small { color: var(--ok); font-weight: 700; }
+.seg { display: flex; gap: 8px; }
+.seg-btn { flex: 1; min-height: 44px; border-radius: 12px; border: 1.5px solid var(--border); background: var(--bg); font-weight: 700; }
+.seg-btn[aria-checked="true"] { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
+
+/* v1.4: tela de exercício compacta (cabe na tela do celular sem rolar) */
+body.in-session .main { padding-top: calc(8px + env(safe-area-inset-top)); padding-bottom: calc(84px + env(safe-area-inset-bottom)); }
+body.in-session .session-top { margin-bottom: 4px; gap: 10px; }
+body.in-session .icon-btn { width: 36px; height: 36px; border-radius: 10px; font-size: 15px; }
+body.in-session .q-meta { margin: 2px 0 6px; font-size: 13px; }
+body.in-session .hint-box { padding: 8px 12px; margin-bottom: 8px; font-size: 14px; }
+body.in-session .q { padding: 12px 14px; margin-bottom: 8px; }
+body.in-session .q-type { margin: 0 0 6px; font-size: 11px; }
+body.in-session .q-text { margin: 0 0 10px; font-size: 18px; line-height: 1.4; }
+body.in-session .q-wrong { margin: 0 0 10px; font-size: 17px; }
+body.in-session .options { gap: 6px; }
+body.in-session .option { min-height: 44px; padding: 8px 12px; border-radius: 12px; font-size: 16px; line-height: 1.3; }
+body.in-session .gap-input { font-size: 18px; }
+body.in-session .chip { min-height: 40px; padding: 6px 11px; font-size: 16px; }
+body.in-session .order-punct { margin: 4px 0 8px; }
+body.in-session .q-use { margin: 0 2px 8px; font-size: 12.5px; line-height: 1.35; }
+body.in-session .q-use span { display: inline; font-size: 10.5px; margin: 0 6px 0 0; }
+body.in-session .fb { padding: 9px 12px; margin-top: 0; }
+body.in-session .fb-title { font-size: 16px; margin: 0 0 2px; }
+body.in-session .fb-answer, body.in-session .fb-explain { font-size: 14.5px; }
+body.in-session .reforco { padding: 8px 12px; margin-top: 6px; font-size: 14px; }
+body.in-session .reforco summary { cursor: pointer; list-style: none; }
+body.in-session .reforco summary::after { content: ' ▾'; }
+body.in-session .reforco[open] summary::after { content: ' ▴'; }
+body.in-session .reforco summary::-webkit-details-marker { display: none; }
+/* botão Verificar/Continuar sempre visível no rodapé */
+body.in-session .actions {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; margin: 0;
+  padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+  background: linear-gradient(to top, var(--bg) 70%, transparent);
+}
+body.in-session .actions .btn { max-width: 608px; margin: 0 auto; display: flex; min-height: 48px; }

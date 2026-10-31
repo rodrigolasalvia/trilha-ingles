@@ -1,0 +1,913 @@
+{
+ "topic": "t32",
+ "items": [
+  {
+   "id": "t32-1-001",
+   "topic": "t32",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Can you give me some ___ about the new policy?",
+   "options": [
+    "information",
+    "informations",
+    "an information"
+   ],
+   "answer": "information",
+   "explain": "INFORMATION é incontável.",
+   "skill": "uncount",
+   "cefr": "B1"
+  },
+  {
+   "id": "t32-1-002",
+   "topic": "t32",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She gave me ___ good advice.",
+   "options": [
+    "some",
+    "an",
+    "a"
+   ],
+   "answer": "some",
+   "explain": "ADVICE é incontável: SOME advice / a piece of advice.",
+   "skill": "uncount",
+   "cefr": "B1"
+  },
+  {
+   "id": "t32-1-003",
+   "topic": "t32",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'm looking for ___ new job.",
+   "options": [
+    "a",
+    "some",
+    "the"
+   ],
+   "answer": "a",
+   "explain": "JOB é contável: A JOB (WORK é incontável).",
+   "skill": "uncount",
+   "cefr": "B1"
+  },
+  {
+   "id": "t32-1-004",
+   "topic": "t32",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I had ___ interview this morning. ___ interview went well.",
+   "options": [
+    "an / The",
+    "a / An",
+    "the / A"
+   ],
+   "answer": "an / The",
+   "explain": "Primeira menção: AN; depois: THE.",
+   "skill": "aan",
+   "cefr": "B1"
+  },
+  {
+   "id": "t32-1-005",
+   "topic": "t32",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She's ___ engineer.",
+   "options": [
+    "an",
+    "the",
+    "—"
+   ],
+   "answer": "an",
+   "explain": "Profissão: A/AN.",
+   "skill": "aan",
+   "cefr": "B1"
+  },
+  {
+   "id": "t32-1-006",
+   "topic": "t32",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ are usually paid within 30 days.",
+   "options": [
+    "Invoices",
+    "The invoices of",
+    "An invoice"
+   ],
+   "answer": "Invoices",
+   "explain": "Generalizando: plural sem THE.",
+   "skill": "thegen",
+   "cefr": "B1"
+  },
+  {
+   "id": "t32-1-007",
+   "topic": "t32",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I don't like ___ coffee. (em geral)",
+   "options": [
+    "—",
+    "the",
+    "a"
+   ],
+   "answer": "—",
+   "explain": "Incontável em geral: sem artigo.",
+   "skill": "thegen",
+   "cefr": "B1"
+  },
+  {
+   "id": "t32-1-008",
+   "topic": "t32",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ government announced new tax rules.",
+   "options": [
+    "The",
+    "A",
+    "—"
+   ],
+   "answer": "The",
+   "explain": "Instituição única: THE GOVERNMENT.",
+   "skill": "theunique",
+   "cefr": "B1"
+  },
+  {
+   "id": "t32-1-009",
+   "topic": "t32",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Do you play ___ guitar?",
+   "options": [
+    "the",
+    "a",
+    "—"
+   ],
+   "answer": "the",
+   "explain": "Instrumento: PLAY THE GUITAR.",
+   "skill": "theunique",
+   "cefr": "B1"
+  },
+  {
+   "id": "t32-1-010",
+   "topic": "t32",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The kids are at ___ school until 3.",
+   "options": [
+    "—",
+    "the",
+    "a"
+   ],
+   "answer": "—",
+   "explain": "Na função (alunos): AT SCHOOL, sem artigo.",
+   "skill": "school",
+   "cefr": "B1"
+  },
+  {
+   "id": "t32-1-011",
+   "topic": "t32",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I usually go to ___ bed at 11.",
+   "options": [
+    "—",
+    "the",
+    "a"
+   ],
+   "answer": "—",
+   "explain": "GO TO BED: sem artigo.",
+   "skill": "school",
+   "cefr": "B1"
+  },
+  {
+   "id": "t32-1-012",
+   "topic": "t32",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She lives in ___ Netherlands.",
+   "options": [
+    "the",
+    "—",
+    "a"
+   ],
+   "answer": "the",
+   "explain": "THE NETHERLANDS (plural).",
+   "skill": "names",
+   "cefr": "B1"
+  },
+  {
+   "id": "t32-1-013",
+   "topic": "t32",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The news ___ very good today.",
+   "options": [
+    "is",
+    "are",
+    "were"
+   ],
+   "answer": "is",
+   "explain": "NEWS é singular.",
+   "skill": "plural",
+   "cefr": "B1"
+  },
+  {
+   "id": "t32-1-014",
+   "topic": "t32",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The police ___ investigating the case.",
+   "options": [
+    "are",
+    "is",
+    "has"
+   ],
+   "answer": "are",
+   "explain": "POLICE é plural.",
+   "skill": "plural",
+   "cefr": "B1"
+  },
+  {
+   "id": "t32-1-015",
+   "topic": "t32",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It's a ___ drive from here.",
+   "options": [
+    "ten-minute",
+    "ten-minutes",
+    "ten minutes's"
+   ],
+   "answer": "ten-minute",
+   "explain": "Substantivo como adjetivo: singular.",
+   "skill": "nounnoun",
+   "cefr": "B1"
+  },
+  {
+   "id": "t32-2-001",
+   "topic": "t32",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We need new equipments for the lab.",
+   "options": [
+    "We need new equipment for the lab.",
+    "We need a new equipment for the lab.",
+    "We need new equipment's for the lab."
+   ],
+   "answer": "We need new equipment for the lab.",
+   "explain": "EQUIPMENT é incontável.",
+   "skill": "uncount",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-2-002",
+   "topic": "t32",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Thanks for your feedbacks.",
+   "options": [
+    "Thanks for your feedback.",
+    "Thanks for your feedback's.",
+    "Thanks for the feedbacks of you."
+   ],
+   "answer": "Thanks for your feedback.",
+   "explain": "FEEDBACK é incontável.",
+   "skill": "uncount",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-2-003",
+   "topic": "t32",
+   "level": 2,
+   "type": "gap",
+   "prompt": "There's ___ (artigo) problem with the server. The problem started at 9.",
+   "answer": [
+    "a"
+   ],
+   "explain": "Primeira menção: A.",
+   "skill": "aan",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-2-004",
+   "topic": "t32",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The life is too short.",
+   "options": [
+    "Life is too short.",
+    "A life is too short.",
+    "The lifes are too short."
+   ],
+   "answer": "Life is too short.",
+   "explain": "Em geral: sem THE.",
+   "skill": "thegen",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-2-005",
+   "topic": "t32",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (Os) suppliers we hired last year are all certified.",
+   "answer": [
+    "The"
+   ],
+   "explain": "Grupo específico: THE.",
+   "skill": "thegen",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-2-006",
+   "topic": "t32",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We need to protect environment.",
+   "options": [
+    "We need to protect the environment.",
+    "We need to protect an environment.",
+    "We need to protect the environments."
+   ],
+   "answer": "We need to protect the environment.",
+   "explain": "THE ENVIRONMENT.",
+   "skill": "theunique",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-2-007",
+   "topic": "t32",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The government should help ___ (os) poor.",
+   "answer": [
+    "the"
+   ],
+   "explain": "THE + adjetivo = grupo de pessoas.",
+   "skill": "theunique",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-2-008",
+   "topic": "t32",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I went to the bed early last night.",
+   "options": [
+    "I went to bed early last night.",
+    "I went to a bed early last night.",
+    "I went in bed early last night."
+   ],
+   "answer": "I went to bed early last night.",
+   "explain": "GO TO BED: sem artigo.",
+   "skill": "school",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-2-009",
+   "topic": "t32",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'm at the work until six.",
+   "options": [
+    "I'm at work until six.",
+    "I'm in the work until six.",
+    "I'm on work until six."
+   ],
+   "answer": "I'm at work until six.",
+   "explain": "AT WORK: sem artigo.",
+   "skill": "school",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-2-010",
+   "topic": "t32",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I've been to the Brazil and the Argentina.",
+   "options": [
+    "I've been to Brazil and Argentina.",
+    "I've been to Brazil and the Argentina.",
+    "I've been in the Brazil and Argentina."
+   ],
+   "answer": "I've been to Brazil and Argentina.",
+   "explain": "Países: sem THE (exceto USA, UK, Netherlands...).",
+   "skill": "names",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-2-011",
+   "topic": "t32",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We stayed at ___ (artigo) Copacabana Palace.",
+   "answer": [
+    "the"
+   ],
+   "explain": "Hotéis: THE.",
+   "skill": "names",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-2-012",
+   "topic": "t32",
+   "level": 2,
+   "type": "fix",
+   "prompt": "My trousers is too tight.",
+   "options": [
+    "My trousers are too tight.",
+    "My trouser is too tight.",
+    "My trousers is too tights."
+   ],
+   "answer": "My trousers are too tight.",
+   "explain": "TROUSERS é plural.",
+   "skill": "plural",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-2-013",
+   "topic": "t32",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We need a five-hours meeting.",
+   "options": [
+    "We need a five-hour meeting.",
+    "We need a five-hours' meeting.",
+    "We need a five hour's meeting."
+   ],
+   "answer": "We need a five-hour meeting.",
+   "explain": "Hífen e singular.",
+   "skill": "nounnoun",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-2-014",
+   "topic": "t32",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The ___ (company) results were excellent this year.",
+   "answer": [
+    "company's",
+    "company"
+   ],
+   "explain": "Posse: 's (ou noun + noun).",
+   "skill": "nounnoun",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-2-015",
+   "topic": "t32",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Economics ___ (be) my favorite subject at university.",
+   "answer": [
+    "was"
+   ],
+   "explain": "ECONOMICS é singular.",
+   "skill": "plural",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-3-001",
+   "topic": "t32",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Can I give you a piece of ___ (conselho)?",
+   "answer": [
+    "advice"
+   ],
+   "explain": "A PIECE OF ADVICE.",
+   "skill": "uncount",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-3-002",
+   "topic": "t32",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We did a lot of ___ (pesquisa) before choosing the supplier.",
+   "answer": [
+    "research"
+   ],
+   "explain": "RESEARCH é incontável.",
+   "skill": "uncount",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-3-003",
+   "topic": "t32",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Classes start next week. My son goes back to ___ (escola) on Monday.",
+   "answer": [
+    "school"
+   ],
+   "explain": "GO TO SCHOOL (como aluno): sem artigo.",
+   "skill": "school",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-3-004",
+   "topic": "t32",
+   "level": 3,
+   "type": "gap",
+   "prompt": "___ (artigo) internet has changed the way we work.",
+   "answer": [
+    "The"
+   ],
+   "explain": "THE INTERNET.",
+   "skill": "theunique",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-3-005",
+   "topic": "t32",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'll meet you at the end ___ (de) the month.",
+   "answer": [
+    "of"
+   ],
+   "explain": "THE END OF + coisa.",
+   "skill": "nounnoun",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-3-006",
+   "topic": "t32",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "The suppliers in the North were all late.",
+   "explain": "Grupo específico: THE.",
+   "skill": "thegen",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-3-007",
+   "topic": "t32",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I need some information about the contract.",
+   "explain": "INFORMATION sem plural.",
+   "skill": "uncount",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-3-008",
+   "topic": "t32",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We had a three-day workshop in Lisbon.",
+   "explain": "Substantivo composto no singular.",
+   "skill": "nounnoun",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-3-009",
+   "topic": "t32",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "She works as a lawyer in the United States.",
+   "explain": "Profissão com A; THE UNITED STATES.",
+   "skill": "names",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-3-010",
+   "topic": "t32",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "The staff are friendly and helpful.",
+    "The staffs are friendly and helpful.",
+    "The staff is friendlies and helpful."
+   ],
+   "answer": "The staff are friendly and helpful.",
+   "explain": "STAFF (coletivo): sem -S; verbo no plural é comum.",
+   "skill": "plural",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-3-011",
+   "topic": "t32",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Life is easier with good friends.",
+    "The life is easier with the good friends.",
+    "A life is easier with good friends."
+   ],
+   "answer": "Life is easier with good friends.",
+   "explain": "Generalização: sem THE.",
+   "skill": "thegen",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-3-012",
+   "topic": "t32",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I'm going on a business trip next week.",
+    "I'm going on a business travel next week.",
+    "I'm going in a business trip next week."
+   ],
+   "answer": "I'm going on a business trip next week.",
+   "explain": "TRAVEL é incontável; A TRIP é contável.",
+   "skill": "uncount",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-3-013",
+   "topic": "t32",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "We crossed the Atlantic by ship.",
+    "We crossed Atlantic by ship.",
+    "We crossed the Atlantic by the ship."
+   ],
+   "answer": "We crossed the Atlantic by ship.",
+   "explain": "Oceanos: THE.",
+   "skill": "names",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-3-014",
+   "topic": "t32",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "The unemployed need more support.",
+    "The unemployeds need more support.",
+    "Unemployed need more support."
+   ],
+   "answer": "The unemployed need more support.",
+   "explain": "THE + adjetivo: sem -S.",
+   "skill": "theunique",
+   "cefr": "B2"
+  },
+  {
+   "id": "t32-3-015",
+   "topic": "t32",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Is there a bank near here? I need to go to the bank.",
+    "Is there bank near here? I need to go to bank.",
+    "Is there the bank near here? I need to go to a bank."
+   ],
+   "answer": "Is there a bank near here? I need to go to the bank.",
+   "explain": "A = qualquer um; THE = o banco habitual / conhecido.",
+   "skill": "aan",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t32",
+   "level": 2,
+   "skill": "uncount",
+   "cefr": "B2",
+   "id": "t32-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We need new equipment for the lab.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. EQUIPMENT é incontável."
+  },
+  {
+   "topic": "t32",
+   "level": 2,
+   "skill": "uncount",
+   "cefr": "B2",
+   "id": "t32-2-002v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Thanks for your feedbacks.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Thanks for your feedback. FEEDBACK é incontável."
+  },
+  {
+   "topic": "t32",
+   "level": 2,
+   "skill": "thegen",
+   "cefr": "B2",
+   "id": "t32-2-004v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The life is too short.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Life is too short. Em geral: sem THE."
+  },
+  {
+   "topic": "t32",
+   "level": 2,
+   "skill": "theunique",
+   "cefr": "B2",
+   "id": "t32-2-006v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We need to protect environment.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: We need to protect the environment. THE ENVIRONMENT."
+  },
+  {
+   "topic": "t32",
+   "level": 2,
+   "skill": "school",
+   "cefr": "B2",
+   "id": "t32-2-008v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I went to the bed early last night.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I went to bed early last night. GO TO BED: sem artigo."
+  },
+  {
+   "topic": "t32",
+   "level": 2,
+   "skill": "school",
+   "cefr": "B2",
+   "id": "t32-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm at work until six.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. AT WORK: sem artigo."
+  },
+  {
+   "topic": "t32",
+   "level": 2,
+   "skill": "names",
+   "cefr": "B2",
+   "id": "t32-2-010v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I've been to the Brazil and the Argentina.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I've been to Brazil and Argentina. Países: sem THE (exceto USA, UK, Netherlands...)."
+  },
+  {
+   "topic": "t32",
+   "level": 2,
+   "skill": "plural",
+   "cefr": "B2",
+   "id": "t32-2-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "My trousers is too tight.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: My trousers are too tight. TROUSERS é plural."
+  },
+  {
+   "topic": "t32",
+   "level": 2,
+   "skill": "nounnoun",
+   "cefr": "B2",
+   "id": "t32-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We need a five-hour meeting.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Hífen e singular."
+  },
+  {
+   "topic": "t32",
+   "level": 3,
+   "skill": "plural",
+   "cefr": "B2",
+   "id": "t32-3-010v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The staffs are friendly and helpful.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The staff are friendly and helpful. STAFF (coletivo): sem -S; verbo no plural é comum."
+  },
+  {
+   "topic": "t32",
+   "level": 3,
+   "skill": "thegen",
+   "cefr": "B2",
+   "id": "t32-3-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Life is easier with good friends.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Generalização: sem THE."
+  },
+  {
+   "topic": "t32",
+   "level": 3,
+   "skill": "uncount",
+   "cefr": "B2",
+   "id": "t32-3-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm going on a business travel next week.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I'm going on a business trip next week. TRAVEL é incontável; A TRIP é contável."
+  },
+  {
+   "topic": "t32",
+   "level": 3,
+   "skill": "names",
+   "cefr": "B2",
+   "id": "t32-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We crossed the Atlantic by ship.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Oceanos: THE."
+  },
+  {
+   "topic": "t32",
+   "level": 3,
+   "skill": "theunique",
+   "cefr": "B2",
+   "id": "t32-3-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The unemployeds need more support.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The unemployed need more support. THE + adjetivo: sem -S."
+  },
+  {
+   "topic": "t32",
+   "level": 3,
+   "skill": "aan",
+   "cefr": "B2",
+   "id": "t32-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Is there a bank near here? I need to go to the bank.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. A = qualquer um; THE = o banco habitual / conhecido."
+  }
+ ]
+}

@@ -1,0 +1,841 @@
+{
+ "topic": "t41",
+ "items": [
+  {
+   "id": "t41-1-001",
+   "topic": "t41",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It's too loud. Can you turn ___ down?",
+   "options": [
+    "it",
+    "—",
+    "them it"
+   ],
+   "answer": "it",
+   "explain": "Pronome no meio: TURN IT DOWN.",
+   "skill": "intro",
+   "cefr": "B1"
+  },
+  {
+   "id": "t41-1-002",
+   "topic": "t41",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Please fill ___ this form.",
+   "options": [
+    "in",
+    "on",
+    "up"
+   ],
+   "answer": "in",
+   "explain": "FILL IN (preencher).",
+   "skill": "inout",
+   "cefr": "B1"
+  },
+  {
+   "id": "t41-1-003",
+   "topic": "t41",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We checked ___ of the hotel at noon.",
+   "options": [
+    "out",
+    "off",
+    "away"
+   ],
+   "answer": "out",
+   "explain": "CHECK OUT.",
+   "skill": "inout",
+   "cefr": "B1"
+  },
+  {
+   "id": "t41-1-004",
+   "topic": "t41",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I need to find ___ what happened.",
+   "options": [
+    "out",
+    "up",
+    "off"
+   ],
+   "answer": "out",
+   "explain": "FIND OUT = descobrir.",
+   "skill": "out",
+   "cefr": "B1"
+  },
+  {
+   "id": "t41-1-005",
+   "topic": "t41",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We've run ___ of coffee.",
+   "options": [
+    "out",
+    "off",
+    "down"
+   ],
+   "answer": "out",
+   "explain": "RUN OUT OF = acabar.",
+   "skill": "out",
+   "cefr": "B1"
+  },
+  {
+   "id": "t41-1-006",
+   "topic": "t41",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Please carry ___. Don't stop.",
+   "options": [
+    "on",
+    "off",
+    "out"
+   ],
+   "answer": "on",
+   "explain": "CARRY ON = continuar.",
+   "skill": "onoff",
+   "cefr": "B1"
+  },
+  {
+   "id": "t41-1-007",
+   "topic": "t41",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The plane took ___ on time.",
+   "options": [
+    "off",
+    "out",
+    "up"
+   ],
+   "answer": "off",
+   "explain": "TAKE OFF = decolar.",
+   "skill": "onoff",
+   "cefr": "B1"
+  },
+  {
+   "id": "t41-1-008",
+   "topic": "t41",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Please slow ___. You're driving too fast.",
+   "options": [
+    "down",
+    "off",
+    "out"
+   ],
+   "answer": "down",
+   "explain": "SLOW DOWN.",
+   "skill": "updown",
+   "cefr": "B1"
+  },
+  {
+   "id": "t41-1-009",
+   "topic": "t41",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "My car broke ___ on the highway.",
+   "options": [
+    "down",
+    "up",
+    "off"
+   ],
+   "answer": "down",
+   "explain": "BREAK DOWN = quebrar (máquina).",
+   "skill": "updown",
+   "cefr": "B1"
+  },
+  {
+   "id": "t41-1-010",
+   "topic": "t41",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I gave ___ smoking five years ago.",
+   "options": [
+    "up",
+    "off",
+    "out"
+   ],
+   "answer": "up",
+   "explain": "GIVE UP = desistir / largar.",
+   "skill": "up1",
+   "cefr": "B1"
+  },
+  {
+   "id": "t41-1-011",
+   "topic": "t41",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We ended ___ staying at a cheaper hotel.",
+   "options": [
+    "up",
+    "out",
+    "off"
+   ],
+   "answer": "up",
+   "explain": "END UP + -ING.",
+   "skill": "up1",
+   "cefr": "B1"
+  },
+  {
+   "id": "t41-1-012",
+   "topic": "t41",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Can you pick me ___ at the airport?",
+   "options": [
+    "up",
+    "out",
+    "on"
+   ],
+   "answer": "up",
+   "explain": "PICK UP = buscar.",
+   "skill": "up2",
+   "cefr": "B1"
+  },
+  {
+   "id": "t41-1-013",
+   "topic": "t41",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Sorry, I was held ___ in traffic.",
+   "options": [
+    "up",
+    "on",
+    "down"
+   ],
+   "answer": "up",
+   "explain": "HELD UP = atrasado, preso.",
+   "skill": "up2",
+   "cefr": "B1"
+  },
+  {
+   "id": "t41-1-014",
+   "topic": "t41",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'll call you ___ in ten minutes.",
+   "options": [
+    "back",
+    "away",
+    "off"
+   ],
+   "answer": "back",
+   "explain": "CALL BACK = retornar a ligação.",
+   "skill": "awayback",
+   "cefr": "B1"
+  },
+  {
+   "id": "t41-1-015",
+   "topic": "t41",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Don't throw ___ the receipts.",
+   "options": [
+    "away",
+    "back",
+    "off"
+   ],
+   "answer": "away",
+   "explain": "THROW AWAY = jogar fora.",
+   "skill": "awayback",
+   "cefr": "B1"
+  },
+  {
+   "id": "t41-2-001",
+   "topic": "t41",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Can you turn off it?",
+   "options": [
+    "Can you turn it off?",
+    "Can you off turn it?",
+    "Can you turn it of off?"
+   ],
+   "answer": "Can you turn it off?",
+   "explain": "Pronome no meio.",
+   "skill": "intro",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-2-002",
+   "topic": "t41",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Can you look ___ (preposição) my dog this weekend? (cuidar)",
+   "answer": [
+    "after"
+   ],
+   "explain": "LOOK AFTER (inseparável).",
+   "skill": "intro",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-2-003",
+   "topic": "t41",
+   "level": 2,
+   "type": "gap",
+   "prompt": "They're moving ___ (preposição) to their new apartment next week.",
+   "answer": [
+    "in",
+    "into"
+   ],
+   "explain": "MOVE IN / INTO.",
+   "skill": "inout",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-2-004",
+   "topic": "t41",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Feel free to drop ___ (preposição) whenever you're in the area.",
+   "answer": [
+    "in",
+    "by"
+   ],
+   "explain": "DROP IN / BY = passar rapidamente.",
+   "skill": "inout",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-2-005",
+   "topic": "t41",
+   "level": 2,
+   "type": "fix",
+   "prompt": "It turned up that the invoice was wrong.",
+   "options": [
+    "It turned out that the invoice was wrong.",
+    "It turned off that the invoice was wrong.",
+    "It turned on that the invoice was wrong."
+   ],
+   "answer": "It turned out that the invoice was wrong.",
+   "explain": "TURN OUT = acabou que.",
+   "skill": "out",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-2-006",
+   "topic": "t41",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We need to work ___ (preposição) a solution.",
+   "answer": [
+    "out"
+   ],
+   "explain": "WORK OUT = encontrar.",
+   "skill": "out",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-2-007",
+   "topic": "t41",
+   "level": 2,
+   "type": "fix",
+   "prompt": "They put up the meeting until next week. (adiaram)",
+   "options": [
+    "They put off the meeting until next week.",
+    "They put on the meeting until next week.",
+    "They put out the meeting until next week."
+   ],
+   "answer": "They put off the meeting until next week.",
+   "explain": "PUT OFF = adiar.",
+   "skill": "onoff",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-2-008",
+   "topic": "t41",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Please put ___ (preposição) your seatbelt.",
+   "answer": [
+    "on"
+   ],
+   "explain": "PUT ON = vestir / colocar.",
+   "skill": "onoff",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-2-009",
+   "topic": "t41",
+   "level": 2,
+   "type": "fix",
+   "prompt": "They turned up our offer. (recusaram)",
+   "options": [
+    "They turned down our offer.",
+    "They turned off our offer.",
+    "They turned out our offer."
+   ],
+   "answer": "They turned down our offer.",
+   "explain": "TURN DOWN = recusar.",
+   "skill": "updown",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-2-010",
+   "topic": "t41",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Let me write ___ (preposição) your number.",
+   "answer": [
+    "down"
+   ],
+   "explain": "WRITE DOWN = anotar.",
+   "skill": "updown",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-2-011",
+   "topic": "t41",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She came up a great idea.",
+   "options": [
+    "She came up with a great idea.",
+    "She came with up a great idea.",
+    "She came up of a great idea."
+   ],
+   "answer": "She came up with a great idea.",
+   "explain": "COME UP WITH.",
+   "skill": "up1",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-2-012",
+   "topic": "t41",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Who's going to set ___ (preposição) the meeting?",
+   "answer": [
+    "up"
+   ],
+   "explain": "SET UP = organizar.",
+   "skill": "up1",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-2-013",
+   "topic": "t41",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I can't keep up you. You walk too fast.",
+   "options": [
+    "I can't keep up with you. You walk too fast.",
+    "I can't keep you up. You walk too fast.",
+    "I can't keep up to you. You walk too fast."
+   ],
+   "answer": "I can't keep up with you. You walk too fast.",
+   "explain": "KEEP UP WITH.",
+   "skill": "up2",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-2-014",
+   "topic": "t41",
+   "level": 2,
+   "type": "gap",
+   "prompt": "If you don't know the word, look it ___ (preposição).",
+   "answer": [
+    "up"
+   ],
+   "explain": "LOOK UP = procurar (no dicionário).",
+   "skill": "up2",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-2-015",
+   "topic": "t41",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'll get ___ (preposição) to you as soon as possible.",
+   "answer": [
+    "back"
+   ],
+   "explain": "GET BACK TO = retornar.",
+   "skill": "awayback",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-3-001",
+   "topic": "t41",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I lent him money and he never paid me ___ (preposição).",
+   "answer": [
+    "back"
+   ],
+   "explain": "PAY BACK = devolver dinheiro.",
+   "skill": "awayback",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-3-002",
+   "topic": "t41",
+   "level": 3,
+   "type": "gap",
+   "prompt": "He didn't show ___ (preposição) for the meeting.",
+   "answer": [
+    "up"
+   ],
+   "explain": "SHOW UP = aparecer.",
+   "skill": "up2",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-3-003",
+   "topic": "t41",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Don't let me ___ (preposição). I'm counting on you.",
+   "answer": [
+    "down"
+   ],
+   "explain": "LET DOWN = decepcionar.",
+   "skill": "updown",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-3-004",
+   "topic": "t41",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The meeting was called ___ (preposição) because of the storm.",
+   "answer": [
+    "off"
+   ],
+   "explain": "CALL OFF = cancelar.",
+   "skill": "onoff",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-3-005",
+   "topic": "t41",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Can you point ___ (preposição) the mistakes in the report?",
+   "answer": [
+    "out"
+   ],
+   "explain": "POINT OUT = apontar.",
+   "skill": "out",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-3-006",
+   "topic": "t41",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We checked in at the hotel late at night.",
+   "explain": "CHECK IN.",
+   "skill": "inout",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-3-007",
+   "topic": "t41",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I took up yoga last year.",
+   "explain": "TAKE UP = começar (hobby).",
+   "skill": "up1",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-3-008",
+   "topic": "t41",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Calm down and tell me what happened.",
+   "explain": "CALM DOWN.",
+   "skill": "updown",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-3-009",
+   "topic": "t41",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Please give it back when you finish.",
+   "explain": "GIVE BACK: pronome no meio.",
+   "skill": "awayback",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-3-010",
+   "topic": "t41",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Can you pick it up?",
+    "Can you pick up it?",
+    "Can you up pick it?"
+   ],
+   "answer": "Can you pick it up?",
+   "explain": "Pronome no meio.",
+   "skill": "intro",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-3-011",
+   "topic": "t41",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "'Descobrimos que o fornecedor tinha mentido.'",
+   "options": [
+    "We found out that the supplier had lied.",
+    "We found up that the supplier had lied.",
+    "We found off that the supplier had lied."
+   ],
+   "answer": "We found out that the supplier had lied.",
+   "explain": "FIND OUT.",
+   "skill": "out",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-3-012",
+   "topic": "t41",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Hold on a second, please.",
+    "Hold off a second, please. (aguarde)",
+    "Hold up a second, please on."
+   ],
+   "answer": "Hold on a second, please.",
+   "explain": "HOLD ON = aguarde.",
+   "skill": "onoff",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-3-013",
+   "topic": "t41",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "We need to catch up on the news.",
+    "We need to catch on up the news.",
+    "We need to catch up the news on."
+   ],
+   "answer": "We need to catch up on the news.",
+   "explain": "CATCH UP ON = pôr em dia.",
+   "skill": "up2",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-3-014",
+   "topic": "t41",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Looking back, it was a good decision.",
+    "Looking away, it was a good decision.",
+    "Looking off, it was a good decision."
+   ],
+   "answer": "Looking back, it was a good decision.",
+   "explain": "LOOK BACK = olhar para trás.",
+   "skill": "awayback",
+   "cefr": "B2"
+  },
+  {
+   "id": "t41-3-015",
+   "topic": "t41",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "The kids grew up in Curitiba.",
+    "The kids grew in up Curitiba.",
+    "The kids grow up in Curitiba yesterday."
+   ],
+   "answer": "The kids grew up in Curitiba.",
+   "explain": "GROW UP.",
+   "skill": "up1",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t41",
+   "level": 2,
+   "skill": "intro",
+   "cefr": "B2",
+   "id": "t41-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Can you turn it off?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Pronome no meio."
+  },
+  {
+   "topic": "t41",
+   "level": 2,
+   "skill": "out",
+   "cefr": "B2",
+   "id": "t41-2-005v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It turned out that the invoice was wrong.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. TURN OUT = acabou que."
+  },
+  {
+   "topic": "t41",
+   "level": 2,
+   "skill": "onoff",
+   "cefr": "B2",
+   "id": "t41-2-007v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "They put off the meeting until next week. (adiaram)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. PUT OFF = adiar."
+  },
+  {
+   "topic": "t41",
+   "level": 2,
+   "skill": "updown",
+   "cefr": "B2",
+   "id": "t41-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "They turned down our offer. (recusaram)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. TURN DOWN = recusar."
+  },
+  {
+   "topic": "t41",
+   "level": 2,
+   "skill": "up1",
+   "cefr": "B2",
+   "id": "t41-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She came up with a great idea.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. COME UP WITH."
+  },
+  {
+   "topic": "t41",
+   "level": 2,
+   "skill": "up2",
+   "cefr": "B2",
+   "id": "t41-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I can't keep up with you. You walk too fast.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. KEEP UP WITH."
+  },
+  {
+   "topic": "t41",
+   "level": 3,
+   "skill": "intro",
+   "cefr": "B2",
+   "id": "t41-3-010v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Can you pick up it?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Can you pick it up? Pronome no meio."
+  },
+  {
+   "topic": "t41",
+   "level": 3,
+   "skill": "onoff",
+   "cefr": "B2",
+   "id": "t41-3-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Hold off a second, please. (aguarde)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Hold on a second, please. HOLD ON = aguarde."
+  },
+  {
+   "topic": "t41",
+   "level": 3,
+   "skill": "up2",
+   "cefr": "B2",
+   "id": "t41-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We need to catch up on the news.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. CATCH UP ON = pôr em dia."
+  },
+  {
+   "topic": "t41",
+   "level": 3,
+   "skill": "awayback",
+   "cefr": "B2",
+   "id": "t41-3-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Looking away, it was a good decision.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Looking back, it was a good decision. LOOK BACK = olhar para trás."
+  },
+  {
+   "topic": "t41",
+   "level": 3,
+   "skill": "up1",
+   "cefr": "B2",
+   "id": "t41-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The kids grew up in Curitiba.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. GROW UP."
+  }
+ ]
+}

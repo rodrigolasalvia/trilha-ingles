@@ -1,10 +1,18 @@
 // Núcleo lógico puro: sem DOM, sem armazenamento. Testado em tests/core.test.js.
 
-export const APP_VERSION = '1.3.0';
+export const APP_VERSION = '1.4.0';
 export const STATE_VERSION = 1;
 export const DAY = 24 * 60 * 60 * 1000;
 // Intervalos da repetição espaçada (em dias) por caixa 0..5.
-export const BOX_DAYS = [0, 1, 3, 7, 14, 30];
+// Intervalos em dias. Erro: volta amanhã (caixa 0). Acerto na primeira vez: pula para 4 dias (já sabia).
+// Os vencimentos caem à meia-noite: a revisão de cada dia é fixa e não 'reenche' ao longo do dia.
+export const BOX_DAYS = [1, 2, 4, 8, 16, 35, 75];
+export const FIRST_OK_BOX = 2;
+// Plano diário (20–25 min): meta de respostas; revisão e novos limitados a uma fração dela.
+export const GOALS = [30, 50, 75];
+export const DEFAULT_GOAL = 50;
+export const REVIEW_SHARE = 0.5;
+export const NEW_SHARE = 0.3;
 export const TYPES = ['mcq', 'fix', 'gap', 'order'];
 export const LEVELS = [1, 2, 3];
 export const CEFR = ['A1', 'A2', 'B1', 'B2', 'C1'];
@@ -110,7 +118,7 @@ export function validateBank(items) {
 /* ---------- Estado ---------- */
 
 export function emptyState(now = Date.now()) {
-  return { version: STATE_VERSION, createdAt: now, items: {}, sessions: [], unlocked: {}, announced: [], lastExport: 0 };
+  return { version: STATE_VERSION, createdAt: now, items: {}, sessions: [], unlocked: {}, announced: [], lastExport: 0, goal: DEFAULT_GOAL };
 }
 
 // Aceita qualquer coisa e devolve um estado válido. Nunca lança erro.
@@ -127,12 +135,14 @@ export function migrateState(raw, now = Date.now()) {
         correct: clampInt(r.correct, 0, 1e9),
         wrong: clampInt(r.wrong, 0, 1e9),
         last: num(r.last),
+        ...(num(r.first) ? { first: num(r.first) } : {}),
       };
     }
   }
   if (raw.unlocked && typeof raw.unlocked === 'object' && !Array.isArray(raw.unlocked)) {
     for (const [g, ts] of Object.entries(raw.unlocked)) if (Number.isFinite(Number(ts)) && Number(ts) > 0) s.unlocked[g] = Number(ts);
   }
+  if (GOALS.includes(Number(raw.goal))) s.goal = Number(raw.goal);
   if (Number.isFinite(Number(raw.lastExport)) && Number(raw.lastExport) > 0) s.lastExport = Number(raw.lastExport);
   if (Array.isArray(raw.announced)) s.announced = raw.announced.filter(g => typeof g === 'string');
   if (Array.isArray(raw.sessions)) {
@@ -170,12 +180,17 @@ function clampInt(v, lo, hi) { const n = Math.round(num(v)); return Math.min(hi,
 
 /* ---------- Repetição espaçada ---------- */
 
+export function startOfDay(ts) { const d = new Date(ts); d.setHours(0, 0, 0, 0); return d.getTime(); }
+// Meia-noite local de 'dias' dias depois de ts (robusto a horário de verão).
+export function dayAfter(ts, days) { const d = new Date(startOfDay(ts)); d.setDate(d.getDate() + days); return d.getTime(); }
+
 export function srsUpdate(rec, ok, now = Date.now()) {
-  const r = rec ? { ...rec } : { box: 0, due: 0, seen: 0, correct: 0, wrong: 0, last: 0 };
+  const fresh = !rec;
+  const r = rec ? { ...rec } : { box: 0, due: 0, seen: 0, correct: 0, wrong: 0, last: 0, first: now };
   r.seen += 1;
-  if (ok) { r.correct += 1; r.box = Math.min(r.box + 1, BOX_DAYS.length - 1); }
+  if (ok) { r.correct += 1; r.box = fresh ? FIRST_OK_BOX : Math.min(r.box + 1, BOX_DAYS.length - 1); }
   else { r.wrong += 1; r.box = 0; }
-  r.due = now + BOX_DAYS[r.box] * DAY;
+  r.due = dayAfter(now, BOX_DAYS[r.box]);
   r.last = now;
   return r;
 }
@@ -228,7 +243,7 @@ function prioritize(pool, state, now, rng) {
   return { due, unseen, later };
 }
 
-export function buildSession(items, state, { topic = null, skills = null, mode = 'topic', size = 10, ids = null, now = Date.now(), rng = Math.random } = {}) {
+export function buildSession(items, state, { topic = null, skills = null, mode = 'topic', size = 10, ids = null, maxNew = Infinity, now = Date.now(), rng = Math.random } = {}) {
   if (ids) {
     const byId = new Map(items.map(i => [i.id, i]));
     return shuffle(ids.map(id => byId.get(id)).filter(Boolean), rng).slice(0, size);
@@ -257,7 +272,7 @@ export function buildSession(items, state, { topic = null, skills = null, mode =
     }
   };
   take([...due, ...dueVariants].sort((a, b) => rec(a.id).box - rec(b.id).box), Math.ceil(size * 0.4));
-  take(unseen, size);
+  take(unseen, Math.min(size, maxNew));
   take(due, size);
   take(later, size);
 
@@ -385,12 +400,21 @@ export function topicRanking(items, state, topicIds, lastN = 30) {
 }
 
 // Sessão de reforço: concentra-se nos 3 padrões mais fracos (5/3/2 exercícios) e completa com pendentes.
-export function buildReinforce(items, state, { size = 10, now = Date.now(), rng = Math.random } = {}) {
+export function buildReinforce(items, state, { size = 10, maxNew = Infinity, now = Date.now(), rng = Math.random } = {}) {
   const focus = weakSkills(items, state, { min: 3, limit: 3 }).filter(s => s.score > 0.25);
-  if (!focus.length) return { queue: buildSession(items, state, { size, now, rng }), focus: [] };
+  if (!focus.length) return { queue: buildSession(items, state, { size, maxNew, now, rng }), focus: [] };
   const quotas = focus.length === 1 ? [size] : focus.length === 2 ? [6, 4] : [5, 3, 2];
   const picked = [];
-  const take = (list, n) => { for (const it of list) { if (picked.length >= size || n <= 0) break; if (!picked.includes(it)) { picked.push(it); n--; } } };
+  let fresh = 0;
+  const take = (list, n) => {
+    for (const it of list) {
+      if (picked.length >= size || n <= 0) break;
+      if (picked.includes(it)) continue;
+      const isNew = !state.items[it.id];
+      if (isNew && fresh >= maxNew) continue;
+      picked.push(it); n--; if (isNew) fresh++;
+    }
+  };
   focus.forEach((f, i) => {
     const pool = items.filter(it => skillKey(it) === f.key);
     const { due, unseen, later } = prioritize(pool, state, now, rng);
@@ -516,4 +540,24 @@ export function unlockCheck(items, state, gates, now = Date.now(), r = UNLOCK_RU
   for (const list of byTopic.values()) if (list.length >= r.topicMin && acc(list) < r.topicAcc) return null;
 
   return next;
+}
+
+// ---------- Plano diário ----------
+export function dailyPlan(state, now = Date.now()) {
+  const goal = GOALS.includes(state.goal) ? state.goal : DEFAULT_GOAL;
+  const from = startOfDay(now);
+  let answers = 0, review = 0;
+  for (const ses of state.sessions) for (const a of ses.answers) {
+    if (a.t < from || a.t > now) continue;
+    answers++; if (ses.mode === 'review') review++;
+  }
+  let fresh = 0;
+  for (const r of Object.values(state.items)) if (r.first && r.first >= from && r.first <= now) fresh++;
+  const reviewCap = Math.round(goal * REVIEW_SHARE);
+  const newCap = Math.round(goal * NEW_SHARE);
+  return {
+    goal, answers, done: answers >= goal,
+    review, reviewCap, reviewLeft: Math.max(0, reviewCap - review),
+    fresh, newCap, newLeft: Math.max(0, newCap - fresh),
+  };
 }

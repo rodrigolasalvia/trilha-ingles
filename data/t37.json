@@ -1,0 +1,856 @@
+{
+ "topic": "t37",
+ "items": [
+  {
+   "id": "t37-1-001",
+   "topic": "t37",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I like ___ early on weekdays.",
+   "options": [
+    "getting up",
+    "get up",
+    "to getting up"
+   ],
+   "answer": "getting up",
+   "explain": "LIKE + -ING (gosto em geral; TO também é aceito).",
+   "skill": "likewould",
+   "cefr": "B1"
+  },
+  {
+   "id": "t37-1-002",
+   "topic": "t37",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'd like ___ the manager, please.",
+   "options": [
+    "to speak",
+    "speaking",
+    "speak"
+   ],
+   "answer": "to speak",
+   "explain": "WOULD LIKE + TO.",
+   "skill": "likewould",
+   "cefr": "B1"
+  },
+  {
+   "id": "t37-1-003",
+   "topic": "t37",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I prefer tea ___ coffee.",
+   "options": [
+    "to",
+    "than",
+    "from"
+   ],
+   "answer": "to",
+   "explain": "PREFER X TO Y.",
+   "skill": "prefer",
+   "cefr": "B1"
+  },
+  {
+   "id": "t37-1-004",
+   "topic": "t37",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'd rather ___ at home tonight.",
+   "options": [
+    "stay",
+    "to stay",
+    "staying"
+   ],
+   "answer": "stay",
+   "explain": "WOULD RATHER + verbo base.",
+   "skill": "prefer",
+   "cefr": "B1"
+  },
+  {
+   "id": "t37-1-005",
+   "topic": "t37",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It's not worth ___ a taxi. The hotel is close.",
+   "options": [
+    "taking",
+    "to take",
+    "take"
+   ],
+   "answer": "taking",
+   "explain": "IT'S WORTH + -ING.",
+   "skill": "worth",
+   "cefr": "B1"
+  },
+  {
+   "id": "t37-1-006",
+   "topic": "t37",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "There's no point ___ about it now.",
+   "options": [
+    "in worrying",
+    "to worry",
+    "worrying in"
+   ],
+   "answer": "in worrying",
+   "explain": "THERE'S NO POINT IN + -ING.",
+   "skill": "worth",
+   "cefr": "B1"
+  },
+  {
+   "id": "t37-1-007",
+   "topic": "t37",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "This contract is difficult ___.",
+   "options": [
+    "to understand",
+    "understanding",
+    "understand"
+   ],
+   "answer": "to understand",
+   "explain": "Adjetivo + TO.",
+   "skill": "adjto",
+   "cefr": "B1"
+  },
+  {
+   "id": "t37-1-008",
+   "topic": "t37",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It was nice of you ___ me.",
+   "options": [
+    "to help",
+    "helping",
+    "help"
+   ],
+   "answer": "to help",
+   "explain": "IT'S NICE OF YOU TO.",
+   "skill": "adjto",
+   "cefr": "B1"
+  },
+  {
+   "id": "t37-1-009",
+   "topic": "t37",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'm afraid ___ my job.",
+   "options": [
+    "of losing",
+    "to lose",
+    "losing"
+   ],
+   "answer": "of losing",
+   "explain": "Medo de que aconteça: AFRAID OF + -ING.",
+   "skill": "afraid",
+   "cefr": "B1"
+  },
+  {
+   "id": "t37-1-010",
+   "topic": "t37",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I saw her ___ the building at 6. (vi a ação completa)",
+   "options": [
+    "leave",
+    "to leave",
+    "left"
+   ],
+   "answer": "leave",
+   "explain": "Ação completa: SEE + objeto + verbo base.",
+   "skill": "seedo",
+   "cefr": "B1"
+  },
+  {
+   "id": "t37-1-011",
+   "topic": "t37",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I heard someone ___ in the next room.",
+   "options": [
+    "shouting",
+    "to shout",
+    "shouted"
+   ],
+   "answer": "shouting",
+   "explain": "Ação em andamento: -ING.",
+   "skill": "seedo",
+   "cefr": "B1"
+  },
+  {
+   "id": "t37-1-012",
+   "topic": "t37",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Can you help me ___ this box?",
+   "options": [
+    "carry",
+    "carrying",
+    "carried"
+   ],
+   "answer": "carry",
+   "explain": "HELP + (TO) + verbo.",
+   "skill": "help",
+   "cefr": "B1"
+  },
+  {
+   "id": "t37-1-013",
+   "topic": "t37",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I couldn't help ___ when he fell.",
+   "options": [
+    "laughing",
+    "to laugh",
+    "laugh"
+   ],
+   "answer": "laughing",
+   "explain": "CAN'T HELP + -ING.",
+   "skill": "help",
+   "cefr": "B1"
+  },
+  {
+   "id": "t37-1-014",
+   "topic": "t37",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ tired, I went to bed early.",
+   "options": [
+    "Feeling",
+    "Felt",
+    "To feel"
+   ],
+   "answer": "Feeling",
+   "explain": "Oração com -ING: motivo.",
+   "skill": "ingclause",
+   "cefr": "B1"
+  },
+  {
+   "id": "t37-1-015",
+   "topic": "t37",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I had trouble ___ the office.",
+   "options": [
+    "finding",
+    "to find",
+    "find"
+   ],
+   "answer": "finding",
+   "explain": "HAVE TROUBLE + -ING.",
+   "skill": "worth",
+   "cefr": "B1"
+  },
+  {
+   "id": "t37-2-001",
+   "topic": "t37",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I would like visiting Japan one day.",
+   "options": [
+    "I would like to visit Japan one day.",
+    "I would like visit Japan one day.",
+    "I would to like visit Japan one day."
+   ],
+   "answer": "I would like to visit Japan one day.",
+   "explain": "WOULD LIKE + TO.",
+   "skill": "likewould",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-2-002",
+   "topic": "t37",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'd like ___ (have) seen the presentation, but I was sick.",
+   "answer": [
+    "to have"
+   ],
+   "explain": "Gostaria de ter: WOULD LIKE TO HAVE + particípio.",
+   "skill": "likewould",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-2-003",
+   "topic": "t37",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'd rather to walk than take the bus.",
+   "options": [
+    "I'd rather walk than take the bus.",
+    "I'd rather walking than taking the bus.",
+    "I'd rather walk than to taking the bus."
+   ],
+   "answer": "I'd rather walk than take the bus.",
+   "explain": "WOULD RATHER + verbo base + THAN + verbo base.",
+   "skill": "prefer",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-2-004",
+   "topic": "t37",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I prefer working at home ___ (a) working at the office.",
+   "answer": [
+    "to"
+   ],
+   "explain": "PREFER -ING TO -ING.",
+   "skill": "prefer",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-2-005",
+   "topic": "t37",
+   "level": 2,
+   "type": "fix",
+   "prompt": "It's no use to call him. He's on a plane.",
+   "options": [
+    "It's no use calling him. He's on a plane.",
+    "It's no use call him. He's on a plane.",
+    "It's not use calling him. He's on a plane."
+   ],
+   "answer": "It's no use calling him. He's on a plane.",
+   "explain": "IT'S NO USE + -ING.",
+   "skill": "worth",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-2-006",
+   "topic": "t37",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I spent the whole morning ___ (answer) e-mails.",
+   "answer": [
+    "answering"
+   ],
+   "explain": "SPEND TIME + -ING.",
+   "skill": "worth",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-2-007",
+   "topic": "t37",
+   "level": 2,
+   "type": "fix",
+   "prompt": "This software is easy to using.",
+   "options": [
+    "This software is easy to use.",
+    "This software is easy using.",
+    "This software is easy for use it."
+   ],
+   "answer": "This software is easy to use.",
+   "explain": "Adjetivo + TO + verbo base.",
+   "skill": "adjto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-2-008",
+   "topic": "t37",
+   "level": 2,
+   "type": "gap",
+   "prompt": "She was the last ___ (leave) the office.",
+   "answer": [
+    "to leave"
+   ],
+   "explain": "THE LAST TO + verbo.",
+   "skill": "adjto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-2-009",
+   "topic": "t37",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I was afraid of tell him the truth. (não ousei)",
+   "options": [
+    "I was afraid to tell him the truth.",
+    "I was afraid tell him the truth.",
+    "I was afraid for telling him the truth."
+   ],
+   "answer": "I was afraid to tell him the truth.",
+   "explain": "Não ousar: AFRAID TO.",
+   "skill": "afraid",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-2-010",
+   "topic": "t37",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'm interested ___ (preposição) learning more about the project.",
+   "answer": [
+    "in"
+   ],
+   "explain": "INTERESTED IN + -ING.",
+   "skill": "afraid",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-2-011",
+   "topic": "t37",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I saw him to cross the street.",
+   "options": [
+    "I saw him cross the street.",
+    "I saw him to crossing the street.",
+    "I saw him crossed the street."
+   ],
+   "answer": "I saw him cross the street.",
+   "explain": "SEE + objeto + verbo base (sem TO).",
+   "skill": "seedo",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-2-012",
+   "topic": "t37",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Did you notice anyone ___ (wait) outside?",
+   "answer": [
+    "waiting"
+   ],
+   "explain": "Em andamento: -ING.",
+   "skill": "seedo",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-2-013",
+   "topic": "t37",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Can you help me ___ (choose) a hotel?",
+   "answer": [
+    "choose",
+    "to choose"
+   ],
+   "explain": "HELP + (TO) + verbo.",
+   "skill": "help",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-2-014",
+   "topic": "t37",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (Having / finish) the report, she went home.",
+   "answer": [
+    "Having finished"
+   ],
+   "explain": "HAVING + particípio: ação anterior.",
+   "skill": "ingclause",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-2-015",
+   "topic": "t37",
+   "level": 2,
+   "type": "gap",
+   "prompt": "It's a waste of time ___ (argue) about this.",
+   "answer": [
+    "arguing"
+   ],
+   "explain": "A WASTE OF TIME + -ING.",
+   "skill": "worth",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-3-001",
+   "topic": "t37",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Do you have any difficulty ___ (understand) British accents?",
+   "answer": [
+    "understanding"
+   ],
+   "explain": "HAVE DIFFICULTY + -ING.",
+   "skill": "worth",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-3-002",
+   "topic": "t37",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'd prefer ___ (stay) home rather than go out.",
+   "answer": [
+    "to stay"
+   ],
+   "explain": "PREFER TO + verbo + RATHER THAN.",
+   "skill": "prefer",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-3-003",
+   "topic": "t37",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'm sorry ___ (hear) about your accident.",
+   "answer": [
+    "to hear"
+   ],
+   "explain": "SORRY TO HEAR.",
+   "skill": "afraid",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-3-004",
+   "topic": "t37",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We watched the team ___ (win) the final. (vimos tudo)",
+   "answer": [
+    "win"
+   ],
+   "explain": "Ação completa: verbo base.",
+   "skill": "seedo",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-3-005",
+   "topic": "t37",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Not ___ (know) the way, we took a taxi.",
+   "answer": [
+    "knowing"
+   ],
+   "explain": "Oração com -ING negativa.",
+   "skill": "ingclause",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-3-006",
+   "topic": "t37",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "It's not worth arguing about it.",
+   "explain": "IT'S WORTH + -ING.",
+   "skill": "worth",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-3-007",
+   "topic": "t37",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I would rather call than send an e-mail.",
+   "explain": "WOULD RATHER ... THAN.",
+   "skill": "prefer",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-3-008",
+   "topic": "t37",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "The instructions were easy to follow.",
+   "explain": "Adjetivo + TO.",
+   "skill": "adjto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-3-009",
+   "topic": "t37",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I couldn't help noticing her new car.",
+   "explain": "CAN'T HELP + -ING.",
+   "skill": "help",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-3-010",
+   "topic": "t37",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I'd like to have met him.",
+    "I'd like to having met him.",
+    "I'd like have met him."
+   ],
+   "answer": "I'd like to have met him.",
+   "explain": "WOULD LIKE TO HAVE + particípio.",
+   "skill": "likewould",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-3-011",
+   "topic": "t37",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I'm afraid of making mistakes in front of the board.",
+    "I'm afraid to making mistakes in front of the board.",
+    "I'm afraid making mistakes in front of the board."
+   ],
+   "answer": "I'm afraid of making mistakes in front of the board.",
+   "explain": "AFRAID OF + -ING.",
+   "skill": "afraid",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-3-012",
+   "topic": "t37",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I felt the building shake.",
+    "I felt the building to shake.",
+    "I felt the building shaken."
+   ],
+   "answer": "I felt the building shake.",
+   "explain": "FEEL + objeto + verbo base.",
+   "skill": "seedo",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-3-013",
+   "topic": "t37",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Being the only engineer, she had to fix it.",
+    "Been the only engineer, she had to fix it.",
+    "To be the only engineer, she had to fix it."
+   ],
+   "answer": "Being the only engineer, she had to fix it.",
+   "explain": "Oração com -ING: motivo.",
+   "skill": "ingclause",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-3-014",
+   "topic": "t37",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "It was a mistake to accept the offer.",
+    "It was a mistake accepting to the offer.",
+    "It was a mistake accept the offer."
+   ],
+   "answer": "It was a mistake to accept the offer.",
+   "explain": "IT WAS + adjetivo/substantivo + TO.",
+   "skill": "adjto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t37-3-015",
+   "topic": "t37",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "We went shopping after the meeting.",
+    "We went to shopping after the meeting.",
+    "We went shop after the meeting."
+   ],
+   "answer": "We went shopping after the meeting.",
+   "explain": "GO + -ING.",
+   "skill": "worth",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t37",
+   "level": 2,
+   "skill": "likewould",
+   "cefr": "B2",
+   "id": "t37-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I would like to visit Japan one day.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. WOULD LIKE + TO."
+  },
+  {
+   "topic": "t37",
+   "level": 2,
+   "skill": "prefer",
+   "cefr": "B2",
+   "id": "t37-2-003v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'd rather walk than take the bus.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. WOULD RATHER + verbo base + THAN + verbo base."
+  },
+  {
+   "topic": "t37",
+   "level": 2,
+   "skill": "worth",
+   "cefr": "B2",
+   "id": "t37-2-005v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It's no use calling him. He's on a plane.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. IT'S NO USE + -ING."
+  },
+  {
+   "topic": "t37",
+   "level": 2,
+   "skill": "adjto",
+   "cefr": "B2",
+   "id": "t37-2-007v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "This software is easy to use.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Adjetivo + TO + verbo base."
+  },
+  {
+   "topic": "t37",
+   "level": 2,
+   "skill": "afraid",
+   "cefr": "B2",
+   "id": "t37-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I was afraid to tell him the truth. (não ousei)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Não ousar: AFRAID TO."
+  },
+  {
+   "topic": "t37",
+   "level": 2,
+   "skill": "seedo",
+   "cefr": "B2",
+   "id": "t37-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I saw him cross the street.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. SEE + objeto + verbo base (sem TO)."
+  },
+  {
+   "topic": "t37",
+   "level": 3,
+   "skill": "likewould",
+   "cefr": "B2",
+   "id": "t37-3-010v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'd like to having met him.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I'd like to have met him. WOULD LIKE TO HAVE + particípio."
+  },
+  {
+   "topic": "t37",
+   "level": 3,
+   "skill": "afraid",
+   "cefr": "B2",
+   "id": "t37-3-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm afraid of making mistakes in front of the board.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. AFRAID OF + -ING."
+  },
+  {
+   "topic": "t37",
+   "level": 3,
+   "skill": "seedo",
+   "cefr": "B2",
+   "id": "t37-3-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I felt the building to shake.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I felt the building shake. FEEL + objeto + verbo base."
+  },
+  {
+   "topic": "t37",
+   "level": 3,
+   "skill": "ingclause",
+   "cefr": "B2",
+   "id": "t37-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Being the only engineer, she had to fix it.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Oração com -ING: motivo."
+  },
+  {
+   "topic": "t37",
+   "level": 3,
+   "skill": "adjto",
+   "cefr": "B2",
+   "id": "t37-3-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It was a mistake accepting to the offer.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: It was a mistake to accept the offer. IT WAS + adjetivo/substantivo + TO."
+  },
+  {
+   "topic": "t37",
+   "level": 3,
+   "skill": "worth",
+   "cefr": "B2",
+   "id": "t37-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We went shopping after the meeting.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. GO + -ING."
+  }
+ ]
+}

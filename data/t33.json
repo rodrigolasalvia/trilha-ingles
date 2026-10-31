@@ -1,0 +1,862 @@
+{
+ "topic": "t33",
+ "items": [
+  {
+   "id": "t33-1-001",
+   "topic": "t33",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I cut ___ while I was cooking.",
+   "options": [
+    "myself",
+    "me",
+    "my"
+   ],
+   "answer": "myself",
+   "explain": "Sujeito e objeto iguais: reflexivo.",
+   "skill": "reflex",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-1-002",
+   "topic": "t33",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Ana and Paulo help ___ a lot. (um ao outro)",
+   "options": [
+    "each other",
+    "themselves",
+    "them"
+   ],
+   "answer": "each other",
+   "explain": "EACH OTHER = um ao outro.",
+   "skill": "reflex",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-1-003",
+   "topic": "t33",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Pedro is a colleague of ___.",
+   "options": [
+    "mine",
+    "me",
+    "my"
+   ],
+   "answer": "mine",
+   "explain": "A + substantivo + OF MINE.",
+   "skill": "own",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-1-004",
+   "topic": "t33",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'd love to have my ___ office.",
+   "options": [
+    "own",
+    "self",
+    "proper"
+   ],
+   "answer": "own",
+   "explain": "MY OWN = meu próprio.",
+   "skill": "own",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-1-005",
+   "topic": "t33",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ is a problem with the printer.",
+   "options": [
+    "There",
+    "It",
+    "This"
+   ],
+   "answer": "There",
+   "explain": "Existe / há: THERE.",
+   "skill": "thereit",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-1-006",
+   "topic": "t33",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I don't have ___ questions.",
+   "options": [
+    "any",
+    "some",
+    "no"
+   ],
+   "answer": "any",
+   "explain": "Negativa: ANY.",
+   "skill": "someany",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-1-007",
+   "topic": "t33",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Would you like ___ water?",
+   "options": [
+    "some",
+    "any",
+    "no"
+   ],
+   "answer": "some",
+   "explain": "Oferta: SOME.",
+   "skill": "someany",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-1-008",
+   "topic": "t33",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ of the candidates was suitable.",
+   "options": [
+    "None",
+    "No",
+    "Nothing"
+   ],
+   "answer": "None",
+   "explain": "NONE OF.",
+   "skill": "nonone",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-1-009",
+   "topic": "t33",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "There's ___ milk in the fridge.",
+   "options": [
+    "no",
+    "none",
+    "any"
+   ],
+   "answer": "no",
+   "explain": "NO + substantivo.",
+   "skill": "nonone",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-1-010",
+   "topic": "t33",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We don't have ___ time.",
+   "options": [
+    "much",
+    "many",
+    "few"
+   ],
+   "answer": "much",
+   "explain": "Incontável: MUCH.",
+   "skill": "quant",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-1-011",
+   "topic": "t33",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I have ___ friends in Rio. (alguns)",
+   "options": [
+    "a few",
+    "a little",
+    "few"
+   ],
+   "answer": "a few",
+   "explain": "Contável, sentido positivo: A FEW.",
+   "skill": "quant",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-1-012",
+   "topic": "t33",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ of the team agreed with the plan.",
+   "options": [
+    "Most",
+    "Most the",
+    "The most"
+   ],
+   "answer": "Most",
+   "explain": "MOST OF THE + grupo.",
+   "skill": "allmost",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-1-013",
+   "topic": "t33",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ options are good. (as duas)",
+   "options": [
+    "Both",
+    "Either",
+    "Neither"
+   ],
+   "answer": "Both",
+   "explain": "Os dois: BOTH.",
+   "skill": "botheither",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-1-014",
+   "topic": "t33",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ room has a minibar.",
+   "options": [
+    "Every",
+    "All",
+    "Whole"
+   ],
+   "answer": "Every",
+   "explain": "EVERY + singular.",
+   "skill": "everyeach",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-1-015",
+   "topic": "t33",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I spent the ___ weekend working.",
+   "options": [
+    "whole",
+    "all",
+    "every"
+   ],
+   "answer": "whole",
+   "explain": "THE WHOLE + singular.",
+   "skill": "everyeach",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-2-001",
+   "topic": "t33",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I feel myself tired today.",
+   "options": [
+    "I feel tired today.",
+    "I feel me tired today.",
+    "I'm feeling myself tired today."
+   ],
+   "answer": "I feel tired today.",
+   "explain": "FEEL não é reflexivo em inglês.",
+   "skill": "reflex",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-2-002",
+   "topic": "t33",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I prefer to travel on my ___ (sozinho).",
+   "answer": [
+    "own"
+   ],
+   "explain": "ON MY OWN = sozinho.",
+   "skill": "reflex",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-2-003",
+   "topic": "t33",
+   "level": 2,
+   "type": "fix",
+   "prompt": "He's a friend of me.",
+   "options": [
+    "He's a friend of mine.",
+    "He's a friend of my.",
+    "He's my a friend."
+   ],
+   "answer": "He's a friend of mine.",
+   "explain": "OF MINE.",
+   "skill": "own",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-2-004",
+   "topic": "t33",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Is a long way to the airport.",
+   "options": [
+    "It's a long way to the airport.",
+    "There's a long way to the airport.",
+    "Is long way to the airport."
+   ],
+   "answer": "It's a long way to the airport.",
+   "explain": "Distância: IT.",
+   "skill": "thereit",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-2-005",
+   "topic": "t33",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (Existe) a meeting at 3. It will be in Room 2.",
+   "answer": [
+    "There's",
+    "There is"
+   ],
+   "explain": "Existe: THERE IS.",
+   "skill": "thereit",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-2-006",
+   "topic": "t33",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I didn't buy nothing.",
+   "options": [
+    "I didn't buy anything.",
+    "I didn't buy something.",
+    "I bought anything."
+   ],
+   "answer": "I didn't buy anything.",
+   "explain": "Uma negação: DIDN'T + ANYTHING.",
+   "skill": "nonone",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-2-007",
+   "topic": "t33",
+   "level": 2,
+   "type": "gap",
+   "prompt": "You can call me ___ (a qualquer) time.",
+   "answer": [
+    "any"
+   ],
+   "explain": "ANY = qualquer.",
+   "skill": "someany",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-2-008",
+   "topic": "t33",
+   "level": 2,
+   "type": "fix",
+   "prompt": "There are a little people in the room.",
+   "options": [
+    "There are a few people in the room.",
+    "There are a little peoples in the room.",
+    "There is a few people in the room."
+   ],
+   "answer": "There are a few people in the room.",
+   "explain": "PEOPLE é contável: A FEW.",
+   "skill": "quant",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-2-009",
+   "topic": "t33",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Hurry! We have very ___ (pouco) time.",
+   "answer": [
+    "little"
+   ],
+   "explain": "Incontável, quase nenhum: LITTLE.",
+   "skill": "quant",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-2-010",
+   "topic": "t33",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The most of my colleagues work remotely.",
+   "options": [
+    "Most of my colleagues work remotely.",
+    "The most my colleagues work remotely.",
+    "Most my colleagues work remotely."
+   ],
+   "answer": "Most of my colleagues work remotely.",
+   "explain": "MOST OF + MY.",
+   "skill": "allmost",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-2-011",
+   "topic": "t33",
+   "level": 2,
+   "type": "gap",
+   "prompt": "All ___ (de) us agreed.",
+   "answer": [
+    "of"
+   ],
+   "explain": "ALL OF + pronome.",
+   "skill": "allmost",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-2-012",
+   "topic": "t33",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Neither of the offers aren't acceptable.",
+   "options": [
+    "Neither of the offers is acceptable.",
+    "Neither of the offers are not acceptable.",
+    "Neither offers is acceptable."
+   ],
+   "answer": "Neither of the offers is acceptable.",
+   "explain": "NEITHER já é negativo.",
+   "skill": "botheither",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-2-013",
+   "topic": "t33",
+   "level": 2,
+   "type": "gap",
+   "prompt": "You can have ___ (qualquer um dos dois) tea or coffee.",
+   "answer": [
+    "either"
+   ],
+   "explain": "EITHER... OR.",
+   "skill": "botheither",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-2-014",
+   "topic": "t33",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Every suppliers must sign the code of conduct.",
+   "options": [
+    "Every supplier must sign the code of conduct.",
+    "Every of suppliers must sign the code of conduct.",
+    "All supplier must sign the code of conduct."
+   ],
+   "answer": "Every supplier must sign the code of conduct.",
+   "explain": "EVERY + singular.",
+   "skill": "everyeach",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-2-015",
+   "topic": "t33",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (Cada) candidate will be interviewed separately.",
+   "answer": [
+    "Each"
+   ],
+   "explain": "Um a um: EACH.",
+   "skill": "everyeach",
+   "cefr": "B1"
+  },
+  {
+   "id": "t33-3-001",
+   "topic": "t33",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Did you enjoy ___ (você mesmo) at the party?",
+   "answer": [
+    "yourself"
+   ],
+   "explain": "ENJOY YOURSELF.",
+   "skill": "reflex",
+   "cefr": "B2"
+  },
+  {
+   "id": "t33-3-002",
+   "topic": "t33",
+   "level": 3,
+   "type": "gap",
+   "prompt": "She wants to start her ___ (próprio) business.",
+   "answer": [
+    "own"
+   ],
+   "explain": "HER OWN.",
+   "skill": "own",
+   "cefr": "B2"
+  },
+  {
+   "id": "t33-3-003",
+   "topic": "t33",
+   "level": 3,
+   "type": "gap",
+   "prompt": "None ___ (de) the managers were available.",
+   "answer": [
+    "of"
+   ],
+   "explain": "NONE OF.",
+   "skill": "nonone",
+   "cefr": "B2"
+  },
+  {
+   "id": "t33-3-004",
+   "topic": "t33",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Few ___ (pessoas) understood the new rule. (quase ninguém)",
+   "answer": [
+    "people"
+   ],
+   "explain": "FEW + plural = poucos.",
+   "skill": "quant",
+   "cefr": "B2"
+  },
+  {
+   "id": "t33-3-005",
+   "topic": "t33",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Neither Ana ___ (nem) Paulo could come.",
+   "answer": [
+    "nor"
+   ],
+   "explain": "NEITHER... NOR.",
+   "skill": "botheither",
+   "cefr": "B2"
+  },
+  {
+   "id": "t33-3-006",
+   "topic": "t33",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Both of them work in the legal department.",
+   "explain": "BOTH OF + pronome.",
+   "skill": "botheither",
+   "cefr": "B2"
+  },
+  {
+   "id": "t33-3-007",
+   "topic": "t33",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Each of the suppliers received a questionnaire.",
+   "explain": "EACH OF + plural + verbo singular.",
+   "skill": "everyeach",
+   "cefr": "B2"
+  },
+  {
+   "id": "t33-3-008",
+   "topic": "t33",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "There is nothing we can do about it.",
+   "explain": "THERE + NOTHING.",
+   "skill": "thereit",
+   "cefr": "B2"
+  },
+  {
+   "id": "t33-3-009",
+   "topic": "t33",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Most of the invoices were paid on time.",
+   "explain": "MOST OF THE.",
+   "skill": "allmost",
+   "cefr": "B2"
+  },
+  {
+   "id": "t33-3-010",
+   "topic": "t33",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Would you like some help?",
+    "Would you like any help?",
+    "Would you like no help?"
+   ],
+   "answer": "Would you like some help?",
+   "explain": "Oferta: SOME.",
+   "skill": "someany",
+   "cefr": "B2"
+  },
+  {
+   "id": "t33-3-011",
+   "topic": "t33",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "We've known each other for years.",
+    "We've known ourselves for years.",
+    "We've known us for years."
+   ],
+   "answer": "We've known each other for years.",
+   "explain": "EACH OTHER.",
+   "skill": "reflex",
+   "cefr": "B2"
+  },
+  {
+   "id": "t33-3-012",
+   "topic": "t33",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I have little money, so I can't travel.",
+    "I have a little money, so I can't travel.",
+    "I have few money, so I can't travel."
+   ],
+   "answer": "I have little money, so I can't travel.",
+   "explain": "LITTLE = quase nenhum (sentido negativo).",
+   "skill": "quant",
+   "cefr": "B2"
+  },
+  {
+   "id": "t33-3-013",
+   "topic": "t33",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "It's a good idea to check every contract.",
+    "It's a good idea to check all contract.",
+    "It's a good idea to check every contracts."
+   ],
+   "answer": "It's a good idea to check every contract.",
+   "explain": "EVERY + singular.",
+   "skill": "everyeach",
+   "cefr": "B2"
+  },
+  {
+   "id": "t33-3-014",
+   "topic": "t33",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Nobody knows the answer.",
+    "Nobody doesn't know the answer.",
+    "Nobody know the answer."
+   ],
+   "answer": "Nobody knows the answer.",
+   "explain": "NOBODY + verbo positivo, singular.",
+   "skill": "nonone",
+   "cefr": "B2"
+  },
+  {
+   "id": "t33-3-015",
+   "topic": "t33",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "A neighbor of ours is an architect.",
+    "A neighbor of us is an architect.",
+    "A neighbor of our is an architect."
+   ],
+   "answer": "A neighbor of ours is an architect.",
+   "explain": "OF OURS.",
+   "skill": "own",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t33",
+   "level": 2,
+   "skill": "reflex",
+   "cefr": "B1",
+   "id": "t33-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I feel tired today.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. FEEL não é reflexivo em inglês."
+  },
+  {
+   "topic": "t33",
+   "level": 2,
+   "skill": "own",
+   "cefr": "B1",
+   "id": "t33-2-003v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He's a friend of mine.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. OF MINE."
+  },
+  {
+   "topic": "t33",
+   "level": 2,
+   "skill": "thereit",
+   "cefr": "B1",
+   "id": "t33-2-004v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Is a long way to the airport.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: It's a long way to the airport. Distância: IT."
+  },
+  {
+   "topic": "t33",
+   "level": 2,
+   "skill": "nonone",
+   "cefr": "B1",
+   "id": "t33-2-006v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I didn't buy nothing.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I didn't buy anything. Uma negação: DIDN'T + ANYTHING."
+  },
+  {
+   "topic": "t33",
+   "level": 2,
+   "skill": "quant",
+   "cefr": "B1",
+   "id": "t33-2-008v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "There are a little people in the room.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: There are a few people in the room. PEOPLE é contável: A FEW."
+  },
+  {
+   "topic": "t33",
+   "level": 2,
+   "skill": "allmost",
+   "cefr": "B1",
+   "id": "t33-2-010v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The most of my colleagues work remotely.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Most of my colleagues work remotely. MOST OF + MY."
+  },
+  {
+   "topic": "t33",
+   "level": 2,
+   "skill": "botheither",
+   "cefr": "B1",
+   "id": "t33-2-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Neither of the offers aren't acceptable.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Neither of the offers is acceptable. NEITHER já é negativo."
+  },
+  {
+   "topic": "t33",
+   "level": 2,
+   "skill": "everyeach",
+   "cefr": "B1",
+   "id": "t33-2-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Every suppliers must sign the code of conduct.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Every supplier must sign the code of conduct. EVERY + singular."
+  },
+  {
+   "topic": "t33",
+   "level": 3,
+   "skill": "reflex",
+   "cefr": "B2",
+   "id": "t33-3-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We've known each other for years.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. EACH OTHER."
+  },
+  {
+   "topic": "t33",
+   "level": 3,
+   "skill": "everyeach",
+   "cefr": "B2",
+   "id": "t33-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It's a good idea to check every contract.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. EVERY + singular."
+  },
+  {
+   "topic": "t33",
+   "level": 3,
+   "skill": "nonone",
+   "cefr": "B2",
+   "id": "t33-3-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Nobody doesn't know the answer.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Nobody knows the answer. NOBODY + verbo positivo, singular."
+  },
+  {
+   "topic": "t33",
+   "level": 3,
+   "skill": "own",
+   "cefr": "B2",
+   "id": "t33-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "A neighbor of ours is an architect.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. OF OURS."
+  }
+ ]
+}

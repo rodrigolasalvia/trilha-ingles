@@ -9,7 +9,8 @@ from collections import Counter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SOURCES = ["bank_base.py", "bank_lote1.py", "bank_lote2.py", "bank_lote3.py", "bank_lote4.py", "bank_lote5.py",
-           "bank_extra_a.py", "bank_extra_b.py", "bank_extra_c.py"]
+           "bank_extra_a.py", "bank_extra_b.py", "bank_extra_c.py",
+           "bank_prof_a.py", "bank_prof_b.py"]
 
 # Classificação automática dos itens antigos (Lote 1), pela explicação do item. Ordem importa.
 def classify(topic, explain):
@@ -92,7 +93,8 @@ NO_JUDGE_TOPICS = {"t24", "t26"}
 NO_JUDGE = {"t05-2-018", "t06-2-010", "t08-3-014", "t11-2-005", "t14-2-013", "t15-2-015", "t17-2-003", "t17-2-007",
             "t18-2-007", "t18-2-010", "t19-2-001", "t19-2-006", "t20-2-003", "t21-2-011", "t22-2-007", "t23-2-015",
             "t17-2-018", "t18-2-019", "t19-2-018", "t22-2-022", "t27-2-018",
-            "t11-2-018", "t08-2-022", "t02-2-022", "t15-2-016", "t21-2-018", "t09-2-022"}
+            "t11-2-018", "t08-2-022", "t02-2-022", "t15-2-016", "t21-2-018", "t09-2-022",
+            "t39-2-001", "t35-3-012", "t35-3-010", "t35-2-004", "t35-2-010", "t33-3-010", "t33-3-012"}
 JUDGE_PROMPT = re.compile(r"\bcorret[oa]\b", re.I)
 
 def derive_judges(items):

@@ -1,0 +1,839 @@
+{
+ "topic": "t34",
+ "items": [
+  {
+   "id": "t34-1-001",
+   "topic": "t34",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "What's the reason ___ the delay?",
+   "options": [
+    "for",
+    "of",
+    "to"
+   ],
+   "answer": "for",
+   "explain": "REASON FOR.",
+   "skill": "nounprep",
+   "cefr": "B1"
+  },
+  {
+   "id": "t34-1-002",
+   "topic": "t34",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "There's been an increase ___ costs.",
+   "options": [
+    "in",
+    "of",
+    "on"
+   ],
+   "answer": "in",
+   "explain": "INCREASE IN.",
+   "skill": "nounprep",
+   "cefr": "B1"
+  },
+  {
+   "id": "t34-1-003",
+   "topic": "t34",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She's very good ___ negotiating.",
+   "options": [
+    "at",
+    "in",
+    "on"
+   ],
+   "answer": "at",
+   "explain": "GOOD AT.",
+   "skill": "adjgood",
+   "cefr": "B1"
+  },
+  {
+   "id": "t34-1-004",
+   "topic": "t34",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Who's responsible ___ this project?",
+   "options": [
+    "for",
+    "of",
+    "about"
+   ],
+   "answer": "for",
+   "explain": "RESPONSIBLE FOR.",
+   "skill": "adjgood",
+   "cefr": "B1"
+  },
+  {
+   "id": "t34-1-005",
+   "topic": "t34",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Are you interested ___ the position?",
+   "options": [
+    "in",
+    "on",
+    "for"
+   ],
+   "answer": "in",
+   "explain": "INTERESTED IN.",
+   "skill": "adjgood",
+   "cefr": "B1"
+  },
+  {
+   "id": "t34-1-006",
+   "topic": "t34",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We're very satisfied ___ the results.",
+   "options": [
+    "with",
+    "of",
+    "by"
+   ],
+   "answer": "with",
+   "explain": "SATISFIED WITH.",
+   "skill": "adjfeel",
+   "cefr": "B1"
+  },
+  {
+   "id": "t34-1-007",
+   "topic": "t34",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It was very kind ___ you to help me.",
+   "options": [
+    "of",
+    "to",
+    "for"
+   ],
+   "answer": "of",
+   "explain": "IT'S KIND OF YOU TO...",
+   "skill": "adjfeel",
+   "cefr": "B1"
+  },
+  {
+   "id": "t34-1-008",
+   "topic": "t34",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Who does this phone belong ___?",
+   "options": [
+    "to",
+    "for",
+    "of"
+   ],
+   "answer": "to",
+   "explain": "BELONG TO.",
+   "skill": "vto",
+   "cefr": "B1"
+  },
+  {
+   "id": "t34-1-009",
+   "topic": "t34",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Can you explain the process ___ me?",
+   "options": [
+    "to",
+    "for",
+    "—"
+   ],
+   "answer": "to",
+   "explain": "EXPLAIN + coisa + TO + pessoa.",
+   "skill": "vto",
+   "cefr": "B1"
+  },
+  {
+   "id": "t34-1-010",
+   "topic": "t34",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I've applied ___ a new job.",
+   "options": [
+    "for",
+    "to",
+    "at"
+   ],
+   "answer": "for",
+   "explain": "APPLY FOR (o cargo).",
+   "skill": "vfor",
+   "cefr": "B1"
+  },
+  {
+   "id": "t34-1-011",
+   "topic": "t34",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We're waiting ___ the client's answer.",
+   "options": [
+    "for",
+    "—",
+    "to"
+   ],
+   "answer": "for",
+   "explain": "WAIT FOR.",
+   "skill": "vfor",
+   "cefr": "B1"
+  },
+  {
+   "id": "t34-1-012",
+   "topic": "t34",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The course consists ___ five modules.",
+   "options": [
+    "of",
+    "in",
+    "from"
+   ],
+   "answer": "of",
+   "explain": "CONSIST OF.",
+   "skill": "vof",
+   "cefr": "B1"
+  },
+  {
+   "id": "t34-1-013",
+   "topic": "t34",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "This song reminds me ___ my childhood.",
+   "options": [
+    "of",
+    "about",
+    "from"
+   ],
+   "answer": "of",
+   "explain": "REMIND + pessoa + OF.",
+   "skill": "vof",
+   "cefr": "B1"
+  },
+  {
+   "id": "t34-1-014",
+   "topic": "t34",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It depends ___ the budget.",
+   "options": [
+    "on",
+    "of",
+    "from"
+   ],
+   "answer": "on",
+   "explain": "DEPEND ON.",
+   "skill": "von",
+   "cefr": "B1"
+  },
+  {
+   "id": "t34-1-015",
+   "topic": "t34",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The company specializes ___ risk management.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": "in",
+   "explain": "SPECIALIZE IN.",
+   "skill": "vin",
+   "cefr": "B1"
+  },
+  {
+   "id": "t34-2-001",
+   "topic": "t34",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Is there a solution ___ (preposição) this problem?",
+   "answer": [
+    "to"
+   ],
+   "explain": "SOLUTION TO.",
+   "skill": "nounprep",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-2-002",
+   "topic": "t34",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Our relationship ___ (preposição) the supplier is excellent.",
+   "answer": [
+    "with"
+   ],
+   "explain": "RELATIONSHIP WITH.",
+   "skill": "nounprep",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-2-003",
+   "topic": "t34",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She's very good in mathematics.",
+   "options": [
+    "She's very good at mathematics.",
+    "She's very good on mathematics.",
+    "She's very good with mathematics in."
+   ],
+   "answer": "She's very good at mathematics.",
+   "explain": "GOOD AT.",
+   "skill": "adjgood",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-2-004",
+   "topic": "t34",
+   "level": 2,
+   "type": "gap",
+   "prompt": "This model is similar ___ (preposição) the old one.",
+   "answer": [
+    "to"
+   ],
+   "explain": "SIMILAR TO.",
+   "skill": "adjgood",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-2-005",
+   "topic": "t34",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'm tired about waiting.",
+   "options": [
+    "I'm tired of waiting.",
+    "I'm tired to waiting.",
+    "I'm tired for waiting."
+   ],
+   "answer": "I'm tired of waiting.",
+   "explain": "TIRED OF + -ING.",
+   "skill": "adjfeel",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-2-006",
+   "topic": "t34",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'm sorry ___ (preposição) the confusion yesterday.",
+   "answer": [
+    "about",
+    "for"
+   ],
+   "explain": "SORRY ABOUT / FOR.",
+   "skill": "adjfeel",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-2-007",
+   "topic": "t34",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I need to talk with you to something.",
+   "options": [
+    "I need to talk to you about something.",
+    "I need to talk you about something.",
+    "I need talk to you something."
+   ],
+   "answer": "I need to talk to you about something.",
+   "explain": "TALK TO + pessoa + ABOUT + assunto.",
+   "skill": "vto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-2-008",
+   "topic": "t34",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Please reply ___ (preposição) this e-mail by Friday.",
+   "answer": [
+    "to"
+   ],
+   "explain": "REPLY TO.",
+   "skill": "vto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-2-009",
+   "topic": "t34",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'm looking my keys.",
+   "options": [
+    "I'm looking for my keys.",
+    "I'm looking at my keys for.",
+    "I'm looking to my keys."
+   ],
+   "answer": "I'm looking for my keys.",
+   "explain": "LOOK FOR = procurar.",
+   "skill": "vfor",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-2-010",
+   "topic": "t34",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The client complained ___ (preposição) the delay.",
+   "answer": [
+    "about"
+   ],
+   "explain": "COMPLAIN ABOUT.",
+   "skill": "vfor",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-2-011",
+   "topic": "t34",
+   "level": 2,
+   "type": "fix",
+   "prompt": "They accused him for fraud.",
+   "options": [
+    "They accused him of fraud.",
+    "They accused him with fraud.",
+    "They accused him about fraud."
+   ],
+   "answer": "They accused him of fraud.",
+   "explain": "ACCUSE OF.",
+   "skill": "vof",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-2-012",
+   "topic": "t34",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Have you heard ___ (preposição) the new CEO? (notícias sobre)",
+   "answer": [
+    "about",
+    "of"
+   ],
+   "explain": "HEAR ABOUT / OF.",
+   "skill": "vof",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-2-013",
+   "topic": "t34",
+   "level": 2,
+   "type": "fix",
+   "prompt": "You can count with me.",
+   "options": [
+    "You can count on me.",
+    "You can count to me.",
+    "You can count in me."
+   ],
+   "answer": "You can count on me.",
+   "explain": "COUNT ON.",
+   "skill": "von",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-2-014",
+   "topic": "t34",
+   "level": 2,
+   "type": "gap",
+   "prompt": "She insisted ___ (preposição) paying for lunch.",
+   "answer": [
+    "on"
+   ],
+   "explain": "INSIST ON + -ING.",
+   "skill": "von",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-2-015",
+   "topic": "t34",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We need to invest ___ (preposição) training.",
+   "answer": [
+    "in"
+   ],
+   "explain": "INVEST IN.",
+   "skill": "vin",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-3-001",
+   "topic": "t34",
+   "level": 3,
+   "type": "gap",
+   "prompt": "There's a huge demand ___ (preposição) this product.",
+   "answer": [
+    "for"
+   ],
+   "explain": "DEMAND FOR.",
+   "skill": "nounprep",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-3-002",
+   "topic": "t34",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Is your manager aware ___ (preposição) the problem?",
+   "answer": [
+    "of"
+   ],
+   "explain": "AWARE OF.",
+   "skill": "adjgood",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-3-003",
+   "topic": "t34",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'm really proud ___ (preposição) my team.",
+   "answer": [
+    "of"
+   ],
+   "explain": "PROUD OF.",
+   "skill": "adjfeel",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-3-004",
+   "topic": "t34",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Can you look ___ (preposição) the kids this afternoon? (cuidar)",
+   "answer": [
+    "after"
+   ],
+   "explain": "LOOK AFTER = cuidar de.",
+   "skill": "vfor",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-3-005",
+   "topic": "t34",
+   "level": 3,
+   "type": "gap",
+   "prompt": "This regulation protects consumers ___ (preposição) fraud.",
+   "answer": [
+    "from",
+    "against"
+   ],
+   "explain": "PROTECT FROM.",
+   "skill": "vof",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-3-006",
+   "topic": "t34",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The document was translated ___ (preposição) English.",
+   "answer": [
+    "into"
+   ],
+   "explain": "TRANSLATE INTO.",
+   "skill": "vin",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-3-007",
+   "topic": "t34",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We spent too much money on travel this year.",
+   "explain": "SPEND ON.",
+   "skill": "von",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-3-008",
+   "topic": "t34",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "She congratulated me on the promotion.",
+   "explain": "CONGRATULATE ON.",
+   "skill": "von",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-3-009",
+   "topic": "t34",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "The supplier provided us with all the documents.",
+   "explain": "PROVIDE WITH.",
+   "skill": "vin",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-3-010",
+   "topic": "t34",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Who is in charge of supplier onboarding?",
+   "explain": "IN CHARGE OF.",
+   "skill": "adjgood",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-3-011",
+   "topic": "t34",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I don't agree with you on that point.",
+    "I don't agree to you on that point.",
+    "I don't agree you on that point."
+   ],
+   "answer": "I don't agree with you on that point.",
+   "explain": "AGREE WITH (pessoa) / ON (ponto).",
+   "skill": "vin",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-3-012",
+   "topic": "t34",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "The damage to the building was serious.",
+    "The damage of the building was serious.",
+    "The damage on the building was serious."
+   ],
+   "answer": "The damage to the building was serious.",
+   "explain": "DAMAGE TO.",
+   "skill": "nounprep",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-3-013",
+   "topic": "t34",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "He's suffering from stress.",
+    "He's suffering of stress.",
+    "He's suffering with stress of."
+   ],
+   "answer": "He's suffering from stress.",
+   "explain": "SUFFER FROM.",
+   "skill": "vof",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-3-014",
+   "topic": "t34",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Don't laugh at me!",
+    "Don't laugh to me!",
+    "Don't laugh of me!"
+   ],
+   "answer": "Don't laugh at me!",
+   "explain": "LAUGH AT.",
+   "skill": "vto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t34-3-015",
+   "topic": "t34",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "She's angry with me about the mistake.",
+    "She's angry to me of the mistake.",
+    "She's angry on me for the mistake."
+   ],
+   "answer": "She's angry with me about the mistake.",
+   "explain": "ANGRY WITH (pessoa) / ABOUT (algo).",
+   "skill": "adjfeel",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t34",
+   "level": 2,
+   "skill": "adjgood",
+   "cefr": "B2",
+   "id": "t34-2-003v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She's very good at mathematics.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. GOOD AT."
+  },
+  {
+   "topic": "t34",
+   "level": 2,
+   "skill": "adjfeel",
+   "cefr": "B2",
+   "id": "t34-2-005v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm tired of waiting.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. TIRED OF + -ING."
+  },
+  {
+   "topic": "t34",
+   "level": 2,
+   "skill": "vto",
+   "cefr": "B2",
+   "id": "t34-2-007v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I need to talk to you about something.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. TALK TO + pessoa + ABOUT + assunto."
+  },
+  {
+   "topic": "t34",
+   "level": 2,
+   "skill": "vfor",
+   "cefr": "B2",
+   "id": "t34-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm looking for my keys.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. LOOK FOR = procurar."
+  },
+  {
+   "topic": "t34",
+   "level": 2,
+   "skill": "vof",
+   "cefr": "B2",
+   "id": "t34-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "They accused him of fraud.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. ACCUSE OF."
+  },
+  {
+   "topic": "t34",
+   "level": 2,
+   "skill": "von",
+   "cefr": "B2",
+   "id": "t34-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "You can count on me.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. COUNT ON."
+  },
+  {
+   "topic": "t34",
+   "level": 3,
+   "skill": "vin",
+   "cefr": "B2",
+   "id": "t34-3-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I don't agree with you on that point.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. AGREE WITH (pessoa) / ON (ponto)."
+  },
+  {
+   "topic": "t34",
+   "level": 3,
+   "skill": "nounprep",
+   "cefr": "B2",
+   "id": "t34-3-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The damage of the building was serious.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The damage to the building was serious. DAMAGE TO."
+  },
+  {
+   "topic": "t34",
+   "level": 3,
+   "skill": "vof",
+   "cefr": "B2",
+   "id": "t34-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He's suffering from stress.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. SUFFER FROM."
+  },
+  {
+   "topic": "t34",
+   "level": 3,
+   "skill": "vto",
+   "cefr": "B2",
+   "id": "t34-3-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Don't laugh to me!",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Don't laugh at me! LAUGH AT."
+  },
+  {
+   "topic": "t34",
+   "level": 3,
+   "skill": "adjfeel",
+   "cefr": "B2",
+   "id": "t34-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She's angry with me about the mistake.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. ANGRY WITH (pessoa) / ABOUT (algo)."
+  }
+ ]
+}

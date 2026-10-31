@@ -1,0 +1,813 @@
+{
+ "topic": "t30",
+ "items": [
+  {
+   "id": "t30-1-001",
+   "topic": "t30",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "After a long negotiation, we ___ get a 10% discount.",
+   "options": [
+    "were able to",
+    "could",
+    "can"
+   ],
+   "answer": "were able to",
+   "explain": "Conseguiu numa ocasião específica: WAS/WERE ABLE TO.",
+   "skill": "ableto",
+   "cefr": "B1"
+  },
+  {
+   "id": "t30-1-002",
+   "topic": "t30",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I haven't ___ to reach him all day.",
+   "options": [
+    "been able",
+    "could",
+    "can"
+   ],
+   "answer": "been able",
+   "explain": "CAN não tem present perfect: HAVE BEEN ABLE TO.",
+   "skill": "ableto",
+   "cefr": "B1"
+  },
+  {
+   "id": "t30-1-003",
+   "topic": "t30",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We ___ ask the client for more time. What do you think?",
+   "options": [
+    "could",
+    "must",
+    "would"
+   ],
+   "answer": "could",
+   "explain": "Sugestão: COULD.",
+   "skill": "couldnow",
+   "cefr": "B1"
+  },
+  {
+   "id": "t30-1-004",
+   "topic": "t30",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She's been working for 12 hours. She ___ be exhausted.",
+   "options": [
+    "must",
+    "can't",
+    "should"
+   ],
+   "answer": "must",
+   "explain": "Dedução positiva: MUST.",
+   "skill": "mustcant",
+   "cefr": "B1"
+  },
+  {
+   "id": "t30-1-005",
+   "topic": "t30",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "That ___ be the right figure. It's too high.",
+   "options": [
+    "can't",
+    "mustn't",
+    "shouldn't"
+   ],
+   "answer": "can't",
+   "explain": "Dedução negativa: CAN'T.",
+   "skill": "mustcant",
+   "cefr": "B1"
+  },
+  {
+   "id": "t30-1-006",
+   "topic": "t30",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Take an umbrella. It ___ rain later.",
+   "options": [
+    "might",
+    "must",
+    "can't"
+   ],
+   "answer": "might",
+   "explain": "Possibilidade: MIGHT.",
+   "skill": "maymight",
+   "cefr": "B1"
+  },
+  {
+   "id": "t30-1-007",
+   "topic": "t30",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "You ___ wear a tie. The meeting is informal.",
+   "options": [
+    "don't have to",
+    "mustn't",
+    "can't"
+   ],
+   "answer": "don't have to",
+   "explain": "Não é necessário: DON'T HAVE TO.",
+   "skill": "haveto",
+   "cefr": "B1"
+  },
+  {
+   "id": "t30-1-008",
+   "topic": "t30",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "You ___ share this file outside the company.",
+   "options": [
+    "mustn't",
+    "don't have to",
+    "needn't"
+   ],
+   "answer": "mustn't",
+   "explain": "Proibido: MUSTN'T.",
+   "skill": "haveto",
+   "cefr": "B1"
+  },
+  {
+   "id": "t30-1-009",
+   "topic": "t30",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "You ___ talk to HR before you resign.",
+   "options": [
+    "should",
+    "would",
+    "might to"
+   ],
+   "answer": "should",
+   "explain": "Conselho: SHOULD.",
+   "skill": "should",
+   "cefr": "B1"
+  },
+  {
+   "id": "t30-1-010",
+   "topic": "t30",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It's late. We'd ___ go.",
+   "options": [
+    "better",
+    "rather",
+    "best to"
+   ],
+   "answer": "better",
+   "explain": "HAD BETTER + verbo.",
+   "skill": "better",
+   "cefr": "B1"
+  },
+  {
+   "id": "t30-1-011",
+   "topic": "t30",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ you send me the agenda, please?",
+   "options": [
+    "Could",
+    "Shall",
+    "Must"
+   ],
+   "answer": "Could",
+   "explain": "Pedido educado: COULD YOU...?",
+   "skill": "requests",
+   "cefr": "B1"
+  },
+  {
+   "id": "t30-1-012",
+   "topic": "t30",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ I open the window? It's hot.",
+   "options": [
+    "Shall",
+    "Will",
+    "Would"
+   ],
+   "answer": "Shall",
+   "explain": "Oferta: SHALL I...?",
+   "skill": "requests",
+   "cefr": "B1"
+  },
+  {
+   "id": "t30-1-013",
+   "topic": "t30",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Yesterday I ___ leave early because my son was sick.",
+   "options": [
+    "had to",
+    "must",
+    "have to"
+   ],
+   "answer": "had to",
+   "explain": "Passado de MUST/HAVE TO: HAD TO.",
+   "skill": "haveto",
+   "cefr": "B1"
+  },
+  {
+   "id": "t30-1-014",
+   "topic": "t30",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He ___ be in the office. His car is in the parking lot.",
+   "options": [
+    "must",
+    "can't",
+    "might not"
+   ],
+   "answer": "must",
+   "explain": "Evidência forte: MUST.",
+   "skill": "mustcant",
+   "cefr": "B1"
+  },
+  {
+   "id": "t30-1-015",
+   "topic": "t30",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It's time we ___ a decision.",
+   "options": [
+    "made",
+    "make",
+    "will make"
+   ],
+   "answer": "made",
+   "explain": "IT'S TIME + sujeito + passado.",
+   "skill": "better",
+   "cefr": "B1"
+  },
+  {
+   "id": "t30-2-001",
+   "topic": "t30",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I could finish the report yesterday, despite the problems.",
+   "options": [
+    "I managed to finish the report yesterday, despite the problems.",
+    "I could finished the report yesterday, despite the problems.",
+    "I can finish the report yesterday, despite the problems."
+   ],
+   "answer": "I managed to finish the report yesterday, despite the problems.",
+   "explain": "Uma conquista específica: MANAGED TO / WAS ABLE TO.",
+   "skill": "ableto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-2-002",
+   "topic": "t30",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I hope I'll ___ (conseguir: be able) to join you next week.",
+   "answer": [
+    "be able"
+   ],
+   "explain": "Futuro de CAN: WILL BE ABLE TO.",
+   "skill": "ableto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-2-003",
+   "topic": "t30",
+   "level": 2,
+   "type": "gap",
+   "prompt": "It ___ (poderia) be a system error. Let's check.",
+   "answer": [
+    "could",
+    "might",
+    "may"
+   ],
+   "explain": "Possibilidade: COULD / MIGHT.",
+   "skill": "couldnow",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-2-004",
+   "topic": "t30",
+   "level": 2,
+   "type": "fix",
+   "prompt": "He must to be at lunch.",
+   "options": [
+    "He must be at lunch.",
+    "He must being at lunch.",
+    "He musts be at lunch."
+   ],
+   "answer": "He must be at lunch.",
+   "explain": "MUST + verbo base.",
+   "skill": "mustcant",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-2-005",
+   "topic": "t30",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Don't call her now. She ___ (pode estar: drive).",
+   "answer": [
+    "might be driving",
+    "may be driving",
+    "could be driving"
+   ],
+   "explain": "MIGHT BE + -ING.",
+   "skill": "maymight",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-2-006",
+   "topic": "t30",
+   "level": 2,
+   "type": "gap",
+   "prompt": "There's nothing else to do. We might as ___ (bem) go home.",
+   "answer": [
+    "well"
+   ],
+   "explain": "MIGHT AS WELL = não há motivo para não.",
+   "skill": "maymight",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-2-007",
+   "topic": "t30",
+   "level": 2,
+   "type": "fix",
+   "prompt": "You don't must park here.",
+   "options": [
+    "You mustn't park here.",
+    "You don't have park here.",
+    "You mustn't to park here."
+   ],
+   "answer": "You mustn't park here.",
+   "explain": "Proibição: MUSTN'T.",
+   "skill": "haveto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-2-008",
+   "topic": "t30",
+   "level": 2,
+   "type": "gap",
+   "prompt": "You ___ (não precisa) come in tomorrow. It's a holiday.",
+   "answer": [
+    "don't have to",
+    "needn't",
+    "don't need to"
+   ],
+   "explain": "Não é necessário.",
+   "skill": "haveto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-2-009",
+   "topic": "t30",
+   "level": 2,
+   "type": "fix",
+   "prompt": "You should to check the clause again.",
+   "options": [
+    "You should check the clause again.",
+    "You should checking the clause again.",
+    "You shoulds check the clause again."
+   ],
+   "answer": "You should check the clause again.",
+   "explain": "SHOULD + verbo base.",
+   "skill": "should",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-2-010",
+   "topic": "t30",
+   "level": 2,
+   "type": "gap",
+   "prompt": "You ___ (deveria: ought) to tell your manager.",
+   "answer": [
+    "ought"
+   ],
+   "explain": "OUGHT TO = SHOULD.",
+   "skill": "should",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-2-011",
+   "topic": "t30",
+   "level": 2,
+   "type": "fix",
+   "prompt": "You'd better to leave now.",
+   "options": [
+    "You'd better leave now.",
+    "You'd better leaving now.",
+    "You'd better to leaving now."
+   ],
+   "answer": "You'd better leave now.",
+   "explain": "HAD BETTER sem TO.",
+   "skill": "better",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-2-012",
+   "topic": "t30",
+   "level": 2,
+   "type": "gap",
+   "prompt": "You'd better ___ (not / be) late tomorrow.",
+   "answer": [
+    "not be"
+   ],
+   "explain": "HAD BETTER NOT + verbo.",
+   "skill": "better",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-2-013",
+   "topic": "t30",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Do you mind if I would open the door?",
+   "options": [
+    "Do you mind if I open the door?",
+    "Do you mind if I opened the door now?",
+    "Do you mind I open the door?"
+   ],
+   "answer": "Do you mind if I open the door?",
+   "explain": "DO YOU MIND IF I + presente.",
+   "skill": "requests",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-2-014",
+   "topic": "t30",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (Gostaria) you like something to drink?",
+   "answer": [
+    "Would"
+   ],
+   "explain": "Convite: WOULD YOU LIKE...?",
+   "skill": "requests",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-2-015",
+   "topic": "t30",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The lights are off. They ___ (não podem) be at home.",
+   "answer": [
+    "can't",
+    "cannot"
+   ],
+   "explain": "Dedução negativa: CAN'T.",
+   "skill": "mustcant",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-3-001",
+   "topic": "t30",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I've ___ (be able) to save some money this year.",
+   "answer": [
+    "been able"
+   ],
+   "explain": "HAVE BEEN ABLE TO.",
+   "skill": "ableto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-3-002",
+   "topic": "t30",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'm so happy. I couldn't ___ (be) happier!",
+   "answer": [
+    "be"
+   ],
+   "explain": "COULD + comparativo negativo = não poderia ser mais.",
+   "skill": "couldnow",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-3-003",
+   "topic": "t30",
+   "level": 3,
+   "type": "gap",
+   "prompt": "It ___ (must / be) hard to manage 15,000 suppliers.",
+   "answer": [
+    "must be"
+   ],
+   "explain": "Dedução: MUST BE.",
+   "skill": "mustcant",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-3-004",
+   "topic": "t30",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'm not sure. The meeting ___ (talvez) be cancelled.",
+   "answer": [
+    "may",
+    "might",
+    "could"
+   ],
+   "explain": "MAY / MIGHT.",
+   "skill": "maymight",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-3-005",
+   "topic": "t30",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I ___ (tive que) work on Saturday to finish the audit.",
+   "answer": [
+    "had to"
+   ],
+   "explain": "HAD TO.",
+   "skill": "haveto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-3-006",
+   "topic": "t30",
+   "level": 3,
+   "type": "gap",
+   "prompt": "It's essential that every invoice ___ (should) be approved.",
+   "answer": [
+    "should"
+   ],
+   "explain": "Formal: IMPORTANT/ESSENTIAL THAT + SHOULD.",
+   "skill": "should",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-3-007",
+   "topic": "t30",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "You had better check the figures again.",
+   "explain": "HAD BETTER + verbo.",
+   "skill": "better",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-3-008",
+   "topic": "t30",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Would you mind closing the door, please?",
+   "explain": "WOULD YOU MIND + -ING.",
+   "skill": "requests",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-3-009",
+   "topic": "t30",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We managed to finish the project on time.",
+   "explain": "MANAGED TO.",
+   "skill": "ableto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-3-010",
+   "topic": "t30",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "He can't be working today. It's Sunday.",
+   "explain": "CAN'T BE + -ING.",
+   "skill": "mustcant",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-3-011",
+   "topic": "t30",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "You don't have to bring your laptop. We have one.",
+    "You mustn't bring your laptop. We have one.",
+    "You haven't to bring your laptop. We have one."
+   ],
+   "answer": "You don't have to bring your laptop. We have one.",
+   "explain": "Desnecessário: DON'T HAVE TO.",
+   "skill": "haveto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-3-012",
+   "topic": "t30",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual sugestão soa natural?",
+   "options": [
+    "We could try another supplier.",
+    "We must try another supplier maybe.",
+    "We can to try another supplier."
+   ],
+   "answer": "We could try another supplier.",
+   "explain": "Sugestão: COULD.",
+   "skill": "couldnow",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-3-013",
+   "topic": "t30",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "It's time we went home.",
+    "It's time we go home now to.",
+    "It's time we will go home."
+   ],
+   "answer": "It's time we went home.",
+   "explain": "IT'S TIME + passado.",
+   "skill": "better",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-3-014",
+   "topic": "t30",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual oferta é natural?",
+   "options": [
+    "Shall I call you a taxi?",
+    "Will I call you a taxi?",
+    "Do I call you a taxi?"
+   ],
+   "answer": "Shall I call you a taxi?",
+   "explain": "SHALL I...?",
+   "skill": "requests",
+   "cefr": "B2"
+  },
+  {
+   "id": "t30-3-015",
+   "topic": "t30",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "She might be stuck in traffic.",
+    "She might stuck in traffic.",
+    "She mights be stuck in traffic."
+   ],
+   "answer": "She might be stuck in traffic.",
+   "explain": "MIGHT BE.",
+   "skill": "maymight",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t30",
+   "level": 2,
+   "skill": "ableto",
+   "cefr": "B2",
+   "id": "t30-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I managed to finish the report yesterday, despite the problems.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Uma conquista específica: MANAGED TO / WAS ABLE TO."
+  },
+  {
+   "topic": "t30",
+   "level": 2,
+   "skill": "mustcant",
+   "cefr": "B2",
+   "id": "t30-2-004v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He must to be at lunch.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: He must be at lunch. MUST + verbo base."
+  },
+  {
+   "topic": "t30",
+   "level": 2,
+   "skill": "haveto",
+   "cefr": "B2",
+   "id": "t30-2-007v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "You mustn't park here.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Proibição: MUSTN'T."
+  },
+  {
+   "topic": "t30",
+   "level": 2,
+   "skill": "should",
+   "cefr": "B2",
+   "id": "t30-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "You should check the clause again.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. SHOULD + verbo base."
+  },
+  {
+   "topic": "t30",
+   "level": 2,
+   "skill": "better",
+   "cefr": "B2",
+   "id": "t30-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "You'd better leave now.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. HAD BETTER sem TO."
+  },
+  {
+   "topic": "t30",
+   "level": 2,
+   "skill": "requests",
+   "cefr": "B2",
+   "id": "t30-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Do you mind if I open the door?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. DO YOU MIND IF I + presente."
+  },
+  {
+   "topic": "t30",
+   "level": 3,
+   "skill": "haveto",
+   "cefr": "B2",
+   "id": "t30-3-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "You don't have to bring your laptop. We have one.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Desnecessário: DON'T HAVE TO."
+  },
+  {
+   "topic": "t30",
+   "level": 3,
+   "skill": "better",
+   "cefr": "B2",
+   "id": "t30-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "It's time we went home.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. IT'S TIME + passado."
+  },
+  {
+   "topic": "t30",
+   "level": 3,
+   "skill": "maymight",
+   "cefr": "B2",
+   "id": "t30-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She might be stuck in traffic.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. MIGHT BE."
+  }
+ ]
+}

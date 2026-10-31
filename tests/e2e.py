@@ -47,6 +47,8 @@ def answer(page, item, correct):
     # Reforço da regra aparece só quando erra
     assert (page.locator('.reforco').count() == 1) == (not correct), item['id']
 
+FIT = []
+
 def play_session(page, wrong_rule, shot_prefix=None):
     """Responde uma sessão inteira. wrong_rule(item, k) -> True para errar."""
     levels, seen = set(), []
@@ -56,6 +58,9 @@ def play_session(page, wrong_rule, shot_prefix=None):
         if k == 0:
             page.click('#hint-btn'); assert page.locator('#hint-box').is_visible(), 'dica não abriu'
             if shot_prefix: page.screenshot(path=f'{SHOTS}/{shot_prefix}-dica.png', full_page=True)
+        # Galaxy S25 (360×780): enunciado e opções cabem acima do botão fixo, sem rolar
+        fit = page.evaluate("() => { const q = document.querySelector('.q').getBoundingClientRect(); const b = document.querySelector('.actions').getBoundingClientRect(); return q.bottom <= b.top + 4; }")
+        FIT.append(fit)
         wrong = wrong_rule(it, k)
         answer(page, it, not wrong)
         if shot_prefix and wrong and not os.path.exists(f'{SHOTS}/{shot_prefix}-erro.png'):
@@ -64,6 +69,12 @@ def play_session(page, wrong_rule, shot_prefix=None):
     page.wait_for_selector('.score')
     return levels, seen
 
+NEW_DAY_JS = "() => { const k = 'trilha-ingles:state'; const s = JSON.parse(localStorage.getItem(k)); for (const r of Object.values(s.items)) delete r.first; localStorage.setItem(k, JSON.stringify(s)); }"
+
+def new_day(page):
+    # O app limita exercícios novos por dia; o teste simula 'outro dia' para continuar jogando sessões novas.
+    page.evaluate(NEW_DAY_JS); page.reload(); page.wait_for_selector('.main')
+
 def main():
     srv = subprocess.Popen([sys.executable, '-m', 'http.server', str(PORT), '-d', ROOT], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     time.sleep(1)
@@ -71,7 +82,7 @@ def main():
     try:
         with sync_playwright() as p:
             b = p.chromium.launch()
-            ctx = b.new_context(viewport={'width': 390, 'height': 844}, device_scale_factor=2, is_mobile=True, has_touch=True)
+            ctx = b.new_context(viewport={'width': 360, 'height': 780}, device_scale_factor=2, is_mobile=True, has_touch=True)
             ctx.grant_permissions(['clipboard-read', 'clipboard-write'], origin=URL.rstrip('/'))
             page = ctx.new_page()
             page.on('pageerror', lambda e: errors.append(str(e)))
@@ -96,8 +107,8 @@ def main():
 
             # Início organizado por módulos, como nos mapas
             page.goto(URL); page.wait_for_selector('.topic')
-            assert page.locator('.topic').count() == 10, page.locator('.topic').count()
-            assert page.locator('.group').count() == 6 and page.locator('.group-soon').count() == 3
+            assert page.locator('.topic').count() == 23, page.locator('.topic').count()
+            assert page.locator('.group').count() == 8 and page.locator('.group-soon').count() == 3
             assert page.locator('.tabbar a').count() == 4
             assert page.locator('.unlock-card').count() == 0
             body = page.locator('main').inner_text()
@@ -120,6 +131,7 @@ def main():
             rule = lambda it, k: (it['topic'], it['skill']) in weak
             all_levels = set()
             for i, topic in enumerate(['t01', 'r01', 'r02', 't06']):
+                new_day(page)
                 page.goto(URL + f'#/topic/{topic}'); page.wait_for_selector('#practice')
                 page.click('#practice'); page.wait_for_selector('.q')
                 lv, last_seen = play_session(page, rule, shot_prefix='03' if i == 0 else None)
@@ -141,6 +153,7 @@ def main():
 
             # Treino de um padrão específico pela página do tema (errando tudo, para criar um ponto fraco claro)
             for topic, idx in [('t06', 0), ('t06', 1)]:
+                new_day(page)
                 page.goto(URL + f'#/topic/{topic}'); page.wait_for_selector('.skill')
                 page.locator('.skill summary').nth(idx).click()
                 page.locator('.skill').nth(idx).locator('[data-skill]').click(); page.wait_for_selector('.q')
@@ -155,10 +168,13 @@ def main():
             page.goto(URL + '#/reinforce'); page.wait_for_selector('.page-head')
             assert page.locator('#reinforce').count() == 1
             nweak = page.locator('.skill.weak').count()
+            print(f'cabem na tela: {sum(FIT)}/{len(FIT)}')
+            assert sum(FIT) >= 0.95 * len(FIT), 'exercícios não cabem na tela do celular'
             print('padrões fracos exibidos:', nweak, page.locator('.weak-title').all_inner_texts())
             assert nweak >= 2
             assert 'MAKE × DO' in page.locator('.focus-card').inner_text()
             page.screenshot(path=f'{SHOTS}/05-reforcar.png', full_page=True)
+            new_day(page); page.goto(URL + '#/reinforce'); page.wait_for_selector('#reinforce')
             page.click('#reinforce'); page.wait_for_selector('.q')
             focus = 0
             n = int(page.locator('.count').inner_text().split('/')[1])
@@ -185,7 +201,7 @@ def main():
             # Lote liberado: aparece com aviso único, sem revelar critério
             page.evaluate("() => { const s = JSON.parse(localStorage.getItem('trilha-ingles:state')); s.unlocked = { lote3: Date.now() }; localStorage.setItem('trilha-ingles:state', JSON.stringify(s)); }")
             page.goto(URL); page.reload(); page.wait_for_selector('.unlock-card')
-            assert page.locator('.topic').count() == 19, page.locator('.topic').count()
+            assert page.locator('.topic').count() == 32, page.locator('.topic').count()
             assert page.locator('.group-soon').count() == 2
             assert 'novo lote liberado' in page.locator('.unlock-card').inner_text().lower()
             page.wait_for_timeout(600); page.screenshot(path=f'{SHOTS}/07-lote-liberado.png', full_page=False)
@@ -193,7 +209,7 @@ def main():
             assert page.locator('.unlock-card').count() == 0
             page.reload(); page.wait_for_selector('.topic')
             assert page.locator('.unlock-card').count() == 0, 'aviso reapareceu'
-            page.goto(URL + '#/topic/t09'); page.wait_for_selector('#practice')
+            new_day(page); page.goto(URL + '#/topic/t09'); page.wait_for_selector('#practice')
             page.click('#practice'); page.wait_for_selector('.q')
             assert find_item(page)['topic'] == 't09'
             assert page.locator('.q-use').count() == 1, 'sem dica de uso'
@@ -202,7 +218,7 @@ def main():
             # volta ao estado anterior para o resto do teste
             page.evaluate("() => { const s = JSON.parse(localStorage.getItem('trilha-ingles:state')); s.unlocked = {}; s.announced = []; localStorage.setItem('trilha-ingles:state', JSON.stringify(s)); }")
             page.goto(URL); page.reload(); page.wait_for_selector('.topic')
-            assert page.locator('.topic').count() == 10
+            assert page.locator('.topic').count() == 23
             page.goto(URL + '#/history'); page.wait_for_selector('.ladder')
 
             # Persistência e backup
@@ -262,7 +278,7 @@ def main():
             ctx.set_offline(False)
 
             # Modo escuro
-            dark = b.new_context(viewport={'width': 390, 'height': 844}, color_scheme='dark', device_scale_factor=2)
+            dark = b.new_context(viewport={'width': 360, 'height': 780}, color_scheme='dark', device_scale_factor=2)
             dp = dark.new_page(); dp.goto(URL); dp.wait_for_selector('.topic')
             dp.screenshot(path=f'{SHOTS}/07-escuro.png', full_page=True)
             b.close()

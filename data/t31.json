@@ -1,0 +1,840 @@
+{
+ "topic": "t31",
+ "items": [
+  {
+   "id": "t31-1-001",
+   "topic": "t31",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Who ___ the meeting yesterday?",
+   "options": [
+    "cancelled",
+    "did cancel",
+    "did cancelled"
+   ],
+   "answer": "cancelled",
+   "explain": "WHO como sujeito: sem DID.",
+   "skill": "wh",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-1-002",
+   "topic": "t31",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Who ___ yesterday? (você ligou para quem?)",
+   "options": [
+    "did you call",
+    "you called",
+    "called you"
+   ],
+   "answer": "did you call",
+   "explain": "WHO como objeto: DID + sujeito + verbo.",
+   "skill": "wh",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-1-003",
+   "topic": "t31",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "What ___ about? (do que vocês falaram?)",
+   "options": [
+    "did you talk",
+    "you talked",
+    "did you talk about it"
+   ],
+   "answer": "did you talk",
+   "explain": "Preposição no fim: What did you talk about?",
+   "skill": "wh",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-1-004",
+   "topic": "t31",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ you get my e-mail? I sent it on Monday.",
+   "options": [
+    "Didn't",
+    "Don't",
+    "Haven't"
+   ],
+   "answer": "Didn't",
+   "explain": "Pergunta negativa: surpresa / confirmação.",
+   "skill": "negq",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-1-005",
+   "topic": "t31",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Do you know where ___?",
+   "options": [
+    "she lives",
+    "does she live",
+    "lives she"
+   ],
+   "answer": "she lives",
+   "explain": "Pergunta indireta: ordem afirmativa.",
+   "skill": "indirect",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-1-006",
+   "topic": "t31",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I love this city.' 'So ___ I.'",
+   "options": [
+    "do",
+    "am",
+    "have"
+   ],
+   "answer": "do",
+   "explain": "Concordar com presente simples: SO DO I.",
+   "skill": "aux",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-1-007",
+   "topic": "t31",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I'm not hungry.' 'Neither ___ I.'",
+   "options": [
+    "am",
+    "do",
+    "have"
+   ],
+   "answer": "am",
+   "explain": "NEITHER + mesmo auxiliar (AM).",
+   "skill": "aux",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-1-008",
+   "topic": "t31",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Is the office open tomorrow?' 'I think ___.'",
+   "options": [
+    "so",
+    "it",
+    "yes"
+   ],
+   "answer": "so",
+   "explain": "I THINK SO.",
+   "skill": "thinkso",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-1-009",
+   "topic": "t31",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Will it rain during the event?' 'I hope ___.'",
+   "options": [
+    "not",
+    "no",
+    "don't"
+   ],
+   "answer": "not",
+   "explain": "I HOPE NOT.",
+   "skill": "thinkso",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-1-010",
+   "topic": "t31",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I've just been promoted.' '___ you? Congratulations!'",
+   "options": [
+    "Have",
+    "Did",
+    "Are"
+   ],
+   "answer": "Have",
+   "explain": "Resposta de reação com o mesmo auxiliar.",
+   "skill": "echo",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-1-011",
+   "topic": "t31",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "You work in Compliance, ___?",
+   "options": [
+    "don't you",
+    "aren't you",
+    "do you"
+   ],
+   "answer": "don't you",
+   "explain": "Positiva + tag negativa com DO.",
+   "skill": "tags",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-1-012",
+   "topic": "t31",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She hasn't signed yet, ___?",
+   "options": [
+    "has she",
+    "hasn't she",
+    "does she"
+   ],
+   "answer": "has she",
+   "explain": "Negativa + tag positiva.",
+   "skill": "tags",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-1-013",
+   "topic": "t31",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Let's take a break, ___?",
+   "options": [
+    "shall we",
+    "will we",
+    "don't we"
+   ],
+   "answer": "shall we",
+   "explain": "LET'S... SHALL WE?",
+   "skill": "tagspecial",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-1-014",
+   "topic": "t31",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'm next, ___?",
+   "options": [
+    "aren't I",
+    "am not I",
+    "isn't I"
+   ],
+   "answer": "aren't I",
+   "explain": "I'M... AREN'T I?",
+   "skill": "tagspecial",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-1-015",
+   "topic": "t31",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Why ___ we ask them directly?",
+   "options": [
+    "don't",
+    "aren't",
+    "doesn't"
+   ],
+   "answer": "don't",
+   "explain": "WHY DON'T WE...? = sugestão.",
+   "skill": "negq",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-2-001",
+   "topic": "t31",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Who did send this e-mail?",
+   "options": [
+    "Who sent this e-mail?",
+    "Who did sent this e-mail?",
+    "Who sended this e-mail?"
+   ],
+   "answer": "Who sent this e-mail?",
+   "explain": "WHO sujeito: sem DID.",
+   "skill": "wh",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-2-002",
+   "topic": "t31",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Who is this package ___ (para)?",
+   "answer": [
+    "for"
+   ],
+   "explain": "Preposição no fim.",
+   "skill": "wh",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-2-003",
+   "topic": "t31",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Could you tell me where is the nearest bank?",
+   "options": [
+    "Could you tell me where the nearest bank is?",
+    "Could you tell me where does the nearest bank is?",
+    "Could you tell me where the nearest bank it is?"
+   ],
+   "answer": "Could you tell me where the nearest bank is?",
+   "explain": "Pergunta indireta: ordem afirmativa.",
+   "skill": "indirect",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-2-004",
+   "topic": "t31",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I wonder ___ (se) they'll accept our offer.",
+   "answer": [
+    "if",
+    "whether"
+   ],
+   "explain": "Sim/não indireta: IF / WHETHER.",
+   "skill": "indirect",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-2-005",
+   "topic": "t31",
+   "level": 2,
+   "type": "fix",
+   "prompt": "'I can't come.' 'Neither I can.'",
+   "options": [
+    "'I can't come.' 'Neither can I.'",
+    "'I can't come.' 'Neither I can't.'",
+    "'I can't come.' 'So can't I.'"
+   ],
+   "answer": "'I can't come.' 'Neither can I.'",
+   "explain": "NEITHER + auxiliar + sujeito.",
+   "skill": "aux",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-2-006",
+   "topic": "t31",
+   "level": 2,
+   "type": "gap",
+   "prompt": "'I went to the conference.' 'So ___ (auxiliar) I.'",
+   "answer": [
+    "did"
+   ],
+   "explain": "Passado simples: SO DID I.",
+   "skill": "aux",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-2-007",
+   "topic": "t31",
+   "level": 2,
+   "type": "fix",
+   "prompt": "'Is she coming?' 'I don't think.'",
+   "options": [
+    "'Is she coming?' 'I don't think so.'",
+    "'Is she coming?' 'I think not so.'",
+    "'Is she coming?' 'I don't think it.'"
+   ],
+   "answer": "'Is she coming?' 'I don't think so.'",
+   "explain": "I DON'T THINK SO.",
+   "skill": "thinkso",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-2-008",
+   "topic": "t31",
+   "level": 2,
+   "type": "gap",
+   "prompt": "'Did we lose the client?' 'I'm afraid ___ (sim).'",
+   "answer": [
+    "so"
+   ],
+   "explain": "I'M AFRAID SO.",
+   "skill": "thinkso",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-2-009",
+   "topic": "t31",
+   "level": 2,
+   "type": "gap",
+   "prompt": "'Ana is leaving the company.' '___ (auxiliar) she? Why?'",
+   "answer": [
+    "Is"
+   ],
+   "explain": "Reação: IS SHE?",
+   "skill": "echo",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-2-010",
+   "topic": "t31",
+   "level": 2,
+   "type": "fix",
+   "prompt": "You're coming to the meeting, isn't it?",
+   "options": [
+    "You're coming to the meeting, aren't you?",
+    "You're coming to the meeting, are you not it?",
+    "You're coming to the meeting, don't you?"
+   ],
+   "answer": "You're coming to the meeting, aren't you?",
+   "explain": "Tag com o mesmo auxiliar e sujeito.",
+   "skill": "tags",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-2-011",
+   "topic": "t31",
+   "level": 2,
+   "type": "gap",
+   "prompt": "It was a great presentation, ___ (tag)?",
+   "answer": [
+    "wasn't it"
+   ],
+   "explain": "Positiva + tag negativa.",
+   "skill": "tags",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-2-012",
+   "topic": "t31",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Don't forget to call, ___ (tag)?",
+   "answer": [
+    "will you"
+   ],
+   "explain": "Imperativo negativo: WILL YOU?",
+   "skill": "tagspecial",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-2-013",
+   "topic": "t31",
+   "level": 2,
+   "type": "gap",
+   "prompt": "There's a problem with the invoice, ___ (tag)?",
+   "answer": [
+    "isn't there"
+   ],
+   "explain": "THERE IS... ISN'T THERE?",
+   "skill": "tagspecial",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-2-014",
+   "topic": "t31",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Why you don't call them?",
+   "options": [
+    "Why don't you call them?",
+    "Why don't call you them?",
+    "Why not you call them?"
+   ],
+   "answer": "Why don't you call them?",
+   "explain": "WHY DON'T YOU + verbo.",
+   "skill": "negq",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-2-015",
+   "topic": "t31",
+   "level": 2,
+   "type": "gap",
+   "prompt": "What ___ (aconteceu)? Everyone looks worried.",
+   "answer": [
+    "happened"
+   ],
+   "explain": "WHAT sujeito: sem DID.",
+   "skill": "wh",
+   "cefr": "B1"
+  },
+  {
+   "id": "t31-3-001",
+   "topic": "t31",
+   "level": 3,
+   "type": "gap",
+   "prompt": "'She speaks four languages.' '___ (auxiliar) she? Wow.'",
+   "answer": [
+    "Does"
+   ],
+   "explain": "Presente simples: DOES SHE?",
+   "skill": "echo",
+   "cefr": "B2"
+  },
+  {
+   "id": "t31-3-002",
+   "topic": "t31",
+   "level": 3,
+   "type": "gap",
+   "prompt": "You couldn't help me with this, ___ (tag)?",
+   "answer": [
+    "could you"
+   ],
+   "explain": "Pedido: negativa + tag positiva.",
+   "skill": "tagspecial",
+   "cefr": "B2"
+  },
+  {
+   "id": "t31-3-003",
+   "topic": "t31",
+   "level": 3,
+   "type": "gap",
+   "prompt": "'I haven't seen the new office.' 'Nor ___ (auxiliar) I.'",
+   "answer": [
+    "have"
+   ],
+   "explain": "NOR + HAVE I.",
+   "skill": "aux",
+   "cefr": "B2"
+  },
+  {
+   "id": "t31-3-004",
+   "topic": "t31",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Do you have any idea how much ___ (it / cost)?",
+   "answer": [
+    "it costs"
+   ],
+   "explain": "Pergunta indireta.",
+   "skill": "indirect",
+   "cefr": "B2"
+  },
+  {
+   "id": "t31-3-005",
+   "topic": "t31",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Isn't ___ (é) time we updated the policy?",
+   "answer": [
+    "it"
+   ],
+   "explain": "Pergunta negativa: ISN'T IT...?",
+   "skill": "negq",
+   "cefr": "B2"
+  },
+  {
+   "id": "t31-3-006",
+   "topic": "t31",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Who did you have lunch with?",
+   "explain": "Preposição no fim.",
+   "skill": "wh",
+   "cefr": "B2"
+  },
+  {
+   "id": "t31-3-007",
+   "topic": "t31",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Do you know when the meeting starts?",
+   "explain": "Pergunta indireta.",
+   "skill": "indirect",
+   "cefr": "B2"
+  },
+  {
+   "id": "t31-3-008",
+   "topic": "t31",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "You haven't seen my keys, have you?",
+   "explain": "Negativa + tag positiva.",
+   "skill": "tags",
+   "cefr": "B2"
+  },
+  {
+   "id": "t31-3-009",
+   "topic": "t31",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I don't expect so, but let's check.",
+   "explain": "I DON'T EXPECT SO.",
+   "skill": "thinkso",
+   "cefr": "B2"
+  },
+  {
+   "id": "t31-3-010",
+   "topic": "t31",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Nobody called, did they?",
+    "Nobody called, didn't they?",
+    "Nobody called, did he not?"
+   ],
+   "answer": "Nobody called, did they?",
+   "explain": "NOBODY é negativo: tag positiva com THEY.",
+   "skill": "tagspecial",
+   "cefr": "B2"
+  },
+  {
+   "id": "t31-3-011",
+   "topic": "t31",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "What made you change your mind?",
+    "What did make you change your mind?",
+    "What did made you change your mind?"
+   ],
+   "answer": "What made you change your mind?",
+   "explain": "WHAT sujeito: sem DID.",
+   "skill": "wh",
+   "cefr": "B2"
+  },
+  {
+   "id": "t31-3-012",
+   "topic": "t31",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual resposta mostra interesse?",
+   "options": [
+    "'We closed the deal.' 'Did you? That's fantastic!'",
+    "'We closed the deal.' 'Do you? That's fantastic!'",
+    "'We closed the deal.' 'Were you? That's fantastic!'"
+   ],
+   "answer": "'We closed the deal.' 'Did you? That's fantastic!'",
+   "explain": "Reação com o auxiliar do passado: DID.",
+   "skill": "echo",
+   "cefr": "B2"
+  },
+  {
+   "id": "t31-3-013",
+   "topic": "t31",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "'I'd love a coffee.' 'So would I.'",
+    "'I'd love a coffee.' 'So do I.'",
+    "'I'd love a coffee.' 'So I would.'"
+   ],
+   "answer": "'I'd love a coffee.' 'So would I.'",
+   "explain": "SO + WOULD (de I'd = I would).",
+   "skill": "aux",
+   "cefr": "B2"
+  },
+  {
+   "id": "t31-3-014",
+   "topic": "t31",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Aren't you coming with us?",
+    "Don't you are coming with us?",
+    "Not you are coming with us?"
+   ],
+   "answer": "Aren't you coming with us?",
+   "explain": "Pergunta negativa com BE.",
+   "skill": "negq",
+   "cefr": "B2"
+  },
+  {
+   "id": "t31-3-015",
+   "topic": "t31",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "'Will the price go up?' 'I suppose so.'",
+    "'Will the price go up?' 'I suppose it.'",
+    "'Will the price go up?' 'I suppose yes.'"
+   ],
+   "answer": "'Will the price go up?' 'I suppose so.'",
+   "explain": "I SUPPOSE SO.",
+   "skill": "thinkso",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t31",
+   "level": 2,
+   "skill": "wh",
+   "cefr": "B1",
+   "id": "t31-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Who sent this e-mail?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. WHO sujeito: sem DID."
+  },
+  {
+   "topic": "t31",
+   "level": 2,
+   "skill": "indirect",
+   "cefr": "B1",
+   "id": "t31-2-003v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Could you tell me where the nearest bank is?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Pergunta indireta: ordem afirmativa."
+  },
+  {
+   "topic": "t31",
+   "level": 2,
+   "skill": "aux",
+   "cefr": "B1",
+   "id": "t31-2-005v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "'I can't come.' 'Neither can I.'",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. NEITHER + auxiliar + sujeito."
+  },
+  {
+   "topic": "t31",
+   "level": 2,
+   "skill": "thinkso",
+   "cefr": "B1",
+   "id": "t31-2-007v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "'Is she coming?' 'I don't think so.'",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. I DON'T THINK SO."
+  },
+  {
+   "topic": "t31",
+   "level": 2,
+   "skill": "tags",
+   "cefr": "B1",
+   "id": "t31-2-010v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "You're coming to the meeting, isn't it?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: You're coming to the meeting, aren't you? Tag com o mesmo auxiliar e sujeito."
+  },
+  {
+   "topic": "t31",
+   "level": 2,
+   "skill": "negq",
+   "cefr": "B1",
+   "id": "t31-2-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Why you don't call them?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Why don't you call them? WHY DON'T YOU + verbo."
+  },
+  {
+   "topic": "t31",
+   "level": 3,
+   "skill": "tagspecial",
+   "cefr": "B2",
+   "id": "t31-3-010v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Nobody called, didn't they?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Nobody called, did they? NOBODY é negativo: tag positiva com THEY."
+  },
+  {
+   "topic": "t31",
+   "level": 3,
+   "skill": "wh",
+   "cefr": "B2",
+   "id": "t31-3-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "What made you change your mind?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. WHAT sujeito: sem DID."
+  },
+  {
+   "topic": "t31",
+   "level": 3,
+   "skill": "aux",
+   "cefr": "B2",
+   "id": "t31-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "'I'd love a coffee.' 'So would I.'",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. SO + WOULD (de I'd = I would)."
+  },
+  {
+   "topic": "t31",
+   "level": 3,
+   "skill": "negq",
+   "cefr": "B2",
+   "id": "t31-3-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Don't you are coming with us?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Aren't you coming with us? Pergunta negativa com BE."
+  },
+  {
+   "topic": "t31",
+   "level": 3,
+   "skill": "thinkso",
+   "cefr": "B2",
+   "id": "t31-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "'Will the price go up?' 'I suppose so.'",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. I SUPPOSE SO."
+  }
+ ]
+}

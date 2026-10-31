@@ -84,7 +84,9 @@ function applyActive() {
 
 // Liberação silenciosa: avalia em segundo plano e abre no máximo um lote por vez.
 function maybeUnlock() {
-  const g = C.unlockCheck(app.items, app.state, app.gates);
+  // Os módulos de aprofundamento ('extra') ficam abertos e não entram na régua dos lotes fechados.
+  const extra = new Set(app.groups.filter(x => x.extra).flatMap(x => x.topics.map(t => t.id)));
+  const g = C.unlockCheck(app.items.filter(i => !extra.has(i.topic)), app.state, app.gates);
   if (!g) return null;
   app.state.unlocked[g] = Date.now();
   persist();
@@ -102,6 +104,7 @@ function route() {
   const h = location.hash.replace(/^#\/?/, '');
   const [page, arg] = h.split('/');
   if (page !== 'session') app.session = null;
+  document.body.classList.toggle('in-session', page === 'session' && !!app.session);
   setNav(page || 'home');
   window.scrollTo(0, 0);
   if (page === 'topic' && topicById(arg)) return renderTopic(arg);
@@ -124,9 +127,11 @@ function setNav(page) {
 function renderHome() {
   const now = Date.now();
   const st = app.state;
-  const due = C.dueCount(app.items, st, now);
+  const plan = C.dailyPlan(st, now);
+  const dueAll = C.dueCount(app.items, st, now);
+  const due = Math.min(dueAll, plan.reviewLeft);
+  const reviewDone = due === 0 && plan.review > 0;
   const week = C.periodAccuracy(st, 7, now);
-  const today = C.dailySeries(st, 1, now)[0];
   const strk = C.streak(st, now);
   const lvl = C.levelEstimate(app.items, st);
 
@@ -158,13 +163,14 @@ function renderHome() {
     </header>
     <div class="stats">
       <div class="stat"><span class="stat-n">${strk}</span><span class="stat-l">${strk === 1 ? 'dia seguido' : 'dias seguidos'}</span></div>
-      <div class="stat"><span class="stat-n">${today.total}</span><span class="stat-l">respostas hoje</span></div>
+      <div class="stat"><span class="stat-n">${plan.answers}<small>/${plan.goal}</small></span><span class="stat-l">meta de hoje</span></div>
       <div class="stat"><span class="stat-n">${pct(week.acc)}</span><span class="stat-l">acerto em 7 dias</span></div>
     </div>
     <button class="review ${due ? '' : 'is-empty'}" id="review-btn" ${due ? '' : 'disabled'}>
-      <span><strong>Revisão do dia</strong><br><small>${due ? `${due} ${due === 1 ? 'exercício pendente' : 'exercícios pendentes'}` : 'Nada pendente. Volte amanhã.'}</small></span>
+      <span><strong>Revisão do dia</strong><br><small>${due ? `${due} ${due === 1 ? 'exercício pendente' : 'exercícios pendentes'}` : reviewDone ? 'Concluída por hoje. A próxima chega amanhã.' : 'Nada pendente hoje.'}</small></span>
       <span class="review-n" aria-hidden="true">${due ? '→' : '✓'}</span>
     </button>
+    ${planLine(plan)}
     ${backupNudge(st, now)}
     ${news}
     ${groups}
@@ -184,6 +190,15 @@ function renderHome() {
 }
 
 // Lembrete discreto: só depois de algum uso e quando o último backup exportado tem mais de 14 dias.
+// Uma linha discreta com o plano do dia: o que ainda cabe hoje e quando parar.
+function planLine(p) {
+  const pctDone = Math.min(100, Math.round((p.answers / p.goal) * 100));
+  const msg = p.done
+    ? 'Meta de hoje cumprida. O ganho maior agora vem de voltar amanhã.'
+    : `Faltam ${p.goal - p.answers} respostas · novos hoje: ${p.fresh}/${p.newCap}`;
+  return `<div class="plan ${p.done ? 'is-done' : ''}"><span class="meter" aria-hidden="true"><span class="fill" style="width:${pctDone}%"></span></span><small>${msg}</small></div>`;
+}
+
 function countLabel() {
   const v = app.items.filter(i => i.variant).length;
   return `${app.items.length - v} exercícios + ${v} de certo ou errado`;
@@ -264,8 +279,15 @@ function renderTopic(id) {
 /* ---------- Sessão ---------- */
 
 function startSession({ topic = null, mode = 'topic', ids = null, skills = null, queue = null, label = '', backHash = null }) {
-  const q = queue || C.buildSession(app.items, app.state, { topic, mode, ids, skills, size: SESSION_SIZE });
-  if (!q.length) { toast('Não há exercícios para esta seleção.'); return; }
+  const plan = C.dailyPlan(app.state);
+  const size = mode === 'review' ? Math.min(SESSION_SIZE, plan.reviewLeft) : SESSION_SIZE;
+  const q = queue || C.buildSession(app.items, app.state, { topic, mode, ids, skills, size, maxNew: ids ? Infinity : plan.newLeft });
+  if (!q.length) {
+    toast(plan.newLeft === 0 && mode !== 'review'
+      ? `Os ${plan.newCap} exercícios novos de hoje já foram. Amanhã tem mais; hoje, pratique temas que você já começou.`
+      : 'Não há exercícios para esta seleção.');
+    return;
+  }
   app.session = {
     record: { id: `s${Date.now()}`, ts: Date.now(), mode, topic, level: null, label, answers: [] },
     params: { topic, mode, skills, label, backHash },
@@ -278,6 +300,7 @@ function startSession({ topic = null, mode = 'topic', ids = null, skills = null,
 function currentItem() { return app.session.queue[app.session.index]; }
 
 function renderQuestion() {
+  document.body.classList.add('in-session');
   const s = app.session;
   const it = currentItem();
   s.answered = false;
@@ -422,7 +445,9 @@ function submitAnswer() {
       ${ok ? '' : `<p class="fb-answer">Resposta: <b>${esc(C.correctAnswerText(it))}</b></p>`}
       <p class="fb-explain">${esc(it.explain)}</p>
     </div>
-    ${ok ? '' : `<div class="reforco"><p class="reforco-title">Reforço · ${esc(m.skillTitle)}</p><p>${esc(m.tip)}</p><p class="skill-ex">${esc(m.ex)}</p></div>`}`;
+    ${ok ? '' : `<details class="reforco"><summary class="reforco-title">Reforço · ${esc(m.skillTitle)}</summary><p>${esc(m.tip)}</p><p class="skill-ex">${esc(m.ex)}</p></details>`}`;
+  const use = document.querySelector('.q-use'); if (use) use.hidden = true;
+  document.getElementById('feedback').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
   const btn = document.getElementById('check');
   btn.textContent = last ? 'Ver resultado' : 'Continuar';
   btn.disabled = false;
@@ -439,6 +464,7 @@ function nextQuestion() {
 }
 
 function renderSummary() {
+  document.body.classList.remove('in-session');
   const s = app.session;
   const opened = maybeUnlock();
   if (opened) toast(`Novo lote liberado: ${opened.title}`);
@@ -476,6 +502,7 @@ function renderSummary() {
       <p class="score">${correct}<span>/${s.results.length}</span></p>
       <p class="lead">${msg}</p>
     </section>
+    ${planLine(C.dailyPlan(app.state))}
     ${wrong.length ? `<h2 class="section-title">Reforço dos pontos que você errou</h2>${review}` : ''}
     <div class="actions stack">
       ${wrong.length ? '<button class="btn wide" id="drill">Treinar estes pontos</button>' : ''}
@@ -515,7 +542,7 @@ function onKey(e) {
 /* ---------- Reforçar ---------- */
 
 function startReinforce() {
-  const { queue, focus } = C.buildReinforce(app.items, app.state, { size: SESSION_SIZE });
+  const { queue, focus } = C.buildReinforce(app.items, app.state, { size: SESSION_SIZE, maxNew: C.dailyPlan(app.state).newLeft });
   startSession({ mode: focus.length ? 'reinforce' : 'general', queue, label: focus.length ? 'Reforço' : 'Treino geral', backHash: '#/reinforce' });
 }
 
@@ -721,6 +748,11 @@ function renderSettings() {
       </div>
     </section>
     <section class="card">
+      <h2 class="card-title">Meta diária</h2>
+      <p class="hint">Respostas por dia. Cerca de 25 segundos cada: 50 respostas ≈ 20 a 25 minutos. Metade da meta vai para a revisão e cerca de um terço para exercícios novos.</p>
+      <div class="seg" role="radiogroup" aria-label="Meta diária">${C.GOALS.map(g => `<button class="seg-btn" role="radio" aria-checked="${app.state.goal === g}" data-goal="${g}">${g}</button>`).join('')}</div>
+    </section>
+    <section class="card">
       <h2 class="card-title">Cópias automáticas</h2>
       <p class="hint">Guardadas neste aparelho: uma por dia (últimos 14 dias) e uma antes de cada importação, restauração ou zeramento.</p>
       <ul class="snaps" id="snaps"><li class="hint">Carregando…</li></ul>
@@ -736,6 +768,9 @@ function renderSettings() {
       <button class="btn btn-danger wide" id="reset">Zerar tudo</button>
     </section>`;
 
+  $main().querySelectorAll('[data-goal]').forEach(b => b.addEventListener('click', () => {
+    app.state.goal = Number(b.dataset.goal); persist(); toast(`Meta diária: ${app.state.goal} respostas.`); renderSettings();
+  }));
   document.getElementById('export').addEventListener('click', exportBackup);
   document.getElementById('import-file').addEventListener('change', importBackup);
   document.getElementById('reset').addEventListener('click', async () => {

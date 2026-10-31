@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "groups": [
     {
       "id": "base",
@@ -724,6 +724,928 @@
               "tip": "Uma negação por frase (don't + any). TOO no positivo, EITHER no negativo.",
               "ex": "I don't have any questions. Me neither / I don't either.",
               "use": "Ao concordar com algo negativo ou dizer que não há nenhum."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prof1",
+      "title": "Aprofundamento I · Gramática essencial",
+      "level": "B1–B2",
+      "color": "#8A3B12",
+      "extra": true,
+      "topics": [
+        {
+          "id": "t29",
+          "title": "Present perfect × passado",
+          "short": "been/gone, just/yet, ever, for/since, tempo terminado",
+          "intro": "O present perfect liga o passado ao agora: resultado presente, experiência de vida, período que ainda não terminou. Com tempo terminado (yesterday, in 2019, ago), use o passado simples.",
+          "cefr": [
+            "B1",
+            "B1",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "gonebeen",
+              "title": "GONE × BEEN",
+              "tip": "GONE TO = foi e ainda está lá. BEEN TO = foi e já voltou (visitou).",
+              "ex": "She's gone to Lima. I've been to Lima twice.",
+              "use": "Ao dizer onde um colega está agora ou contar lugares que você já visitou."
+            },
+            {
+              "id": "justyet",
+              "title": "JUST · ALREADY · YET",
+              "tip": "JUST = há pouco. ALREADY = antes do esperado. YET = até agora, em perguntas e negativas, no fim.",
+              "ex": "I've already paid. Have they replied yet?",
+              "use": "Em status rápidos: acabei de enviar, já paguei, ainda não responderam."
+            },
+            {
+              "id": "ever",
+              "title": "EVER · NEVER · first time",
+              "tip": "Experiência de vida: ever/never. Superlativo + I've ever. It's the first time I've...",
+              "ex": "It's the first time I've used this system.",
+              "use": "Em small talk sobre experiências e ao dizer que é a primeira vez que faz algo."
+            },
+            {
+              "id": "period",
+              "title": "Período aberto × fechado",
+              "tip": "Today, this week, recently, so far → present perfect. Yesterday, last week, in May → passado.",
+              "ex": "I've had three calls today. I had five yesterday.",
+              "use": "Ao comparar o dia de hoje ou a semana atual com dias e semanas que já terminaram."
+            },
+            {
+              "id": "howlong",
+              "title": "HOW LONG + present perfect",
+              "tip": "Algo que começou e continua: present perfect, nunca presente. Know, have, be ficam no simples.",
+              "ex": "How long have you known her? (não 'do you know')",
+              "use": "Ao perguntar há quanto tempo alguém trabalha, mora ou conhece alguém."
+            },
+            {
+              "id": "forsince",
+              "title": "FOR · SINCE · AGO",
+              "tip": "FOR + duração, SINCE + ponto inicial, AGO + passado simples. It's two years since...",
+              "ex": "I've worked here since 2019. I joined six years ago.",
+              "use": "Ao dizer há quanto tempo algo acontece ou quando começou."
+            },
+            {
+              "id": "finished",
+              "title": "Tempo terminado → passado",
+              "tip": "Se a frase diz quando (yesterday, when, in 2020, ago), passado simples. WHEN...? pede passado.",
+              "ex": "When did you sign it? (não 'have you signed')",
+              "use": "Ao contar quando algo aconteceu: datas, 'ontem', 'quando eu estava lá'."
+            },
+            {
+              "id": "havegot",
+              "title": "HAVE × HAVE GOT",
+              "tip": "Posse: have ou have got (sem DO com got). Ações (have lunch, a shower) só HAVE.",
+              "ex": "I've got a meeting at 3. We had lunch together.",
+              "use": "Ao falar do que você tem (reuniões, problemas, tempo) e de ações como almoçar ou tomar banho."
+            }
+          ]
+        },
+        {
+          "id": "t30",
+          "title": "Modais no presente",
+          "short": "can/be able to, must/can't, may/might, have to, should, had better",
+          "intro": "Os modais mostram capacidade, certeza, obrigação e conselho. Regra comum: modal + verbo base, sem TO e sem -S. Para tempos que o modal não tem, use BE ABLE TO e HAVE TO.",
+          "cefr": [
+            "B1",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "ableto",
+              "title": "CAN · COULD · BE ABLE TO",
+              "tip": "Tempos que CAN não tem: will be able to, have been able to. Conseguiu numa ocasião: WAS ABLE TO / MANAGED TO (não could).",
+              "ex": "We managed to close the deal.",
+              "use": "Ao dizer o que você conseguiu fazer numa situação difícil ou poderá fazer no futuro."
+            },
+            {
+              "id": "couldnow",
+              "title": "COULD: possibilidade e sugestão",
+              "tip": "COULD = pode ser (agora/futuro) ou sugestão. COULD + comparativo: I couldn't be happier.",
+              "ex": "We could ask for an extension.",
+              "use": "Ao sugerir caminhos numa reunião ou levantar possibilidades."
+            },
+            {
+              "id": "mustcant",
+              "title": "MUST × CAN'T (dedução)",
+              "tip": "MUST = tenho certeza que sim. CAN'T = tenho certeza que não. Com ação em andamento: must be + -ING.",
+              "ex": "She must be in a meeting. That can't be right.",
+              "use": "Ao tirar conclusões a partir de pistas: deve estar em reunião, não pode estar certo."
+            },
+            {
+              "id": "maymight",
+              "title": "MAY · MIGHT",
+              "tip": "Talvez agora ou no futuro. Might be + -ING. Might as well = não há motivo melhor.",
+              "ex": "He might be working from home. We might as well start.",
+              "use": "Ao falar de possibilidades sem se comprometer."
+            },
+            {
+              "id": "haveto",
+              "title": "HAVE TO · MUST · DON'T HAVE TO · MUSTN'T",
+              "tip": "MUSTN'T = proibido. DON'T HAVE TO / NEEDN'T = não é necessário. Passado: HAD TO.",
+              "ex": "You don't have to come, but you mustn't be late.",
+              "use": "Ao explicar regras: o que é obrigatório, o que é proibido e o que é opcional."
+            },
+            {
+              "id": "should",
+              "title": "SHOULD · OUGHT TO",
+              "tip": "Conselho e expectativa. Também depois de suggest/insist/important that (formal).",
+              "ex": "It's important that everyone should sign.",
+              "use": "Ao aconselhar alguém da equipe ou dizer o que se espera que aconteça."
+            },
+            {
+              "id": "better",
+              "title": "HAD BETTER · IT'S TIME",
+              "tip": "HAD BETTER + verbo (alerta para agora). IT'S TIME + sujeito + passado.",
+              "ex": "You'd better leave now. It's time we left.",
+              "use": "Ao alertar alguém sobre algo urgente ou cobrar uma decisão que já passou da hora."
+            },
+            {
+              "id": "requests",
+              "title": "Pedidos, ofertas e convites",
+              "tip": "Can/Could you...? Do you mind if I...? Would you like...? Shall I...? May I...?",
+              "ex": "Could you send it again? Shall I open the window?",
+              "use": "Ao pedir favores, oferecer ajuda e fazer convites com educação."
+            }
+          ]
+        },
+        {
+          "id": "t31",
+          "title": "Perguntas e auxiliares",
+          "short": "Who called?, perguntas negativas, so do I, question tags",
+          "intro": "Montar perguntas sem tropeçar: sujeito × objeto, preposição no fim, perguntas indiretas, respostas curtas e question tags. Tudo gira em torno do auxiliar.",
+          "cefr": [
+            "B1",
+            "B1",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "wh",
+              "title": "Sujeito × objeto · preposição no fim",
+              "tip": "Who called? (sujeito: sem DO). Who did you call? (objeto). Preposição vai para o fim: Who did you talk to?",
+              "ex": "What happened? Who is this for?",
+              "use": "Ao investigar um problema: quem ligou, o que aconteceu, com quem você falou."
+            },
+            {
+              "id": "negq",
+              "title": "Perguntas negativas",
+              "tip": "Surpresa ou confirmação: Didn't you get my e-mail? Why don't we...? = sugestão.",
+              "ex": "Isn't it time we started?",
+              "use": "Ao confirmar algo que você acha que é verdade ou sugerir uma alternativa."
+            },
+            {
+              "id": "indirect",
+              "title": "Perguntas indiretas",
+              "tip": "Do you know / Could you tell me + ordem afirmativa, sem DO. Sim/não: IF / WHETHER.",
+              "ex": "Do you know what time it starts?",
+              "use": "Ao pedir informação com educação a um desconhecido ou cliente."
+            },
+            {
+              "id": "aux",
+              "title": "SO DO I · NEITHER DO I",
+              "tip": "Concordar: SO + auxiliar + sujeito (positivo); NEITHER / NOR (negativo). Respostas curtas repetem o auxiliar.",
+              "ex": "'I'm tired.' 'So am I.' 'I can't go.' 'Neither can I.'",
+              "use": "Em conversas rápidas, para concordar sem repetir a frase inteira."
+            },
+            {
+              "id": "thinkso",
+              "title": "I THINK SO · I HOPE NOT",
+              "tip": "Substitui a frase: think/hope/expect/suppose/guess + SO. Negativo: I don't think so, I hope not, I'm afraid not.",
+              "ex": "'Will it rain?' 'I hope not.'",
+              "use": "Em respostas curtas a perguntas sobre o futuro ou sobre fatos incertos."
+            },
+            {
+              "id": "echo",
+              "title": "Respostas de reação",
+              "tip": "Have you? Did she? Is it? mostram interesse ou surpresa, com o auxiliar da frase.",
+              "ex": "'I've just moved.' 'Have you? Where to?'",
+              "use": "Para mostrar interesse e manter a conversa com um colega ou cliente."
+            },
+            {
+              "id": "tags",
+              "title": "Question tags",
+              "tip": "Frase positiva → tag negativa; negativa → positiva. Mesmo auxiliar; DO/DOES/DID no simples.",
+              "ex": "You've met Ana, haven't you?",
+              "use": "Ao confirmar uma informação ou buscar concordância numa conversa."
+            },
+            {
+              "id": "tagspecial",
+              "title": "Tags especiais",
+              "tip": "Let's... shall we? Don't... will you? I'm... aren't I? There's... isn't there? Pedido: You couldn't..., could you?",
+              "ex": "Let's start, shall we?",
+              "use": "Ao propor algo ao grupo ou pedir algo de forma suave."
+            }
+          ]
+        },
+        {
+          "id": "t32",
+          "title": "Substantivos e artigos",
+          "short": "contável × incontável, a/the, school × the school, nomes com the",
+          "intro": "Artigos são o erro mais frequente de quem fala português. Pergunte: é contável? Falo em geral ou de algo específico? É nome próprio de que tipo?",
+          "cefr": [
+            "B1",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "uncount",
+              "title": "Contável × incontável",
+              "tip": "Information, advice, equipment, furniture, news, feedback, research, work, travel: sem A e sem plural. Use a piece of / a job / a trip.",
+              "ex": "Can you give me some advice? It's a good job.",
+              "use": "Ao pedir conselho, informação, feedback ou falar de equipamento e viagens."
+            },
+            {
+              "id": "aan",
+              "title": "A/AN × THE",
+              "tip": "A/AN = primeira menção, um entre vários, profissão. THE = já sabemos qual, único no contexto.",
+              "ex": "I have a meeting. The meeting is at 3.",
+              "use": "Ao mencionar algo pela primeira vez e depois voltar a ele."
+            },
+            {
+              "id": "thegen",
+              "title": "Generalizar: sem THE",
+              "tip": "Plural e incontável em sentido geral: sem artigo. Com THE só quando é um grupo específico.",
+              "ex": "Suppliers must be audited. The suppliers in Bahia were late.",
+              "use": "Ao falar de regras gerais (fornecedores, contratos) ou de um grupo específico."
+            },
+            {
+              "id": "theunique",
+              "title": "THE em casos fixos",
+              "tip": "Únicos e instituições: the sun, the world, the government, the police, the internet. Instrumentos: play the piano. The + adjetivo = grupo: the elderly.",
+              "ex": "We must protect the environment.",
+              "use": "Ao falar de governo, internet, meio ambiente ou de grupos como os idosos."
+            },
+            {
+              "id": "school",
+              "title": "school × the school",
+              "tip": "School, university, hospital, prison, church, bed, work, home: sem THE quando se fala da função; com THE para o prédio.",
+              "ex": "He's in hospital. I went to the hospital to visit him.",
+              "use": "Ao dizer que alguém está no hospital, no trabalho ou foi para casa."
+            },
+            {
+              "id": "names",
+              "title": "Nomes com e sem THE",
+              "tip": "Sem THE: países, cidades, ruas, empresas. Com THE: the USA, the UK, the Netherlands, rios, oceanos, hotéis, museus, the + of.",
+              "ex": "I live in São Paulo, near the Pinheiros River.",
+              "use": "Ao falar de países, cidades, empresas, rios e hotéis."
+            },
+            {
+              "id": "plural",
+              "title": "Singular e plural traiçoeiros",
+              "tip": "News, economics: singular. Police, people: plural. Trousers, glasses: plural (a pair of). Team/company: singular ou plural.",
+              "ex": "The news is good. The police are here.",
+              "use": "Ao falar de notícias, polícia, equipes e roupas."
+            },
+            {
+              "id": "nounnoun",
+              "title": "Substantivo + substantivo · 's × OF",
+              "tip": "O primeiro funciona como adjetivo e fica no singular: a ten-minute call. Pessoas: 's; coisas: of ou noun+noun.",
+              "ex": "a two-hour meeting · the company's results · the end of the month",
+              "use": "Ao descrever reuniões, prazos e documentos: uma call de dez minutos, o relatório do mês."
+            }
+          ]
+        },
+        {
+          "id": "t33",
+          "title": "Pronomes e determinantes",
+          "short": "myself, a friend of mine, some/any, few/little, both/neither, each/every",
+          "intro": "Palavras pequenas que definem quantidade e referência. Na fala rápida, são elas que denunciam o nível.",
+          "cefr": [
+            "B1",
+            "B1",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "reflex",
+              "title": "MYSELF · EACH OTHER · BY MYSELF",
+              "tip": "Reflexivo quando sujeito e objeto são o mesmo. EACH OTHER = um ao outro. BY MYSELF / ON MY OWN = sozinho. Não use com feel, relax, meet.",
+              "ex": "Help yourself. They know each other. I did it on my own.",
+              "use": "Ao dizer que fez algo sozinho ou que duas pessoas se conhecem."
+            },
+            {
+              "id": "own",
+              "title": "A FRIEND OF MINE · MY OWN",
+              "tip": "A + substantivo + OF + mine/yours. MY OWN + substantivo = meu próprio.",
+              "ex": "A colleague of mine recommended it. I'd like my own office.",
+              "use": "Ao falar de um colega seu ou de ter algo próprio."
+            },
+            {
+              "id": "thereit",
+              "title": "THERE × IT",
+              "tip": "THERE = existe / há. IT = algo já mencionado, tempo, distância, avaliação.",
+              "ex": "There's a problem. It's urgent.",
+              "use": "Ao relatar que existe um problema e depois comentar sobre ele."
+            },
+            {
+              "id": "someany",
+              "title": "SOME × ANY",
+              "tip": "SOME em afirmativas e ofertas/pedidos; ANY em negativas e perguntas, e = qualquer um.",
+              "ex": "Would you like some coffee? Call me any time.",
+              "use": "Ao oferecer algo, perguntar se há pendências ou dizer 'qualquer um serve'."
+            },
+            {
+              "id": "nonone",
+              "title": "NO · NONE · NOTHING · NOBODY",
+              "tip": "NO + substantivo. NONE sozinho ou NONE OF. Uma negação só: There's nothing (não 'isn't nothing').",
+              "ex": "None of the offers was good. Nobody called.",
+              "use": "Ao dizer que nenhuma opção serve ou que ninguém respondeu."
+            },
+            {
+              "id": "quant",
+              "title": "MUCH · MANY · LITTLE · FEW · A LOT",
+              "tip": "Many/few + contável; much/little + incontável. A FEW / A LITTLE = algum (positivo); FEW / LITTLE = quase nenhum.",
+              "ex": "We have a little time. Few people came.",
+              "use": "Ao falar de pouco tempo, poucas pessoas ou muito trabalho."
+            },
+            {
+              "id": "allmost",
+              "title": "ALL / MOST / NONE OF",
+              "tip": "MOST + geral; MOST OF THE + específico. ALL (OF) THE. Com pronome: all of us, none of them.",
+              "ex": "Most of the team agreed. All of them signed.",
+              "use": "Ao resumir uma votação ou o resultado de uma pesquisa com a equipe."
+            },
+            {
+              "id": "botheither",
+              "title": "BOTH · EITHER · NEITHER",
+              "tip": "Dois elementos. BOTH... AND, EITHER... OR, NEITHER... NOR. Neither + verbo positivo.",
+              "ex": "Neither option is ideal. Both of them work here.",
+              "use": "Ao comparar duas propostas ou dois fornecedores."
+            },
+            {
+              "id": "everyeach",
+              "title": "EVERY · EACH · WHOLE · ALL",
+              "tip": "EVERY = todos, visão geral; EACH = um a um. EVERY + singular. THE WHOLE + singular.",
+              "ex": "Each supplier gets a code. I spent the whole day on it.",
+              "use": "Ao falar de rotinas (todo mês) e de tratar cada item individualmente."
+            }
+          ]
+        },
+        {
+          "id": "t34",
+          "title": "Preposições que acompanham palavras",
+          "short": "reason for, good at, depend on, accuse of, insist on…",
+          "intro": "Preposições depois de substantivos, adjetivos e verbos não seguem lógica do português: precisam ser memorizadas em pares. São erros pequenos que um nativo percebe na hora.",
+          "cefr": [
+            "B1",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "nounprep",
+              "title": "Substantivo + preposição",
+              "tip": "reason FOR, cause OF, increase/decrease IN, damage TO, solution TO, relationship WITH, need FOR, demand FOR.",
+              "ex": "There's been an increase in costs.",
+              "use": "Em relatórios: aumento de custos, motivo do atraso, solução para o problema."
+            },
+            {
+              "id": "adjgood",
+              "title": "Adjetivo + preposição (capacidade e interesse)",
+              "tip": "good AT, interested IN, responsible FOR, keen ON, capable OF, aware OF, similar TO, different FROM, famous FOR.",
+              "ex": "Who's responsible for the audit?",
+              "use": "Ao descrever competências e responsabilidades de pessoas."
+            },
+            {
+              "id": "adjfeel",
+              "title": "Adjetivo + preposição (sentimentos)",
+              "tip": "nice OF you to, kind TO, angry WITH alguém / ABOUT algo, afraid OF, proud OF, tired OF, sorry ABOUT/FOR, worried ABOUT, satisfied WITH.",
+              "ex": "We're very satisfied with the results.",
+              "use": "Ao dizer como se sente com um resultado ou com alguém."
+            },
+            {
+              "id": "vto",
+              "title": "Verbo + TO / AT",
+              "tip": "talk/speak TO, listen TO, explain TO, apologize TO, belong TO, happen TO, reply TO. Look/stare/aim AT, laugh AT.",
+              "ex": "Who does this laptop belong to?",
+              "use": "Ao relatar com quem falou, a quem pediu desculpas ou de quem é algo."
+            },
+            {
+              "id": "vfor",
+              "title": "Verbo + FOR / ABOUT",
+              "tip": "apply FOR, ask FOR, wait FOR, pay FOR, look FOR, care ABOUT/FOR, complain ABOUT, look AFTER (cuidar).",
+              "ex": "I've applied for the position.",
+              "use": "Ao candidatar-se, pedir, esperar ou reclamar de algo."
+            },
+            {
+              "id": "vof",
+              "title": "Verbo + OF / FROM",
+              "tip": "think OF/ABOUT, hear ABOUT/OF/FROM, remind OF, accuse OF, suspect OF, consist OF, approve OF, suffer FROM, protect/prevent FROM.",
+              "ex": "The package consists of three modules.",
+              "use": "Ao falar do que algo é composto, de quem foi acusado ou do que te lembra."
+            },
+            {
+              "id": "von",
+              "title": "Verbo + ON",
+              "tip": "depend ON, rely ON, insist ON, concentrate ON, spend ON, comment ON, congratulate ON, decide ON, live ON.",
+              "ex": "It depends on the price.",
+              "use": "Ao dizer do que algo depende, em que você insiste ou onde gastou."
+            },
+            {
+              "id": "vin",
+              "title": "Verbo + IN / INTO / WITH",
+              "tip": "succeed IN, believe IN, specialize IN, invest IN, involve IN, translate/divide INTO, provide WITH, deal WITH, agree WITH.",
+              "ex": "We specialize in supplier risk.",
+              "use": "Ao dizer em que a empresa é especializada, em que acredita ou investe."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prof2",
+      "title": "Aprofundamento II · Estrutura e precisão",
+      "level": "B1–B2",
+      "color": "#2F5D50",
+      "extra": true,
+      "topics": [
+        {
+          "id": "t35",
+          "title": "Futuro em detalhe",
+          "short": "presente para futuro, going to × will, shall, when + presente",
+          "intro": "Inglês tem várias formas de futuro e a escolha muda a mensagem: compromisso marcado, plano decidido, decisão na hora, previsão, oferta.",
+          "cefr": [
+            "B1",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "presfut",
+              "title": "Presente contínuo para compromissos",
+              "tip": "Compromisso marcado com pessoa, hora e lugar: I'm meeting... Não use WILL para isso.",
+              "ex": "I'm flying to Recife on Monday.",
+              "use": "Ao falar da sua agenda: reuniões e viagens já marcadas."
+            },
+            {
+              "id": "timetable",
+              "title": "Presente simples para horários",
+              "tip": "Horários e programações fixas: the train leaves, the course starts.",
+              "ex": "The webinar starts at 10.",
+              "use": "Ao falar de horários de voos, trens e eventos."
+            },
+            {
+              "id": "goingto",
+              "title": "GOING TO: plano e evidência",
+              "tip": "Plano já decidido; previsão com evidência agora. Was going to = plano que mudou.",
+              "ex": "Look at the queue. We're going to be late.",
+              "use": "Ao contar planos já decididos ou prever algo a partir do que está vendo."
+            },
+            {
+              "id": "decide",
+              "title": "WILL: decisão na hora",
+              "tip": "Decidiu no momento de falar: I'll... Também promessas e recusas (won't).",
+              "ex": "'The phone's ringing.' 'I'll get it.'",
+              "use": "Ao reagir na hora: eu atendo, eu resolvo, eu te mando."
+            },
+            {
+              "id": "offer",
+              "title": "SHALL I/WE · ofertas",
+              "tip": "Oferecer e sugerir: Shall I...? Shall we...? Pedir: Will you...?",
+              "ex": "Shall I send you the file?",
+              "use": "Ao oferecer ajuda ou sugerir algo ao grupo."
+            },
+            {
+              "id": "predict",
+              "title": "WILL para previsões",
+              "tip": "Opinião sobre o futuro: I think / I expect / probably / I'm sure + will. Probably vem depois de will e antes de won't.",
+              "ex": "I think they'll accept. They probably won't reply today.",
+              "use": "Ao dar sua opinião sobre o que vai acontecer."
+            },
+            {
+              "id": "contrast",
+              "title": "WILL × GOING TO",
+              "tip": "Plano anterior → going to. Decisão agora → will. Previsão por opinião → will; por evidência → going to.",
+              "ex": "I'm going to call her later. (já tinha decidido)",
+              "use": "Ao escolher entre um plano já feito e uma decisão de agora."
+            },
+            {
+              "id": "whenif",
+              "title": "WHEN / IF / UNTIL + presente",
+              "tip": "Sobre o futuro, depois de when, if, until, before, as soon as: presente (ou present perfect para algo concluído).",
+              "ex": "I'll call you when I've read it.",
+              "use": "Ao combinar próximos passos condicionados a algo."
+            }
+          ]
+        },
+        {
+          "id": "t36",
+          "title": "Orações relativas",
+          "short": "who/that/which, omitir o pronome, whose, vírgulas, which = isso",
+          "intro": "Orações relativas dizem de quem ou de que se fala. Duas perguntas resolvem quase tudo: o pronome é sujeito ou objeto? A informação é essencial ou extra (vírgulas)?",
+          "cefr": [
+            "B1",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "whothat",
+              "title": "WHO · WHICH · THAT",
+              "tip": "WHO pessoas, WHICH coisas, THAT os dois. Como sujeito, o pronome é obrigatório.",
+              "ex": "The supplier that won the bid is local.",
+              "use": "Ao especificar de qual pessoa ou documento você está falando."
+            },
+            {
+              "id": "omit",
+              "title": "Omitir o pronome objeto",
+              "tip": "Quando o pronome é objeto, pode sair: the report (that) I sent. Nunca repita o objeto (not 'I sent it').",
+              "ex": "The car I rented was great.",
+              "use": "Na fala natural: o contrato que eu assinei, a pessoa que conheci."
+            },
+            {
+              "id": "prepend",
+              "title": "Preposição no fim",
+              "tip": "The person I spoke to. Formal: to whom I spoke. Nunca 'to who'.",
+              "ex": "That's the project I'm working on.",
+              "use": "Ao falar do projeto em que trabalha ou da pessoa com quem falou."
+            },
+            {
+              "id": "whose",
+              "title": "WHOSE",
+              "tip": "WHOSE = cujo, posse (pessoas e empresas).",
+              "ex": "A supplier whose license expired.",
+              "use": "Ao identificar alguém ou uma empresa pelo que lhe pertence."
+            },
+            {
+              "id": "whomwhere",
+              "title": "WHOM · WHERE · WHEN · WHY",
+              "tip": "WHERE lugar, WHEN tempo, the reason WHY. WHOM = objeto formal.",
+              "ex": "The day when we met. The reason why I called.",
+              "use": "Ao falar do lugar onde, do dia em que ou do motivo pelo qual."
+            },
+            {
+              "id": "nondef",
+              "title": "Informação extra: com vírgulas",
+              "tip": "Informação adicional vai entre vírgulas, com WHO/WHICH (nunca THAT) e sem omitir o pronome.",
+              "ex": "Ana, who leads the team, approved it.",
+              "use": "Ao acrescentar uma informação extra sobre alguém ou algo já identificado."
+            },
+            {
+              "id": "which",
+              "title": "WHICH = isso · MOST OF WHICH",
+              "tip": "WHICH pode se referir à frase toda. Quantidade + of whom/which: some of whom, all of which.",
+              "ex": "He was late, which annoyed everyone.",
+              "use": "Ao comentar o fato inteiro: atrasou, o que irritou todos."
+            },
+            {
+              "id": "ingedclause",
+              "title": "Orações com -ING e -ED",
+              "tip": "Relativa reduzida: the woman talking to Tom (= who is talking); the documents sent yesterday (= which were sent).",
+              "ex": "Anyone wishing to apply should register.",
+              "use": "Em textos formais e avisos: os documentos enviados ontem, quem desejar participar."
+            }
+          ]
+        },
+        {
+          "id": "t37",
+          "title": "-ING e TO: casos especiais",
+          "short": "would like to, prefer, it's worth, no point in, afraid to/of, see sb do",
+          "intro": "A continuação de -ING × TO: expressões fixas, adjetivos e verbos de percepção que mudam a estrutura. Muitas aparecem toda hora em reuniões.",
+          "cefr": [
+            "B1",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "likewould",
+              "title": "LIKE × WOULD LIKE",
+              "tip": "Like + -ING (gosto em geral); would like + TO (desejo agora). Would like to have + particípio = gostaria de ter.",
+              "ex": "I like working here. I'd like to join the team.",
+              "use": "Ao dizer do que você gosta e o que gostaria de fazer agora."
+            },
+            {
+              "id": "prefer",
+              "title": "PREFER · WOULD RATHER",
+              "tip": "Prefer -ING TO -ING; prefer to X rather than Y. Would rather + verbo + than + verbo.",
+              "ex": "I'd rather call than write.",
+              "use": "Ao escolher entre duas opções numa conversa."
+            },
+            {
+              "id": "worth",
+              "title": "IT'S WORTH · NO POINT IN · HAVE DIFFICULTY",
+              "tip": "-ING depois de: it's worth, there's no point in, it's no use, have difficulty/trouble, a waste of time, spend time, go (shopping).",
+              "ex": "It's not worth waiting. I had trouble finding it.",
+              "use": "Ao avaliar se algo vale a pena ou se não adianta insistir."
+            },
+            {
+              "id": "adjto",
+              "title": "Adjetivo + TO",
+              "tip": "easy/hard/difficult to + verbo. It's nice of you to... The first / the last / the only to...",
+              "ex": "This contract is hard to read.",
+              "use": "Ao comentar se algo é fácil ou difícil de fazer."
+            },
+            {
+              "id": "afraid",
+              "title": "AFRAID TO × AFRAID OF -ING",
+              "tip": "AFRAID TO = não ousa fazer. AFRAID OF -ING = medo de que aconteça. Sorry to/for, interested to/in seguem lógica parecida.",
+              "ex": "I'm afraid of losing the client.",
+              "use": "Ao falar de medos e receios no trabalho."
+            },
+            {
+              "id": "seedo",
+              "title": "SEE SOMEBODY DO × DOING",
+              "tip": "Do = viu a ação inteira. Doing = viu parte, em andamento. Vale para see, hear, watch, notice, feel.",
+              "ex": "I saw him leave. I heard someone shouting.",
+              "use": "Ao contar algo que você viu ou ouviu acontecer."
+            },
+            {
+              "id": "help",
+              "title": "HELP · CAN'T HELP -ING",
+              "tip": "Help (to) + verbo. Can't help -ING = não consegue evitar.",
+              "ex": "Can you help me (to) prepare the slides?",
+              "use": "Ao pedir ou oferecer ajuda e ao dizer que não conseguiu evitar algo."
+            },
+            {
+              "id": "ingclause",
+              "title": "Orações com -ING",
+              "tip": "Duas ações do mesmo sujeito: Feeling tired, I went home. Having finished, she left. Também para motivo.",
+              "ex": "Not knowing the answer, I asked.",
+              "use": "Ao contar uma sequência de ações ou o motivo de uma decisão."
+            }
+          ]
+        },
+        {
+          "id": "t38",
+          "title": "Adjetivos, advérbios e ordem",
+          "short": "a nice new house, quite/rather, too/enough, still/yet, even",
+          "intro": "Onde colocar cada palavra: ordem dos adjetivos, advérbios de frequência e intensidade, still/yet/already. São os detalhes que deixam a frase natural.",
+          "cefr": [
+            "B1",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "adjorder",
+              "title": "Ordem dos adjetivos",
+              "tip": "Opinião antes de fato. Fatos: tamanho, idade, forma, cor, origem, material, finalidade.",
+              "ex": "a beautiful old Italian building",
+              "use": "Ao descrever hotéis, escritórios, produtos ou pessoas."
+            },
+            {
+              "id": "linkadj",
+              "title": "LOOK / FEEL / SOUND + adjetivo",
+              "tip": "Verbos de estado e percepção levam adjetivo (look tired), não advérbio. Ação leva advérbio.",
+              "ex": "You sound worried. She spoke calmly.",
+              "use": "Ao comentar a aparência ou o tom de alguém."
+            },
+            {
+              "id": "quite",
+              "title": "QUITE · PRETTY · RATHER · FAIRLY",
+              "tip": "Grau médio. RATHER sugere algo inesperado ou negativo. QUITE + adjetivo absoluto = totalmente.",
+              "ex": "It's rather expensive. You're quite right.",
+              "use": "Ao dar opinião moderada sobre preços, resultados ou propostas."
+            },
+            {
+              "id": "tooenough",
+              "title": "TOO × ENOUGH",
+              "tip": "TOO antes do adjetivo (excesso). ENOUGH depois do adjetivo e antes do substantivo. Too / enough + for + pessoa + to.",
+              "ex": "It's too late to change. We don't have enough time.",
+              "use": "Ao dizer que falta tempo, sobra custo ou algo não é suficiente."
+            },
+            {
+              "id": "advpos",
+              "title": "Posição de advérbios",
+              "tip": "Always, also, probably, just, all, both: antes do verbo principal, depois de BE e do primeiro auxiliar.",
+              "ex": "We have always worked with them. They are both here.",
+              "use": "Em qualquer frase com 'sempre', 'também', 'provavelmente', 'todos'."
+            },
+            {
+              "id": "stillyet",
+              "title": "STILL · YET · ALREADY · ANY MORE",
+              "tip": "STILL = continua. YET = ainda não (negativa). ALREADY = antes do esperado. ANY MORE / NO LONGER = não mais.",
+              "ex": "He still works there. He doesn't work there any more.",
+              "use": "Ao dar status: ainda trabalha lá, ainda não chegou, já resolvemos."
+            },
+            {
+              "id": "even",
+              "title": "EVEN · EVEN IF · EVEN THOUGH",
+              "tip": "EVEN = até / mesmo (surpresa). EVEN IF = mesmo se (hipótese). EVEN THOUGH = mesmo que (fato).",
+              "ex": "Even the director was surprised.",
+              "use": "Ao mostrar surpresa ou insistir: mesmo assim, até o diretor."
+            },
+            {
+              "id": "wordorder",
+              "title": "Ordem: verbo + objeto, lugar + tempo",
+              "tip": "Nada entre o verbo e o objeto. Lugar antes de tempo.",
+              "ex": "I met the supplier in Recife last week.",
+              "use": "Ao contar onde e quando algo aconteceu."
+            }
+          ]
+        },
+        {
+          "id": "t39",
+          "title": "Conectores de tempo e modo",
+          "short": "as, like × as, as if, during × while, by × until, by the time",
+          "intro": "Palavras curtas com usos que confundem: AS tem três sentidos, LIKE e AS não são intercambiáveis, BY e UNTIL não querem dizer a mesma coisa.",
+          "cefr": [
+            "B1",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "astime",
+              "title": "AS = enquanto / quando",
+              "tip": "Duas coisas ao mesmo tempo ou uma acontecendo durante a outra.",
+              "ex": "The phone rang as I was leaving.",
+              "use": "Ao narrar duas coisas acontecendo ao mesmo tempo."
+            },
+            {
+              "id": "asreason",
+              "title": "AS = porque / já que",
+              "tip": "AS / SINCE com motivo conhecido, no início da frase.",
+              "ex": "As it was late, we postponed the decision.",
+              "use": "Ao justificar uma decisão já conhecida por todos."
+            },
+            {
+              "id": "likeas",
+              "title": "LIKE × AS",
+              "tip": "LIKE + substantivo = parecido com. AS + função = na qualidade de. As usual, as I said, as you know.",
+              "ex": "She works as a lawyer. She talks like a lawyer.",
+              "use": "Ao dizer sua função ou comparar alguém com algo."
+            },
+            {
+              "id": "asif",
+              "title": "AS IF · LOOK LIKE",
+              "tip": "As if / as though / like + frase. Look/sound/feel like + substantivo.",
+              "ex": "It looks like rain. He acts as if he owned the place.",
+              "use": "Ao descrever impressões: parece que vai chover, age como se fosse o dono."
+            },
+            {
+              "id": "during",
+              "title": "DURING × FOR",
+              "tip": "DURING + quando (during the meeting). FOR + quanto tempo (for two hours).",
+              "ex": "I fell asleep during the presentation.",
+              "use": "Ao dizer em que momento algo aconteceu."
+            },
+            {
+              "id": "while",
+              "title": "WHILE × DURING",
+              "tip": "WHILE + frase (sujeito + verbo); DURING + substantivo.",
+              "ex": "While I was in Rio, I visited the office.",
+              "use": "Ao contar o que aconteceu enquanto você fazia outra coisa."
+            },
+            {
+              "id": "byuntil",
+              "title": "BY × UNTIL",
+              "tip": "BY = até (prazo, no máximo). UNTIL = até (duração, continua até lá).",
+              "ex": "Send it by Friday. I'll be here until Friday.",
+              "use": "Ao combinar prazos e horários."
+            },
+            {
+              "id": "bythetime",
+              "title": "BY THE TIME",
+              "tip": "Quando algo acontecer / aconteceu, outra coisa já terá / tinha acontecido.",
+              "ex": "By the time we arrived, the meeting had ended.",
+              "use": "Ao contar que algo já tinha acontecido quando você chegou."
+            }
+          ]
+        },
+        {
+          "id": "t40",
+          "title": "Preposições de tempo e lugar",
+          "short": "at/on/in, on time × in time, at home, arrive at/in, by car",
+          "intro": "AT, ON e IN parecem simples, mas cada uma tem um território. Somam-se expressões fixas (on time, in the end, by mistake) que aparecem toda hora.",
+          "cefr": [
+            "A2",
+            "B1",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "attime",
+              "title": "AT / ON / IN (tempo)",
+              "tip": "AT hora e momentos (at noon, at the weekend). ON dias e datas. IN meses, anos, partes do dia, in two days = daqui a dois dias.",
+              "ex": "See you on Monday at 9.",
+              "use": "Ao marcar reuniões, voos e entregas."
+            },
+            {
+              "id": "ontime",
+              "title": "ON TIME × IN TIME · AT THE END × IN THE END",
+              "tip": "On time = pontual. In time = a tempo. At the end of = no fim de. In the end = no final das contas.",
+              "ex": "We finished just in time. In the end, they agreed.",
+              "use": "Ao falar de pontualidade e de como algo terminou."
+            },
+            {
+              "id": "position",
+              "title": "IN / AT / ON (posição)",
+              "tip": "IN dentro de espaço. AT ponto (at the door, at the bus stop). ON superfície (on the wall, on page 3).",
+              "ex": "The file is on my desk, in the blue folder.",
+              "use": "Ao dizer onde está um documento, uma pessoa ou um objeto."
+            },
+            {
+              "id": "place2",
+              "title": "Posições fixas",
+              "tip": "on the left/right, at the top/bottom, in the front/back of a car, on the first floor, on a bus/train/plane, in a car/taxi.",
+              "ex": "She's on the train. I'm in a taxi.",
+              "use": "Em viagens e deslocamentos: no trem, no táxi, no primeiro andar."
+            },
+            {
+              "id": "place3",
+              "title": "AT HOME · IN HOSPITAL · AT A PARTY",
+              "tip": "at home/work/school/university, at the airport, at a conference. In bed, in hospital, in prison. At ou in para prédios.",
+              "ex": "He's at a conference in Lisbon.",
+              "use": "Ao dizer onde alguém está: em casa, no trabalho, num congresso."
+            },
+            {
+              "id": "toat",
+              "title": "TO · AT · IN · INTO",
+              "tip": "go/come TO; arrive AT (lugar) / IN (cidade, país); get TO; go INTO = entrar. Home sem TO.",
+              "ex": "We arrived in Madrid at midnight.",
+              "use": "Ao contar chegadas e deslocamentos."
+            },
+            {
+              "id": "other",
+              "title": "IN / ON / AT em expressões",
+              "tip": "in my opinion, in cash, in the rain, in pencil; on TV, on purpose, on holiday, on business; at 100 km/h, at the age of 30.",
+              "ex": "I'm here on business.",
+              "use": "Em expressões do dia a dia: na minha opinião, a negócios, de propósito."
+            },
+            {
+              "id": "by",
+              "title": "BY",
+              "tip": "by car/train (sem artigo) × on foot; by mistake, by chance, by credit card; by + autor; increase by 10%; by the window = ao lado.",
+              "ex": "I paid by card, but I took the wrong bus by mistake.",
+              "use": "Ao falar de meio de transporte, forma de pagamento e variações percentuais."
+            }
+          ]
+        },
+        {
+          "id": "t41",
+          "title": "Phrasal verbs essenciais",
+          "short": "find out, carry on, give up, look up, get back to…",
+          "intro": "Phrasal verbs gerais do dia a dia, além dos de trabalho. A partícula (in, out, on, off, up, down, away, back) carrega boa parte do sentido.",
+          "cefr": [
+            "B1",
+            "B2",
+            "B2"
+          ],
+          "skills": [
+            {
+              "id": "intro",
+              "title": "Como funcionam · objeto e pronome",
+              "tip": "Separáveis: o pronome vai no meio (turn it off). Inseparáveis: look after it, get on with it.",
+              "ex": "Can you turn it down a bit?",
+              "use": "Ao usar phrasal verbs com pronomes: desligue isso, cuide disso."
+            },
+            {
+              "id": "inout",
+              "title": "IN / OUT (entrar e sair)",
+              "tip": "move in/out, check in/out, drop in, fill in a form, get in/out of a car, eat out, go out.",
+              "ex": "We checked out at noon.",
+              "use": "Em hotéis, mudanças e formulários."
+            },
+            {
+              "id": "out",
+              "title": "OUT (até o fim, descobrir)",
+              "tip": "find out, work out, run out of, carry out, point out, sort out, turn out, figure out.",
+              "ex": "It turned out that the invoice was wrong.",
+              "use": "Ao investigar, resolver e descobrir coisas."
+            },
+            {
+              "id": "onoff",
+              "title": "ON / OFF",
+              "tip": "carry on / go on (continuar), put on, take off (decolar, tirar), turn on/off, call off, put off, get on (with), show off.",
+              "ex": "Carry on, I'm listening.",
+              "use": "Ao continuar, adiar, cancelar ou ligar e desligar algo."
+            },
+            {
+              "id": "updown",
+              "title": "DOWN",
+              "tip": "slow down, cut down (on), turn down (recusar), break down, let down (decepcionar), calm down, write down.",
+              "ex": "They turned down our offer.",
+              "use": "Ao recusar uma oferta, pedir calma ou anotar algo."
+            },
+            {
+              "id": "up1",
+              "title": "UP (1)",
+              "tip": "give up, make up, take up, end up, bring up, come up with, set up, grow up.",
+              "ex": "We ended up staying longer.",
+              "use": "Ao contar como algo acabou ou quem teve uma ideia."
+            },
+            {
+              "id": "up2",
+              "title": "UP (2)",
+              "tip": "look up, pick up, catch up (with), keep up (with), show up, use up, back up, hold up.",
+              "ex": "Sorry, I was held up in traffic.",
+              "use": "Ao falar de atrasos, buscar alguém ou acompanhar o ritmo."
+            },
+            {
+              "id": "awayback",
+              "title": "AWAY / BACK",
+              "tip": "go away, throw away, give back, pay back, call back, get back to, look back, take back.",
+              "ex": "I'll get back to you tomorrow.",
+              "use": "Ao prometer retorno, devolver algo ou relembrar."
             }
           ]
         }

@@ -1,0 +1,895 @@
+{
+ "topic": "t38",
+ "items": [
+  {
+   "id": "t38-1-001",
+   "topic": "t38",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We stayed in a ___ hotel.",
+   "options": [
+    "lovely old",
+    "old lovely",
+    "lovely and old an"
+   ],
+   "answer": "lovely old",
+   "explain": "Opinião antes de fato (idade).",
+   "skill": "adjorder",
+   "cefr": "B1"
+  },
+  {
+   "id": "t38-1-002",
+   "topic": "t38",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She bought a ___ bag.",
+   "options": [
+    "small black leather",
+    "leather black small",
+    "black small leather"
+   ],
+   "answer": "small black leather",
+   "explain": "Tamanho, cor, material.",
+   "skill": "adjorder",
+   "cefr": "B1"
+  },
+  {
+   "id": "t38-1-003",
+   "topic": "t38",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "You look ___. Did you sleep well?",
+   "options": [
+    "tired",
+    "tiredly",
+    "tiring"
+   ],
+   "answer": "tired",
+   "explain": "LOOK + adjetivo.",
+   "skill": "linkadj",
+   "cefr": "B1"
+  },
+  {
+   "id": "t38-1-004",
+   "topic": "t38",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The soup tastes ___.",
+   "options": [
+    "delicious",
+    "deliciously",
+    "delicious good"
+   ],
+   "answer": "delicious",
+   "explain": "TASTE + adjetivo.",
+   "skill": "linkadj",
+   "cefr": "B1"
+  },
+  {
+   "id": "t38-1-005",
+   "topic": "t38",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The hotel was ___ good, but not excellent.",
+   "options": [
+    "quite",
+    "too",
+    "enough"
+   ],
+   "answer": "quite",
+   "explain": "QUITE = razoavelmente.",
+   "skill": "quite",
+   "cefr": "B1"
+  },
+  {
+   "id": "t38-1-006",
+   "topic": "t38",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It's ___ cold to go swimming.",
+   "options": [
+    "too",
+    "enough",
+    "very much"
+   ],
+   "answer": "too",
+   "explain": "TOO + adjetivo = demais.",
+   "skill": "tooenough",
+   "cefr": "B1"
+  },
+  {
+   "id": "t38-1-007",
+   "topic": "t38",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He isn't old ___ to drive.",
+   "options": [
+    "enough",
+    "too",
+    "so"
+   ],
+   "answer": "enough",
+   "explain": "Adjetivo + ENOUGH.",
+   "skill": "tooenough",
+   "cefr": "B1"
+  },
+  {
+   "id": "t38-1-008",
+   "topic": "t38",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We ___ work late on Fridays.",
+   "options": [
+    "never",
+    "are never",
+    "never are"
+   ],
+   "answer": "never",
+   "explain": "Advérbio antes do verbo principal.",
+   "skill": "advpos",
+   "cefr": "B1"
+  },
+  {
+   "id": "t38-1-009",
+   "topic": "t38",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "They are ___ very happy with the result.",
+   "options": [
+    "both",
+    "both are",
+    "are both"
+   ],
+   "answer": "both",
+   "explain": "Depois de BE: are both.",
+   "skill": "advpos",
+   "cefr": "B1"
+  },
+  {
+   "id": "t38-1-010",
+   "topic": "t38",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Are you ___ working on the report? (continua)",
+   "options": [
+    "still",
+    "yet",
+    "already"
+   ],
+   "answer": "still",
+   "explain": "STILL = continua.",
+   "skill": "stillyet",
+   "cefr": "B1"
+  },
+  {
+   "id": "t38-1-011",
+   "topic": "t38",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She doesn't work here ___.",
+   "options": [
+    "any more",
+    "still",
+    "yet more"
+   ],
+   "answer": "any more",
+   "explain": "Não mais: ANY MORE (fim da frase).",
+   "skill": "stillyet",
+   "cefr": "B1"
+  },
+  {
+   "id": "t38-1-012",
+   "topic": "t38",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ my boss was surprised by the result.",
+   "options": [
+    "Even",
+    "Even though",
+    "Even if"
+   ],
+   "answer": "Even",
+   "explain": "EVEN = até (surpresa).",
+   "skill": "even",
+   "cefr": "B1"
+  },
+  {
+   "id": "t38-1-013",
+   "topic": "t38",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'll go ___ it rains.",
+   "options": [
+    "even if",
+    "even",
+    "even so"
+   ],
+   "answer": "even if",
+   "explain": "EVEN IF + frase.",
+   "skill": "even",
+   "cefr": "B1"
+  },
+  {
+   "id": "t38-1-014",
+   "topic": "t38",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She speaks ___.",
+   "options": [
+    "English fluently",
+    "fluently English",
+    "English fluent"
+   ],
+   "answer": "English fluently",
+   "explain": "Verbo + objeto juntos; advérbio depois.",
+   "skill": "wordorder",
+   "cefr": "B1"
+  },
+  {
+   "id": "t38-1-015",
+   "topic": "t38",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I've ___ finished. (antes do esperado)",
+   "options": [
+    "already",
+    "yet",
+    "still"
+   ],
+   "answer": "already",
+   "explain": "ALREADY.",
+   "skill": "stillyet",
+   "cefr": "B1"
+  },
+  {
+   "id": "t38-2-001",
+   "topic": "t38",
+   "level": 2,
+   "type": "fix",
+   "prompt": "They live in a white big house.",
+   "options": [
+    "They live in a big white house.",
+    "They live in a big house white.",
+    "They live in a white house big."
+   ],
+   "answer": "They live in a big white house.",
+   "explain": "Tamanho antes de cor.",
+   "skill": "adjorder",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-2-002",
+   "topic": "t38",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We bought an ___ (Italian / expensive) coffee machine. (na ordem certa)",
+   "answer": [
+    "expensive Italian"
+   ],
+   "explain": "Opinião antes de origem.",
+   "skill": "adjorder",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-2-003",
+   "topic": "t38",
+   "level": 2,
+   "type": "fix",
+   "prompt": "You sound angrily. What happened?",
+   "options": [
+    "You sound angry. What happened?",
+    "You sound anger. What happened?",
+    "You're sounding angrily. What happened?"
+   ],
+   "answer": "You sound angry. What happened?",
+   "explain": "SOUND + adjetivo.",
+   "skill": "linkadj",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-2-004",
+   "topic": "t38",
+   "level": 2,
+   "type": "gap",
+   "prompt": "She looked at me ___ (angry). (como ela olhou)",
+   "answer": [
+    "angrily"
+   ],
+   "explain": "Ação: advérbio.",
+   "skill": "linkadj",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-2-005",
+   "topic": "t38",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The film was enough good to win an award.",
+   "options": [
+    "The film was good enough to win an award.",
+    "The film was enough of good to win an award.",
+    "The film was good to enough win an award."
+   ],
+   "answer": "The film was good enough to win an award.",
+   "explain": "Adjetivo + ENOUGH.",
+   "skill": "tooenough",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-2-006",
+   "topic": "t38",
+   "level": 2,
+   "type": "gap",
+   "prompt": "You're ___ (totalmente) right. I agree 100%.",
+   "answer": [
+    "quite",
+    "absolutely",
+    "completely"
+   ],
+   "explain": "QUITE + adjetivo absoluto = totalmente.",
+   "skill": "quite",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-2-007",
+   "topic": "t38",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We don't have time enough.",
+   "options": [
+    "We don't have enough time.",
+    "We don't have enough of time.",
+    "We have not time enough."
+   ],
+   "answer": "We don't have enough time.",
+   "explain": "ENOUGH antes do substantivo.",
+   "skill": "tooenough",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-2-008",
+   "topic": "t38",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The box is too heavy for me ___ (carry).",
+   "answer": [
+    "to carry"
+   ],
+   "explain": "TOO ... FOR + pessoa + TO.",
+   "skill": "tooenough",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-2-009",
+   "topic": "t38",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I always am tired on Mondays.",
+   "options": [
+    "I am always tired on Mondays.",
+    "Always I am tired on Mondays.",
+    "I am tired always on Mondays at."
+   ],
+   "answer": "I am always tired on Mondays.",
+   "explain": "Depois de BE.",
+   "skill": "advpos",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-2-010",
+   "topic": "t38",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I have ___ (também) visited the plant.",
+   "answer": [
+    "also"
+   ],
+   "explain": "ALSO depois do primeiro auxiliar.",
+   "skill": "advpos",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-2-011",
+   "topic": "t38",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The client hasn't replied already.",
+   "options": [
+    "The client hasn't replied yet.",
+    "The client hasn't already replied yet.",
+    "The client still hasn't replied yet."
+   ],
+   "answer": "The client hasn't replied yet.",
+   "explain": "Negativa: YET.",
+   "skill": "stillyet",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-2-012",
+   "topic": "t38",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I ___ (ainda) haven't received the invoice.",
+   "answer": [
+    "still"
+   ],
+   "explain": "STILL antes de HAVEN'T: ainda não (impaciência).",
+   "skill": "stillyet",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-2-013",
+   "topic": "t38",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Even I explained twice, he didn't understand.",
+   "options": [
+    "Even though I explained twice, he didn't understand.",
+    "Even I explained twice, but he didn't understand.",
+    "Even if I explained twice, he didn't understand yesterday."
+   ],
+   "answer": "Even though I explained twice, he didn't understand.",
+   "explain": "Fato: EVEN THOUGH + frase.",
+   "skill": "even",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-2-014",
+   "topic": "t38",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I visited last year my family in Bahia.",
+   "options": [
+    "I visited my family in Bahia last year.",
+    "I visited my family last year in Bahia.",
+    "Last year I my family visited in Bahia."
+   ],
+   "answer": "I visited my family in Bahia last year.",
+   "explain": "Verbo + objeto + lugar + tempo.",
+   "skill": "wordorder",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-2-015",
+   "topic": "t38",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Do you ___ (ainda) live in Campinas?",
+   "answer": [
+    "still"
+   ],
+   "explain": "STILL = continua.",
+   "skill": "stillyet",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-3-001",
+   "topic": "t38",
+   "level": 3,
+   "type": "gap",
+   "prompt": "She's a ___ (young / talented) lawyer. (na ordem certa)",
+   "answer": [
+    "talented young"
+   ],
+   "explain": "Opinião antes de idade.",
+   "skill": "adjorder",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-3-002",
+   "topic": "t38",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The plan sounds ___ (good).",
+   "answer": [
+    "good"
+   ],
+   "explain": "SOUND + adjetivo.",
+   "skill": "linkadj",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-3-003",
+   "topic": "t38",
+   "level": 3,
+   "type": "gap",
+   "prompt": "He isn't experienced ___ (suficiente) to lead the project.",
+   "answer": [
+    "enough"
+   ],
+   "explain": "Adjetivo + ENOUGH.",
+   "skill": "tooenough",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-3-004",
+   "topic": "t38",
+   "level": 3,
+   "type": "gap",
+   "prompt": "He no ___ (mais) works here. He left in May.",
+   "answer": [
+    "longer"
+   ],
+   "explain": "NO LONGER = não mais (formal).",
+   "skill": "stillyet",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-3-005",
+   "topic": "t38",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I didn't ___ (nem: even) have time to eat.",
+   "answer": [
+    "even"
+   ],
+   "explain": "EVEN para ênfase.",
+   "skill": "even",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-3-006",
+   "topic": "t38",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We have always worked with local suppliers.",
+   "explain": "ALWAYS depois do auxiliar.",
+   "skill": "advpos",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-3-007",
+   "topic": "t38",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "It's too late to change the plan now.",
+   "explain": "TOO + adjetivo + TO.",
+   "skill": "tooenough",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-3-008",
+   "topic": "t38",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "She drove her car carefully through the city.",
+   "explain": "Verbo + objeto + modo + lugar.",
+   "skill": "wordorder",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-3-009",
+   "topic": "t38",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "The meeting was rather long and boring.",
+   "explain": "RATHER.",
+   "skill": "quite",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-3-010",
+   "topic": "t38",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Even though it was expensive, we bought it.",
+    "Even it was expensive, we bought it.",
+    "Even if it was expensive yesterday, we bought it."
+   ],
+   "answer": "Even though it was expensive, we bought it.",
+   "explain": "EVEN THOUGH + fato.",
+   "skill": "even",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-3-011",
+   "topic": "t38",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "They probably won't come.",
+    "They won't probably come.",
+    "They probably not will come."
+   ],
+   "answer": "They probably won't come.",
+   "explain": "PROBABLY antes de WON'T.",
+   "skill": "advpos",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-3-012",
+   "topic": "t38",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "A beautiful wooden round table.",
+    "A beautiful round wooden table.",
+    "A round beautiful wooden table."
+   ],
+   "answer": "A beautiful round wooden table.",
+   "explain": "Opinião, forma, material.",
+   "skill": "adjorder",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-3-013",
+   "topic": "t38",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "The coffee smells wonderful.",
+    "The coffee smells wonderfully.",
+    "The coffee smells wonder."
+   ],
+   "answer": "The coffee smells wonderful.",
+   "explain": "SMELL + adjetivo.",
+   "skill": "linkadj",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-3-014",
+   "topic": "t38",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Is it still raining?",
+    "Is it yet raining?",
+    "Is it already raining still?"
+   ],
+   "answer": "Is it still raining?",
+   "explain": "STILL = continua.",
+   "skill": "stillyet",
+   "cefr": "B2"
+  },
+  {
+   "id": "t38-3-015",
+   "topic": "t38",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I speak French quite well.",
+    "I speak quite well French.",
+    "I quite well speak French."
+   ],
+   "answer": "I speak French quite well.",
+   "explain": "Verbo + objeto juntos.",
+   "skill": "wordorder",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t38",
+   "level": 2,
+   "skill": "adjorder",
+   "cefr": "B2",
+   "id": "t38-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "They live in a big white house.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Tamanho antes de cor."
+  },
+  {
+   "topic": "t38",
+   "level": 2,
+   "skill": "linkadj",
+   "cefr": "B2",
+   "id": "t38-2-003v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "You sound angry. What happened?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. SOUND + adjetivo."
+  },
+  {
+   "topic": "t38",
+   "level": 2,
+   "skill": "tooenough",
+   "cefr": "B2",
+   "id": "t38-2-005v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The film was good enough to win an award.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Adjetivo + ENOUGH."
+  },
+  {
+   "topic": "t38",
+   "level": 2,
+   "skill": "tooenough",
+   "cefr": "B2",
+   "id": "t38-2-007v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We don't have enough time.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. ENOUGH antes do substantivo."
+  },
+  {
+   "topic": "t38",
+   "level": 2,
+   "skill": "advpos",
+   "cefr": "B2",
+   "id": "t38-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I am always tired on Mondays.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Depois de BE."
+  },
+  {
+   "topic": "t38",
+   "level": 2,
+   "skill": "stillyet",
+   "cefr": "B2",
+   "id": "t38-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The client hasn't replied yet.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Negativa: YET."
+  },
+  {
+   "topic": "t38",
+   "level": 2,
+   "skill": "even",
+   "cefr": "B2",
+   "id": "t38-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Even though I explained twice, he didn't understand.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Fato: EVEN THOUGH + frase."
+  },
+  {
+   "topic": "t38",
+   "level": 2,
+   "skill": "wordorder",
+   "cefr": "B2",
+   "id": "t38-2-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I visited last year my family in Bahia.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I visited my family in Bahia last year. Verbo + objeto + lugar + tempo."
+  },
+  {
+   "topic": "t38",
+   "level": 3,
+   "skill": "even",
+   "cefr": "B2",
+   "id": "t38-3-010v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Even it was expensive, we bought it.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Even though it was expensive, we bought it. EVEN THOUGH + fato."
+  },
+  {
+   "topic": "t38",
+   "level": 3,
+   "skill": "advpos",
+   "cefr": "B2",
+   "id": "t38-3-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "They probably won't come.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. PROBABLY antes de WON'T."
+  },
+  {
+   "topic": "t38",
+   "level": 3,
+   "skill": "adjorder",
+   "cefr": "B2",
+   "id": "t38-3-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "A beautiful wooden round table.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: A beautiful round wooden table. Opinião, forma, material."
+  },
+  {
+   "topic": "t38",
+   "level": 3,
+   "skill": "linkadj",
+   "cefr": "B2",
+   "id": "t38-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The coffee smells wonderful.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. SMELL + adjetivo."
+  },
+  {
+   "topic": "t38",
+   "level": 3,
+   "skill": "stillyet",
+   "cefr": "B2",
+   "id": "t38-3-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Is it yet raining?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Is it still raining? STILL = continua."
+  },
+  {
+   "topic": "t38",
+   "level": 3,
+   "skill": "wordorder",
+   "cefr": "B2",
+   "id": "t38-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I speak French quite well.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Verbo + objeto juntos."
+  }
+ ]
+}

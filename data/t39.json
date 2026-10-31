@@ -1,0 +1,831 @@
+{
+ "topic": "t39",
+ "items": [
+  {
+   "id": "t39-1-001",
+   "topic": "t39",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The phone rang ___ I was leaving the house.",
+   "options": [
+    "as",
+    "like",
+    "during"
+   ],
+   "answer": "as",
+   "explain": "AS = no momento em que.",
+   "skill": "astime",
+   "cefr": "B1"
+  },
+  {
+   "id": "t39-1-002",
+   "topic": "t39",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ it was raining, we stayed inside.",
+   "options": [
+    "As",
+    "Like",
+    "During"
+   ],
+   "answer": "As",
+   "explain": "AS = porque.",
+   "skill": "asreason",
+   "cefr": "B1"
+  },
+  {
+   "id": "t39-1-003",
+   "topic": "t39",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She works ___ a project manager.",
+   "options": [
+    "as",
+    "like",
+    "such as"
+   ],
+   "answer": "as",
+   "explain": "Função real: AS.",
+   "skill": "likeas",
+   "cefr": "B1"
+  },
+  {
+   "id": "t39-1-004",
+   "topic": "t39",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He swims ___ a fish.",
+   "options": [
+    "like",
+    "as",
+    "as if"
+   ],
+   "answer": "like",
+   "explain": "Comparação: LIKE + substantivo.",
+   "skill": "likeas",
+   "cefr": "B1"
+  },
+  {
+   "id": "t39-1-005",
+   "topic": "t39",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It looks ___ it's going to rain.",
+   "options": [
+    "as if",
+    "like as",
+    "as"
+   ],
+   "answer": "as if",
+   "explain": "LOOK AS IF + frase.",
+   "skill": "asif",
+   "cefr": "B1"
+  },
+  {
+   "id": "t39-1-006",
+   "topic": "t39",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She looks ___ her mother.",
+   "options": [
+    "like",
+    "as",
+    "as if"
+   ],
+   "answer": "like",
+   "explain": "LOOK LIKE + substantivo.",
+   "skill": "asif",
+   "cefr": "B1"
+  },
+  {
+   "id": "t39-1-007",
+   "topic": "t39",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I fell asleep ___ the film.",
+   "options": [
+    "during",
+    "while",
+    "for"
+   ],
+   "answer": "during",
+   "explain": "DURING + substantivo.",
+   "skill": "during",
+   "cefr": "B1"
+  },
+  {
+   "id": "t39-1-008",
+   "topic": "t39",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We waited ___ two hours.",
+   "options": [
+    "for",
+    "during",
+    "while"
+   ],
+   "answer": "for",
+   "explain": "Quanto tempo: FOR.",
+   "skill": "during",
+   "cefr": "B1"
+  },
+  {
+   "id": "t39-1-009",
+   "topic": "t39",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ I was in Lisbon, I visited the office.",
+   "options": [
+    "While",
+    "During",
+    "For"
+   ],
+   "answer": "While",
+   "explain": "WHILE + frase.",
+   "skill": "while",
+   "cefr": "B1"
+  },
+  {
+   "id": "t39-1-010",
+   "topic": "t39",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Please send the report ___ Friday.",
+   "options": [
+    "by",
+    "until",
+    "till"
+   ],
+   "answer": "by",
+   "explain": "Prazo: BY.",
+   "skill": "byuntil",
+   "cefr": "B1"
+  },
+  {
+   "id": "t39-1-011",
+   "topic": "t39",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'll be in the office ___ 6 p.m.",
+   "options": [
+    "until",
+    "by",
+    "to"
+   ],
+   "answer": "until",
+   "explain": "Duração até: UNTIL.",
+   "skill": "byuntil",
+   "cefr": "B1"
+  },
+  {
+   "id": "t39-1-012",
+   "topic": "t39",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ the time we arrived, the show had started.",
+   "options": [
+    "By",
+    "Until",
+    "At"
+   ],
+   "answer": "By",
+   "explain": "BY THE TIME.",
+   "skill": "bythetime",
+   "cefr": "B1"
+  },
+  {
+   "id": "t39-1-013",
+   "topic": "t39",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ usual, he was late.",
+   "options": [
+    "As",
+    "Like",
+    "Such as"
+   ],
+   "answer": "As",
+   "explain": "AS USUAL.",
+   "skill": "likeas",
+   "cefr": "B1"
+  },
+  {
+   "id": "t39-1-014",
+   "topic": "t39",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "As you ___, the budget is tight.",
+   "options": [
+    "know",
+    "knowing",
+    "known"
+   ],
+   "answer": "know",
+   "explain": "AS YOU KNOW.",
+   "skill": "likeas",
+   "cefr": "B1"
+  },
+  {
+   "id": "t39-1-015",
+   "topic": "t39",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ I was walking home, I saw an old friend.",
+   "options": [
+    "As",
+    "Like",
+    "During"
+   ],
+   "answer": "As",
+   "explain": "AS = enquanto.",
+   "skill": "astime",
+   "cefr": "B1"
+  },
+  {
+   "id": "t39-2-001",
+   "topic": "t39",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Like I said, we need more time.",
+   "options": [
+    "As I said, we need more time.",
+    "As I said it, we need more time.",
+    "Such as I said, we need more time."
+   ],
+   "answer": "As I said, we need more time.",
+   "explain": "Formal: AS I SAID (LIKE é informal).",
+   "skill": "likeas",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-2-002",
+   "topic": "t39",
+   "level": 2,
+   "type": "gap",
+   "prompt": "She works ___ (como) a consultant for two companies.",
+   "answer": [
+    "as"
+   ],
+   "explain": "Função: AS.",
+   "skill": "likeas",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-2-003",
+   "topic": "t39",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (Como / já que) we have time, let's review the numbers again.",
+   "answer": [
+    "As",
+    "Since"
+   ],
+   "explain": "Motivo: AS / SINCE.",
+   "skill": "asreason",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-2-004",
+   "topic": "t39",
+   "level": 2,
+   "type": "fix",
+   "prompt": "He talks as he knew everything.",
+   "options": [
+    "He talks as if he knew everything.",
+    "He talks like as he knew everything.",
+    "He talks as he knows everything as if."
+   ],
+   "answer": "He talks as if he knew everything.",
+   "explain": "AS IF + frase.",
+   "skill": "asif",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-2-005",
+   "topic": "t39",
+   "level": 2,
+   "type": "gap",
+   "prompt": "It sounds ___ (como) a good plan.",
+   "answer": [
+    "like"
+   ],
+   "explain": "SOUND LIKE + substantivo.",
+   "skill": "asif",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-2-006",
+   "topic": "t39",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I worked a lot during I was in London.",
+   "options": [
+    "I worked a lot while I was in London.",
+    "I worked a lot during I in London.",
+    "I worked a lot for I was in London."
+   ],
+   "answer": "I worked a lot while I was in London.",
+   "explain": "Frase: WHILE.",
+   "skill": "while",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-2-007",
+   "topic": "t39",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Nobody spoke ___ (durante) the presentation.",
+   "answer": [
+    "during"
+   ],
+   "explain": "DURING + substantivo.",
+   "skill": "during",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-2-008",
+   "topic": "t39",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I lived in Rio during five years.",
+   "options": [
+    "I lived in Rio for five years.",
+    "I lived in Rio while five years.",
+    "I lived in Rio since five years."
+   ],
+   "answer": "I lived in Rio for five years.",
+   "explain": "Quanto tempo: FOR.",
+   "skill": "during",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-2-009",
+   "topic": "t39",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I need the invoice until Monday. (prazo)",
+   "options": [
+    "I need the invoice by Monday.",
+    "I need the invoice for Monday until.",
+    "I need the invoice till Monday latest."
+   ],
+   "answer": "I need the invoice by Monday.",
+   "explain": "Prazo: BY.",
+   "skill": "byuntil",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-2-010",
+   "topic": "t39",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Let's wait ___ (até) the director arrives.",
+   "answer": [
+    "until",
+    "till"
+   ],
+   "explain": "Duração: UNTIL.",
+   "skill": "byuntil",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-2-011",
+   "topic": "t39",
+   "level": 2,
+   "type": "gap",
+   "prompt": "By the time you read this, I ___ (leave).",
+   "answer": [
+    "'ll have left",
+    "will have left"
+   ],
+   "explain": "BY THE TIME + futuro perfeito.",
+   "skill": "bythetime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-2-012",
+   "topic": "t39",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The meeting had finished by the ___ (momento) I got there.",
+   "answer": [
+    "time"
+   ],
+   "explain": "BY THE TIME.",
+   "skill": "bythetime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-2-013",
+   "topic": "t39",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (Enquanto) she was speaking, everyone took notes.",
+   "answer": [
+    "As",
+    "While"
+   ],
+   "explain": "AS / WHILE.",
+   "skill": "astime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-2-014",
+   "topic": "t39",
+   "level": 2,
+   "type": "gap",
+   "prompt": "It's not ___ (como se) we have a choice.",
+   "answer": [
+    "as if",
+    "as though",
+    "like"
+   ],
+   "explain": "NOT AS IF.",
+   "skill": "asif",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-2-015",
+   "topic": "t39",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I didn't call you ___ (porque) I didn't have your number.",
+   "answer": [
+    "as",
+    "because",
+    "since"
+   ],
+   "explain": "Motivo.",
+   "skill": "asreason",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-3-001",
+   "topic": "t39",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'll be away ___ (até) the end of the month.",
+   "answer": [
+    "until",
+    "till"
+   ],
+   "explain": "UNTIL = até (duração).",
+   "skill": "byuntil",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-3-002",
+   "topic": "t39",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The contract must be signed ___ (até) 30 June.",
+   "answer": [
+    "by"
+   ],
+   "explain": "BY = prazo.",
+   "skill": "byuntil",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-3-003",
+   "topic": "t39",
+   "level": 3,
+   "type": "gap",
+   "prompt": "___ (Enquanto) I understand your point, I can't accept it.",
+   "answer": [
+    "While",
+    "Although"
+   ],
+   "explain": "WHILE = embora (contraste).",
+   "skill": "while",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-3-004",
+   "topic": "t39",
+   "level": 3,
+   "type": "gap",
+   "prompt": "She left the company ___ (durante) the crisis.",
+   "answer": [
+    "during"
+   ],
+   "explain": "DURING.",
+   "skill": "during",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-3-005",
+   "topic": "t39",
+   "level": 3,
+   "type": "gap",
+   "prompt": "He acted ___ (como se) nothing had happened.",
+   "answer": [
+    "as if",
+    "as though"
+   ],
+   "explain": "AS IF + passado perfeito.",
+   "skill": "asif",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-3-006",
+   "topic": "t39",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "As it was late, we decided to stop.",
+   "explain": "AS = porque.",
+   "skill": "asreason",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-3-007",
+   "topic": "t39",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "By the time I arrived, everyone had left.",
+   "explain": "BY THE TIME + passado perfeito.",
+   "skill": "bythetime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-3-008",
+   "topic": "t39",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Some fruits, such as mangoes, are cheaper here.",
+   "explain": "SUCH AS = exemplos.",
+   "skill": "likeas",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-3-009",
+   "topic": "t39",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "The lights went out as I was finishing the report.",
+   "explain": "AS = enquanto.",
+   "skill": "astime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-3-010",
+   "topic": "t39",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I'll wait until you call me.",
+    "I'll wait by you call me.",
+    "I'll wait until you will call me."
+   ],
+   "answer": "I'll wait until you call me.",
+   "explain": "UNTIL + presente.",
+   "skill": "byuntil",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-3-011",
+   "topic": "t39",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Many cities, such as Rio and Recife, are on the coast.",
+    "Many cities, as Rio and Recife, are on the coast.",
+    "Many cities, such Rio and Recife, are on the coast."
+   ],
+   "answer": "Many cities, such as Rio and Recife, are on the coast.",
+   "explain": "Exemplos: SUCH AS (LIKE também é comum na fala).",
+   "skill": "likeas",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-3-012",
+   "topic": "t39",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "During my stay in London, I visited three museums.",
+    "While my stay in London, I visited three museums.",
+    "For my stay in London, I visited three museums."
+   ],
+   "answer": "During my stay in London, I visited three museums.",
+   "explain": "DURING + substantivo.",
+   "skill": "during",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-3-013",
+   "topic": "t39",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "You look as if you haven't slept.",
+    "You look like as you haven't slept.",
+    "You look as you haven't slept."
+   ],
+   "answer": "You look as if you haven't slept.",
+   "explain": "LOOK AS IF + frase.",
+   "skill": "asif",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-3-014",
+   "topic": "t39",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "By the time the police arrived, the thieves had escaped.",
+    "Until the time the police arrived, the thieves had escaped.",
+    "By the time the police arrived, the thieves escaped have."
+   ],
+   "answer": "By the time the police arrived, the thieves had escaped.",
+   "explain": "BY THE TIME + passado perfeito.",
+   "skill": "bythetime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t39-3-015",
+   "topic": "t39",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "As I was getting into the car, my phone rang.",
+    "Like I was getting into the car, my phone rang.",
+    "During I was getting into the car, my phone rang."
+   ],
+   "answer": "As I was getting into the car, my phone rang.",
+   "explain": "AS = no momento em que.",
+   "skill": "astime",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t39",
+   "level": 2,
+   "skill": "asif",
+   "cefr": "B2",
+   "id": "t39-2-004v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He talks as he knew everything.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: He talks as if he knew everything. AS IF + frase."
+  },
+  {
+   "topic": "t39",
+   "level": 2,
+   "skill": "while",
+   "cefr": "B2",
+   "id": "t39-2-006v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I worked a lot during I was in London.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I worked a lot while I was in London. Frase: WHILE."
+  },
+  {
+   "topic": "t39",
+   "level": 2,
+   "skill": "during",
+   "cefr": "B2",
+   "id": "t39-2-008v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I lived in Rio during five years.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I lived in Rio for five years. Quanto tempo: FOR."
+  },
+  {
+   "topic": "t39",
+   "level": 2,
+   "skill": "byuntil",
+   "cefr": "B2",
+   "id": "t39-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I need the invoice by Monday. (prazo)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Prazo: BY."
+  },
+  {
+   "topic": "t39",
+   "level": 3,
+   "skill": "byuntil",
+   "cefr": "B2",
+   "id": "t39-3-010v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'll wait by you call me.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I'll wait until you call me. UNTIL + presente."
+  },
+  {
+   "topic": "t39",
+   "level": 3,
+   "skill": "likeas",
+   "cefr": "B2",
+   "id": "t39-3-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Many cities, such as Rio and Recife, are on the coast.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Exemplos: SUCH AS (LIKE também é comum na fala)."
+  },
+  {
+   "topic": "t39",
+   "level": 3,
+   "skill": "during",
+   "cefr": "B2",
+   "id": "t39-3-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "While my stay in London, I visited three museums.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: During my stay in London, I visited three museums. DURING + substantivo."
+  },
+  {
+   "topic": "t39",
+   "level": 3,
+   "skill": "asif",
+   "cefr": "B2",
+   "id": "t39-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "You look as if you haven't slept.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. LOOK AS IF + frase."
+  },
+  {
+   "topic": "t39",
+   "level": 3,
+   "skill": "bythetime",
+   "cefr": "B2",
+   "id": "t39-3-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Until the time the police arrived, the thieves had escaped.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: By the time the police arrived, the thieves had escaped. BY THE TIME + passado perfeito."
+  },
+  {
+   "topic": "t39",
+   "level": 3,
+   "skill": "astime",
+   "cefr": "B2",
+   "id": "t39-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "As I was getting into the car, my phone rang.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. AS = no momento em que."
+  }
+ ]
+}

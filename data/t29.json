@@ -1,0 +1,843 @@
+{
+ "topic": "t29",
+ "items": [
+  {
+   "id": "t29-1-001",
+   "topic": "t29",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Ana isn't here. She's ___ to the bank.",
+   "options": [
+    "gone",
+    "been",
+    "went"
+   ],
+   "answer": "gone",
+   "explain": "Foi e ainda não voltou: GONE TO.",
+   "skill": "gonebeen",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-1-002",
+   "topic": "t29",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I've ___ to Chile three times.",
+   "options": [
+    "been",
+    "gone",
+    "went"
+   ],
+   "answer": "been",
+   "explain": "Visitou e voltou: BEEN TO.",
+   "skill": "gonebeen",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-1-003",
+   "topic": "t29",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Is the report ready?' 'Yes, I've ___ finished it.'",
+   "options": [
+    "just",
+    "yet",
+    "ever"
+   ],
+   "answer": "just",
+   "explain": "Há pouco: JUST, entre HAVE e o particípio.",
+   "skill": "justyet",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-1-004",
+   "topic": "t29",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Have you sent the invoice ___?",
+   "options": [
+    "yet",
+    "already",
+    "just"
+   ],
+   "answer": "yet",
+   "explain": "Pergunta esperando algo: YET, no fim.",
+   "skill": "justyet",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-1-005",
+   "topic": "t29",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Have you ___ worked with this supplier?",
+   "options": [
+    "ever",
+    "never",
+    "yet"
+   ],
+   "answer": "ever",
+   "explain": "Experiência na vida: EVER em perguntas.",
+   "skill": "ever",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-1-006",
+   "topic": "t29",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "It's the best hotel I've ___ stayed in.",
+   "options": [
+    "ever",
+    "never",
+    "already"
+   ],
+   "answer": "ever",
+   "explain": "Superlativo + I'VE EVER.",
+   "skill": "ever",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-1-007",
+   "topic": "t29",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I ___ three meetings today, and it's only 11 a.m.",
+   "options": [
+    "'ve had",
+    "had",
+    "have"
+   ],
+   "answer": "'ve had",
+   "explain": "TODAY ainda não terminou: present perfect.",
+   "skill": "period",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-1-008",
+   "topic": "t29",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "How long ___ here?",
+   "options": [
+    "have you worked",
+    "do you work",
+    "are you working"
+   ],
+   "answer": "have you worked",
+   "explain": "Começou e continua: HOW LONG + present perfect.",
+   "skill": "howlong",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-1-009",
+   "topic": "t29",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I've lived in São Paulo ___ 2010.",
+   "options": [
+    "since",
+    "for",
+    "from"
+   ],
+   "answer": "since",
+   "explain": "Ponto inicial: SINCE.",
+   "skill": "forsince",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-1-010",
+   "topic": "t29",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We signed the contract two weeks ___.",
+   "options": [
+    "ago",
+    "since",
+    "for"
+   ],
+   "answer": "ago",
+   "explain": "AGO + passado simples.",
+   "skill": "forsince",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-1-011",
+   "topic": "t29",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I ___ the contract yesterday.",
+   "options": [
+    "signed",
+    "have signed",
+    "have sign"
+   ],
+   "answer": "signed",
+   "explain": "YESTERDAY = tempo terminado: passado simples.",
+   "skill": "finished",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-1-012",
+   "topic": "t29",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "When ___ the new system?",
+   "options": [
+    "did they install",
+    "have they installed",
+    "they installed"
+   ],
+   "answer": "did they install",
+   "explain": "WHEN...? pede passado simples.",
+   "skill": "finished",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-1-013",
+   "topic": "t29",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I've ___ a headache. Can we talk later?",
+   "options": [
+    "got",
+    "get",
+    "had got"
+   ],
+   "answer": "got",
+   "explain": "Posse/estado: HAVE GOT.",
+   "skill": "havegot",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-1-014",
+   "topic": "t29",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We usually ___ lunch at 12:30.",
+   "options": [
+    "have",
+    "have got",
+    "got"
+   ],
+   "answer": "have",
+   "explain": "Ação (almoçar): só HAVE.",
+   "skill": "havegot",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-1-015",
+   "topic": "t29",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She's ___ to Lisbon, so she can't come to the meeting.",
+   "options": [
+    "gone",
+    "been",
+    "going"
+   ],
+   "answer": "gone",
+   "explain": "Está lá agora: GONE.",
+   "skill": "gonebeen",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-2-001",
+   "topic": "t29",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I haven't read the proposal ___ (ainda).",
+   "answer": [
+    "yet"
+   ],
+   "explain": "YET no fim de frases negativas.",
+   "skill": "justyet",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-2-002",
+   "topic": "t29",
+   "level": 2,
+   "type": "gap",
+   "prompt": "'Don't forget to call the bank.' 'I've ___ (já) called them.'",
+   "answer": [
+    "already"
+   ],
+   "explain": "ALREADY = antes do esperado.",
+   "skill": "justyet",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-2-003",
+   "topic": "t29",
+   "level": 2,
+   "type": "fix",
+   "prompt": "This is the first time I visit this office.",
+   "options": [
+    "This is the first time I've visited this office.",
+    "This is the first time I visited this office ever.",
+    "This is first time I'm visiting this office."
+   ],
+   "answer": "This is the first time I've visited this office.",
+   "explain": "IT'S THE FIRST TIME + present perfect.",
+   "skill": "ever",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-2-004",
+   "topic": "t29",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I've ___ (nunca) seen such a complex contract.",
+   "answer": [
+    "never"
+   ],
+   "explain": "NEVER entre HAVE e o particípio.",
+   "skill": "ever",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-2-005",
+   "topic": "t29",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I've seen him last week.",
+   "options": [
+    "I saw him last week.",
+    "I've saw him last week.",
+    "I have seen him the last week."
+   ],
+   "answer": "I saw him last week.",
+   "explain": "LAST WEEK terminou: passado simples.",
+   "skill": "period",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-2-006",
+   "topic": "t29",
+   "level": 2,
+   "type": "gap",
+   "prompt": "There ___ (be / not) any problems so far.",
+   "answer": [
+    "haven't been",
+    "have not been"
+   ],
+   "explain": "SO FAR: present perfect.",
+   "skill": "period",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-2-007",
+   "topic": "t29",
+   "level": 2,
+   "type": "fix",
+   "prompt": "How long do you know Paulo?",
+   "options": [
+    "How long have you known Paulo?",
+    "How long are you knowing Paulo?",
+    "How long you know Paulo?"
+   ],
+   "answer": "How long have you known Paulo?",
+   "explain": "HOW LONG + present perfect; KNOW fica no simples.",
+   "skill": "howlong",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-2-008",
+   "topic": "t29",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We are married for ten years.",
+   "options": [
+    "We've been married for ten years.",
+    "We're married since ten years.",
+    "We married for ten years."
+   ],
+   "answer": "We've been married for ten years.",
+   "explain": "Duração até agora: HAVE BEEN.",
+   "skill": "howlong",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-2-009",
+   "topic": "t29",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I work here since 2018.",
+   "options": [
+    "I've worked here since 2018.",
+    "I'm working here since 2018.",
+    "I worked here since 2018."
+   ],
+   "answer": "I've worked here since 2018.",
+   "explain": "SINCE + present perfect.",
+   "skill": "forsince",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-2-010",
+   "topic": "t29",
+   "level": 2,
+   "type": "gap",
+   "prompt": "It's three years ___ (desde que) I last saw her.",
+   "answer": [
+    "since"
+   ],
+   "explain": "IT'S + tempo + SINCE.",
+   "skill": "forsince",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-2-011",
+   "topic": "t29",
+   "level": 2,
+   "type": "fix",
+   "prompt": "When have you arrived?",
+   "options": [
+    "When did you arrive?",
+    "When you arrived?",
+    "When have you arrive?"
+   ],
+   "answer": "When did you arrive?",
+   "explain": "WHEN + passado simples.",
+   "skill": "finished",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-2-012",
+   "topic": "t29",
+   "level": 2,
+   "type": "gap",
+   "prompt": "They ___ (open) the São Paulo office in 2015.",
+   "answer": [
+    "opened"
+   ],
+   "explain": "Data terminada: passado simples.",
+   "skill": "finished",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-2-013",
+   "topic": "t29",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Do you have got a minute?",
+   "options": [
+    "Have you got a minute?",
+    "Do you got a minute?",
+    "Have you a got minute?"
+   ],
+   "answer": "Have you got a minute?",
+   "explain": "HAVE GOT: sem DO.",
+   "skill": "havegot",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-2-014",
+   "topic": "t29",
+   "level": 2,
+   "type": "gap",
+   "prompt": "My manager ___ (gone / been) to Brasília. She's back on Friday.",
+   "answer": [
+    "has gone",
+    "'s gone"
+   ],
+   "explain": "Está lá agora: HAS GONE.",
+   "skill": "gonebeen",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-2-015",
+   "topic": "t29",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I ___ (drink) four coffees this morning. (ainda é de manhã)",
+   "answer": [
+    "'ve drunk",
+    "have drunk"
+   ],
+   "explain": "Período não terminado: present perfect.",
+   "skill": "period",
+   "cefr": "B1"
+  },
+  {
+   "id": "t29-3-001",
+   "topic": "t29",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Have you ever ___ (be) to Japan?",
+   "answer": [
+    "been"
+   ],
+   "explain": "Experiência: HAVE YOU EVER BEEN.",
+   "skill": "gonebeen",
+   "cefr": "B2"
+  },
+  {
+   "id": "t29-3-002",
+   "topic": "t29",
+   "level": 3,
+   "type": "gap",
+   "prompt": "She hasn't ___ (call) since Monday.",
+   "answer": [
+    "called"
+   ],
+   "explain": "HASN'T + particípio + SINCE.",
+   "skill": "forsince",
+   "cefr": "B2"
+  },
+  {
+   "id": "t29-3-003",
+   "topic": "t29",
+   "level": 3,
+   "type": "gap",
+   "prompt": "How long ___ (you / have) your current car?",
+   "answer": [
+    "have you had"
+   ],
+   "explain": "HAVE é estado: present perfect simples.",
+   "skill": "howlong",
+   "cefr": "B2"
+  },
+  {
+   "id": "t29-3-004",
+   "topic": "t29",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I ___ (see / never) the CEO before yesterday's meeting.",
+   "answer": [
+    "had never seen"
+   ],
+   "explain": "Antes de um ponto passado: HAD NEVER + particípio.",
+   "skill": "ever",
+   "cefr": "B2"
+  },
+  {
+   "id": "t29-3-005",
+   "topic": "t29",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I ___ (lose) my badge. I can't get in.",
+   "answer": [
+    "'ve lost",
+    "have lost"
+   ],
+   "explain": "Resultado agora: present perfect.",
+   "skill": "justyet",
+   "cefr": "B2"
+  },
+  {
+   "id": "t29-3-006",
+   "topic": "t29",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We ___ (meet) at a conference in 2019.",
+   "answer": [
+    "met"
+   ],
+   "explain": "Data terminada: passado simples.",
+   "skill": "finished",
+   "cefr": "B2"
+  },
+  {
+   "id": "t29-3-007",
+   "topic": "t29",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I have already sent the signed copy.",
+   "explain": "ALREADY entre HAVE e o particípio.",
+   "skill": "justyet",
+   "cefr": "B2"
+  },
+  {
+   "id": "t29-3-008",
+   "topic": "t29",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "How long have you been in this position?",
+   "explain": "HOW LONG + HAVE BEEN.",
+   "skill": "howlong",
+   "cefr": "B2"
+  },
+  {
+   "id": "t29-3-009",
+   "topic": "t29",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "It's the first time I've used this platform.",
+   "explain": "IT'S THE FIRST TIME + present perfect.",
+   "skill": "ever",
+   "cefr": "B2"
+  },
+  {
+   "id": "t29-3-010",
+   "topic": "t29",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We haven't had any complaints this month.",
+   "explain": "Período aberto: present perfect.",
+   "skill": "period",
+   "cefr": "B2"
+  },
+  {
+   "id": "t29-3-011",
+   "topic": "t29",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I've known her since we were at university.",
+    "I know her since we were at university.",
+    "I've known her since we have been at university."
+   ],
+   "answer": "I've known her since we were at university.",
+   "explain": "Present perfect + SINCE + passado.",
+   "skill": "forsince",
+   "cefr": "B2"
+  },
+  {
+   "id": "t29-3-012",
+   "topic": "t29",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "What time did the meeting finish?",
+    "What time has the meeting finished?",
+    "What time the meeting finished?"
+   ],
+   "answer": "What time did the meeting finish?",
+   "explain": "Tempo específico: passado simples.",
+   "skill": "finished",
+   "cefr": "B2"
+  },
+  {
+   "id": "t29-3-013",
+   "topic": "t29",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I haven't got enough time.",
+    "I don't have got enough time.",
+    "I haven't enough got time."
+   ],
+   "answer": "I haven't got enough time.",
+   "explain": "HAVEN'T GOT.",
+   "skill": "havegot",
+   "cefr": "B2"
+  },
+  {
+   "id": "t29-3-014",
+   "topic": "t29",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual frase indica que a pessoa já voltou?",
+   "options": [
+    "He's been to the dentist.",
+    "He's gone to the dentist.",
+    "He's going to the dentist."
+   ],
+   "answer": "He's been to the dentist.",
+   "explain": "BEEN = foi e voltou.",
+   "skill": "gonebeen",
+   "cefr": "B2"
+  },
+  {
+   "id": "t29-3-015",
+   "topic": "t29",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Has the delivery arrived yet?",
+    "Has the delivery yet arrived?",
+    "Did the delivery arrive already yet?"
+   ],
+   "answer": "Has the delivery arrived yet?",
+   "explain": "YET no fim.",
+   "skill": "justyet",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t29",
+   "level": 2,
+   "skill": "ever",
+   "cefr": "B1",
+   "id": "t29-2-003v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "This is the first time I've visited this office.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. IT'S THE FIRST TIME + present perfect."
+  },
+  {
+   "topic": "t29",
+   "level": 2,
+   "skill": "period",
+   "cefr": "B1",
+   "id": "t29-2-005v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I saw him last week.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. LAST WEEK terminou: passado simples."
+  },
+  {
+   "topic": "t29",
+   "level": 2,
+   "skill": "howlong",
+   "cefr": "B1",
+   "id": "t29-2-007v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "How long have you known Paulo?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. HOW LONG + present perfect; KNOW fica no simples."
+  },
+  {
+   "topic": "t29",
+   "level": 2,
+   "skill": "howlong",
+   "cefr": "B1",
+   "id": "t29-2-008v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We are married for ten years.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: We've been married for ten years. Duração até agora: HAVE BEEN."
+  },
+  {
+   "topic": "t29",
+   "level": 2,
+   "skill": "forsince",
+   "cefr": "B1",
+   "id": "t29-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I've worked here since 2018.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. SINCE + present perfect."
+  },
+  {
+   "topic": "t29",
+   "level": 2,
+   "skill": "finished",
+   "cefr": "B1",
+   "id": "t29-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "When did you arrive?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. WHEN + passado simples."
+  },
+  {
+   "topic": "t29",
+   "level": 2,
+   "skill": "havegot",
+   "cefr": "B1",
+   "id": "t29-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Have you got a minute?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. HAVE GOT: sem DO."
+  },
+  {
+   "topic": "t29",
+   "level": 3,
+   "skill": "forsince",
+   "cefr": "B2",
+   "id": "t29-3-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I've known her since we were at university.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Present perfect + SINCE + passado."
+  },
+  {
+   "topic": "t29",
+   "level": 3,
+   "skill": "finished",
+   "cefr": "B2",
+   "id": "t29-3-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "What time has the meeting finished?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: What time did the meeting finish? Tempo específico: passado simples."
+  },
+  {
+   "topic": "t29",
+   "level": 3,
+   "skill": "havegot",
+   "cefr": "B2",
+   "id": "t29-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I haven't got enough time.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. HAVEN'T GOT."
+  },
+  {
+   "topic": "t29",
+   "level": 3,
+   "skill": "justyet",
+   "cefr": "B2",
+   "id": "t29-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Has the delivery arrived yet?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. YET no fim."
+  }
+ ]
+}

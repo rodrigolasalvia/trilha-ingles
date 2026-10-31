@@ -1,0 +1,878 @@
+{
+ "topic": "t36",
+ "items": [
+  {
+   "id": "t36-1-001",
+   "topic": "t36",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The man ___ called you is our lawyer.",
+   "options": [
+    "who",
+    "which",
+    "whose"
+   ],
+   "answer": "who",
+   "explain": "Pessoa como sujeito: WHO / THAT.",
+   "skill": "whothat",
+   "cefr": "B1"
+  },
+  {
+   "id": "t36-1-002",
+   "topic": "t36",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The report ___ I sent you has an error.",
+   "options": [
+    "that",
+    "who",
+    "whose"
+   ],
+   "answer": "that",
+   "explain": "Coisa: THAT / WHICH (ou sem pronome).",
+   "skill": "whothat",
+   "cefr": "B1"
+  },
+  {
+   "id": "t36-1-003",
+   "topic": "t36",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The car ___ I rented was very comfortable.",
+   "options": [
+    "—",
+    "who",
+    "what"
+   ],
+   "answer": "—",
+   "explain": "Pronome objeto pode ser omitido.",
+   "skill": "omit",
+   "cefr": "B1"
+  },
+  {
+   "id": "t36-1-004",
+   "topic": "t36",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Is this the project ___ you're working on?",
+   "options": [
+    "—",
+    "on which you're working on",
+    "what"
+   ],
+   "answer": "—",
+   "explain": "Omissão + preposição no fim.",
+   "skill": "prepend",
+   "cefr": "B1"
+  },
+  {
+   "id": "t36-1-005",
+   "topic": "t36",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "That's the woman ___ husband works with us.",
+   "options": [
+    "whose",
+    "who",
+    "who's"
+   ],
+   "answer": "whose",
+   "explain": "Posse: WHOSE.",
+   "skill": "whose",
+   "cefr": "B1"
+  },
+  {
+   "id": "t36-1-006",
+   "topic": "t36",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "This is the hotel ___ we stayed last year.",
+   "options": [
+    "where",
+    "which",
+    "who"
+   ],
+   "answer": "where",
+   "explain": "Lugar: WHERE.",
+   "skill": "whomwhere",
+   "cefr": "B1"
+  },
+  {
+   "id": "t36-1-007",
+   "topic": "t36",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'll never forget the day ___ I started here.",
+   "options": [
+    "when",
+    "where",
+    "which"
+   ],
+   "answer": "when",
+   "explain": "Tempo: WHEN.",
+   "skill": "whomwhere",
+   "cefr": "B1"
+  },
+  {
+   "id": "t36-1-008",
+   "topic": "t36",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "My boss, ___ is from Recife, speaks four languages.",
+   "options": [
+    "who",
+    "that",
+    "which"
+   ],
+   "answer": "who",
+   "explain": "Informação extra com vírgulas: WHO (não THAT).",
+   "skill": "nondef",
+   "cefr": "B1"
+  },
+  {
+   "id": "t36-1-009",
+   "topic": "t36",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He didn't call, ___ was strange.",
+   "options": [
+    "which",
+    "what",
+    "that"
+   ],
+   "answer": "which",
+   "explain": "WHICH = isso (a frase toda).",
+   "skill": "which",
+   "cefr": "B1"
+  },
+  {
+   "id": "t36-1-010",
+   "topic": "t36",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The people ___ in this office are very friendly.",
+   "options": [
+    "working",
+    "worked",
+    "who working"
+   ],
+   "answer": "working",
+   "explain": "Relativa reduzida ativa: -ING.",
+   "skill": "ingedclause",
+   "cefr": "B1"
+  },
+  {
+   "id": "t36-1-011",
+   "topic": "t36",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The documents ___ yesterday arrived today.",
+   "options": [
+    "sent",
+    "sending",
+    "who sent"
+   ],
+   "answer": "sent",
+   "explain": "Relativa reduzida passiva: particípio.",
+   "skill": "ingedclause",
+   "cefr": "B1"
+  },
+  {
+   "id": "t36-1-012",
+   "topic": "t36",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "What's the name of the supplier ___ won the bid?",
+   "options": [
+    "that",
+    "what",
+    "whose"
+   ],
+   "answer": "that",
+   "explain": "Sujeito: THAT / WHICH / WHO.",
+   "skill": "whothat",
+   "cefr": "B1"
+  },
+  {
+   "id": "t36-1-013",
+   "topic": "t36",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The reason ___ I called is the invoice.",
+   "options": [
+    "why",
+    "what",
+    "which"
+   ],
+   "answer": "why",
+   "explain": "THE REASON WHY.",
+   "skill": "whomwhere",
+   "cefr": "B1"
+  },
+  {
+   "id": "t36-1-014",
+   "topic": "t36",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We interviewed 20 candidates, two of ___ were hired.",
+   "options": [
+    "whom",
+    "who",
+    "they"
+   ],
+   "answer": "whom",
+   "explain": "Pessoas: TWO OF WHOM.",
+   "skill": "which",
+   "cefr": "B1"
+  },
+  {
+   "id": "t36-1-015",
+   "topic": "t36",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "São Paulo, ___ I live, is a huge city.",
+   "options": [
+    "where",
+    "which",
+    "that"
+   ],
+   "answer": "where",
+   "explain": "Informação extra sobre lugar: WHERE.",
+   "skill": "nondef",
+   "cefr": "B1"
+  },
+  {
+   "id": "t36-2-001",
+   "topic": "t36",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The contract who we signed is valid for two years.",
+   "options": [
+    "The contract that we signed is valid for two years.",
+    "The contract whose we signed is valid for two years.",
+    "The contract what we signed is valid for two years."
+   ],
+   "answer": "The contract that we signed is valid for two years.",
+   "explain": "Coisa: THAT / WHICH.",
+   "skill": "whothat",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-2-002",
+   "topic": "t36",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The book I bought it is very good.",
+   "options": [
+    "The book I bought is very good.",
+    "The book I bought that is very good.",
+    "The book what I bought is very good."
+   ],
+   "answer": "The book I bought is very good.",
+   "explain": "Não repita o objeto.",
+   "skill": "omit",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-2-003",
+   "topic": "t36",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The candidate ___ (que) we interviewed was excellent.",
+   "answer": [
+    "that",
+    "who",
+    "whom"
+   ],
+   "explain": "Objeto: THAT / WHO / WHOM (ou omitir).",
+   "skill": "omit",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-2-004",
+   "topic": "t36",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The person to who I spoke was very helpful.",
+   "options": [
+    "The person to whom I spoke was very helpful.",
+    "The person to which I spoke was very helpful.",
+    "The person whom I spoke was very helpful to."
+   ],
+   "answer": "The person to whom I spoke was very helpful.",
+   "explain": "Preposição + WHOM.",
+   "skill": "prepend",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-2-005",
+   "topic": "t36",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Who's the colleague you were talking ___ (preposição)?",
+   "answer": [
+    "to",
+    "with"
+   ],
+   "explain": "Preposição no fim.",
+   "skill": "prepend",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-2-006",
+   "topic": "t36",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I met a man who's car was stolen.",
+   "options": [
+    "I met a man whose car was stolen.",
+    "I met a man who car was stolen.",
+    "I met a man which car was stolen."
+   ],
+   "answer": "I met a man whose car was stolen.",
+   "explain": "WHOSE (posse), não WHO'S (= who is).",
+   "skill": "whose",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-2-007",
+   "topic": "t36",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We work with a supplier ___ (cujo) CEO is a friend of mine.",
+   "answer": [
+    "whose"
+   ],
+   "explain": "WHOSE.",
+   "skill": "whose",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-2-008",
+   "topic": "t36",
+   "level": 2,
+   "type": "fix",
+   "prompt": "My manager, that lives in Rio, is coming tomorrow.",
+   "options": [
+    "My manager, who lives in Rio, is coming tomorrow.",
+    "My manager that lives in Rio, is coming tomorrow.",
+    "My manager, which lives in Rio, is coming tomorrow."
+   ],
+   "answer": "My manager, who lives in Rio, is coming tomorrow.",
+   "explain": "Com vírgulas: WHO, nunca THAT.",
+   "skill": "nondef",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-2-009",
+   "topic": "t36",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Brasília, ___ (que) is the capital, was built in the 1950s.",
+   "answer": [
+    "which"
+   ],
+   "explain": "Informação extra sobre coisa: WHICH.",
+   "skill": "nondef",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-2-010",
+   "topic": "t36",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She passed the exam, what surprised everyone.",
+   "options": [
+    "She passed the exam, which surprised everyone.",
+    "She passed the exam, that surprised everyone.",
+    "She passed the exam, it surprised everyone."
+   ],
+   "answer": "She passed the exam, which surprised everyone.",
+   "explain": "WHICH para a frase toda.",
+   "skill": "which",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-2-011",
+   "topic": "t36",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I have three brothers, all of ___ (quem) live abroad.",
+   "answer": [
+    "whom"
+   ],
+   "explain": "ALL OF WHOM.",
+   "skill": "which",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-2-012",
+   "topic": "t36",
+   "level": 2,
+   "type": "fix",
+   "prompt": "The man who standing at the door is my boss.",
+   "options": [
+    "The man standing at the door is my boss.",
+    "The man stood at the door is my boss now.",
+    "The man who stand at the door is my boss."
+   ],
+   "answer": "The man standing at the door is my boss.",
+   "explain": "Relativa reduzida: -ING (ou who is standing).",
+   "skill": "ingedclause",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-2-013",
+   "topic": "t36",
+   "level": 2,
+   "type": "gap",
+   "prompt": "The bridge ___ (build) in 1970 is being repaired.",
+   "answer": [
+    "built"
+   ],
+   "explain": "Relativa reduzida passiva.",
+   "skill": "ingedclause",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-2-014",
+   "topic": "t36",
+   "level": 2,
+   "type": "gap",
+   "prompt": "That's the office ___ (onde) I had my first job.",
+   "answer": [
+    "where"
+   ],
+   "explain": "WHERE.",
+   "skill": "whomwhere",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-2-015",
+   "topic": "t36",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Anyone ___ (que tenha: have) questions can call me.",
+   "answer": [
+    "who has",
+    "having"
+   ],
+   "explain": "WHO HAS / HAVING.",
+   "skill": "whothat",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-3-001",
+   "topic": "t36",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Is there anything ___ (que) I can do to help?",
+   "answer": [
+    "that"
+   ],
+   "explain": "Depois de anything / everything / nothing: THAT (ou pronome omitido).",
+   "skill": "omit",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-3-002",
+   "topic": "t36",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The company for ___ (a qual) I work is based in Barueri.",
+   "answer": [
+    "which"
+   ],
+   "explain": "Preposição + WHICH.",
+   "skill": "prepend",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-3-003",
+   "topic": "t36",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The supplier, ___ (cujo) contract expired last month, wants to renew.",
+   "answer": [
+    "whose"
+   ],
+   "explain": "WHOSE com vírgulas.",
+   "skill": "whose",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-3-004",
+   "topic": "t36",
+   "level": 3,
+   "type": "gap",
+   "prompt": "We received 50 applications, most of ___ (as quais) were excellent.",
+   "answer": [
+    "which"
+   ],
+   "explain": "MOST OF WHICH.",
+   "skill": "which",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-3-005",
+   "topic": "t36",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Anyone ___ (wish) to attend must register by Friday.",
+   "answer": [
+    "wishing"
+   ],
+   "explain": "Relativa reduzida ativa.",
+   "skill": "ingedclause",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-3-006",
+   "topic": "t36",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "The woman who interviewed me was very friendly.",
+   "explain": "WHO sujeito.",
+   "skill": "whothat",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-3-007",
+   "topic": "t36",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "This is the project I told you about.",
+   "explain": "Pronome omitido + preposição no fim.",
+   "skill": "prepend",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-3-008",
+   "topic": "t36",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "My sister, who lives in London, is a doctor.",
+   "explain": "Informação extra com vírgulas.",
+   "skill": "nondef",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-3-009",
+   "topic": "t36",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Do you remember the day when we met?",
+   "explain": "WHEN.",
+   "skill": "whomwhere",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-3-010",
+   "topic": "t36",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "The flight was cancelled, which meant we had to stay another night.",
+    "The flight was cancelled, that meant we had to stay another night.",
+    "The flight was cancelled, what meant we had to stay another night."
+   ],
+   "answer": "The flight was cancelled, which meant we had to stay another night.",
+   "explain": "WHICH = isso.",
+   "skill": "which",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-3-011",
+   "topic": "t36",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Everything that he said was true.",
+    "Everything what he said was true.",
+    "Everything which what he said was true."
+   ],
+   "answer": "Everything that he said was true.",
+   "explain": "EVERYTHING THAT.",
+   "skill": "whothat",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-3-012",
+   "topic": "t36",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "The goods ordered last week haven't arrived.",
+    "The goods ordering last week haven't arrived.",
+    "The goods which ordered last week haven't arrived."
+   ],
+   "answer": "The goods ordered last week haven't arrived.",
+   "explain": "Relativa reduzida passiva.",
+   "skill": "ingedclause",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-3-013",
+   "topic": "t36",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "The man I spoke to was helpful.",
+    "The man I spoke to him was helpful.",
+    "The man to who I spoke was helpful."
+   ],
+   "answer": "The man I spoke to was helpful.",
+   "explain": "Sem repetir o objeto.",
+   "skill": "omit",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-3-014",
+   "topic": "t36",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Paulo, whom you met yesterday, is our new CFO.",
+    "Paulo, that you met yesterday, is our new CFO.",
+    "Paulo you met yesterday, is our new CFO."
+   ],
+   "answer": "Paulo, whom you met yesterday, is our new CFO.",
+   "explain": "Com vírgulas: WHO/WHOM, não THAT.",
+   "skill": "nondef",
+   "cefr": "B2"
+  },
+  {
+   "id": "t36-3-015",
+   "topic": "t36",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "That's the reason why I left.",
+    "That's the reason because I left.",
+    "That's the reason what I left."
+   ],
+   "answer": "That's the reason why I left.",
+   "explain": "THE REASON WHY.",
+   "skill": "whomwhere",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t36",
+   "level": 2,
+   "skill": "whothat",
+   "cefr": "B2",
+   "id": "t36-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The contract that we signed is valid for two years.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Coisa: THAT / WHICH."
+  },
+  {
+   "topic": "t36",
+   "level": 2,
+   "skill": "omit",
+   "cefr": "B2",
+   "id": "t36-2-002v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The book I bought it is very good.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The book I bought is very good. Não repita o objeto."
+  },
+  {
+   "topic": "t36",
+   "level": 2,
+   "skill": "prepend",
+   "cefr": "B2",
+   "id": "t36-2-004v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The person to who I spoke was very helpful.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The person to whom I spoke was very helpful. Preposição + WHOM."
+  },
+  {
+   "topic": "t36",
+   "level": 2,
+   "skill": "whose",
+   "cefr": "B2",
+   "id": "t36-2-006v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I met a man who's car was stolen.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I met a man whose car was stolen. WHOSE (posse), não WHO'S (= who is)."
+  },
+  {
+   "topic": "t36",
+   "level": 2,
+   "skill": "nondef",
+   "cefr": "B2",
+   "id": "t36-2-008v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "My manager, that lives in Rio, is coming tomorrow.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: My manager, who lives in Rio, is coming tomorrow. Com vírgulas: WHO, nunca THAT."
+  },
+  {
+   "topic": "t36",
+   "level": 2,
+   "skill": "which",
+   "cefr": "B2",
+   "id": "t36-2-010v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She passed the exam, what surprised everyone.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: She passed the exam, which surprised everyone. WHICH para a frase toda."
+  },
+  {
+   "topic": "t36",
+   "level": 2,
+   "skill": "ingedclause",
+   "cefr": "B2",
+   "id": "t36-2-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The man who standing at the door is my boss.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The man standing at the door is my boss. Relativa reduzida: -ING (ou who is standing)."
+  },
+  {
+   "topic": "t36",
+   "level": 3,
+   "skill": "which",
+   "cefr": "B2",
+   "id": "t36-3-010v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The flight was cancelled, that meant we had to stay another night.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The flight was cancelled, which meant we had to stay another night. WHICH = isso."
+  },
+  {
+   "topic": "t36",
+   "level": 3,
+   "skill": "whothat",
+   "cefr": "B2",
+   "id": "t36-3-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Everything that he said was true.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. EVERYTHING THAT."
+  },
+  {
+   "topic": "t36",
+   "level": 3,
+   "skill": "ingedclause",
+   "cefr": "B2",
+   "id": "t36-3-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The goods ordering last week haven't arrived.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: The goods ordered last week haven't arrived. Relativa reduzida passiva."
+  },
+  {
+   "topic": "t36",
+   "level": 3,
+   "skill": "omit",
+   "cefr": "B2",
+   "id": "t36-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The man I spoke to was helpful.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Sem repetir o objeto."
+  },
+  {
+   "topic": "t36",
+   "level": 3,
+   "skill": "nondef",
+   "cefr": "B2",
+   "id": "t36-3-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Paulo, that you met yesterday, is our new CFO.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Paulo, whom you met yesterday, is our new CFO. Com vírgulas: WHO/WHOM, não THAT."
+  },
+  {
+   "topic": "t36",
+   "level": 3,
+   "skill": "whomwhere",
+   "cefr": "B2",
+   "id": "t36-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "That's the reason why I left.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. THE REASON WHY."
+  }
+ ]
+}

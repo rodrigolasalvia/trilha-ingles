@@ -9,7 +9,8 @@ const topics = JSON.parse(read('data/topics.json'));
 const topicIds = topics.groups.flatMap(g => g.topics.map(t => t.id));
 const items = topicIds.flatMap(id => JSON.parse(read(`data/${id}.json`)).items);
 const gates = topics.groups.filter(g => g.locked).map(g => g.id);
-const openTopics = new Set(topics.groups.filter(g => !g.locked).flatMap(g => g.topics.map(t => t.id)));
+// Régua de liberação: só grupos regulares abertos (os módulos 'extra' de aprofundamento não contam)
+const openTopics = new Set(topics.groups.filter(g => !g.locked && !g.extra).flatMap(g => g.topics.map(t => t.id)));
 const openItems = items.filter(i => openTopics.has(i.topic));
 const DAY = C.DAY;
 const NOW = Date.UTC(2026, 9, 17, 15);
@@ -134,17 +135,47 @@ test('checkAnswer: tipo desconhecido nunca é aceito', () => {
 
 /* ---------- Repetição espaçada ---------- */
 
-test('srsUpdate: acerto sobe de caixa, erro volta para zero e fica pendente', () => {
-  const now = 1_000_000;
+test('srsUpdate: novo acertado pula para 4 dias; erro volta amanhã; vencimento à meia-noite', () => {
+  const now = new Date(2026, 9, 31, 15, 30).getTime();
+  const midnight = d => { const x = new Date(2026, 9, 31 + d); return x.getTime(); };
   let r = C.srsUpdate(undefined, true, now);
-  assert.equal(r.box, 1); assert.equal(r.due, now + C.DAY);
+  assert.equal(r.box, C.FIRST_OK_BOX); assert.equal(r.due, midnight(4)); assert.equal(r.first, now);
   r = C.srsUpdate(r, true, now);
-  assert.equal(r.box, 2); assert.equal(r.due, now + 3 * C.DAY);
+  assert.equal(r.box, 3); assert.equal(r.due, midnight(8));
   r = C.srsUpdate(r, false, now);
-  assert.equal(r.box, 0); assert.equal(r.due, now);
+  assert.equal(r.box, 0); assert.equal(r.due, midnight(1), 'erro volta só amanhã, não no mesmo dia');
   assert.equal(r.seen, 3); assert.equal(r.correct, 2); assert.equal(r.wrong, 1);
+  assert.equal(C.srsUpdate(undefined, false, now).due, midnight(1));
   for (let k = 0; k < 10; k++) r = C.srsUpdate(r, true, now);
   assert.equal(r.box, C.BOX_DAYS.length - 1);
+});
+
+test('dailyPlan: conta respostas, revisão e novos do dia; limites proporcionais à meta', () => {
+  const now = new Date(2026, 9, 31, 20).getTime();
+  const st = C.emptyState();
+  const yesterday = now - C.DAY;
+  const rev = { id: 'r', ts: now, mode: 'review', topic: null, level: null, label: '', answers: [] };
+  const top = { id: 't', ts: now, mode: 'topic', topic: 't01', level: null, label: '', answers: [] };
+  st.sessions.push(rev, top);
+  for (let k = 0; k < 12; k++) rev.answers.push({ id: `x${k}`, ok: true, t: now - k * 60e3 });
+  for (let k = 0; k < 8; k++) top.answers.push({ id: `y${k}`, ok: true, t: now - k * 60e3 });
+  top.answers.push({ id: 'old', ok: true, t: yesterday });
+  for (let k = 0; k < 8; k++) st.items[`y${k}`] = { box: 2, due: now + 9e8, seen: 1, correct: 1, wrong: 0, last: now, first: now - k * 60e3 };
+  st.items.old = { box: 2, due: now, seen: 1, correct: 1, wrong: 0, last: yesterday, first: yesterday };
+  const p = C.dailyPlan(st, now);
+  assert.equal(p.goal, 50); assert.equal(p.answers, 20); assert.equal(p.review, 12); assert.equal(p.fresh, 8);
+  assert.equal(p.reviewCap, 25); assert.equal(p.reviewLeft, 13); assert.equal(p.newCap, 15); assert.equal(p.newLeft, 7);
+  assert.equal(p.done, false);
+  st.goal = 30; assert.equal(C.dailyPlan(st, now).newCap, 9);
+  st.goal = 999; assert.equal(C.dailyPlan(st, now).goal, 50, 'meta inválida volta ao padrão');
+  assert.equal(C.migrateState({ goal: 75 }).goal, 75);
+  assert.equal(C.migrateState({ goal: 'x' }).goal, 50);
+});
+
+test('buildSession: respeita o limite de exercícios novos do dia', () => {
+  const s = C.buildSession(items, C.emptyState(), { topic: 't05', size: 10, maxNew: 4, rng: seq() });
+  assert.equal(s.length, 4, 'sem itens já vistos, a sessão fica com só os 4 novos permitidos');
+  assert.equal(C.buildSession(items, C.emptyState(), { topic: 't05', size: 10, maxNew: 0, rng: seq() }).length, 0);
 });
 
 /* ---------- Sessões ---------- */
@@ -166,7 +197,7 @@ test('buildSession: prioriza itens errados e pendentes', () => {
   const st = C.emptyState();
   const pool = items.filter(i => i.topic === 't02');
   const missed = pool.slice(0, 3);
-  for (const it of missed) st.items[it.id] = C.srsUpdate(undefined, false, now - 1000);
+  for (const it of missed) st.items[it.id] = { box: 0, due: now - 1000, seen: 1, correct: 0, wrong: 1, last: now - C.DAY };
   const s = C.buildSession(items, st, { topic: 't02', size: 10, now, rng: seq() });
   for (const it of missed) assert.ok(s.includes(it), `pendente ${it.id} ficou de fora`);
 });
@@ -175,7 +206,7 @@ test('buildSession: revisão traz apenas itens vencidos', () => {
   const now = Date.now();
   const st = C.emptyState();
   const [a, b, c] = items;
-  st.items[a.id] = C.srsUpdate(undefined, false, now - 10);
+  st.items[a.id] = { box: 0, due: now - 10, seen: 1, correct: 0, wrong: 1, last: now - C.DAY };
   st.items[b.id] = C.srsUpdate(undefined, true, now);
   const s = C.buildSession(items, st, { mode: 'review', now });
   assert.deepEqual(s.map(i => i.id), [a.id]);

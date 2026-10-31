@@ -1,0 +1,788 @@
+{
+ "topic": "t35",
+ "items": [
+  {
+   "id": "t35-1-001",
+   "topic": "t35",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I ___ the supplier at 10 tomorrow. It's in my calendar.",
+   "options": [
+    "'m meeting",
+    "'ll meet",
+    "meet"
+   ],
+   "answer": "'m meeting",
+   "explain": "Compromisso marcado: presente contínuo.",
+   "skill": "presfut",
+   "cefr": "B1"
+  },
+  {
+   "id": "t35-1-002",
+   "topic": "t35",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "What ___ this weekend? Any plans?",
+   "options": [
+    "are you doing",
+    "will you do",
+    "do you do"
+   ],
+   "answer": "are you doing",
+   "explain": "Planos combinados: presente contínuo.",
+   "skill": "presfut",
+   "cefr": "B1"
+  },
+  {
+   "id": "t35-1-003",
+   "topic": "t35",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The train ___ at 7:15 tomorrow morning.",
+   "options": [
+    "leaves",
+    "will be leave",
+    "is leave"
+   ],
+   "answer": "leaves",
+   "explain": "Horário fixo: presente simples.",
+   "skill": "timetable",
+   "cefr": "B1"
+  },
+  {
+   "id": "t35-1-004",
+   "topic": "t35",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I ___ learn Spanish next year. I've already enrolled.",
+   "options": [
+    "'m going to",
+    "will",
+    "shall"
+   ],
+   "answer": "'m going to",
+   "explain": "Plano decidido: GOING TO.",
+   "skill": "goingto",
+   "cefr": "B1"
+  },
+  {
+   "id": "t35-1-005",
+   "topic": "t35",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Look at those clouds. It ___ rain.",
+   "options": [
+    "'s going to",
+    "will",
+    "rains"
+   ],
+   "answer": "'s going to",
+   "explain": "Evidência agora: GOING TO.",
+   "skill": "goingto",
+   "cefr": "B1"
+  },
+  {
+   "id": "t35-1-006",
+   "topic": "t35",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'I need a pen.' 'I ___ lend you one.'",
+   "options": [
+    "'ll",
+    "'m going to",
+    "lend"
+   ],
+   "answer": "'ll",
+   "explain": "Decisão na hora: WILL.",
+   "skill": "decide",
+   "cefr": "B1"
+  },
+  {
+   "id": "t35-1-007",
+   "topic": "t35",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Don't worry. I ___ tell anyone.",
+   "options": [
+    "won't",
+    "'m not going",
+    "don't"
+   ],
+   "answer": "won't",
+   "explain": "Promessa: WON'T.",
+   "skill": "decide",
+   "cefr": "B1"
+  },
+  {
+   "id": "t35-1-008",
+   "topic": "t35",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ I carry your bag?",
+   "options": [
+    "Shall",
+    "Will",
+    "Do"
+   ],
+   "answer": "Shall",
+   "explain": "Oferta: SHALL I...?",
+   "skill": "offer",
+   "cefr": "B1"
+  },
+  {
+   "id": "t35-1-009",
+   "topic": "t35",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Where ___ we have lunch?",
+   "options": [
+    "shall",
+    "will",
+    "do"
+   ],
+   "answer": "shall",
+   "explain": "Sugestão / pedir opinião: SHALL WE?",
+   "skill": "offer",
+   "cefr": "B1"
+  },
+  {
+   "id": "t35-1-010",
+   "topic": "t35",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I think the client ___ accept the new price.",
+   "options": [
+    "will",
+    "is going",
+    "shall"
+   ],
+   "answer": "will",
+   "explain": "Opinião sobre o futuro: I THINK + WILL.",
+   "skill": "predict",
+   "cefr": "B1"
+  },
+  {
+   "id": "t35-1-011",
+   "topic": "t35",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "They ___ probably arrive late.",
+   "options": [
+    "will",
+    "are",
+    "shall be"
+   ],
+   "answer": "will",
+   "explain": "WILL + PROBABLY.",
+   "skill": "predict",
+   "cefr": "B1"
+  },
+  {
+   "id": "t35-1-012",
+   "topic": "t35",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "'Why are you buying paint?' 'I ___ paint my office.'",
+   "options": [
+    "'m going to",
+    "'ll",
+    "paint"
+   ],
+   "answer": "'m going to",
+   "explain": "Plano anterior: GOING TO.",
+   "skill": "contrast",
+   "cefr": "B1"
+  },
+  {
+   "id": "t35-1-013",
+   "topic": "t35",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'll call you when I ___ at the hotel.",
+   "options": [
+    "arrive",
+    "will arrive",
+    "would arrive"
+   ],
+   "answer": "arrive",
+   "explain": "WHEN + presente.",
+   "skill": "whenif",
+   "cefr": "B1"
+  },
+  {
+   "id": "t35-1-014",
+   "topic": "t35",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "If it ___ tomorrow, we'll cancel the visit.",
+   "options": [
+    "rains",
+    "will rain",
+    "is going to rain"
+   ],
+   "answer": "rains",
+   "explain": "IF + presente.",
+   "skill": "whenif",
+   "cefr": "B1"
+  },
+  {
+   "id": "t35-1-015",
+   "topic": "t35",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The conference ___ on 3 March.",
+   "options": [
+    "starts",
+    "will be start",
+    "starting"
+   ],
+   "answer": "starts",
+   "explain": "Programação fixa: presente simples.",
+   "skill": "timetable",
+   "cefr": "B1"
+  },
+  {
+   "id": "t35-2-001",
+   "topic": "t35",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I will see the dentist tomorrow at 4. (já está marcado)",
+   "options": [
+    "I'm seeing the dentist tomorrow at 4.",
+    "I'll seeing the dentist tomorrow at 4.",
+    "I see the dentist tomorrow at 4 will."
+   ],
+   "answer": "I'm seeing the dentist tomorrow at 4.",
+   "explain": "Compromisso marcado: presente contínuo.",
+   "skill": "presfut",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-2-002",
+   "topic": "t35",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We ___ (fly) to Recife on Friday. The tickets are booked.",
+   "answer": [
+    "'re flying",
+    "are flying"
+   ],
+   "explain": "Presente contínuo para compromissos.",
+   "skill": "presfut",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-2-003",
+   "topic": "t35",
+   "level": 2,
+   "type": "gap",
+   "prompt": "What time ___ (the film / start) tonight?",
+   "answer": [
+    "does the film start"
+   ],
+   "explain": "Programação: presente simples.",
+   "skill": "timetable",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-2-004",
+   "topic": "t35",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'm going to answer it! (o telefone tocou agora)",
+   "options": [
+    "I'll answer it!",
+    "I answer it!",
+    "I'm answering it will!"
+   ],
+   "answer": "I'll answer it!",
+   "explain": "Decisão no momento: WILL.",
+   "skill": "decide",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-2-005",
+   "topic": "t35",
+   "level": 2,
+   "type": "gap",
+   "prompt": "'It's cold in here.' 'I ___ (fechar: close) the window.'",
+   "answer": [
+    "'ll close",
+    "will close"
+   ],
+   "explain": "Decisão na hora: I'LL.",
+   "skill": "decide",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-2-006",
+   "topic": "t35",
+   "level": 2,
+   "type": "fix",
+   "prompt": "Will I help you with the bags?",
+   "options": [
+    "Shall I help you with the bags?",
+    "Do I help you with the bags?",
+    "Am I help you with the bags?"
+   ],
+   "answer": "Shall I help you with the bags?",
+   "explain": "Oferta: SHALL I.",
+   "skill": "offer",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-2-007",
+   "topic": "t35",
+   "level": 2,
+   "type": "gap",
+   "prompt": "___ (Vamos: shall) we start the meeting?",
+   "answer": [
+    "Shall"
+   ],
+   "explain": "SHALL WE...?",
+   "skill": "offer",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-2-008",
+   "topic": "t35",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I think it rains tomorrow.",
+   "options": [
+    "I think it will rain tomorrow.",
+    "I think it raining tomorrow.",
+    "I think it is rain tomorrow."
+   ],
+   "answer": "I think it will rain tomorrow.",
+   "explain": "Previsão por opinião: WILL.",
+   "skill": "predict",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-2-009",
+   "topic": "t35",
+   "level": 2,
+   "type": "gap",
+   "prompt": "They ___ (provavelmente não: win) the bid.",
+   "answer": [
+    "probably won't win",
+    "will probably not win"
+   ],
+   "explain": "PROBABLY antes de WON'T.",
+   "skill": "predict",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-2-010",
+   "topic": "t35",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She's pregnant. She will have a baby.",
+   "options": [
+    "She's pregnant. She's going to have a baby.",
+    "She's pregnant. She'll having a baby.",
+    "She's pregnant. She has a baby will."
+   ],
+   "answer": "She's pregnant. She's going to have a baby.",
+   "explain": "Evidência presente: GOING TO.",
+   "skill": "goingto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-2-011",
+   "topic": "t35",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We ___ (ia: launch) in May, but the date changed.",
+   "answer": [
+    "were going to launch"
+   ],
+   "explain": "WAS/WERE GOING TO: plano que mudou.",
+   "skill": "goingto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-2-012",
+   "topic": "t35",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'll wait until you will finish.",
+   "options": [
+    "I'll wait until you finish.",
+    "I wait until you will finish.",
+    "I'll wait until you would finish."
+   ],
+   "answer": "I'll wait until you finish.",
+   "explain": "UNTIL + presente.",
+   "skill": "whenif",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-2-013",
+   "topic": "t35",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Let me know as soon as you ___ (decide).",
+   "answer": [
+    "decide",
+    "'ve decided",
+    "have decided"
+   ],
+   "explain": "AS SOON AS + presente / present perfect.",
+   "skill": "whenif",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-2-014",
+   "topic": "t35",
+   "level": 2,
+   "type": "gap",
+   "prompt": "'Did you call Ana?' 'No, I forgot. I ___ (call) her now.'",
+   "answer": [
+    "'ll call",
+    "will call"
+   ],
+   "explain": "Decisão agora: WILL.",
+   "skill": "contrast",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-2-015",
+   "topic": "t35",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I've decided. I ___ (look) for a new job.",
+   "answer": [
+    "'m going to look",
+    "am going to look"
+   ],
+   "explain": "Decisão já tomada: GOING TO.",
+   "skill": "contrast",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-3-001",
+   "topic": "t35",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I'll send you the report when I ___ (finish) it.",
+   "answer": [
+    "'ve finished",
+    "have finished",
+    "finish"
+   ],
+   "explain": "WHEN + present perfect: concluído antes.",
+   "skill": "whenif",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-3-002",
+   "topic": "t35",
+   "level": 3,
+   "type": "gap",
+   "prompt": "The store ___ (close) at 9 p.m. on Sundays.",
+   "answer": [
+    "closes"
+   ],
+   "explain": "Horário fixo.",
+   "skill": "timetable",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-3-003",
+   "topic": "t35",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I expect they ___ (sign) by the end of the week.",
+   "answer": [
+    "'ll sign",
+    "will sign",
+    "'ll have signed",
+    "will have signed"
+   ],
+   "explain": "I EXPECT + WILL.",
+   "skill": "predict",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-3-004",
+   "topic": "t35",
+   "level": 3,
+   "type": "gap",
+   "prompt": "___ (Shall) I book a table for tonight?",
+   "answer": [
+    "Shall"
+   ],
+   "explain": "Oferta.",
+   "skill": "offer",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-3-005",
+   "topic": "t35",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Watch out! You ___ (cair: fall)!",
+   "answer": [
+    "'re going to fall",
+    "are going to fall"
+   ],
+   "explain": "Perigo visível: GOING TO.",
+   "skill": "goingto",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-3-006",
+   "topic": "t35",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I'm having dinner with a client tonight.",
+   "explain": "Presente contínuo para compromisso.",
+   "skill": "presfut",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-3-007",
+   "topic": "t35",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "I promise I won't be late again.",
+   "explain": "Promessa: WON'T.",
+   "skill": "decide",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-3-008",
+   "topic": "t35",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We will probably finish by Friday.",
+   "explain": "WILL + PROBABLY.",
+   "skill": "predict",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-3-009",
+   "topic": "t35",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "Before you leave, please switch off the lights.",
+   "explain": "BEFORE + presente.",
+   "skill": "whenif",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-3-010",
+   "topic": "t35",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "'There's no milk.' 'Really? I'll get some.'",
+    "'There's no milk.' 'Really? I'm going to get some.' (decidiu agora)",
+    "'There's no milk.' 'Really? I get some.'"
+   ],
+   "answer": "'There's no milk.' 'Really? I'll get some.'",
+   "explain": "Decidiu agora: WILL.",
+   "skill": "contrast",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-3-011",
+   "topic": "t35",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "What time does your flight leave?",
+    "What time will your flight leaves?",
+    "What time your flight leaves?"
+   ],
+   "answer": "What time does your flight leave?",
+   "explain": "Horário: presente simples.",
+   "skill": "timetable",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-3-012",
+   "topic": "t35",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "Are you doing anything on Saturday?",
+    "Will you do anything on Saturday?",
+    "Do you do anything on Saturday?"
+   ],
+   "answer": "Are you doing anything on Saturday?",
+   "explain": "Planos: presente contínuo.",
+   "skill": "presfut",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-3-013",
+   "topic": "t35",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual pergunta pede uma sugestão?",
+   "options": [
+    "What shall we do tonight?",
+    "What will we do tonight?",
+    "What do we do tonight will?"
+   ],
+   "answer": "What shall we do tonight?",
+   "explain": "SHALL WE para sugestões.",
+   "skill": "offer",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-3-014",
+   "topic": "t35",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "If the price goes up, we'll find another supplier.",
+    "If the price will go up, we'll find another supplier.",
+    "If the price goes up, we find another supplier will."
+   ],
+   "answer": "If the price goes up, we'll find another supplier.",
+   "explain": "IF + presente, WILL na principal.",
+   "skill": "whenif",
+   "cefr": "B2"
+  },
+  {
+   "id": "t35-3-015",
+   "topic": "t35",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I'm sure you'll enjoy the trip.",
+    "I'm sure you enjoy the trip tomorrow.",
+    "I'm sure you're enjoying the trip next year."
+   ],
+   "answer": "I'm sure you'll enjoy the trip.",
+   "explain": "I'M SURE + WILL.",
+   "skill": "predict",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t35",
+   "level": 2,
+   "skill": "presfut",
+   "cefr": "B2",
+   "id": "t35-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm seeing the dentist tomorrow at 4. (já está marcado)",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Compromisso marcado: presente contínuo."
+  },
+  {
+   "topic": "t35",
+   "level": 2,
+   "skill": "offer",
+   "cefr": "B2",
+   "id": "t35-2-006v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "Will I help you with the bags?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: Shall I help you with the bags? Oferta: SHALL I."
+  },
+  {
+   "topic": "t35",
+   "level": 2,
+   "skill": "predict",
+   "cefr": "B2",
+   "id": "t35-2-008v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I think it rains tomorrow.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I think it will rain tomorrow. Previsão por opinião: WILL."
+  },
+  {
+   "topic": "t35",
+   "level": 2,
+   "skill": "whenif",
+   "cefr": "B2",
+   "id": "t35-2-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'll wait until you will finish.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I'll wait until you finish. UNTIL + presente."
+  },
+  {
+   "topic": "t35",
+   "level": 3,
+   "skill": "timetable",
+   "cefr": "B2",
+   "id": "t35-3-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "What time does your flight leave?",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Horário: presente simples."
+  },
+  {
+   "topic": "t35",
+   "level": 3,
+   "skill": "whenif",
+   "cefr": "B2",
+   "id": "t35-3-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "If the price will go up, we'll find another supplier.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: If the price goes up, we'll find another supplier. IF + presente, WILL na principal."
+  },
+  {
+   "topic": "t35",
+   "level": 3,
+   "skill": "predict",
+   "cefr": "B2",
+   "id": "t35-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'm sure you'll enjoy the trip.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. I'M SURE + WILL."
+  }
+ ]
+}

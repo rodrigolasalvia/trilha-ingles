@@ -1,0 +1,914 @@
+{
+ "topic": "t40",
+ "items": [
+  {
+   "id": "t40-1-001",
+   "topic": "t40",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The meeting starts ___ 9 o'clock.",
+   "options": [
+    "at",
+    "on",
+    "in"
+   ],
+   "answer": "at",
+   "explain": "Hora exata: AT.",
+   "skill": "attime",
+   "cefr": "A2"
+  },
+  {
+   "id": "t40-1-002",
+   "topic": "t40",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I was born ___ 1985.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": "in",
+   "explain": "Ano: IN.",
+   "skill": "attime",
+   "cefr": "A2"
+  },
+  {
+   "id": "t40-1-003",
+   "topic": "t40",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "See you ___ Monday.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": "on",
+   "explain": "Dia: ON.",
+   "skill": "attime",
+   "cefr": "A2"
+  },
+  {
+   "id": "t40-1-004",
+   "topic": "t40",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The train left ___ time. (pontualmente)",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": "on",
+   "explain": "ON TIME = pontual.",
+   "skill": "ontime",
+   "cefr": "A2"
+  },
+  {
+   "id": "t40-1-005",
+   "topic": "t40",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We arrived just ___ time to catch the flight. (a tempo)",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": "in",
+   "explain": "IN TIME = a tempo.",
+   "skill": "ontime",
+   "cefr": "A2"
+  },
+  {
+   "id": "t40-1-006",
+   "topic": "t40",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "The keys are ___ the table.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": "on",
+   "explain": "Superfície: ON.",
+   "skill": "position",
+   "cefr": "A2"
+  },
+  {
+   "id": "t40-1-007",
+   "topic": "t40",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "Wait for me ___ the bus stop.",
+   "options": [
+    "at",
+    "in",
+    "on"
+   ],
+   "answer": "at",
+   "explain": "Ponto: AT.",
+   "skill": "position",
+   "cefr": "A2"
+  },
+  {
+   "id": "t40-1-008",
+   "topic": "t40",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "She's ___ the train now.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": "on",
+   "explain": "Transporte público: ON.",
+   "skill": "place2",
+   "cefr": "A2"
+  },
+  {
+   "id": "t40-1-009",
+   "topic": "t40",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "My office is ___ the third floor.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": "on",
+   "explain": "Andar: ON.",
+   "skill": "place2",
+   "cefr": "A2"
+  },
+  {
+   "id": "t40-1-010",
+   "topic": "t40",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "He's ___ home today.",
+   "options": [
+    "at",
+    "in",
+    "on"
+   ],
+   "answer": "at",
+   "explain": "AT HOME.",
+   "skill": "place3",
+   "cefr": "A2"
+  },
+  {
+   "id": "t40-1-011",
+   "topic": "t40",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "We arrived ___ Lisbon at midnight.",
+   "options": [
+    "in",
+    "at",
+    "to"
+   ],
+   "answer": "in",
+   "explain": "Cidade: ARRIVE IN.",
+   "skill": "toat",
+   "cefr": "A2"
+  },
+  {
+   "id": "t40-1-012",
+   "topic": "t40",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "What time did you get ___ the office?",
+   "options": [
+    "to",
+    "at",
+    "in"
+   ],
+   "answer": "to",
+   "explain": "GET TO.",
+   "skill": "toat",
+   "cefr": "A2"
+  },
+  {
+   "id": "t40-1-013",
+   "topic": "t40",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "___ my opinion, the price is too high.",
+   "options": [
+    "In",
+    "On",
+    "At"
+   ],
+   "answer": "In",
+   "explain": "IN MY OPINION.",
+   "skill": "other",
+   "cefr": "A2"
+  },
+  {
+   "id": "t40-1-014",
+   "topic": "t40",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I came ___ car.",
+   "options": [
+    "by",
+    "in the",
+    "with"
+   ],
+   "answer": "by",
+   "explain": "Meio de transporte: BY CAR.",
+   "skill": "by",
+   "cefr": "A2"
+  },
+  {
+   "id": "t40-1-015",
+   "topic": "t40",
+   "level": 1,
+   "type": "mcq",
+   "prompt": "I'll be back ___ two days. (daqui a)",
+   "options": [
+    "in",
+    "after",
+    "on"
+   ],
+   "answer": "in",
+   "explain": "IN + tempo = daqui a.",
+   "skill": "attime",
+   "cefr": "A2"
+  },
+  {
+   "id": "t40-2-001",
+   "topic": "t40",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I'll see you in Friday morning.",
+   "options": [
+    "I'll see you on Friday morning.",
+    "I'll see you at Friday morning.",
+    "I'll see you Friday in the morning on."
+   ],
+   "answer": "I'll see you on Friday morning.",
+   "explain": "Dia + parte do dia: ON.",
+   "skill": "attime",
+   "cefr": "B1"
+  },
+  {
+   "id": "t40-2-002",
+   "topic": "t40",
+   "level": 2,
+   "type": "gap",
+   "prompt": "We usually relax ___ (preposição) the weekend.",
+   "answer": [
+    "at",
+    "on"
+   ],
+   "explain": "AT THE WEEKEND (UK) / ON THE WEEKEND (US).",
+   "skill": "attime",
+   "cefr": "B1"
+  },
+  {
+   "id": "t40-2-003",
+   "topic": "t40",
+   "level": 2,
+   "type": "fix",
+   "prompt": "At the end, they accepted our offer.",
+   "options": [
+    "In the end, they accepted our offer.",
+    "On the end, they accepted our offer.",
+    "At end, they accepted our offer."
+   ],
+   "answer": "In the end, they accepted our offer.",
+   "explain": "No final das contas: IN THE END.",
+   "skill": "ontime",
+   "cefr": "B1"
+  },
+  {
+   "id": "t40-2-004",
+   "topic": "t40",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Payment is due at the end ___ (de) the month.",
+   "answer": [
+    "of"
+   ],
+   "explain": "AT THE END OF.",
+   "skill": "ontime",
+   "cefr": "B1"
+  },
+  {
+   "id": "t40-2-005",
+   "topic": "t40",
+   "level": 2,
+   "type": "fix",
+   "prompt": "There's a picture in the wall.",
+   "options": [
+    "There's a picture on the wall.",
+    "There's a picture at the wall.",
+    "There's a picture in the wall on."
+   ],
+   "answer": "There's a picture on the wall.",
+   "explain": "Superfície: ON.",
+   "skill": "position",
+   "cefr": "B1"
+  },
+  {
+   "id": "t40-2-006",
+   "topic": "t40",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Someone is ___ (preposição) the door. Can you open it?",
+   "answer": [
+    "at"
+   ],
+   "explain": "AT THE DOOR.",
+   "skill": "position",
+   "cefr": "B1"
+  },
+  {
+   "id": "t40-2-007",
+   "topic": "t40",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I was in a bus when you called.",
+   "options": [
+    "I was on a bus when you called.",
+    "I was at a bus when you called.",
+    "I was inside of a bus when you called."
+   ],
+   "answer": "I was on a bus when you called.",
+   "explain": "ON A BUS / TRAIN / PLANE.",
+   "skill": "place2",
+   "cefr": "B1"
+  },
+  {
+   "id": "t40-2-008",
+   "topic": "t40",
+   "level": 2,
+   "type": "gap",
+   "prompt": "Sit ___ (preposição) the front of the car.",
+   "answer": [
+    "in"
+   ],
+   "explain": "IN THE FRONT OF A CAR.",
+   "skill": "place2",
+   "cefr": "B1"
+  },
+  {
+   "id": "t40-2-009",
+   "topic": "t40",
+   "level": 2,
+   "type": "fix",
+   "prompt": "She's in a conference in Lisbon.",
+   "options": [
+    "She's at a conference in Lisbon.",
+    "She's on a conference in Lisbon.",
+    "She's at conference in the Lisbon."
+   ],
+   "answer": "She's at a conference in Lisbon.",
+   "explain": "Eventos: AT.",
+   "skill": "place3",
+   "cefr": "B1"
+  },
+  {
+   "id": "t40-2-010",
+   "topic": "t40",
+   "level": 2,
+   "type": "gap",
+   "prompt": "He's ___ (preposição) hospital after the accident.",
+   "answer": [
+    "in"
+   ],
+   "explain": "IN HOSPITAL.",
+   "skill": "place3",
+   "cefr": "B1"
+  },
+  {
+   "id": "t40-2-011",
+   "topic": "t40",
+   "level": 2,
+   "type": "fix",
+   "prompt": "We arrived to the airport at 6.",
+   "options": [
+    "We arrived at the airport at 6.",
+    "We arrived in the airport to 6.",
+    "We arrived the airport at 6."
+   ],
+   "answer": "We arrived at the airport at 6.",
+   "explain": "Lugar específico: ARRIVE AT.",
+   "skill": "toat",
+   "cefr": "B1"
+  },
+  {
+   "id": "t40-2-012",
+   "topic": "t40",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I went to home early yesterday.",
+   "options": [
+    "I went home early yesterday.",
+    "I went at home early yesterday.",
+    "I went in home early yesterday."
+   ],
+   "answer": "I went home early yesterday.",
+   "explain": "GO HOME: sem TO.",
+   "skill": "toat",
+   "cefr": "B1"
+  },
+  {
+   "id": "t40-2-013",
+   "topic": "t40",
+   "level": 2,
+   "type": "fix",
+   "prompt": "He broke the glass by purpose.",
+   "options": [
+    "He broke the glass on purpose.",
+    "He broke the glass in purpose.",
+    "He broke the glass at purpose."
+   ],
+   "answer": "He broke the glass on purpose.",
+   "explain": "ON PURPOSE = de propósito.",
+   "skill": "other",
+   "cefr": "B1"
+  },
+  {
+   "id": "t40-2-014",
+   "topic": "t40",
+   "level": 2,
+   "type": "gap",
+   "prompt": "I'm in Rio ___ (preposição) business this week.",
+   "answer": [
+    "on"
+   ],
+   "explain": "ON BUSINESS.",
+   "skill": "other",
+   "cefr": "B1"
+  },
+  {
+   "id": "t40-2-015",
+   "topic": "t40",
+   "level": 2,
+   "type": "fix",
+   "prompt": "I paid with credit card.",
+   "options": [
+    "I paid by credit card.",
+    "I paid for credit card.",
+    "I paid on credit card."
+   ],
+   "answer": "I paid by credit card.",
+   "explain": "Forma de pagamento: BY.",
+   "skill": "by",
+   "cefr": "B1"
+  },
+  {
+   "id": "t40-3-001",
+   "topic": "t40",
+   "level": 3,
+   "type": "gap",
+   "prompt": "I took your umbrella ___ (por engano).",
+   "answer": [
+    "by mistake"
+   ],
+   "explain": "BY MISTAKE.",
+   "skill": "by",
+   "cefr": "B2"
+  },
+  {
+   "id": "t40-3-002",
+   "topic": "t40",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Sales increased ___ (preposição) 15%.",
+   "answer": [
+    "by"
+   ],
+   "explain": "Variação: BY.",
+   "skill": "by",
+   "cefr": "B2"
+  },
+  {
+   "id": "t40-3-003",
+   "topic": "t40",
+   "level": 3,
+   "type": "gap",
+   "prompt": "Let's meet ___ (preposição) noon.",
+   "answer": [
+    "at"
+   ],
+   "explain": "AT NOON.",
+   "skill": "attime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t40-3-004",
+   "topic": "t40",
+   "level": 3,
+   "type": "gap",
+   "prompt": "She got ___ (preposição) the taxi and left. (entrou)",
+   "answer": [
+    "into",
+    "in"
+   ],
+   "explain": "GET INTO / IN A TAXI.",
+   "skill": "toat",
+   "cefr": "B2"
+  },
+  {
+   "id": "t40-3-005",
+   "topic": "t40",
+   "level": 3,
+   "type": "gap",
+   "prompt": "My name is ___ (preposição) the top of the list.",
+   "answer": [
+    "at"
+   ],
+   "explain": "AT THE TOP.",
+   "skill": "place2",
+   "cefr": "B2"
+  },
+  {
+   "id": "t40-3-006",
+   "topic": "t40",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "The flight arrived on time despite the rain.",
+   "explain": "ON TIME.",
+   "skill": "ontime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t40-3-007",
+   "topic": "t40",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "She left the documents on my desk.",
+   "explain": "ON = superfície.",
+   "skill": "position",
+   "cefr": "B2"
+  },
+  {
+   "id": "t40-3-008",
+   "topic": "t40",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "We will be at the airport at six.",
+   "explain": "AT o lugar e AT a hora.",
+   "skill": "place3",
+   "cefr": "B2"
+  },
+  {
+   "id": "t40-3-009",
+   "topic": "t40",
+   "level": 3,
+   "type": "order",
+   "prompt": "Ordene as palavras para formar a frase correta.",
+   "answer": "He was driving at 120 kilometers an hour.",
+   "explain": "AT + velocidade.",
+   "skill": "other",
+   "cefr": "B2"
+  },
+  {
+   "id": "t40-3-010",
+   "topic": "t40",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I'll call you in the morning.",
+    "I'll call you on the morning.",
+    "I'll call you at the morning."
+   ],
+   "answer": "I'll call you in the morning.",
+   "explain": "IN THE MORNING.",
+   "skill": "attime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t40-3-011",
+   "topic": "t40",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I go to work by bus, but sometimes I go on foot.",
+    "I go to work by bus, but sometimes I go by foot.",
+    "I go to work with bus, but sometimes I go on foot."
+   ],
+   "answer": "I go to work by bus, but sometimes I go on foot.",
+   "explain": "BY BUS × ON FOOT.",
+   "skill": "by",
+   "cefr": "B2"
+  },
+  {
+   "id": "t40-3-012",
+   "topic": "t40",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "She arrived in Brazil last week.",
+    "She arrived to Brazil last week.",
+    "She arrived at Brazil last week."
+   ],
+   "answer": "She arrived in Brazil last week.",
+   "explain": "País: ARRIVE IN.",
+   "skill": "toat",
+   "cefr": "B2"
+  },
+  {
+   "id": "t40-3-013",
+   "topic": "t40",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "We got home just in time for dinner.",
+    "We got home just on time for dinner.",
+    "We got to home just in time for dinner."
+   ],
+   "answer": "We got home just in time for dinner.",
+   "explain": "IN TIME FOR = a tempo para.",
+   "skill": "ontime",
+   "cefr": "B2"
+  },
+  {
+   "id": "t40-3-014",
+   "topic": "t40",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "I saw it on TV.",
+    "I saw it in TV.",
+    "I saw it at TV."
+   ],
+   "answer": "I saw it on TV.",
+   "explain": "ON TV.",
+   "skill": "other",
+   "cefr": "B2"
+  },
+  {
+   "id": "t40-3-015",
+   "topic": "t40",
+   "level": 3,
+   "type": "mcq",
+   "prompt": "Qual está correto?",
+   "options": [
+    "The bathroom is on the left, at the end of the corridor.",
+    "The bathroom is in the left, in the end of the corridor.",
+    "The bathroom is at the left, on the end of the corridor."
+   ],
+   "answer": "The bathroom is on the left, at the end of the corridor.",
+   "explain": "ON THE LEFT / AT THE END.",
+   "skill": "position",
+   "cefr": "B2"
+  },
+  {
+   "topic": "t40",
+   "level": 2,
+   "skill": "attime",
+   "cefr": "B1",
+   "id": "t40-2-001v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'll see you on Friday morning.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Dia + parte do dia: ON."
+  },
+  {
+   "topic": "t40",
+   "level": 2,
+   "skill": "ontime",
+   "cefr": "B1",
+   "id": "t40-2-003v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "In the end, they accepted our offer.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. No final das contas: IN THE END."
+  },
+  {
+   "topic": "t40",
+   "level": 2,
+   "skill": "position",
+   "cefr": "B1",
+   "id": "t40-2-005v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "There's a picture on the wall.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Superfície: ON."
+  },
+  {
+   "topic": "t40",
+   "level": 2,
+   "skill": "place2",
+   "cefr": "B1",
+   "id": "t40-2-007v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I was on a bus when you called.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. ON A BUS / TRAIN / PLANE."
+  },
+  {
+   "topic": "t40",
+   "level": 2,
+   "skill": "place3",
+   "cefr": "B1",
+   "id": "t40-2-009v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She's at a conference in Lisbon.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Eventos: AT."
+  },
+  {
+   "topic": "t40",
+   "level": 2,
+   "skill": "toat",
+   "cefr": "B1",
+   "id": "t40-2-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We arrived at the airport at 6.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Lugar específico: ARRIVE AT."
+  },
+  {
+   "topic": "t40",
+   "level": 2,
+   "skill": "toat",
+   "cefr": "B1",
+   "id": "t40-2-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I went to home early yesterday.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I went home early yesterday. GO HOME: sem TO."
+  },
+  {
+   "topic": "t40",
+   "level": 2,
+   "skill": "other",
+   "cefr": "B1",
+   "id": "t40-2-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "He broke the glass on purpose.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. ON PURPOSE = de propósito."
+  },
+  {
+   "topic": "t40",
+   "level": 2,
+   "skill": "by",
+   "cefr": "B1",
+   "id": "t40-2-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I paid by credit card.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. Forma de pagamento: BY."
+  },
+  {
+   "topic": "t40",
+   "level": 3,
+   "skill": "attime",
+   "cefr": "B2",
+   "id": "t40-3-010v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I'll call you on the morning.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I'll call you in the morning. IN THE MORNING."
+  },
+  {
+   "topic": "t40",
+   "level": 3,
+   "skill": "by",
+   "cefr": "B2",
+   "id": "t40-3-011v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I go to work by bus, but sometimes I go on foot.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. BY BUS × ON FOOT."
+  },
+  {
+   "topic": "t40",
+   "level": 3,
+   "skill": "toat",
+   "cefr": "B2",
+   "id": "t40-3-012v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "She arrived to Brazil last week.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: She arrived in Brazil last week. País: ARRIVE IN."
+  },
+  {
+   "topic": "t40",
+   "level": 3,
+   "skill": "ontime",
+   "cefr": "B2",
+   "id": "t40-3-013v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "We got home just in time for dinner.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. IN TIME FOR = a tempo para."
+  },
+  {
+   "topic": "t40",
+   "level": 3,
+   "skill": "other",
+   "cefr": "B2",
+   "id": "t40-3-014v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "I saw it in TV.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Errado",
+   "explain": "Errado. Forma correta: I saw it on TV. ON TV."
+  },
+  {
+   "topic": "t40",
+   "level": 3,
+   "skill": "position",
+   "cefr": "B2",
+   "id": "t40-3-015v",
+   "type": "mcq",
+   "variant": "judge",
+   "prompt": "The bathroom is on the left, at the end of the corridor.",
+   "options": [
+    "Certo",
+    "Errado"
+   ],
+   "answer": "Certo",
+   "explain": "Certo. ON THE LEFT / AT THE END."
+  }
+ ]
+}
