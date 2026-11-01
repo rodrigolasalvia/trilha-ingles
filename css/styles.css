@@ -325,3 +325,7 @@ body.in-session .actions {
   background: linear-gradient(to top, var(--bg) 70%, transparent);
 }
 body.in-session .actions .btn { max-width: 608px; margin: 0 auto; display: flex; min-height: 48px; }
+
+/* v1.4.1: faixa em confirmação */
+.rung.is-confirming .fill { background: var(--ok); opacity: .55; }
+.rung.is-confirming .rung-top b { color: var(--ok); }

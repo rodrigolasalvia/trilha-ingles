@@ -1,6 +1,6 @@
 // Núcleo lógico puro: sem DOM, sem armazenamento. Testado em tests/core.test.js.
 
-export const APP_VERSION = '1.4.0';
+export const APP_VERSION = '1.4.1';
 export const STATE_VERSION = 1;
 export const DAY = 24 * 60 * 60 * 1000;
 // Intervalos da repetição espaçada (em dias) por caixa 0..5.
@@ -21,7 +21,7 @@ export const MAX_VARIANTS = 3;     // máximo de itens 'Certo ou errado?' por se
 export const VARIANT_SWAPS = 2;    // quantos entram por variedade em cada sessão (além dos vencidos)
 const isBase = i => !i.variant;    // variantes derivadas não contam para nível, cobertura nem liberação
 // Critérios da estimativa de nível (ver levelEstimate).
-export const LEVEL_RULES = { lastN: 40, minData: 12, minSolid: 15, solidAcc: 0.8, weakAcc: 0.6 };
+export const LEVEL_RULES = { lastN: 40, minData: 12, minSolid: 15, solidAcc: 0.8, weakAcc: 0.6, minConfirm: 5 };
 
 /* ---------- Texto e correção ---------- */
 
@@ -457,7 +457,11 @@ export function levelEstimate(items, state, rules = LEVEL_RULES) {
   });
   const idx = estimate ? CEFR.indexOf(estimate) : -1;
   const next = bands.slice(idx + 1).find(b => b.status !== 'consolidado') || null;
-  return { bands, estimate, next, totalAnswers: answers.length };
+  // Faixa logo acima do estimado com acerto de consolidação, mas ainda sem respostas suficientes para confirmar.
+  const confirming = next && next.status !== 'sem_conteudo' && next.n >= rules.minConfirm && next.acc >= rules.solidAcc
+    && CEFR.indexOf(next.band) === idx + 1 ? { band: next.band, need: Math.max(0, rules.minSolid - next.n) } : null;
+  for (const b of bands) b.confirming = !!(confirming && b.band === confirming.band);
+  return { bands, estimate, next, confirming, totalAnswers: answers.length };
 }
 
 /* ---------- Relatório de erros (para pedir novos exercícios) ---------- */

@@ -518,3 +518,20 @@ test('buildSession: itens vistos há pouco ficam para depois dos vistos há mais
   const s = C.buildSession(items, st, { topic: t, rng: seq(3), now }).filter(i => !i.variant);
   assert.ok(s.every(i => !recent.has(i.id)), 'repetiu item respondido há 1 hora');
 });
+
+test('levelEstimate: faixa acima com acerto alto e poucas respostas fica "em confirmação", sem subir o nível', () => {
+  const by = {}; for (const i of openItems.filter(i => !i.variant)) (by[i.cefr] ||= []).push(i);
+  const mk = nB1 => {
+    const st = C.emptyState(); const s = { id: 'x', ts: 1, mode: 'topic', answers: [] }; st.sessions.push(s); let t = 1;
+    for (const [band, n] of [['A1', 20], ['A2', 20], ['B1', nB1]]) for (const i of by[band].slice(0, n)) s.answers.push({ id: i.id, ok: true, t: t++ });
+    return C.levelEstimate(openItems, st);
+  };
+  let e = mk(10);
+  assert.equal(e.estimate, 'A2');
+  assert.deepEqual(e.confirming, { band: 'B1', need: 5 });
+  assert.ok(e.bands.find(b => b.band === 'B1').confirming);
+  e = mk(15);
+  assert.equal(e.estimate, 'B1');
+  assert.equal(e.confirming, null);
+  assert.equal(mk(3).confirming, null, 'com menos de 5 respostas não sinaliza');
+});

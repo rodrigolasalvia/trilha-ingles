@@ -158,7 +158,7 @@ function renderHome() {
 
   $main().innerHTML = `
     <header class="page-head">
-      <p class="eyebrow">Trilha de Inglês · ${lvl.estimate ? `nível estimado ${lvl.estimate}` : 'nível em avaliação'}</p>
+      <p class="eyebrow">Trilha de Inglês · ${lvl.estimate ? `nível estimado ${lvl.estimate}` : 'nível em avaliação'}${lvl.confirming ? ` · ${lvl.confirming.band} em confirmação` : ''}</p>
       <h1>${greeting()}</h1>
     </header>
     <div class="stats">
@@ -658,13 +658,15 @@ function renderHistory() {
   const ladder = lvl.bands.slice().reverse().map(b => {
     const isMe = b.band === lvl.estimate;
     const width = b.acc == null ? 0 : Math.round(b.acc * 100);
+    const toConfirm = Math.max(0, C.LEVEL_RULES.minSolid - b.n);
     const detail = b.status === 'sem_conteudo' ? 'sem exercícios disponíveis no momento'
+      : b.confirming ? `${pct(b.acc)} em ${b.n} respostas · faltam ${toConfirm} para confirmar`
       : b.status === 'poucos_dados' ? `${b.n} de ${C.LEVEL_RULES.minData} respostas mínimas`
       : `${pct(b.acc)} nas últimas ${b.n}`;
-    return `<li class="rung st-${b.status} ${isMe ? 'is-me' : ''}">
+    return `<li class="rung st-${b.status} ${b.confirming ? 'is-confirming' : ''} ${isMe ? 'is-me' : ''}">
         <span class="rung-band">${b.band}</span>
         <span class="rung-body">
-          <span class="rung-top"><b>${STATUS_LABEL[b.status]}</b>${isMe ? '<span class="pill pill-accent">você está aqui</span>' : ''}</span>
+          <span class="rung-top"><b>${b.confirming ? 'Em confirmação' : STATUS_LABEL[b.status]}</b>${isMe ? '<span class="pill pill-accent">você está aqui</span>' : ''}</span>
           <span class="meter" aria-hidden="true"><span class="fill" style="width:${width}%"></span><span class="target"></span></span>
           <span class="rung-detail">${detail}</span>
         </span>
@@ -693,7 +695,7 @@ function renderHistory() {
     <section class="card level-card">
       <p class="eyebrow">Nível estimado</p>
       <p class="level-big ${lvl.estimate ? '' : 'is-pending'}">${lvl.estimate || 'Em avaliação'}</p>
-      <p class="hint">${lvl.estimate ? 'Faixa mais alta consolidada, sem pontos fracos graves abaixo dela.' : 'Pratique os temas, incluindo a Revisão de base, para o app conseguir estimar seu nível.'}</p>
+      <p class="hint">${lvl.estimate ? 'Faixa mais alta consolidada, sem pontos fracos graves abaixo dela.' : 'Pratique os temas, incluindo a Revisão de base, para o app conseguir estimar seu nível.'}${lvl.confirming ? ` Seu acerto em ${lvl.confirming.band} já está no nível de consolidação; faltam ${lvl.confirming.need} respostas dessa faixa para confirmar.` : ''}</p>
       <ol class="ladder">${ladder}</ol>
       ${nextTxt ? `<p class="next-goal">${nextTxt}</p>` : ''}
       <p class="caveat">Estimativa com base nos exercícios do app: mede gramática e vocabulário, não fala nem compreensão auditiva, e não substitui um teste oficial.</p>
