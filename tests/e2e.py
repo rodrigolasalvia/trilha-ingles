@@ -245,6 +245,13 @@ def main():
             page.goto(URL + '#/history'); page.wait_for_selector('.ladder')
             assert int(page.locator('.stat-n').first.inner_text()) == total, 'não recuperou do IndexedDB'
 
+            # localStorage ficou para trás (ex.: cheio) e o IndexedDB tem a gravação mais nova → vence o mais novo
+            page.wait_for_timeout(1000)
+            page.evaluate("() => { const k = 'trilha-ingles:state'; const s = JSON.parse(localStorage.getItem(k)); s.savedAt = 1; s.sessions = s.sessions.slice(0, -2); localStorage.setItem(k, JSON.stringify(s)); localStorage.removeItem(k + ':prev'); }")
+            page.reload(); page.wait_for_selector('.ladder'); page.wait_for_timeout(500)
+            page.goto(URL + '#/history'); page.wait_for_selector('.ladder')
+            assert int(page.locator('.stat-n').first.inner_text()) == total, 'gravação antiga do localStorage venceu a mais nova'
+
             # Zerar é reversível pelas cópias automáticas
             accept = lambda d: d.accept()
             page.on('dialog', accept)
@@ -261,6 +268,7 @@ def main():
             assert int(page.locator('.stat-n').first.inner_text()) == total, 'cópia não restaurou'
             page.goto(URL + '#/settings'); page.wait_for_selector('.snap')
             assert page.locator('.snap', has_text='antes de restaurar').count() >= 1
+            assert 'Armazenamento' in page.locator('#storage-info').inner_text()
             page.screenshot(path=f'{SHOTS}/08-copias.png', full_page=True)
 
             # Estado corrompido não derruba o app

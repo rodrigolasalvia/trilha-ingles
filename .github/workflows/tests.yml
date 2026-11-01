@@ -1,9 +1,20 @@
-name: testes
+name: testes e publicação
+# Os testes rodam a cada envio. A publicação no GitHub Pages só acontece se TODOS os testes passarem.
+# Para valer, em Settings → Pages → Build and deployment, a fonte deve ser "GitHub Actions".
 on:
   push:
+    branches: [main]
   pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
 jobs:
-  unit:
+  testes:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -11,3 +22,18 @@ jobs:
         with:
           node-version: 20
       - run: npm test
+  publicar:
+    needs: testes
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deploy
+        uses: actions/deploy-pages@v4

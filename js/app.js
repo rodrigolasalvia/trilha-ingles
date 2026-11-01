@@ -1,5 +1,5 @@
 import * as C from './core.js';
-import { loadState, saveState, clearState, requestPersistence, hasLocal, recoverRicher, snapshot, listSnapshots, readSnapshot } from './storage.js';
+import { loadState, saveState, clearState, requestPersistence, hasLocal, recoverRicher, recoverNewer, snapshot, listSnapshots, readSnapshot, storageInfo } from './storage.js';
 
 const TYPE_LABEL = { mcq: 'Escolha a opção', fix: 'Escolha a versão correta', gap: 'Complete a lacuna', order: 'Ordene a frase' };
 const STATUS_LABEL = { consolidado: 'Consolidado', em_progresso: 'Em progresso', poucos_dados: 'Poucos dados', sem_conteudo: 'Ainda não disponível' };
@@ -37,7 +37,11 @@ async function init() {
   if (!hasLocal()) {
     const r = await recoverRicher(app.state);
     if (r) { app.state = r; recovered = true; }
+  } else {
+    const r = await recoverNewer(app.state);
+    if (r) { app.state = r; recovered = true; }
   }
+  const compacted = C.compactState(app.state);
   try {
     const topicsData = await fetchJSON('data/topics.json');
     app.groups = topicsData.groups;
@@ -63,6 +67,7 @@ async function init() {
   document.addEventListener('keydown', onKey);
   route();
   if (recovered) { persist(); toast('Progresso recuperado da cópia automática deste aparelho.'); }
+  else if (compacted) persist();
   requestPersistence();
   registerSW();
 }
@@ -205,7 +210,7 @@ function countLabel() {
 }
 
 function backupNudge(st, now) {
-  const n = C.allAnswers(st).length;
+  const n = C.totalAnswers(st);
   if (n < 100) return '';
   const days = st.lastExport ? Math.floor((now - st.lastExport) / C.DAY) : null;
   if (days != null && days < 14) return '';
@@ -548,7 +553,7 @@ function startReinforce() {
 
 function renderReinforce() {
   const st = app.state;
-  const total = C.allAnswers(st).length;
+  const total = C.totalAnswers(st);
 
   if (total < MIN_FOR_REINFORCE) {
     $main().innerHTML = `
@@ -653,7 +658,7 @@ function renderHistory() {
             <rect x="${x}" y="${H - hc}" width="${bw - 2}" height="${hc}" class="bar-ok"/>`;
   }).join('');
   const m30 = C.periodAccuracy(st, 30, now);
-  const all = C.allAnswers(st);
+  const allN = C.totalAnswers(st);
 
   const ladder = lvl.bands.slice().reverse().map(b => {
     const isMe = b.band === lvl.estimate;
@@ -701,7 +706,7 @@ function renderHistory() {
       <p class="caveat">Estimativa com base nos exercícios do app: mede gramática e vocabulário, não fala nem compreensão auditiva, e não substitui um teste oficial.</p>
     </section>
     <div class="stats">
-      <div class="stat"><span class="stat-n">${all.length}</span><span class="stat-l">respostas no total</span></div>
+      <div class="stat"><span class="stat-n">${allN}</span><span class="stat-l">respostas no total</span></div>
       <div class="stat"><span class="stat-n">${pct(m30.acc)}</span><span class="stat-l">acerto em 30 dias</span></div>
       <div class="stat"><span class="stat-n">${C.streak(st, now)}</span><span class="stat-l">dias seguidos</span></div>
     </div>
@@ -736,7 +741,7 @@ function sessionLabel(s) {
 /* ---------- Ajustes ---------- */
 
 function renderSettings() {
-  const answers = C.allAnswers(app.state).length;
+  const answers = C.totalAnswers(app.state);
   $main().innerHTML = `
     <header class="page-head"><h1>Ajustes</h1></header>
     <section class="card">
@@ -757,6 +762,7 @@ function renderSettings() {
     <section class="card">
       <h2 class="card-title">Cópias automáticas</h2>
       <p class="hint">Guardadas neste aparelho: uma por dia (últimos 14 dias) e uma antes de cada importação, restauração ou zeramento.</p>
+      <p class="hint" id="storage-info"></p>
       <ul class="snaps" id="snaps"><li class="hint">Carregando…</li></ul>
     </section>
     <section class="card">
@@ -782,6 +788,12 @@ function renderSettings() {
     clearState(); app.state = C.emptyState(); persist(); applyActive(); toast('Progresso zerado.'); renderSettings();
   });
   renderSnapshots();
+  storageInfo().then(i => {
+    const el = document.getElementById('storage-info');
+    if (!el) return;
+    const prot = i.persisted ? 'protegido contra limpeza automática' : 'o navegador pode limpar se faltar espaço; exporte backups';
+    el.innerHTML = `<b>Armazenamento:</b> progresso com ${i.stateKB} KB${i.usedMB != null ? ` · app usa ${i.usedMB} MB de ${i.quotaMB} MB disponíveis` : ''} · ${prot}.`;
+  });
   document.getElementById('update').addEventListener('click', checkUpdate);
 }
 
@@ -798,7 +810,7 @@ async function renderSnapshots() {
   el.querySelectorAll('[data-snap]').forEach(b => b.addEventListener('click', async () => {
     const next = await readSnapshot(b.dataset.snap);
     if (!next) { toast('Cópia não encontrada.'); return; }
-    const n = C.allAnswers(next).length;
+    const n = C.totalAnswers(next);
     if (!confirm(`Voltar o progresso para esta cópia (${n} respostas)? O estado atual também fica guardado como cópia.`)) return;
     await snapshot(app.state, 'antes de restaurar');
     app.state = next; persist({ reason: 'antes de restaurar' }); applyActive(); toast('Cópia restaurada.'); renderSettings();
@@ -835,7 +847,7 @@ async function importBackup(e) {
   if (!f) return;
   try {
     const next = C.parseBackup(await f.text());
-    const n = C.allAnswers(next).length;
+    const n = C.totalAnswers(next);
     if (!confirm(`Substituir o progresso atual por este backup (${n} respostas)?`)) return;
     await snapshot(app.state, 'antes de importar');
     app.state = next; persist({ reason: 'antes de importar' }); applyActive(); maybeUnlock(); toast('Backup importado.'); renderSettings();

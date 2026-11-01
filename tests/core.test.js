@@ -247,7 +247,8 @@ test('estatísticas: acerto recente, sequência de dias e série diária', () =>
     C.recordAnswer(st, s, it, false, now - d * C.DAY);
   }
   const stat = C.topicLevelStats(st, 't01', 1);
-  assert.equal(stat.recent, 6); assert.equal(stat.correct, 3); assert.equal(stat.acc, 0.5);
+  // a mesma questão repetida no mesmo dia conta uma vez só para desempenho (a primeira tentativa)
+  assert.equal(stat.recent, 3); assert.equal(stat.correct, 3); assert.equal(stat.acc, 1);
   assert.equal(C.streak(st, now), 3);
   assert.equal(C.streak(st, now + C.DAY), 3, 'sequência mantida no dia seguinte antes de estudar');
   assert.equal(C.streak(st, now + 2 * C.DAY), 0);
@@ -534,4 +535,71 @@ test('levelEstimate: faixa acima com acerto alto e poucas respostas fica "em con
   assert.equal(e.estimate, 'B1');
   assert.equal(e.confirming, null);
   assert.equal(mk(3).confirming, null, 'com menos de 5 respostas não sinaliza');
+});
+
+/* ---------- Critério de desempenho e crescimento do estado ---------- */
+
+test('scoredAnswers: repetir a mesma questão antes de 20h não conta para desempenho', () => {
+  const st = C.emptyState();
+  const s = { id: 's', ts: 1, mode: 'topic', answers: [] }; st.sessions.push(s);
+  const H = 3600e3, t0 = 1_700_000_000_000;
+  s.answers.push({ id: 'a', ok: false, t: t0 }, { id: 'a', ok: true, t: t0 + 60e3 }, { id: 'a', ok: true, t: t0 + 2 * H },
+                 { id: 'a', ok: true, t: t0 + 21 * H }, { id: 'b', ok: true, t: t0 + H });
+  const sc = C.scoredAnswers(st);
+  assert.deepEqual(sc.map(a => [a.id, a.ok]), [['a', false], ['b', true], ['a', true]]);
+  assert.equal(C.totalAnswers(st), 5, 'o total de esforço continua contando tudo');
+});
+
+test('levelEstimate: refazer as mesmas questões várias vezes no dia não consolida a faixa', () => {
+  const b1 = openItems.filter(i => !i.variant && i.cefr === 'B1').slice(0, 5);
+  const st = C.emptyState(); const s = { id: 's', ts: 1, mode: 'retry', answers: [] }; st.sessions.push(s);
+  let t = 1_700_000_000_000;
+  for (let r = 0; r < 6; r++) for (const i of b1) s.answers.push({ id: i.id, ok: true, t: t += 60e3 });
+  const band = C.levelEstimate(openItems, st).bands.find(b => b.band === 'B1');
+  assert.equal(band.n, 5, '30 respostas repetidas valem como 5');
+  assert.notEqual(band.status, 'consolidado');
+});
+
+test('compactState: resume respostas antigas por dia sem perder total, sequência nem repetição espaçada', () => {
+  const now = new Date(2026, 10, 1, 12).getTime();
+  const st = C.emptyState();
+  const old = now - 200 * C.DAY, recent = now - 2 * C.DAY;
+  st.sessions.push({ id: 'o', ts: old, mode: 'topic', topic: null, level: null, label: '', answers: [{ id: 'x', ok: true, t: old }, { id: 'y', ok: false, t: old + 1000 }] });
+  st.sessions.push({ id: 'r', ts: recent, mode: 'topic', topic: null, level: null, label: '', answers: [{ id: 'x', ok: true, t: recent }] });
+  st.items.x = { box: 3, due: now + C.DAY, seen: 2, correct: 2, wrong: 0, last: recent };
+  const before = C.totalAnswers(st);
+  assert.equal(C.compactState(st, now), 2);
+  assert.equal(st.sessions.length, 1);
+  assert.equal(C.totalAnswers(st), before);
+  assert.deepEqual(Object.values(st.archive.days), [[2, 1]]);
+  assert.ok(st.items.x, 'repetição espaçada intacta');
+  const back = C.parseBackup(C.makeBackup(st));
+  assert.equal(C.totalAnswers(back), before, 'backup preserva o arquivo');
+  assert.equal(C.compactState(st, now), 0, 'idempotente');
+});
+
+test('estado de um ano de uso intenso (100 respostas/dia) cabe com folga no localStorage', () => {
+  const now = new Date(2027, 10, 1).getTime();
+  const st = C.emptyState(); const pool = items.filter(i => !i.variant);
+  let k = 0;
+  for (let d = 365; d >= 0; d--) {
+    const ts = now - d * C.DAY;
+    const s = { id: `s${d}`, ts, mode: 'topic', topic: null, level: null, label: 'Treino', answers: [] };
+    for (let j = 0; j < 100; j++, k++) {
+      const it = pool[k % pool.length];
+      s.answers.push({ id: it.id, ok: j % 5 !== 0, t: ts + j * 30e3, topic: it.topic, level: it.level, skill: it.skill });
+      st.items[it.id] = { box: 3, due: now + C.DAY, seen: 3, correct: 2, wrong: 1, last: ts, first: ts - C.DAY };
+    }
+    st.sessions.push(s);
+  }
+  C.compactState(st, now);
+  const size = JSON.stringify(st).length;
+  assert.ok(size < 2_000_000, `estado com ${size} caracteres`);
+  assert.equal(C.totalAnswers(st), 366 * 100);
+});
+
+test('migração preserva carimbo de gravação e arquivo; dados estranhos no arquivo são descartados', () => {
+  const m = C.migrateState({ savedAt: 123, archive: { before: 5, days: { '2026-01-02': [3, 2], 'lixo': [1, 1], '2026-01-03': 'x' } } });
+  assert.equal(m.savedAt, 123);
+  assert.deepEqual(m.archive.days, { '2026-01-02': [3, 2] });
 });

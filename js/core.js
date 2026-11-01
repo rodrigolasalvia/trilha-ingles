@@ -1,6 +1,6 @@
 // Núcleo lógico puro: sem DOM, sem armazenamento. Testado em tests/core.test.js.
 
-export const APP_VERSION = '1.4.1';
+export const APP_VERSION = '1.4.2';
 export const STATE_VERSION = 1;
 export const DAY = 24 * 60 * 60 * 1000;
 // Intervalos da repetição espaçada (em dias) por caixa 0..5.
@@ -143,6 +143,14 @@ export function migrateState(raw, now = Date.now()) {
     for (const [g, ts] of Object.entries(raw.unlocked)) if (Number.isFinite(Number(ts)) && Number(ts) > 0) s.unlocked[g] = Number(ts);
   }
   if (GOALS.includes(Number(raw.goal))) s.goal = Number(raw.goal);
+  if (Number.isFinite(Number(raw.savedAt)) && Number(raw.savedAt) > 0) s.savedAt = Number(raw.savedAt);
+  if (raw.archive && typeof raw.archive === 'object' && raw.archive.days && typeof raw.archive.days === 'object') {
+    const days = {};
+    for (const [k, v] of Object.entries(raw.archive.days)) {
+      if (/^\d{4}-\d{2}-\d{2}$/.test(k) && Array.isArray(v)) days[k] = [clampInt(v[0], 0, 1e7), clampInt(v[1], 0, 1e7)];
+    }
+    s.archive = { before: num(raw.archive.before), days };
+  }
   if (Number.isFinite(Number(raw.lastExport)) && Number(raw.lastExport) > 0) s.lastExport = Number(raw.lastExport);
   if (Array.isArray(raw.announced)) s.announced = raw.announced.filter(g => typeof g === 'string');
   if (Array.isArray(raw.sessions)) {
@@ -301,8 +309,53 @@ export function allAnswers(state) {
   return out.sort((a, b) => a.t - b.t);
 }
 
+// Respostas que contam para desempenho: a mesma questão só volta a contar depois de SCORE_GAP_H horas.
+// Repetir na hora (refazer erros, treino do padrão, sessões extras) é treino válido, mas é memória de curto prazo:
+// não infla nível, acerto, padrões fracos nem a liberação de lotes. Variantes 'Certo ou errado?' ficam fora no nível.
+export const SCORE_GAP_H = 20;
+export function scoredAnswers(state) {
+  const lastCounted = new Map();
+  const out = [];
+  for (const a of allAnswers(state)) {
+    const prev = lastCounted.get(a.id);
+    if (prev != null && a.t - prev < SCORE_GAP_H * 3600e3) continue;
+    lastCounted.set(a.id, a.t);
+    out.push(a);
+  }
+  return out;
+}
+// Total de respostas registradas, incluindo as arquivadas (resumidas por dia).
+export function totalAnswers(state) {
+  let n = 0;
+  for (const s of state.sessions) n += s.answers.length;
+  if (state.archive) for (const v of Object.values(state.archive.days)) n += v[0];
+  return n;
+}
+// Mantém o detalhe dos últimos KEEP_DAYS dias; antes disso, guarda só o total por dia (respostas e acertos).
+// Nenhuma métrica usa respostas tão antigas (nível usa as últimas 40 por faixa; janelas de 7 a 30 dias),
+// e o estado continua pequeno mesmo com anos de uso. A repetição espaçada (state.items) nunca é resumida.
+export const KEEP_DAYS = 90;
+export function compactState(state, now = Date.now()) {
+  const cut = startOfDay(now) - KEEP_DAYS * DAY;
+  const old = state.sessions.filter(x => x.ts < cut && x.answers.every(a => a.t < cut));
+  if (!old.length) return 0;
+  const arch = state.archive || { before: 0, days: {} };
+  let moved = 0;
+  for (const ses of old) for (const a of ses.answers) {
+    const k = dayKey(a.t);
+    const v = arch.days[k] || [0, 0];
+    v[0]++; if (a.ok) v[1]++;
+    arch.days[k] = v; moved++;
+  }
+  arch.before = Math.max(arch.before || 0, cut);
+  state.archive = arch;
+  const drop = new Set(old);
+  state.sessions = state.sessions.filter(x => !drop.has(x));
+  return moved;
+}
+
 export function topicLevelStats(state, topic, level = null, lastN = 20) {
-  const list = allAnswers(state).filter(a => a.topic === topic && (level == null || a.level === level));
+  const list = scoredAnswers(state).filter(a => a.topic === topic && (level == null || a.level === level));
   const recent = list.slice(-lastN);
   const correct = recent.filter(a => a.ok).length;
   return { total: list.length, recent: recent.length, correct, acc: recent.length ? correct / recent.length : null };
@@ -321,6 +374,7 @@ export function dayKey(ts) {
 
 export function streak(state, now = Date.now()) {
   const days = new Set(allAnswers(state).map(a => dayKey(a.t)));
+  if (state.archive) for (const k of Object.keys(state.archive.days)) days.add(k);
   if (!days.size) return 0;
   let n = 0;
   const d = new Date(now);
@@ -350,7 +404,7 @@ export function dailySeries(state, days = 30, now = Date.now()) {
 
 export function periodAccuracy(state, days, now = Date.now()) {
   const since = now - days * DAY;
-  const list = allAnswers(state).filter(a => a.t >= since);
+  const list = scoredAnswers(state).filter(a => a.t >= since);
   const correct = list.filter(a => a.ok).length;
   return { total: list.length, correct, acc: list.length ? correct / list.length : null };
 }
@@ -365,7 +419,7 @@ export function dueCount(items, state, now = Date.now()) {
 export function skillStats(items, state, lastN = 20) {
   const byId = new Map(items.map(i => [i.id, i]));
   const groups = new Map();
-  for (const a of allAnswers(state)) {
+  for (const a of scoredAnswers(state)) {
     const it = byId.get(a.id);
     if (!it) continue;
     const k = skillKey(it);
@@ -436,7 +490,7 @@ export function buildReinforce(items, state, { size = 10, maxNew = Infinity, now
 export function levelEstimate(items, state, rules = LEVEL_RULES) {
   items = items.filter(isBase);
   const byId = new Map(items.map(i => [i.id, i]));
-  const answers = allAnswers(state);
+  const answers = scoredAnswers(state);
   const bands = CEFR.map(band => {
     const list = answers.filter(a => byId.get(a.id)?.cefr === band).slice(-rules.lastN);
     const correct = list.filter(a => a.ok).length;
@@ -461,7 +515,7 @@ export function levelEstimate(items, state, rules = LEVEL_RULES) {
   const confirming = next && next.status !== 'sem_conteudo' && next.n >= rules.minConfirm && next.acc >= rules.solidAcc
     && CEFR.indexOf(next.band) === idx + 1 ? { band: next.band, need: Math.max(0, rules.minSolid - next.n) } : null;
   for (const b of bands) b.confirming = !!(confirming && b.band === confirming.band);
-  return { bands, estimate, next, confirming, totalAnswers: answers.length };
+  return { bands, estimate, next, confirming, totalAnswers: totalAnswers(state) };
 }
 
 /* ---------- Relatório de erros (para pedir novos exercícios) ---------- */
@@ -471,7 +525,7 @@ export function errorReport(items, state, meta, now = Date.now()) {
   const weak = weakSkills(items, state, { min: 3, limit: 5 });
   const lines = [
     'Trilha de Inglês: relatório de erros',
-    `Gerado em ${new Date(now).toLocaleDateString('pt-BR')} · ${allAnswers(state).length} respostas registradas`,
+    `Gerado em ${new Date(now).toLocaleDateString('pt-BR')} · ${totalAnswers(state)} respostas registradas`,
     '',
     'Padrões com mais erros (últimas 20 respostas de cada um):',
   ];
@@ -516,7 +570,7 @@ export function unlockCheck(items, state, gates, now = Date.now(), r = UNLOCK_RU
   if (last && now - last < r.minGapDays * DAY) return null;
 
   const active = new Set(items.map(i => i.id));
-  const answers = allAnswers(state).filter(a => active.has(a.id) && a.t <= now);
+  const answers = scoredAnswers(state).filter(a => active.has(a.id) && a.t <= now);
   const from = now - r.windowDays * DAY;
   const win = answers.filter(a => a.t > from);
   if (win.length < r.minAnswers) return null;
