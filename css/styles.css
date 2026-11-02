@@ -329,3 +329,17 @@ body.in-session .actions .btn { max-width: 608px; margin: 0 auto; display: flex;
 /* v1.4.1: faixa em confirmação */
 .rung.is-confirming .fill { background: var(--ok); opacity: .55; }
 .rung.is-confirming .rung-top b { color: var(--ok); }
+
+/* v1.5: domínio e teste do tema */
+.meter.dual { position: relative; }
+.meter.dual .seen { position: absolute; left: 0; top: 0; bottom: 0; background: var(--g, var(--accent)); opacity: .25; border-radius: 999px; }
+.meter.dual .gfill { position: relative; }
+.test-badge { display: inline-block; margin-top: 6px; font-size: 12.5px; font-weight: 700; color: var(--muted); }
+.test-badge.is-ready { color: var(--accent); }
+.test-badge.is-pass { color: var(--ok); }
+.test-card { margin-top: 14px; }
+.test-card .hint { margin: 0 0 10px; }
+.test-tag { font-size: 12px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+.test-result { margin: 4px 0 0; font-weight: 800; font-size: 18px; }
+.test-result.is-pass { color: var(--ok); }
+.test-result.is-fail { color: var(--bad); }

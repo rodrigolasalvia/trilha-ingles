@@ -1,6 +1,6 @@
 // Núcleo lógico puro: sem DOM, sem armazenamento. Testado em tests/core.test.js.
 
-export const APP_VERSION = '1.4.2';
+export const APP_VERSION = '1.5.0';
 export const STATE_VERSION = 1;
 export const DAY = 24 * 60 * 60 * 1000;
 // Intervalos da repetição espaçada (em dias) por caixa 0..5.
@@ -118,7 +118,7 @@ export function validateBank(items) {
 /* ---------- Estado ---------- */
 
 export function emptyState(now = Date.now()) {
-  return { version: STATE_VERSION, createdAt: now, items: {}, sessions: [], unlocked: {}, announced: [], lastExport: 0, goal: DEFAULT_GOAL };
+  return { version: STATE_VERSION, createdAt: now, items: {}, sessions: [], unlocked: {}, announced: [], lastExport: 0, goal: DEFAULT_GOAL, tests: {} };
 }
 
 // Aceita qualquer coisa e devolve um estado válido. Nunca lança erro.
@@ -143,6 +143,14 @@ export function migrateState(raw, now = Date.now()) {
     for (const [g, ts] of Object.entries(raw.unlocked)) if (Number.isFinite(Number(ts)) && Number(ts) > 0) s.unlocked[g] = Number(ts);
   }
   if (GOALS.includes(Number(raw.goal))) s.goal = Number(raw.goal);
+  if (raw.tests && typeof raw.tests === 'object' && !Array.isArray(raw.tests)) {
+    for (const [t, list] of Object.entries(raw.tests)) {
+      if (!Array.isArray(list)) continue;
+      const ok = list.filter(x => x && Number.isFinite(Number(x.ts)) && Number(x.n) > 0)
+        .map(x => ({ ts: Number(x.ts), n: clampInt(x.n, 1, 100), correct: clampInt(x.correct, 0, clampInt(x.n, 1, 100)) }));
+      if (ok.length) s.tests[t] = ok.slice(-TEST_RULES.keep);
+    }
+  }
   if (Number.isFinite(Number(raw.savedAt)) && Number(raw.savedAt) > 0) s.savedAt = Number(raw.savedAt);
   if (raw.archive && typeof raw.archive === 'object' && raw.archive.days && typeof raw.archive.days === 'object') {
     const days = {};
@@ -618,4 +626,95 @@ export function dailyPlan(state, now = Date.now()) {
     review, reviewCap, reviewLeft: Math.max(0, reviewCap - review),
     fresh, newCap, newLeft: Math.max(0, newCap - fresh),
   };
+}
+
+// ---------- Domínio e teste do tema ----------
+// Domínio: exercício acertado em dias diferentes, com intervalo crescente (caixa ≥ MASTER_BOX = já voltou de 8 dias).
+// Vistos mede contato; acerto mede o recente; domínio mede o que ficou retido — é ele que caminha até 100%.
+export const MASTER_BOX = 3;
+export function topicMastery(items, state, topic) {
+  const pool = items.filter(i => isBase(i) && i.topic === topic);
+  let seen = 0, mastered = 0;
+  for (const i of pool) {
+    const r = state.items[i.id];
+    if (r && r.seen > 0) { seen++; if (r.box >= MASTER_BOX) mastered++; }
+  }
+  return { total: pool.length, seen, mastered, pct: pool.length ? mastered / pool.length : 0 };
+}
+
+// Teste do tema: avaliação somativa no estilo dos testes de unidade dos cursos.
+// Liberado ao ver todos os exercícios do tema; 20 questões sem dicas nem correção durante o teste;
+// aprovado com 80%, domínio com 90%; nova tentativa só depois de 24 h (tempo para revisar, não para decorar).
+export const TEST_RULES = { size: 20, pass: 0.8, distinction: 0.9, retryHours: 24, freshHours: 72, keep: 10, revalidateDays: 60 };
+
+export function testStatus(state, topic) {
+  const list = (state.tests && state.tests[topic]) || [];
+  const last = list[list.length - 1] || null;
+  const best = list.reduce((b, x) => (!b || x.correct / x.n > b.correct / b.n ? x : b), null);
+  const passedAt = list.filter(x => x.correct / x.n >= TEST_RULES.pass).map(x => x.ts);
+  return { attempts: list.length, last, best, passed: passedAt.length > 0, lastPassed: passedAt.length ? Math.max(...passedAt) : null };
+}
+
+export function testEligible(items, state, topic, now = Date.now()) {
+  const cov = coverage(items, state, topic);
+  if (!cov.total) return { ok: false, reason: 'sem_itens' };
+  if (cov.seen < cov.total) return { ok: false, reason: 'cobertura', seen: cov.seen, total: cov.total };
+  const st = testStatus(state, topic);
+  if (st.last && !(st.last.correct / st.last.n >= TEST_RULES.pass)) {
+    const nextAt = st.last.ts + TEST_RULES.retryHours * 3600e3;
+    if (now < nextAt) return { ok: false, reason: 'espera', nextAt };
+  }
+  return { ok: true };
+}
+
+// Monta 20 questões: todos os padrões do tema representados, níveis misturados (≈25/40/35%),
+// preferência por formatos de produção (lacuna, correção, ordenar) e por itens não vistos nas últimas 72 h.
+export function buildTopicTest(items, state, topic, { size = TEST_RULES.size, now = Date.now(), rng = Math.random } = {}) {
+  const pool = items.filter(i => isBase(i) && i.topic === topic);
+  if (!pool.length) return [];
+  const freshCut = now - TEST_RULES.freshHours * 3600e3;
+  const weight = i => {
+    const r = state.items[i.id];
+    let w = rng();
+    if (r && r.last > freshCut) w -= 2;            // visto há pouco: evita memória de curto prazo
+    if (i.type !== 'mcq') w += 0.6;                // produção pesa mais que reconhecimento
+    return w;
+  };
+  const target = { 1: Math.round(size * 0.25), 2: Math.round(size * 0.4) };
+  target[3] = size - target[1] - target[2];
+  const bySkill = new Map();
+  for (const i of pool) { if (!bySkill.has(i.skill)) bySkill.set(i.skill, []); bySkill.get(i.skill).push(i); }
+  for (const list of bySkill.values()) {
+    const w = new Map(list.map(i => [i, weight(i)]));
+    list.sort((a, b) => w.get(b) - w.get(a));
+  }
+  const picked = [];
+  const count = { 1: 0, 2: 0, 3: 0 };
+  const take = (it, strict) => {
+    if (picked.includes(it) || picked.length >= size) return false;
+    if (strict && count[it.level] >= target[it.level]) return false;
+    picked.push(it); count[it.level]++; return true;
+  };
+  // 1ª volta: um item de cada padrão; depois, rodadas respeitando a cota de níveis; por fim, completa.
+  for (const strict of [true, true, true, false]) {
+    for (const list of shuffle([...bySkill.values()], rng)) {
+      for (const it of list) if (take(it, strict)) break;
+      if (picked.length >= size) break;
+    }
+  }
+  while (picked.length < size) {
+    const rest = pool.filter(i => !picked.includes(i));
+    if (!rest.length) break;
+    take(rest[0], false);
+  }
+  return interleaveLevels(picked, rng);
+}
+
+export function recordTest(state, topic, correct, n, now = Date.now()) {
+  if (!state.tests) state.tests = {};
+  const list = state.tests[topic] || [];
+  list.push({ ts: now, n, correct });
+  state.tests[topic] = list.slice(-TEST_RULES.keep);
+  const r = correct / n;
+  return { ratio: r, passed: r >= TEST_RULES.pass, distinction: r >= TEST_RULES.distinction };
 }

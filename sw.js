@@ -1,6 +1,6 @@
 // Service worker: guarda o app inteiro para uso offline.
 // Ao publicar uma nova versão, aumente CACHE_VERSION (deve ser igual a APP_VERSION em js/core.js).
-const CACHE_VERSION = '1.4.2';
+const CACHE_VERSION = '1.5.0';
 const CACHE = `trilha-ingles-${CACHE_VERSION}`;
 const ASSETS = [
   './',

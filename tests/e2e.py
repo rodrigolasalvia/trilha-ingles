@@ -30,6 +30,18 @@ def find_item(page):
     assert cands, 'item não encontrado'
     return cands[0]
 
+def fill_answer(page, item, correct):
+    if item['type'] in ('mcq', 'fix'):
+        target = item['answer'] if correct else next(o for o in item['options'] if o != item['answer'])
+        page.locator('.option', has_text=re.compile('^' + re.escape(target) + '$')).first.click()
+    elif item['type'] == 'gap':
+        page.fill('#gap-input', item['answer'][0] if correct else 'xxx')
+    else:
+        words = re.sub(r'[.!?]$', '', item['answer']).split()
+        if not correct: words = words[1:] + words[:1]
+        for w in words:
+            page.locator('#chips .chip', has_text=re.compile('^' + re.escape(w) + '$')).first.click()
+
 def answer(page, item, correct):
     if item['type'] in ('mcq', 'fix'):
         target = item['answer'] if correct else next(o for o in item['options'] if o != item['answer'])
@@ -276,6 +288,32 @@ def main():
             page.evaluate("localStorage.setItem('trilha-ingles:state', '{corrompido')")
             page.reload(); page.wait_for_selector('.ladder')
             assert int(page.locator('.stat-n').first.inner_text()) > 0, 'estado corrompido perdeu o histórico'
+
+            # Teste do tema: liberado com 100% vistos, sem dicas nem correção durante a prova, nota no fim
+            page.evaluate("""ids => { const k = 'trilha-ingles:state'; const s = JSON.parse(localStorage.getItem(k));
+                const old = Date.now() - 5 * 86400000;
+                for (const id of ids) s.items[id] = { box: 2, due: Date.now() + 9e8, seen: 1, correct: 1, wrong: 0, last: old };
+                localStorage.setItem(k, JSON.stringify(s)); }""", [i['id'] for i in items if i['topic'] == 't05' and not i.get('variant')])
+            page.goto(URL); page.reload(); page.wait_for_selector('.topic')
+            assert 'Teste do tema disponível' in page.locator('a[href="#/topic/t05"]').inner_text()
+            page.goto(URL + '#/topic/t05'); page.wait_for_selector('#start-test')
+            page.click('#start-test'); page.wait_for_selector('.q')
+            assert page.locator('#hint-btn').count() == 0 and page.locator('.q-use').count() == 0, 'teste mostrou dicas'
+            n = int(page.locator('.count').inner_text().split('/')[1]); assert n == 20, n
+            for k in range(n):
+                it = find_item(page)
+                fill_answer(page, it, k >= 3)          # erra 3 de 20 → 85%: aprovado
+                page.click('#check')
+                if k < n - 1:
+                    page.wait_for_selector(f'.count:has-text("{k + 2}/{n}")')
+                    assert page.locator('.fb').count() == 0, 'teste mostrou correção durante a prova'
+            page.wait_for_selector('.score')
+            res = page.locator('.test-result').inner_text()
+            assert 'Aprovado' in res and '85%' in res, res
+            assert page.locator('.review-group').count() >= 1, 'gabarito dos erros ausente'
+            page.screenshot(path=f'{SHOTS}/09-teste.png', full_page=True)
+            page.goto(URL); page.wait_for_selector('.topic')
+            assert 'Aprovado no teste' in page.locator('a[href="#/topic/t05"]').inner_text()
 
             # Offline
             page.goto(URL); page.wait_for_selector('.topic'); page.wait_for_timeout(1500)

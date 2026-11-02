@@ -603,3 +603,50 @@ test('migração preserva carimbo de gravação e arquivo; dados estranhos no ar
   assert.equal(m.savedAt, 123);
   assert.deepEqual(m.archive.days, { '2026-01-02': [3, 2] });
 });
+
+/* ---------- Domínio e teste do tema ---------- */
+
+test('topicMastery: domínio só conta exercício retido (caixa ≥ 3), não apenas visto', () => {
+  const pool = items.filter(i => i.topic === 't05' && !i.variant);
+  const st = C.emptyState();
+  pool.forEach((i, k) => { st.items[i.id] = { box: k < 10 ? 3 : 1, due: 0, seen: 1, correct: 1, wrong: 0, last: 0 }; });
+  const m = C.topicMastery(items, st, 't05');
+  assert.equal(m.seen, pool.length); assert.equal(m.mastered, 10);
+  assert.ok(Math.abs(m.pct - 10 / pool.length) < 1e-9);
+});
+
+test('teste do tema: libera só com 100% vistos; 20 questões cobrindo todos os padrões e níveis', () => {
+  const topic = 't08';
+  const pool = items.filter(i => i.topic === topic && !i.variant);
+  const st = C.emptyState();
+  assert.equal(C.testEligible(items, st, topic).reason, 'cobertura');
+  pool.forEach(i => { st.items[i.id] = { box: 2, due: 0, seen: 1, correct: 1, wrong: 0, last: Date.now() - 5 * C.DAY }; });
+  assert.equal(C.testEligible(items, st, topic).ok, true);
+  const q = C.buildTopicTest(items, st, topic, { rng: seq() });
+  assert.equal(q.length, 20);
+  assert.equal(new Set(q.map(i => i.id)).size, 20);
+  assert.ok(q.every(i => !i.variant && i.topic === topic));
+  const skills = new Set(pool.map(i => i.skill));
+  assert.deepEqual(new Set(q.map(i => i.skill)), skills, 'todo padrão aparece no teste');
+  for (const lv of C.LEVELS) assert.ok(q.filter(i => i.level === lv).length >= 4, `nível ${lv}`);
+  assert.ok(q.filter(i => i.type !== 'mcq').length >= 10, 'maioria de produção');
+});
+
+test('teste do tema: reprovado espera 24h; aprovado registra; backup preserva', () => {
+  const topic = 't08';
+  const st = C.emptyState();
+  for (const i of items.filter(i => i.topic === topic && !i.variant)) st.items[i.id] = { box: 2, due: 0, seen: 1, correct: 1, wrong: 0, last: 0 };
+  const t0 = Date.now();
+  let r = C.recordTest(st, topic, 14, 20, t0);
+  assert.equal(r.passed, false);
+  const el = C.testEligible(items, st, topic, t0 + 3600e3);
+  assert.equal(el.reason, 'espera');
+  assert.equal(C.testEligible(items, st, topic, t0 + 25 * 3600e3).ok, true);
+  r = C.recordTest(st, topic, 18, 20, t0 + 25 * 3600e3);
+  assert.equal(r.passed, true); assert.equal(r.distinction, true);
+  const ts = C.testStatus(st, topic);
+  assert.equal(ts.passed, true); assert.equal(ts.attempts, 2); assert.equal(ts.best.correct, 18);
+  const back = C.parseBackup(C.makeBackup(st));
+  assert.deepEqual(back.tests[topic].map(x => x.correct), [14, 18]);
+  assert.deepEqual(C.migrateState({ tests: { t08: [{ ts: 1, n: 20, correct: 99 }, 'x'] } }).tests.t08, [{ ts: 1, n: 20, correct: 20 }]);
+});

@@ -217,17 +217,32 @@ function backupNudge(st, now) {
   return `<a class="nudge" href="#/settings">${days == null ? 'Você ainda não exportou um backup.' : `Último backup exportado há ${days} dias.`} <b>Exportar</b></a>`;
 }
 
+const fmtDate = ts => new Date(ts).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' });
+function testBadge(id) {
+  const st = C.testStatus(app.state, id);
+  if (st.passed) {
+    const b = st.best; const r = Math.round((b.correct / b.n) * 100);
+    return `<span class="test-badge is-pass">${r >= C.TEST_RULES.distinction * 100 ? 'Domínio' : 'Aprovado'} no teste · ${r}%</span>`;
+  }
+  const el = C.testEligible(app.items, app.state, id);
+  if (el.ok) return '<span class="test-badge is-ready">Teste do tema disponível</span>';
+  if (el.reason === 'espera') return `<span class="test-badge">Nova tentativa a partir de ${fmtDate(el.nextAt)}</span>`;
+  return '';
+}
+
 function topicCard(id) {
   const t = topicById(id);
   const s = C.topicLevelStats(app.state, id, null, 30);
   const cov = C.coverage(app.items, app.state, id);
   const pc = cov.total ? Math.round((cov.seen / cov.total) * 100) : 0;
+  const ms = C.topicMastery(app.items, app.state, id);
   const cls = s.acc == null ? '' : s.acc >= 0.8 ? 'good' : s.acc >= 0.6 ? 'mid' : 'low';
   return `<a class="topic" href="#/topic/${t.id}">
       <span class="topic-top"><span class="topic-title">${esc(t.title)}</span><span class="cefr">${cefrRange(t)}</span></span>
       <span class="topic-short">${esc(t.short)}</span>
-      <span class="topic-meta"><span class="acc ${cls}">Acerto ${pct(s.acc)}</span><span>${cov.seen}/${cov.total} vistos</span></span>
-      <span class="meter" aria-hidden="true"><span class="gfill" style="width:${pc}%"></span></span>
+      <span class="topic-meta"><span class="acc ${cls}">Acerto ${pct(s.acc)}</span><span>${cov.seen}/${cov.total} vistos · domínio ${Math.round(ms.pct * 100)}%</span></span>
+      <span class="meter dual" aria-hidden="true"><span class="seen" style="width:${pc}%"></span><span class="gfill" style="width:${Math.round(ms.pct * 100)}%"></span></span>
+      ${testBadge(id)}
     </a>`;
 }
 
@@ -237,6 +252,27 @@ function greeting() {
 }
 
 /* ---------- Tema ---------- */
+
+function testCard(id) {
+  const st = C.testStatus(app.state, id);
+  const el = C.testEligible(app.items, app.state, id);
+  const ms = C.topicMastery(app.items, app.state, id);
+  const R = C.TEST_RULES;
+  let body;
+  if (el.reason === 'cobertura') {
+    body = `<p class="hint">Libera quando você tiver visto todos os exercícios do tema (${el.seen}/${el.total}).</p>`;
+  } else if (el.reason === 'espera') {
+    body = `<p class="hint">Última tentativa: ${Math.round((st.last.correct / st.last.n) * 100)}%. Revise os pontos fracos; nova tentativa a partir de ${fmtDate(el.nextAt)}.</p>`;
+  } else if (el.ok) {
+    const prev = st.passed ? `<p class="hint">Melhor resultado: ${Math.round((st.best.correct / st.best.n) * 100)}% em ${fmtDate(st.best.ts)}.${Date.now() - st.lastPassed > R.revalidateDays * C.DAY ? ' Vale revalidar: já faz mais de dois meses.' : ''}</p>` : '';
+    body = `${prev}<button class="btn ${st.passed ? 'btn-ghost' : ''} wide" id="start-test">${st.passed ? 'Refazer o teste' : 'Fazer o teste'} · ${R.size} questões</button>`;
+  } else body = '';
+  return `<section class="card test-card">
+      <h2 class="card-title">Teste do tema</h2>
+      <p class="hint">${R.size} questões de todos os pontos, sem dicas e sem correção durante a prova. Aprovação com ${Math.round(R.pass * 100)}%, domínio com ${Math.round(R.distinction * 100)}%. Domínio do tema hoje: ${Math.round(ms.pct * 100)}% (${ms.mastered}/${ms.total} exercícios retidos).</p>
+      ${body}
+    </section>`;
+}
 
 function renderTopic(id) {
   const t = topicById(id);
@@ -267,14 +303,20 @@ function renderTopic(id) {
     <div class="stats">
       <div class="stat"><span class="stat-n">${pct(s.acc)}</span><span class="stat-l">acerto recente</span></div>
       <div class="stat"><span class="stat-n">${cov.seen}<small>/${cov.total}</small></span><span class="stat-l">exercícios vistos</span></div>
-      <div class="stat"><span class="stat-n">${s.total}</span><span class="stat-l">respostas</span></div>
+      <div class="stat"><span class="stat-n">${Math.round(C.topicMastery(app.items, app.state, id).pct * 100)}%</span><span class="stat-l">domínio</span></div>
     </div>
     <button class="btn wide btn-big" id="practice">Praticar · ${SESSION_SIZE} exercícios mistos</button>
     <p class="hint center">Fácil, médio e difícil misturados, com prioridade para o que você errou.</p>
+    ${testCard(id)}
     <h2 class="section-title">O que este tema cobre</h2>
     <div class="skills">${skills}</div>`;
 
   document.getElementById('practice').addEventListener('click', () => startSession({ topic: id, label: t.title }));
+  const tb = document.getElementById('start-test');
+  if (tb) tb.addEventListener('click', () => {
+    const q = C.buildTopicTest(app.items, app.state, id);
+    startSession({ mode: 'test', topic: id, queue: q, label: `Teste: ${t.title}`, backHash: `#/topic/${id}` });
+  });
   $main().querySelectorAll('[data-skill]').forEach(b => b.addEventListener('click', () => {
     const m = skillMeta(id, b.dataset.skill);
     startSession({ mode: 'skill', topic: id, skills: [`${id}:${b.dataset.skill}`], label: `Treino: ${m.skillTitle}`, backHash: `#/topic/${id}` });
@@ -313,6 +355,7 @@ function renderQuestion() {
   const t = topicById(it.topic);
   const m = skillMeta(it.topic, it.skill);
   const progress = Math.round((s.index / s.queue.length) * 100);
+  const isTest = s.record.mode === 'test';
 
   $main().innerHTML = `
     <div class="session-top">
@@ -320,18 +363,18 @@ function renderQuestion() {
       <div class="bar" role="progressbar" aria-valuenow="${s.index}" aria-valuemax="${s.queue.length}"><span style="width:${progress}%"></span></div>
       <span class="count">${s.index + 1}/${s.queue.length}</span>
     </div>
-    <div class="q-meta" style="--g:${esc(t ? t.color : '')}"><span class="q-topic"><span class="gdot" aria-hidden="true"></span>${esc(t ? t.title : '')} · ${esc(it.cefr)}</span><button class="link-btn" id="hint-btn" aria-expanded="false">Dica da regra</button></div>
+    <div class="q-meta" style="--g:${esc(t ? t.color : '')}"><span class="q-topic"><span class="gdot" aria-hidden="true"></span>${isTest ? 'Teste · ' : ''}${esc(t ? t.title : '')} · ${esc(it.cefr)}</span>${isTest ? '<span class="test-tag">sem dicas</span>' : '<button class="link-btn" id="hint-btn" aria-expanded="false">Dica da regra</button>'}</div>
     <div class="hint-box" id="hint-box" hidden><b>${esc(m.skillTitle)}</b><br>${esc(m.tip)}</div>
     <section class="q card">
       <p class="q-type">${it.variant === 'judge' ? 'Certo ou errado?' : TYPE_LABEL[it.type]}</p>
       <div id="q-body">${questionBody(it)}</div>
     </section>
-    ${m.use ? `<p class="q-use"><span>No dia a dia</span>${esc(m.use)}</p>` : ''}
+    ${m.use && !isTest ? `<p class="q-use"><span>No dia a dia</span>${esc(m.use)}</p>` : ''}
     <div id="feedback" aria-live="polite"></div>
     <div class="actions"><button class="btn wide" id="check" disabled>Verificar</button></div>`;
 
   document.getElementById('quit').addEventListener('click', quitSession);
-  document.getElementById('hint-btn').addEventListener('click', e => {
+  if (!isTest) document.getElementById('hint-btn').addEventListener('click', e => {
     const box = document.getElementById('hint-box');
     box.hidden = !box.hidden;
     e.currentTarget.setAttribute('aria-expanded', String(!box.hidden));
@@ -424,6 +467,9 @@ function submitAnswer() {
   C.recordAnswer(app.state, s.record, it, ok);
   persist();
 
+  // Teste: sem correção durante a prova (avaliação somativa); o gabarito comentado vem no fim.
+  if (s.record.mode === 'test') { nextQuestion(); return; }
+
   if (it.type === 'mcq' || it.type === 'fix') {
     $main().querySelectorAll('.option').forEach(b => {
       b.disabled = true;
@@ -476,7 +522,22 @@ function renderSummary() {
   const correct = s.results.filter(r => r.ok).length;
   const wrong = s.results.filter(r => !r.ok).map(r => app.byId.get(r.id));
   const ratio = correct / s.results.length;
-  const msg = ratio === 1 ? 'Perfeito!' : ratio >= 0.8 ? 'Muito bom.' : ratio >= 0.6 ? 'Bom caminho.' : 'Vale rever os pontos abaixo e treinar de novo.';
+  let msg = ratio === 1 ? 'Perfeito!' : ratio >= 0.8 ? 'Muito bom.' : ratio >= 0.6 ? 'Bom caminho.' : 'Vale rever os pontos abaixo e treinar de novo.';
+  const isTest = s.record.mode === 'test';
+  let testHead = '';
+  if (isTest && !s.testSaved) {
+    s.testResult = C.recordTest(app.state, s.record.topic, correct, s.results.length);
+    s.testSaved = true;
+    persist();
+  }
+  if (isTest) {
+    const r = s.testResult;
+    const pctTxt = `${Math.round(r.ratio * 100)}%`;
+    testHead = r.distinction ? `Aprovado com domínio · ${pctTxt}` : r.passed ? `Aprovado · ${pctTxt}` : `Ainda não · ${pctTxt}`;
+    msg = r.passed
+      ? (r.distinction ? 'Tema dominado. Ele continua na revisão espaçada para não esquecer.' : `Aprovado. Para domínio, ${Math.round(C.TEST_RULES.distinction * 100)}% ou mais; revise os pontos abaixo.`)
+      : `Aprovação a partir de ${Math.round(C.TEST_RULES.pass * 100)}%. Treine os pontos abaixo; nova tentativa liberada em ${C.TEST_RULES.retryHours} horas, com outras questões.`;
+  }
 
   // Agrupa os erros por padrão, com o reforço da regra uma única vez.
   const groups = new Map();
@@ -503,7 +564,8 @@ function renderSummary() {
 
   $main().innerHTML = `
     <section class="summary card">
-      <p class="eyebrow">Sessão concluída</p>
+      <p class="eyebrow">${isTest ? 'Teste do tema concluído' : 'Sessão concluída'}</p>
+      ${isTest ? `<p class="test-result ${s.testResult.passed ? 'is-pass' : 'is-fail'}">${testHead}</p>` : ''}
       <p class="score">${correct}<span>/${s.results.length}</span></p>
       <p class="lead">${msg}</p>
     </section>
@@ -512,12 +574,13 @@ function renderSummary() {
     <div class="actions stack">
       ${wrong.length ? '<button class="btn wide" id="drill">Treinar estes pontos</button>' : ''}
       ${wrong.length ? '<button class="btn btn-ghost wide" id="retry">Refazer só os que errei</button>' : ''}
-      <button class="btn ${wrong.length ? 'btn-ghost' : ''} wide" id="again">Nova sessão</button>
+      ${isTest ? '' : `<button class="btn ${wrong.length ? 'btn-ghost' : ''} wide" id="again">Nova sessão</button>`}
       <a class="btn btn-ghost wide" href="${s.backHash}">Voltar</a>
     </div>`;
 
   const p = s.params;
-  document.getElementById('again').addEventListener('click', () => {
+  const again = document.getElementById('again');
+  if (again) again.addEventListener('click', () => {
     if (p.mode === 'reinforce') return startReinforce();
     startSession({ ...p });
   });
